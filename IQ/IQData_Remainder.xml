@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IQ>
+<K>
+    About - Sume kept separate for PIES.
+</K>
+<D> Lessons learnt, IQGrats, Insights, Findings, etc.
+    Mastering any layer in DevOps Career (talking at Business, UI, Application, DB)
+	About - 
+		Applies to Properties, attributes, data model terms. 
+		At different tiers of functioning. 
+		Identify all the features - and study the following.
+	Life - Create, Delete
+	Read - Retrieve (itself and its associations)
+	Write - Update, enrich, Action (on it)
+	Persist - Save the changes
+	Check - check for state, check for transition
+	viz or eg -
+		A2X service to update PCT (create new item and update another) but tags for actions also supported - presence of an element can mean an action.
+			//that means sequence of jobs - first update, next trigger an action.
+			exits that do it for us - 
+				Modify Call - modify call for update 
+					extract the data - automated thru compare to schema definition. thru MBG mapping get all the BO Data.
+					identify the delta - ??
+					write it - BO modify - write the observed delta thru modify call.
+				Action Call - 
+					mapping tag to action class - MBF Exit.
+					call to the action - execute_action on BO.
+    <Misc>
+        CS
+            DSP - to create multimedia utility in CS World
+                    We also know how multimedia works - it comes under DSP Course - Digital Signal Processing - Remember professor in NIT J - presented concepts of noise, attenuation, sampling, quantization, encoding, etc. Video = Audio + changing Picture (stream of Pixels)
+                    we just need to encode all the sub-components together and play them in sync.
+            DIP - ML by ANG, 1 "course" in NITJ, Data Visualization in IIITB (not exhaustive), D3, Tableau practicals, RStudio diagrams, etc.
+        CS - PM DM - diff in abstract domain knowledge (data models, process models, terminologies around computer applications - what kinda application)
+                Criteria
+                        Ecosystem - end result served (SD Data model, DS Data Model, DO Data Model)
+                                of course it varies from app to app but there is something common across all apps of 1 type say SD.
+                        API - data model of libraries you are gonna work with 
+                        Framework - frameworks and exits knowledge
+                Common - PL, DB, Version, Build, Parsers, Libs, etc.
+                         interplay of all specializations is also possible in realm of CS.
+                DO - DevOps - Managing organized content
+                        Raw - CG, Visualization, etc.
+                        consuming DS services - to make smart product - which uses DS capabilities
+                        consuming SD services - Dockerize and more.
+                DS - UC DM PM - Analyses (decisions maker driven by end results) - forked from DevOps to separate AI based runtime decision criteria logics from predetermined decision criteria.
+                        consuming DO services - pull data from there and make APIs for insights for the customers.
+                        consuming SD - Hadoop frameworks and VM for testing your ideas.
+                SD - UC DM PM - Making systems for networked work, providing platform to world for dev.
+                        consuming DS services - smarter platform.
+                        consuming DO services - eg implementing DB into OS, etc or newer ideas for platforms.
+                RD - UC DM PM - Problem Solving
+                        I/O with other specializations for usecases, NIC (need, interest, concerns, expectatations), possibilities.
+        CS (Computer Science) - Using bare machine for some purposes 
+                About
+                        IQ and other fields (like civil engineering, doctory, etc) under it and above CS.
+                        Our college CS Courses are of RnD nature (implicitly and not explicitly) always exploration of what's possible and not so much industry centric
+                        Intro - Social Services -> Technical and business (domain) roles (Abstract Roles (architect, devp, etc are always there) and concrete Roles (Front end developer, Application Developer, DB designer, ML engr, etc)) -> Activities
+                OS (Systems Engineering - Embedded in Electronics) - specialization to handle platforms for governmental, reusable functionalities - shell interface and GUI interface and system call interface.
+                        aaS movement - strong merge of networking and operating systems.
+                        Roles - Network Admin, etc.
+                        Alternative - Assembly language code converted via assembler to perform mundane tasks and not focus on logic at all.
+                        Data Model - Processor, Address line, data line, control unit, registers, disk, traps, etc.
+                        Process Model (DFD) - Security, Memory Management, CPU Scheduling, Thread Management, File Management, etc.
+                Utility Softwares / Services (Software Industry) - Compiler, Browser, Games, Text processing software, camera, Multimedia (movie maker and player) software, Graphics softwares, frameworks for windows applications, web app frameworks (web servers, web devp frameworks and application frameworks), DBMS, Libraries like for ML probability and stats (Console Apps), etc.
+                        Utility Software products can directly be used by end users but utility services like hadoop, libraries, etc are meant for applications development on top.
+                        Think about it - it is already types of softwares. Think engagement of 5 jnanendriyas and 5 karmendriyas wrt to screens but extended later on - not all are engaged presently.
+                        Softwares use compilers for translation but don't approach machine with compilers but just take service so 2 separate layers here not 1 unified layer.
+                        exploration of what's possible to do with computers and also creating reusable services.
+                        Roles - DB admin, etc.
+                        Data Model - System Calls, Process, Memory, CPU, GPU, Disk, File, Thread, Performance, etc.
+                        Process Model DFD - read file, data at this address location, draw line from this pixel to that pixel, dump data there, raise exception, start a thread, communicate with the process, etc.
+                Application softwares / Services (Application Development) - on top of utilities to explore what's possible to do for real world with computer utility softwares.
+                        Non-Computer - Many of the utility softwares are enough to be used directly by the market in their craft which is non-computer in nature - like movie maker, camera, paint, etc.
+                        Apps or DevOps (IT) - Standalone Apps, Web Apps, Web Services Apps, etc - Managing information (Information Technology)
+                                Eg - facebook web site, google web search engine, PS4 Game1, Calculator, etc.
+                                Roles - Front end, DB Designer, Operations, Quality, Application Dev, etc.
+                                Data Model -
+                                        Dev - UI, Application Logic, Database, Libraries, etc.
+                                        Ops - Design, Testing, Quality, etc.
+                                Process Model DFD - create and Launch UI, Restart the server, Delete the database table, consume services, expose service, use the exit, etc.
+                        Data Science (DS) - using ML API to find decision criteria -> expose it as a service to plug in new data to be consumed by product or prove decision for business.
+                                Data Model - Data Quality, Algorithm used, Neural network layers, weights, etc.
+                                Process Model DFD - Cleaning, Model Training, Prediction Accuracy, Deployment.
+        CS - Article on resolving npm dependencies
+                NPM
+                        https://stackoverflow.com/questions/42147243/how-does-npm-handle-version-conflicts
+                        http://npm.github.io/how-npm-works-docs/npm3/how-npm3-works.html 
+                        npm install -g npm3
+                Maven
+                        Maven works on the principle of nearest wins strategy while resolving the dependency conflicts, that means whichever version it finds nearer in the tree, it will take that version and ignore the other versions.
+                        https://stackoverflow.com/questions/7175398/maven-dependency-resolution-conflicted
+                        The maven way of resolving situations like this is to include a < dependencyManagement > section in your project's root pom, where you specify which version of which library will be used.
+                                Now no matter which version of library foo:bar is requested by a dependency, version 1.2.3 will always be used for this project and all sub-projects.
+                tree -d node_modules/ - to view the dependency graph in node application - folder structure at a glance - it is shell command.
+        CS - web services
+                web service - service on web for code consumption not human consumption.
+                        eg - getProducts to be used by a friends - make jar file but DB is problem.
+                        another problem is version mismatch with the friend - redeploy.
+                        think n friends?
+                        Ideal case - when we can make direct call to your deployed code.
+                        Solution - make 2 server machines talk to each other
+                                inter-operability - across technologies - java app talking to CPP or DOTNET.
+                                use strength of different technologies and communicate.
+                Jargons
+                        Consumer sees only interface - contract for consuming an implementation.
+                        CPP getting interface of Java for Java implementation won't work - so tech independent it should be.
+                        so it should be xml - this is WSDL - doc or contract for your web service - tools available for us.
+                        WSDL contains - methods, args, return types - which even interface has as well.
+                        How to get WSDL - directories (UDDI) - yellow page of web service.
+                        even data types are different in technologies - so format that all can understand - so xml again. java serialized object won't be understood at all by CPP.
+                        Simple Object Access Protocol - simple way to access object of another technology.
+                        Java object to SOAP message - done by a class called SEI - service endpoint interface. This is specific to your technology - java class SEI knows how to convert.
+                        Terms - WSDL, UDDI, SOAP, SEI.
+                Writing a client : stub generation
+                        wsdl file - observe service, port.
+                ============
+                Steps
+                        stub downloads
+                        download glassfish server - start or stop thru command line.
+                                admin port, default domain port, create more.
+                        Help / install more software / Oracle JAVA EE.
+                        Eclipse needs glassfish adapter to start glassfish server and view server admin page from eclipse.
+        CS - How to create HTML from JS
+                var opened = window.open("");
+                opened.document.write("<html><head><title>MyTitle</title></head><body>test</body></html>");
+        CS - salami attack of stealing the fractions of pennies, one slice at a time, from everyone's interest-bearing accounts; 
+                this is a beautiful example of something that just would not have been possible without computers. 
+                A salami attack is a small attack that can be repeated many times very efficiently.
+                Eg - getting all the rounding off to your own account.
+        CS - export variables in envt vars - automatic once there.
+        CS - https://codurance.com/2016/12/21/how-to-use-npm-link/
+        CS - build management - npm
+                npm link is like opening the project to be used as a dependency - it creates a symlink in a specified folder.
+                symlink is literally same file tree at another location - not copied but same.
+                npm link project - attached that symlink as a dependency. When npm install on this project - the symlink is copied into npm_modules as dependency files.
+                you can always unlink and continue to use a specific version of dependency from the local system.
+        CS - control panel is a process called control.exe
+        CS - GIT - moving files across branches, commits, repos
+                Run this from the branch where you want the file to end up:
+                git checkout otherbranch myfile.txt
+                git checkout commit_hash relative_path_to_file_or_dir
+                git checkout remote_name/branch_name file_or_dir
+        CS - The difference is that OData is a specific protocol; 
+                REST is architecture style and design pattern. 
+                REST is a generic design technique used to describe how a web service can be accessed.
+                Using REST you can make http requests to get data. ... OData is a specific technology that exposes data through REST.
+        CS - CG - ASP type windows platforms are all abstraction layer on top of "canvas"
+                OS level GUI Drawing is also "canvas" type drawing (can have higher abstractions for convenience) with the difference that whole screen is your canvas to draw on.
+                Working of canvas - Drawing in its raw form we have already done in CG (Computer Graphics) course - how to draw a line - low level and high level API both we have worked on.
+                Console applications are also drawing - it is higher to CG drawing cuz given character sequence say 'AB' you know how to draw it one by one. Fonts styling is all in CG raw libs that Steve Jobs managed.
+        CS - Levels of data types
+                Raw or primitive data types
+                Composite - keep data together - array, structure. Powers - Static (arrays), Dynamic (Linked List)
+                Data Structures - organize data for real world usage (smartness over basic data types) - Array, Linked List, Trees, Graphs.
+                        ADT (Abstract Data Type) is more of a logical description, while a Data Structure is concrete.
+                        ADT as a picture of the data and the operations to manipulate and change it.
+                Real World Data Description - can map differently to data structures.
+                        Eg - a matrix of data may be converted to a graph type for ease of solution.
+                        Eg - graph in real world may be represented simply using an array.
+                        Eg - real data may be a list but as per real world behavior - Binary Search Tree may be best way of implementing it.
+        CS - Python
+                List (similar to growable array)
+                        Create - list, Constructor, 
+                        Update - append, insert, fromlist(list)
+                Tuple (similar to immutable structure - group related information)
+                        Create - Packing
+                        Update - concatenation assignment.
+                        typecasting (to others) - unpacking
+                        misc - instant swap, return values, heterogenous, fast readonly access, write protection.
+                Array
+                        meta - typecode, itemsize, length, 
+                        create - fromlist(list)
+                        update - insert, append, extend, reverse, pop, remove
+                        retrieve - count, index, 
+                        typecast - tolist, 
+        CS - Make the variable available on reboot
+                for then, PATH=%PATH%;C:\type\your\new\path\here
+                even relaunch the application should also do it cuz windows informs newly opening apps about it.
+                test it yourself - keep cmd open, make envt variable, see if they are recognized by open shell programs, launch new one can that recognize it.
+        CS - Algos - recursion and iteration (top down and bottom up both supported for all)
+                Induction - 
+                        Incremental - If I have solution for k-1, I can find solution for k. So, start with smallest solution and keep building on it. Bottom up and top down both.
+                                insertionSort(k) = insertionSort(k-1) + accomodate(k)
+                        DAC - Let's say I have solution for 2 problem sets, how do I merge the solutions. Also if I have solution for k/2 then I have solution for k. Top down and bottom up.
+                                MergeSort(k) = MergeSort(k/2) + MergeSort(k/2) + Merge(the 2)
+                Iterate thru possible solutions 
+                        Greedy
+                        Branch and Bound
+                        DP - SelectionSort(list) = list[0]=smallestNumber + SelectionSort(list-{smallestNumber})		//this is recursion.
+                                bubbleSort - same concept but with propagation instead of finding.
+                                QuickSort(k) = find_location(k) + QuickSort(:k-1) + QuickSort(k+1:)
+        CS IDEA - given xml, construct a tree. given 2 trees find if they are identical
+        CS - subnetting or NAT uses onion approach like VPN to remember who sent the call to the server to respond back.
+        CS - Distributed systems - instead of centralized ones.
+                Application level (P2P vs client server) - many sources of power.
+                process level (aka Distributed computing - Hadoop MR, AWS, Multi-agent systems, etc) - task is common or one but process runs on different machine to that end.
+                Distributed DB level - NoSQL uses them a lot - Software runs on multiple machines on same/different data to ease off the load.
+                File System Level (HDFS) - The scope of file is more than 1 machine disk.
+                Distributed OS, etc.
+                        OS - https://www.geeksforgeeks.org/types-of-operating-systems/
+        CS - Language encapsulation for hardware features - process to run on processor, threads for multi-core, process spawn for multi-processor, software socket communications for process spawn in another system for distributed computing.
+        CS - A remark by a office colleague was intriguing. 
+                He said he write every conversation down. How does he know to this level of granularity.
+                I joked it off that it's the world of big data. Also I asked with curiosity how could he be so sure - he reminded initial days.
+                But he can definitely access my system but how?
+                Has he managed to install some trojan horse on my machine.
+                Any file request can't be made other than my explicit windows permission or ssh or scp server that I may install.
+                It turns out - thinking about system programming 
+                        a thought occurred and it turns out that I had the folder - \\INLN56587858A\Users shared - which is terrible 
+                        this is probably since our initial project days or maybe company default 
+                        visible thru start / right click / Computer Management / System Tools / Shared Folders / Shares.
+                        not totally terrible cuz I learnt more and understood the importance of privacy.
+        CS - CAP Theorem
+                CA - RDBMS - Replica or shards - If network breaks or slows down, RDBMS throws response error message that "not written". Reading from shards and replica is fine cuz consistent always.
+                AP - Delayed consistency - respond quickly with written - it may take time for the changes to reflect in all nodes. Maybe too much time if broken connection else a little while if slow. Always available server but can spit inconsistent data.
+                CP - Any request written on master, propagate writing to replicas and it may take too long but we ain't responding to client until we are done (maybe tell him that it may take time but no result based response). Reading will work as expected cuz consistent. If broken, write will never respond (unlike CA) but read will work fine cuz consistent (?like CA). Where's Partition Tolerance if write will never happen - it will reflect as soon as network comes up again.
+                Hadoop 1.x was more on CP side but with Hadoop 2.x the Availability has grown.
+                        No compromise on consistency. If partition or slow down or system failure happens, others are contacted so a little time waste (availability), if NS fails then standby takes over again time waste (availability). But partition doesn't break the system.
+                Situations to use which one - 
+                Now, NoSQL just means non-RDBMS based DBMS 
+                        i.e they have layer of softwares to access the file system whatever format it is (schema-less here).
+                NoSQL Types
+                        KV combinations - Just Key and value. Query only on key - values can be any dang thing from image, media, text, etc. Sharding and indexing for finding the key fastest is the key.
+                                Document based - json file. Query based on characteristics. Uses MapReduce for faster retrieval.
+                        Graph - https://neo4j.com/developer/kb/understanding-data-on-disk/
+                                Linked List in the stored format.
+                        Column based - https://mapr.com/blog/in-depth-look-hbase-architecture/
+                                vs column-oriented DBMS (or columnar database management system) is a database management system (DBMS) that stores data tables by column rather than by row.
+                                https://stackoverflow.com/questions/13010225/why-many-refer-to-cassandra-as-a-column-oriented-database
+                                Yes, the "column-oriented" terminology is a bit confusing. Cassandra is basically column-family store. Wide rows for time databases. column specified with every row.
+                                Cassandra would store the above data as, 
+                                        REL - it is unpivoting of the data where all column names also become rows so think of a table becoming (mn X 2) matrix - arranged in columnar format. Long not wide format.
+                                 "Bounses" : {
+                                           row1 : { "ID":1, "Last":"Doe", "First":"John", "Bonus":8000},
+                                           row2 : { "ID":2, "Last":"Smith", "First":"Jane", "Bonus":4000}
+                                           ...
+                                 }
+                                http://dbmsmusings.blogspot.com/2010/03/distinguishing-two-major-types-of_29.html
+                        But yeah, the main power of NoSQL comes with distribution.
+                OODB isn't NoSQL - but maybe they are like adaptation layer with DB engine.
+                GraphQL - Query for API for front end to interact with DB.
+        CS - Windows client, server, NT, Web server vs any server - shell is just a client of OS programs. But server is generally in server on internet context only and not on local programs.
+        CS - ics file to add calendar MR to your outlook.
+        CS
+                Mapper is selection and Reducer is aggregation. Simplification for structured data but ingenuity for others.
+                        Eg - problem on many tweets - tell what word correlated with prime minister the most.
+                HDFS is just a facade on top of file system.
+                Hadoop is an ecosystem of softwares built around 1 purpose. But not unique, even IDE is an ecosystem.
+                nbtstat 
+        CS - Arch - MVC - View and Model in sync.
+                view change and model reject it as validation error but doesn't remove and restore to before change but current state.
+                errors continue to exist for save transaction so if not objectionable then allow save draft to take place and objectionable value continues to exist.
+                we could have denied the buffer writing of that value but that's against MVC principle - View and model should have same image.
+                In some IR, while writing cost center we used to deny the modification writing but view would continue to show the value with error - that's not allowed.
+                        OR even that model accepts values with errors but view wipes it off - nope!
+                Change model with view and generate errors or denials. On save consider those errors once more. Before_image isn't done automatically which programmer can do.
+        DS Maths
+                Algebra - Simple, Linear Algebra, Linear Equations
+                Calculus - functions rate of growth, Limits and continuity, Differentiation, Integration, Differential Equations.
+                Statistics and Probability
+                Discrete Maths - 
+                DS is intersection of Hacks (Code, programming), Statistics and Domain Knowledge.
+        DS
+                Maths - AI, ML/ DL Coursera, LA, DM, PS, Calculus, etc.
+                        Puzzles - Top ones.
+                R subjects - clustering, decision trees, hypothesis testing, anova, chi square, Data Manipulation, Data Visualization, exploration, Data Preparation, regression, logistic regression, clustering football, decision trees, Time Series, Deployment.
+                Structured Data - Excel, SQL
+                Distributed Computing Analytics - Hadoop, NoSQL
+                Libs making - all course topics in Octave, Matlab, Python, etc.
+                R
+                        Collect Data - Data Preparation
+                        Cleaning - Data Manipulation, dimension reduction, Bagging and Boosting
+                        Descriptive - hypothesis testing, anova, chi square, 
+                        explorative - exploration; visualization;
+                        Predictive and prescriptive - 
+                                Modeling - 
+                                        regression - Linear regression, decision trees & random forests
+                                        classification - logistic regression, NN, SVM
+                                        clustering
+                                        Association Rules
+                                        Fraud Detection
+                                        Recommender Systems
+                                        Applications - Time Series, TM.
+                        ?Validation
+                        Deployment
+                Python
+                        Libs - numpy, tensorflow, etc.
+                ML disciplines - 
+                        DIP or Computer Vision - https://www.geeksforgeeks.org/digital-image-processing-basics/ - in java, etc.
+                        DSP - https://www.coursera.org/learn/dsp ; NPTEL, etc.
+                        NLP, Pattern Recognition, etc. Structured - Online ads, Search Engines, Product Recommendations.
+                DS Usecases
+                        GIS - 
+                        Self Driving Cars - 
+                        Robotics - 
+                        Text Mining - QA Model or summarization - 
+        DS - main difference is that TensorFlow is a framework for machine learning, and OpenCV is a library for computer vision.
+    </Misc>
+    <GratsAndLapse>
+        IQ Grats
+                I used ABAP based eclipse studio for ABAP development instead of ABAP logon - what benefits did it give me?
+                        text selection and see all references, navigation and find references are common.
+        IQ Lapse - Low level JSON creation on your own. Instead, use JSON.stringify, which (a) works, (b) is faster, and (c) will actually produce a valid JSON.
+                but don't reinvest time.
+                var obj = { name: "John", age: 30, city: "New York" };
+                obj.prop = 'hi';
+                obj.name = "Krishna"
+                var myJSON = JSON.stringify(obj);
+        IQ Grats
+                JSON Array sorting using sort with function(a,b) argument for sorting
+                convert json strings to numbers using prefix + and that's all and number into string thru ""+ prefix.
+        Lapse - not
+                IR failing message to GSA - can the message be cancelled if IR is delivered and PO cancelled - another PO for it with GSAs all consumed so all IR ordered have their goods received.
+                        you can't cancel PO without deleting all follow up documents.
+        Lapse
+                why can't I change the name on package.json - it give me error! - need to know how technologies are working in our project!
+        Lapse
+                didn't see condition of length less than or equal to 0 then write it on buffer.
+                not - else part could be removed 
+        Lapse
+                I need some sample to implement - why don't you explore the code to decide on the method signatures and configuration file also - that also has a signature cuz that's gonna repeat itself so must be validated.
+                Thumb rule - if I don't know it, can I find it out instead of asking someone.
+        Lapse
+                dump on ui - read server logs what error tells you.
+                x4 run build after install to update our links to it as well.
+                local linking trial - it worked but I had to remember to update git skipping those file changes.
+                        if local ain't working - try global where you mention that file of this name - pick this version.
+                create modifications not coming as expected because savetransaction not saved before - then clean then use.Manager - 
+                Scrum - Any backlog create subtasks and track them individually - that's when it is ready for development status and not in process.
+                        1. API Calling using root and item data and getting response of confidence and criteria
+                        2. Create Approval Task
+                        3. Close Approval Task based on confidence level
+                Cross Functional TofT - disassociating TofT hard mapping to functional areas and making it soft mapping - which switches over sprints.
+        Lapse - personal solution
+                Callbacks don't wait - solution encapsulate them inside a promise and use await while calling that promise.
+        Lapse Not
+                no data type assigned to variable and then used undefined so data type can't be converted at runtime.
+                async for the callback function in which await is being used.
+                same data type used in 2 contexts - change the name of 1.
+        Lapse NOT
+                Why task not getting created - I have the feeling that compilation has not been done - worked after that.
+                Description default without product cuz product gets created on item creation cuz field is being used so put condition on product id empty that description should not be updated from the API or it should be updated from API and API returns empty string when empty product id is being passsed.
+        Lapse NOT - executable files and assembly files or data files
+        Lapse
+                using static variables in web application can be taken with great caution because of racing of threads for shared method and variables.
+                7 else's - even racing for id number generation - that's dangerous - you read and add the new number to the list - it's just the matter of who read what portion when.
+                https://stackoverflow.com/questions/5219431/static-variables-in-web-applications
+                https://www.codeproject.com/Questions/854439/can-I-use-static-variable-in-web-application
+        Lapse EQ - Door locked - gotta call a friend in dead of the night.
+        Lapse - EQ - Pollution Certificate for the first time
+                Purse fell and didn't even realize it - didn't even properly thank the holders cuz of excitement of having found it.
+                He taking picture with his device and I put my RC in front of that.
+                Once before my debit card had fallen while filling petrol in my vehicle.
+                Solution - After every task, saying to yourself that you have done it means 100% confident and aware that it's done.
+                        after every activity, saying that it's done means 100% confidence that it's being done.
+        Lapse - IQ - /SRMAP/IF_FND_CHECKPOINTS~CHECKPOINT_EVENTS - undermined.
+                call from handle_events of proc_doc_update - meaning ttl enrichment happens during events. I just ignored it but finding in CL_CONTEXT was helpful.
+        Lapse - IQ - The UI Designer shows no mapping for a UI Component
+                Option 1 - debug and find out how it works where it does.
+                Option 2 - Check XML - go 1 layer below of its working and see if sth is off (recommended)
+        IQGrats - Idea of not storing the image blob for every BO's Item Product thereby saving space.
+            I suggested filename but better idea was the UUID, even a separate table holding blob will have worked cuz same image showing up at multiple places.
+            In discussion, your code is taken as benchmark for further development.
+        grats
+            In School, got beaten by teacher for not knowing the answer - he had expectations from me.
+        IQGrats
+                I feel honored to make changes to Saurabh's code. even 1+1 he does, seems like coming from NASA.
+        IQGrats Google Drive- We can change owner of the folder to assign it to someone else. OR we can make another copy and change the owner of that.
+        IQGrats
+                template method pattern for approval
+                guarantee all or none thru exception try catch.
+                informed team mate about racing condition possible for number range generation - solution will be make static methods and use synchronize.
+                Proposed the idea of command design pattern on changed attributes on specific nodes and DAG changes on that
+                        but idea forwarded to framework team cuz time saving and no redoing by every application area - this was observed by 1 of the senior colleagues also.
+                GIT find my old commit id
+                        git log -10000 | grep "(my comment substring)" -B 5 -A 1
+                comparing git files across 2 commits or branches
+                UML for Java Media Player in college time.
+                atomic execution of methods - long standing bug solved - all or none execution of method.
+                        https://stackoverflow.com/questions/16902224/executing-block-of-code-atomically
+                        the problem was approval task created or closed but the document is still in the old status or vv.
+                teams excel - reversed the weeks in weekly track of assigned uiat 
+                        freezing helps freeze column panes still gotta traverse to last column to update 
+                        then top row is not frozen so you can't see which week you are on so time wasted, so reversing the sequence makes things easy for the team.
+        IQGrats - ML in NSME ByD
+                can't use our choices as data
+                input for next choices in threshold
+                eval in ML App IR - let them choose threshold itself
+                expanding window method - costly
+                bins - way to go - backward traversal until bin lower than threshold is found.
+                        can have expectation of %of data points in a bin to be significant enough - size of bin can be accordingly.
+                        ignore not defined but bin size such that data points in bin >= % of total data point.
+                alternate approach find threshold confidence once vs given a confidence level, find the bin window percentage should be greater than say 95%
+                other ideas - largest confidence which got rejected - ideal world - outlier can spoil the show - 1 in 1M but not allowed
+                point of confidence where % of approval > % of rejection - very poor basis of auto-approval - many bad eg will come.
+                point where P(A|conf) >= 95% - it is different from confidence which is sigmoid function or combination of functions which no longer mean odds of approval.
+                minimal value for approval (bad choice)
+                75th quartile of approval
+                        sql queries available but again distribution can be crazy. coming up with counter eg is possible. Think again!
+                cumulative area - bad choice cuz of distribution can be really crazy. Area till confidence c >= 75% nay.
+                        simpler but undesirable
+                1 thing we should definitely do based on our ML, is give tooltip of approval percentage and criteria - we are gonna cuz sending confidence and description to BTM.
+                graph of rejection and approval will look like intersecting log and exponential curves. Normal distribution doesn't apply. But zipfian will.
+                        what about finding point of 75% on zipfian distribution - that can be pretty neat idea, aye.
+        IQGrats - callback used by rest call request - wrap it inside a promise. and call promise under await.
+                That's right we don't auto-approve shopping cart without user's configuration on confidence. We just propose how confident we are about approval.
+        IQGrats - Save not ending - cause found after material check before save 
+                but why is it coming in first place - cuz lcp creation on material adds to a map in service manager and it member lcpTransaction uses that map.
+                        ServiceManager.js of line 121 - adds objectReference on create of an lcp instance - the same that lcpTransaction object also holds.
+                Is there something wrong with calling validations and determinations with no root node - no!
+                So, debugging with X4 typescript - need to put X4 within the workspace and link it with @sap/x4 symlink - and can debug X4.
+                        Debugging X4 from S4One debugging - x4 download, install, build (creates symlink), link with the symlink, npm run build of s4one.
+                It was infinite recursion while finding all child nodes tree of the BO Material - DO "Root" is misconceived as BO "Root" resulting in infinite recursion.
+        IQGrats - all services are our own - Foundational Master data objects are just Models in BO structures and we need to navigate thru them to get data of our interest.
+                Similarly BC must be also a business object with nodes and what its master data.
+                With typescript, working out the details of framework is much easier than previous frameworks.
+                        findings - service manager is key to most of the things like message handler, lcp transaction object, object resource map (all lcps used), etc.
+                        how the call ultimately lands with table query in X4; usage of finding all nodes under a given bo node for triggering more validations and determinations.
+                        curiosities - how association navigation thru lcp works, etc.
+                using log services so important to keep track of where something goes for a toss.
+        IQGrats
+                We will contact Frank Schertel show him ideas put in new sme (services in utils) and tell him about our team's young Frank Schertel.
+                Communication - we don't want to see how he looks angry (giving comedy tone to praise)
+        IQGrats
+                ML Supplier determination while creating PR from IR requests without suppliers - assigned and then removed.
+        IQGrats - wrote a code to convert ipynb to py format code. 
+                didi told me that Jupyter already supports this conversion - I recalled I already knew it but had forgotten.
+                I had rejected at that time cuz I wanted to mass convert all the ipynb files and not opening them 1 by 1 in Jupyter before convert.
+        IQGrats - Wrote a program to read all the whatsapp image and video files and fetch the images of babies by age for easy extraction than manual labor.
+                Wrote a program to arrange the notes by topics for easy organization.
+                Wrote a program to bulk convert ipynb files to py files.
+        IQGrats - x4/obn/OBNRegistration table has all obn references - 
+                I created and deleted FS_Copy file which still existed in the db - that's why it was loading that page 
+                so changing versions creates and updates but doesn't delete the metadata in postgres.
+                select query on the table - to find if there is entry for copy - found it and used deleted query to delete it.
+                workaround - change the inport operation itself for both sides of OBN navigation and that screen will have no way to get uploaded but shit continues to exist in the table.
+        IQGrats - Problem solved - debugging thru front end UI5 code - 
+                so schema still asking for it and data ain't fetching it - data must be coming from byd layer OR we need to do some cleaning in cip sme we ain't doing.
+                found the bug - I had replaced the esf path to a wrong path to ui file - cuz of which the data was entirely being fetched from byd.
+                so byd was throwing complete ui data model much more than what current screen needs. So, when data model says write a value to ui model for visualizing - it can't because it doesn't even exist on the loaded screen.
+                please see the loaded screen is still from the sme only - why cuz in x4-app-package.json I still had the path to sme version of PO FS screen.
+                DP Problem - only 1 reference for the entity should be there - not multiple - else changing 1 and not the other always causes problems.
+                This also means that Oberon's job is to map BO/ECO to UI Data Model and throw it back to Front end.
+                        Front end just paints it and some property level and minor data manipulations like Write description if Id had field set to description only or id and description.
+        IQGrats - python has print string to be replaced by print(string) using regex replace.
+                print(\s)\w*\[?[\w:+*]*\]? to whatever and \s(\*|\+)\s to $1. and then print\s(\w*\[?[\w:+*]*\]?) by print($1).
+                print\s([\"\']?[\w\s:!]*[\"\']?) to print($1)
+                print(.*)(?=#) by print($1)
+    </GratsAndLapse>
+</D>
+<J> About - data model and process model of all technical domains.
+</J>
+<B>
+    <Backlog>
+        Apps Models of systems (consumer) - regedit, command shell, etc.
+        DevOps Sample Projects and Techs - Swings, OAuth2.0, REST, etc.
+        Data Science
+            Distributed Computing of Big Data - Hadoop, NoSQL (Coursera)
+        IOT
+        M Tech Standardized
+    </Backlog>
+    <AnnualGoal> 2019
+        Data Science
+    </AnnualGoal>
+    <ReleaseGoal> April
+        From Backlog
+            Text Mining
+            Start ML Coursera
+        Others
+            SIV Course
+    </ReleaseGoal>
+    <Sprint> 21-28
+        From Backlog
+            Text Mining
+            ML Week 2
+            SIV Course
+        Others
+            ...
+    </Sprint>
+    <DailyScrum>
+        Note all observations
+        Collect all roadblocks, challenges, steps taken, successes, observations, what's next etc.
+    </DailyScrum>
+</B>
+</IQ>

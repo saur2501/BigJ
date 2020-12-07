@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CS>
+    About - this is my DM PM take on different tools and everything. For details, refer to specific xml files - this is just few words for high level understanding.
+    <RnD></RnD>
+    <Systems>
+        <Platforms>
+            <Suse></Suse>
+        </Platforms>
+        <Frameworks></Frameworks>
+    </Systems>
+    <DevOps>
+        <Design>
+            <IDE></IDE>
+            <Framework></Framework>
+            <Scrum></Scrum>
+        </Design>
+        <Development>
+            <PL>
+                <JAVA>
+                        JAVA - DM (behavioral abstract study - no DFD levels here)
+                            Overview
+                            Basics
+                            Imp DT - String, Array, Stream.
+                            Operators
+                            OOP - Inheritance, Polymorphism, Overriding
+                            IO
+                            Misc
+                                    Important Keywords
+                                    vs CPP
+                                    Methods
+                                    Constructors
+                                    lambda
+                            Exception Handling
+                            Systems - File Handling, Multithreading, Sockets, Security.
+                            Collections
+                            Libraries - Math, Lang, Time, Network, Image, Advanced, Tuple, Wrapper.
+                            Uncat - Internals - Package, Reflections, Garbage Collection, NIO.
+                        JAVA PM
+                            More - JAVA DMPM - For more languages just plug the delta not everything.
+                            PM - Grammar Syntax
+                                    Application -> Package*
+                                    Package -> ProgramFile*
+                                    ProgramFile -> Program
+                                    Program -> Imports* class+
+                                    class ->  AccessControlModifier NonAccessModifier class className [Inheritance] { MemberVariable MemberMethod }
+                                    MemberVariable -> AccessControlModifier NonAccessModifier DataType VariableName [Initialize]?;
+                                    MemberMethod -> AccessControlModifier NonAccessModifier ReturnType MethodName ( Arguments ) { MethodBody }
+                                    AccessControlModifier -> default|private|public|protected
+                                    NonAccessModifier -> static|abstract|final|synchronized|volatile
+                                    ReturnType -> DataType|ClassName
+                                    Arguments -> [DataType|ClassName []? ,]*
+                                    MethodBody -> VariableDeclaration Statements*
+                                    VariableDeclaration -> DataType LocalVariable [= Variable | Constant]
+                                    Statements -> (VariableDeclaration | SimpleStatement | ControlStatement | FunctionCall | IO)+
+                                    ControlStatement -> DecisionStatement | IterativeStatement | ExceptionBlock
+                                    ExceptionBlock -> try { Statements } catch(ExceptionClass) { Statements } finally { Statements }
+                                    SimpleStatement -> ( LocalVariable Operator )* LocalVariable	//ignoring unary and ternary.
+                                    Operator -> Assignment | Arithmetic | Relational | Logical | Bitwise
+                                    VariableName, MethodName, ClassName, LocalVariable -> Identifier
+                                    Identifier -> same rules as CPP.
+                                    DataType -> PrimitiveDataType | NonPrimitiveDataType | UserDefinedDataType | Collection
+                                    PrimitiveDataType -> ...
+                                    NonPrimitiveDataType -> Arrays | String.
+                                    UserDefinedDataType -> ...
+                                    Collection -> Set | List | Map.
+                            RuntimeBehaviors
+                                    Inheritance -> extends SuperClass | implements Interface
+                                    Polymorphism -> exact signature called.
+                                    Overriding -> Method from SuperClass, Dynamic Method Dispatch.
+                                    Abstraction | Interface
+                                    Encapsulation
+                                    Packages
+                                    ===
+                                    SuperClass -> ClassName
+                </JAVA>
+                <Python>
+                    DM
+                            Basics
+                            IO - DB also
+                                    open("test.txt", "wb")
+                                    test_file.write(bytes("Write me to the file\n", 'UTF-8'))
+                                    test_file.close()
+                                    test_file = open("test.txt", "r+")
+                                    text_in_file = test_file.read()
+                            Misc - Variables, operators, functions.
+                            Control Flow - eg should be moved to grammar portion later in abstract form.
+                                    normal
+                                            a = b // 5; a**2 #comment
+                                            a >> 2
+                                            a <= b and b >= c
+                                    selective
+                                            if i < 5:
+                                                    print('less')
+                                            elif i == 5:
+                                                    print('equal')
+                                            if substring in string:
+                                                    print('found')
+                                    iterative
+                                            while (count < 9):
+                                                    print('The count is:', count)
+                                                    count = count + 1
+                                            else:
+                                                    print('loop finished')
+                                            for index in range(len(fruits)):	#iterate over list
+                                                    print('Current fruit :', fruits[index])
+                                    functions
+                                            def func(self, arg):
+                                                    self.var = arg
+                                            abs(-5)
+                                    others
+                                            ''' multiline comment
+                                            # single line comment
+                                            \ for next line
+                                            ' for word " for sentence """ for paragraph.
+                            Data Types
+                                    num - int, hexa, octa, long, float, complex
+                                            arithmetic, logical, relational, etc.
+                                            typecast - int("5")
+                                    bool
+                                            logical
+                                    string
+                                            concat - *2, +, 
+                                            substr - [[m]?:[n]?], long_string[-5:]
+                                            replace - str.replace("is", "was")
+                                            find - string.find(substring)
+                                            split - long_string.split(" ")
+                                            length - len(str)
+                                            misc - capitalize, isalpha, isalnum
+                                    list - like flexible array
+                                            concat - self.result = self.list11 + self.list12 + [1, 2], *4
+                                                    grocery_list.append('onions'), insert(1, "Pickle"), remove("Pickle"), sort(), reverse(), 
+                                            substring - self.list11[2:]
+                                            length - len(list)
+                                            nesting - list of lists - nested_list[1][1]
+                                    tuple
+                                            concat - *2, etc
+                                            substring - self.tuple11[1:3]
+                                            length - len(tuple)
+                                            typecast - list(pi_tuple)
+                                    dictionary - like struct
+                                            getVal - dict1['one'], dict1.get("Pied Piper")
+                                            allKeys - tinydict.keys()
+                                            allValues - tinydict.values()
+                                            replace - super_villains['Pied Piper'] = 'Hartley Rathaway'
+                                            length - len(super_villains)
+                            OOPS
+                                    Inheritance - class Dog(Animal): ...; overriding, overloading.
+                                            class Foo(Bar):
+                                                    def baz(self, arg):
+                                                            return super(Foo, self).baz(arg)
+                            Exception Handling
+                            Collections	
+                            Django
+                            Data Analysis
+                            Numpy
+                            Pandas
+                            ML
+                            GUI
+                            Libs - OS, Calendar, Timit, etc.
+                            Misc, Applications
+                    PM - Grammar
+                            ...
+                </Python>
+            </PL>
+        </Development>
+    </DevOps>
+    <DataScience>
+        <Tools>
+            <Excel></Excel>
+            <Tableau></Tableau>
+            <IDE>
+                RStudio, Spyder, Jupyter, pycharm
+            </IDE>
+            <Hadoop></Hadoop>
+            <Tensorflow></Tensorflow>
+            <Keras></Keras>
+        </Tools>
+    </DataScience>
+</CS>
