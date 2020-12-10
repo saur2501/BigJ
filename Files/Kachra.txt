@@ -1,0 +1,107 @@
+HomeErp - Bikes
+	Battery
+	Brakes - Disk famous - drum is old. Anti-locking.
+	Carburetor - air and fuel mixing - for combustion.
+	Chain - engine and rear wheel.
+	Charger - battery is given voltage.
+	Chassis - frame of bike. All parts mounted on it.
+	Clutch - transmit power from 1 comp to another.
+	drivetrain - connect parts together.
+	engine - old comps together and produces power. Cylinder, pistons.
+	exhaust system - gases are released.
+	air filter - dust particles not allowed in engine.
+	oil filter - engine oil is cleaned.
+	fuel tank - fuel held in there.
+	gears - parts of transmission.
+	Handle grips
+	handlebars - steering mechanism. holds brake, etc.
+	Helmet.
+	Kickstand
+	Lamp - headlight or headlamps.
+	Mirror - to see back and front.
+	Motor - see engine.
+	odometer - distance.
+	saddlebags - options.
+	seating.
+	shift lever to change gears.
+	sidecar for extra luggage.
+	speedometer.
+	suspension - on tyres - vibration and noise safety - handling and braking.
+	tachometer - rotations per sec when to change gears.
+	tyres - tubeless.
+	transmission - power from engine to wheel.
+	wheels - tubes mounted on it.
+	windshield - used by police.
+	Choke Switch - morning engine doesn't start - more; engine is cold so more fuel and air reqd.
+		Choke giving more petrol - turn on choke switch for more fuel.
+		crank in other bikes. Knob, switch.
+		keep on for reserve fuel and also for starting the bike in cold.
+	engine kill switch
+		use - traffic signal - to save petrol.
+		safety feature if key is stuck.
+		accelerator jam then use it - it will take time to stop.
+	Engine start.
+	Horn.
+	Indicators.
+	headlights.
+HomeErp - Bike - Battery Dead Problem
+	Use kick-start (if that option is available in bike)
+	Otherwise, visit the nearest available service station/mechanic/battery repair shop to charge the battery.
+	Call on-road helpline of the bike manufacturer (if available)
+	Try to Push-N-Start the bike (like they used to start mopeds in olden days). This option may not work with many of the bikes. Not with heavy ones at least.
+CS
+	GIT SSH - https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git
+	https://stackoverflow.com/questions/21615431/git-pushes-with-wrong-user-from-terminal
+PIES - Personalize vs Process - always contact a person rather than asking process to work as expected.
+Scrum Retro - Tools Parabol
+	Reflect - Liked Learned Lacked Longed for.
+		Maps to good bad ugly + Learning (abstract and concrete)
+		anonymous and timebound.
+	Group
+	Vote
+	Discuss
+How can we minimize the work - am I audible; Any ideas - pinpoint a person.
+	you came prepared with probs then also ideas for improvements.
+	Meeting-less day.
+Scrum - Calendar blockings - when stuck then inputs from others - How would approachability work and transfers.
+	some handholding for new colleagues - tailoring mode - dedicated 1 hr with buddies and 1 hr of development.
+	reverse KT mode - where they come back of questions. This KT by new colleagues - not active members of meeting. Now question is how do I test it while debugging, etc.
+	That I am ok with KT is one time effort but setting up system needs availability from devps.
+	enabling them is the means - this investment is lacking from our side.
+	2 meetings - reverse KT and trouble shooting.
+	Action item - you book the reverse KT.
+	API made to do primitive checks to help them forward the ticket to right time.
+IQGrats - Suggested the idea of natural language processing on BCT tickets based on history.
+	History we have - which team finally solved the ticket so use that to train a classification model based on NLP.
+LIB - Scrum - We want war but don't have equipments with us - at least have backlog outside of release backlog.
+	On any rainy day we try that, are we equipped.
+	Looking for development work - this is a specific problem to be looked into.
+	Task readiness - checklist b4 a task is picked.
+	!DAG of tasks
+	Let's add another stage to our jira board - release ready.
+	If current functionality doesn't exist we will ask developers to make it. Don't restrict desires based on availability - standardize and plan accordingly but don't shy from take tools to ideal place.
+	make claims it has deadline - this is money guys.
+	Next time gimme lesser talk time - have no unmute button for meeting - I would rather have no mute button.
+	Action items of last retro and what's the status with that.
+	analysis - 60 reflections, 36 topics, 14 present.
+Withings healthmate sync with Fit@SAP Cloud - pulls only on sync trigger - takes up to 1 day. And check it once with withings server b4 SAP cuz we pull from there only.
+Arch - Risks foreseen for future - memory usage will increase if there would be frequent updates (nothing unforeseen left for future - benchmarking of memory usage anticipated etc)
+Communication - Planning (What all you gotta do and how to prioritize; suggested strategy best approach; precautions (risks), updates) - such trivial things to do, HCM (his nature, why he didn't go home, where worked, does he have bike); CRM - Sardarji - go and say thanks - call him if not visit him. Bangalore temperature (social erp).
+	Transactional first and then Connected master data of everything.
+	bike servicing - don't give papers and contact the regular servicing folks. Arch and maturity means not getting too pumped by desires, urgencies, fears, etc.
+	everything comes from planning only - major component of discussions is planning.
+CS - Kafka
+	Apps interact
+		Producers - Publishes records to the topics in kafka.
+		Consumers - pulls records stored in kafka topics.
+	Streams - client library for processing data stored in kafka. Stream processors interact.
+	Connectors - a framework to build connectors for in / out movement of data between kafka and other systems. Like DB.
+	Intro
+		Documentation - Distributed streaming platform. similar to message queue or enterprise messaging system.
+		Message system - producers message broker and consumers.
+			see the mess with n and m target and source systems. @wire mess.
+			vs adapter.
+			fault tolerant.
+			Store in kafka message logs.
+		Stream - continuous stream of messages can be handled. Stream processing apps - read and store back or pass on.
+		

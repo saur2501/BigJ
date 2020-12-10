@@ -125,145 +125,6 @@ PIES -
 		you should be able to answer 5 active user stories of the month. Eg - gotta shift my luggage, gotta 
 	There is also a need for personal space where your skills are cultivated, psychology is studied and applied for evolution, communication, affirmations, etc. aka Me Time.
 PIES - Convert people from Visitors -> Leads (Unqualified contact like 7 met at seminar) -> Prospects (Qualified and favorable contact) -> Partners (Customers or Allies)
-SAP - Talk to Buddy - kaam karna hai then a lot - better then up to you - time pass here 60% ppl are good - doing for product betterment is very few.
-	achhe se karne waale kam hain but if you want then a lot to know.
-	jo hai achha hai - padte raho what can be made better - kaam aasan hai but doers is less - more you ask - ask for it more and more.
-	spark par no work - structured streaming. Kafka spark cassandra thoda bahut. 
-	take work take 10 days. start taking backlogs.
-	biweekly. Fine tune - read it like book.
-	scala hands on - kar hi loge. Kafka spark - summit sun lo; book padh lo in order to get fair idea. Pehle data ingestion set up kar lete hain.
-	springboot kar lo - struts to bahut purana ho gaya. Kaam shuru karoge to kar hi loge.
-	I went there for games like spandan.
-	Very few people who really try to work.
-	Kafka pe kaam kiya hai. Scala aata hai. Within 10 days I will get the work started. Main that's where the learning lies.
-	What were the odds for me getting same buddy as one who had studied in IIITB. Meeting friends from VIT Pune, IIITB batchmate again subhas, Infy colleagues on joining day.
-		Getting KT from leader board member. He had known me at my joining but not me. Odds of getting Vishesh in the same team for getting comfort of having someone from team.
-SAP - SAP Talk for mensurating your contributions (for appraisals)
-	Scheduling from next week so come prepared with following
-	major backlogs Developed / Worked on
-		Test Automation Coverage for your development
-		User stories delivered - No of backlogs with planned and total Dev efforts for delivery
-		Spillovers - How many were spillover backlogs by how much did it spill over
-		How many customer BCP were directly related to your Dev backlog
-	Test Automation contribution
-	BCP
-		How many BCP solved (internal/Customer split)
-		How many BCP Crossed MPT and IRT
-		How many weeks of DOD
-		How many BCP created as DOD
-		How many security messages solved
-	Dev Plan
-		Please prepare what is your focus area of Development for you 
-		Any trainings done/ required
-	Work Env
-	Feedbacks - Please come with your feedback  for work related feed back.
-	I will sch the talks starting next week.
-SAP - SAP Talk previous manager
-	Please find answers laid in the questions below.
-	1.	Touch upon the current work that you are doing and the value addition from your end.
-	a.	IFRS 16 Lease Contract Status Handling
-	b.	Some important changes in Scanned Invoice from Text files and Cost Assignment Distribution
-	c.	Ticket Solving
-	2.	How well you are doing in regard to your Development Plan?
-	a.	Needs discussion for this year’s development plan.
-	3.	What are you doing for learning new topics (Functional, technical, new innovative topics like Machine Learning, IoT, Block Chain)
-	a.	I am going to start learning react.js for understanding UI better.
-	4.	Do you require support in some specific area?
-	a.	No.
-	5.	Do you have any specific concerns in general?
-	a.	No.
-SAP - DKOM Amit Trivedi. Udta Punjab with animations ongoing. tum se hi din hota hai guy - Mohit Chauhan. Chess player in SAP - patterns recognizing and making notes. Alexa Director interview.
-SAP - Annual Day - Siddharth Mahadevan virtual - Zinda hai to. Bhaag Milkha. Malang. Pehli baar.
-SAP - SAP Annual Day - SAP World
-	Sonam C Chhabra - awarded best host recruited for SAP World show; she has also given TED Talk. Dressed as enchantress.
-	Planet brought together - celebrating togetherness - whole SAP globally brought together.
-	Antakshari, social distancing - find a way to connect each other.
-	7 told me SAP emps are coolest to gel together - so showcasing the talents.
-	all time to hone our skills. Hard to narrow down our winners.
-	host and throat stuck - coughed - changed the scenery and she covered it - See I tried to sing like you and what happened to me.
-	Singing, Cup song, guitar blindfolded (just a style once you know it well), comedy (amit kumar), bharatnatyam - dance for all rasas. Come on SAP Guys, How are you guys so cool?
-	Stage effects of moving lights.
-	we are all waiting to see who our winners are - but can I tell you something.
-	woo hoo (we like - what are you so excited about).
-	Fab job of creativity. Are you excited?-2. Let me go for it. Congratulations - so happy to see you win cool awards.
-	Streaming using vimeo and postponed pause.
-	Spending time till singer arrives - your favorite tv series, your favorite emoji, favorite era of music. I am carried to era of beatles, dress you wore most during lockdown (but dressed for you today).
-	Singing is gonna start - Change your dress for performance. Party shoes I know I am going to wear. I am gonna go wear. I am gonna be here waiting for you guys. How to bridge the time.
-	Until singer arrives or to create anticipations - talent videos - which I am living proof. spiritual drama, mom dance, shlokas.
-	As promised my party shoes are on with music prodigy. Chartbursters. Answer to all questions is 1 and only. Should I build more suspense or enough. Showing videos of coverage to give enthu.
-	As promised I wore my party shoes - groove and shake. Bollywood trivia questions - let's see - who sang this. Bunty aur bubly, halla re, zinda, nachde ne sare ral mil ke - in movie baar baar dekho playback singer. India waale - in telugu version of happy new year. satyam shivam sundaram.
-	mein bhi sarfira tu bhi.
-	singing from isolated room for best - some magic from virtual space - connect to tv. Intros and you can clap from home we will feel it.
-	Start with debu song - zinda. performers are used to applause after song but 8-9th online show - weird times. We will clap for each other.
-	your singing has to come from conviction - dancing with it else you will feel weird. dil chahta hai.
-		Ranveer and Anushka song - Pehli baar.
-		Making up for internet flaw thru something special - playing congo - andaaz kyun ho purana, london thumakda, tum ho to...
-		har kisi ko nahi milta. Patterns - sing your numbers and then popular ones - interspersed with your own with mentions. nachde ne saare.
-		Sanorita, Gallan Gudiyan.
-	missed partying, going out and closest we can get. Kudos for hard work and continuing with good work. Let's welcome 2021 to be awesome year.
-	music console. zoom link for e1 to share their video.
-SAP - headset talks - we otherwise won't buy 25K worth headset and 70K worth chair but thru this opportunity I started - opulence is a mindset.
-SAP - Phone life balance - we forget to extend basics kindness when we are with phones.
-SAP - being in a mentor role and then switch of team and back in the role of mentee.
-SAP - October Fest - 2nd October; Annual Day; Diwali Sweets.
-SAP - LoBs in SAP
-	Analytics and Intelligent Technologies
-		RPA, Crystal Reports, Analytics Cloud for BI, IoT AE, IoT, Ruum.
-		?Qualtrics.
-	CRM and Customer Experience
-		Sales Cloud, Commerce Cloud, Marketing Cloud, Service Cloud.
-		?C4Hana, Hybris, CallidusCloud.
-	Digital Supply Chain
-		Asset Intelligence Network, Business Planning Starter Edition, Warehouse Picker, Innovation Mgmt.
-	ERP and Digital Core
-		S/4 Hana, S/4 Hana Cloud, SAP Market Rates, SCP Data Enrichment (master data), Financial Statements Insights, RealSpend (budget mgmt)
-		?BYD.
-	HR and People Engagement
-		Successfactors different flavors, Recruiting Marketing Career Site Builder.
-	Network and Spend Mgmt
-		Digital Supplier Network Membership.
-		?Concur.
-	Training and Certification
-		SAP Learning Hub, Litmos, Live Access, Enable Now.
-	?SRM - Ariba, Fieldglass.
-SAP - CPI - Cloud Based integration services - combination of tools - help solve integration needs of interprises. API is new way - mgmt tool - 1 source system connected to multiple system - OData provisioning. OnPremise to Cloud. RabbitMQ server.
-	Offerings
-		Social Network Integration - with FB, Twitter.
-		On Premise
-		Cloud Integration
-		Subscription model - dropbox or cloud based.
-		Automatic upgrade and maintenance.
-		API Connector OData,
-		Smart Data Integration
-		Workflow, RabbitMQ.
-		IFlow, Eclipse, Groovy
-		Camel Notation
-		Predefined integration content.
-	Integral usage options - Data Integration, Integration flow, OData Service, Value Mapping.
-SAP - Best Team awards. 43 submissions - SAC predictive planning, ACR as a service, SAP CPI
-SAP - Stellar awards for best in everything.
-SAP - Indian Fitness League (IFL) 2020 - Fit@SAP Cloud - Count you in as a group.
-SAP - Lenovo T460 touchscreen that I had costed worth 948 EUR = 85K INR at that time.
-SAP - Diwali Gift Amamzon voucher and Diwali Gift box. Appreciation Voucher. Home Office Setup.
-SAP - Job Sharing - managers aligned on capacities swapped with someone else - working in tandem. Fellowships, Intern, offline, etc.
-SAP - SocialErp - Going Nuts 
-	Assorted almonds, walnuts, pistachios, cashewnuts, hazelnuts.
-	Sweet - raisins, Figs (anjeer)
-		Others - khumani (apricot), Khajur.
-	spiced up nuts - almonds and cashew nuts.
-	Nut cookie box - nut sticks.
-	Mulberry munch - contains seeds.
-	dehydrated fruits (candies) - orange, apple, etc.
-	Assorted chocolates
-SAP - Layered growth plan - North star architecture.
-	Business Network - All ERP Techs
-	Business Process Intelligence (across functions)
-	Origin of Trust - Sustainability Management - Intelligent Suite, Industry Cloud
-	BTP - Business Technology Platform
-	Infrastructure - Hyperscalers + SCP (4+1)
-SAP - Innovators at SAP (kinda club)
-Cloudfoundry - installer worked but binary didn't.
-	Show them plants - home erp lacuna. What to talk - varna with social implications. Stories of all ppl in Varna.
 SocialErp - Amritsar food - Paanch paani puri, bheega kulcha, Papad, vadi, rice basmati, desi ghee, patisa, daal waala laddu, etc.
 SocialErp - different glass buildings - software company buildings that I have worked in. Car ride to office during shift work. Astronomy at Infy. Not accepting room at Infy. Toilet stopping at udhampur, ladies in early days. Food courts for a reason and Id cards recharged with amount per day + money payable for more. Mama - pathankot students copying mama so proud. Gestures of students meeting in mall and bowing with respect. Madam you used to make us write application and find mistakes to rewrite as a result I became army officer. 
 SocialErp - traffic police, news, Amritsar famous, your car flaws and solutions, narrative forming - I am important and good books of master - never complaint from me. Songs. Marketing - any time you need to book a sleeper, news impacts in lives and beliefs like marriage wastage getting avoided by lockdown - all chhochha avoided and loans repayment. Safar da pataa nahi chalda with good songs. Road stimuli - tea - regular famous, story or experience reminder, scientific explanation - why dhuan here or fog and predictors for regular discussion. Drivers behavior - why he won't give way, tell me. Nau gaja peer baba. Sukhdev mera maruthal breakfast with paratha. Pahalwan dhaba - paneer bread pakoda. Interference in discussions - quick revenge nth in heart - ability to divert group dynamics to form a narrative with groupism - he asks me about food like child - you are like child - pakoda dig gya na chakki; you give to him like child.
@@ -1192,6 +1053,8 @@ EQ - Marry cuz Personal home, Social X insecurity , desire, growth, love.
 EQ - for scrum roll it up in dimensions like time space and layers. End result being ESMD or FDDL in general. Scrum blocks for day week month year decade lifetime.
 	communication is also layered personal home and social external partners.
 CS - HomeErp - Router home - 192.168.1.1 - password admin / 34E3804757F0. Written on the back of router. Study this web interface for configuration of ur router.
+CS - Cloudfoundry - installer worked but binary didn't.
+	Show them plants - home erp lacuna. What to talk - varna with social implications. Stories of all ppl in Varna.
 CS - Eclipse IDE
 	Perspective - Views.
 	File
@@ -1601,12 +1464,6 @@ CS - Cloud Foundry - org
 		hosted app route - app instance, processes and status.
 			task
 	Cloud Foundry provides a highly efficient, modern model for cloud native application delivery on top of Kubernetes.
-CS - Kafka
-	Apps interact
-		Producers - Publishes records to the topics in kafka.
-		Consumers - pulls records stored in kafka topics.
-	Streams - client library for processing data stored in kafka. Stream processors interact.
-	Connectors - a framework to build connectors for in / out movement of data between kafka and other systems. Like DB.
 CS - PySpark (Spark Programming in Python)
 	1. Data Collection and Ingestion
 	2. Data Storage and Management
