@@ -7581,17 +7581,21 @@ EQData - Finance
 EQData - Data Model Foods
 	Light (Bf and snacks)
 		Fried - French Fries, Potato wedges, 
+			samosa, pakoda - tikki X {bun}, 
+			Kabab.
+		Tea Snacks - Bhujia types, chips, Biscuits, cookies.
 		Chinese - Noodles (schezwan, spring roll), Fried Rice, {Manchurian, Chilli} X (gobi, babycorn, mushroom, paneer), sizzler (noodles topped by manchurian or paneer sabji, etc)
-		Fried - samosa, pakoda - tikki X {bun}, 
 		South - 
 			Dosa - Plain, Veg, Pan Dosa with Veg stew etc.
 				Dosa X {masala} X {Palak, Baby/sweet Corn, Mushroom, Pavbhaji, Dilkush, Chinese, Kerala, Mysore} X {Cheese, Paneer, Onion, Schezwan, chatni}
-			Paddu, etc.
-		North - Paranthas (sattu, alu, muli, gobi, paneer, laccha, onion, mix veg, etc)
+			Paddu, Idlis, Vada, Buns, etc.
+		North - 
+			Paranthas (sattu, alu, muli, gobi, paneer, laccha, onion, mix veg, etc)
 			{chhole, launji} X {bhature, poori, kulche}
 		chaat - samosa, aloo, kachori, etc.
-		Others - Poha, Sabudana, Litti, dhokla, phapadi, bhakarwadi, Paav X {bhaji, misal, dhabeli, vada}, puri (bhel, pani, dahi, papri chaat, etc) etc.
-		Foreign - Pizza - base (wheat thin, cheese burst, fresh pan, hand tossed) X Veggies (mushroom, paneer, golden corn, capsicum, tomato, onion) X Toppings (jalapeno, black olive, red paprika, more cheese or sth) ; garlic bread.
+		Others - Poha, Sabudana, Litti, dhokla, khandvi, phapadi, bhakarwadi, Paav X {bhaji, misal, dhabeli, vada}, puri (bhel, pani, dahi, papri chaat, etc) etc.
+		Foreign 
+			Pizza - base (wheat thin, cheese burst, fresh pan, hand tossed) X Veggies (mushroom, paneer, golden corn, capsicum, tomato, onion) X Toppings (jalapeno, black olive, red paprika, more cheese or sth) ; garlic bread.
 			Pasta, Nachos, burrito, quesdilla, taco.
 		Veg Roll - paneer, corn, chatpate chole, potato, veg, macroni X {Cheese, butter/meyonis}
 		Sandwich / Sub - Veg, Paneer, Mushroom, 
@@ -7606,16 +7610,17 @@ EQData - Data Model Foods
 			Coffee - {Latte, Cappucino, Espresso, Mocha} X {cold, chocolate, scotch} X {milk,}
 	Heavy (lunch and Dinner)
 		Appetizer / Starter - soup (manchow, sweet corn, hot and sour veg)
-			tikka - paneer (flavor - pudina), 
+			tikka - paneer (flavor - pudina), pakoda, kabab.
 		Meal
 			Rice - Plain, Biryani, Lemon, Ghee, Jira rice, peas pulao, curd rice, etc.
 			Breads - Types (Chapatti, Parotta, Naan, Kulcha) X Add-on (Kerala, Tandoori, Masala, Dhaniya, Garlic)
 			Daal - tadka, fry, makhani, chenna, palak, green peas, pindi chhole, rajma, 
-			Gravy - Combinations - Alu, Palak, Mushroom (do pyaza), Capsicum, Chana, Peas, Navratan Korma, Kaju, Malai Kofta, Tomato, Kaju, corn (baby), Paneer (kadai, butter)
+			Gravy - Combinations - Alu, Palak (sarso), Mushroom (do pyaza), Capsicum, Chana, Peas, Navratan Korma, Kaju, Malai Kofta, Tomato, Kaju, corn (baby), Paneer (kadai, butter), Bhindi, gobhi.
 				Mix Veg - Curry, Jaipuri, Kadai, Kolhapuri, Kurma, Jalfrezi
-				flavors - garlic, adarak
+				flavors - garlic, adarak, achari.
 			Dry - Aloo Jira, 
 			Curd/Salad - Raita, 
+			Mixed - Khichadi - variants.
 		Desserts
 			Cold
 				Kulfi - Dry Fruits (kesar, pista, mewa, badam)
