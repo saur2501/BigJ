@@ -53,14 +53,14 @@ CS
 	GIT SSH - https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git
 	https://stackoverflow.com/questions/21615431/git-pushes-with-wrong-user-from-terminal
 PIES - Personalize vs Process - always contact a person rather than asking process to work as expected.
-Scrum Retro - Tools Parabol
+LIB - Scrum Retro - Tools Parabol
 	Reflect - Liked Learned Lacked Longed for.
 		Maps to good bad ugly + Learning (abstract and concrete)
 		anonymous and timebound.
 	Group
 	Vote
 	Discuss
-How can we minimize the work - am I audible; Any ideas - pinpoint a person.
+LIB - Scrum - How can we minimize the work - am I audible; Any ideas - pinpoint a person.
 	you came prepared with probs then also ideas for improvements.
 	Meeting-less day.
 Scrum - Calendar blockings - when stuck then inputs from others - How would approachability work and transfers.
@@ -84,7 +84,7 @@ LIB - Scrum - We want war but don't have equipments with us - at least have back
 	Next time gimme lesser talk time - have no unmute button for meeting - I would rather have no mute button.
 	Action items of last retro and what's the status with that.
 	analysis - 60 reflections, 36 topics, 14 present.
-Withings healthmate sync with Fit@SAP Cloud - pulls only on sync trigger - takes up to 1 day. And check it once with withings server b4 SAP cuz we pull from there only.
+EQ - Withings healthmate sync with Fit@SAP Cloud - pulls only on sync trigger - takes up to 1 day. And check it once with withings server b4 SAP cuz we pull from there only.
 Arch - Risks foreseen for future - memory usage will increase if there would be frequent updates (nothing unforeseen left for future - benchmarking of memory usage anticipated etc)
 Communication - Planning (What all you gotta do and how to prioritize; suggested strategy best approach; precautions (risks), updates) - such trivial things to do, HCM (his nature, why he didn't go home, where worked, does he have bike); CRM - Sardarji - go and say thanks - call him if not visit him. Bangalore temperature (social erp).
 	Transactional first and then Connected master data of everything.
@@ -104,4 +104,276 @@ CS - Kafka
 			fault tolerant.
 			Store in kafka message logs.
 		Stream - continuous stream of messages can be handled. Stream processing apps - read and store back or pass on.
-		
+EQ - 
+	Khichadi - cutlery, paired with (achar, cucumber, veg raita, onion rings, papad), Sweet tooth, beverage, additional healthy (beans, punjabi kadhi, aloo jeera), starter.
+	Movie is intellectual side of other lives. Ashram only.
+	Burger
+		buns, tikki, veggies, cheese, sauces.
+		Cheese, Fries (regular, medium, king X peri peri), Beverages (cold drink or iced tea)
+LIB - Scrum - war room for ga if things don't move forward. completely new so another sync to show us to test it in sandbox - raw messages are generated.
+	prerequisite - december - we will finish by feb, onboarding should get into this.
+	it will take time - not a cake walk. Reach out to Abhishek, Me and Ashok - different component - dont be in hurry.
+	easily takes a month to get good at it - focus on 1 flow - like initial flow, etc 
+	pavan is available always for derivation.
+	special previliged people. Sathya has everything - I am saying this casually.
+	sathya is not the boss - she is different thing right now.
+	what moderation you are letting ppl go off - once in a while is ok - but against me - that's why it's important.
+	srini called 800 Rs per head to be ordered - order till day after tomorrow and reimburse it.
+	monday is last day - submit a meal bill. Something like pizza or so can be submitted. Fix a day which is common for us.
+	planning to order - align for one day. Monday I need all the bills. 7 can order on behalf of e1.
+LIB - straw poll app by SM for poll across the team.
+IQ - New laptop Machine - bigger screen hp touchscreen 16 GB RAM, model name, etc.
+	accessories - mouse, monitor, connecting cables, etc.
+	can also be couriered and previous one collected.
+	drivers - hp hotkeys for brightness and all. take help from Manjunath for doing that online - can be done anytime.
+	OS - edge already existed. Speakers and microphones tested.
+	SAP Softwares - Configuration softwares for certificates and all.
+		necessary softwares like office.
+		But I remain as Admin of my system.
+	SAP - compliance trainings - Information security, GDPR generic, RAW. HCM formalities, Events, projects.
+		SCM Logistics of KT, Facility management team, Food Management (can be SCM Prod but not really, it's HCM)
+		LIB - Concrete KTs.
+	IaaS - Infrastructure Details - gotta know standard commands that come outta box
+		windows, network details, settings, etc.
+	PaaS
+		Platform - JAVA, Python, etc.
+		Dev Env - IDE, Maven, GIT, etc.
+	SaaS
+		Already existing or installed ones. Microsoft Office, etc.
+		Developed ones. GITHub Projects, etc.
+		Logs for apps and utils for apps (conf, logs, data, etc)
+	Data
+		IO for Apps, tmp. It's a relation with apps not hierarchical under apps.
+	Settings
+		System, Devices, Apps, Accounts, Cortana, Search,
+		Phone, Time and Language, Privacy.
+		Network and Internet, Gaming, Update and Security, Personalization, Ease of access.
+		Accounts - Face, Fingerprint, Pin, Password, Security Key Physical.
+			Dynamic Locking, sleep wake up needs password.
+	uncat
+		Util Softwares chrome, acrobat, snagit, winrar, editor - notepad++, 
+		Project Softwares - refer to doc - devcenter, intellij, etc.
+		All softwares with MS and SAP as follows: as soon as we get our PC.
+		3D Viewer, Alarms and Clock, App Installer, Bang,
+		Big IP Edge Client, components, calc, camera, company portal,
+		feedback hub, game bar, get help, groove music, heif image extension,
+		hp system info, intel rapid storage, optane pinning explorer,
+		intel serial IO, Mail and calendar, maps, mcafee agent, endpoint firewall, security platform, security threat prevention.
+		messaging, ms edge, ms edge update, ms intune mgmt extension, office 365 proplus,
+		onedrive, solitaire, ms store, ms teams, ms visual cpp 64 and 86, mixed reality portal,
+		mobile plans, ms movies and tv, mvision edr client,
+		nexthink collector, office, oneNote, Paint 3D, people, Photos, Print 3D, SAP FOnts 2019,
+		SAP Secure Login Client, skype, snip and sketch, sticky notes, synaptics pointing device driver,
+		teams machine-wide installer, tips, voice recorder, weather, web media extensions,
+		webp image extensions, xbox console companion, xbox live, your phone.
+		New Laptop stuffs
+			downloads, desktop for quick access, media files - pix, docs, vids, auds, etc.
+			installation directory (Program files), shortcuts (Desktop Folder) and software installers (Downloads -> /home)
+			JAVA, Python, etc.
+			RPM, download untar, installers like brew, yum, etc.
+			1.2 GB Reqd - 661 MB - shortcut, add to context menu, create associations with files, path setting.
+				create project inside /home/user/app/project1.
+			IntelliJ, GIT, 
+			Rent cycles used for delivery.
+			Start menu folder, editor for git vim or notepad++, path env (use git bash only then no env var), 
+				windows certificate stores vs ca-bundle.crt files, checkout with windows formatting, terminal emulator - MINTTY vs windows default console window. pull default behavior (merge or rebase), credential helper. allow fs caching. allow pseudo consoles like for python and node.
+			adblock, vpn, etc.
+CS - Linux directory structures
+	/
+	IaaS
+		/dev - virtual files for the devices.
+		/media - removable drives as folder.
+		/mount - system admins use this to manually mount a filesystem.
+	OS (=windows)
+		/boot - boot files
+			contains the files of the kernel and boot image, in addition to LILO and Grub
+		/proc - process and kernel files
+			information about. to get runtime system information.
+		/var - variable data files - appData
+			programs store runtime information like system logging, user tracking, caches, and other files that system programs create and manage.
+			Eg - login history - not cleaned automatically. All logs also in here - mail server logs, system boot logs, kernel logs, etc.
+		/etc - configuration file (of system) used by admins or services (password file and networking files)
+			system config changes like hostname change is done here.
+	Shell - OS Facade (=windows system32 files)
+		/bin - binaries
+			executable files of many basic shell commands like ls, cp, etc.
+		/sbin - only su can run these binaries.
+		/lib - shared libs.
+			codes that can be used by the executable binaries
+	PaaS - softwares for dev or prod (= program files)
+		/usr - user program data and binaries.
+			all the executable files, libraries
+			/usr/bin - basic user commands. sbin for additional user commands. lib - system libs.
+			Eg - /usr/bin/python.
+			Observation - by default all apt-get installations go here and other parts like etc and all.
+		/opt - optional software
+			installing/storing the files of third-party applications that are not available from the distribution’s repository
+			eg - /opt/tomcat, /opt/eclipse-installer
+	SaaS and personal data also (=D Drive)
+		/root - for super user.
+		/home - for all users - has bin, sbin, lib eth.
+	Software Data (appData is actually /var)
+		/srv - service data like website data.
+		/tmp - temp files
+			deleted when your system restarts. Apps use for temp storage.
+	Eg - apt-get maven install writes to /usr/bin/mvn and also etc and /usr/share.
+		Just like program files contains application executables but data and configuration like registry details is somewhere else.
+CS - GITHub first push and OAuth 2.0 gets triggered with permissions asked for git configuration manager to access your repo's contents. You grant and it goes fine.
+Social - Clubs for everything I do - Hearing, Preaching and association; Company Project; Home and Friends Group; Foundational clubs online.
+	find a company for everything you wanna do and keep updating your resume thru those sessions.
+	This is not a replacement for personal SVAF but a complementary extensions which skyrocket your grats.
+PIES - I want streak in everything I do. This is very rewarding way of doing things rather than routine - routine is important for bhakti so many days you just do justice with bare minimum but every once in a while is a time for streak.
+resources for access and hardware
+	partisan - Teams channels, Outlook groups, outlook subscriptions
+	software resources access - cf spaces - sandbox, perf; auditor, DoD, BCP, JIRA, GIT.
+	environment creation - IntelliJ, Chisel, DB Navigator Intellij Plugin for HANA, Datastax DevCenter IDE, Cassandra, jmeter, postman, cloudfoundry.
+	Bookmarks - CRUD + Save, share.
+EQ - Emotions Set
+	Emotions	Defn	Level of elicitation
+	Affection		Spirit
+	Anger		Mind
+	Angst		
+	Anguish		Mind
+	Annoyance		
+	Anticipation		
+	Anxiety		
+	Apathy		
+	Arousal		
+	Awe		
+	Boredom		Mind
+	Confidence		Intellect/Ego
+	Contempt		
+	Contentment		Spirit
+	Courage		Intellect
+	Curiosity		Mind/Intellect
+	Depression		Mind
+	Desire		Mind
+	Despair		
+	Disappointment		
+	Disgust		Mind
+	Distrust		
+	Ecstasy		Spirit
+	Embarrassment		
+	Empathy		
+	Envy		
+	Euphoria		
+	Fear		
+	Frustration		
+	Gratitude		Spirit
+	Grief		Mind
+	Guilt		Intellect
+	Happiness		Spirit
+	Hatred		Ego
+	Hope		Spirit
+	Horror		Mind
+	Hostility		
+	Humiliation		Mind
+	Interest		Mind
+	Jealousy		Ego
+	Joy		Spirit
+	Loneliness		Mind
+	Love		
+	Lust		
+	Outrage		
+	Panic		
+	Passion		
+	Pity		
+	Pleasure		
+	Pride		
+	Rage		
+	Regret		
+	Remorse		
+	Resentment		
+	Sadness		
+	Saudade		
+	Schadenfreude		
+	Self-confidence		
+	Shame		
+	Shock		
+	Shyness		
+	Sorrow		
+	Suffering		
+	Surprise		
+	Trust		
+	Wonder		
+	Worry		
+HomeErp - Cookings - Sabudana kheer, Bread pakoda, bread pakoda rolls, rice kabuli chhole, bread bhujia sauce sandwich, bread kheer - thick, thin, biryani - alu, toppings - bhujia, sauce, shimla mirch, khichadi curd or raita, haldi kheer, palak biryani with lemon, poha with bhujia and tomato toppings and lemon and onions.
+PIES - How to measure your growth - some metrics - old files - I had got many better and structured ideas later.
+	Challenge yourself - Put yourself into a situation where you must demonstrate your advancement.
+	PQ
+		Games (once a week), NFP (every End of Month Test), Exercise Streak, Taekwondo.
+		Body - mensurate parameters
+		Mind - Problem Solver, cool headed.
+		Intellect - Aggressive Achiever
+	IQ
+		Lines of Jnana, Problem Solving, Make PPTs, documentation for others; Make Presentations, Make Vids, Q & A.
+	EQ
+		Adventures, Explorations, Small Talk Explorations, 
+		TV series, movies marathon with lessons at every layer (latest, bests, theme=wise)
+			Sensual - dresses, figures, nice way of 7's  sth (speaking)
+			Mental - I liked, I felt, characters' styles, dialogues, jokes
+			Intellect - Plot, Characters psyche, poetic justice 
+			Ego - Director's vision and movie response
+			Soul - Philosophical insights (hypo case studies)
+		Excellent Consumer - best car, best bike, etc.
+	SQ - extrinsic growth in symptoms doesn't mean SQ growing! But vv!!
+		Streak of Dhyan on sth
+		Ceto Darpan Marjanam - Listen to Atheistic ideas (strong ones)
+		Bhava maha dhavagni nirvapanam
+			Adhyatmik - body exercise, dare do it right (mind when you won't like it)
+			Adhibhautik - Make notes and response (where you went wrong, how would you rectify)
+			Adhidaivik - karma
+		Shreyah kairava chandrika vitaranam
+			Check the dots of life and connect them (nth to do; only observe)
+		Vidya Vadhu Jivanam
+			Go for Book distribution (dare answer the toughest questions on quora) - Taking help from seniors is allowed but it must resonate with you.
+		Anandambudhi vardhanam
+			intense spiritual streak (fasting from entertainment say on ekadashi, etc)- 16 (closed eyes)
+		Prati Padam Purnamritasvadanam
+			Regularly do 1 thing that you are fearful of - like go for harinam sankirtan.
+		Sarvatma Snapanam
+			NFP streak
+			sensitive to expressions of Anarthas - record your 
+				Lust (Hankering for enjoyment)
+					given?
+						yes - greed (plans for increasing my enjoyment) - law of diminishing returns.
+							compare?
+								pride (i am enjoying so much)
+								envy (7 enjoying more than me vs inspiration)
+						no - anger (when enjoyment is being denied; I am getting to enjoy it to its fullest)
+					Illusion (lamentation for enjoyment)
+Story - Shared a pizza with a roommate. And also ordered sabjis and stuffs - getting a hang of getting social. Creating a happy ambience around myself.
+Discussion - 
+	Goats are tastier in India. Pork, etc in foreign cuz they take care of their diets. Chicken - foreign bred for meat vs India tastier - the colored birds.
+	Licious has taken things ahead. Meat..sth is costly and more on variety.
+	Onsite both payments but costly so less savings. Indian meals very costly - 25 Euros for a meal - I charge for ambience - yo yo honey singh and doesn't know hindi.
+	New company O9 startup mode still so willing to share a lot. Weekends work is common. Surprising when it's not there. Computer games.
+	Friday bear plans but fought a guy then on - friday snacks and booking a hotel only.
+	which brand laptop - variety and buffer size. Onsite continuum without which no point in here - changing projects to ones never worked on tech - cuz gotta meet the numbers
+	ppl standardize it if you work extra hours - hey you didn't shoot that mail on saturday.
+	Going to restaurant asking for regular drink and strange look from waiter.
+Story - Driving - got reminded of excellent experience while searching for flats - I won't do it otherwise so great experience it was - mix of pleasure and burden of zimmedari.
+EQ - Unconditional acceptance - See, we gotta accept others for what they are - even if bags of shit we gotta accept them and plan accordingly. Eg - married and person is bag of liability still gotta accept them - same thing applies in other relations as well. 1 thing is don't expect too much and transcend whatever little troubles we find in the way - cuz there is so much to do than to bother. Let's not miss on opportunities.
+Story - used to listen relatable songs in that time - ek wo din bhi the, ek ye din bhi hain. baat ye bhi guzar jaayegi (Hehe).
+Movie - Simmba, Scam1992.
+CS - Learning Material as follows from different courses - Big Data - Github of learningjournal.
+	FP - Haskell exercises - Data analysis and Programming.
+	Apache-Kafka-For-Absolute-Beginners/   HadoopTutorials/             'PySpark Exercises LJ'/   Spark-Programming-In-Python/   Spark-Streaming-In-Python/
+	ApacheKafkaTutorials/                  Kafka-Streams-Master-Class/   ScalaTutorials/          SparkProgrammingInScala/       Spark-Streaming-In-Scala/
+	Angular/                                Ex_Files_Android_Studio_EssT.zip          Ex_Files_Deep_Learning_OpenCV.zip   Ex_Files_Pandas_EssT.zip                               REACT/
+	'Data Visualization'/                    Ex_Files_ASPNET_CoreMVC_Upd.zip           Ex_Files_JQuery_WebDes.zip          Ex_Files_Python_Data_Science_EssT.zip
+	Ex_Files_32_Ways_Make_Extra_Money.zip   Ex_Files_Building_React_Django_Apps.zip   Ex_Files_Learn_Java_Swing.zip       Ex_Files_React_js_EssT.zip
+	Ex_Files_Accelerating_TensorFlow.zip    Ex_Files_Deep_Learning_OpenCV/            Ex_Files_Linux_Security_EssT.zip    Glossary_Data_Driven_Network_Security_Essentials.zip
+	Casual/   Express/   GITHUB/  'Interesting Snippets'/   JS/   JS_World_Workspace/   NodeJS/  'NodeJS SAP Training'/   npmTrials/   TensorflowJS/   TP/   TS/
+	OpenSAP - Suse, Excel, Being Visual, etc.
+CS - Kafka server scripts
+	./zookeeper-server-start.bat ../../config/zookeeper.properties
+	./kafka-server-start.bat ../../config/server.properties
+	./kafka-topics.bat --create --topic quickstart-events --bootstrap-server localhost:9092
+		./kafka-topics.bat --create --zookeeper localhost:2181 --partitions 1 --replication-factor 1 --topic topic1
+	./kafka-console-producer.bat --topic topic1 --bootstrap-server localhost:9092
+	./kafka-console-consumer.bat --topic topic1 --from-beginning --bootstrap-server localhost:9092
+IQ - Used bookmarks manager to export and import bookmarks in chrome - when migrating my system.
+CS - Sometimes browser is configured with proxy.pac file to act as proxy server from the machine.
+	when many proxy servers exist and based on the hostname used in browser the proxy server should be decided.
+	A sample statement in such file looks like follows - if ( shExpMatch(host, "office365.com") ) { return "PROXY 194.138.0.25:9400;PROXY 194.138.0.26:9400"; }

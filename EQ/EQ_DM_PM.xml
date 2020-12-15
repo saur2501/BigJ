@@ -140,12 +140,14 @@
     <HomeERP>
         About - Home ERP - DMPM of everything found in home and related stories
         Home ERP View - Think of this as process model primary use cases which need to be explored into deeper levels (DFD Levels)
-            CRM or marketing (serving guests, organizing parties/ events)
-            SCM (logistics - standardized products, production - cooking)
-            SRM (purchasing experiences)
-            FIN (money expenditure)
+            CRM or marketing (serving guests, organizing parties/ events) - stories.
+            SCM
+                logistics - standardized products (being resourceful)
+                production - cooking (food consumption)
+            SRM (purchasing experiences) - shopping life.
+            FIN (money expenditure) - balance sheet.
             HCM (healthy family relations and routine processes, cordial environment for conducting business), projects.
-            Foundation - Master Data.
+            Foundation - Master Data, security.
         HomeERP - Secondary Economics (High level view)
             Personal Wearables - Internal, Clothing, footwear, accessories, exceptions.
             Electronics - wearables, mobile, tablets, laptop, Desktop (gaming/ peripherals), TV, Home Automation, Camera, Networking.
