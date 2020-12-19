@@ -377,3 +377,219 @@ IQ - Used bookmarks manager to export and import bookmarks in chrome - when migr
 CS - Sometimes browser is configured with proxy.pac file to act as proxy server from the machine.
 	when many proxy servers exist and based on the hostname used in browser the proxy server should be decided.
 	A sample statement in such file looks like follows - if ( shExpMatch(host, "office365.com") ) { return "PROXY 194.138.0.25:9400;PROXY 194.138.0.26:9400"; }
+EQ - Shadi DMPM
+	Search, shortlisted, visitors, phonebook, contacts, matches - recommended, just joined, mutual, desired / looking.
+	Interest sent / receied / filtered.
+	acceptance.
+	Near you, shortlisted me, viewed by me or vv, premium, matches or new.
+	Near you shows in home.
+	Mailbox shows chat, acceptance, decline, etc.
+	Notification - view, msg, events. Search - by id , saved.
+	Profile Preference -> search (id, saved) by matches premium, near vs love -> viewed or visitors -> shortlisted -> chat, explore, unexpressed things - active or recent. -> Interest sent or received - proposal - accepted or not -> meet for subjective experience -> withdraw if at all.
+	This flow maps to reality as well HIMYM - but jumps are possible and time tenure is an issue.
+	arrows above correspond to notifications.
+	P, V, SL, C, I - Profile, View, Shortlist, chatted content, interest.
+	start -pref (photo, desc, ML cluster)-> candidates / indiv explore / confirm for others / filterable -> shortlisted -chat-> interest -subjective-> bets -> contract with verifications (B2G, B'2G, B2G', B'2G', F2F)
+	Stakeholders - B2G, B'2G', B''2G''.
+Uncat
+	50100191043804
+	50100177727444
+	appam, idiyappam, veg stew, veg pothichoru. puttu with kadala curry.
+	Idli, sambar, chettinad, dosa, vada, uttapam, banana bonda, rasam.
+	Ragi Mudde And Sopinna Saru: Healthylicious.
+	Korri Gassi: Flavours Of Karnataka.
+	Obbattu Or Holige: Sweet Parantha.
+	Kane Rava Fry: Epicurean's Delight
+	chow chow bhath, mysore pak, bisibele baath, 
+	Kandhi Podi. ...
+	Gongura Pachadi. ...
+	Ulava Charu. ...
+	Pesarattu. ...
+	Ragi Sangati with Natu Kodi Pulusu. ...
+	Akura Pappu. ...
+	Royyala Veppudu. ...
+	Gongura Mamsam.
+	which boum2 daily and over takts.
+	Y deliver to customer so late after T2.
+	Y dev close at all - no access to ACL
+	Joke vs serious - conformity vs spontaneity - liberitans vs conservatives. - gotta balance.
+	PC be my workspace and cloud for persistence.
+	What was BR funda in there.
+PIES - Measure Ashram in - Shopping (SRM), cooking (foodie life, SCM Prod), entertainment (HCM), Decor or resourcefulness (SCM Logisitcs), Networking (CRM), Security (Foundation).
+TODO - RC Scan and insurance.
+IQ - CS - LIB - Business Model - let's solve some problem - what's the use case.
+	Functional specification - Please specify the system - as it is viewed by the customer - DMPM (master and transactional).
+		Technical specification system design aka architecture - DMPM master and transactional - tools (eg - which DB, distributed, etc) and resources - how they are supposed to interact for SE.
+			LLD - Class Diagram and code walk thru and code standardizations to server higher layer.
+	Every layer serves the layer above.
+	Take eg of BYD and LIB to relate.
+	This should reflect in all your sume of prods worked on.
+SAP - BYD used command pattern (command triggered from UI mapping to specific classes), visitor pattern (cuz same treatment to all the classes), template pattern is always there. Factory and builder and commonly used and also singleton. Strategy is often used. observer becomes important in subscribers' case - used in abstract data ingestion.
+Uncat
+	Scam 1992 - plot from scenes perspectives.
+	GDPR - anonymize, deletion, right to knowledge. CRUD of data with user - I create data, I have right to retrieve all my data with the system (what all places), I can update the data, I can anonymize myself And also delete data I created after retention period.
+	Microservice app KT should be HLD and LLD (so functional and code walk through)
+		how problem was solved thru available services and how is it solved in algorithm - LLD.
+		so just 2 levels of UML diagrams = that's it.
+		Varna is getting paid for a problem that you have or are solving. You should get enjoyment in both of them.
+Bank - Debit card
+		Delivery attempts numbering
+		Valid id proofs - Passport, DL, Employee Id, Election ID, photo debit credit card, PAN card, pension payment order, freedom fighters pass, valid arms license, valid bar council id, aadhaar card.
+		card on letter.
+		Benefits - Central mall voucher. Kaya voucher. driving voucher.
+			TnC for benefits.
+		Manual - Limits - 1L,5L (ATM, transaction limit), International (2L, 2L).
+		automatic swipeless without pin.
+		card - your name, card number, EMV Chip, Expiry date, validity
+			magnetic stripe, customer care number, cvv number, grid values, signature panel.
+		Dispatched thru partner blue dart.
+		ICICI Bank expressions debit card. Image, internationally valid.
+			international transactions - switched on thru - internet banking.
+			ATM pin Generate - Internet Banking, IMobile, Customer Care, ATM Visit.
+			blocks existing card by using new card in 48 hours.
+		CRUD - block the card if lost thru Internet Banking or IMobile App (clickpath) or customer care.
+LinkedIn
+	Post - share, hide, report, like, convert - fetch upto 1 level, time.
+	Persons - follow, unfollow, tagline. Recommend.
+	Feed.
+	Profiles - connections, invitations, hashtag.
+	Messages.
+	Notifications their events - anniversay, delete, unfollow, turn off.
+	Job suggestions - Apply, save, viewed, saved, not for me, applied.
+	New, trend or recent, most viewed, ted talks.
+	search by interest / topics, podcasts.
+	me - log, lists, likes, download, history.
+	Vid - play, pause, rewind, fwd, back, next.
+		speed, share, min max, captions.
+Youtube
+	Me - channel, stats, switch acc, incog, settings.
+	Search - from ppl channels, feed, CRUD.
+	Vid - like comment, share, download, save
+	other - subscrie, bell notification.
+	Trending
+	subscriptions - vids from ppl, manage ppl.
+	library - all folders.
+Make friend - casual, close, intimate. Y? cuz bhakti of EQ.
+	spiritual side is to see them more than utilities.
+	Formal - colleague to partner; like to love in informal - better is this lead, prospect, customer.
+	stages triggers - mutual benefit P2P, Empathy relate, know him, liking things; similar beliefs and values; always there for me, well being.
+		make you comfortable, no judgment, talk eth with, hels when alone or hurt. being understood. Nature proclivity, propensity.
+		sync of feelings.
+GDPR - right to know which resource is being used by which all apps - like microphone on windows, camera; similarly in smartphone - smartphones come with more IO and sensing devices so Android gives RTI.
+Taking a ssession or presentation is presenting a world of knowledge - like LA for derivations - dont just say it but do it and address all queries.
+IQ - CS - Types of work
+	Infra and Platforms
+	Softwares
+		Data Management - Managing your resources.
+			Managing Master, Transactions and Configs for people or things (IoT). Facebook, IoT, Twitter, etc. Can use lots of tools in the market like kafka, redis, etc.
+		Implied or Innovation - Cool features - implied informations that you may find really useful - using algos and approximate algos.
+			Spark GraphX. IoT+ can be very powerful. Here also analytics is used thoroughly but not over huge volumes.
+			There's a lots of fun in connecting different apps, features, capabilities, etc in interest of final users.
+	Data Generation - Using its essence as testing for some capability to be used for innovative software.
+		Data Engg - analytics (insights into or transformations) over the existing archived or persistent data no matter how big (V3). 
+			Pandas and Spark Gen - describe and explore or confirm. DA follows from here.
+		Learning - what patterns or information does your data reveal.
+			ML for predictions and prescriptions. Spark ML.
+SAP - CS - GIT SSH access
+	ssh-keygen -t rsa -b 4096 -C saurabh.devgun@sap.com
+	eval $(ssh-agent -s)
+	ssh-add ~/.ssh/id_rsa
+	clip < ~/.ssh/id_rsa.pub
+	git config --global http.sslVerify "false"
+	git clone (ssh_link) - authenticate do you? yes.
+		Git Credential manager - OpenSSH - command promp credentials.
+	mvn dependency:resolve
+		the only problem is that if it is maven modules based project - this won't do it.
+	mvn clean install - java compiler not found - configure it in pom and secondly JAVA_HOME or path is used by maven so after that it would work.
+vanity patch
+Movie - Laddakh warriors
+	preparation for extremes, personality devp, younger brother (nanu)
+	ultimate purpose of the training being - emerge winner - strategies are important - take advantage of fog (opportunities in adversity), never lose the ground, physical capabilities enhanced and standardized; solve a problem of winning or defending given a situation - in terms of capabilities.
+	I was just doing my duty - winning a medal was nowhere in my mind.
+	can't forget team - that's what makes the scouts - honor them as ritual.
+	marathon run with weight on top. 18 Kg gun and bag 4 Kg but team with you. High altitude less oxygen and severe cold.
+		all are serving or preparing to serve their best. bhaichara is important - more than physical it's mental test - you need bravery and zidd.
+		gurudvara patthar sahab - teerth sthal and buddists accept guru nanak and buddh guru - guru gompka maharaj.
+		many months for this prep and real life prep is going on.
+		another marathon 72 Km and these guys make it to top 10.
+	training for weapon - assemble and vv. with eyes closed - in matter of secs.
+		st with weapon that jams in cold.
+		run and shoot - cuz tired and can lose the aim.
+		LMG - light machine gun.
+		arrow shooting and also competitions - music accompaniment.
+	camouflage training. PASS THRU fire smoke - gotta stop breathing and change gun positions.
+	crawl under fences.
+	climbing on mountain. tools and with bag. ropes and knots.
+		Ibacks mountain animal. run but 90 degreee angle and gotta control speed and avoid slippery.
+		death if slip and confidence that yes I can do eth.
+		changpa kabila - changthang pathar survival.
+	snow gliding and fighting.
+	war simulation. smoke candles, ghabarahat and afratafri - remove the fear. guidance while that happens - every movement.
+		no time to even breathe - make them move and death in real life.
+	relp with instructor like feel and emotions - friends relp - we become member of family. Team spirit is deeply inculcated. sing together.
+	whatever you do you gotta be god of the arena - khatri to offer best service, business man to offer best service; talent to offer best service and Researcher to offer best service.
+	There are always leaders or architects above engineers. The hierarchy always exists - meaning your ability to service at the best that your junior is inspired to serve under.
+SAP - New year holidays - magic.
+CS - Why use maven modules - 
+	Monoliths with tiers vs
+	Microservices - separate apps with needed talking with each other. Parition your big app. Even UI becomes a microservice.
+		vs DAG of dependendencies from devp space - not outside like MVN - different modules - eg - x4, BAF, Foundation used by all the functional modules simultaneously - if this was the case of parallel functional devp then foundation could be a separate dependency to be used thru maven but we want simultaneous devp so using it.
+			Think of this as single dependency of your project which doesn't need to be a separate project until there are many consumers for that jar.
+			let's call maven modules as project dependencies only but restricted to the scope of the project.
+		vs package - package is within a single focussed app - unique purpose served thru a set of packages.
+SAP - CS - Some resources accessible cuz your system has certificate and others need you to be inside the intranet - that's when VPN becomes important.
+IQ - mouse lock, volume, wifi lock, 2 port usb, etc.
+	ctrl,alt+double click.
+	3 KTs - functional arch code X theory, practical.
+CS - Text mining in R
+	frequency; correlations
+	classification naive bayes, 
+	sentiments by classification algos; sentiments by function (positive - negative words)
+	Topics by frequent unique terms LDA algo.
+	Network analysis
+	clustering
+	NLP - Regex, Processing, Named entities, patterns, topic modeling
+	feature extraction, text classification.
+	words similarity like king and man. predict next word, spam classification using cnn.
+Movie - Tanhaji
+	kondhwa sinhgad fort. Make your own sword.
+	gorilla warfare - strategic positions to win the war.
+	kalyan gate kondhana fort.
+	using pulleys to the fullest - how to take up the fort - pulley.
+	He got what he truly wanted.
+LIB - IQGrats - URL -> App sandbox -> SSH into it -> GITHub of its readme -> shell uses newman command to run postman collection for results.
+	Kafka and spark outside sandbox container. IOT Gateway includes device management - sensor, sensor type, capability, etc not in sandbox but writes to raw kafka topic sandbox.
+	IOT Gateway url - tenant/device with payload containing sensor info. Even measurements (master, transactional is all handled by gateway).
+	IOT Core Services takes care of Thing world master and mapping. Transactional is handled by IOT AE.
+	My system is contacting IOT Gateway URL thru JMeter to write something in there - it refuses to recognize me or my system certificate - cuz the keystore ain't proper.
+	IOT AE starts with assumption that data is coming on raw topic of a space (sandbox or so) and from there we start - can have a simulation app to write on raw topics.
+		performance space doesn't use simulation but they use IOT gateway as well to write into raw topic. Direct writing with mild formatting from sensor - data sent thru endpoints.
+		IOT Device like arduino or raspberry pi is responsible to send data to IOT Gateway - of course after initial registration of device, sensor, capability and all.
+	E2E delay is measured by DTE but stored in hana db later retrieved by MDS if queried. async of dte keeps writing to de and hana worklist tables from processsed topic.
+	Interestingly IOT Core services is written in nodejs. Power of microservices. Reading package.json for git repo.
+	IOT Rules master is different team, IOT Thing modeler is apparently a team different from IOT Core services but with mild differences we can't separate them from management perspective.
+	SAP IOT has 408 members, 65 teams, 366 repos.
+LIB - BeanShell Sampler is where the keystores are being configured.
+	Observe the script - it looks for keystore in the current folder - in bin folder it should be there I said cuz that was under assumption that you trigger the program from that directory.
+	The beanshell sampler already says look for it in current directory but I ignored it - giving precedence to the senior's words => logic should always take precedence over words.
+Uncat
+	th-gr-td
+	class="th-tabc-tab th-tl-wrapper"
+	th-ty-cnt
+	th-ty-pl
+	th-box
+	th-box-i3
+	class="th-ty-bd"
+	th-tabc-cont
+	ch-grid
+	svc-text-object
+	svc-info-tray
+	svc-text-memo
+
+	th-l-bcbacktable
+	class="th-l-bccellback th-l-bc-cell"
+	th-l-backbtn
+	Anchor - Back to Previous Page (Alt+Left) title; id = BackButton, class = th-l-bc-a; 
+
+	C47_W147_V148_V157_Items_Table[2].OBJECTID
+		class = th-lk; 
