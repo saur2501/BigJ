@@ -593,3 +593,7 @@ Uncat
 
 	C47_W147_V148_V157_Items_Table[2].OBJECTID
 		class = th-lk; 
+EQ - Lapse - Wifi vanishing to manual retry after - cuz usb connected and it was giving precedence to connecting to internet thru USB hotspot - removing it solved the problem.
+Windows - add pin - 
+	Microsoft authenticator and phone call or text.
+	
