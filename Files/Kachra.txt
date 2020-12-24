@@ -596,4 +596,187 @@ Uncat
 EQ - Lapse - Wifi vanishing to manual retry after - cuz usb connected and it was giving precedence to connecting to internet thru USB hotspot - removing it solved the problem.
 Windows - add pin - 
 	Microsoft authenticator and phone call or text.
+	mysore bonda.
+No calling and on time delivery - so he didn't deliver.
+	Customer support - refund and 160 Rs discount
+	HP Software framework not installed or running.
+	ftp://ftp.hp.com/pub/caps-softpaq/cmit/softpaq/CASLSetup.exe
+	InstallShielf Wizard for the framework. Expert at reading your current system and its drivers and downloading relevant - is this software generic or system specific - read its name - it is generic for all hp not even for model specific.
+	
+ "spark": [
+   {
+    "binding_name": null,
+    "credentials": {
+     "cluster": "hcpbd-aws-canary-prod01-leonardoiotstaging",
+     "externalId": "leonardoIotStaging",
+     "password": "aa_zsP3NvUqADG/cM+CeYshJMrSr+4=",
+     "tenant": "98635965-2273-4fd3-964c-a7510c2b75a2",
+     "url": "https://spark-service.cf.sap.hana.ondemand.com/v1/98635965-2273-4fd3-964c-a7510c2b75a2",
+     "urls": {
+      "historyproxy": "https://spark-historyproxy.cf.sap.hana.ondemand.com",
+      "logs": "https://spark-service-logs.cf.sap.hana.ondemand.com",
+      "service": "https://spark-service.cf.sap.hana.ondemand.com/v1/98635965-2273-4fd3-964c-a7510c2b75a2",
+      "uiproxy": "https:/spark-uiproxy.cf.sap.hana.ondemand.com"
+     },
+     "username": "sbss_ufspwgpyqwr076ytgqbwtk8okck="
+    },
+    "instance_name": "spark-service",
+    "label": "spark",
+    "name": "spark-service",
+    "plan": "v1.6-dedicated",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "spark"
+    ],
+	"volume_mounts": []
+   }
+  ],
+LIB - Spark Explorations - 
+	BOT_HDI, Space, Application -> Credentials (spark)
+	Spark -> plan, name, label, instance_name, SparkCredentials.
+	SparkCredentials -> tenant, tenant_url, username, password, helpfulUrls, cluster, externalId.
+	IOT_suffix cluster for each space with different tenant and credentials and IOT_Perf cluster same for all spaces but different tenants, different credentials.
+		earlier even iot_suffix didn't exist - only IOT Cluster with different tenants and clusters.
+	So now, n spaces => n+1 clusters - 1 for performance cluster. Tenants = 2n (perf separate for spaces)
+		tenants are repeatable so another request you fire for credentials - same tenant gets used.
+		same spark base url but has path to tenant so 2n different urls for spark service - for each tenant - when you enter credentials on spark ui proxy - you get view of only your projection spark cluster (in case of perf), in case of std, you anyways have separate cluster so credentials give you view of your cluster.
+		live spark ui proxy is different url - tenant is again the logical view you get presented with after entering credentials.
+		So when monitoring asks give me context status for all the jobs in sandbox - you get presented with all the jobs running on your cluster for standard and all the jobs running for your view (your tenant) for perf space.
+	similarly with kafka, same base url for all, tenant in the path of service url for different spaces, 
+		brokers on different urls within space and across space both.
+		so unique kafka against every space but on different machine like spark. so kafka n spaces, n tenants, k*n machines with corresponing different machine brokers.
+	Now these service urls are utilized by different tenants in SaaS IoT System world. The tenants used in Env Bots are all PaaS tenants but in SaaS world, we talk about SaaS tenants.
+	What does same base url mean? means same machine (logically; physically it could be distributed) has hosted web server or whatever server.
+		you give credentials or specify tenant and the machine knows where to direct your request or do work itself but give you illusion of being on different cluster or machine.
+	spark (landscape, tenant) -> spark-service instance create (client) -> service key instance (handle or alias for credentials) -> 
+		Seq - Spark Application -> Spark Libraries -> Spark Context -> Spark Submit.
+		Details - 
+			Spark application while running becomes a spark job - create app using REST credentials, appName, contentType, mainClass, languageType, SparkApp Endpoint.
+				App consists of one or multiple Libs and can have additional configuration parameters e.g. a MainClass if it's a Java app.
+			Spark Libs - Add Jar libs to the app - Add libs using REST - appName in path, contentType, credentials, SLUG libname, path to your jar, endpoint for libs.
+				 a library with code like a JAR file for Java
+			Spark Context - Create a context with this name using REST - credentials, SLUG, content type, parameters, spark url for context endpoint (landscape and tenant in there)
+				environment in which you can run Submits
+				Spark Context - environment in which you can run Spark jobs
+			Spark Submit - submit your app to the context created. Using REST - credential, SLUG SubmitName, contentType, appName, Config, url endpoint for submit, contextName in path.
+				execution instance of an App running on a Spark cluster
+		SWAGGER API Endpoints
+			/apps - Resource representing all apps belonging to a given tenant
+				libs in it.
+			/context - Resource representing all contexts belonging to a given tenant
+				submits in it.
+			/metrics - providing statistical and metrics information about contexts as described in the Spark documentation
+				context, jobs, stage, attempt, executors, stream, rdd, batch.
+			/advertisement - allows managing shared service instances
+			/files - accessing files in the underlying HDFS file system of Spark.
+	Hana credentials are same however. Port and schema become different and also the user password credentials.
+	Kafka (landscape, tenant) -> 
+		Seq
+			service instance -> service key (credentials) -> service binding (app with instance, has env - environment variables for application),
+			Topic create -> Message write to topic
+		Details
+			service key provides the IP addresses of the brokers in your cluster, as well as some URLs and credentials for service endpoints that will help you manage your topics and setup your client for communication with the cluster
+			Create Topic - Credentials, slug topic, contentType, paritions, repl factor, endpoint for topics.
+			Create Message - credential, contentType, Messages, topic name endpoint.
+		Swagger API Endpoints - 
+			Topic - The topics resource allows managing topics in a cluster
+				topic name, message, config, partition.
+			ConsumerGroup - The consumer groups resource allows managing consumer groups in a cluster
+				groupname, member, offset, partition.
+			advertisement - advertisements resource allows managing shared service instances
+				id, refs, resources.
+			connectors - connectors resource allows managing connectors on associated Kafka Connect workers
+				name, task, status, restart, actions.
+PIES - NFP - Excitement vs Happiness - Stay high paying proper price vs short high trip with a hack.
+	former comes with facing difficulties. The latter comes with escaping difficulting and hacking into high.
+	SVAF is never meant to be easy - the easiest thing to be is stay an animal but even that is full of difficulties - survival of fittest.
+	difficulties tap you to endorphins and that's also awesome but with goddamn price for happiness.
+	If angry with Krishna, take shelter of social high (even that's not easy) - to get excitement is easiest but such fake trips don't take you anywhere.
+	Not that I can but I do face difficulties every single goddamn time.
+	Socializing pleasure isn't easy but if you lose yourself unto that without your personal ego channel still you will feel busted - so the exponential curve of healthy life is always important.
+	Problems st show up in material transactions like "what the heck you did" - but the real problem exists in config "this vulnerability always existed, just that bad situ didn't show up". So, work on your anarthas cuz transactions can bring something undesirable, they may not but why keep a stool like problem with you.
+	What if I don't want difficulties - then you should either settle with lower happiness which is against your constitutional position and so or otherwise, you will be forced to hack into cheap highs and stay on the lower strata - we do see the highs of different chakras but get to a higher layer, demands a goddamn price.
+IQ - Sequence of asking for help in case of interdependency
+	Can talk to equals asking for suggestions. Ask in group chat, ask specifically some senior in charge, if still not sure, ask any senior, ask PO or SM for help.
+IQGrats - JAVA_HOME is required for MAVEN else any amount of configuration simply busts it - solution set JAVA_HOME variable for the session of maven run and then get rid of it.
+	The same idea can be extended to other tools as well.
+CS - CentOS launch another shell thru another tab OR use background jobs.
+CS - Set maven's JAVA_HOME to anything higher than the release you wanna use and it will happily do it but not vv.
+	Scala plugin is both mvn and IDE requirement - former to compile and latter to make it run
+	set JAVA_HOME for the session in which you want to use a certain alternative.
+SAP - Home Health Checkup - Appointment fixed with standard service providers. They came collected blood and urine and went - communication gap in their office so rescheduled on their own thrice but late comers still visited.
+	Book Dr appointment - appointment with clinical psychologist not psychiatrist - 30 mins. For 1K.
+	DNA test is chargable so didn't go for it.
+SAP - Psychologist consultation planned. Talk to a doctor - select a section - doctor assistant will take details and find the best doctor for you and payment details to enrol into.
+SocialErp - Psychologist vs clinical psychologist vs Psychiatrist - 
+	general psychologists focus on healthier people, while clinical psychologists focus on people with more serious mental health issues. Regardless of where they work, clinical psychologists help patients with behavioral and mental health issues.
+	Psychiatrists are medical doctors, psychologists are not. Psychiatrists prescribe medication, psychologists can't. Psychiatrists diagnose illness, manage treatment and provide a range of therapies for complex and serious mental illness. Psychologists focus on providing psychotherapy (talk therapy) to help patients.
+NFP - average (median) time before orgasm was about 6 minutes, and ranged from a blissful 6 seconds to a marathon-paced 53 minutes. The majority of men lasted between 4 to 11 minutes, with anyone lasting longer than 21 minutes being considered an outlier.
+	Ginger, honey. Ashwagandha (2 weeks enough to show effects). Yauvan. Milk and dairy. Green Veggies, Lady finger, peanut, avocado, multigrain.
+	No smoke, alcohol, 
+	Balanced diet – Avoid foods like chocolate, chillies and caffeinated beverages. Consume diet rich in zinc, selenium, calcium and iron for better control and strength.	
+	sleep, stress, exercise, diet, hydrated. Kegels, weight.
+	For the most part, yes, the components that make up semen are safe to ingest. Swallowed semen is digested in the same way as food. However, in very rare circumstances, some people might discover that they're allergic to semen. This is also known as human seminal plasma hypersensitivity (HSP)
+Wiki page is enough - framework on 1 page. Test on another page. Staging configuration file and tests - create another page.
+PIES - first of all lapse should never happen and if it happens, it should never repeat - so, the idea is enter into things with proper intelligence or planning and if at all there is a lapse, you gotta learn from it immediately not experientially but conceptually so that it never repeats.
+PersonalErp - Driving 
+	Trying to overtake and blocking others especially those coming from opposite side. Solution - first look and confirm that they are far from the clear way and they with horn overtake and take your regular position - the gap should be significant and should not be a challenge.
+	When cow comes in front, give horn or wait or manuever with confidence but not in a rush - the pressure of crowd - no pressure, see, it's a legitimate problem we have to overcome.
+	IntelliJ dependency analyzer can do the job of dependency tree. External libraries don't show up if some error - go to project structure and libraries - check the error
+		invalid classes root - this solved thru invalidate cache and restart. OR maven reimport. Or remove and add the dependency.
+	Build on master failing - it is less probable because it is same as Commit and we make sure jenkins pipeline runs fine before PR merge is triggered. So, Jenkins foundations02 pipeline trigger and compare to that - it works - now take a fresh pull on your system same as master and try on that - no change at all. Add your changes on top of that.
+Chess - line of attack - source of line of attach (Kill the source), don't cross their line or restrict their line thru another attacker.
+	move with a backing, Chessmate = you must move but you can't move.
+PIES - I fear somebody will think I don't know something - lapse of jnana is better than lapse of bhakti - that's the first rule. lapse of dhyan is better lapse of jnana. lapse of karma is better than lapse of dhyan - you struggled to achieve something but you what all you did. You tried that is ok but you don't know that this is not how it works! You don't know how it works is ok, but you don't even want is bothersome.
+	scrum updates in all SVAF abstract and concrete - every day. Updates outta NIC+E - fear driven is still good but struggle is better word, desire driven for something interesting you did in an update, duty driven of what was supposed to be done. Love of how it was fun.
+	Scrum circles - Varna C office, Varna A colleagues, Ashram A relevant friend circle, Concrete A family and friends, Spiritual Concrete - some temple connected to, Spirituality abstract - some sajatiya dev or counselor system, Foundational C - relevant groups like NFP, December Run, etc; Foundational A - family and friends (how is health) - as observed there's huge overlap between ashram and foundation so merging their scrum.
+	SVAF growth is meant to be tough, if it was cake walk, eb could do it - it's not just personality (behavior) but also character (attitude) struggle or challenge. Without the price you don't get anything. So, forget hacks, anybody has become anything in life is actually worth respecting cuz it is paying a heavy price in cultivating behavior and attitude thru BJDK with persistence or tapasya.
+PIES - SocialErp is Varna realm's projection in Ashram and PersonalErp is Foundation's projection in Ashram - Ashram is primarily about HomeErp and Networks.
+LIB - Redeploy the config application - link = https://foundation02.codepipes.wdf.sap.corp/job/foundation02/view/CI%20Package%20Configuration%20Pipeline/
+SAP - IQ - Device not identified - company portal -> Settings -> Sync my device (manual) - done.
+SocialErp - Plumber - for fluid movement - Taps, toilet, etc - Toilet flush needs lubrication from below not above. The part of push flush needs replacement, kachra in the tap orifice. Balcony water stuck.
+CS - Using logger in spark app - spark/conf spark-default.conf file write the following line
+	spark.driver.extraJavaOptions	   -Dlog4j.configuration=file:log4j.properties -Dspark.yarn.app.container.log.dir=app-logs -Dlogfile.name=hello-spark
+	spark app only needs hadoop windutils in its path - not SPARK_HOME but the path for latter can help in other places but not in standalone  problem.
+	spark per hadoop version number, pyspark version and spark version should match (similarly scala version and spark against scala version should match. download package - pyspark for IDE - similarly scala for Intellij.
+	SparkSession is the driver not your main program. Note cmd line shell.
+	Anaconda - python distribution, Spyder and Jupyter all come with it. Pycharm is favorable IDE.
+	Just bookmarks - IDEs also have config saved in a file and later export it for new machine or installation.
+SAP - Mobility_Support_LabsIndia@sap.com for internet hotspot device.
+	My company provided hotspot is giving me troubles lately. Internet stops all of a sudden and the device also gets discharged quickly.
+	The problem is precisely with the device as the sim was able to extend internet to me when moved to my smartphone and another sim with internet when inserted into the device faced the same problem of “ not extending the internet”.
+	Kindly let me know what I could do to have a replacement for my current hotspot.
+SAP - Health Report Card
+	Vit D, B12 marginally less, Triglycerides high not just borderline high and VLDL (but fasting not enough 8 vs 10-12), IRON deficiency , High serum copper. Very high LIPOPROTEIN (A) [LP(A)], VANADIUM, BERYLLIUM.
+		Triglycerides - Reduce weight, less sugar, less carbs, more fiber (fruit, veg, grains, legumes), Aerobic exercises. Reduce trans fat (fried baked by hydrogenated oils)
+			omega-3 fatty acids, regular meal, less alcohol, add soy, more nuts, garlic.
+		D - Soy milk, Mushrooms, cereals, Fortified -> orange, almond and rice milk.
+			5–30 minutes twice a 
+		B12 - Dairy products. Nutritional yeast. Algae, mushroom.
+		Iron - everything gree (spinach, beans, peas). Dried raisins and apricots.
+		Reduce Copper - limit intake of nuts, chocolate, whole grain products.
+		Lipoprotein - same as triglycerides.
+		Vanadium - Skim milk, lobster, vegetable oils, many vegetables, grains and cereals are rich source of vanadium - cheese and fruits less rich.
+			but not essential and beryllium is rather toxic so don't care for these.
+	RED CELL DISTRIBUTION WIDTH high, MONOCYTES - ABSOLUTE COUNT low, 
+		RDW - linked to indication of a nutrient deficiency, such as a deficiency of iron, folate, or vitamin B-12. Cells produced less or larger than normal.
+		Monocytes - Regular exercise, anti-inflammatory diet.
+			anti inflammatory diet - lots of fruits and vegetables, whole grains, plant-based proteins (like beans and nuts), fatty fish, and fresh herbs and spices.
+PIES - Power lies with jiva, prakriti (ext and int); ishwar (narrative and law of attraction, karma justice - stateful).
+	I gotta grow from vyakti to smashti. Social phase - serve but not exploited - evolution to happiness (sp realm as a side note)
+	follow ur bliss - but challenges from jivs, prakriti, etc - goal is not to "not do sth" but "have passion to do something"
+	9 stages of bhakti - all about growing happiness - lust like temperature (so needful) - stages all abt inc relp - nishtha - firm jaan lena not just maan lena.
+		solid graduation like marriage - Taste cultivation like trip planning in ruci hase.
+		Asakti - Oneness state - can't see separate; feel bad on hurt. Bhaav - emotions in love. Love (it's about you not even us (asakti))
+		Social is excellent but risky cuz anarthas in ppl and not the best bet but an excellent platform. Scrum, helping, seeking, discussing, updating are imp to me in current phase.
+	Personal Enoyment or me time like 1hr / week.
+	Lapse that I should have been sleeping at that time.
+	You become like your association.
+Uncat - ragada patice. BG Conversation stack, conversation conttent stack or nesting.
+	Wide vs depth - planned hrs vs streak of effort - both are necessary in balance - so conformity with spontaneity. Basic width of minimal commitment of planning but streak is fun.
+Spark run - only hadoop home, run spark code on a lang (platform, IDE, run config, env variables)
+	pycharm = IntelliJ but project setting from interpreter settings on status bar.
+	Notebook = spyder but also remember the state in former and code look in the latter.
+	installing pyspark in python sdk = installing spark dependency using mvn or sbt in scala envt. compatible version thru prefix or suffix.
 	
