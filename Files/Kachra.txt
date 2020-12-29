@@ -432,51 +432,52 @@ Uncat
 		how problem was solved thru available services and how is it solved in algorithm - LLD.
 		so just 2 levels of UML diagrams = that's it.
 		Varna is getting paid for a problem that you have or are solving. You should get enjoyment in both of them.
-Bank - Debit card
-		Delivery attempts numbering
-		Valid id proofs - Passport, DL, Employee Id, Election ID, photo debit credit card, PAN card, pension payment order, freedom fighters pass, valid arms license, valid bar council id, aadhaar card.
-		card on letter.
-		Benefits - Central mall voucher. Kaya voucher. driving voucher.
-			TnC for benefits.
-		Manual - Limits - 1L,5L (ATM, transaction limit), International (2L, 2L).
-		automatic swipeless without pin.
-		card - your name, card number, EMV Chip, Expiry date, validity
-			magnetic stripe, customer care number, cvv number, grid values, signature panel.
-		Dispatched thru partner blue dart.
-		ICICI Bank expressions debit card. Image, internationally valid.
-			international transactions - switched on thru - internet banking.
-			ATM pin Generate - Internet Banking, IMobile, Customer Care, ATM Visit.
-			blocks existing card by using new card in 48 hours.
-		CRUD - block the card if lost thru Internet Banking or IMobile App (clickpath) or customer care.
-LinkedIn
-	Post - share, hide, report, like, convert - fetch upto 1 level, time.
-	Persons - follow, unfollow, tagline. Recommend.
-	Feed.
-	Profiles - connections, invitations, hashtag.
-	Messages.
-	Notifications their events - anniversay, delete, unfollow, turn off.
-	Job suggestions - Apply, save, viewed, saved, not for me, applied.
-	New, trend or recent, most viewed, ted talks.
-	search by interest / topics, podcasts.
-	me - log, lists, likes, download, history.
-	Vid - play, pause, rewind, fwd, back, next.
-		speed, share, min max, captions.
-Youtube
-	Me - channel, stats, switch acc, incog, settings.
-	Search - from ppl channels, feed, CRUD.
-	Vid - like comment, share, download, save
-	other - subscrie, bell notification.
-	Trending
-	subscriptions - vids from ppl, manage ppl.
-	library - all folders.
-Make friend - casual, close, intimate. Y? cuz bhakti of EQ.
-	spiritual side is to see them more than utilities.
-	Formal - colleague to partner; like to love in informal - better is this lead, prospect, customer.
-	stages triggers - mutual benefit P2P, Empathy relate, know him, liking things; similar beliefs and values; always there for me, well being.
-		make you comfortable, no judgment, talk eth with, hels when alone or hurt. being understood. Nature proclivity, propensity.
-		sync of feelings.
-GDPR - right to know which resource is being used by which all apps - like microphone on windows, camera; similarly in smartphone - smartphones come with more IO and sensing devices so Android gives RTI.
-Taking a ssession or presentation is presenting a world of knowledge - like LA for derivations - dont just say it but do it and address all queries.
+Uncat
+	Bank - Debit card
+			Delivery attempts numbering
+			Valid id proofs - Passport, DL, Employee Id, Election ID, photo debit credit card, PAN card, pension payment order, freedom fighters pass, valid arms license, valid bar council id, aadhaar card.
+			card on letter.
+			Benefits - Central mall voucher. Kaya voucher. driving voucher.
+				TnC for benefits.
+			Manual - Limits - 1L,5L (ATM, transaction limit), International (2L, 2L).
+			automatic swipeless without pin.
+			card - your name, card number, EMV Chip, Expiry date, validity
+				magnetic stripe, customer care number, cvv number, grid values, signature panel.
+			Dispatched thru partner blue dart.
+			ICICI Bank expressions debit card. Image, internationally valid.
+				international transactions - switched on thru - internet banking.
+				ATM pin Generate - Internet Banking, IMobile, Customer Care, ATM Visit.
+				blocks existing card by using new card in 48 hours.
+			CRUD - block the card if lost thru Internet Banking or IMobile App (clickpath) or customer care.
+	LinkedIn
+		Post - share, hide, report, like, convert - fetch upto 1 level, time.
+		Persons - follow, unfollow, tagline. Recommend.
+		Feed.
+		Profiles - connections, invitations, hashtag.
+		Messages.
+		Notifications their events - anniversay, delete, unfollow, turn off.
+		Job suggestions - Apply, save, viewed, saved, not for me, applied.
+		New, trend or recent, most viewed, ted talks.
+		search by interest / topics, podcasts.
+		me - log, lists, likes, download, history.
+		Vid - play, pause, rewind, fwd, back, next.
+			speed, share, min max, captions.
+	Youtube
+		Me - channel, stats, switch acc, incog, settings.
+		Search - from ppl channels, feed, CRUD.
+		Vid - like comment, share, download, save
+		other - subscrie, bell notification.
+		Trending
+		subscriptions - vids from ppl, manage ppl.
+		library - all folders.
+	Make friend - casual, close, intimate. Y? cuz bhakti of EQ.
+		spiritual side is to see them more than utilities.
+		Formal - colleague to partner; like to love in informal - better is this lead, prospect, customer.
+		stages triggers - mutual benefit P2P, Empathy relate, know him, liking things; similar beliefs and values; always there for me, well being.
+			make you comfortable, no judgment, talk eth with, hels when alone or hurt. being understood. Nature proclivity, propensity.
+			sync of feelings.
+	GDPR - right to know which resource is being used by which all apps - like microphone on windows, camera; similarly in smartphone - smartphones come with more IO and sensing devices so Android gives RTI.
+Uncat - Taking a ssession or presentation is presenting a world of knowledge - like LA for derivations - dont just say it but do it and address all queries.
 IQ - CS - Types of work
 	Infra and Platforms
 	Softwares
@@ -557,21 +558,6 @@ Movie - Tanhaji
 	kalyan gate kondhana fort.
 	using pulleys to the fullest - how to take up the fort - pulley.
 	He got what he truly wanted.
-LIB - IQGrats - URL -> App sandbox -> SSH into it -> GITHub of its readme -> shell uses newman command to run postman collection for results.
-	Kafka and spark outside sandbox container. IOT Gateway includes device management - sensor, sensor type, capability, etc not in sandbox but writes to raw kafka topic sandbox.
-	IOT Gateway url - tenant/device with payload containing sensor info. Even measurements (master, transactional is all handled by gateway).
-	IOT Core Services takes care of Thing world master and mapping. Transactional is handled by IOT AE.
-	My system is contacting IOT Gateway URL thru JMeter to write something in there - it refuses to recognize me or my system certificate - cuz the keystore ain't proper.
-	IOT AE starts with assumption that data is coming on raw topic of a space (sandbox or so) and from there we start - can have a simulation app to write on raw topics.
-		performance space doesn't use simulation but they use IOT gateway as well to write into raw topic. Direct writing with mild formatting from sensor - data sent thru endpoints.
-		IOT Device like arduino or raspberry pi is responsible to send data to IOT Gateway - of course after initial registration of device, sensor, capability and all.
-	E2E delay is measured by DTE but stored in hana db later retrieved by MDS if queried. async of dte keeps writing to de and hana worklist tables from processsed topic.
-	Interestingly IOT Core services is written in nodejs. Power of microservices. Reading package.json for git repo.
-	IOT Rules master is different team, IOT Thing modeler is apparently a team different from IOT Core services but with mild differences we can't separate them from management perspective.
-	SAP IOT has 408 members, 65 teams, 366 repos.
-LIB - BeanShell Sampler is where the keystores are being configured.
-	Observe the script - it looks for keystore in the current folder - in bin folder it should be there I said cuz that was under assumption that you trigger the program from that directory.
-	The beanshell sampler already says look for it in current directory but I ignored it - giving precedence to the senior's words => logic should always take precedence over words.
 Uncat
 	th-gr-td
 	class="th-tabc-tab th-tl-wrapper"
@@ -594,100 +580,14 @@ Uncat
 	C47_W147_V148_V157_Items_Table[2].OBJECTID
 		class = th-lk; 
 EQ - Lapse - Wifi vanishing to manual retry after - cuz usb connected and it was giving precedence to connecting to internet thru USB hotspot - removing it solved the problem.
-Windows - add pin - 
+IQ - Windows - add pin - 
 	Microsoft authenticator and phone call or text.
 	mysore bonda.
-No calling and on time delivery - so he didn't deliver.
+IQ - No calling and on time delivery - so he didn't deliver.
 	Customer support - refund and 160 Rs discount
 	HP Software framework not installed or running.
 	ftp://ftp.hp.com/pub/caps-softpaq/cmit/softpaq/CASLSetup.exe
 	InstallShielf Wizard for the framework. Expert at reading your current system and its drivers and downloading relevant - is this software generic or system specific - read its name - it is generic for all hp not even for model specific.
-	
- "spark": [
-   {
-    "binding_name": null,
-    "credentials": {
-     "cluster": "hcpbd-aws-canary-prod01-leonardoiotstaging",
-     "externalId": "leonardoIotStaging",
-     "password": "aa_zsP3NvUqADG/cM+CeYshJMrSr+4=",
-     "tenant": "98635965-2273-4fd3-964c-a7510c2b75a2",
-     "url": "https://spark-service.cf.sap.hana.ondemand.com/v1/98635965-2273-4fd3-964c-a7510c2b75a2",
-     "urls": {
-      "historyproxy": "https://spark-historyproxy.cf.sap.hana.ondemand.com",
-      "logs": "https://spark-service-logs.cf.sap.hana.ondemand.com",
-      "service": "https://spark-service.cf.sap.hana.ondemand.com/v1/98635965-2273-4fd3-964c-a7510c2b75a2",
-      "uiproxy": "https:/spark-uiproxy.cf.sap.hana.ondemand.com"
-     },
-     "username": "sbss_ufspwgpyqwr076ytgqbwtk8okck="
-    },
-    "instance_name": "spark-service",
-    "label": "spark",
-    "name": "spark-service",
-    "plan": "v1.6-dedicated",
-    "provider": null,
-    "syslog_drain_url": null,
-    "tags": [
-     "spark"
-    ],
-	"volume_mounts": []
-   }
-  ],
-LIB - Spark Explorations - 
-	BOT_HDI, Space, Application -> Credentials (spark)
-	Spark -> plan, name, label, instance_name, SparkCredentials.
-	SparkCredentials -> tenant, tenant_url, username, password, helpfulUrls, cluster, externalId.
-	IOT_suffix cluster for each space with different tenant and credentials and IOT_Perf cluster same for all spaces but different tenants, different credentials.
-		earlier even iot_suffix didn't exist - only IOT Cluster with different tenants and clusters.
-	So now, n spaces => n+1 clusters - 1 for performance cluster. Tenants = 2n (perf separate for spaces)
-		tenants are repeatable so another request you fire for credentials - same tenant gets used.
-		same spark base url but has path to tenant so 2n different urls for spark service - for each tenant - when you enter credentials on spark ui proxy - you get view of only your projection spark cluster (in case of perf), in case of std, you anyways have separate cluster so credentials give you view of your cluster.
-		live spark ui proxy is different url - tenant is again the logical view you get presented with after entering credentials.
-		So when monitoring asks give me context status for all the jobs in sandbox - you get presented with all the jobs running on your cluster for standard and all the jobs running for your view (your tenant) for perf space.
-	similarly with kafka, same base url for all, tenant in the path of service url for different spaces, 
-		brokers on different urls within space and across space both.
-		so unique kafka against every space but on different machine like spark. so kafka n spaces, n tenants, k*n machines with corresponing different machine brokers.
-	Now these service urls are utilized by different tenants in SaaS IoT System world. The tenants used in Env Bots are all PaaS tenants but in SaaS world, we talk about SaaS tenants.
-	What does same base url mean? means same machine (logically; physically it could be distributed) has hosted web server or whatever server.
-		you give credentials or specify tenant and the machine knows where to direct your request or do work itself but give you illusion of being on different cluster or machine.
-	spark (landscape, tenant) -> spark-service instance create (client) -> service key instance (handle or alias for credentials) -> 
-		Seq - Spark Application -> Spark Libraries -> Spark Context -> Spark Submit.
-		Details - 
-			Spark application while running becomes a spark job - create app using REST credentials, appName, contentType, mainClass, languageType, SparkApp Endpoint.
-				App consists of one or multiple Libs and can have additional configuration parameters e.g. a MainClass if it's a Java app.
-			Spark Libs - Add Jar libs to the app - Add libs using REST - appName in path, contentType, credentials, SLUG libname, path to your jar, endpoint for libs.
-				 a library with code like a JAR file for Java
-			Spark Context - Create a context with this name using REST - credentials, SLUG, content type, parameters, spark url for context endpoint (landscape and tenant in there)
-				environment in which you can run Submits
-				Spark Context - environment in which you can run Spark jobs
-			Spark Submit - submit your app to the context created. Using REST - credential, SLUG SubmitName, contentType, appName, Config, url endpoint for submit, contextName in path.
-				execution instance of an App running on a Spark cluster
-		SWAGGER API Endpoints
-			/apps - Resource representing all apps belonging to a given tenant
-				libs in it.
-			/context - Resource representing all contexts belonging to a given tenant
-				submits in it.
-			/metrics - providing statistical and metrics information about contexts as described in the Spark documentation
-				context, jobs, stage, attempt, executors, stream, rdd, batch.
-			/advertisement - allows managing shared service instances
-			/files - accessing files in the underlying HDFS file system of Spark.
-	Hana credentials are same however. Port and schema become different and also the user password credentials.
-	Kafka (landscape, tenant) -> 
-		Seq
-			service instance -> service key (credentials) -> service binding (app with instance, has env - environment variables for application),
-			Topic create -> Message write to topic
-		Details
-			service key provides the IP addresses of the brokers in your cluster, as well as some URLs and credentials for service endpoints that will help you manage your topics and setup your client for communication with the cluster
-			Create Topic - Credentials, slug topic, contentType, paritions, repl factor, endpoint for topics.
-			Create Message - credential, contentType, Messages, topic name endpoint.
-		Swagger API Endpoints - 
-			Topic - The topics resource allows managing topics in a cluster
-				topic name, message, config, partition.
-			ConsumerGroup - The consumer groups resource allows managing consumer groups in a cluster
-				groupname, member, offset, partition.
-			advertisement - advertisements resource allows managing shared service instances
-				id, refs, resources.
-			connectors - connectors resource allows managing connectors on associated Kafka Connect workers
-				name, task, status, restart, actions.
 PIES - NFP - Excitement vs Happiness - Stay high paying proper price vs short high trip with a hack.
 	former comes with facing difficulties. The latter comes with escaping difficulting and hacking into high.
 	SVAF is never meant to be easy - the easiest thing to be is stay an animal but even that is full of difficulties - survival of fittest.
@@ -718,8 +618,9 @@ NFP - average (median) time before orgasm was about 6 minutes, and ranged from a
 	Balanced diet – Avoid foods like chocolate, chillies and caffeinated beverages. Consume diet rich in zinc, selenium, calcium and iron for better control and strength.	
 	sleep, stress, exercise, diet, hydrated. Kegels, weight.
 	For the most part, yes, the components that make up semen are safe to ingest. Swallowed semen is digested in the same way as food. However, in very rare circumstances, some people might discover that they're allergic to semen. This is also known as human seminal plasma hypersensitivity (HSP)
-Wiki page is enough - framework on 1 page. Test on another page. Staging configuration file and tests - create another page.
-PIES - first of all lapse should never happen and if it happens, it should never repeat - so, the idea is enter into things with proper intelligence or planning and if at all there is a lapse, you gotta learn from it immediately not experientially but conceptually so that it never repeats.
+Uncat - Wiki page is enough - framework on 1 page. Test on another page. Staging configuration file and tests - create another page.
+PIES - first of all lapse should never happen and if it happens, it should never repeat 
+	so, the idea is enter into things with proper intelligence or planning and if at all there is a lapse, you gotta learn from it immediately not experientially but conceptually so that it never repeats.
 PersonalErp - Driving 
 	Trying to overtake and blocking others especially those coming from opposite side. Solution - first look and confirm that they are far from the clear way and they with horn overtake and take your regular position - the gap should be significant and should not be a challenge.
 	When cow comes in front, give horn or wait or manuever with confidence but not in a rush - the pressure of crowd - no pressure, see, it's a legitimate problem we have to overcome.
@@ -728,14 +629,16 @@ PersonalErp - Driving
 	Build on master failing - it is less probable because it is same as Commit and we make sure jenkins pipeline runs fine before PR merge is triggered. So, Jenkins foundations02 pipeline trigger and compare to that - it works - now take a fresh pull on your system same as master and try on that - no change at all. Add your changes on top of that.
 Chess - line of attack - source of line of attach (Kill the source), don't cross their line or restrict their line thru another attacker.
 	move with a backing, Chessmate = you must move but you can't move.
-PIES - I fear somebody will think I don't know something - lapse of jnana is better than lapse of bhakti - that's the first rule. lapse of dhyan is better lapse of jnana. lapse of karma is better than lapse of dhyan - you struggled to achieve something but you what all you did. You tried that is ok but you don't know that this is not how it works! You don't know how it works is ok, but you don't even want is bothersome.
+PIES - I fear somebody will think I don't know something - lapse of jnana is better than lapse of bhakti - that's the first rule. 
+	lapse of dhyan is better lapse of jnana. lapse of karma is better than lapse of dhyan - you struggled to achieve something but you what all you did. You tried that is ok but you don't know that this is not how it works! You don't know how it works is ok, but you don't even want is bothersome.
 	scrum updates in all SVAF abstract and concrete - every day. Updates outta NIC+E - fear driven is still good but struggle is better word, desire driven for something interesting you did in an update, duty driven of what was supposed to be done. Love of how it was fun.
 	Scrum circles - Varna C office, Varna A colleagues, Ashram A relevant friend circle, Concrete A family and friends, Spiritual Concrete - some temple connected to, Spirituality abstract - some sajatiya dev or counselor system, Foundational C - relevant groups like NFP, December Run, etc; Foundational A - family and friends (how is health) - as observed there's huge overlap between ashram and foundation so merging their scrum.
 	SVAF growth is meant to be tough, if it was cake walk, eb could do it - it's not just personality (behavior) but also character (attitude) struggle or challenge. Without the price you don't get anything. So, forget hacks, anybody has become anything in life is actually worth respecting cuz it is paying a heavy price in cultivating behavior and attitude thru BJDK with persistence or tapasya.
 PIES - SocialErp is Varna realm's projection in Ashram and PersonalErp is Foundation's projection in Ashram - Ashram is primarily about HomeErp and Networks.
 LIB - Redeploy the config application - link = https://foundation02.codepipes.wdf.sap.corp/job/foundation02/view/CI%20Package%20Configuration%20Pipeline/
 SAP - IQ - Device not identified - company portal -> Settings -> Sync my device (manual) - done.
-SocialErp - Plumber - for fluid movement - Taps, toilet, etc - Toilet flush needs lubrication from below not above. The part of push flush needs replacement, kachra in the tap orifice. Balcony water stuck.
+SocialErp - Plumber - for fluid movement - Taps, toilet, etc - Toilet flush needs lubrication from below not above.
+	The part of push flush needs replacement, kachra in the tap orifice. Balcony water stuck.
 CS - Using logger in spark app - spark/conf spark-default.conf file write the following line
 	spark.driver.extraJavaOptions	   -Dlog4j.configuration=file:log4j.properties -Dspark.yarn.app.container.log.dir=app-logs -Dlogfile.name=hello-spark
 	spark app only needs hadoop windutils in its path - not SPARK_HOME but the path for latter can help in other places but not in standalone  problem.
@@ -743,11 +646,7 @@ CS - Using logger in spark app - spark/conf spark-default.conf file write the fo
 	SparkSession is the driver not your main program. Note cmd line shell.
 	Anaconda - python distribution, Spyder and Jupyter all come with it. Pycharm is favorable IDE.
 	Just bookmarks - IDEs also have config saved in a file and later export it for new machine or installation.
-SAP - Mobility_Support_LabsIndia@sap.com for internet hotspot device.
-	My company provided hotspot is giving me troubles lately. Internet stops all of a sudden and the device also gets discharged quickly.
-	The problem is precisely with the device as the sim was able to extend internet to me when moved to my smartphone and another sim with internet when inserted into the device faced the same problem of “ not extending the internet”.
-	Kindly let me know what I could do to have a replacement for my current hotspot.
-SAP - Health Report Card
+EQ - HealthReportCard
 	Vit D, B12 marginally less, Triglycerides high not just borderline high and VLDL (but fasting not enough 8 vs 10-12), IRON deficiency , High serum copper. Very high LIPOPROTEIN (A) [LP(A)], VANADIUM, BERYLLIUM.
 		Triglycerides - Reduce weight, less sugar, less carbs, more fiber (fruit, veg, grains, legumes), Aerobic exercises. Reduce trans fat (fried baked by hydrogenated oils)
 			omega-3 fatty acids, regular meal, less alcohol, add soy, more nuts, garlic.
@@ -775,8 +674,48 @@ PIES - Power lies with jiva, prakriti (ext and int); ishwar (narrative and law o
 	You become like your association.
 Uncat - ragada patice. BG Conversation stack, conversation conttent stack or nesting.
 	Wide vs depth - planned hrs vs streak of effort - both are necessary in balance - so conformity with spontaneity. Basic width of minimal commitment of planning but streak is fun.
-Spark run - only hadoop home, run spark code on a lang (platform, IDE, run config, env variables)
+CS - Spark run - only hadoop home, run spark code on a lang (platform, IDE, run config, env variables)
 	pycharm = IntelliJ but project setting from interpreter settings on status bar.
 	Notebook = spyder but also remember the state in former and code look in the latter.
 	installing pyspark in python sdk = installing spark dependency using mvn or sbt in scala envt. compatible version thru prefix or suffix.
-	
+SocialErp - Whatsapp for business - Thyrocare. Same queue and you get a person assigned and talks; after resolved - session closes on their side.
+Sume - Mockito in JUnit.
+SQ - NFP - openshirt, tl with bottoms specifics like jeans, close ups, 
+Movie - Star Wars 4 - A new hope
+SocialErp - Kochi Bar also, dinner, Breakfast both the days.
+	Kind talks with 3-wheeler - just a little empathy - kismat hi sabkuch hai - I agreed and he felt great. gf besides family. shook our hands.
+SocialErp - Pyschologist Consultation
+	Suggestions
+		Be Honest
+		Have an Open Mind
+		Don't Be Shy
+	Problem
+		Personal Bad Experience - Expectation vs reality.
+			You don't take interest in me - but she never used to talk.
+			We don't have anything between us - have I ever shown interest in you. Didn't even consummate the marriage - I want to know you first.
+			She brought the motion of divorce and was keen on that - I resisted cuz of my conditioning but had to comply seeing the onslaughts from family.
+		Personal Impact - At that time, deeply hurt me - Even if car topples, that would be better than the life that I have got into.
+			I don't care what the world thinks - the life sucks already.
+			I don't deserve this and crying seeing a mirror - no matter others, I will continue to love you.
+		Fear of problem being real - although I have enough evidence and verbal mentions of she being uninterested and being forced into marriage. 
+			stating that I was socially not enough - I said I am decent but they said that ain't enough - you had to be driving cars already.
+			The guilt of whether I fell short and if it was true to any degree that I did an injustice - this used to eat me up.
+		I can't even tell to my relatives so living a duplicitous life. It was like a standing car was hit by another vehicle.
+			what should I do.
+		My family didn't deserve this.
+			I ain't never going back to that family.
+			The turmoil that they caused to my family is the worst.
+		I never drank thinking of it as an addiction - I really desired I should do that.
+	Concerned about long term impacts on my psychology - possibility that I was not good enough for a relationship. Or that whether I did anything wrong to her.
+		Skeptical with every girl I meet. Hopes of finding a good partners is pretty shattered.
+			I fear injustice to the other girl - loss of self worth or self esteem - I can't do anything wrong to another person.
+		All the psychological changes I might be subconsciously going thru that can prove to be disadvantageous.
+		Face or hide dielemma - Not officially married but rituals were done. So, next person if I tell they may imagine so many things about me.
+SAP - December Fit@SAP Challenge - walked around 100 Km.
+Uncat
+	live:arunita.biswas
+	corruption of all varnas. Ashrams corruption. 
+	ola cabs without scaling is few 1000s of benefit ain't nothing
+	Business Man - caught up with supply and demand taking advantage of.
+	Bioluminescence 
+	culture or civilization of hacks - including online courses and songs and so forth but don't deny those. Speak nothing of hacks extrema.
