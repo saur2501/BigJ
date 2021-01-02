@@ -1,127 +1,209 @@
-HomeErp - Bikes
-	Battery
-	Brakes - Disk famous - drum is old. Anti-locking.
-	Carburetor - air and fuel mixing - for combustion.
-	Chain - engine and rear wheel.
-	Charger - battery is given voltage.
-	Chassis - frame of bike. All parts mounted on it.
-	Clutch - transmit power from 1 comp to another.
-	drivetrain - connect parts together.
-	engine - old comps together and produces power. Cylinder, pistons.
-	exhaust system - gases are released.
-	air filter - dust particles not allowed in engine.
-	oil filter - engine oil is cleaned.
-	fuel tank - fuel held in there.
-	gears - parts of transmission.
-	Handle grips
-	handlebars - steering mechanism. holds brake, etc.
-	Helmet.
-	Kickstand
-	Lamp - headlight or headlamps.
-	Mirror - to see back and front.
-	Motor - see engine.
-	odometer - distance.
-	saddlebags - options.
-	seating.
-	shift lever to change gears.
-	sidecar for extra luggage.
-	speedometer.
-	suspension - on tyres - vibration and noise safety - handling and braking.
-	tachometer - rotations per sec when to change gears.
-	tyres - tubeless.
-	transmission - power from engine to wheel.
-	wheels - tubes mounted on it.
-	windshield - used by police.
-	Choke Switch - morning engine doesn't start - more; engine is cold so more fuel and air reqd.
-		Choke giving more petrol - turn on choke switch for more fuel.
-		crank in other bikes. Knob, switch.
-		keep on for reserve fuel and also for starting the bike in cold.
-	engine kill switch
-		use - traffic signal - to save petrol.
-		safety feature if key is stuck.
-		accelerator jam then use it - it will take time to stop.
-	Engine start.
-	Horn.
-	Indicators.
-	headlights.
-HomeErp - Bike - Battery Dead Problem
-	Use kick-start (if that option is available in bike)
-	Otherwise, visit the nearest available service station/mechanic/battery repair shop to charge the battery.
-	Call on-road helpline of the bike manufacturer (if available)
-	Try to Push-N-Start the bike (like they used to start mopeds in olden days). This option may not work with many of the bikes. Not with heavy ones at least.
-CS
-	GIT SSH - https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git
-	https://stackoverflow.com/questions/21615431/git-pushes-with-wrong-user-from-terminal
+PersonalErp - Driving 
+	Trying to overtake and blocking others especially those coming from opposite side. Solution - first look and confirm that they are far from the clear way and they with horn overtake and take your regular position - the gap should be significant and should not be a challenge.
+	When cow comes in front, give horn or wait or manuever with confidence but not in a rush - the pressure of crowd - no pressure, see, it's a legitimate problem we have to overcome.
+	IntelliJ dependency analyzer can do the job of dependency tree. External libraries don't show up if some error - go to project structure and libraries - check the error
+		invalid classes root - this solved thru invalidate cache and restart. OR maven reimport. Or remove and add the dependency.
+	Build on master failing - it is less probable because it is same as Commit and we make sure jenkins pipeline runs fine before PR merge is triggered. So, Jenkins foundations02 pipeline trigger and compare to that - it works - now take a fresh pull on your system same as master and try on that - no change at all. Add your changes on top of that.
+Social - Clubs for everything I do - Hearing, Preaching and association; Company Project; Home and Friends Group; Foundational clubs online.
+	find a company for everything you wanna do and keep updating your resume thru those sessions.
+	This is not a replacement for personal SVAF but a complementary extensions which skyrocket your grats.
+Movie - Simmba, Scam1992.
+Movie - Laddakh warriors
+	preparation for extremes, personality devp, younger brother (nanu)
+	ultimate purpose of the training being - emerge winner - strategies are important - take advantage of fog (opportunities in adversity), never lose the ground, physical capabilities enhanced and standardized; solve a problem of winning or defending given a situation - in terms of capabilities.
+	I was just doing my duty - winning a medal was nowhere in my mind.
+	can't forget team - that's what makes the scouts - honor them as ritual.
+	marathon run with weight on top. 18 Kg gun and bag 4 Kg but team with you. High altitude less oxygen and severe cold.
+		all are serving or preparing to serve their best. bhaichara is important - more than physical it's mental test - you need bravery and zidd.
+		gurudvara patthar sahab - teerth sthal and buddists accept guru nanak and buddh guru - guru gompka maharaj.
+		many months for this prep and real life prep is going on.
+		another marathon 72 Km and these guys make it to top 10.
+	training for weapon - assemble and vv. with eyes closed - in matter of secs.
+		st with weapon that jams in cold.
+		run and shoot - cuz tired and can lose the aim.
+		LMG - light machine gun.
+		arrow shooting and also competitions - music accompaniment.
+	camouflage training. PASS THRU fire smoke - gotta stop breathing and change gun positions.
+	crawl under fences.
+	climbing on mountain. tools and with bag. ropes and knots.
+		Ibacks mountain animal. run but 90 degreee angle and gotta control speed and avoid slippery.
+		death if slip and confidence that yes I can do eth.
+		changpa kabila - changthang pathar survival.
+	snow gliding and fighting.
+	war simulation. smoke candles, ghabarahat and afratafri - remove the fear. guidance while that happens - every movement.
+		no time to even breathe - make them move and death in real life.
+	relp with instructor like feel and emotions - friends relp - we become member of family. Team spirit is deeply inculcated. sing together.
+	whatever you do you gotta be god of the arena - khatri to offer best service, business man to offer best service; talent to offer best service and Researcher to offer best service.
+	There are always leaders or architects above engineers. The hierarchy always exists - meaning your ability to service at the best that your junior is inspired to serve under.
+Movie - Tanhaji
+	kondhwa sinhgad fort. Make your own sword.
+	gorilla warfare - strategic positions to win the war.
+	kalyan gate kondhana fort.
+	using pulleys to the fullest - how to take up the fort - pulley.
+	He got what he truly wanted.
+Movie - Star Wars 4 - A new hope
+Movie - Lunchbox.
+Movie - Scam 1992 - plot from scenes perspectives.
 PIES - Personalize vs Process - always contact a person rather than asking process to work as expected.
-LIB - Scrum Retro - Tools Parabol
-	Reflect - Liked Learned Lacked Longed for.
-		Maps to good bad ugly + Learning (abstract and concrete)
-		anonymous and timebound.
-	Group
-	Vote
-	Discuss
-LIB - Scrum - How can we minimize the work - am I audible; Any ideas - pinpoint a person.
-	you came prepared with probs then also ideas for improvements.
-	Meeting-less day.
-Scrum - Calendar blockings - when stuck then inputs from others - How would approachability work and transfers.
-	some handholding for new colleagues - tailoring mode - dedicated 1 hr with buddies and 1 hr of development.
-	reverse KT mode - where they come back of questions. This KT by new colleagues - not active members of meeting. Now question is how do I test it while debugging, etc.
-	That I am ok with KT is one time effort but setting up system needs availability from devps.
-	enabling them is the means - this investment is lacking from our side.
-	2 meetings - reverse KT and trouble shooting.
-	Action item - you book the reverse KT.
-	API made to do primitive checks to help them forward the ticket to right time.
-IQGrats - Suggested the idea of natural language processing on BCT tickets based on history.
-	History we have - which team finally solved the ticket so use that to train a classification model based on NLP.
-LIB - Scrum - We want war but don't have equipments with us - at least have backlog outside of release backlog.
-	On any rainy day we try that, are we equipped.
-	Looking for development work - this is a specific problem to be looked into.
-	Task readiness - checklist b4 a task is picked.
-	!DAG of tasks
-	Let's add another stage to our jira board - release ready.
-	If current functionality doesn't exist we will ask developers to make it. Don't restrict desires based on availability - standardize and plan accordingly but don't shy from take tools to ideal place.
-	make claims it has deadline - this is money guys.
-	Next time gimme lesser talk time - have no unmute button for meeting - I would rather have no mute button.
-	Action items of last retro and what's the status with that.
-	analysis - 60 reflections, 36 topics, 14 present.
-EQ - Withings healthmate sync with Fit@SAP Cloud - pulls only on sync trigger - takes up to 1 day. And check it once with withings server b4 SAP cuz we pull from there only.
-Arch - Risks foreseen for future - memory usage will increase if there would be frequent updates (nothing unforeseen left for future - benchmarking of memory usage anticipated etc)
-Communication - Planning (What all you gotta do and how to prioritize; suggested strategy best approach; precautions (risks), updates) - such trivial things to do, HCM (his nature, why he didn't go home, where worked, does he have bike); CRM - Sardarji - go and say thanks - call him if not visit him. Bangalore temperature (social erp).
-	Transactional first and then Connected master data of everything.
-	bike servicing - don't give papers and contact the regular servicing folks. Arch and maturity means not getting too pumped by desires, urgencies, fears, etc.
-	everything comes from planning only - major component of discussions is planning.
-CS - Kafka
-	Apps interact
-		Producers - Publishes records to the topics in kafka.
-		Consumers - pulls records stored in kafka topics.
-	Streams - client library for processing data stored in kafka. Stream processors interact.
-	Connectors - a framework to build connectors for in / out movement of data between kafka and other systems. Like DB.
-	Intro
-		Documentation - Distributed streaming platform. similar to message queue or enterprise messaging system.
-		Message system - producers message broker and consumers.
-			see the mess with n and m target and source systems. @wire mess.
-			vs adapter.
-			fault tolerant.
-			Store in kafka message logs.
-		Stream - continuous stream of messages can be handled. Stream processing apps - read and store back or pass on.
-EQ - 
-	Khichadi - cutlery, paired with (achar, cucumber, veg raita, onion rings, papad), Sweet tooth, beverage, additional healthy (beans, punjabi kadhi, aloo jeera), starter.
-	Movie is intellectual side of other lives. Ashram only.
-	Burger
-		buns, tikki, veggies, cheese, sauces.
-		Cheese, Fries (regular, medium, king X peri peri), Beverages (cold drink or iced tea)
-LIB - Scrum - war room for ga if things don't move forward. completely new so another sync to show us to test it in sandbox - raw messages are generated.
-	prerequisite - december - we will finish by feb, onboarding should get into this.
-	it will take time - not a cake walk. Reach out to Abhishek, Me and Ashok - different component - dont be in hurry.
-	easily takes a month to get good at it - focus on 1 flow - like initial flow, etc 
-	pavan is available always for derivation.
-	special previliged people. Sathya has everything - I am saying this casually.
-	sathya is not the boss - she is different thing right now.
-	what moderation you are letting ppl go off - once in a while is ok - but against me - that's why it's important.
-	srini called 800 Rs per head to be ordered - order till day after tomorrow and reimburse it.
-	monday is last day - submit a meal bill. Something like pizza or so can be submitted. Fix a day which is common for us.
-	planning to order - align for one day. Monday I need all the bills. 7 can order on behalf of e1.
-LIB - straw poll app by SM for poll across the team.
+PIES - I want streak in everything I do. This is very rewarding way of doing things rather than routine - routine is important for bhakti so many days you just do justice with bare minimum but every once in a while is a time for streak.
+PIES - How to measure your growth - some metrics - old files - I had got many better and structured ideas later.
+	Challenge yourself - Put yourself into a situation where you must demonstrate your advancement.
+	PQ
+		Games (once a week), NFP (every End of Month Test), Exercise Streak, Taekwondo.
+		Body - mensurate parameters
+		Mind - Problem Solver, cool headed.
+		Intellect - Aggressive Achiever
+	IQ
+		Lines of Jnana, Problem Solving, Make PPTs, documentation for others; Make Presentations, Make Vids, Q & A.
+	EQ
+		Adventures, Explorations, Small Talk Explorations, 
+		TV series, movies marathon with lessons at every layer (latest, bests, theme=wise)
+			Sensual - dresses, figures, nice way of 7's  sth (speaking)
+			Mental - I liked, I felt, characters' styles, dialogues, jokes
+			Intellect - Plot, Characters psyche, poetic justice 
+			Ego - Director's vision and movie response
+			Soul - Philosophical insights (hypo case studies)
+		Excellent Consumer - best car, best bike, etc.
+	SQ - extrinsic growth in symptoms doesn't mean SQ growing! But vv!!
+		Streak of Dhyan on sth
+		Ceto Darpan Marjanam - Listen to Atheistic ideas (strong ones)
+		Bhava maha dhavagni nirvapanam
+			Adhyatmik - body exercise, dare do it right (mind when you won't like it)
+			Adhibhautik - Make notes and response (where you went wrong, how would you rectify)
+			Adhidaivik - karma
+		Shreyah kairava chandrika vitaranam
+			Check the dots of life and connect them (nth to do; only observe)
+		Vidya Vadhu Jivanam
+			Go for Book distribution (dare answer the toughest questions on quora) - Taking help from seniors is allowed but it must resonate with you.
+		Anandambudhi vardhanam
+			intense spiritual streak (fasting from entertainment say on ekadashi, etc)- 16 (closed eyes)
+		Prati Padam Purnamritasvadanam
+			Regularly do 1 thing that you are fearful of - like go for harinam sankirtan.
+		Sarvatma Snapanam
+			NFP streak
+			sensitive to expressions of Anarthas - record your 
+				Lust (Hankering for enjoyment)
+					given?
+						yes - greed (plans for increasing my enjoyment) - law of diminishing returns.
+							compare?
+								pride (i am enjoying so much)
+								envy (7 enjoying more than me vs inspiration)
+						no - anger (when enjoyment is being denied; I am getting to enjoy it to its fullest)
+					Illusion (lamentation for enjoyment)
+PIES - Measure Ashram in - Shopping (SRM), cooking (foodie life, SCM Prod), entertainment (HCM), Decor or resourcefulness (SCM Logisitcs), Networking (CRM), Security (Foundation).
+PIES - NFP - Excitement vs Happiness - Stay high paying proper price vs short high trip with a hack.
+	former comes with facing difficulties. The latter comes with escaping difficulting and hacking into high.
+	SVAF is never meant to be easy - the easiest thing to be is stay an animal but even that is full of difficulties - survival of fittest.
+	difficulties tap you to endorphins and that's also awesome but with goddamn price for happiness.
+	If angry with Krishna, take shelter of social high (even that's not easy) - to get excitement is easiest but such fake trips don't take you anywhere.
+	Not that I can but I do face difficulties every single goddamn time.
+	Socializing pleasure isn't easy but if you lose yourself unto that without your personal ego channel still you will feel busted - so the exponential curve of healthy life is always important.
+	Problems st show up in material transactions like "what the heck you did" - but the real problem exists in config "this vulnerability always existed, just that bad situ didn't show up". So, work on your anarthas cuz transactions can bring something undesirable, they may not but why keep a stool like problem with you.
+	What if I don't want difficulties - then you should either settle with lower happiness which is against your constitutional position and so or otherwise, you will be forced to hack into cheap highs and stay on the lower strata - we do see the highs of different chakras but get to a higher layer, demands a goddamn price.
+PIES - first of all lapse should never happen and if it happens, it should never repeat 
+	so, the idea is enter into things with proper intelligence or planning and if at all there is a lapse, you gotta learn from it immediately not experientially but conceptually so that it never repeats.
+PIES - I fear somebody will think I don't know something - lapse of jnana is better than lapse of bhakti - that's the first rule. 
+	lapse of dhyan is better lapse of jnana. lapse of karma is better than lapse of dhyan - you struggled to achieve something but you what all you did. You tried that is ok but you don't know that this is not how it works! You don't know how it works is ok, but you don't even want is bothersome.
+	scrum updates in all SVAF abstract and concrete - every day. Updates outta NIC+E - fear driven is still good but struggle is better word, desire driven for something interesting you did in an update, duty driven of what was supposed to be done. Love of how it was fun.
+	Scrum circles - Varna C office, Varna A colleagues, Ashram A relevant friend circle, Concrete A family and friends, Spiritual Concrete - some temple connected to, Spirituality abstract - some sajatiya dev or counselor system, Foundational C - relevant groups like NFP, December Run, etc; Foundational A - family and friends (how is health) - as observed there's huge overlap between ashram and foundation so merging their scrum.
+	SVAF growth is meant to be tough, if it was cake walk, eb could do it - it's not just personality (behavior) but also character (attitude) struggle or challenge. Without the price you don't get anything. So, forget hacks, anybody has become anything in life is actually worth respecting cuz it is paying a heavy price in cultivating behavior and attitude thru BJDK with persistence or tapasya.
+PIES - SocialErp is Varna realm's projection in Ashram and PersonalErp is Foundation's projection in Ashram - Ashram is primarily about HomeErp and Networks.
+PIES - Power lies with jiva, prakriti (ext and int); ishwar (narrative and law of attraction, karma justice - stateful).
+	I gotta grow from vyakti to smashti. Social phase - serve but not exploited - evolution to happiness (sp realm as a side note)
+	follow ur bliss - but challenges from jivs, prakriti, etc - goal is not to "not do sth" but "have passion to do something"
+	9 stages of bhakti - all about growing happiness - lust like temperature (so needful) - stages all abt inc relp - nishtha - firm jaan lena not just maan lena.
+		solid graduation like marriage - Taste cultivation like trip planning in ruci hase.
+		Asakti - Oneness state - can't see separate; feel bad on hurt. Bhaav - emotions in love. Love (it's about you not even us (asakti))
+		Social is excellent but risky cuz anarthas in ppl and not the best bet but an excellent platform. Scrum, helping, seeking, discussing, updating are imp to me in current phase.
+	Personal Enoyment or me time like 1hr / week.
+	Lapse that I should have been sleeping at that time.
+	You become like your association.
+PIES - Joke vs serious - conformity vs spontaneity - liberitans vs conservatives - gotta balance.
+PIES
+	corruption of all varnas. Ashrams corruption. 
+	ola cabs without scaling is few 1000s of benefit ain't nothing
+	Business Man - caught up with supply and demand taking advantage of.
+	culture or civilization of hacks - including online courses and songs and so forth but don't deny those. Speak nothing of hacks extrema.
+SocialErp - Psychologist vs clinical psychologist vs Psychiatrist - 
+	general psychologists focus on healthier people, while clinical psychologists focus on people with more serious mental health issues. Regardless of where they work, clinical psychologists help patients with behavioral and mental health issues.
+	Psychiatrists are medical doctors, psychologists are not. Psychiatrists prescribe medication, psychologists can't. Psychiatrists diagnose illness, manage treatment and provide a range of therapies for complex and serious mental illness. Psychologists focus on providing psychotherapy (talk therapy) to help patients.
+SocialErp - Plumber - for fluid movement - Taps, toilet, etc - Toilet flush needs lubrication from below not above.
+	The part of push flush needs replacement, kachra in the tap orifice. Balcony water stuck.
+SocialErp - Whatsapp for business - Thyrocare. Same queue and you get a person assigned and talks; after resolved - session closes on their side.
+SocialErp - Kochi Bar also, dinner, Breakfast both the days.
+	Kind talks with 3-wheeler - just a little empathy - kismat hi sabkuch hai - I agreed and he felt great. gf besides family. shook our hands.
+SocialErp - Pyschologist Consultation
+	Suggestions
+		Be Honest
+		Have an Open Mind
+		Don't Be Shy
+	Problem
+		Personal Bad Experience - Expectation vs reality.
+			You don't take interest in me - but she never used to talk.
+			We don't have anything between us - have I ever shown interest in you. Didn't even consummate the marriage - I want to know you first.
+			She brought the motion of divorce and was keen on that - I resisted cuz of my conditioning but had to comply seeing the onslaughts from family.
+		Personal Impact - At that time, deeply hurt me - Even if car topples, that would be better than the life that I have got into.
+			I don't care what the world thinks - the life sucks already.
+			I don't deserve this and crying seeing a mirror - no matter others, I will continue to love you.
+		Fear of problem being real - although I have enough evidence and verbal mentions of she being uninterested and being forced into marriage. 
+			stating that I was socially not enough - I said I am decent but they said that ain't enough - you had to be driving cars already.
+			The guilt of whether I fell short and if it was true to any degree that I did an injustice - this used to eat me up.
+		I can't even tell to my relatives so living a duplicitous life. It was like a standing car was hit by another vehicle.
+			what should I do.
+		My family didn't deserve this.
+			I ain't never going back to that family.
+			The turmoil that they caused to my family is the worst.
+		I never drank thinking of it as an addiction - I really desired I should do that.
+	Concerned about long term impacts on my psychology - possibility that I was not good enough for a relationship. Or that whether I did anything wrong to her.
+		Skeptical with every girl I meet. Hopes of finding a good partners is pretty shattered.
+			I fear injustice to the other girl - loss of self worth or self esteem - I can't do anything wrong to another person.
+		All the psychological changes I might be subconsciously going thru that can prove to be disadvantageous.
+		Face or hide dielemma - Not officially married but rituals were done. So, next person if I tell they may imagine so many things about me.
+SocialErp
+	Bank - Debit card
+			Delivery attempts numbering
+			Valid id proofs - Passport, DL, Employee Id, Election ID, photo debit credit card, PAN card, pension payment order, freedom fighters pass, valid arms license, valid bar council id, aadhaar card.
+			card on letter.
+			Benefits - Central mall voucher. Kaya voucher. driving voucher.
+				TnC for benefits.
+			Manual - Limits - 1L,5L (ATM, transaction limit), International (2L, 2L).
+			automatic swipeless without pin.
+			card - your name, card number, EMV Chip, Expiry date, validity
+				magnetic stripe, customer care number, cvv number, grid values, signature panel.
+			Dispatched thru partner blue dart.
+			ICICI Bank expressions debit card. Image, internationally valid.
+				international transactions - switched on thru - internet banking.
+				ATM pin Generate - Internet Banking, IMobile, Customer Care, ATM Visit.
+				blocks existing card by using new card in 48 hours.
+			CRUD - block the card if lost thru Internet Banking or IMobile App (clickpath) or customer care.
+	LinkedIn
+		Post - share, hide, report, like, convert - fetch upto 1 level, time.
+		Persons - follow, unfollow, tagline. Recommend.
+		Feed.
+		Profiles - connections, invitations, hashtag.
+		Messages.
+		Notifications their events - anniversay, delete, unfollow, turn off.
+		Job suggestions - Apply, save, viewed, saved, not for me, applied.
+		New, trend or recent, most viewed, ted talks.
+		search by interest / topics, podcasts.
+		me - log, lists, likes, download, history.
+		Vid - play, pause, rewind, fwd, back, next.
+			speed, share, min max, captions.
+	Youtube
+		Me - channel, stats, switch acc, incog, settings.
+		Search - from ppl channels, feed, CRUD.
+		Vid - like comment, share, download, save
+		other - subscrie, bell notification.
+		Trending
+		subscriptions - vids from ppl, manage ppl.
+		library - all folders.
+	Make friend - casual, close, intimate. Y? cuz bhakti of EQ.
+		spiritual side is to see them more than utilities.
+		Formal - colleague to partner; like to love in informal - better is this lead, prospect, customer.
+		stages triggers - mutual benefit P2P, Empathy relate, know him, liking things; similar beliefs and values; always there for me, well being.
+			make you comfortable, no judgment, talk eth with, hels when alone or hurt. being understood. Nature proclivity, propensity.
+			sync of feelings.
+	GDPR - right to know which resource is being used by which all apps - like microphone on windows, camera; similarly in smartphone - smartphones come with more IO and sensing devices so Android gives RTI.
 IQ - New laptop Machine - bigger screen hp touchscreen 16 GB RAM, model name, etc.
 	accessories - mouse, monitor, connecting cables, etc.
 	can also be couriered and previous one collected.
@@ -178,56 +260,72 @@ IQ - New laptop Machine - bigger screen hp touchscreen 16 GB RAM, model name, et
 			Start menu folder, editor for git vim or notepad++, path env (use git bash only then no env var), 
 				windows certificate stores vs ca-bundle.crt files, checkout with windows formatting, terminal emulator - MINTTY vs windows default console window. pull default behavior (merge or rebase), credential helper. allow fs caching. allow pseudo consoles like for python and node.
 			adblock, vpn, etc.
-CS - Linux directory structures
-	/
-	IaaS
-		/dev - virtual files for the devices.
-		/media - removable drives as folder.
-		/mount - system admins use this to manually mount a filesystem.
-	OS (=windows)
-		/boot - boot files
-			contains the files of the kernel and boot image, in addition to LILO and Grub
-		/proc - process and kernel files
-			information about. to get runtime system information.
-		/var - variable data files - appData
-			programs store runtime information like system logging, user tracking, caches, and other files that system programs create and manage.
-			Eg - login history - not cleaned automatically. All logs also in here - mail server logs, system boot logs, kernel logs, etc.
-		/etc - configuration file (of system) used by admins or services (password file and networking files)
-			system config changes like hostname change is done here.
-	Shell - OS Facade (=windows system32 files)
-		/bin - binaries
-			executable files of many basic shell commands like ls, cp, etc.
-		/sbin - only su can run these binaries.
-		/lib - shared libs.
-			codes that can be used by the executable binaries
-	PaaS - softwares for dev or prod (= program files)
-		/usr - user program data and binaries.
-			all the executable files, libraries
-			/usr/bin - basic user commands. sbin for additional user commands. lib - system libs.
-			Eg - /usr/bin/python.
-			Observation - by default all apt-get installations go here and other parts like etc and all.
-		/opt - optional software
-			installing/storing the files of third-party applications that are not available from the distribution’s repository
-			eg - /opt/tomcat, /opt/eclipse-installer
-	SaaS and personal data also (=D Drive)
-		/root - for super user.
-		/home - for all users - has bin, sbin, lib eth.
-	Software Data (appData is actually /var)
-		/srv - service data like website data.
-		/tmp - temp files
-			deleted when your system restarts. Apps use for temp storage.
-	Eg - apt-get maven install writes to /usr/bin/mvn and also etc and /usr/share.
-		Just like program files contains application executables but data and configuration like registry details is somewhere else.
-CS - GITHub first push and OAuth 2.0 gets triggered with permissions asked for git configuration manager to access your repo's contents. You grant and it goes fine.
-Social - Clubs for everything I do - Hearing, Preaching and association; Company Project; Home and Friends Group; Foundational clubs online.
-	find a company for everything you wanna do and keep updating your resume thru those sessions.
-	This is not a replacement for personal SVAF but a complementary extensions which skyrocket your grats.
-PIES - I want streak in everything I do. This is very rewarding way of doing things rather than routine - routine is important for bhakti so many days you just do justice with bare minimum but every once in a while is a time for streak.
+IQ - Used bookmarks manager to export and import bookmarks in chrome - when migrating my system.
+IQ - CS - LIB - Business Model - let's solve some problem - what's the use case.
+	Functional specification - Please specify the system - as it is viewed by the customer - DMPM (master and transactional).
+		Technical specification system design aka architecture - DMPM master and transactional - tools (eg - which DB, distributed, etc) and resources - how they are supposed to interact for SE.
+			LLD - Class Diagram and code walk thru and code standardizations to server higher layer.
+	Every layer serves the layer above.
+	Take eg of BYD and LIB to relate.
+	This should reflect in all your sume of prods worked on.
+IQ - CS - Types of work
+	Infra and Platforms
+	Softwares
+		Data Management - Managing your resources.
+			Managing Master, Transactions and Configs for people or things (IoT). Facebook, IoT, Twitter, etc. Can use lots of tools in the market like kafka, redis, etc.
+		Implied or Innovation - Cool features - implied informations that you may find really useful - using algos and approximate algos.
+			Spark GraphX. IoT+ can be very powerful. Here also analytics is used thoroughly but not over huge volumes.
+			There's a lots of fun in connecting different apps, features, capabilities, etc in interest of final users.
+	Data Generation - Using its essence as testing for some capability to be used for innovative software.
+		Data Engg - analytics (insights into or transformations) over the existing archived or persistent data no matter how big (V3). 
+			Pandas and Spark Gen - describe and explore or confirm. DA follows from here.
+		Learning - what patterns or information does your data reveal.
+			ML for predictions and prescriptions. Spark ML.
+IQ - mouse lock, volume, wifi lock, 2 port usb, etc.
+	ctrl,alt+double click.
+	3 KTs - functional arch code X theory, practical.
+IQ - Windows - add pin - 
+	Microsoft authenticator and phone call or text.
+	mysore bonda.
+IQ - No calling and on time delivery - so he didn't deliver.
+	Customer support - refund and 160 Rs discount
+	HP Software framework not installed or running.
+	ftp://ftp.hp.com/pub/caps-softpaq/cmit/softpaq/CASLSetup.exe
+	InstallShielf Wizard for the framework. Expert at reading your current system and its drivers and downloading relevant - is this software generic or system specific - read its name - it is generic for all hp not even for model specific.
+IQ - Sequence of asking for help in case of interdependency
+	Can talk to equals asking for suggestions. Ask in group chat, ask specifically some senior in charge, if still not sure, ask any senior, ask PO or SM for help.
+IQ
+	Microservice app KT should be HLD and LLD (so functional and code walk through)
+		how problem was solved thru available services and how is it solved in algorithm - LLD.
+		so just 2 levels of UML diagrams = that's it.
+	Varna is getting paid for a problem that you have or are solving. You should get enjoyment in both of them.
+IQ - Taking a session or presentation is presenting a world of knowledge - like LA for derivations - dont just say it but do it and address all queries.
+Arch - Risks foreseen for future - memory usage will increase if there would be frequent updates (nothing unforeseen left for future - benchmarking of memory usage anticipated etc)
 resources for access and hardware
 	partisan - Teams channels, Outlook groups, outlook subscriptions
 	software resources access - cf spaces - sandbox, perf; auditor, DoD, BCP, JIRA, GIT.
 	environment creation - IntelliJ, Chisel, DB Navigator Intellij Plugin for HANA, Datastax DevCenter IDE, Cassandra, jmeter, postman, cloudfoundry.
 	Bookmarks - CRUD + Save, share.
+Logs - Anshul - Kidney stone - baat hi kuchh aur hai - hospital but came back to home.
+Manager - Wrap up the year
+	Thanks for delivering our commitments - eb on vacation so got pushed - could have done this earlier.
+	All the hard work thru the year.
+	I take liberty and speak on behalf of team - thanks for free hand execution - not stopping us. Always there to support us.
+	Thanks for your trust.
+	Pulse survey on 4th of month - session with HR - asking what you want and stuffs. Other teams already have it.
+	Anything that we should address - I would prefer hearing from you guys straight than thru them.
+	Anything pressing to be addressed like remote work - does our model work fine or there is a change required.
+	I am good and have no concerns - is remote good - we are taking measures to be more productive; so for us not much; small hiccups for onboarding. Will sail thru that.
+	PO awards made public.
+		Sathya - PO, Varsha - DoD and support, Abhijeet - abstract, Ajay - csw and Imran for migration, Abhishek - SVM, Pavan - derivations and kafka, Ashok - seeing thru test automation.
+		This motivates others also.
+EQ - Withings healthmate sync with Fit@SAP Cloud - pulls only on sync trigger - takes up to 1 day. And check it once with withings server b4 SAP cuz we pull from there only.
+EQ - 
+	Khichadi - cutlery, paired with (achar, cucumber, veg raita, onion rings, papad), Sweet tooth, beverage, additional healthy (beans, punjabi kadhi, aloo jeera), starter.
+	Movie is intellectual side of other lives. Ashram only.
+	Burger
+		buns, tikki, veggies, cheese, sauces.
+		Cheese, Fries (regular, medium, king X peri peri), Beverages (cold drink or iced tea)
 EQ - Emotions Set
 	Emotions	Defn	Level of elicitation
 	Affection		Spirit
@@ -297,65 +395,96 @@ EQ - Emotions Set
 	Trust		
 	Wonder		
 	Worry		
-HomeErp - Cookings - Sabudana kheer, Bread pakoda, bread pakoda rolls, rice kabuli chhole, bread bhujia sauce sandwich, bread kheer - thick, thin, biryani - alu, toppings - bhujia, sauce, shimla mirch, khichadi curd or raita, haldi kheer, palak biryani with lemon, poha with bhujia and tomato toppings and lemon and onions.
-PIES - How to measure your growth - some metrics - old files - I had got many better and structured ideas later.
-	Challenge yourself - Put yourself into a situation where you must demonstrate your advancement.
-	PQ
-		Games (once a week), NFP (every End of Month Test), Exercise Streak, Taekwondo.
-		Body - mensurate parameters
-		Mind - Problem Solver, cool headed.
-		Intellect - Aggressive Achiever
-	IQ
-		Lines of Jnana, Problem Solving, Make PPTs, documentation for others; Make Presentations, Make Vids, Q & A.
-	EQ
-		Adventures, Explorations, Small Talk Explorations, 
-		TV series, movies marathon with lessons at every layer (latest, bests, theme=wise)
-			Sensual - dresses, figures, nice way of 7's  sth (speaking)
-			Mental - I liked, I felt, characters' styles, dialogues, jokes
-			Intellect - Plot, Characters psyche, poetic justice 
-			Ego - Director's vision and movie response
-			Soul - Philosophical insights (hypo case studies)
-		Excellent Consumer - best car, best bike, etc.
-	SQ - extrinsic growth in symptoms doesn't mean SQ growing! But vv!!
-		Streak of Dhyan on sth
-		Ceto Darpan Marjanam - Listen to Atheistic ideas (strong ones)
-		Bhava maha dhavagni nirvapanam
-			Adhyatmik - body exercise, dare do it right (mind when you won't like it)
-			Adhibhautik - Make notes and response (where you went wrong, how would you rectify)
-			Adhidaivik - karma
-		Shreyah kairava chandrika vitaranam
-			Check the dots of life and connect them (nth to do; only observe)
-		Vidya Vadhu Jivanam
-			Go for Book distribution (dare answer the toughest questions on quora) - Taking help from seniors is allowed but it must resonate with you.
-		Anandambudhi vardhanam
-			intense spiritual streak (fasting from entertainment say on ekadashi, etc)- 16 (closed eyes)
-		Prati Padam Purnamritasvadanam
-			Regularly do 1 thing that you are fearful of - like go for harinam sankirtan.
-		Sarvatma Snapanam
-			NFP streak
-			sensitive to expressions of Anarthas - record your 
-				Lust (Hankering for enjoyment)
-					given?
-						yes - greed (plans for increasing my enjoyment) - law of diminishing returns.
-							compare?
-								pride (i am enjoying so much)
-								envy (7 enjoying more than me vs inspiration)
-						no - anger (when enjoyment is being denied; I am getting to enjoy it to its fullest)
-					Illusion (lamentation for enjoyment)
-Story - Shared a pizza with a roommate. And also ordered sabjis and stuffs - getting a hang of getting social. Creating a happy ambience around myself.
-Discussion - 
-	Goats are tastier in India. Pork, etc in foreign cuz they take care of their diets. Chicken - foreign bred for meat vs India tastier - the colored birds.
-	Licious has taken things ahead. Meat..sth is costly and more on variety.
-	Onsite both payments but costly so less savings. Indian meals very costly - 25 Euros for a meal - I charge for ambience - yo yo honey singh and doesn't know hindi.
-	New company O9 startup mode still so willing to share a lot. Weekends work is common. Surprising when it's not there. Computer games.
-	Friday bear plans but fought a guy then on - friday snacks and booking a hotel only.
-	which brand laptop - variety and buffer size. Onsite continuum without which no point in here - changing projects to ones never worked on tech - cuz gotta meet the numbers
-	ppl standardize it if you work extra hours - hey you didn't shoot that mail on saturday.
-	Going to restaurant asking for regular drink and strange look from waiter.
-Story - Driving - got reminded of excellent experience while searching for flats - I won't do it otherwise so great experience it was - mix of pleasure and burden of zimmedari.
 EQ - Unconditional acceptance - See, we gotta accept others for what they are - even if bags of shit we gotta accept them and plan accordingly. Eg - married and person is bag of liability still gotta accept them - same thing applies in other relations as well. 1 thing is don't expect too much and transcend whatever little troubles we find in the way - cuz there is so much to do than to bother. Let's not miss on opportunities.
-Story - used to listen relatable songs in that time - ek wo din bhi the, ek ye din bhi hain. baat ye bhi guzar jaayegi (Hehe).
-Movie - Simmba, Scam1992.
+EQ - Shadi DMPM
+	Search, shortlisted, visitors, phonebook, contacts, matches - recommended, just joined, mutual, desired / looking.
+	Interest sent / receied / filtered.
+	acceptance.
+	Near you, shortlisted me, viewed by me or vv, premium, matches or new.
+	Near you shows in home.
+	Mailbox shows chat, acceptance, decline, etc.
+	Notification - view, msg, events. Search - by id , saved.
+	Profile Preference -> search (id, saved) by matches premium, near vs love -> viewed or visitors -> shortlisted -> chat, explore, unexpressed things - active or recent. -> Interest sent or received - proposal - accepted or not -> meet for subjective experience -> withdraw if at all.
+	This flow maps to reality as well HIMYM - but jumps are possible and time tenure is an issue.
+	arrows above correspond to notifications.
+	P, V, SL, C, I - Profile, View, Shortlist, chatted content, interest.
+	start -pref (photo, desc, ML cluster)-> candidates / indiv explore / confirm for others / filterable -> shortlisted -chat-> interest -subjective-> bets -> contract with verifications (B2G, B'2G, B2G', B'2G', F2F)
+	Stakeholders - B2G, B'2G', B''2G''.
+EQ - Lapse - Wifi vanishing to manual retry after - cuz usb connected and it was giving precedence to connecting to internet thru USB hotspot - removing it solved the problem.
+EQ - HealthReportCard
+	Vit D, B12 marginally less, Triglycerides high not just borderline high and VLDL (but fasting not enough 8 vs 10-12), IRON deficiency , High serum copper. Very high LIPOPROTEIN (A) [LP(A)], VANADIUM, BERYLLIUM.
+		Triglycerides - Reduce weight, less sugar, less carbs, more fiber (fruit, veg, grains, legumes), Aerobic exercises. Reduce trans fat (fried baked by hydrogenated oils)
+			omega-3 fatty acids, regular meal, less alcohol, add soy, more nuts, garlic.
+		D - Soy milk, Mushrooms, cereals, Fortified -> orange, almond and rice milk.
+			5–30 minutes twice a 
+		B12 - Dairy products. Nutritional yeast. Algae, mushroom.
+		Iron - everything gree (spinach, beans, peas). Dried raisins and apricots.
+		Reduce Copper - limit intake of nuts, chocolate, whole grain products.
+		Lipoprotein - same as triglycerides.
+		Vanadium - Skim milk, lobster, vegetable oils, many vegetables, grains and cereals are rich source of vanadium - cheese and fruits less rich.
+			but not essential and beryllium is rather toxic so don't care for these.
+	RED CELL DISTRIBUTION WIDTH high, MONOCYTES - ABSOLUTE COUNT low, 
+		RDW - linked to indication of a nutrient deficiency, such as a deficiency of iron, folate, or vitamin B-12. Cells produced less or larger than normal.
+		Monocytes - Regular exercise, anti-inflammatory diet.
+			anti inflammatory diet - lots of fruits and vegetables, whole grains, plant-based proteins (like beans and nuts), fatty fish, and fresh herbs and spices.
+CS
+	GIT SSH - https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git
+	https://stackoverflow.com/questions/21615431/git-pushes-with-wrong-user-from-terminal
+CS - Kafka
+	Apps interact
+		Producers - Publishes records to the topics in kafka.
+		Consumers - pulls records stored in kafka topics.
+	Streams - client library for processing data stored in kafka. Stream processors interact.
+	Connectors - a framework to build connectors for in / out movement of data between kafka and other systems. Like DB.
+	Intro
+		Documentation - Distributed streaming platform. similar to message queue or enterprise messaging system.
+		Message system - producers message broker and consumers.
+			see the mess with n and m target and source systems. @wire mess.
+			vs adapter.
+			fault tolerant.
+			Store in kafka message logs.
+		Stream - continuous stream of messages can be handled. Stream processing apps - read and store back or pass on.
+CS - Linux directory structures
+	/
+	IaaS
+		/dev - virtual files for the devices.
+		/media - removable drives as folder.
+		/mount - system admins use this to manually mount a filesystem.
+	OS (=windows)
+		/boot - boot files
+			contains the files of the kernel and boot image, in addition to LILO and Grub
+		/proc - process and kernel files
+			information about. to get runtime system information.
+		/var - variable data files - appData
+			programs store runtime information like system logging, user tracking, caches, and other files that system programs create and manage.
+			Eg - login history - not cleaned automatically. All logs also in here - mail server logs, system boot logs, kernel logs, etc.
+		/etc - configuration file (of system) used by admins or services (password file and networking files)
+			system config changes like hostname change is done here.
+	Shell - OS Facade (=windows system32 files)
+		/bin - binaries
+			executable files of many basic shell commands like ls, cp, etc.
+		/sbin - only su can run these binaries.
+		/lib - shared libs.
+			codes that can be used by the executable binaries
+	PaaS - softwares for dev or prod (= program files)
+		/usr - user program data and binaries.
+			all the executable files, libraries
+			/usr/bin - basic user commands. sbin for additional user commands. lib - system libs.
+			Eg - /usr/bin/python.
+			Observation - by default all apt-get installations go here and other parts like etc and all.
+		/opt - optional software
+			installing/storing the files of third-party applications that are not available from the distribution’s repository
+			eg - /opt/tomcat, /opt/eclipse-installer
+	SaaS and personal data also (=D Drive)
+		/root - for super user.
+		/home - for all users - has bin, sbin, lib eth.
+	Software Data (appData is actually /var)
+		/srv - service data like website data.
+		/tmp - temp files
+			deleted when your system restarts. Apps use for temp storage.
+	Eg - apt-get maven install writes to /usr/bin/mvn and also etc and /usr/share.
+		Just like program files contains application executables but data and configuration like registry details is somewhere else.
+CS - GITHub first push and OAuth 2.0 gets triggered with permissions asked for git configuration manager to access your repo's contents. You grant and it goes fine.
 CS - Learning Material as follows from different courses - Big Data - Github of learningjournal.
 	FP - Haskell exercises - Data analysis and Programming.
 	Apache-Kafka-For-Absolute-Beginners/   HadoopTutorials/             'PySpark Exercises LJ'/   Spark-Programming-In-Python/   Spark-Streaming-In-Python/
@@ -373,27 +502,130 @@ CS - Kafka server scripts
 		./kafka-topics.bat --create --zookeeper localhost:2181 --partitions 1 --replication-factor 1 --topic topic1
 	./kafka-console-producer.bat --topic topic1 --bootstrap-server localhost:9092
 	./kafka-console-consumer.bat --topic topic1 --from-beginning --bootstrap-server localhost:9092
-IQ - Used bookmarks manager to export and import bookmarks in chrome - when migrating my system.
 CS - Sometimes browser is configured with proxy.pac file to act as proxy server from the machine.
 	when many proxy servers exist and based on the hostname used in browser the proxy server should be decided.
 	A sample statement in such file looks like follows - if ( shExpMatch(host, "office365.com") ) { return "PROXY 194.138.0.25:9400;PROXY 194.138.0.26:9400"; }
-EQ - Shadi DMPM
-	Search, shortlisted, visitors, phonebook, contacts, matches - recommended, just joined, mutual, desired / looking.
-	Interest sent / receied / filtered.
-	acceptance.
-	Near you, shortlisted me, viewed by me or vv, premium, matches or new.
-	Near you shows in home.
-	Mailbox shows chat, acceptance, decline, etc.
-	Notification - view, msg, events. Search - by id , saved.
-	Profile Preference -> search (id, saved) by matches premium, near vs love -> viewed or visitors -> shortlisted -> chat, explore, unexpressed things - active or recent. -> Interest sent or received - proposal - accepted or not -> meet for subjective experience -> withdraw if at all.
-	This flow maps to reality as well HIMYM - but jumps are possible and time tenure is an issue.
-	arrows above correspond to notifications.
-	P, V, SL, C, I - Profile, View, Shortlist, chatted content, interest.
-	start -pref (photo, desc, ML cluster)-> candidates / indiv explore / confirm for others / filterable -> shortlisted -chat-> interest -subjective-> bets -> contract with verifications (B2G, B'2G, B2G', B'2G', F2F)
-	Stakeholders - B2G, B'2G', B''2G''.
-Uncat
-	50100191043804
-	50100177727444
+CS - Why use maven modules - 
+	Monoliths with tiers vs
+	Microservices - separate apps with needed talking with each other. Parition your big app. Even UI becomes a microservice.
+		vs DAG of dependendencies from devp space - not outside like MVN - different modules - eg - x4, BAF, Foundation used by all the functional modules simultaneously - if this was the case of parallel functional devp then foundation could be a separate dependency to be used thru maven but we want simultaneous devp so using it.
+			Think of this as single dependency of your project which doesn't need to be a separate project until there are many consumers for that jar.
+			let's call maven modules as project dependencies only but restricted to the scope of the project.
+		vs package - package is within a single focussed app - unique purpose served thru a set of packages.
+CS - Text mining in R
+	frequency; correlations
+	classification naive bayes, 
+	sentiments by classification algos; sentiments by function (positive - negative words)
+	Topics by frequent unique terms LDA algo.
+	Network analysis
+	clustering
+	NLP - Regex, Processing, Named entities, patterns, topic modeling
+	feature extraction, text classification.
+	words similarity like king and man. predict next word, spam classification using cnn.
+CS - CentOS launch another shell thru another tab OR use background jobs.
+CS - Set maven's JAVA_HOME to anything higher than the release you wanna use and it will happily do it but not vv.
+	Scala plugin is both mvn and IDE requirement - former to compile and latter to make it run
+	set JAVA_HOME for the session in which you want to use a certain alternative.
+CS - Using logger in spark app - spark/conf spark-default.conf file write the following line
+	spark.driver.extraJavaOptions	   -Dlog4j.configuration=file:log4j.properties -Dspark.yarn.app.container.log.dir=app-logs -Dlogfile.name=hello-spark
+	spark app only needs hadoop windutils in its path - not SPARK_HOME but the path for latter can help in other places but not in standalone  problem.
+	spark per hadoop version number, pyspark version and spark version should match (similarly scala version and spark against scala version should match. download package - pyspark for IDE - similarly scala for Intellij.
+	SparkSession is the driver not your main program. Note cmd line shell.
+	Anaconda - python distribution, Spyder and Jupyter all come with it. Pycharm is favorable IDE.
+	Just bookmarks - IDEs also have config saved in a file and later export it for new machine or installation.
+CS - Spark run - only hadoop home, run spark code on a lang (platform, IDE, run config, env variables)
+	pycharm = IntelliJ but project setting from interpreter settings on status bar.
+	Notebook = spyder but also remember the state in former and code look in the latter.
+	installing pyspark in python sdk = installing spark dependency using mvn or sbt in scala envt. compatible version thru prefix or suffix.
+IQGrats - Suggested the idea of natural language processing on BCT tickets based on history.
+	History we have - which team finally solved the ticket so use that to train a classification model based on NLP.
+IQGrats - JAVA_HOME is required for MAVEN else any amount of configuration simply busts it - solution set JAVA_HOME variable for the session of maven run and then get rid of it.
+	The same idea can be extended to other tools as well.
+FND - Chess - line of attack - source of line of attach (Kill the source), don't cross their line or restrict their line thru another attacker.
+	move with a backing, Chessmate = you must move but you can't move.
+FND - NFP - average (median) time before orgasm was about 6 minutes, and ranged from a blissful 6 seconds to a marathon-paced 53 minutes. The majority of men lasted between 4 to 11 minutes, with anyone lasting longer than 21 minutes being considered an outlier.
+	Ginger, honey. Ashwagandha (2 weeks enough to show effects). Yauvan. Milk and dairy. Green Veggies, Lady finger, peanut, avocado, multigrain.
+	No smoke, alcohol, 
+	Balanced diet – Avoid foods like chocolate, chillies and caffeinated beverages. Consume diet rich in zinc, selenium, calcium and iron for better control and strength.	
+	sleep, stress, exercise, diet, hydrated. Kegels, weight.
+	For the most part, yes, the components that make up semen are safe to ingest. Swallowed semen is digested in the same way as food. However, in very rare circumstances, some people might discover that they're allergic to semen. This is also known as human seminal plasma hypersensitivity (HSP)
+FND - NFP - openshirt, tl with bottoms specifics like jeans, close ups, conceal, wedding veil.
+FND - Scrum - Calendar blockings - when stuck then inputs from others - How would approachability work and transfers.
+	some handholding for new colleagues - tailoring mode - dedicated 1 hr with buddies and 1 hr of development.
+	reverse KT mode - where they come back of questions. This KT by new colleagues - not active members of meeting. Now question is how do I test it while debugging, etc.
+	That I am ok with KT is one time effort but setting up system needs availability from devps.
+	enabling them is the means - this investment is lacking from our side.
+	2 meetings - reverse KT and trouble shooting.
+	Action item - you book the reverse KT.
+	API made to do primitive checks to help them forward the ticket to right time.
+FND - Scrum - PC be my workspace and cloud for persistence.
+FND - live:arunita.biswas
+Story - Shared a pizza with a roommate. And also ordered sabjis and stuffs - getting a hang of getting social. Creating a happy ambience around myself.
+Story - Driving - got reminded of excellent experience while searching for flats - I won't do it otherwise so great experience it was - mix of pleasure and burden of zimmedari.
+Story - used to listen relatable songs in that time - ek wo din bhi the, ek ye din bhi hain. baat ye bhi guzar jaayegi (Hehe).
+HomeErp - Bikes
+	Battery
+	Brakes - Disk famous - drum is old. Anti-locking.
+	Carburetor - air and fuel mixing - for combustion.
+	Chain - engine and rear wheel.
+	Charger - battery is given voltage.
+	Chassis - frame of bike. All parts mounted on it.
+	Clutch - transmit power from 1 comp to another.
+	drivetrain - connect parts together.
+	engine - old comps together and produces power. Cylinder, pistons.
+	exhaust system - gases are released.
+	air filter - dust particles not allowed in engine.
+	oil filter - engine oil is cleaned.
+	fuel tank - fuel held in there.
+	gears - parts of transmission.
+	Handle grips
+	handlebars - steering mechanism. holds brake, etc.
+	Helmet.
+	Kickstand
+	Lamp - headlight or headlamps.
+	Mirror - to see back and front.
+	Motor - see engine.
+	odometer - distance.
+	saddlebags - options.
+	seating.
+	shift lever to change gears.
+	sidecar for extra luggage.
+	speedometer.
+	suspension - on tyres - vibration and noise safety - handling and braking.
+	tachometer - rotations per sec when to change gears.
+	tyres - tubeless.
+	transmission - power from engine to wheel.
+	wheels - tubes mounted on it.
+	windshield - used by police.
+	Choke Switch - morning engine doesn't start - more; engine is cold so more fuel and air reqd.
+		Choke giving more petrol - turn on choke switch for more fuel.
+		crank in other bikes. Knob, switch.
+		keep on for reserve fuel and also for starting the bike in cold.
+	engine kill switch
+		use - traffic signal - to save petrol.
+		safety feature if key is stuck.
+		accelerator jam then use it - it will take time to stop.
+	Engine start.
+	Horn.
+	Indicators.
+	headlights.
+HomeErp - Bike - Battery Dead Problem
+	Use kick-start (if that option is available in bike)
+	Otherwise, visit the nearest available service station/mechanic/battery repair shop to charge the battery.
+	Call on-road helpline of the bike manufacturer (if available)
+	Try to Push-N-Start the bike (like they used to start mopeds in olden days). This option may not work with many of the bikes. Not with heavy ones at least.
+HomeErp - Cookings - Sabudana kheer, Bread pakoda, bread pakoda rolls, rice kabuli chhole, bread bhujia sauce sandwich, bread kheer - thick, thin, biryani - alu, toppings - bhujia, sauce, shimla mirch, khichadi curd or raita, haldi kheer, palak biryani with lemon, poha with bhujia and tomato toppings and lemon and onions.
+HomeErp - FOE for Bangalore Room
+	Get flatmates teamed up.
+	If done, then talk on all of their behalf to owner for reducing rent by 50% or any lenience.
+		If not, gotta talk only for myself.
+	Works?
+		if yes, then we can continue staying here until next landmark.
+		If not, then we gotta look for vacating and finding substitutes.
+	Vacating
+		Get buyers for your items - can be flatmates if they ain't moving.
+		Or rent a place for your items. Stownest - parallel thread of enquiry can take place b4 talking to owner.
+HomeErp
 	appam, idiyappam, veg stew, veg pothichoru. puttu with kadala curry.
 	Idli, sambar, chettinad, dosa, vada, uttapam, banana bonda, rasam.
 	Ragi Mudde And Sopinna Saru: Healthylicious.
@@ -409,313 +641,76 @@ Uncat
 	Akura Pappu. ...
 	Royyala Veppudu. ...
 	Gongura Mamsam.
-	which boum2 daily and over takts.
-	Y deliver to customer so late after T2.
-	Y dev close at all - no access to ACL
-	Joke vs serious - conformity vs spontaneity - liberitans vs conservatives. - gotta balance.
-	PC be my workspace and cloud for persistence.
-	What was BR funda in there.
-PIES - Measure Ashram in - Shopping (SRM), cooking (foodie life, SCM Prod), entertainment (HCM), Decor or resourcefulness (SCM Logisitcs), Networking (CRM), Security (Foundation).
-TODO - RC Scan and insurance.
-IQ - CS - LIB - Business Model - let's solve some problem - what's the use case.
-	Functional specification - Please specify the system - as it is viewed by the customer - DMPM (master and transactional).
-		Technical specification system design aka architecture - DMPM master and transactional - tools (eg - which DB, distributed, etc) and resources - how they are supposed to interact for SE.
-			LLD - Class Diagram and code walk thru and code standardizations to server higher layer.
-	Every layer serves the layer above.
-	Take eg of BYD and LIB to relate.
-	This should reflect in all your sume of prods worked on.
-SAP - BYD used command pattern (command triggered from UI mapping to specific classes), visitor pattern (cuz same treatment to all the classes), template pattern is always there. Factory and builder and commonly used and also singleton. Strategy is often used. observer becomes important in subscribers' case - used in abstract data ingestion.
-Uncat
-	Scam 1992 - plot from scenes perspectives.
-	GDPR - anonymize, deletion, right to knowledge. CRUD of data with user - I create data, I have right to retrieve all my data with the system (what all places), I can update the data, I can anonymize myself And also delete data I created after retention period.
-	Microservice app KT should be HLD and LLD (so functional and code walk through)
-		how problem was solved thru available services and how is it solved in algorithm - LLD.
-		so just 2 levels of UML diagrams = that's it.
-		Varna is getting paid for a problem that you have or are solving. You should get enjoyment in both of them.
-Uncat
-	Bank - Debit card
-			Delivery attempts numbering
-			Valid id proofs - Passport, DL, Employee Id, Election ID, photo debit credit card, PAN card, pension payment order, freedom fighters pass, valid arms license, valid bar council id, aadhaar card.
-			card on letter.
-			Benefits - Central mall voucher. Kaya voucher. driving voucher.
-				TnC for benefits.
-			Manual - Limits - 1L,5L (ATM, transaction limit), International (2L, 2L).
-			automatic swipeless without pin.
-			card - your name, card number, EMV Chip, Expiry date, validity
-				magnetic stripe, customer care number, cvv number, grid values, signature panel.
-			Dispatched thru partner blue dart.
-			ICICI Bank expressions debit card. Image, internationally valid.
-				international transactions - switched on thru - internet banking.
-				ATM pin Generate - Internet Banking, IMobile, Customer Care, ATM Visit.
-				blocks existing card by using new card in 48 hours.
-			CRUD - block the card if lost thru Internet Banking or IMobile App (clickpath) or customer care.
-	LinkedIn
-		Post - share, hide, report, like, convert - fetch upto 1 level, time.
-		Persons - follow, unfollow, tagline. Recommend.
-		Feed.
-		Profiles - connections, invitations, hashtag.
-		Messages.
-		Notifications their events - anniversay, delete, unfollow, turn off.
-		Job suggestions - Apply, save, viewed, saved, not for me, applied.
-		New, trend or recent, most viewed, ted talks.
-		search by interest / topics, podcasts.
-		me - log, lists, likes, download, history.
-		Vid - play, pause, rewind, fwd, back, next.
-			speed, share, min max, captions.
-	Youtube
-		Me - channel, stats, switch acc, incog, settings.
-		Search - from ppl channels, feed, CRUD.
-		Vid - like comment, share, download, save
-		other - subscrie, bell notification.
-		Trending
-		subscriptions - vids from ppl, manage ppl.
-		library - all folders.
-	Make friend - casual, close, intimate. Y? cuz bhakti of EQ.
-		spiritual side is to see them more than utilities.
-		Formal - colleague to partner; like to love in informal - better is this lead, prospect, customer.
-		stages triggers - mutual benefit P2P, Empathy relate, know him, liking things; similar beliefs and values; always there for me, well being.
-			make you comfortable, no judgment, talk eth with, hels when alone or hurt. being understood. Nature proclivity, propensity.
-			sync of feelings.
-	GDPR - right to know which resource is being used by which all apps - like microphone on windows, camera; similarly in smartphone - smartphones come with more IO and sensing devices so Android gives RTI.
-Uncat - Taking a ssession or presentation is presenting a world of knowledge - like LA for derivations - dont just say it but do it and address all queries.
-IQ - CS - Types of work
-	Infra and Platforms
-	Softwares
-		Data Management - Managing your resources.
-			Managing Master, Transactions and Configs for people or things (IoT). Facebook, IoT, Twitter, etc. Can use lots of tools in the market like kafka, redis, etc.
-		Implied or Innovation - Cool features - implied informations that you may find really useful - using algos and approximate algos.
-			Spark GraphX. IoT+ can be very powerful. Here also analytics is used thoroughly but not over huge volumes.
-			There's a lots of fun in connecting different apps, features, capabilities, etc in interest of final users.
-	Data Generation - Using its essence as testing for some capability to be used for innovative software.
-		Data Engg - analytics (insights into or transformations) over the existing archived or persistent data no matter how big (V3). 
-			Pandas and Spark Gen - describe and explore or confirm. DA follows from here.
-		Learning - what patterns or information does your data reveal.
-			ML for predictions and prescriptions. Spark ML.
-SAP - CS - GIT SSH access
-	ssh-keygen -t rsa -b 4096 -C saurabh.devgun@sap.com
-	eval $(ssh-agent -s)
-	ssh-add ~/.ssh/id_rsa
-	clip < ~/.ssh/id_rsa.pub
-	git config --global http.sslVerify "false"
-	git clone (ssh_link) - authenticate do you? yes.
-		Git Credential manager - OpenSSH - command promp credentials.
-	mvn dependency:resolve
-		the only problem is that if it is maven modules based project - this won't do it.
-	mvn clean install - java compiler not found - configure it in pom and secondly JAVA_HOME or path is used by maven so after that it would work.
-vanity patch
-Movie - Laddakh warriors
-	preparation for extremes, personality devp, younger brother (nanu)
-	ultimate purpose of the training being - emerge winner - strategies are important - take advantage of fog (opportunities in adversity), never lose the ground, physical capabilities enhanced and standardized; solve a problem of winning or defending given a situation - in terms of capabilities.
-	I was just doing my duty - winning a medal was nowhere in my mind.
-	can't forget team - that's what makes the scouts - honor them as ritual.
-	marathon run with weight on top. 18 Kg gun and bag 4 Kg but team with you. High altitude less oxygen and severe cold.
-		all are serving or preparing to serve their best. bhaichara is important - more than physical it's mental test - you need bravery and zidd.
-		gurudvara patthar sahab - teerth sthal and buddists accept guru nanak and buddh guru - guru gompka maharaj.
-		many months for this prep and real life prep is going on.
-		another marathon 72 Km and these guys make it to top 10.
-	training for weapon - assemble and vv. with eyes closed - in matter of secs.
-		st with weapon that jams in cold.
-		run and shoot - cuz tired and can lose the aim.
-		LMG - light machine gun.
-		arrow shooting and also competitions - music accompaniment.
-	camouflage training. PASS THRU fire smoke - gotta stop breathing and change gun positions.
-	crawl under fences.
-	climbing on mountain. tools and with bag. ropes and knots.
-		Ibacks mountain animal. run but 90 degreee angle and gotta control speed and avoid slippery.
-		death if slip and confidence that yes I can do eth.
-		changpa kabila - changthang pathar survival.
-	snow gliding and fighting.
-	war simulation. smoke candles, ghabarahat and afratafri - remove the fear. guidance while that happens - every movement.
-		no time to even breathe - make them move and death in real life.
-	relp with instructor like feel and emotions - friends relp - we become member of family. Team spirit is deeply inculcated. sing together.
-	whatever you do you gotta be god of the arena - khatri to offer best service, business man to offer best service; talent to offer best service and Researcher to offer best service.
-	There are always leaders or architects above engineers. The hierarchy always exists - meaning your ability to service at the best that your junior is inspired to serve under.
-SAP - New year holidays - magic.
-CS - Why use maven modules - 
-	Monoliths with tiers vs
-	Microservices - separate apps with needed talking with each other. Parition your big app. Even UI becomes a microservice.
-		vs DAG of dependendencies from devp space - not outside like MVN - different modules - eg - x4, BAF, Foundation used by all the functional modules simultaneously - if this was the case of parallel functional devp then foundation could be a separate dependency to be used thru maven but we want simultaneous devp so using it.
-			Think of this as single dependency of your project which doesn't need to be a separate project until there are many consumers for that jar.
-			let's call maven modules as project dependencies only but restricted to the scope of the project.
-		vs package - package is within a single focussed app - unique purpose served thru a set of packages.
-SAP - CS - Some resources accessible cuz your system has certificate and others need you to be inside the intranet - that's when VPN becomes important.
-IQ - mouse lock, volume, wifi lock, 2 port usb, etc.
-	ctrl,alt+double click.
-	3 KTs - functional arch code X theory, practical.
-CS - Text mining in R
-	frequency; correlations
-	classification naive bayes, 
-	sentiments by classification algos; sentiments by function (positive - negative words)
-	Topics by frequent unique terms LDA algo.
-	Network analysis
-	clustering
-	NLP - Regex, Processing, Named entities, patterns, topic modeling
-	feature extraction, text classification.
-	words similarity like king and man. predict next word, spam classification using cnn.
-Movie - Tanhaji
-	kondhwa sinhgad fort. Make your own sword.
-	gorilla warfare - strategic positions to win the war.
-	kalyan gate kondhana fort.
-	using pulleys to the fullest - how to take up the fort - pulley.
-	He got what he truly wanted.
-Uncat
-	th-gr-td
-	class="th-tabc-tab th-tl-wrapper"
-	th-ty-cnt
-	th-ty-pl
-	th-box
-	th-box-i3
-	class="th-ty-bd"
-	th-tabc-cont
-	ch-grid
-	svc-text-object
-	svc-info-tray
-	svc-text-memo
-
-	th-l-bcbacktable
-	class="th-l-bccellback th-l-bc-cell"
-	th-l-backbtn
-	Anchor - Back to Previous Page (Alt+Left) title; id = BackButton, class = th-l-bc-a; 
-
-	C47_W147_V148_V157_Items_Table[2].OBJECTID
-		class = th-lk; 
-EQ - Lapse - Wifi vanishing to manual retry after - cuz usb connected and it was giving precedence to connecting to internet thru USB hotspot - removing it solved the problem.
-IQ - Windows - add pin - 
-	Microsoft authenticator and phone call or text.
-	mysore bonda.
-IQ - No calling and on time delivery - so he didn't deliver.
-	Customer support - refund and 160 Rs discount
-	HP Software framework not installed or running.
-	ftp://ftp.hp.com/pub/caps-softpaq/cmit/softpaq/CASLSetup.exe
-	InstallShielf Wizard for the framework. Expert at reading your current system and its drivers and downloading relevant - is this software generic or system specific - read its name - it is generic for all hp not even for model specific.
-PIES - NFP - Excitement vs Happiness - Stay high paying proper price vs short high trip with a hack.
-	former comes with facing difficulties. The latter comes with escaping difficulting and hacking into high.
-	SVAF is never meant to be easy - the easiest thing to be is stay an animal but even that is full of difficulties - survival of fittest.
-	difficulties tap you to endorphins and that's also awesome but with goddamn price for happiness.
-	If angry with Krishna, take shelter of social high (even that's not easy) - to get excitement is easiest but such fake trips don't take you anywhere.
-	Not that I can but I do face difficulties every single goddamn time.
-	Socializing pleasure isn't easy but if you lose yourself unto that without your personal ego channel still you will feel busted - so the exponential curve of healthy life is always important.
-	Problems st show up in material transactions like "what the heck you did" - but the real problem exists in config "this vulnerability always existed, just that bad situ didn't show up". So, work on your anarthas cuz transactions can bring something undesirable, they may not but why keep a stool like problem with you.
-	What if I don't want difficulties - then you should either settle with lower happiness which is against your constitutional position and so or otherwise, you will be forced to hack into cheap highs and stay on the lower strata - we do see the highs of different chakras but get to a higher layer, demands a goddamn price.
-IQ - Sequence of asking for help in case of interdependency
-	Can talk to equals asking for suggestions. Ask in group chat, ask specifically some senior in charge, if still not sure, ask any senior, ask PO or SM for help.
-IQGrats - JAVA_HOME is required for MAVEN else any amount of configuration simply busts it - solution set JAVA_HOME variable for the session of maven run and then get rid of it.
-	The same idea can be extended to other tools as well.
-CS - CentOS launch another shell thru another tab OR use background jobs.
-CS - Set maven's JAVA_HOME to anything higher than the release you wanna use and it will happily do it but not vv.
-	Scala plugin is both mvn and IDE requirement - former to compile and latter to make it run
-	set JAVA_HOME for the session in which you want to use a certain alternative.
-SAP - Home Health Checkup - Appointment fixed with standard service providers. They came collected blood and urine and went - communication gap in their office so rescheduled on their own thrice but late comers still visited.
-	Book Dr appointment - appointment with clinical psychologist not psychiatrist - 30 mins. For 1K.
-	DNA test is chargable so didn't go for it.
-SAP - Psychologist consultation planned. Talk to a doctor - select a section - doctor assistant will take details and find the best doctor for you and payment details to enrol into.
-SocialErp - Psychologist vs clinical psychologist vs Psychiatrist - 
-	general psychologists focus on healthier people, while clinical psychologists focus on people with more serious mental health issues. Regardless of where they work, clinical psychologists help patients with behavioral and mental health issues.
-	Psychiatrists are medical doctors, psychologists are not. Psychiatrists prescribe medication, psychologists can't. Psychiatrists diagnose illness, manage treatment and provide a range of therapies for complex and serious mental illness. Psychologists focus on providing psychotherapy (talk therapy) to help patients.
-NFP - average (median) time before orgasm was about 6 minutes, and ranged from a blissful 6 seconds to a marathon-paced 53 minutes. The majority of men lasted between 4 to 11 minutes, with anyone lasting longer than 21 minutes being considered an outlier.
-	Ginger, honey. Ashwagandha (2 weeks enough to show effects). Yauvan. Milk and dairy. Green Veggies, Lady finger, peanut, avocado, multigrain.
-	No smoke, alcohol, 
-	Balanced diet – Avoid foods like chocolate, chillies and caffeinated beverages. Consume diet rich in zinc, selenium, calcium and iron for better control and strength.	
-	sleep, stress, exercise, diet, hydrated. Kegels, weight.
-	For the most part, yes, the components that make up semen are safe to ingest. Swallowed semen is digested in the same way as food. However, in very rare circumstances, some people might discover that they're allergic to semen. This is also known as human seminal plasma hypersensitivity (HSP)
-Uncat - Wiki page is enough - framework on 1 page. Test on another page. Staging configuration file and tests - create another page.
-PIES - first of all lapse should never happen and if it happens, it should never repeat 
-	so, the idea is enter into things with proper intelligence or planning and if at all there is a lapse, you gotta learn from it immediately not experientially but conceptually so that it never repeats.
-PersonalErp - Driving 
-	Trying to overtake and blocking others especially those coming from opposite side. Solution - first look and confirm that they are far from the clear way and they with horn overtake and take your regular position - the gap should be significant and should not be a challenge.
-	When cow comes in front, give horn or wait or manuever with confidence but not in a rush - the pressure of crowd - no pressure, see, it's a legitimate problem we have to overcome.
-	IntelliJ dependency analyzer can do the job of dependency tree. External libraries don't show up if some error - go to project structure and libraries - check the error
-		invalid classes root - this solved thru invalidate cache and restart. OR maven reimport. Or remove and add the dependency.
-	Build on master failing - it is less probable because it is same as Commit and we make sure jenkins pipeline runs fine before PR merge is triggered. So, Jenkins foundations02 pipeline trigger and compare to that - it works - now take a fresh pull on your system same as master and try on that - no change at all. Add your changes on top of that.
-Chess - line of attack - source of line of attach (Kill the source), don't cross their line or restrict their line thru another attacker.
-	move with a backing, Chessmate = you must move but you can't move.
-PIES - I fear somebody will think I don't know something - lapse of jnana is better than lapse of bhakti - that's the first rule. 
-	lapse of dhyan is better lapse of jnana. lapse of karma is better than lapse of dhyan - you struggled to achieve something but you what all you did. You tried that is ok but you don't know that this is not how it works! You don't know how it works is ok, but you don't even want is bothersome.
-	scrum updates in all SVAF abstract and concrete - every day. Updates outta NIC+E - fear driven is still good but struggle is better word, desire driven for something interesting you did in an update, duty driven of what was supposed to be done. Love of how it was fun.
-	Scrum circles - Varna C office, Varna A colleagues, Ashram A relevant friend circle, Concrete A family and friends, Spiritual Concrete - some temple connected to, Spirituality abstract - some sajatiya dev or counselor system, Foundational C - relevant groups like NFP, December Run, etc; Foundational A - family and friends (how is health) - as observed there's huge overlap between ashram and foundation so merging their scrum.
-	SVAF growth is meant to be tough, if it was cake walk, eb could do it - it's not just personality (behavior) but also character (attitude) struggle or challenge. Without the price you don't get anything. So, forget hacks, anybody has become anything in life is actually worth respecting cuz it is paying a heavy price in cultivating behavior and attitude thru BJDK with persistence or tapasya.
-PIES - SocialErp is Varna realm's projection in Ashram and PersonalErp is Foundation's projection in Ashram - Ashram is primarily about HomeErp and Networks.
-LIB - Redeploy the config application - link = https://foundation02.codepipes.wdf.sap.corp/job/foundation02/view/CI%20Package%20Configuration%20Pipeline/
-SAP - IQ - Device not identified - company portal -> Settings -> Sync my device (manual) - done.
-SocialErp - Plumber - for fluid movement - Taps, toilet, etc - Toilet flush needs lubrication from below not above.
-	The part of push flush needs replacement, kachra in the tap orifice. Balcony water stuck.
-CS - Using logger in spark app - spark/conf spark-default.conf file write the following line
-	spark.driver.extraJavaOptions	   -Dlog4j.configuration=file:log4j.properties -Dspark.yarn.app.container.log.dir=app-logs -Dlogfile.name=hello-spark
-	spark app only needs hadoop windutils in its path - not SPARK_HOME but the path for latter can help in other places but not in standalone  problem.
-	spark per hadoop version number, pyspark version and spark version should match (similarly scala version and spark against scala version should match. download package - pyspark for IDE - similarly scala for Intellij.
-	SparkSession is the driver not your main program. Note cmd line shell.
-	Anaconda - python distribution, Spyder and Jupyter all come with it. Pycharm is favorable IDE.
-	Just bookmarks - IDEs also have config saved in a file and later export it for new machine or installation.
-EQ - HealthReportCard
-	Vit D, B12 marginally less, Triglycerides high not just borderline high and VLDL (but fasting not enough 8 vs 10-12), IRON deficiency , High serum copper. Very high LIPOPROTEIN (A) [LP(A)], VANADIUM, BERYLLIUM.
-		Triglycerides - Reduce weight, less sugar, less carbs, more fiber (fruit, veg, grains, legumes), Aerobic exercises. Reduce trans fat (fried baked by hydrogenated oils)
-			omega-3 fatty acids, regular meal, less alcohol, add soy, more nuts, garlic.
-		D - Soy milk, Mushrooms, cereals, Fortified -> orange, almond and rice milk.
-			5–30 minutes twice a 
-		B12 - Dairy products. Nutritional yeast. Algae, mushroom.
-		Iron - everything gree (spinach, beans, peas). Dried raisins and apricots.
-		Reduce Copper - limit intake of nuts, chocolate, whole grain products.
-		Lipoprotein - same as triglycerides.
-		Vanadium - Skim milk, lobster, vegetable oils, many vegetables, grains and cereals are rich source of vanadium - cheese and fruits less rich.
-			but not essential and beryllium is rather toxic so don't care for these.
-	RED CELL DISTRIBUTION WIDTH high, MONOCYTES - ABSOLUTE COUNT low, 
-		RDW - linked to indication of a nutrient deficiency, such as a deficiency of iron, folate, or vitamin B-12. Cells produced less or larger than normal.
-		Monocytes - Regular exercise, anti-inflammatory diet.
-			anti inflammatory diet - lots of fruits and vegetables, whole grains, plant-based proteins (like beans and nuts), fatty fish, and fresh herbs and spices.
-PIES - Power lies with jiva, prakriti (ext and int); ishwar (narrative and law of attraction, karma justice - stateful).
-	I gotta grow from vyakti to smashti. Social phase - serve but not exploited - evolution to happiness (sp realm as a side note)
-	follow ur bliss - but challenges from jivs, prakriti, etc - goal is not to "not do sth" but "have passion to do something"
-	9 stages of bhakti - all about growing happiness - lust like temperature (so needful) - stages all abt inc relp - nishtha - firm jaan lena not just maan lena.
-		solid graduation like marriage - Taste cultivation like trip planning in ruci hase.
-		Asakti - Oneness state - can't see separate; feel bad on hurt. Bhaav - emotions in love. Love (it's about you not even us (asakti))
-		Social is excellent but risky cuz anarthas in ppl and not the best bet but an excellent platform. Scrum, helping, seeking, discussing, updating are imp to me in current phase.
-	Personal Enoyment or me time like 1hr / week.
-	Lapse that I should have been sleeping at that time.
-	You become like your association.
-Uncat - ragada patice. BG Conversation stack, conversation conttent stack or nesting.
-	Wide vs depth - planned hrs vs streak of effort - both are necessary in balance - so conformity with spontaneity. Basic width of minimal commitment of planning but streak is fun.
-CS - Spark run - only hadoop home, run spark code on a lang (platform, IDE, run config, env variables)
-	pycharm = IntelliJ but project setting from interpreter settings on status bar.
-	Notebook = spyder but also remember the state in former and code look in the latter.
-	installing pyspark in python sdk = installing spark dependency using mvn or sbt in scala envt. compatible version thru prefix or suffix.
-SocialErp - Whatsapp for business - Thyrocare. Same queue and you get a person assigned and talks; after resolved - session closes on their side.
+HomeErp - ragada patice.
+Discussion - 
+	Goats are tastier in India. Pork, etc in foreign cuz they take care of their diets. Chicken - foreign bred for meat vs India tastier - the colored birds.
+	Licious has taken things ahead. Meat..sth is costly and more on variety.
+	Onsite both payments but costly so less savings. Indian meals very costly - 25 Euros for a meal - I charge for ambience - yo yo honey singh and doesn't know hindi.
+	New company O9 startup mode still so willing to share a lot. Weekends work is common. Surprising when it's not there. Computer games.
+	Friday bear plans but fought a guy then on - friday snacks and booking a hotel only.
+	which brand laptop - variety and buffer size. Onsite continuum without which no point in here - changing projects to ones never worked on tech - cuz gotta meet the numbers
+	ppl standardize it if you work extra hours - hey you didn't shoot that mail on saturday.
+	Going to restaurant asking for regular drink and strange look from waiter.
 Sume - Mockito in JUnit.
-SQ - NFP - openshirt, tl with bottoms specifics like jeans, close ups, 
-Movie - Star Wars 4 - A new hope
-SocialErp - Kochi Bar also, dinner, Breakfast both the days.
-	Kind talks with 3-wheeler - just a little empathy - kismat hi sabkuch hai - I agreed and he felt great. gf besides family. shook our hands.
-SocialErp - Pyschologist Consultation
-	Suggestions
-		Be Honest
-		Have an Open Mind
-		Don't Be Shy
-	Problem
-		Personal Bad Experience - Expectation vs reality.
-			You don't take interest in me - but she never used to talk.
-			We don't have anything between us - have I ever shown interest in you. Didn't even consummate the marriage - I want to know you first.
-			She brought the motion of divorce and was keen on that - I resisted cuz of my conditioning but had to comply seeing the onslaughts from family.
-		Personal Impact - At that time, deeply hurt me - Even if car topples, that would be better than the life that I have got into.
-			I don't care what the world thinks - the life sucks already.
-			I don't deserve this and crying seeing a mirror - no matter others, I will continue to love you.
-		Fear of problem being real - although I have enough evidence and verbal mentions of she being uninterested and being forced into marriage. 
-			stating that I was socially not enough - I said I am decent but they said that ain't enough - you had to be driving cars already.
-			The guilt of whether I fell short and if it was true to any degree that I did an injustice - this used to eat me up.
-		I can't even tell to my relatives so living a duplicitous life. It was like a standing car was hit by another vehicle.
-			what should I do.
-		My family didn't deserve this.
-			I ain't never going back to that family.
-			The turmoil that they caused to my family is the worst.
-		I never drank thinking of it as an addiction - I really desired I should do that.
-	Concerned about long term impacts on my psychology - possibility that I was not good enough for a relationship. Or that whether I did anything wrong to her.
-		Skeptical with every girl I meet. Hopes of finding a good partners is pretty shattered.
-			I fear injustice to the other girl - loss of self worth or self esteem - I can't do anything wrong to another person.
-		All the psychological changes I might be subconsciously going thru that can prove to be disadvantageous.
-		Face or hide dielemma - Not officially married but rituals were done. So, next person if I tell they may imagine so many things about me.
-SAP - December Fit@SAP Challenge - walked around 100 Km.
-Uncat
-	live:arunita.biswas
-	corruption of all varnas. Ashrams corruption. 
-	ola cabs without scaling is few 1000s of benefit ain't nothing
-	Business Man - caught up with supply and demand taking advantage of.
-	Bioluminescence 
-	culture or civilization of hacks - including online courses and songs and so forth but don't deny those. Speak nothing of hacks extrema.
+SQ - BG Conversation stack, conversation conttent stack or nesting.
+	Wide vs depth - planned hrs vs streak of effort - both are necessary in balance - so conformity with spontaneity. Basic width of minimal commitment of planning but streak is fun.
+Communication - Planning (What all you gotta do and how to prioritize; suggested strategy best approach; precautions (risks), updates) - such trivial things to do, HCM (his nature, why he didn't go home, where worked, does he have bike); CRM - Sardarji - go and say thanks - call him if not visit him. Bangalore temperature (social erp).
+	Transactional first and then Connected master data of everything.
+	bike servicing - don't give papers and contact the regular servicing folks. Arch and maturity means not getting too pumped by desires, urgencies, fears, etc.
+	everything comes from planning only - major component of discussions is planning.
+Movie - Pati Patni aur Woh
+	Traffic clear kar den.
+	Clear majority but you want gathbandhan.
+	I wanted to show highlights he is watching live. Some ppl don't deserve good news.
+	intercom to direct internet.
+	Became english to how I wonder what you are.
+	tiger vs frog.
+	laddu for you - best bribe.
+	Still in the way - then get auto.
+	I married her to befriend you mausaji.
+	where fursat for love - ogling me - far so ogling - if close then ....indigestion.
+	Some reason for kanpur - I am reason ...I mean responsibility.
+	I won't be able to sleep - can't hear his snores.
+	Can I put lotion on you - jahaan panah - no panah in jahaan.
+	If you don't go school then 2 ppl won't become abdul kalam.
+	dopahari mein jawani kyun jala rahe hain.
+	apni khushi apne haath mein hoti hai - par shadi ke pehle hoti hai.
+	can't imagine this back story - it's not written on face.
+	Will set fire on your sister's marriage - fire brigade will come; you will get sin.
+	gotta wait - best wait in my cabin for promotion.
+	Aa gaye haalat ke shikar; I am trying to better Kareena Kapoor - context made into noun or verb.
+	pati hona paap ho gya hai is desh mein - kuchh aur soojha nahi - ab soojega.
+	you liar and become like cow. What should I say married and happy but like to spend time with you - she would slap.
+	neha left and you made life's saar.
+	what you want - sahanubhuti so mamta or quota of happiness - roamed city. Pukka nothing else - your kasam - marvao bhi hamen hi tum.
+	things going wrong - jaise kaali raat mein khil uthta hai chaand.
+	Fahim had given me key and no return.
+	marriage me too - no he is waiting.
+	behudi awaaz - gir gaye ham - of course.
+	suna hai chhipkali maar bhagayi hamare yoddha ne - lag bhi gayi - lag to gayi hai.
+	bhabhi you here - are we banned - but surprise - lunch for him - double ; love and lunch.
+	aaj kare so ab, pal mein parale hoyegi bikhar jaayega sab.
+	more money then zaydat hamare naam kardo - you left phone at paan waala - no forgot it.
+	she is kanpuriya - your grace sir.
+	pataa chalne se pehle hi you come like addiction.
+	rishta achha, taiyari, rishedar but 90% for these reasons.
+		18, bunty studies and winter then get 7 married.
+	kami ham mein hi hogi koi - I can't see any.
+		what you do is lovable and what you don't is even more lovable.
+	sheher kya badla; aapne duniya badal di
+	Even god said wouldn't believe; should have said; bharosa that love follows.
+	broadband was lose so nikal diye ham.
+	I will kill you ganges and will get fansi. Wanted bahubali 2 with 1.
+	childhood friend so get laughter - why alone laugh; broadcast on vividh bharti. Hanuman so don't Ram worry - lanka to nahi lag jayegi.
+	aage kahaan badi - it's out of control.
+	namaaz but got roze; haj ka package bhi hai. wife has run away. Hamari bhi bhagva do - I love him - with wife? ok.
+	time kharab chal raha hai - kaayede mein rahoge to fayede mein - you look like sharif so will help.
+	pativrata from 3 years - outta fashion - time of bitches.
+	wo is the gap between the 2 and don't let them come - remaining mahadev sees to.
+	if sb praises your smile then think who is cause of your smile.
+	changed the department. haath held - should I take hand with me or you will come with.
+PersonalErp - Psychologist Session
+	Focus on ur identity (what you stand for) and how this incident is just a supporting narrative for your identity or its growth.
+		what you did corroborated with your identity and how this incident helps you evolve.
+		I tried to restore the marriage, but still the marriage fell apart for xyz reasons. 
+		the task is to bring back the faith in yourself.
