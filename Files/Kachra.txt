@@ -714,3 +714,44 @@ PersonalErp - Psychologist Session
 		what you did corroborated with your identity and how this incident helps you evolve.
 		I tried to restore the marriage, but still the marriage fell apart for xyz reasons. 
 		the task is to bring back the faith in yourself.
+SQ - collective intelligence. Preaching is not professionalism but sharing good fortune so yes, not too deep dive but helping others with good fortune. solution to envy is praising others BSS used to use.
+SocialErp - Car Insurance - Insurance is issued by RTO but supports many third parties
+	TPO - Maruti, Digit, Edelweiss, navi, Magma, Tata AIG, Universal Sompo, SBI General Insurance, Bajaj Allianz, bharti, kotak, united india insurance, orienal, national insurance, new india assurance, iffco-tokio
+	Different rates and plans (covers)
+		cashless claims and reimbursements within 24-38 hrs across India.
+		Break up - basic own damage premium, Third party cover premium, GST.
+	Covers 
+		Inclusions
+			Damage to car
+			Theft
+			Damage to Third Party
+			Natural Calamities
+			Man made hazards
+			Fire and Explosions
+			Damage during Transit
+		Non-inclusions
+			General wear tear
+			Mechanical failure
+			tyre and tube damage
+			consequential damage
+			cost of consumables
+			damage to engine (non-accidental)
+			driving without DL
+			Driving under influence
+			commercial usage
+			damage due to racing
+			deliberate damage
+			involvement in riots
+			damage due to war or invasion
+			general wear and tear
+		Percentages
+			Repairs - Insurer pays 100% of the claim amount if there are only repairs and none of the car parts are replaced 
+				except insurer pays only 50% of the cost of painting materials
+			Replacements - 
+				100% - Cost of replacing glass components (eg. Windshield)
+				70% - Cost of replacing fiberglass parts
+				50% - Cost of the painting materials
+				50% - Cost of replacing plastic, rubber, nylon parts & batteries
+				60% - Cost of replacing metal, wooden & all other parts
+	Broker Abstraction - Online policy bazaar, insurancedekho.com
+	IDV - Insured Declared Value
