@@ -1,0 +1,7 @@
+Bridge gap for leadership devp plan - ur feedback is crucial for action items on their devp plan.
+	Manager not part of meeting - aggregated feedback or themes get shared, anonymous.
+	Provide feedback like you like to receive, tell it as it is. Verbose for real help.
+Some features only accessible thru app and not web.
+online tool for jpg to pdf, then doc embed images to pdf lesser but still more, then jpg to png to doc to pdf.
+	Solution - the limit is on file size and not on total cumulative size and hence break RA into 2 files and upload.
+	

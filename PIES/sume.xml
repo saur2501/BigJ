@@ -1342,4 +1342,47 @@
             Additional Qualifications
             Personal Interests
     </F>
+    <LifeLogs>
+        SQ
+            Bridge - NS Camps Collected; SMY and EBG Planned.
+            BSC
+                Isho, NOI, Isho, BG KY Section Done, NOD.
+        SIOT
+            General
+                SVM Security
+                    CodeReview, Version updates - Jmeter run successful.
+                Libraries -
+                    Hotfix Version updates from Libs
+                        versions exclusions using maven dependency tree.
+                Performance Job Run - Configure a file for a system run and collect the metrics. No Framework devp.
+                Spark IO Health Check
+                    UML Diagram Approved.
+            Monitoring -
+                Context Name added.
+                    Cleaning - Consider only Running Jobs and not Gone ones.
+                Code Cleaning for user messages and Refactoring.
+            Code Generator App Code Refactoring
+                Design Patterns. Code to Text file parse and generate.
+        EQ
+            About - Ashram related SocialErp, HomeErp and PersonalErp.
+            Company
+                4G Hotspot Change
+                Laptop Standby and backup.
+            Bank
+                Debit Card Issued - activation by call. Bank Internet Access regained.
+                Credit Card payments thru Amazon Pay and customer care based calling.
+            Home reorg
+            Cooking - Biryani, Paneer, Beetroot palya.
+            Transport
+                Car
+                    Tyre Change
+                    Driving Practice.
+                Bike Home Service.
+                    Self Start not working - kick start without trigger.
+                    Leakage corrected, part fitted, battery issue.
+        Foundation / Health - December walk streak.
+        ===UPDATE===
+        Monitoring Check Status. Abstract Learning Spark, Kafka, Spring, Lambda, Mockito, Log4J.
+
+    </LifeLogs>
 </PIES>
