@@ -150,12 +150,43 @@
                     HTML, JS, CSS, Bootstrap
                 </Frontend>
                 <Libraries>
-                    UI Automation - Selenium
-                    JAVA Email Integration
-                    Clients - SparkClient, RestClient, etc.
-                    API for Persistence - GSON, YAML, XML, JSON, Text Files, Properties, Cassandra, etc.
-                        Properties
-                    Log4J
+                    <ReuseUtils>
+                        UI Automation - Selenium
+                        JAVA Email Integration
+                        Clients - SparkClient, RestClient, etc.
+                        API for Persistence - GSON, YAML, XML, JSON, Text Files, Properties, Cassandra, etc.
+                            Properties
+                        Log4J
+                    </ReuseUtils>
+                    <LanguageFeatures>
+                        Memory Manipulations - Pointers, DSA.
+                        IO - Files, Databases, console, etc.
+                        Low level programming
+                            OS - Threads, Sockets,
+                            IPC, System calls.
+                        OOP - encapsulation, abstraction, inheritance, and polymorphism
+                            Generics, Exception handling, Collections, Reflections, Garbage Collection.
+                        Functional - Async Await, Callbacks, Closures, Lambda, etc.
+                    </LanguageFeatures>
+                    <Frameworks> Everything is done - you need to only set properties or customize the code to suit you - using exits; Diagrams with explanations
+                        XWeb Client Frameworks - Bootstrap, React, Angular, Vue, OpenUI5 using FIORI, Silverlight, etc.
+                        Microservices - Jersey, Spring - MVC, Security, boot, persistence, etc.
+                        <WebFrameworks>
+                            DOTNET - IIS Server.
+                            ABAP - ?
+                            JAVA - Swings, Servlet, JSP, Hibernate, J2EE, Struts, Jersey.
+                            NodeJS - Express, Router
+                            JAVA Spring - MVC, Boot, Security, Persistence, Model.
+                        </WebFrameworks>
+                        <ApplicationFrameworks>
+                            DOTNET 3.5
+                            ByD Descriptive/Exploratory Analytics Framework, PD Framework
+                        </ApplicationFrameworks>
+                        <UtilityFrameworks>
+                            MR / Spark Libs - Batch Processing (Language, SQL), Spark Streaming, XSparkML, XSparkGraphX.
+                        </UtilityFrameworks>
+                        <Testing>Start Scripting for testing, BOUM2 for Integration Testing, JUnit, ABAPUnit</Testing>
+                    </Frameworks>
                 </Libraries>
                 <Langauges> Scripts included
                     G4 - SQL (MySQL, Oracle, MS-SQL), Hive, Pig, Shell Scripting, NoSQL (Cassandra, MongoDB, HBase)
@@ -167,34 +198,41 @@
                         system calls,
                     G2 - Assembly Language
                 </Langauges>
-                <Frameworks> Everything is done - you need to only set properties or customize the code to suit you - using exits; Diagrams with explanations
-                    <Tools>Struts, Swings, JSP, Hibernate</Tools>
-                    <Misc>NuSMV (Model Checking or software verification), Hadoop, ByD Descriptive/Exploratory Analytics Framework, PD Framework</Misc>
-                    <Testing>Start Scripting for testing, BOUM2 for Integration Testing, JUnit, ABAPUnit</Testing>
-                </Frameworks>
                 <IDE> 
                     UI - UIDesigner
                     ?IntelliJ, Eclipse, Visual Studio, Ginee, Netbeans, RStudio, Notepad++, Textpad, ABAP Logon
                 </IDE>
             </DesignTime>
-            <Platforms>
-                Database Server - PostGres, MS SQL, MySQL, 
-                    NoSQL - Cassandra, HBase, MongoDB, Neo4J, etc.
-                    Data Models - RDBMS, XML, JSON, Text, Semantic Web, Data Warehousing, NoSQL, Spark Libs.
-                Application Server - Express NodeJS, router, DOTNET 3.5, JSP, J2EE, etc.
-                    Struts, Jersey, Spring
-                Web Server - Apache Tomcat, Glassfish, LanguageSpecific Servers like NodeJS.
-            </Platforms>
             <PaaS>
+                About - Read Servers which are Concerned about runtime not design time
+                    so Languages / Libs don't exist here only binaries.
+                <TierServers>
+                    Web Server - Apache Tomcat, Glassfish, LanguageSpecific Servers like NodeJS.
+                    Application Server
+                        Language Servers - C# dotnet Server, Node Server, ABAP Server, JVM Server.
+                    Utility Servers
+                        Database Server
+                            NoSQL - Cassandra, HBase, Redis, MongoDB, Neo4J, etc.
+                            RDBMS - PostGre, MS SQL, MySQL
+                            Data Models - RDBMS, XML, JSON, Text, Semantic Web, Data Warehousing, NoSQL,
+                        Big Data - Spark Server.
+                        Messaging Servers - Kafka Brokers
+                        Model Verification - TOC - NuSMV (Model Checking or software verification)
+                        Compilers - yacc, lex, CUP, etc.
+                </TierServers>
+                BigData - Hadoop Platform Ecosystem, MapReduce Framework, Spark Framework.
                 Ops - Jenkins, Cloudfoundry, Kubernetes, Docker.
-                Spark Server, Kafka Brokers, Hadoop Ecosystem, etc.
-                RDBMS Servers, 
             </PaaS>
-            <IaaS>
+            <IaaS> aka Bare metal we procure from online services or products.
                 Servers - AWS, Azure, GCP, Alibaba, SCP, Private Cloud.
-                Virtualization - OS - VMWare, IOT, Arduinno, Raspberry Pi.
-                Networking 
-                Storage 
+                Virtualization - OS - VMWare, IOT, Arduino, Raspberry Pi.
+                    OS - Windows XP, 7, 8, vista, 10. Mac 15 Catalina (Darwin).
+                        Linux - Ubuntu, KaliLinux, CentOS, ?Redhat, ?OpenSuse
+                Networking - F5 VPN, SCP, SSH, etc
+                Storage - Windows FTP, Desktop file sharing (All apps in turn using cloud storage like mails, communicators)
+                    Platforms based storages like OneDrive, Google Cloud, etc.
+                    HDFS - on Public Cloud, SAP Private Cloud, On Premise, VMs.
+                Systems - HCL, Asus, Lenovo Thinkpad, HP, MacBook Pro.
             </IaaS>
             <Misc>Kafka, Ambari, Hortonworks</Misc>
         </J>
@@ -245,6 +283,8 @@
             about - focus on how I am suitable for a role cuz my ego matches with that.
                 also include friends and what they did is also a sign of what you are.
                 anything you do must be a line in resume!!
+                How does my life give a perfect story or narrative or execution trace for a role in question.
+                This is what finally makes it to word file - it's an effort at a certain frequency but other parts is sync.
             <Schema>
                 Objective
                 B and J

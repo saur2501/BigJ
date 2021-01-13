@@ -7967,6 +7967,276 @@ SQData - Krishna's reciprocation in salted bread - Is this not Krishna's recipro
 SQData - Incomplete stories not likeable but what about complete stories that a practitioner gets to see in his own life but does he?
 	But your stands, your reactions. How is he an active controller - protection thru mistakes, chances, ignorance, etc.
 CS
+    DSP - to create multimedia utility in CS World
+            We also know how multimedia works - it comes under DSP Course - Digital Signal Processing - Remember professor in NIT J - presented concepts of noise, attenuation, sampling, quantization, encoding, etc. Video = Audio + changing Picture (stream of Pixels)
+            we just need to encode all the sub-components together and play them in sync.
+    DIP - ML by ANG, 1 "course" in NITJ, Data Visualization in IIITB (not exhaustive), D3, Tableau practicals, RStudio diagrams, etc.
+CS - PM DM - diff in abstract domain knowledge (data models, process models, terminologies around computer applications - what kinda application)
+        Criteria
+                Ecosystem - end result served (SD Data model, DS Data Model, DO Data Model)
+                        of course it varies from app to app but there is something common across all apps of 1 type say SD.
+                API - data model of libraries you are gonna work with
+                Framework - frameworks and exits knowledge
+        Common - PL, DB, Version, Build, Parsers, Libs, etc.
+                 interplay of all specializations is also possible in realm of CS.
+        DO - DevOps - Managing organized content
+                Raw - CG, Visualization, etc.
+                consuming DS services - to make smart product - which uses DS capabilities
+                consuming SD services - Dockerize and more.
+        DS - UC DM PM - Analyses (decisions maker driven by end results) - forked from DevOps to separate AI based runtime decision criteria logics from predetermined decision criteria.
+                consuming DO services - pull data from there and make APIs for insights for the customers.
+                consuming SD - Hadoop frameworks and VM for testing your ideas.
+        SD - UC DM PM - Making systems for networked work, providing platform to world for dev.
+                consuming DS services - smarter platform.
+                consuming DO services - eg implementing DB into OS, etc or newer ideas for platforms.
+        RD - UC DM PM - Problem Solving
+                I/O with other specializations for usecases, NIC (need, interest, concerns, expectatations), possibilities.
+CS (Computer Science) - Using bare machine for some purposes
+        About
+                IQ and other fields (like civil engineering, doctory, etc) under it and above CS.
+                Our college CS Courses are of RnD nature (implicitly and not explicitly) always exploration of what's possible and not so much industry centric
+                Intro - Social Services -> Technical and business (domain) roles (Abstract Roles (architect, devp, etc are always there) and concrete Roles (Front end developer, Application Developer, DB designer, ML engr, etc)) -> Activities
+        OS (Systems Engineering - Embedded in Electronics) - specialization to handle platforms for governmental, reusable functionalities - shell interface and GUI interface and system call interface.
+                aaS movement - strong merge of networking and operating systems.
+                Roles - Network Admin, etc.
+                Alternative - Assembly language code converted via assembler to perform mundane tasks and not focus on logic at all.
+                Data Model - Processor, Address line, data line, control unit, registers, disk, traps, etc.
+                Process Model (DFD) - Security, Memory Management, CPU Scheduling, Thread Management, File Management, etc.
+        Utility Softwares / Services (Software Industry) - Compiler, Browser, Games, Text processing software, camera, Multimedia (movie maker and player) software, Graphics softwares, frameworks for windows applications, web app frameworks (web servers, web devp frameworks and application frameworks), DBMS, Libraries like for ML probability and stats (Console Apps), etc.
+                Utility Software products can directly be used by end users but utility services like hadoop, libraries, etc are meant for applications development on top.
+                Think about it - it is already types of softwares. Think engagement of 5 jnanendriyas and 5 karmendriyas wrt to screens but extended later on - not all are engaged presently.
+                Softwares use compilers for translation but don't approach machine with compilers but just take service so 2 separate layers here not 1 unified layer.
+                exploration of what's possible to do with computers and also creating reusable services.
+                Roles - DB admin, etc.
+                Data Model - System Calls, Process, Memory, CPU, GPU, Disk, File, Thread, Performance, etc.
+                Process Model DFD - read file, data at this address location, draw line from this pixel to that pixel, dump data there, raise exception, start a thread, communicate with the process, etc.
+        Application softwares / Services (Application Development) - on top of utilities to explore what's possible to do for real world with computer utility softwares.
+                Non-Computer - Many of the utility softwares are enough to be used directly by the market in their craft which is non-computer in nature - like movie maker, camera, paint, etc.
+                Apps or DevOps (IT) - Standalone Apps, Web Apps, Web Services Apps, etc - Managing information (Information Technology)
+                        Eg - facebook web site, google web search engine, PS4 Game1, Calculator, etc.
+                        Roles - Front end, DB Designer, Operations, Quality, Application Dev, etc.
+                        Data Model -
+                                Dev - UI, Application Logic, Database, Libraries, etc.
+                                Ops - Design, Testing, Quality, etc.
+                        Process Model DFD - create and Launch UI, Restart the server, Delete the database table, consume services, expose service, use the exit, etc.
+                Data Science (DS) - using ML API to find decision criteria -> expose it as a service to plug in new data to be consumed by product or prove decision for business.
+                        Data Model - Data Quality, Algorithm used, Neural network layers, weights, etc.
+                        Process Model DFD - Cleaning, Model Training, Prediction Accuracy, Deployment.
+CS - Article on resolving npm dependencies
+        NPM
+                https://stackoverflow.com/questions/42147243/how-does-npm-handle-version-conflicts
+                http://npm.github.io/how-npm-works-docs/npm3/how-npm3-works.html
+                npm install -g npm3
+        Maven
+                Maven works on the principle of nearest wins strategy while resolving the dependency conflicts, that means whichever version it finds nearer in the tree, it will take that version and ignore the other versions.
+                https://stackoverflow.com/questions/7175398/maven-dependency-resolution-conflicted
+                The maven way of resolving situations like this is to include a lt; dependencyManagement gt; section in your project's root pom, where you specify which version of which library will be used.
+                        Now no matter which version of library foo:bar is requested by a dependency, version 1.2.3 will always be used for this project and all sub-projects.
+        tree -d node_modules/ - to view the dependency graph in node application - folder structure at a glance - it is shell command.
+CS - web services
+        web service - service on web for code consumption not human consumption.
+                eg - getProducts to be used by a friends - make jar file but DB is problem.
+                another problem is version mismatch with the friend - redeploy.
+                think n friends?
+                Ideal case - when we can make direct call to your deployed code.
+                Solution - make 2 server machines talk to each other
+                        inter-operability - across technologies - java app talking to CPP or DOTNET.
+                        use strength of different technologies and communicate.
+        Jargons
+                Consumer sees only interface - contract for consuming an implementation.
+                CPP getting interface of Java for Java implementation won't work - so tech independent it should be.
+                so it should be xml - this is WSDL - doc or contract for your web service - tools available for us.
+                WSDL contains - methods, args, return types - which even interface has as well.
+                How to get WSDL - directories (UDDI) - yellow page of web service.
+                even data types are different in technologies - so format that all can understand - so xml again. java serialized object won't be understood at all by CPP.
+                Simple Object Access Protocol - simple way to access object of another technology.
+                Java object to SOAP message - done by a class called SEI - service endpoint interface. This is specific to your technology - java class SEI knows how to convert.
+                Terms - WSDL, UDDI, SOAP, SEI.
+        Writing a client : stub generation
+                wsdl file - observe service, port.
+        ============
+        Steps
+                stub downloads
+                download glassfish server - start or stop thru command line.
+                        admin port, default domain port, create more.
+                Help / install more software / Oracle JAVA EE.
+                Eclipse needs glassfish adapter to start glassfish server and view server admin page from eclipse.
+CS - How to create HTML from JS
+        var opened = window.open("");
+        opened.document.write("<html><head><title>MyTitle</title></head><body>test</body></html>");
+CS - salami attack of stealing the fractions of pennies, one slice at a time, from everyone's interest-bearing accounts;
+        this is a beautiful example of something that just would not have been possible without computers.
+        A salami attack is a small attack that can be repeated many times very efficiently.
+        Eg - getting all the rounding off to your own account.
+CS - export variables in envt vars - automatic once there.
+CS - https://codurance.com/2016/12/21/how-to-use-npm-link/
+CS - build management - npm
+        npm link is like opening the project to be used as a dependency - it creates a symlink in a specified folder.
+        symlink is literally same file tree at another location - not copied but same.
+        npm link project - attached that symlink as a dependency. When npm install on this project - the symlink is copied into npm_modules as dependency files.
+        you can always unlink and continue to use a specific version of dependency from the local system.
+CS - control panel is a process called control.exe
+CS - GIT - moving files across branches, commits, repos
+        Run this from the branch where you want the file to end up:
+        git checkout otherbranch myfile.txt
+        git checkout commit_hash relative_path_to_file_or_dir
+        git checkout remote_name/branch_name file_or_dir
+CS - The difference is that OData is a specific protocol;
+        REST is architecture style and design pattern.
+        REST is a generic design technique used to describe how a web service can be accessed.
+        Using REST you can make http requests to get data. ... OData is a specific technology that exposes data through REST.
+CS - CG - ASP type windows platforms are all abstraction layer on top of "canvas"
+        OS level GUI Drawing is also "canvas" type drawing (can have higher abstractions for convenience) with the difference that whole screen is your canvas to draw on.
+        Working of canvas - Drawing in its raw form we have already done in CG (Computer Graphics) course - how to draw a line - low level and high level API both we have worked on.
+        Console applications are also drawing - it is higher to CG drawing cuz given character sequence say 'AB' you know how to draw it one by one. Fonts styling is all in CG raw libs that Steve Jobs managed.
+CS - Levels of data types
+        Raw or primitive data types
+        Composite - keep data together - array, structure. Powers - Static (arrays), Dynamic (Linked List)
+        Data Structures - organize data for real world usage (smartness over basic data types) - Array, Linked List, Trees, Graphs.
+                ADT (Abstract Data Type) is more of a logical description, while a Data Structure is concrete.
+                ADT as a picture of the data and the operations to manipulate and change it.
+        Real World Data Description - can map differently to data structures.
+                Eg - a matrix of data may be converted to a graph type for ease of solution.
+                Eg - graph in real world may be represented simply using an array.
+                Eg - real data may be a list but as per real world behavior - Binary Search Tree may be best way of implementing it.
+CS - Python
+        List (similar to growable array)
+                Create - list, Constructor,
+                Update - append, insert, fromlist(list)
+        Tuple (similar to immutable structure - group related information)
+                Create - Packing
+                Update - concatenation assignment.
+                typecasting (to others) - unpacking
+                misc - instant swap, return values, heterogenous, fast readonly access, write protection.
+        Array
+                meta - typecode, itemsize, length,
+                create - fromlist(list)
+                update - insert, append, extend, reverse, pop, remove
+                retrieve - count, index,
+                typecast - tolist,
+CS - Make the variable available on reboot
+        for then, PATH=%PATH%;C:\type\your\new\path\here
+        even relaunch the application should also do it cuz windows informs newly opening apps about it.
+        test it yourself - keep cmd open, make envt variable, see if they are recognized by open shell programs, launch new one can that recognize it.
+CS - Algos - recursion and iteration (top down and bottom up both supported for all)
+        Induction -
+                Incremental - If I have solution for k-1, I can find solution for k. So, start with smallest solution and keep building on it. Bottom up and top down both.
+                        insertionSort(k) = insertionSort(k-1) + accomodate(k)
+                DAC - Let's say I have solution for 2 problem sets, how do I merge the solutions. Also if I have solution for k/2 then I have solution for k. Top down and bottom up.
+                        MergeSort(k) = MergeSort(k/2) + MergeSort(k/2) + Merge(the 2)
+        Iterate thru possible solutions
+                Greedy
+                Branch and Bound
+                DP - SelectionSort(list) = list[0]=smallestNumber + SelectionSort(list-{smallestNumber})		//this is recursion.
+                        bubbleSort - same concept but with propagation instead of finding.
+                        QuickSort(k) = find_location(k) + QuickSort(:k-1) + QuickSort(k+1:)
+CS IDEA - given xml, construct a tree. given 2 trees find if they are identical
+CS - subnetting or NAT uses onion approach like VPN to remember who sent the call to the server to respond back.
+CS - Distributed systems - instead of centralized ones.
+        Application level (P2P vs client server) - many sources of power.
+        process level (aka Distributed computing - Hadoop MR, AWS, Multi-agent systems, etc) - task is common or one but process runs on different machine to that end.
+        Distributed DB level - NoSQL uses them a lot - Software runs on multiple machines on same/different data to ease off the load.
+        File System Level (HDFS) - The scope of file is more than 1 machine disk.
+        Distributed OS, etc.
+                OS - https://www.geeksforgeeks.org/types-of-operating-systems/
+CS - Language encapsulation for hardware features - process to run on processor, threads for multi-core, process spawn for multi-processor, software socket communications for process spawn in another system for distributed computing.
+CS - A remark by a office colleague was intriguing.
+        He said he write every conversation down. How does he know to this level of granularity.
+        I joked it off that it's the world of big data. Also I asked with curiosity how could he be so sure - he reminded initial days.
+        But he can definitely access my system but how?
+        Has he managed to install some trojan horse on my machine.
+        Any file request can't be made other than my explicit windows permission or ssh or scp server that I may install.
+        It turns out - thinking about system programming
+                a thought occurred and it turns out that I had the folder - \\INLN56587858A\Users shared - which is terrible
+                this is probably since our initial project days or maybe company default
+                visible thru start / right click / Computer Management / System Tools / Shared Folders / Shares.
+                not totally terrible cuz I learnt more and understood the importance of privacy.
+CS - CAP Theorem
+        CA - RDBMS - Replica or shards - If network breaks or slows down, RDBMS throws response error message that "not written". Reading from shards and replica is fine cuz consistent always.
+        AP - Delayed consistency - respond quickly with written - it may take time for the changes to reflect in all nodes. Maybe too much time if broken connection else a little while if slow. Always available server but can spit inconsistent data.
+        CP - Any request written on master, propagate writing to replicas and it may take too long but we ain't responding to client until we are done (maybe tell him that it may take time but no result based response). Reading will work as expected cuz consistent. If broken, write will never respond (unlike CA) but read will work fine cuz consistent (?like CA). Where's Partition Tolerance if write will never happen - it will reflect as soon as network comes up again.
+        Hadoop 1.x was more on CP side but with Hadoop 2.x the Availability has grown.
+                No compromise on consistency. If partition or slow down or system failure happens, others are contacted so a little time waste (availability), if NS fails then standby takes over again time waste (availability). But partition doesn't break the system.
+        Situations to use which one -
+        Now, NoSQL just means non-RDBMS based DBMS
+                i.e they have layer of softwares to access the file system whatever format it is (schema-less here).
+        NoSQL Types
+                KV combinations - Just Key and value. Query only on key - values can be any dang thing from image, media, text, etc. Sharding and indexing for finding the key fastest is the key.
+                        Document based - json file. Query based on characteristics. Uses MapReduce for faster retrieval.
+                Graph - https://neo4j.com/developer/kb/understanding-data-on-disk/
+                        Linked List in the stored format.
+                Column based - https://mapr.com/blog/in-depth-look-hbase-architecture/
+                        vs column-oriented DBMS (or columnar database management system) is a database management system (DBMS) that stores data tables by column rather than by row.
+                        https://stackoverflow.com/questions/13010225/why-many-refer-to-cassandra-as-a-column-oriented-database
+                        Yes, the "column-oriented" terminology is a bit confusing. Cassandra is basically column-family store. Wide rows for time databases. column specified with every row.
+                        Cassandra would store the above data as,
+                                REL - it is unpivoting of the data where all column names also become rows so think of a table becoming (mn X 2) matrix - arranged in columnar format. Long not wide format.
+                         "Bounses" : {
+                                   row1 : { "ID":1, "Last":"Doe", "First":"John", "Bonus":8000},
+                                   row2 : { "ID":2, "Last":"Smith", "First":"Jane", "Bonus":4000}
+                                   ...
+                         }
+                        http://dbmsmusings.blogspot.com/2010/03/distinguishing-two-major-types-of_29.html
+                But yeah, the main power of NoSQL comes with distribution.
+        OODB isn't NoSQL - but maybe they are like adaptation layer with DB engine.
+        GraphQL - Query for API for front end to interact with DB.
+CS - Windows client, server, NT, Web server vs any server - shell is just a client of OS programs. But server is generally in server on internet context only and not on local programs.
+CS - ics file to add calendar MR to your outlook.
+CS
+        Mapper is selection and Reducer is aggregation. Simplification for structured data but ingenuity for others.
+                Eg - problem on many tweets - tell what word correlated with prime minister the most.
+        HDFS is just a facade on top of file system.
+        Hadoop is an ecosystem of softwares built around 1 purpose. But not unique, even IDE is an ecosystem.
+        nbtstat
+CS - Arch - MVC - View and Model in sync.
+        view change and model reject it as validation error but doesn't remove and restore to before change but current state.
+        errors continue to exist for save transaction so if not objectionable then allow save draft to take place and objectionable value continues to exist.
+        we could have denied the buffer writing of that value but that's against MVC principle - View and model should have same image.
+        In some IR, while writing cost center we used to deny the modification writing but view would continue to show the value with error - that's not allowed.
+                OR even that model accepts values with errors but view wipes it off - nope!
+        Change model with view and generate errors or denials. On save consider those errors once more. Before_image isn't done automatically which programmer can do.
+CS - DS Maths
+        Algebra - Simple, Linear Algebra, Linear Equations
+        Calculus - functions rate of growth, Limits and continuity, Differentiation, Integration, Differential Equations.
+        Statistics and Probability
+        Discrete Maths -
+        DS is intersection of Hacks (Code, programming), Statistics and Domain Knowledge.
+CS - DS
+        Maths - AI, ML/ DL Coursera, LA, DM, PS, Calculus, etc.
+                Puzzles - Top ones.
+        R subjects - clustering, decision trees, hypothesis testing, anova, chi square, Data Manipulation, Data Visualization, exploration, Data Preparation, regression, logistic regression, clustering football, decision trees, Time Series, Deployment.
+        Structured Data - Excel, SQL
+        Distributed Computing Analytics - Hadoop, NoSQL
+        Libs making - all course topics in Octave, Matlab, Python, etc.
+        R
+                Collect Data - Data Preparation
+                Cleaning - Data Manipulation, dimension reduction, Bagging and Boosting
+                Descriptive - hypothesis testing, anova, chi square,
+                explorative - exploration; visualization;
+                Predictive and prescriptive -
+                        Modeling -
+                                regression - Linear regression, decision trees & random forests
+                                classification - logistic regression, NN, SVM
+                                clustering
+                                Association Rules
+                                Fraud Detection
+                                Recommender Systems
+                                Applications - Time Series, TM.
+                ?Validation
+                Deployment
+        Python
+                Libs - numpy, tensorflow, etc.
+        ML disciplines -
+                DIP or Computer Vision - https://www.geeksforgeeks.org/digital-image-processing-basics/ - in java, etc.
+                DSP - https://www.coursera.org/learn/dsp ; NPTEL, etc.
+                NLP, Pattern Recognition, etc. Structured - Online ads, Search Engines, Product Recommendations.
+        DS Usecases
+                GIS -
+                Self Driving Cars -
+                Robotics -
+                Text Mining - QA Model or summarization -
+CS - DS - main difference is that TensorFlow is a framework for machine learning, and OpenCV is a library for computer vision.
+CS
 	Image --blob from image (preprocessing)--> Blob --Trained Model--> Inference.
 	dnn process - net=cv2.dnn.readNetFrom(), blob = cv2.dnn.blobfromimage(), net.setInput(blob), output = net.forward()
 CS - Running Jar from java program - Google:execute-jar-file-from-a-java-program

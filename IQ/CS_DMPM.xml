@@ -87,16 +87,16 @@
                                     normal
                                             a = b // 5; a**2 #comment
                                             a >> 2
-                                            a <= b and b >= c
+                                            a le; b and b >= c
                                     selective
-                                            if i < 5:
+                                            if i lt; 5:
                                                     print('less')
                                             elif i == 5:
                                                     print('equal')
                                             if substring in string:
                                                     print('found')
                                     iterative
-                                            while (count < 9):
+                                            while (count lt; 9):
                                                     print('The count is:', count)
                                                     count = count + 1
                                             else:
