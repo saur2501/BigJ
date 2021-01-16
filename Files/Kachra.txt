@@ -112,3 +112,7 @@ CS - Intellij
 		Settings - About, Edit custom properties, custom VM props,
 			check for updates, collect logs.
 Movie - Iddarammayilatho
+Movie - Guru - biography of Dhiru bhai ambani.
+CS - for new kafka broker, new id, port and different log directory.
+CS - Run a shell script - if executable then only the path to the file, if not, then sh file_name or bash file_name.
+CS - if findspark not able to locate SPARK_HOME in env, then use findspark.init('C:/..path/..spark') in the program.
