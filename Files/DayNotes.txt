@@ -15742,7 +15742,6 @@ Sume - SAP IOT BigData Team -
 			after Sunil B left of course, there was going to be some phase for stabilization for improvement, that's natural evolution but that's not a problem.
 	Transfer only on 1st of the month - He wanted me to check if it could be done on 1st sept - no, I think it will be possible only 1st oct. So, that's bargain.
 	https://performancemanager5.successfactors.eu/sf/invitetoapply?jobId=258614&candId=1969393&company=SAP&st=D9DC295821DD29BC9B2224054399EECFEAEA7192&_s.crb=mP7JY%252bG5HKeacw8wWcM3rzL8ZfDf4dojspm90GLYqmc%253d#sfPanelHeaderAnchor_14_
-	
 Sume - SAP Labs - Intelligent Asset Management
 	Current Work - Importance of typescript, Tell me about event loop in Node, Process of starting a project in typescript. Which web server and application server before and now.
 		how multiple users are respected in node world vs java world. How front end and back end interact - thru https and not rest based. Not ODATA also - but we have OData support in our product. How does node do it - internally thru queue mechanism.

@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Study>
     <Tattva>
+        <Schema>
+            Happiness Hunt - chosen Bhakti path to Krishna.
+                Courses - What difference this course makes towards the ultimate goal.
+                    Books - How this book contributes towards achieving the course objective.
+                        Book Sections and section flow.
+                            Chapters
+                                Chapter Sections and section flow.
+                                    Verse
+                                        Purport - highlights, Reasoning, Analogies.
+                                        Keywords
+                                        Lecture Points
+        </Schema>
         <Courses>
+            About
+                Courses are based on premise - Bhakti to Krishna will yield perfection.
+                Bridge Courses - refer to the file.
+                    Prahlad School - Play in KC culture. Core tenets, Shlokas, painting, recitation, cooking, etc.
+                    SMY - Science and Spirituality Bridging. VOICE facilitated.
+                    EBG - Applications of Yoga to Varna. YOGA facilitated.
+                    Sabha Camps - Applications of Yoga to Ashram.
+                    Advaita Sabha - Churning of life (Life Analytics)
             SMY Series - As part of VOICE (or jet age gurukul) life. Intends to familiarize yourself with everything in bhakti end to end.
                 Bridge - Seminars and DYS.
                 Camps - 
@@ -30,21 +50,39 @@
                         Applications, Yoga types - abhidhyeya alternatives, Exam of life - death.
                         Apps - 26 Vaishnava qualities, 3 levels of devs, 
                             Relationships - Sr Jr equals, Vaishnava Aparadh, Guests.
-            Bhakti Shastri intends to make you crystal clear about SAP of Bhakti (including wrt to material existence)
+            Bhakti Shastri - Know SAP about Bhakti and its alternatives.
+                intends to make you crystal clear about SAP of Bhakti (including wrt to material existence)
+                    BY SAP
+                    Identification and comparisons with other worldly SAP
                 App - DS Practice by one who knows all concepts of bhakti.
-                Isho - Will showcase vedic panorama world view.
+                Isho - How to Understand Ishvara -> harmonize, head, heart and revelation.
+                    contains SAP of competitors.
+                    Will showcase vedic panorama world view.
                     App - Vedic World View Clarity => Relationships with devotional paths clarity.
-                NOI - Nugget of Abhidhyeya and Prayojan.
+                NOI - (state specific abhidhyeya) - A set of instructions as per 9 stages of bhakti (you are on)
+                    Nugget of Abhidhyeya and Prayojan.
                     App - Rituals standardization and retrospections.
-                NOD - Detailed study of SAP of bhakti (excluding wrt to material existence).
+                NOD -
+                    Devotional Path and Final Prayojan
+                        Abhidhyeya through Sadhana over 9 stages bhakti (different paths)
+                        Study of Rasa (about, Primary, secondary)
+                    Detailed study of SAP of bhakti (excluding wrt to material existence).
                     App - Applied Devotional practices.
-                BG - Study of Spirituality wrt to material existence with application to spiritualizing your existence (aka SVAF).
+                BG -
+                    Study of Spirituality (path of perfection) wrt to material existence
+                        SVAF Integration - How to spiritualize your existence with practicality of life
+                        VA
+                            KY - VA thru life and DY for detachment.
+                            BY - VA accompanied with Bhakti.
+                        JY - Perfection through Jnana.
                     usecases -> KY (Spiritualize your actions), BY (Krishna-ized vision of material world), JY (Study of material world with spiritual understanding).
                     exploration of krishna, jiva, prakriti, kaal, karma but not organized sequentially like that.
-                    Application - Spiritualize your actions, Krishna-ize your vision, psychological forces.
-            Bhakti Vaibhav - Experience the richness of bhakti - thru learning from many SB eg and all tattva-jnana including inconceivable ones.
+                    Application - Spiritualize your actions (in VA), Krishna-ize your vision, psychological forces.
+            Bhakti Vaibhav - Embellish your bhakti thru dev stories. SB and others.
+                Experience the richness of bhakti thru learning from many SB eg and all tattva-jnana including inconceivable ones.
                 App - Bubbling glittering devotional service.
-            Bhakti Vedant - Know the essence or conclusion of bhakti - again thru learning from many SB eg and all tattva-jnana including inconceivable ones.
+            Bhakti Vedant - Know conclusion / essence about Bhakti thru Lord's pastimes. Lila smaran
+                again thru learning from many SB eg and all tattva-jnana including inconceivable ones.
                 App - Depth in DS.
             Bhakti Saurvabhaum - Experience the all pervading bhakti across land - bhakti as a cultural standard and bhakti as a realm.
                 App - Realm of DS.
@@ -52,7 +90,7 @@
         <Ishopanishad> CCP
             <About>
                 centered on Ishvara.
-                Indian Shools of Thought
+                Indian Schools of Thought
                         Astika - believe in vedas (and derive insights from vedas and corroborate) - referenes to wiki
                                 ?Systematic Study of material world
                                     sankhya - # foundational identifiable elements of reality + more that make sense or presented in scriptures.
@@ -295,7 +333,8 @@
             InvoTo3 - Live in harmoney with Ishvara
                     Flow of Thought (FOT) - Everything is perfection, harmonize with perfect by quota bounds, benefits, harms of this harmony.
                     Invo - What is the principle? Everything is perfect
-                    <T1> - Everything belongs to Ishvara (1st part)
+                    <EverythingBelongsToIshvara>
+                    T1 - Everything belongs to Ishvara (1st part)
                             eth animate and unanimate is controlled by him. Accept our quota and not encroach on others.
                             Isho also tells how to enjoy within the world not just transcendental.
                             Themes - Vedas glory, Lord proprieter, Quota in nature, politics, diet.
@@ -394,8 +433,9 @@
                                                     massive slaughterhouse where millions of animals killed scientifically is unprecedented.
                                                     historically people lived on fields mainly.
                                     Live according to Ishavasya
-                    </T1>
-                    <T2> - How living in harmony with the principle helps
+                    </EverythingBelongsToIshvara>
+                    <HowLivingInHarmonyWithThePrincipleHelps>
+                    T2 - How living in harmony with the principle helps
                         can desire to live 100 years; working like this not bound by karma and no substitute
                             why then desire - ignorant and sinful then more bondings so long life means more suffering in future.
                             no other way - means no intelligent way to live - @how to go to 0th floor from 100th - lift but can jump.
@@ -455,8 +495,9 @@
                                 material nonsense to bring god - scriptures for more details - not facilitator but goal
                                     KK idea is I perform pastimes here and God you assist me in my pastimes.
                                     PDS is Krishna performing pastimes and we gotta join in his pastimes.
-                    </T2>  
-                    <T3> - How living in disharmony with the principle harms
+                    </HowLivingInHarmonyWithThePrincipleHelps>
+                    <HowLivingInDisharmonyWithThePrincipleHarms>
+                    T3 - How living in disharmony with the principle harms
                         meaning - asuri worlds attained by killers of souls.
                             like parent warning children if you don't study then fail, in turn poverty, ignonymity with no acceptance.
                         Section Flow - Terms intro (demon, soul killer), semantics of shloka - liberate self (human facility don't waste, no dimunition on path, external obstacles, solve real probs)
@@ -531,12 +572,13 @@
                             Solve all problems forever
                                 UNESCO - worked so many areas but failed still - higher level of consciousness solves problem - material probs, spiritual solution.
                                 We practice spirituality not to avoid hell but raise ourselves and thereby helping others.
-                    </T3>
+                    </HowLivingInDisharmonyWithThePrincipleHarms>
             </LiveInHarmonyWithIshvara>
             <IshvaraUnderstoodBySpiritualVision>
             T4To8 - The Ishvara can be understood by spiritual vision (how to connect) - it has 2 parts (?head and heart - the next sections)
                 FOT - Inconceivable Lord, start with events and people, further into ishvara (first world then beyond world)
-                <T4To5> Ishvara is inconceivable to our normal intelligence.
+                <IshvaraIsInconceivableToNormalIntel>
+                T4-T5 - Ishvara is inconceivable to our normal intelligence.
                     Meaning - AT is Fixed in one place but faster than mind. None can approach so far. Run to catch he leaves them far behind. though in 1 place he controls all suppliers.
                     T4 Sections Flow - understand not by speculation, but revelation, bhed abhed in God energy, God's mercy reveals himself, But gotta play our part.
                         AT can't be understood by speculation
@@ -677,8 +719,9 @@
                                 Pantheism - everything is God.
                                 Panantheism - God is everything (pervades) but God transcends everything.
                             God is within and without.
-                </T4To5>
-                <T6To7> - First develop spiritual vision by seeing worldly things, events and people with equanimity.
+                </IshvaraIsInconceivableToNormalIntel>
+                <FirstDevelopSpiritualVisionBySeeingWorldlyThingsEentsPeopleWithEquanimity>
+                T6-T7 - First develop spiritual vision by seeing worldly things, events and people with equanimity.
                     T6 Meaning - sees e1 as atma, and trans Lord in them never hates any being. 
                         so beyond dualities of likes and dislikes
                         SUPP SB - Maharaj Nimi in 11th canto.
@@ -801,8 +844,9 @@
                             separate but united in purpose and oneness of purpose.
                         Separate interests cause shoka and moha
                         Become one in interest with God.
-                </T6To7>
-                <T8> - This vision developed further and directed to the ishvara helps us understand him.
+                </FirstDevelopSpiritualVisionBySeeingWorldlyThingsEentsPeopleWithEquanimity>
+                <ThisVisionDevelopedFurtherAndDirectedToIshwaraHelpsUsUnderstandHim>
+                T8 - This vision developed further and directed to the ishvara helps us understand him.
                     Meaning - Must know God as unembodied, omniscient, pure, self-sufficient, philosopher, desire fulfiller.
                     Section Flow - 
                         Unembodied and Ashnaviram (without veins)
@@ -866,7 +910,7 @@
                                 something special is going here that renunciates are glorifying.
                                 temporary is destroyed - they give up the reflection but not reality.
                                 material entanglements freedom comes to them.
-                </T8>
+                </ThisVisionDevelopedFurtherAndDirectedToIshwaraHelpsUsUnderstandHim>
             </IshvaraUnderstoodBySpiritualVision>
             <RightAndWrongVidya>
             T9To11 - Right and wrong vidya (for understanding Ishvara) - Knowledge (Head)
@@ -881,15 +925,16 @@
                         Avidya - Knowledge for bodily maintenance (material life) - ?maya indulgence vs maya study as abouts.
                         Vidya - Knowledge for pursuit of KC.
                     proof that scriptural text are not enought - there is text, there is context whole picture should be clear.
-                        multivalence cuz book for jnanis to debate and compare and discuss.
-                <T9>
-                    Meaning - Ignrance to darkness and so called knowledge to even worse
+                        multi-valence cuz book for jnanis to debate and compare and discuss.
+                <IgnoranceToDarknessAndSoCalledKnowledgeIsEvenWorse>
+                T9
+                    Meaning - Ignorance to darkness and so called knowledge to even worse
                     Section Flow
-                        Why vidya < avidya?
+                        Why vidya lt; avidya?
                         Avidyam upasate
                         vidyayam ratah - Irreligious, religious materialist, monist.
                     Lecture - Topic - 3 kinds of so called knowledge.
-                        Why vidya < avidya?
+                        Why vidya lt; avidya?
                             Considerable growth in mass communication - credit where is due but many go beyond that - at expense of spiritual.
                             So many things have grown - but mental health - stress, depression, can't quantify happiness - suicide, addictions have increased.
                             physical comforts but miserable mentally. Sweat in field vs AC sweat cuz of tension.
@@ -945,8 +990,9 @@
                                     I also become worshippable at brahman platform - demigods form of brahman worship them or if can't see them then me.
                                     gotta get rid of mayavad thinking - in order to get higher understanding of bhagavan. So biggest obstacle.
                                 Vada means argument world - school of system of thought.
-                </T9>
-                <T10>
+                </IgnoranceToDarknessAndSoCalledKnowledgeIsEvenWorse>
+                <KnowledgeAndIgnoranceGiveDifferentResults>
+                T10
                     Meaning - Knowledge and ignorance give different results.
                     1 way scriptures teach is - contrast. Instruction by 1 result for 1 action and other action other result - take a pick.
                     Section Flow - 
@@ -1031,8 +1077,9 @@
                                 body limits us physically and psychologically - body, mind tired, distracted.
                             Take help from Dhiras
                                 self centered or obsessed - can't really think good of others - politicians can't act as dhira. Spiritual teachers have it - whole focus.
-                </T10>
-                <T11>
+                </KnowledgeAndIgnoranceGiveDifferentResults>
+                <VidyaAndAvidyaTogetherGrantImmortality>
+                T11
                     Meaning - Vidya and avidya together grant immortality.
                         knowledge for bodily maintenance and pursuit of KC.
                         @need to know boat and also the land I have to reach.
@@ -1115,7 +1162,7 @@
                                 Jnana - Reject senses for either mat or sp purpose - non-binding but unnatural.
                                 Bhakti - center of pendulum - use material senses for sp purpose - natural and liberating.
                                     retains virtues of both of them and removes the probs with either.
-                </T11>
+                </VidyaAndAvidyaTogetherGrantImmortality>
             </RightAndWrongVidya>
             <RightAndWrongUpasana>
             12-14 - Right and wrong upasana (for worshipping Ishvara) - Disposition (Heart)
@@ -1127,7 +1174,8 @@
                     Anything other than SPOG, SPOG.
                 14 - Asmabhuti and sambhuti together grant immortality.
                     Knowledge of material world and SPOG.
-                <T12_1>
+                <HowDemigodWorshipHarmonizesWithKrishnaWorship>
+                T12_1
                     Lecture - How demigod worship harmonizes with Krishna worship.
                     Overview
                         Even demigods and rishis misunderstand the AT to be impersonal.
@@ -1181,8 +1229,9 @@
                                     may get stuck in KK cycle and not come out and bad association ? can decline also.
                         Impersonalists who mislead people go the darkest regions of hell.
                             (Next lecture)
-                </T12_1>
-                <T12_2>
+                </HowDemigodWorshipHarmonizesWithKrishnaWorship>
+                <HowToUnderstandAndDealWithImpersonalistsBrahmavadisAndMayavadis>
+                T12_2
                     Lecture - How to understand and deal with impersonalists - Brahmavadis and Mayavadis.
                         Types of impersonalists - 
                             Mayavadis - BG 7.24, 9.14-15 - offence to form of God.
@@ -1232,7 +1281,7 @@
                                             anirvachaniya - reality so complex that we can't understand.
                                         Ravindra Prabhu to challenge mayavadis - 
                                             Buddha divine, Jesus sacrifice divine. Krishna love divine, you become supreme divine.
-                                            paled expression on asking Krishna killed putana when < 1 month old so when chance to become god.
+                                            paled expression on asking Krishna killed putana when lt; 1 month old so when chance to become god.
                                             words illusion - I was listening to you for 2 hrs they weren't illusion then.
                                         If you and I are 1 then when you get liberated I also get liberated.
                                             You are also liberated but you don't realize it - why - illusion - so illusion controls me - 
@@ -1296,8 +1345,9 @@
                                 original mayavad was serious and didn't mix populism and taught serious regulated principles to all.
                                 SP coming back from west and not India giving bhakti insurgence from pervading impersonalism.
                                 SP - nirvishesha shunyavadi pashcatya desh tarine.
-                </T12_2>
-                <T13_1>
+                </HowToUnderstandAndDealWithImpersonalistsBrahmavadisAndMayavadis>
+                <LogicalAndScripturalExamination_DoAllPathsLeadToTheSameGoal>
+                T13_1
                     Lecture - Logical and scriptural examination - Do all paths lead to the same goal?
                     Text - 1 sambhuti gives one result and another by asambhuti.
                     Section Flow
@@ -1390,8 +1440,9 @@
                             Yes? Arjuna. Kills so called relatives to satisfy Krishna.
                             No? People are my god or I am god.
                         Hearing from dhira helps one and all to attain perfection.
-                </T13_1>
-                <T13_2>
+                </LogicalAndScripturalExamination_DoAllPathsLeadToTheSameGoal>
+                <HowKrishnaConsciousnessAndServiceToHumanityConcurAndDiffer>
+                T13_2
                     Lecture - How Krishna consciousness and service to humanity concur and differ
                     social, philosophical, analytical exploration.
                     Overview
@@ -1526,8 +1577,9 @@
                                 BD, FFL (Prasadam Distribution), Harinam sankirtan, Outreach Program.
                                 Their spiritual life begins by that. President came to temple so let me go see temple - God there but no1 came to see.
                                 I can be happy under tree but would you come to interview - he understood the point.
-                </T13_2>
-                <T14>
+                </HowKrishnaConsciousnessAndServiceToHumanityConcurAndDiffer>
+                <DevotionalServiceGrantsImmortality>
+                T14
                     Title: Devotional Service grants immortality
                         Temporary so not reject but utilize.
                         Study both permanent and temporary for transcendence.
@@ -1571,13 +1623,15 @@
                                     Not many devs depart gracefully but destination is important and consciousness.
                         SP transformed not just those who had renounced for spirituality but also hippies.
                             SP said 1 moon is better than 100 stars but Krishna gave me many moons.
-                </T14>
+                </DevotionalServiceGrantsImmortality>
             </RightAndWrongUpasana>
             <Prayers2Ishvara2RevealHimself>
             15-18 - Prayers to Ishvara to reveal Himself (endeavor ain't enough - God gotta reveal)
                 endeavor - cultivate knowledge and worship parts are done but Isho focusses on next part - mercy - Like damodar Lila.
-                <T15To16> - Take me beyond the white light to supreme person.
-                    <T15>
+                <TakeMeBeyondTheWhiteLightToSupremePerson>
+                T15To16 - Take me beyond the white light to supreme person.
+                    <HowBhagavanIsHighestManifestationOfAT>
+                    T15
                         Title - How Bhagavan is highest manifestation of AT.
                             Face of absolute truth covered by dazzling effulgence - remove it to see you.
                             Personal reality higher than impersonal brahman.
@@ -1626,8 +1680,9 @@
                             Darkness blinds but brightness also blinds thru glow 
                                 tamaso ma jyotirgamay - but light so bright that blinded.
                                 Spiritual reality is blinding - it's prayer to remove blindness caused by enlightenment.
-                    </T15>
-                    <T16>
+                    </HowBhagavanIsHighestManifestationOfAT>
+                    <PrayersToATCulminateInDS>
+                    T16
                         Title - Prayers to AT culminate in DS.
                             Beseeching mercy - Supremely auspicious - I want to see that form.
                             Upanishads are impersonal but here they are explicit.
@@ -1687,10 +1742,12 @@
                                 Eg - I see light in my head - keep chanting and it will go away.
                                 If miracles is the criteria then circus is spiritual world.
                                 supernatural is not criteria although they may happen but opportunity of PDS.
-                    </T16>
-                </T15To16>
-                <T17To18> - Take me thru all the obstacles of conditioned life to you.
-                    <T17>
+                    </PrayersToATCulminateInDS>
+                </TakeMeBeyondTheWhiteLightToSupremePerson>
+                <TakeMeThruAllObstaclesOfConditionedLifeToYou>
+                T17To18 - Take me thru all the obstacles of conditioned life to you.
+                    <HowDSPreparesUsForPassingExamOfDeath>
+                    T17
                         Title:How DS prepares us for passing exam of death
                             let body and air merge - remember my sacrifices and all I did for you.
                             social cosmetics vs supreme importance at death.
@@ -1755,8 +1812,9 @@
                                     no rosy future. Condusive is good - don't keep waiting.
                                     Later even if time comes then other things will pop up cuz of expansion and contraction of time and activities.
                                 use Krishna's love for positive incentive and death for negative incentive fear based.
-                    </T17>
-                    <T18>
+                    </HowDSPreparesUsForPassingExamOfDeath>
+                    <HowTheOmnipotentLordGuidesTheDevoteeToPerfection>
+                    T18
                         Title: How the omnipotent Lord guides the devotee to perfection.
                             you can burn all obstacles in my path like fire. and guide by actions.
                             God is meant to help in material world - no, help me overcome obstacles to reach you.
@@ -1812,8 +1870,8 @@
                                 @If weapon is thought of as a burden then easy kill.
                                 Ever willing, ever working. How long will I deprive myself of Krishna.
                                 By your grace I have come. Let me proceed also.
-                    </T18>
-                </T17To18>
+                    </HowTheOmnipotentLordGuidesTheDevoteeToPerfection>
+                </TakeMeThruAllObstaclesOfConditionedLifeToYou>
             </Prayers2Ishvara2RevealHimself>
             <Misc>
                 <PersonalOverviewNotes>
@@ -3367,7 +3425,8 @@
                                 Transcendence - Freedom from bondage and liberation thru mind on atma and paramatma.
                             JY Glory and process (yajna)
                             BY intro as the best.
-            <Ch1> Observing Armies and Arjuna's Lamentation
+            <ObservingArmiesAndArjuna_sLamentation>
+            Ch1 - Observing Armies and Arjuna's Lamentation
                     Mind Map -
                         Observing Armies (prep, victory signs, Krishna)
                         and Lamentation (Their destiny, My destiny - Immediate enjoyment, Long term enjoyment or lack of suffering; Social destiny)
@@ -3919,8 +3978,9 @@
                     </ArjunaVishadYoga>
                     Why title? impetus for Krishna to speak message - no title by vyasadev.
                             Krishna never spoke let me start 11th chapter - it is contextualized for reference points by vyasadev and commentators as per focus
-            </Ch1>
-            <Ch2> Content Summary
+            </ObservingArmiesAndArjuna_sLamentation>
+            <ContentSummary>
+            Ch2 - Content Summary
                 BG 2 Sankhya Yoga (standard name - initial part of chapter) by most acharyas.
                 analysis of existence into various elements - matter and spirit (body and soul) - amterial and spiritual side.
                 Gita in nutshell says BVT, SP uses that name.
@@ -4818,8 +4878,9 @@
                         Argument for indecision made in beginning gets countered in the end of BG when expresses decision I will fight.
                         This was a long chapter in shlokas. Longest is 18th with 78 verses - 2nd is 2nd chapter.
                         >40 are the longer chapters. cuz 700/18 = 38.88
-            </Ch2>
-            <Ch3> Karma Yoga
+            </ContentSummary>
+            <KarmaYoga>
+            Ch3 - Karma Yoga
                 About
                     Flow of chapter is not linear but spiral - moving forward but not linearly.
                         Should I fight or not fight is perplex - for you KY is better than JY but in hierarchy.
@@ -5386,8 +5447,9 @@
                         Krishna has suggested thus 2 solutions - regulate and transcend. Restraint (no SR with it) and Redirect (thru intel)
                         Not give up but engage in KY.
                 </OvercomeLustKYObstacle>
-            </Ch3>
-            <Ch4> Trancendental Knowledge
+            </KarmaYoga>
+            <TranscendentalKnowledge>
+            Ch4 - Transcendental Knowledge
                 Gita press calls it Jnana Karma sannyasa yoga - karma sanyas yoga is 5th chapter. SP calls is transcendental knowledge.
                 Theme is centered on knowledge. Nth pure like it.
                 connection to previous chapter - dharma is what protects jiva from kaam.
@@ -5775,8 +5837,9 @@
                                 BG insight coming from me - it's original - finding new meaning to road signs - don't need new interpretation but as intended.
                                 This originality is expected in BG.
                 </GloryOfDivyaJnana>
-            </Ch4>
-            <Ch5> Karma Yoga - Action in Krishna Consciousness
+            </TranscendentalKnowledge>
+            <KarmaYoga_ActionInKrishnaConsciousness>
+            Ch5 - Karma Yoga - Action in Krishna Consciousness
                 sanyas karma yoga - sanyas in karma
                     Chapter 3 and 5 are similar and 7 and 9 also - second time the concepts are taken deeper.
                 Mind Map
@@ -6097,8 +6160,9 @@
                         KC brings spiritual existence - while in jurisdiction of material world.
                             JY is give up material and accept spiritual.
                 </MindFixOnParamatmaKYAttainsLiberation>
-            </Ch5>
-            <Ch6> Dhyana Yoga
+            </KarmaYoga_ActionInKrishnaConsciousness>
+            <DhyanaYoga>
+            Ch6 - Dhyana Yoga
                 Mind Map
                     DY evolution
                         What to do
@@ -6681,17 +6745,23 @@
                             Spiritual connection judged by degree of connection - from now a new inauguration of new theme - not detachment but devotion.
                             Krishna moved spotlight from body to soul - not spotlight is moved to supersoul from 7th chapter.
                 </TopmostYogiFixesMindOnKrishna>
-            </Ch6>
+            </DhyanaYoga>
             </KarmaSection>
             <BhaktiSection>
-                <Ch7> Knowledge of Absolute
-                        Transformational sense so surrender and goal in 3rd section
-                        General knowledge here - opulence of absolute later on.
+                <KnowledgeOfAbsolute>
+                Ch7 - Knowledge of Absolute
+                    Transformational sense so surrender and goal in 3rd section
+                    General knowledge here - opulence of absolute later on.
+                    Section Flow - AT Knowledge (glory and liberation), Krishna knowledge (as source, as all pervading), surrender to that glorious - who do and who don't and alternatives.
                     <KnowKrishnaInFull>
                     1-12 - Know Krishna in Full
                         <GloryOfKnowledgeAbtKrishna>
                         1-3 - Glory of knowledge about Krishna
                             1 - hear from me so that doubts go away and attachment develops.
+                                SP - Purports
+                                    Ultimate knowledge automatically know about brahman and paramatma
+                                    Learn from Krishna
+                                    Position of Pure Goodness - when MOP and MOI are dininished -> reduced lust and avarice.
                                 Keywords - Hear.
                                 SP has given most classes on this shloka.
                                 Hearing shows the path and is the path
@@ -6720,6 +6790,8 @@
                                         all worldly attachments cut off - doubts also go away.
                             2-7 - How Krishna is the source of everything
                             2 - Now will tell knowledge - phenomenal and nominal knowledge. Nth more will remain to be known.
+                                Purports - SP
+                                    When cause of all causes is known, eth else is known.
                                 Keywords - phenomena-nomina, jnana types, nothing more?
                                 phenomena is they appear and nomina is what they actually are.
                                     studying world with any serious way - things are not as they appear - access world thru senses.
@@ -6743,6 +6815,13 @@
                                             outline and interactions across them.
                                     transcendental knowledge - even knowledge that directs to transcendence. so MSC also.
                             3 - rarity of knowledge. 1000s in 1 endeavor and those who perfect, 1 really knows me in truth
+                                Purports
+                                    Mankind in animal propensity engagements
+                                    Shankaracharya accepted Krishna as SPOG but followers don't
+                                    If bhakti is easy then why take other paths - actually it's not (with rules and regs)
+                                        whimsical easy is disturbance to society
+                                    Know Krishna tattvatah - inconceivable qualities only PD knows.
+                                    He reveals when pleassed
                                 Keywords - 1000 but not casual, religions KK, advertised, rarity as per mayavadis
                                 sahasrashat koti dandavats at ur lotus feet
                                     imports get lost when we use them casually.
@@ -6764,6 +6843,10 @@
                         <KrishnaIsTheSourceOfEthMatNSp>
                         4-7 - Krishna is the source of everything mat and sp
                             4 - 8 elements of prakriti - all these are my separated energies
+                                Purport
+                                    3 Vishnu
+                                    Material world is energy of Lord and so are jivas (they are not purusha)
+                                    Sankhya enumeration
                                 Keywords - separated => evil, vs modern science, sankhya.
                                 Separated
                                     @my speech different from me; @cow and cow's milk.
@@ -6772,10 +6855,17 @@
                                 modern science doesn't focus on subtle and soul - so gross only - science is incomplete.
                                 all sankhya - stays within scope of creation and not 25th element Krishna.
                             5 - living entity superior energy manipulating the world
+                                Purports - living energy being superior exploits inferior energy
+                                    monist theory that God and jivas are equal is faulty
+                                    Forgetting his real spiritual mind and intel
+                                    jivas are energy.
                                 Keywords - Maintain.
                                 @prisoners are maintaining the prison - they are there so gotta maintain so sarcastic.
                                 So, living entities maintainers of jail then can go anytime but we can't.
                             6 - he is source of all the energies.
+                                Purport -
+                                    spirit not created at certain stage of material development
+                                    Cause of big universe is big soul @ big factory possible for jivas.
                                 Keywords - source, only he exists?
                                 material world is matter spirit and combinations of eth.
                                 he is beginning and end of eth.
@@ -6784,6 +6874,7 @@
                                 supersoul of eth - kshirodakshayi is supersoul of body. Garbhodakshayi is supersoul of universe and mahavishnu is supersoul of mahat-tattva.
                                 eko bahunam yo vidadhati kaman - that 1 maintains e1.
                             7 - nothing superior to me. I am thread of pearls.
+                                Purport - smaller than smallest and bigger than biggest.
                                 Keywords - Me means me, trans and eminence.
                                 Transcendence and eminence - beyond and within matter both applies to God.
                                 trans to contradictions - far away but closest.
@@ -6798,6 +6889,10 @@
                         8-12 - Krishna pervades eth
                             8-12 - How Krishna pervades everything as its essence
                             8 - I am taste of water. ability in man. Pranava in shabd, etc. taste, light, om, sound, ability.
+                                Purport -
+                                    Impersonal realization is seeing god in his energies
+                                    perceived by his all pervading diffusive energies like sun thru sunshine
+                                    Omkara is sound representation of Krishna - jurisdiction of KC is ew.
                                 Keywords - pantheism, taste, water taste? -> ether disproved -> element theory vs atomic theory, light, om, ability.
                                 pantheism - eth is god theory.
                                     by the end Krishna says I exist beyond these also.
@@ -6846,6 +6941,10 @@
                                     jurisdiction - robbed there so that police station jurisdiction.
                                         we can be KC everywhere.
                             9 - I am fragrance of earth, austerity of austere. fragrance, heat, life, penance.
+                                Purport
+                                    original taste
+                                    no factory without fire - fire is rishna
+                                        Digestive fire
                                 Keywords - fragrance, heat, life, penance.
                                 seed has no fragrance but flower has - not in seed or water.
                                     it comes from earth.
@@ -6860,12 +6959,18 @@
                                         st death over trivial disease and overcome terrible ones st.
                                 KC is active in every sphere - personification of KC.
                             10 - 3 more attributes - seed of all living entities. Seed, intel, prowess.
+                                Purport
+                                    Seed of their life is Krishna
+                                    can't do anything without intel and Krishna is the root.
                                 Keywords - seed, power, brilliance.
                                 can connect with purna comes outta purna purna remains.
                                 seed gives a tree and all jivas not of a kind.
                                 some ppl show brilliance of analysis - comes from Krishna.
                                 Power of powerful - 1 punch to knock out.
                             11 - 2 more attributes - I am strength of strong, dharma aviruddha desire I am. Strength and kaam.
+                                Purport
+                                    Strength to protect weak vs personal aggression.
+                                    dharma for propagation of children not otherwise.
                                 Keywords - dharma -> DAKM, Kama.
                                 kshatriyas act outta dharma
                                 DAKM -
@@ -6880,6 +6985,8 @@
                                         not central purpose or trivial activity but dharmik.
                             12 - all of them come from me. but not reduced to this...
                                 In 1 sense, it's me but I am independent - like MMN from me but I not in MMN.
+                                Purport
+                                    @under state laws.
                                 Keywords - indp existence.
                                 eg and then principle he gives. MMN all were.
                                 all come from me but they come from me and I am reduced to them.
@@ -6892,6 +6999,10 @@
                         <WhySurrender>
                         13-14 - Why surrender?
                             13 - whole world is bewildered by 3 modes and don't know I am trans and imperishable.
+                                Purport
+                                    world enchanted by MMN
+                                    MMN maps to Varna
+                                    Even MOG can't understand Lord, what of others.
                                 Keywords - bewilderment - glass@, demigods, pleasurable illusion; trans includes space and time.
                                 MMN cause bewilderment and make us forget Krishna.
                                 color our perception of eth - glass tinted with color - vision contaminated or distortion.
@@ -6901,6 +7012,13 @@
                                     sometimes freedom from illusion of MOI to MOP but illusion stays.
                                     either forget eth or I will rise to top.
                             14 - my trans nature is divine and difficult to overcome but can overcome thru surrender.
+                                Purport
+                                    Material energy covers the superior power
+                                    Nitya baddha vs others
+                                    Material energy is inferior but conducted under trans will so jivas are overcome.
+                                    @Guna means rope - bound can't help another bound. So, SM.
+                                    Paternal affection for jivas.
+                                    Brahma shiva very elevated almost Vishnu level but incarnations of MOP and MOI can't release from MMN.
                                 Keywords - my energy, internal?, surrender.
                                 @3 MMN stop perception in previous verse like clouds block sun from jivas on earth - what's covered is vision not sun.
                                 we are covered - and this verse says that this covering is under Krishna - his energy.
@@ -6927,6 +7045,19 @@
                         <ThoseWhoNotSurrender>
                         15 - Those who don't surrender
                             15 - 4 kinds of ppl don't surrender - why not eb do that?
+                            Purport
+                                why leaders don't surrender
+                                Many really learned leaders in the past have but not ones seeking material gains.
+                                Dushkriti - miscreant. Meritorious and intelligent but opposing Lord's plan.
+                                Material energy under authority like shadow - baffled even great Raan and Hiranya.
+                                Mudhas - ass workers. poetic singing and philosophy Disturbs others. No karma or yajna.
+                                    illusory masters they serve. Swine doesn't like sweetmeats.
+                                Naradhama - no regs. willfully neglected.
+                                    baby prays and forgets. Reformatory ceremonies in manu smriti - no1 follows.
+                                    eg - jagai madhai delivered by Nitai.
+                                Mayapahrita Jnana - illusory energy misguides so disobey.
+                                    deride the personality of godhead.
+                                demonic principle - envious. Principle to decry personality.
                             Keywords - dushkritina, mudha, naradhama, asura bhavam ashritah, combinations.
                             dushkritina - meritorious but wrong direction.
                             mudha - foolish
@@ -6967,6 +7098,12 @@
                         <ThoseWhoDoSurrender>
                         16-19 - Those who do surrender
                             16 - 4 kinds of ppl worship (not surrender)
+                                Purport
+                                    sukritinah - obey the rules and regs
+                                    Not PD but personal aspirations
+                                    PDS - without personal gain.
+                                    purified by association - selfish, irregular and without spiritual goals it's not possible.
+                                    PDS - Material remuneration has nth to do with spiritual improvement - they realize this.
                                 Keywords - eg, Other MMN response, jijnasu.
                                 arto, artharthi, jnani, jijnasu
                                 Eg - Gajendra, Shaunkadi rishis, dhruva M, 4 kumaras.
@@ -6976,12 +7113,15 @@
                                 by culture, curiosity may they come as kanistha but grow thru association of dev - object of prema.
                                     appreciation for devs comes from shraddha
                             17 - among these jnani always engaged, is the best.
+                                Purport - Devs in full knowledge is the best
+                                    gone thru all brahman paramatma. Realized constitutional state.
                                 Keywords - why jnani -> wood fire.
                                 others come for fulfillment of material desires.
                                 jnani wants to know the truth. ek bhaktir Krishna says - so not impersonal jnani being talked.
                                 trouble take shelter and over - then bye bye or farewell to God - or sincere DS thereof.
                                 @wood not wet so quick fire - so no distraction and DS blazes forward.
                             18 - all are very charitable.
+                                Purport - exchange of affection.
                                 Keywords - charitable -> PD.
                                 actually all are dear to me.
                                 @charitable - Lord is so hungry for devotion that he is udaar.
@@ -6989,6 +7129,8 @@
                                 just like me. PD is more dear to me than Me - Krishna says in uddhav gita - so greater than jnani.
                             19-24 - Those who surrender to Krishetara - devatas and brahman
                             19 - many repeated births later they surrender unto me.
+                                Purport - perverted reflection of spiritual variegatedness.
+                                    @Power of life > all sensory powers. Krishna is prime entity of eth likewise.
                                 Keywords - Prapadyante (progression), vasudev is eth (pantheism).
                                 bhajante to prapadyate is a progression and can take lifetimes.
                                     Bhakti can be serious and single pointed - that 's prapadyate.
@@ -7005,6 +7147,10 @@
                         <ThoseWhoSurrenderToKrishnetara>
                         20-25 - Those who surrender to Krishnetara.
                             20 - abducted knowledge so surrender to other demigods.
+                                Purport
+                                    no so much attracted by external energy can approach Lord.
+                                    Immediate fulfillment of material desires under demigods - lower MMN.
+                                    But Krishna is master and others servants.
                                 Keywords - other gods => !Advaita, rules as per nature -> different worships, devata -> akama sarva kamo va.
                                 Krishna is clearly saying other gods - so they are not 1 but different.
                                 follow rules as per their own natures. Scriptures guide as per ppl's nature.
@@ -7018,6 +7164,10 @@
                                 akama sarva kamo va - eth gets purified.
                                     LCM also aar saba bhritya - if can't understand then elevate thru demigod worship.
                             21 - whatever form desired to worship - Krishna makes shraddha unshakable.
+                                Purport
+                                    no interference with independence, rather facilities given for desires fulfillment.
+                                    Demigods for specific desires.
+                                    Supersoul - affinity given towards demigods. Also in demigod's heart.
                                 Keywords - I make (kindness) - facility means love.
                                 Krishna so kind that does not reject demigods
                                 his concern is not his glorification but others elevation - how compassionate.
@@ -7025,11 +7175,20 @@
                                 demigods should increase our faith and not decrease - how compassionate Krishna is - as per MMN.
                                 facility not there then no independence to love.
                             22 - such faith equipped, worships and gets results from demigod worship but by my mercy.
+                                Purport
+                                    Sth undue is asked and Lord himself doesn't fulfill
+                                    Demigod worship is material
+                                    contradictory to ask for SG and SPOG or liberation.
                                 Keywords - I fulfill -> asamaurdhva, material desires (impediments)
                                 @minister gives result.
                                 can't confront or exceed Krishna - their blessings come from Krishna.
                                 material desires are impediments in path of elevation.
                             23 - fruits of demigod worship is temporary and less intelligent ppl strive for that. Get their planet vs my planet.
+                                Purport
+                                    different planetary systems.
+                                    part of body supply food to stomach.
+                                    Social order is different parts of body.
+                                    eth is temporary in demigod worship.
                                 Keywords - temporary (eth), results (elevation fulfillment or abode), process, levels of worship.
                                     knowledge stolen (ladder)
                                 different levels of worship.
@@ -7046,6 +7205,12 @@
                                     @IIT stud but focus on where he can get best food - that's selling oneself shortly.
                                     focus on material side - temporary results.
                             24 - those who think I am manifest now and was unmanifest b4 - those don't know I am beyond darkness.
+                                Purport
+                                    Understanding SPOG not thru vedas - MMN can't.
+                                    Vedanta but not KC also less intel.
+                                    Speculate vs know thru DS. Impersonalist thinks form is material.
+                                        Lord is formless and form is imposition - they speculate but even demigods have form.
+                                        Lord has form and personality.
                                 Keywords - impersonal, unintelligent, vs mayavad, bhaktyanand.
                                 may worship impersonal conception also.
                                     this is impersonal conception of mayavad - brahmavadis don't know or not attracted personal conception.
@@ -7068,6 +7233,10 @@
                             25-30 - Why we can't understand Krishna's position and how we can understand
                                 impersonal brahman does not stand the overall scrutiny. Although some verses may indicate so.
                             25 - I am not manifest to anyone. fools don't know that I am inexhaustible.
+                                Purport
+                                    Krishna visible but not manifest - eg shishupal.
+                                    remove the glowing effulgence to see SCAV (Sat Cid Ananda Vigrah)
+                                    Calculate your potency - ever expanding - so no1 can. Even material world eval is difficult.
                                 Keywords (main points) - Krishna's rights, beyond space and time, mahamaya yogamaya.
                                 Krishna has a right to reveal himself unto someone - like rights of women, castes then why not SPOG.
                                     We are order carriers of God not order givers - why does he not show up - PM should show up in count of 10.
@@ -7092,6 +7261,9 @@
                     <SoulGetsLiberatedByKnowledgeAbtKrishna>
                     26-30 - How the soul gets liberated by knowledge about Krishna.
                         26 - I know past present future and all jivas but me know one knows.
+                            Purport - We know not our past life not can predict future life.
+                                Supersoul in heart so rememers instructing to vivasvan.
+                                Krishna is sun and maya is cloud @ - vision is limited or covered.
                             Keywords - Future, no1.
                             historical or SPOG but not as I am - no1 knows - only revealed thru PDS.
                             How can Krishna know the future - no easy answer for this complex question
@@ -7105,6 +7277,10 @@
                                 Krishna knows result of MB - time under his control - can make us robots but gives free will - MB context he proposes why not fight.
                                 In DS don't worry so much about future (our or others) - just go on with faith.
                         27 - all jivas are born of illusion. World of dualities bewilder them.
+                            Purport
+                                Desire and hate - envy Krishna.
+                                Krishna appears by his internal potency.
+                                Duality of delusion ppl don't know him.
                             Keywords - sammoha -> vs dvandva moha, sun cloud jiva, sammoha -> origins of illusion from christianity,
                                 PHI -> won't fall back?
                             birth ain't joyful experience - end result is joyful.
@@ -7131,6 +7307,9 @@
                                 Devs love the lord and sacrificed it all for him then why come back.
                                 how formidable the experience can be - not in memory but ?touching electrical wire.
                         28 - those for whom freed of dualities and sins, and full of piety worship me.
+                            Purport - Rise to pure knowledge - acted pious and conquered sinful reactions. In association of great devs.
+                                Associates with materialistic people - leading to darkest regions of existence.
+                                reinstate in constitutional position to understand Krishna.
                             Keywords - MOI -> unfavorable for MP --> sinful path
                             become serious and steady DS - DS can start from any moment.
                             Drunken person can't do MP ed - 1 day he can.
@@ -7144,6 +7323,9 @@
                             Bhakti can start anywhere but sustained in MOG.
                             Serve the great souls.
                         29 - BODD moksha take shelter; they are like brahman cuz know all about trans activities.
+                            Purport
+                                Associates with SPOG => Liberated.
+                                Godhead only for those who endeavor to reach there thru KC.
                             Keywords - adhyatma.
                             brahma and adhyatma which Arjuna would ask about.
                             7.16 - 3 types of sakama Devs.
@@ -7151,23 +7333,35 @@
                             28 - Moksha kami bhakta (JM or YM)
                             8.12 - Yoga Mishra.
                         30 - those who understand me (governing principle of prakriti, demigods, yajna) - are well situated even at time of leaving the body.
+                            Purport
+                                SPOG is governing principle of material manifestation.
+                                Forgetting Krishna jivas are subject to conditionings of material laws.
+                                KC => no care for different processes. Pleasure in hearing and glorifying fulfills all objectives.
+                                BY conviction substance of this chapter.
                             Keywords - know me.
                             Know me to be ultimate truth - perfect consciousness at time of leaving.
                             3 new terms - adhibhuta, adhidaiva, adhiyajna.
                     </SoulGetsLiberatedByKnowledgeAbtKrishna>
-                </Ch7>
-                <Ch8>
+                </KnowledgeOfAbsolute>
+                <RemembranceOfSupreme>
+                Ch8
                     Titled - Remembrance of Supreme; Akshar Brahma Yoga (beginning words)
                         focus on remembrance at time of death.
                     About - Chapter starts with what are these terms and answer lasts till verse 8 but elaboration for the chapter.
+                    Section Flow - Remembrance at death is goal - achieve thru yoga or bhakti. And compare the 2.
+                        Bhakti Remembrance - thru shuddha and thru comparing material and spiritual worlds.
                     <KrishnaAnswersFirst6QuestionsOfArjuna>
                     1-4 - Krishna answers Arjuna's first 6 questions.
                         1-7 - Focus not on technicalities but eh principle - remembrance of Krishna at death.
                         1 - what is brahman, adhyatma (self), karma (fruitive activities), material manifestation, demigods
+                            Purport - Brahman, Atma.
                             Keywords - why karma.
                             why ask karma - we already know - what context is the word used by Krishna
                                 BODD freedom and they come to know brahma. Activities are trans.
                         2 - what is adhiyajna (lord of sacrifices), how he lives in body; how to remember at time of death.
+                            Purport - Either Indra or Vishnu.
+                                Madhusudana - doubts demons.
+                                Tested at time of death - so swan like mind into network of Krishna's feet.
                             Keywords - why ask -> integrations, external concepts linking and mappings, madhusudana,
                             e1 knew at time of vedic era - paramatma inside.
                             Arjuna always asks question with a decorative word for Krishna - madhusudana - doubt killer.
@@ -7188,6 +7382,12 @@
                                 Words to express thoughts - categorize objects - that mental box is a concept.
                             Svabhav is material nature - doesn't continue across life but here SP uses for spiritual nature - that's also a usage.
                         3 - indestructible transcendental living entity is called brahman. His eternal nature is adhyatma...
+                            Purport
+                                brahman paramatma
+                                karma - cycle of BODD over 8.4 M species.
+                                sacrificial altar - 5 kinds of fire, and 5 offerings.
+                                specific heavenly planets - but gotta return from rains.
+                                brahman assumes form of jiva is not acceptable.
                             Keywords - karma defn, sacrifice principle vs forms, transmigrations different descriptions.
                             Action pertaining to devp of material bodies is karma.
                                 Action leads to suffering in past why repeat it - Rishabh Dev.
@@ -7200,6 +7400,10 @@
                             Soul transmigration - different descriptions in chandogya and SB.
                                 postmortem - it's not assembly line but individual customization - different ways for different jivas.
                         4 - physical nature constantly changing is adhibhuta. UF which includes demigods is adhidaiva. paramatma is adhiyajna.
+                            Purport
+                                6 stages of life.
+                                adhibhuta adhyatma adhiyajna
+                                Supersoul - act freely opportunity given. Virat purusha - UF contemplation.
                             Keywords - changes (6 changes), adhidaiva (UF)
                             change in intrinsic substance - 6 changes of prakriti and jivas in prakriti.
                             soul's emotions can change over time though.
@@ -7213,6 +7417,9 @@
                     <RemembranceOfKrishnaAtDeath>
                     5-8 - Remembrance of Krishna at death - ans to 7th question.
                         5 - If remembers me at quitting body then attains my nature - no doubt about this.
+                            Purport
+                                Incessantly chant - gotta quit body in KC, purest of pure smaran.
+                                tolerant as a tree - so many impediments - tolerate and continue chanting.
                             Keywords - remember at quitting (important, Mukunda Mala stotra), smaram muktva (remember)
                             Answers how to remember at the time of death.
                             Importance of moment of death.
@@ -7222,6 +7429,9 @@
                             It is smaram muktva not kirtan muktva - so remembrance of the heart.
                             No SP purport where full MM and that too twice.
                         6 - whatever bhav at time of death, that form we get.
+                            Purport
+                                Mahraj Bharat Eg - body of deer.
+                                Think Krishna for that state.
                             Keywords - eg, REL
                             bharat M remembered the body of deer and that's what he got.
                             subtle is the template for the gross.
@@ -7229,6 +7439,9 @@
                             Law of last thought - intercedes gross, subtle and spiritual.
                             Full MM again in this verse.
                         7 - so always remember me and fight. You will attain me.
+                            Purports
+                                Prescribed duties or engagements
+                                chanting - to free mind of contaminations and engage mind intel in Krishna.
                             Keywords - anusmara yudhyasca, yudhyasca (prescribed duties), no doubt.
                             offering after doing work b4 but now first think then work - pre-action meditation.
                             He is the lord of my heart.
@@ -7239,6 +7452,9 @@
                         8-13 - Remembrance of Krishna is essential for attaining perfection even through the path of yoga
                             6th and 7th chapters were 2 alternatives so 8th chapter will contrast the 2 paths.
                         8 - engaging in yoga practice with mind and intel - don't let it go anywhere - attain supreme person - thru steady contemplation.
+                            Purport
+                                revival thru tongue and ear and mind.
+                                object of worship - Narayan, Krishna, Rama. @Caterpillar becomes butterfly thru contemplation.
                             Keywords - paramam purusha -> 3rd person ref; PP --> Chant HK and think of Rama.
                             3rd person reference of param purusham
                                 path from perspective of seeker - ashtanga yogi doesn't know Krishna is the goal - may discover person but not who.
@@ -7254,13 +7470,18 @@
                     <RemembranceByYogaMishraBhakti>
                     9-13 - Remembrance by yoga mishra bhakti
                         9 - Think of him as eth - oldest, in control, smallest, beyond material conception, past, present, future. Maintainer of e1. lumunious like sun.
+                            Purport
+                                can't meditate on impersonal or void.
+                                Lord is kavi - past present future knower.
+                                smaller than smallest; can enter atom.
+                                Lord is acintya - beyond thinking jurisdiction. So scriptures.
                             Keywords - various transcendentalists, oldest but in control, size extremes, maintainer, acinya rupam.
                             Various transcendentalists
                                 About - proportions of bhakti different from ppl to ppl.
                                 Kevala Bhaktas - Goloka Vrindavan with Prema.
                                 Pradhani bhuta b - bhakti > 50%. Vaikuntha in shanta-rati.
                                     tinge of other paths.
-                                Guni Bhuta Bhakti - Bhakti < 50%. Brahmajyoti.
+                                Guni Bhuta Bhakti - Bhakti lt; 50%. Brahmajyoti.
                                     Mixed with material modes.
                                 JY, DY, KY - Brahmajyoti after they add bhakti in their sadhana.
                                 More - Krishna may be the object of the worship but not objective of worship.
@@ -7278,6 +7499,8 @@
                                 inconceivable - confirmation comes from conformation. We get purified and get to realize.
                                 We will understand that I can't understand by my own efforts.
                         10 - Death time make mind without deviation - thru practice. Breath in eyebrows. attain divine person.
+                            Purport - 6 chakras, raise to eyebrows.
+                                yoga balena - without yoga practice one can't come to trans state at death - mind is disturbed at death so life.
                             Keywords - yoga balen (effort vs relax), fixes life air (chakras)
                             meditation for relaxation vs agitated while chanting.
                                 where is relaxation - mind is purified of anarthas that brings peaceful.
@@ -7297,13 +7520,23 @@
                                     inner level of consciousness corresponds to external planet one can qualify for.
                                     starts with bhumandala, bhuvarloka and antariksha, svargaloka for manipura, etc.
                         11 - In brief I will explain. Practices celibacy, chant OM, know vedas, etc then perfection.
+                            Purport - om identical with brahman.
+                                2 features of brahman - om and celibacy.
+                                celibacy is difficult due to social construction of the world. Difficult spiritual life without it.
                             Keywords - exploration
                             The demands is quite high here.
                             to be able to do what's stated in previous verse.
                         12 - senses are the doors. Fix emotions on heart (object of consciousness). Yogic situation.
+                            Purport
+                                pratyahar - full control and inside.
+                                raise life force to top of head.
+                                no practical.
                             Keyword - exploration
                             talking about pratyahar. Yoga dharana. Raise pranaya to adhyatma.
                         13 - Om 1 syllable focus and remember me.
+                            Purport
+                                impersonal sound of Krishna is om. HK contains Om.
+                                reaches spiritual planets as per mode of practice but brahmajyoti for impersonal practitioner.
                             Keyword - exploration.
                             So remember me is both goal and the means - cmp with 5.
                     </RemembranceByYogaMishraBhakti>
@@ -7311,6 +7544,13 @@
                     14-15 - Remembrance by Shuddha bhakti
                         14-22 - Contemplating on the temporariness of material nature gives us the impetus for fixing the mind on Krishna
                         14 - without any deviation of the mind, always remembers me. I am easily obtained.
+                            Purport - yoga has bhakti added.
+                                BY desires nth but Krishna.
+                                nishkama - no desire for self interest. Perfect peace - no personal gain.
+                                Other yogis have personal gain in mind
+                                Loving service - no obstacle like others face.
+                                wherever Krishna is there is vrindavana.
+                                blessing of process of chanting - can't forget SPOG so easy to attain.
                             Keyword - sulabh -> critics, sulabh --> easy?!
                             only word sulabh - easy. Nothing but BY is being talked here.
                                 BY is far preferable over DY.
@@ -7329,6 +7569,9 @@
                                 Krishna is not partial but reciprocates.
                                     Krishna gives intelligence on how to serve Krishna in a best way.
                         15 - duhkhalayam ashashvatam - and worship then don't have to come back.
+                            Purport
+                                does not wish to return - miseries of BODD.
+                                no longer desire elevation.
                             Keywords - duhkhalayam ashashvatam.
                             impetus to fix the mind on him and not fixing.
                             lives happily ever after is complete opposite
@@ -7337,6 +7580,10 @@
                     <RemembranceByComparingNaturesOfMatNSpWorlds>
                     16-22 - Remembrance by comparing natures of mat and sp worlds
                         16 - all planets make you come back but after surrender you don't come back.
+                            Purport
+                                elevated to higher planets. unlike others.
+                                    panchagni vidya for brahmaloka.
+                                on material universe devastation, brahma transferred to spiritual universe as per desires.
                             Keywords - repeated birth death (long duration but flash and not bhakti conducive)
                             Brahma's abode being in material world - that's also temporary.
                             Brahma and associate if purified thru practice then Spiritual world after end of life.
@@ -7345,31 +7592,48 @@
                             Too much enjoyment to do unalloyed bhakti.
                             feast is there and right b4 starting - look at the plate and chant 16 rounds.
                         17 - day and night of brahma 1000 yugas
+                            Purport
+                                kalpa - day of brahma - 1000 chatur yuga make day and another 1000 for night.
+                                    his life 100 such years. Fantastic but flash in face of eternity.
+                                    4 yugas with declining virtues and religion.
+                                    BODD for brahma also.
                             Keywords - yuga.
                             1K years (yuga is huge time - kali yuga, unit of time can vary) - overall lifetime of brahmaji.
                             difficult to conceive of trillions of years but in front of eternity it's nth but bubbles.
                         18 - cosmic manifestation and unmanifestation.
+                            Purport - PHI
                             Keywords - avyakta (not destroyed but converted for conservation of energy law)
                             convertibility is not same as destructibility.
                             we are attracted to not substance but forms.
                             if dies then tower and birds eat it - that's the gf or bf - substance is eternal but form is manifest or unmanifest.
                         19 - Come into being and take birth over and again during manifestation.
+                            Purport
+                                Brahma's night all annihilated. Various bodies in day and vishnu's body compact in night.
+                                After brahma's life they again manifest in new millenium after long un-manifestation.
+                                KC is the exit.
                             Keywords - annihilated (pralyate). bhutva (again - long enjoyment but not worth it)
                             Nature shows wrath then whole green land becomes waste land like saraswati river.
                             we think we have lots of control but nth in comparison to forces of nature
                             body is very fragile - 1 bug can disturb us. 1 microbe can put us to bed.
                             higher and lower planets difference - huge disparity may seem but it is not worth going there.
                         20 - there is nature transcendental to manifest and unmanifest.
+                            Purport - superior energy is trans and beyond all changes of material nature.
                             Keywords - anya avyakta (dfifferent) -> anti matter.
                             Krishna's superior energy is complete opposite in quality to material energy.
                             anti-matter - scientists think about it - destroy each other - it's truly anti to matter - not destructive.
                         21 - attaining this you will not come back abode of mine.
+                            Purport -
+                                Brahma samhita spiritual world decription.
                             Keywords - avyakta; param gati.
                             avyakta - not unmanifest here - but soul.
                             subtle body and soul are both avyakta.
                             spiritual world is also avyakta but this is transcendence.
                             no destination is higher than this - paramaam gati - nth is higher than this.
                         22 - SPOG greater than all is attained thru bhakti.
+                            Purport - Quality of spiritual bliss - variegated-ness and nth material.
+                                Bhakti is only entry.
+                                Vedas like tree.
+                                all pervading thru expansive energies.
                             Keywords - how he inside eth and vv
                             he is all pervading and eth inside him - mahavishnu and paramatma.
                             eth in brahman - brahman is eth.
@@ -7378,6 +7642,9 @@
                     23-28 - Remembrance by bhakti yoga is easier than by ashtanga yoga.
                         23-28 - Different kinds of maps for looking at reality serve different purposes - focus on the devotional map.
                         23 - Time of department at which one will not come back let me tell you,
+                            Purport
+                                Devs don't care - leave eth to Krishna and return happily.
+                                Yogis select time and situation - deity of time kaala.
                             Keywords - World View, Maps, Siddis funda.
                             Foreign territory - lots that Krishna is telling has assumptions that we don't know about.
                             Eth has world view associated with that - atheism (enjoy in world, survival of fittest)
@@ -7416,16 +7683,23 @@
                                     Breathe, chakra, etc are all material focus and don't focus on Krishna or spiritual - it's just different map.
                                         focus if on material redirections then if not focus on spiritual dimension then they have to do other things which will be mentioned.
                         24 - leave body in uttarayan, waxing fortnight phase then attains.
+                            Purport
+                                presiding deities make arrangement
+                                specific times - accidently or arrangement you get to attain brahmajyoti.
                             Keywords - Why material details - demigods deities guide the path.
                             currently comparison with bhakti yoga is going on - how the yogis depart is being justified.
                             demigods supervise the pathways used by the departing soul
                             @person in train - but train tracks is overseen by Railways administrators.
                             when person know AT and consciousness on deities - they guide person along the path to brahman.
                         25 - leaving at wrong time - heavens and then comes back to resume.
+                            Purport - moon 10K years on demigods standard on moon - not grossly perceivable. Drink soma rasa to enjoy.
                         26 - 2 ways of passing - no return in 1 of them.
+                            Purport - without surrender no ultimate salvation.
                             Keywords - kala and path.
                             not just kala but 2 paths to take care of to return.
                         27 - yogi (devs) know the 2 path - they are never bewildered.
+                            Purport - Devs don't worry departing by arrangement or accident.
+                                absorb in KC thru service,
                             Keywords - yogi means dev, Do ur best and leave the rest.
                             practice yoga - which yoga is best Krishna has said in 6.47
                                 better is even in yoga connect to devotional aspect.
@@ -7437,17 +7711,35 @@
                                     Like Arjuna fighting for Krishna.
                                     remember Krishna is 1 thing but our focus is to devp love and rest things will be taken care of.
                         28 - whatever obtained thru yajna daan tapa - yogi achieves that all.
+                            Purport
+                                Brahmacharya - with SM like servant, beg alms from door to door and master neglect to call then fast.
+                                Grihastha - perfect man of character after training not a speculator
+                                    perform sacrifices for enlightenment further. Charity as per TPC.
+                                Vanaprastha - penance.
+                                Sanyas - perfectional stage of life. elevation to heavens. Brahman. Krishanloka, etc.
+                                KC is 1 stroke to surpass rituals for transcendence.
+                                middle six chapters is essence and other 6 are the covering for the crux.
+                                Learn BG from Dev and get fixed in one's study.
                             Keywords - highest benefit.
                             trans focus not just on my dharma but divine.
                             focus on trans has greater than acting on material punya.
                             @Million dollars then 10, 100 dollars are included in that.
                             Not material adjustments required here - yogis need that.
                     </RemembranceByBhaktiYogaIsEasierThanAshtangaYoga>
-                </Ch8>
-                <Ch9>
+                </RemembranceOfSupreme>
+                <MostConfidentialKnowledge>
+                Ch9
                     Chapter - Most confidential knowledge comes from 9.2 - aka raja guhya yoga.
+                    Section Flow - Intro to Kevala Bhakti, Krishna wrt prakriti,
+                        ways to understand Krishna - UF, demigods, impersonal.
+                            Comparison starts - vs Demigods.
+                        Power of Kevala Bhakti.
                     <DevpKevalaBhaktiByKnowledgeAbtKrishna>
                     1-3 - Developing kevala bhakti by knowledge about Krishna.
+                        Section Flow
+                            Confidential knowledge cuz non-envious
+                            it's pure and king of knowledge and joyfully performed
+                            Without faith, BODD.
                         1-2 - Realization comes when we use our anumana to harmonize our pratyaksha with shabda.
                             This section is heart of bhakti
                             first 6 of BG are talk about progression of karma to bhakti
@@ -7458,6 +7750,12 @@
                             Glory of path of love to Krishna not Krishna himself.
                                 First position of Krishna then relp with Krishna and process is glorious which takes to glorious Krishna.
                         1 - I will speak most confidential knowledge. will speak to u cuz you are non-envious.
+                            Purport
+                                Enlightened messages for further elevation of Arjuna - matters more confidential.
+                                The most confidential here although 7th and 8th also dealt with DS. Talks about PDS.
+                                Sincere desire in DS is already liberated.
+                                Understand the science of Krishna consciousness thru 9 proc DS.
+                                Envious of Krishna - would write BG inaccurately. Criticizing character of Krishna is a fool. So avoid them.
                             Keywords - superlatives, not for envious, jnana vijnana, moksha from ashubha
                             Krishna used superlatives always wrt to PDS.
                             Krishna said same thing in 4.3 - give to you cuz my friend.
@@ -7472,6 +7770,20 @@
                                 realization is what we get - Krishna gives process to get realization.
                                 jnana is process and vijnana - specific diagnostic - what all is wrong vs how to set it right.
                         2 - king of knowledge. purest trans. Joyfully performed.
+                            Purport -
+                                King cuz essence.
+                                so many dept for external but nth for spirit soul.
+                                no positive information while knowing about soul - activities in spiritual world is most confidential part.
+                                seed of sin - tree - does not appear to grow - takes time.
+                                uttama - that which is trans to material activities. DS never material. Although engagement similar but no MMN.
+                                perceive results directly - pleasure and purified if without offences - hear and broadcast then feels spiritual progress.
+                                    no previous education or qualification reqd.
+                                life of Narada - enlightenment without a doubt
+                                    remnants with permission. Freed from all sin.
+                                    desire for hearing and chanting glories of lord developed.
+                                Lord accepts love with which things are offered to him
+                                time serving DS as ladder is not PDS.
+                                PDS starts after liberation. No1 understands SPOG by other yogas.
                             Keywords - Raja Rishi, raja vidya, purifying, pratyaksha, susukhum kartum,
                             Glory of knowledge.
                             Chapter 3 and 5 were different so are 7 and 9 - with latter being going deeper.
@@ -7519,6 +7831,15 @@
                                     Bhakti is not a ladder but eternal practice.
                         3-10 - Krishna dispassionately and inconceivably oversees the sustenance, creation and destruction of the material world.
                         3 - If don't have faith then continue BODD.
+                            Purport -
+                                faithless can't get perfection.
+                                faith measns all perfection thru serving SPOG.
+                                Faith is created by association of devs.
+                                Water the root - all parts satisfied.
+                                faith 3 divisions -
+                                    no faith, no knowledge - they slip after fulfillment.
+                                    faith but not enough knowledge.
+                                    faith and knowledge.
                             Keywords - Glory thru converse, Doubts Demons,
                             Glories thru converse - if don't then continue cycle of BODD.
                                 @Medicine don't continue then disease continues.
@@ -7530,9 +7851,17 @@
                             If not working on removing doubts and cultivating faith, eventually lost.
                                 @Muscle building.
                     </DevpKevalaBhaktiByKnowledgeAbtKrishna>
-                    <KrishnaInceivableRelpWIthMatWorld>
+                    <Krishna_sInconceivableRelpWIthMatWorld>
                     4-10 - Krishna's inconceivable relationship with the material world
-                        4 - Whole world situated in me but I not in them.
+                        Section Flow - CRUD of Prakriti, Jivas (conditioned state of jivas) by SPOG. More - Conditioned Jivas = jivas in prakriti at different grains.
+                            I pervade, jivas in me (not vv). I source and maintainer of jivas. All being rest in me like wind in sky.
+                            Jivas enter on dissolution and leave. Cosmic origin and maintenance under his supervision.
+                            detached, neutral, not bound to material. CMD by prakriti under my direction.
+                        4 - I pervade. Jivas situated in me but I not in them.
+                            Purport
+                                avyakta murtina - no conceivable by material senses.
+                                spread all over but doesn't lose his personal existence.
+                                @King has many ministries but not present in all of them.
                             Keywords - how all in me.
                             All his energies and he is the thread.
                                 Eth is Krishna's energy so brahmeti - all pervading but not exhausted by that.
@@ -7540,6 +7869,10 @@
                                 Krishna exists beyond so I am not in them.
                                 Krishna is understood by spiritual revelation
                         5 - I maintain jivas. I am source.
+                            Purport
+                                Not directly concerned with maintenance and sustenance of this material manifestation
+                                !REL - atlas holding globe on shoulder - looks tired. Krishna thru will.
+                                Krishna wants sth - can't imagine how it's done - no different Krishna's mind and Krishna cuz absolute spirit.
                             Keywords - contradiction, opulence, maintainer, my atma.
                             Direct contradiction to 4c. All jivas are in me but now, then are not in me.
                                 Is Krishna making mistake like we do in class - I meant that!
@@ -7569,6 +7902,8 @@
                                 Eg - scriptures say rahu's head but rahu is nothing but head.
                                 Krishna's atma means atma.
                         6 - all beings situated in me like wind in sky.
+                            Purport - Wind in the sky. Not a blade moves without will (sanction)
+                                Under SPOG, moon, sun, planets move. Eyes of Lord.
                             Keywords - Nothing called sky - so perimeter. Maintainer.
                             restriction on perimeter of movement.
                                 Familiar handles for concepts which don't exist in english.
@@ -7582,14 +7917,29 @@
                             By his orders sun and moon are maintained.
                                 next discusses creation and destruction aspects as well.
                         7 - all being come back into me after kalpa and released at another beginning.
+                            Purport -
+                                Energy manifested and winds up in himself.
+                                bahu-syam - I am one but become many.
                             Keywords - Creator:destroyer aspects added, evolution not.
                             8th ch focus was not who is controller but temporary and gotta transcend and aspire for eternal.
                                 the in-charge aspect was not covered then - this devp of thought is going on.
                             evolution - I created all living beings but not 1 species as the source.
-                        8 - all of material existence is helplessly coming and going.
-                            Keywords -
+                        8 - Cosmic order under me. all of material existence is helplessly coming and going from me.
+                            Purport
+                                Origin - Material energy let loose - mahat-tattva
+                                    Maha-Vishnu enters as purusha in causal ocean and breathes out universes.
+                                    Expands to Kshirodakshayi to enter into eth - atom.
+                                    Jivas impregnated into material nature.
+                                Karma cycle starts. Different forms of material world.
+                                    avasham - jiva has nth to do with process.
+                                    accomodates inclinations of various jivas.
+                            Keywords - sustenance by me.
                             sustenance is done by me. Even seer of creation and destruction.
-                        9 - all this action doesn't bind me.
+                        9 - all this action doesn't bind me. Detached from material acts - neutral.
+                            Purport
+                                udasina vat - neutral to material activities.
+                                No material engagement but spiritual engagements. Material is thru different potencies.
+                                @Judge - neutral although 7 is hanged, 7 released, 7 awarded.
                             Keywords - Krishna is detached
                             aasakta vs asakta - material nature acts as per system.
                                 no personal agenda Krishna has.
@@ -7598,8 +7948,17 @@
                                 Happens by the course of material nature - he has not forced us to get into system.
                                 @suffering in jail is part of system - but king has not forced anybody to go there.
                                 law - abide or defy. correction center for jivas. Krishna is detached and has no vandetta.
-                        10 - Under my superintendence material nature CMD (creation maintain destruction) happens. Just oversees.
+                        10 - Under my superintendence material nature CMD (creation maintain destruction) happens...
+                            More
+                                producing moving and non-moving...
+                                Creation, annihilation under its rule
+                            Purport
+                                supreme will of Lord but management by material energy.
+                                seed thru glance over material world - bodies as per karma and desire.
+                                @Flower has fragrance but flower and contact thru smell are different things
+                                    smelling power of person touches fragrance to experience it.
                             Keywords - adhyaksha, no loneliness, detachment as mercy.
+                            Lord Just oversees.
                             he is as if above. adhi + aksha.
                             mind troubles and outside hostile forces although I wanna go to sp world.
                                 feel lonely and destitute but we are not - Krishna is with us but how
@@ -7609,13 +7968,25 @@
                             his apparent detachment from karmis is part of his mercy.
                                 cuz that's what they want.
                                 How he shows his grace to devs comes later part.
-                    </KrishnaInceivableRelpWIthMatWorld>
+                    </Krishna_sInconceivableRelpWIthMatWorld>
                     <ThoseWhoUnderstandKrishnaInVariousWays>
                     11-19 - Those who understand Krishna in various ways.
+                        Section Flow - ...
                         <ImpersonalistsMistakeKrishnaBodyToBeMaterial>
                         11-12 - Impersonalists Mistake Krishna's body to be material.
                             11-14 - Mayavadis and pure devotees are sitauted at opposite ends on the spectrum of understanding Krishna.
                             11 - fools deride me as form similar to ours. Don't know trans nature - lord of all existence.
+                                Purport
+                                    Krishna as powerful man nth more - outta karma - not right conception.
+                                    @Office - many functional in charge and can't tell who is superior - e1 controlled by another
+                                        ?Krishna is not even in office.
+                                    manusim - acting like human.
+                                    appearance of Krishna due to his internal energy
+                                    Beyond conception that simultaneous control of smallest and largest
+                                    SB - played like humans masked so, performed superhero acts.
+                                    appeared in 4 hands and humanlike after petitioned by Arjuna.
+                                    Paramatma - so respect deity and not jivas is neophyte.
+                                    God is ew so whwy restrict to temple - if ew then temple also. Personal abode.
                                 Keywords - Mahesh, Avajananti, Form or matter - what's limitation.
                                 mahesh for Shiva but general word means supreme controller.
                                 Words play importance here
@@ -7640,7 +8011,11 @@
                                         AT is impersonalists and has taken shelter of this material form.
                                         But this is eternal form which he has.
                                 Lord diffused in heart of every jivas and needs to worshipped there as well - not just deity
-                            12 - deluding nature rakshasi and asuri -
+                            12 - bewildered attracted by demonic and atheistic views. Defeats - hopes for liberation, fruitive acts, culture of knowledge.
+                                Purport - DS but at heart don't accept Krishna.
+                                    hoping to be liberated.
+                                    attempt to become 1 with Krishna is futile.
+                                    Brihad Vishnu smriti - considers body of Krishna material -> drive him out and bathe ganges to clear of infection.
                                 Keywords - Deeper illusion, infection safety, vs SG, Cultural interactions.
                                 Frustrated in the efforts of world.
                                     Go deeper into deeper illusion.
@@ -7662,7 +8037,10 @@
                         </ImpersonalistsMistakeKrishnaBodyToBeMaterial>
                         <KevalaBhaktas>
                         13-14 - Kevala Bhaktas
-                            13 - Original imperishable.
+                            13 - Not bewildered ones are under divine nature. engaged in DS cuz know me as original and inexhaustible.
+                                Purport
+                                    mahatma - situated in divine nature.
+                                    Guidance of spiritual nature is called daivi prakriti.
                                 Keywords - Mahatma connotations, daivi prakriti, inner world.
                                 Now focus of spectrum is more him vs 4 kinds that don't surrender.
                                 in contrast to 11.
@@ -7689,7 +8067,12 @@
                                     Here Krishna describing the inner world.
                                     DS - Devotion is internal and service is external.
                                     Here internal aspect was being talked. Next verse on external aspect.
-                            14 - always chanting, endeavor with determination, offering obeissance and worship me.
+                            14 - always chanting, endeavor with determination, offering obeissance and worship me with devotion.
+                                Purport
+                                    Mahatma engaged in glorification of Lord. Attached thru that.
+                                    firm determination for engaging in activities at body, mind, vocal for rasa
+                                    Determined like fasting - get desired result thru observation of rules.
+                                    DS easy and performed in happy mood.
                                 Keywords - BG on bhakti (why not much), kirtan (broad defn), determination.
                                 Another verse which endorse Kirtans. BG less details on this.
                                     BG doesn't go deep into details of different paths.
@@ -7710,24 +8093,257 @@
                         </KevalaBhaktas>
                         <UpasanaTypes3_AhangraPratik>
                         15 - 3 types - ahangrahopasana, pratikopasana, vishvarupa-upasana
-                            Keywords -
-                            15-21 - How Universal form worship and demigod worship are also Krishna worship
-                            15 - ...
-                            Keywords - ...
                             ie I am brahman, demigods worship, UF worship.
-                            ...
+                            15-21 - How Universal form worship and demigod worship are also Krishna worship
+                            15 - Other sacrifice under knowledge - worship one without second, as 1 in many forms, and in UF.
+                            Purport
+                                lower than 4 worshipper arto, etc
+                                Lowest are monist.
+                                Imagine any form to be SPOG - includes demigods.
+                                UF cuz can't conceive of anything beyond material universe.
+                            Keywords - Stages of worships, subsequent BG flow pivotal verse.
+                            This verse is essential to understand the subsequent flow of the gita.
+                                UF, then demigod worship, UF again wouold come in 11th chapter
+                                and ekatvena in 12th chapter.
+                            Brahmavadis talked about here.
+                            God conception does not start at once but evolves.
+                            Universe is so great - universe is sacred and divine - pantheism. Parts of UF.
+                                Bigness associated greatness and greatness with God - mountain as bones and sun moon as eyes.
+                                But universe is temporary - beyond this there are manifested beings which control.
+                                Sun and its controller, rain and its controller - some connection to controllers.
+                                here the idea has evolved from pantheism to polytheism. Eth is God to Many Gods.
+                                Eth in material world is temporary - some substantial substratum - idea of oneness comes.
+                                    The spiritual reality.
+                                Connection is gradually moving from material to spiritual - size, controllers, spiritual consciousness above matter.
+                            Stages
+                                Vishvarupa Upasana (vishvato mukham) - Mat meditation tool to reach AT.
+                                Pratika Upasana (Prathaktvena bahudha) - Demigods as symbols of brahman.
+                                Ahangropasana (ekatvena) - not mayavadis because they don't offend Krishna's form.
+                                    impersonalism is not offensive. Krishna's form as illusion and to go beyondi s offensive.
+                            Different Perspectives
+                                Philosophical - Mayavadis > Karmis
+                                    SG more in karmis and more insights with mayavadis and learned in scriptures.
+                                    Lead life in MOG and can karmis in MOP also.
+                                Devotional perspective - Karmis > Mayavadis
+                                    This approach is taken by SP.
+                                    Attitude towards Krishna is difference makers - karmis may have greater chance coming to Krishna.
+                                    different for them to come to KC.
+                                    Conception of UF is much greater than demigods and oneself.
+                                    I worship myself - is anti-thesis of devotion.
+                                Values > Value Judgments
                         </UpasanaTypes3_AhangraPratik>
                         <VishvarupaUpasana>
                         16-19 - Vishvarupa upasana.
+                            16 - I am ritual, sacrifice, offering (to ancestors), herb, chant, butter, fire.
+                                Purport
+                                    Fire is also Krishna - 5 material elements being separated energy.
+                                    Rendering DS => must have performed all sacrifices.
+                                Keywords - Krishna is sacrifice elements.
+                                yajna - only All elements interaction only
+                                All elements seen as brahman b4. Here, I am all that elements.
+                                Progressive revelation of BG - Krishna it is from seeker level.
+                            17 - I am father, mother, support, grandsire, object of knowledge, purifier, syllable om, vedas.
+                                Purport
+                                    Krishna's energies manifest moving and non-moving.
+                                    Krishna's marginal energy as parent, grandparents also PnP and represent Krishna - quality same as Krishna in a role.
+                                    Vedas (heavenly talks) - progressive step towards understanding Krishna.
+                                Keywords - mata pitri devo bhava, shelters.
+                                UF - eth controlled with AT.
+                                Different supports and shelters - I am that Krishna says.
+                                DS opposed by parents and mata devo bhava and pitri devo bhava
+                                    then 2 Gods. Different professions then which God to follow.
+                                    Manifestations of AT - assist us on journey of AT - grateful but gotta recognize ultimate reality.
+                                    who is giving us shelter thru them.
+                                See eth as connected with him.
+                                    Not only parents are PnP of Krishna but also grandparents, creators, etc.
+                                    PnP are also like Krishna. Part is non different from soul and has same qualities.
+                            18 - I am goal, sustainer, master, witness, abode, refuge, dear friend...
+                                creation, annihilation, basis of eth, resting place eternal seed.
+                                Purport
+                                    All lokas are Krishna and also not - a step forward to realize him.
+                                    @save time and ernergy thru elevator and not go staircase indirect path.
+                                    our protection must be living force - no1 better friend than Krishna.
+                                Keywords - Thank God or Doctor.
+                                Seeds - not depleted.
+                                God definition as Generator Operator Destroyer, Source of eth, AT.
+                                Devs grateful to all of shelters within world.
+                                SP - thanks to Krishna for inspiring Sumati Morarji for arranging veg food in ship.
+                                We gotta see both hand of Krishna and the one who is helping us.
+                                Devs - live saved by doctor but Krishna also - ?for laws that are harnessed by doctor.
+                            19 - I give heat, withhold and send rain; I am immortality, death personified. Both spirit and matter in me.
+                                Purport
+                                    Krishna's energies - heat and light thru different energies electricity and sun.
+                                    prolonging the duration of life is Krishna and also is death.
+                                    For Krishna, there is no difference in matter and spirit (?both are energies)
+                                Keywords - see god in positives and negatives (contradictions resolve in him)
+                                sun critical for light and heat - different forms of energy.
+                                God seen in positives of the world - what about negatives.
+                                Rains not coming or too much - that's also God.
+                                He is like judge - no emotional agenda against anyone.
+                                Positives and negatives as power of AT
+                                Bomb in WW is also Krishna coming - manifestations seem positive or negative.
+                                Krishna doesn't have agenda against anyone - death biggest conqueror.
+                                Krishna comes and mortality and gives immortality - Krishna give thru BG and displays mortality thru material body.
+                                Krishna is life and death both.
+                                Eth is combination of matter and spirit. Eth in manifestation is under spiritual connection.
+                                Krishna is revealing here that Krishna is present in that greatness of universe - that is being revealed here to UF worshippers.
                         </VishvarupaUpasana>
                     </ThoseWhoUnderstandKrishnaInVariousWays>
                     <KevalaBhaktiIsFarSuperiorToDemigodsWorship>
                     20-28 - Kevala bhakti is far superior to demigod worship
+                        20 - Those who study vedas, drink soma, seeking heavens - worship me indirectly...
+                            Godly delights after purified of sins, take bith on pious indra planet.
+                            Purport
+                                trivedi - respected in society - know all vedas except atharva. Krishna is goal of trivedis.
+                                HK MM and try to understand Krishna side by side vs demigod worshippers study for offering sacrifices.
+                                higher planetary system satisfy senses 1 lakh times better.
+                            Keywords - Intoxication is Foolishness squared. Divya 2 meanings - celestial or spiritual (trans)
+                            Vedas KK rituals for heavens.
+                            Soma is not from milk ocean churning. But different one to extend the stay.
+                            Punya thru drinking it - part of sacrifice and not intoxication of this world soma.
+                            Intoxication is foolishness squared - thinking that it can make happy is foolish and in intoxication the foolishness a person grows.
+                            intense MOI - incoherent, car accidents, etc. Self induced and chosen madness.
+                            Alcohol takes to MOI and soma to MOG.
+                            Purified of paap and achieve indra loka.
+                            Celestial delights - divya refers to celestial here and not transcendental.
+                            Terrestrial, Celestial is heaven and Spiritual (or transcendetal) to not higher material but higher than material.
+                            Seek not higher material happiness but higher than material happiness.
+                            KK is also worship of him but not in consciousness of him.
+                        21 - enjoy vast heavely pleasure. Exhaust pious acts. return to mortal planet. Adhere to vedas principles for BODD.
+                            Purport
+                                Heaven - Longer duration of life and better facilities
+                                but sent back like ferris wheel - stop the cycle by going to spiritual world.
+                            Keywords - Futility of heavens, Temporary Escape.
+                            it's all futile in ultimate sense - we are ever lasting and anything short of eternal.
+                            we are eternal and want eternal happines - why sell ourselves short - less than potential - why less than best.
+                            @buying house we try to buy the best - st beyond capacity but if it is, we buy the best.
+                            but Krishna approaching is within capacity and possible - only patram pushpam falam toyam.
+                            svargavasi Mr X - Kailashvasi - no1 says vaikunthavasi - ppl have this faith.
+                                without punya don't make it.
+                            what we get is result of past good karma but temporary.
+                                @bank account to enjoy on hill station and bank balance reducing and fall back to normal life.
+                                so it was temporary escape to go to heavens.
+                                @that part of ocean is very peaceful - can go there but shakes later or gotta come back.
+                                @iceberg - melting - after it's over you will fall back to ocean.
+                        22-28 - Devotional serivce not karma kanda
+                        22 - Worship me with devotion, meditate on trans form => carry what they lack, preserve what they have.
+                            Purport
+                                only desire to achieve association of SPOG.
+                                Never comes back - merciful protection of lord to sae him from falling down to miserable conditioned life.
+                            Keywords - Not high price insurance business. Ananyas is natural with bond of love, for soul,
+                                Fears resolved, How much practical - why you and how him.
+                            Personal intervention and personal care of those who approach him personally and devotionally.
+                            ye yatha maam prapadyante principle advocated.
+                            very assuring, faith giving, inspiring for devs.
+                            many pastimes advocate this but let's not focus here.
+                            It's ananya - not obligation with resentment - natural when mind fixed on him.
+                                it's natural as bond of love. Not business dealing.
+                                Purified thinking about him - all attractiveness revealed and joyful for us.
+                                sadhana at our stage - instinctive for advanced devs.
+                            Insurance - 7 else gets money after our life. This is for you.
+                                Krishna cares more for real person - soul but body also taken care cuz conditioned life.
+                            Fears of world
+                                stolen away from me - credentials and gone.
+                                What I need, I may not have.
+                                Krishna says he takes care of both.
+                            When we take care of why's of life, Krishna takes care of the how's of life.
+                                But be practical - SP spread it systematically - eyes in sky but feet on ground.
+                                40 Rs not convertible so brought back to India. And gave to Riksha wala.
+                                Is it only for PD - not necessarily.
+                                    Shrivas T - clap of 3 - will be provided so confident.
+                                    Even if Lakshmi becomes poor, you will be provided.
+                                    Rhetorical statement - of course, that ain't happening.
+                                But we gotta think practical terms but not only practical terms - miraculous ways Krishna can work in.
+                                SP was not eutopian - sanyas and constantly chaning houses - not dejected by practical difficulties.
+                                Krishna does help us when not working out and then he makes things work out after that.
+                            yoga is provision for connection.
+                        23 - devs of other gods. worship in faith - worship me in wrong way.
+                            Purport
+                                Different body parts vs stomach, root vs parts - different officers and directors in government.
+                                Some bribe to officers and directors is illegal.
+                            Keywords - mistranslations, Serving minister vs king.
+                            Serving minister is also serving the king.
+                            @Paradise Lost - son working under king's minister is still under his protection and working for him.
+                            Many translators misrepresent BG - the word avidhi purvakam is removed.
+                            It's correct but incomplete - graphic eg and viciously incomplete that thrust of verse is lost.
+                            Some ppl say let not gods have conflict - we may want to believe that but is that what BG is saying.
+                            what's the focus of the verse - improper worship or that they worship me.
+                                maam eva or avidhi purvakam. The proof is next verse that it is avidhi purvakam.
+                            @Bribing minister is illegal.
+                                part of vedic culture - multi-level worship for gradual elevation.
+                                Materialism in name of religiousity - jugupsitam - Vyasadev status told that
+                                from trans perspective anything short of DS is cheating - kaitav dharma.
+                        24 - for all yajnas, I am master and enjoyer. Don't know this (my trans nature) => fall down
+                            Purport
+                                VA is to satisfy Vishnu.
+                            Keywords - fall down to material world if don't know me.
+                            fall down is focus - so avidhi was last verse focus.
+                            Not eternal results if don't know my position.
+                        25 - worship demigods => birth among them. worship then to them, ancestors, ghost, me.
+                            Purport
+                                Dasha paurnamasi for heavenly destinations.
+                                Black arts and magic is completely materialism and not spiritual.
+                                chanting for perfection.
+                            Keywords - all paths to same goal wronged.
+                            what happens to different worshippers.
+                            different paths to different destinations so blatant proof.
+                            SP focus on last part - worship Krishna to get Krishna.
+                            yajnas and soma rasa for heavens. But his own is simpler.
+                        26 - leaf, flower, fruit outta love and I accept.
+                            Purport
+                                No1 is barred - so easy and universal
+                                Bhakti is mentioned twice - only means to approach Krishna.
+                                find out what the Lord desires of him - undesirable and unasked like meat, fish, eggs not offered.
+                                remains of sacrifice are purified and fit for consumption. eating only sin.
+                                advance steadily in life to purify the body and create fine breain tissues which will lead to clear thinking.
+                                AT is without senses find this verse incomprehensible.
+                                SPOG senses are interchangable - cuz absolute.
+                            Keywords - easy to approach.
+                            vs demigods - I am easy to please.
+                            Hastinapur more or less today's Delhi and Khandavprasth.
+                            Krishna offered from Duryodhan vs Vidura - outta love or hungry - none of them.
+                                nothing in Vidhura's house unexpected - banana peels offered.
+                                Fruit to offered - Krishna eats it. I tried - it's unpalatable.
+                                Duryodhan ke bhoga na khayo, shak vidura ghar khayo - prem pujari.
+                            Gajendra offered flower to Krishna.
+                            Tulasi to Krishna - gambling lost so Krishna equivalent of gold to be given. Tulasi was enough.
+                            Best should be offered to Krishna - but how in love he is satisfied.
+                            Not fish and meat - not dietary prescription this verse but it is stated.
+                            what if I don't have devotion for offering - still you can offer.
+                            Krishna, his glance, his mouth, his ears are non-different but yashoda didn't put food in his ears.
+                                serving Krishna - we don't test his omnipotence but best service.
+                                Food remains - what happened - devotion offered and mercy comes back.
+                                @Food in box - Aunty doesn't return sweet tiffin empty. Content of box comes back but reciprocation happens.
+                                We offer bhakti and get his kripa.
+                        27 - whatever you do, eat, austerities you perform, offer or give away - do them as offering unto me.
+                            Purport - therefore accept remnants; meditating on Krishna 24 hrs - chanting HK.
+                            Keywords - without devotion also do offering.
+                            what if I don't have devotion, still Krishna accepts it.
+                            principle of offering unit him is also auspicious.
+                            PD and we offering some difference? yes different in devotion and reciprocation - but without PD, we are left out.
+                            principle of offering is important.
+                        28 - Freedom from Karma bandhan. Mind on me in renunciation => liberated and come to me.
+                            Purport - can't cease acting - so act and fruits given to Krishna is yukta vairagya.
+                                Sanyasi no interest but to dedicate his life to service of Lord.
+                                sometimes appear to go against the prescribed duties.
+                                PD st work outside prescribed duties - but above material criticism just like Krishna is.
+                            Keyword - yukta vairagya.
+                            sanyas yog (disconnection from matter and connection spirit)
+                            yukta vairagya.
+                            vaishnavera kriya mudra vighene na bujhaye.
+                            Emphasis of devotee is st may sth not standard
+                            Madhavendra puri - can't do sandhya vandan, etc - just bowing unto you is enough for me.
                     </KevalaBhaktiIsFarSuperiorToDemigodsWorship>
                     <KevalaBhaktiElevatesEvenTheMostFallen>
                     29-34 - Kevala bhakti elevates even the most fallen
+                        29-31 - 5 glories of DS.
+                        29 - ...
+                            Purport
+                            Keywords - ...
+                            ...
                     </KevalaBhaktiElevatesEvenTheMostFallen>
-                </Ch9>
+                </MostConfidentialKnowledge>
+                <Ch10></Ch10>
             </BhaktiSection>
             <JnanaSection></JnanaSection>
             <Uncat>

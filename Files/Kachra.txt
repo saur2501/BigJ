@@ -1,118 +1,85 @@
-Manager - Bridge gap for leadership devp plan - ur feedback is crucial for action items on their devp plan.
-	Manager not part of meeting - aggregated feedback or themes get shared, anonymous.
-	Provide feedback like you like to receive, tell it as it is. Verbose for real help.
-    Some features only accessible thru app and not web.
-SocialErp - ITR Filing -
-    online tool for jpg to pdf, then doc embed images to pdf lesser but still more, then jpg to png to doc to pdf.
-	Solution - the limit is on file size and not on total cumulative size and hence break RA into 2 files and upload.
-PIES - Master Phase means 2 things Regex and Hello World (In other words - standardized and story - engineer and arts)
-    karma is transaction over standardized regex and experienced standardized simple story - wide and deep.
-    Eg - u know yulu and u know bounce and you have a meeting to attend - you can make transaction using all of them cuz you have standardized them.
-    vs config is simple. It is high level DMPM of PIES - it is mainly IO concerned whereas Master is RAM concerned.
-    consultant thinks like config and arch thinks like master.
-    config is ability to buy a car - what all does it take to buy it - what are your specification, etc.
-    master is standardize a car in terms of its parts and standardize the process for completeness.
-    Master is a phase of deep study for standardized BJDK.
-    Config was phase of frameworks - abstracts, understanding syllabi
-        eg like understanding scope of VA, how discussion works exploration, scrum of life, what do I want.
-    Like studies, Config was Bhakti phase (scrum, scope syllabi, vision and means, study of eg or role models)
-        Master will Dhyan phase (regex DMPM and Hello Worlds), Transactions will be karma phase.
-        Then analytics phase will follow.
-        This separation is not very strict
-            like I have done lots of regex and HW in config phase also
-            but those were all insights into it - showcasing genuine interest i.e bhakti.
-    World Building - Story writing like movies and standardizations like a software are all world building
-        just that 1 is execution trace to elicit emotions - the world building here can fall under different degrees of universe variants.
-        and other is architectural completeness of pipeline or assembly line which will serve all - managerial in nature.
-Logs - Story - Extremes - ear problems, skin itch and tongue no taste, smell in cold and eyes when tataiya bit.
-SocialErp - Digilocker for all the documents.
-Logs - Story - Reorg at BYD again - high ups. You stay with company you become like the seniors.
-    Manager needs to be reminded of duties - like induction, exit interview, etc.
-CS - export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-    After checking all alternatives at /usr/libexec/java_home - java 8 installed thru wizard. 15 thru IntelliJ extension.
-        java 15 - 15 shows up in /Library/Java/JavaVirtualMachine/sapmachine-15.0.1
-        java 8 - after installation it shows up in /usr/local.
-        java 11 - brew install - shows up in /usr/local/Cellar/openjdk@11
-            homebrew also in here.
-CS - curl -x http://localhost:8888 http://localhost/higs/PlatformHIGServlet
-Movie - Wonder Woman 1984.
-	it fulfills your wish but takes something precious in return.
-CS - kafka server is scala version specific so consumer gotta be coming from that version.
-SocialErp - Car Insurance
-    Insurance Filing
-        Inspection
-    Insurance Claim
-        On Road Support
-        Elicit and Survey
-        Cashless or claim and get
-CS Backlog - sume
-    kafka prducer good code but idea run - main method but no run option.
-    kafka registry 8081 - not yet done - second last in the kafka beginner.
-    consumer vocabulary should be strong - course notes and revise.
-    Spark Remaining - Logs, Spark avro jar, notebook - 2, 10, windowing, broadcast joins.
-CS - lsof -t -i :9092 - which process using the port and kill that process.
-CS - Mac
-    Always Allow access to Chrome
-    Apple is the corporation that makes the Macintosh (“Mac”) line of computers. Mac is a product name, like iPhone, XPS, or Corvette. Apple makes both the iPhone line of products and the Macintosh line of products.
-    It is available for Corporate as well as some cloud production areas (SAP Ariba, SAP Concur, etc.).
-IQ - Sprint Review - DMPM
-    Demo in review - Presenting a new world - completeness related questions. Curiosity Applications related. Usability related suggestions.
-    updates for next sprint
-	DoDs
-	Done and Spillovers
-    Retro - Good Bad Ugly
-	what all is done and spillovers.
-	productivity loss
-CS - Office 365 for Mac suite includes Microsoft Outlook, Word, Excel, PowerPoint, OneNote, OneDrive, and Teams.
-IQ - Sprint Planning
-	Spillovers - what is done, what are blockers, who are you in touch with
-	Make sure that all capacities are consumed - estimates on work load.
-	There should be enough ppl and enough backlogs.
-	Design means creating a flawless world. And representing it properly for communication.
-PIES
-    DMPM
-    Regex Hello world
-    Achieve
-CS
-    .bash_profile is executed for login shells, while .bashrc is executed for interactive non-login shells.
-    When you login (type username and password) via console, either sitting at the machine, or remotely via ssh: .bash_profile is executed to configure your shell before the initial command prompt.
-    But, if you’ve already logged into your machine and open a new terminal window (xterm) then .bashrc is executed before the window command prompt. .bashrc is also run when you start a new bash instance by typing /bin/bash in a terminal.
-    On OS X, Terminal by default runs a login shell every time, so this is a little different to most other systems, but you can configure that in the preferences.
-IQ - jyada kaam uthayega tabhi accha kaam milega
-    volunteer karlo - say you will do it.
-    design pick karlo - DB Design hi hai and regular coding of hana querying
-        Then ask senior colleagues they come to help you any way you need.
-        read reference wikis.
-        present your designs to the team as soon as possible - for reputation cultivation.
-        Always finish your job ASAP - and then do anything more later.
-        Planning meeting is very important to get the specifications or specifications of final outcome.
-        Initial phase that follows will be the design doc preparation or discussions. Coding comes next - is not lots of effort consuming thing.
-SocialErp - Insta vs FB - no difference - intended was different. Millenials and current phase.
-PIES - Ashram means 3 things - People (internal and external partners; CRUD), Things (SRM and SCM Logisitics - CRUD - procure and workings), Money (Balance Sheet)
-SocialErp - Third party apps vs Agents for the 2nd party
-    the latter is the better usage cuz we ain’t connecting 2nd party at all but still, former usage is fine.
-	Inspection of vehicle from 3rd party perspective.
-PIES - Varna means - Specialization (CS DS). Sources of Money (Similar to Ashram).
-    Foundation means 4 things - ABCD - Attitude (Qualities), Behaviour (Manners, etiquette), Communication (Language, 12 rasa Decorations), Dedication (Rituals or practices with followups - Scrum). ABC for health of HAS. Abstract and concrete study with DMPM and D and J still applies.
-    Spirituality - BJDK literally with abstract and concrete.
-CS - Intellij
-	About, updates, preference
-	hide, quit.
-	File - New open Recent close
-		save, reload, cache.
-		Project structure, file properties
-		IDE, New Project Settings
-		Export, Powersave mode.
-	Help - …
-	Window
-		Projects - New open VCS.
-		Customize - theme, accessibility, keymap.
-		Plugins
-		Learn
-		Settings - About, Edit custom properties, custom VM props,
-			check for updates, collect logs.
-Movie - Iddarammayilatho
-Movie - Guru - biography of Dhiru bhai ambani.
-CS - for new kafka broker, new id, port and different log directory.
-CS - Run a shell script - if executable then only the path to the file, if not, then sh file_name or bash file_name.
-CS - if findspark not able to locate SPARK_HOME in env, then use findspark.init('C:/..path/..spark') in the program.
+CS - Mac - clicks on dock icons - shows different windows - full screeen means different desktop, full inside same desktop thru window double click
+    Minimized means inactive, out of sight but passive, active, closed but daemon, quitted.
+    switch spaces thru 3 fingers of ctrl+left arrow.
+    window and control of windows are merged into command key and ctrl is just kept for extra. Option is similar to alt.
+    ctrl+tab or ctrl+shift+tab or ctrl+` or ctrl+shift+` and also ctrl+` after ctrl+tab - read command in all these.
+Logs - Story - We had VOIP on every workstation in Infy - those days. For talking to IT colleagues any time - this was besides Communicator.
+PIES - The game of master will be self mastery and socializing in interest of max performance and productivity.
+    config was DMPM and regex of eth - of course nth can be exhaustive but it has to be sufficient.
+    You get paid for concrete karma in varna - not other things - concrete BJDK is all meant to assist K and scale K. And power comes from concrete karma only.
+        Other things like J and D can only help.
+        B4 thinking scaling of K which is transactional state
+            master state will focus on how your personally disciplined and socially adept for performance and productivity of K.
+            what you have already done is external standardizations but not personal self mastery.
+            so what this means from spiritual perspective is the next master phase is about SB at slow pace (story centered) but most importantly applications in interest of self mastery.
+            what are the keywords in master phase - fearless, effortless, socializing, self mastery.
+            so what this means is that you are not an architect but you are a senior developer - you are the fastest, smartest person in the team.
+            what this means is you can face public of 500 in a presentation.
+https://web.microsoftstream.com/video/dfe8a98a-72fb-4499-b1e3-36f247e93d5e
+In IQ, it's better to finish t tasks than to have all t+k tasks almost done.
+Manager or equivalent's polity - ask questions of next level - is it done, will it be done today, do you have PR today,
+    whose help will you need to finish this, Mr X can you help him with this - this takes future work to present.
+    Asking do you have PR even the details are enough to convey that it is far from it - intent is put pressure to raise PR.
+    Now to ensure that you don't get pressure - get this thing brought out clearly that it is far from PR. So, your expectation is wrong here.
+Review meeting - What all was done and major decisions made. Demos.
+    usability suggestions - how to organize the json response
+    Potential problems - what if thresholds are reached with this design.
+    usability - end user may get confusion if sees data in 2 places.
+    how is it different from that endpoint.
+    aesthetics - move url under that. response status be 400.
+    Please remove that tag - I will check this and get back to you for the suggestion.
+Revisit arch for Current State of the art.
+    Clarify the question. If you can go to wiki page. Let me get time.
+    Weekends for abstract J and concrete J. Revisit your J chakshu for runtime of what's being built - to reinforce your und.
+    cleaning the things like making curl - standardizing and cleaning postman collections - making them dependable.
+    so much achieved in 1 sprint. think from user perspective whats new. But things todo - better m simple things than m - k tough ones.
+    brings clarity
+    problems in new feature is a new plan. like thread pool exception. don't just correct it - fulfill a user story - every effort is a story.
+    count them in appraisal
+    program is tested and process is with soul. program compiling is recruitment. process is working in team.
+    healthy competition - intra and inter. we want e1 to win.
+Power Presentations
+    planning, design (sending MR), review (Code review and demo)
+    for across team and new onboards - Demo mapping to planning, KT mapping to design, code walk through mapping to coding.
+Background job running in cloud for internal tenants cleanup - it is moved to hibernate for TCO reduction - https://github.wdf.sap.corp/iot/tenant-whitelists
+    gotta raise a ticket to BC-NEO-SVC-IOT to whitelist my IOTS tenant.
+NFP - Condoms or contraceptives - DPMPM to be organized - use case, features, why, how, wrt govt, etc.
+    Brand - Manforce.
+    Flavors - Litchi (smell)
+    Electronically tested - pleasure and protection in a package.
+    Lubricated. Made in Haridwar.
+    Customer Care. 10 in a pack.
+    Nominal width - 53 +/- 2 mm and Length - 180 mm.
+    Premium quality. Natural rubber Latex product. 1500 dots.
+    ISO certified for single use. Reuse can cause failure. Keep away from heat sun and moisture.
+    80 Rs for 10. 3 year validity.
+    Seek medical assistance if leaks - within 72 hrs.
+    None is 100% but increased protection and prevention from STDs and preg.
+    How - tear the packet carefully from side (fingernails and jewellery can damage it)
+        squeeze top to remove air pocket. Put it on between erection and intimate contact.
+        Withdraw after ejaculation or b4 losing erection. Hold rim to avoid sliding off.
+        stop if too tight or too loose cuz then can lead to breakage.
+        Lubes - as recommended - avoid oil based like jelly, baby oil, body lotios, massage oils, butter, margerine, etc.
+Logs - Shaving cream at Kochi had Aloe.œ
+CS - Macbook, pro and air - pro is considered the best with most configuration.
+    Intro - Air is best for most. Pro 13 is Most speed for $, Pro 13 Premium is best for multitasking and Pro 16 inch is best for power users.
+    Comparisons
+        touchbar only in pro.
+        2 TB for pro; Storage 4 TB for pro 13 premium; 10 for 16 Pro.
+        Battery life is best or pro 13 16 hrs that is and 11 for pro 16.
+        pro 16 is heaviest.
+        Graphics M1 for air and pro 13. Intel for pro 13 premium and AMD Radeon Pro for pro 16.
+        All thunderbolt ports - 2 for air and pro13. 4 for pro premium and pro 16.
+        RAM 16 GB for air and pro13. 32 for pro premium and 64 for pro16.
+        CPU M1 for and pro13. i7 10th Gen for pro premium and i7 9th Gen 2.6 GHz for pro16.
+        air and pro13 are almost same with pro13 costs more (1K to 1.3K) - battery and weight difference.
+        Magic Keyboard from air better than butterfly keyboard.
+    Analytics
+        Summary - Air is best for most. Pro 13 is Most speed for $, Pro 13 Premium is best for multitasking and Pro 16 inch is best for power users.
+        pro13 premium adds on configuration for all the pro13 with 1.8K.
+        pro16 adds on configs of pro13 premium and better battery with more weight and screen size.
+HomeErp - SRM - Devarayana Durga - Yoga Narsimha: I did yoga there with colleagues, Kochin, Alleppey.
+    Ramanujacharya built a temple in Melukote. Srirangam, Sri Rangapatna, kanchipuram varadraj, Tirupati
+    Madhvacharya - Pajaka near Udupi, Hampi.
+    Devarayana Durga in Tumkur - temple town, Yoga Narsimha, Bhog Narsimha.
+    Ahobilam, Melukote with Iskcon whitefield with Chaitanya katha vaale Sr prabhu who took another association from RNSM.
