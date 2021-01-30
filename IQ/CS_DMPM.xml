@@ -10,154 +10,290 @@
     </Systems>
     <DevOps>
         <Design>
-            <IDE></IDE>
-            <Framework></Framework>
+            <DesignTools>
+                <IDE></IDE>
+            </DesignTools>
+            <Servers>
+                <Kafka>
+                    DM
+                        Kafka
+                            Cluster - Group of computers sharing workload for common purpose
+                                Broker - Kafka Server
+                            zookeeper
+                            Topics - a name for kafka stream
+                                Partitions - part of topic
+                                    Leader - which machine plays leader for a partition - producer consumers talk to that guy
+                                    Offset - unique Id for message in partition (sequence id given when messages enter)
+                                        current
+                                        committed - offset position already processed by a consumer
+                                            sync, async
+                            Message Record
+                        Interactions
+                            Producer - app to publish record to topics
+                                Producer Scaling - Thread pool.
+                            Consumer - app to pull record from topics
+                                Consumer Group - a group of consumers acting as a single logical unit
+                                    Y? parallel processing a topic; manages partition assignment; can rebalance as per consumer entry exit.
+                            Meta - Schema Evolution
+                            Stream - client library to process data in kafka (like substitute of spark, storm, etc)
+                            Connectors - i/o kafka and systems (Kafka producer separated from App - Kafka Connect to handle producer and consumer part)
+                    PM
+                        Distributed streaming (platform) - publish subscribe to a record stream, store them, process the stream
+                            Fault Tolerance -
+                                enabling a system to continue operating properly in the event of failure of some of its components
+                                thru replications factor - number of copies
+                            CRUD
+                        Producer
+                            DFD L0 - Send Message
+                                Properties Config - configure properties, Serialization for key and value
+                                    bootstrap.servers
+                                    key.serializer
+                                    value.serializer
+                                    partition.class
+                                    acks - 0 (no ack - loss of messages, high thruput, no retry), 1 (respond back), all (all partition replica should know)
+                                    retries, max.in.flight.requests.per.connection
+                                    use.synchronous.send
+                                    buffer.memory, compression.type, batch.size, linger.ms, client.id, max.request.size
+                                Producer Record Creation - with KV to topic, partition, timestamp.
+                                    Serializer KV
+                                        Create class
+                                        Create producer
+                                        Create Serializer - implements Serializer(class) and implements serialize - change this if class is changed
+                                        Create Deserializer
+                                        Create Consumer
+                                    Partitioner - Assign Partition
+                                        Default
+                                            specified then use it
+                                            not specified then find the hash - utils.toPositive(utils.murmur2(keybytes)) % #Partitions
+                                            no partition and key then round robin
+                                        Customer
+                                            ...
+                                    Partition Buffer - batch
+                                Sending
+                                    Fire and Forget
+                                    Asynchronous Send
+                                    Synchronous Send
+                                //update the current offset
+                                Accept Record Metadata if successful else error reporting and retry.
+                            Scaling Kafka Producer - thru threads
+                                ...
+                        Consumer
+                            DFD L0 - Ask for messages, get messages
+                            Consumer Group - listen to 1 topic across partitions with no duplication of messages (better than 1 consumer reading from 4 partitions is 4 consumers reading from 4)
+                                entry/exit - reassign partition to another consumer;
+                                Group coordinator - maintains the list of active consumers
+                                    Manage a list of group members
+                                    Initiates a re-balance activity (blocked read for all members) - when a list of consumers is modified
+                                    Leader executes a re-balance activity
+                                    Sends a new partition assignment to consumer
+                                    communicate about new assignments to consumer
+                            Consumer wrt Consumer Group
+                                Properties - heartbeat.interval.ms = 3ms, session.timeout.ms=3ms
+                                    enable.auto.commit and auto.commit.interval.ms
+                                //subscribe to topic
+                                Connect to group coordinator
+                                Join the group (group.id property)
+                                    Sends heartbeat
+                                Receives partition assignment - which partition to which group - strategies - range, round robin
+                                fetches you messages
+                                    current offset, committed offset
+                                    Poll for records
+                                    commit the read records with broker
+                                        what if rebalance triggered just b4 commit - maintain offset of processed record, commit when rebalance is triggered
+                                        consumerRebalanceListener - onPartitionsRevoked, onPartitionsAssigned
+                                        Maintain a list of offsets that are processed and ready to be committed (after polling)
+                                        commit the offsets when the partitions are going away (onPartitionRevoked call - commitSync the offsets)
+                                Automatic group mgmt and partition assignment
+                                offset and consumer position control (consumer.seek)
+                                And many more things
+                        User
+                            Deployment - taken care if cloud
+                                Kafka download
+                                kafka server start - zookeeper and kafka servers
+                                    More instances - change broker listeners and logs dir
+                                    config properties
+                                        broker id, port,
+                                        logs.dir - //where all your offset, topic information is stored
+                                        delete.topic.enable
+                                        zookeeper.connect, auto.create.topic.enable
+                                        default.replication.factor, num.partitions
+                                        log.retention.ms, log.retention.bytes
+                            topic create
+                            start producer console to write data
+                            start consumer console to read data
+                            send and receive messages
+                        Vision
+                            Apps listening from kafka topic and writing to another kafka topic
+                            Kafka for backbone of all the system communications
+                            Kafka for Data collection from n sources b4 analytics
+                            Kafka to read agnostic to data format and connect across engines
+                        Schema Evolution
+                            ...
+                        JUnit
+                            ...
+                        Kafka Connect
+                            ...
+                        Kafka Streaming
+                            ...
+                    Regex
+                        JavaDocs and Eg
+                    HelloWorld
+                </Kafka>
+            </Servers>
+            <Framework>
+                <Spark>
+
+                </Spark>
+            </Framework>
             <Scrum></Scrum>
         </Design>
         <Development>
             <PL>
+                <Scala>
+
+                </Scala>
                 <JAVA>
-                        JAVA - DM (behavioral abstract study - no DFD levels here)
-                            Overview
-                            Basics
-                            Imp DT - String, Array, Stream.
-                            Operators
-                            OOP - Inheritance, Polymorphism, Overriding
-                            IO
-                            Misc
-                                    Important Keywords
-                                    vs CPP
-                                    Methods
-                                    Constructors
-                                    lambda
-                            Exception Handling
-                            Systems - File Handling, Multithreading, Sockets, Security.
-                            Collections
-                            Libraries - Math, Lang, Time, Network, Image, Advanced, Tuple, Wrapper.
-                            Uncat - Internals - Package, Reflections, Garbage Collection, NIO.
-                        JAVA PM
-                            More - JAVA DMPM - For more languages just plug the delta not everything.
-                            PM - Grammar Syntax
-                                    Application -> Package*
-                                    Package -> ProgramFile*
-                                    ProgramFile -> Program
-                                    Program -> Imports* class+
-                                    class ->  AccessControlModifier NonAccessModifier class className [Inheritance] { MemberVariable MemberMethod }
-                                    MemberVariable -> AccessControlModifier NonAccessModifier DataType VariableName [Initialize]?;
-                                    MemberMethod -> AccessControlModifier NonAccessModifier ReturnType MethodName ( Arguments ) { MethodBody }
-                                    AccessControlModifier -> default|private|public|protected
-                                    NonAccessModifier -> static|abstract|final|synchronized|volatile
-                                    ReturnType -> DataType|ClassName
-                                    Arguments -> [DataType|ClassName []? ,]*
-                                    MethodBody -> VariableDeclaration Statements*
-                                    VariableDeclaration -> DataType LocalVariable [= Variable | Constant]
-                                    Statements -> (VariableDeclaration | SimpleStatement | ControlStatement | FunctionCall | IO)+
-                                    ControlStatement -> DecisionStatement | IterativeStatement | ExceptionBlock
-                                    ExceptionBlock -> try { Statements } catch(ExceptionClass) { Statements } finally { Statements }
-                                    SimpleStatement -> ( LocalVariable Operator )* LocalVariable	//ignoring unary and ternary.
-                                    Operator -> Assignment | Arithmetic | Relational | Logical | Bitwise
-                                    VariableName, MethodName, ClassName, LocalVariable -> Identifier
-                                    Identifier -> same rules as CPP.
-                                    DataType -> PrimitiveDataType | NonPrimitiveDataType | UserDefinedDataType | Collection
-                                    PrimitiveDataType -> ...
-                                    NonPrimitiveDataType -> Arrays | String.
-                                    UserDefinedDataType -> ...
-                                    Collection -> Set | List | Map.
-                            RuntimeBehaviors
-                                    Inheritance -> extends SuperClass | implements Interface
-                                    Polymorphism -> exact signature called.
-                                    Overriding -> Method from SuperClass, Dynamic Method Dispatch.
-                                    Abstraction | Interface
-                                    Encapsulation
-                                    Packages
-                                    ===
-                                    SuperClass -> ClassName
+                    JAVA - DM (behavioral abstract study - no DFD levels here)
+                        Overview
+                        Basics
+                        Imp DT - String, Array, Stream.
+                        Operators
+                        OOP - Inheritance, Polymorphism, Overriding
+                        IO
+                        Misc
+                            Important Keywords
+                            vs CPP
+                            Methods
+                            Constructors
+                            lambda
+                        Exception Handling
+                        Systems - File Handling, Multithreading, Sockets, Security.
+                        Collections
+                        Libraries - Math, Lang, Time, Network, Image, Advanced, Tuple, Wrapper.
+                        Uncat - Internals - Package, Reflections, Garbage Collection, NIO.
+                    JAVA PM
+                        More - JAVA DMPM - For more languages just plug the delta not everything.
+                        PM - Grammar Syntax
+                            Application -> Package*
+                            Package -> ProgramFile*
+                            ProgramFile -> Program
+                            Program -> Imports* class+
+                            class ->  AccessControlModifier NonAccessModifier class className [Inheritance] { MemberVariable MemberMethod }
+                            MemberVariable -> AccessControlModifier NonAccessModifier DataType VariableName [Initialize]?;
+                            MemberMethod -> AccessControlModifier NonAccessModifier ReturnType MethodName ( Arguments ) { MethodBody }
+                            AccessControlModifier -> default|private|public|protected
+                            NonAccessModifier -> static|abstract|final|synchronized|volatile
+                            ReturnType -> DataType|ClassName
+                            Arguments -> [DataType|ClassName []? ,]*
+                            MethodBody -> VariableDeclaration Statements*
+                            VariableDeclaration -> DataType LocalVariable [= Variable | Constant]
+                            Statements -> (VariableDeclaration | SimpleStatement | ControlStatement | FunctionCall | IO)+
+                            ControlStatement -> DecisionStatement | IterativeStatement | ExceptionBlock
+                            ExceptionBlock -> try { Statements } catch(ExceptionClass) { Statements } finally { Statements }
+                            SimpleStatement -> ( LocalVariable Operator )* LocalVariable	//ignoring unary and ternary.
+                            Operator -> Assignment | Arithmetic | Relational | Logical | Bitwise
+                            VariableName, MethodName, ClassName, LocalVariable -> Identifier
+                            Identifier -> same rules as CPP.
+                            DataType -> PrimitiveDataType | NonPrimitiveDataType | UserDefinedDataType | Collection
+                            PrimitiveDataType -> ...
+                            NonPrimitiveDataType -> Arrays | String.
+                            UserDefinedDataType -> ...
+                            Collection -> Set | List | Map.
+                        RuntimeBehaviors
+                            Inheritance -> extends SuperClass | implements Interface
+                            Polymorphism -> exact signature called.
+                            Overriding -> Method from SuperClass, Dynamic Method Dispatch.
+                            Abstraction | Interface
+                            Encapsulation
+                            Packages
+                            ===
+                            SuperClass -> ClassName
                 </JAVA>
                 <Python>
                     DM
-                            Basics
-                            IO - DB also
-                                    open("test.txt", "wb")
-                                    test_file.write(bytes("Write me to the file\n", 'UTF-8'))
-                                    test_file.close()
-                                    test_file = open("test.txt", "r+")
-                                    text_in_file = test_file.read()
-                            Misc - Variables, operators, functions.
-                            Control Flow - eg should be moved to grammar portion later in abstract form.
-                                    normal
-                                            a = b // 5; a**2 #comment
-                                            a >> 2
-                                            a le; b and b >= c
-                                    selective
-                                            if i lt; 5:
-                                                    print('less')
-                                            elif i == 5:
-                                                    print('equal')
-                                            if substring in string:
-                                                    print('found')
-                                    iterative
-                                            while (count lt; 9):
-                                                    print('The count is:', count)
-                                                    count = count + 1
-                                            else:
-                                                    print('loop finished')
-                                            for index in range(len(fruits)):	#iterate over list
-                                                    print('Current fruit :', fruits[index])
-                                    functions
-                                            def func(self, arg):
-                                                    self.var = arg
-                                            abs(-5)
-                                    others
-                                            ''' multiline comment
-                                            # single line comment
-                                            \ for next line
-                                            ' for word " for sentence """ for paragraph.
-                            Data Types
-                                    num - int, hexa, octa, long, float, complex
-                                            arithmetic, logical, relational, etc.
-                                            typecast - int("5")
-                                    bool
-                                            logical
-                                    string
-                                            concat - *2, +, 
-                                            substr - [[m]?:[n]?], long_string[-5:]
-                                            replace - str.replace("is", "was")
-                                            find - string.find(substring)
-                                            split - long_string.split(" ")
-                                            length - len(str)
-                                            misc - capitalize, isalpha, isalnum
-                                    list - like flexible array
-                                            concat - self.result = self.list11 + self.list12 + [1, 2], *4
-                                                    grocery_list.append('onions'), insert(1, "Pickle"), remove("Pickle"), sort(), reverse(), 
-                                            substring - self.list11[2:]
-                                            length - len(list)
-                                            nesting - list of lists - nested_list[1][1]
-                                    tuple
-                                            concat - *2, etc
-                                            substring - self.tuple11[1:3]
-                                            length - len(tuple)
-                                            typecast - list(pi_tuple)
-                                    dictionary - like struct
-                                            getVal - dict1['one'], dict1.get("Pied Piper")
-                                            allKeys - tinydict.keys()
-                                            allValues - tinydict.values()
-                                            replace - super_villains['Pied Piper'] = 'Hartley Rathaway'
-                                            length - len(super_villains)
-                            OOPS
-                                    Inheritance - class Dog(Animal): ...; overriding, overloading.
-                                            class Foo(Bar):
-                                                    def baz(self, arg):
-                                                            return super(Foo, self).baz(arg)
-                            Exception Handling
-                            Collections	
-                            Django
-                            Data Analysis
-                            Numpy
-                            Pandas
-                            ML
-                            GUI
-                            Libs - OS, Calendar, Timit, etc.
-                            Misc, Applications
+                        Basics
+                        IO - DB also
+                            open("test.txt", "wb")
+                            test_file.write(bytes("Write me to the file\n", 'UTF-8'))
+                            test_file.close()
+                            test_file = open("test.txt", "r+")
+                            text_in_file = test_file.read()
+                        Misc - Variables, operators, functions.
+                        Control Flow - eg should be moved to grammar portion later in abstract form.
+                            normal
+                                    a = b // 5; a**2 #comment
+                                    a >> 2
+                                    a le; b and b >= c
+                            selective
+                                    if i lt; 5:
+                                            print('less')
+                                    elif i == 5:
+                                            print('equal')
+                                    if substring in string:
+                                            print('found')
+                            iterative
+                                    while (count lt; 9):
+                                            print('The count is:', count)
+                                            count = count + 1
+                                    else:
+                                            print('loop finished')
+                                    for index in range(len(fruits)):	#iterate over list
+                                            print('Current fruit :', fruits[index])
+                            functions
+                                    def func(self, arg):
+                                            self.var = arg
+                                    abs(-5)
+                            others
+                                    ''' multiline comment
+                                    # single line comment
+                                    \ for next line
+                                    ' for word " for sentence """ for paragraph.
+                        Data Types and regex
+                            num - int, hexa, octa, long, float, complex
+                                    arithmetic, logical, relational, etc.
+                                    typecast - int("5")
+                            bool
+                                    logical
+                            string
+                                    concat - *2, +,
+                                    substr - [[m]?:[n]?], long_string[-5:]
+                                    replace - str.replace("is", "was")
+                                    find - string.find(substring)
+                                    split - long_string.split(" ")
+                                    length - len(str)
+                                    misc - capitalize, isalpha, isalnum
+                            list - like flexible array
+                                    concat - self.result = self.list11 + self.list12 + [1, 2], *4
+                                            grocery_list.append('onions'), insert(1, "Pickle"), remove("Pickle"), sort(), reverse(),
+                                    substring - self.list11[2:]
+                                    length - len(list)
+                                    nesting - list of lists - nested_list[1][1]
+                            tuple
+                                    concat - *2, etc
+                                    substring - self.tuple11[1:3]
+                                    length - len(tuple)
+                                    typecast - list(pi_tuple)
+                            dictionary - like struct
+                                    getVal - dict1['one'], dict1.get("Pied Piper")
+                                    allKeys - tinydict.keys()
+                                    allValues - tinydict.values()
+                                    replace - super_villains['Pied Piper'] = 'Hartley Rathaway'
+                                    length - len(super_villains)
+                        OOPS
+                            Inheritance - class Dog(Animal): ...; overriding, overloading.
+                                class Foo(Bar):
+                                    def baz(self, arg):
+                                        return super(Foo, self).baz(arg)
+                        Exception Handling
+                        Collections
+                        Django
+                        Data Analysis
+                        Numpy
+                        Pandas
+                        ML
+                        GUI
+                        Libs - OS, Calendar, Timit, etc.
+                        Misc, Applications
                     PM - Grammar
                             ...
                 </Python>

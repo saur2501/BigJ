@@ -1,85 +1,115 @@
-CS - Mac - clicks on dock icons - shows different windows - full screeen means different desktop, full inside same desktop thru window double click
-    Minimized means inactive, out of sight but passive, active, closed but daemon, quitted.
-    switch spaces thru 3 fingers of ctrl+left arrow.
-    window and control of windows are merged into command key and ctrl is just kept for extra. Option is similar to alt.
-    ctrl+tab or ctrl+shift+tab or ctrl+` or ctrl+shift+` and also ctrl+` after ctrl+tab - read command in all these.
-Logs - Story - We had VOIP on every workstation in Infy - those days. For talking to IT colleagues any time - this was besides Communicator.
-PIES - The game of master will be self mastery and socializing in interest of max performance and productivity.
-    config was DMPM and regex of eth - of course nth can be exhaustive but it has to be sufficient.
-    You get paid for concrete karma in varna - not other things - concrete BJDK is all meant to assist K and scale K. And power comes from concrete karma only.
-        Other things like J and D can only help.
-        B4 thinking scaling of K which is transactional state
-            master state will focus on how your personally disciplined and socially adept for performance and productivity of K.
-            what you have already done is external standardizations but not personal self mastery.
-            so what this means from spiritual perspective is the next master phase is about SB at slow pace (story centered) but most importantly applications in interest of self mastery.
-            what are the keywords in master phase - fearless, effortless, socializing, self mastery.
-            so what this means is that you are not an architect but you are a senior developer - you are the fastest, smartest person in the team.
-            what this means is you can face public of 500 in a presentation.
-https://web.microsoftstream.com/video/dfe8a98a-72fb-4499-b1e3-36f247e93d5e
-In IQ, it's better to finish t tasks than to have all t+k tasks almost done.
-Manager or equivalent's polity - ask questions of next level - is it done, will it be done today, do you have PR today,
-    whose help will you need to finish this, Mr X can you help him with this - this takes future work to present.
-    Asking do you have PR even the details are enough to convey that it is far from it - intent is put pressure to raise PR.
-    Now to ensure that you don't get pressure - get this thing brought out clearly that it is far from PR. So, your expectation is wrong here.
-Review meeting - What all was done and major decisions made. Demos.
-    usability suggestions - how to organize the json response
-    Potential problems - what if thresholds are reached with this design.
-    usability - end user may get confusion if sees data in 2 places.
-    how is it different from that endpoint.
-    aesthetics - move url under that. response status be 400.
-    Please remove that tag - I will check this and get back to you for the suggestion.
-Revisit arch for Current State of the art.
-    Clarify the question. If you can go to wiki page. Let me get time.
-    Weekends for abstract J and concrete J. Revisit your J chakshu for runtime of what's being built - to reinforce your und.
-    cleaning the things like making curl - standardizing and cleaning postman collections - making them dependable.
-    so much achieved in 1 sprint. think from user perspective whats new. But things todo - better m simple things than m - k tough ones.
-    brings clarity
-    problems in new feature is a new plan. like thread pool exception. don't just correct it - fulfill a user story - every effort is a story.
-    count them in appraisal
-    program is tested and process is with soul. program compiling is recruitment. process is working in team.
-    healthy competition - intra and inter. we want e1 to win.
-Power Presentations
-    planning, design (sending MR), review (Code review and demo)
-    for across team and new onboards - Demo mapping to planning, KT mapping to design, code walk through mapping to coding.
+Actually using the desktops or screens or spaces for different work spaces
+    different threads of work at workplace for parallelism and for home also.
+Why use chisel tunneling - for safety - one thing is deployment inside intranet and not public exposed.
+    but still not every call from within intranet entertained - only those which have connections thru tunnel.
+had to restart the app after db change for postman to recognize the change. also commit work after query.
+opening for him not me then cache problem - open incognito - worked.
+cf deployment failing - cuz class not found - this class come from json-smart artifact -
+    so, drew mvn dependency:tree -Dverbose and verified that had only test dependency and not compile one so removed the test scope.
+    Started working fine.
+cf push timing out - so solution used my personal internal to upload.
+1 more time this deployment failed cuz I removed the scope in child module pom and not in the parent project pom.
+Another problem relative path in the pom - meant that I had to clone git repo at the relative path in order to have the things included in the jar.
+No classdef found on running from scala sdk for intellij
+    cause of problem that maven dependencies not included - but only the main class compiled thru mvn cmd tool.
+    IDE has to take trouble of setting classpath without which it can't run - without class path for .class files of maven jars, no class def found was returned.
+    scala plugin would be used for compilation from mvn cmd but scala downloaded used for running in intellij - which one to use for debugging as source - prefer the jar but former also ok.
+    if difference in versions like minor version then some lines distance is possible during debugging.
+ctrl+A, and E in mac command prompt to go to beginning.
+Size of jar is too much for cf to handle to start with - too many packages downloaded and it is shitting itself.
+Need devp access for staging space in order to get kafka keys from the service instance. If not, their performance user - needs dev access and only Severin can do it.
+    He is offline since morning must be one leave.
+    Spark skeleton is ready - need to add casssandra and redis to it
+    Kafka I have added but not working - haven't got time to work on it.
+IOTS Instance or IOTAE instance created means nothing but that tenant has come into our records at the 1 place deployment.
+    the iot gateway or authorization server has given them credentials - one time and runtime.
+    Our deployment just knows about them. And they have their unique UAA server instance (in their CF) to talk to our deployment authentication server.
+All tenants (customers) throwing 1000 instruments - every instrument throwing data at like every 10 ms - so gotta handle 1 Million records per sec
+    and if they are buffered to be sent after 10 sec then 10 M records to deal with every 10 sec batch.
+Movie - Chhalang
+    3S - Stamina, Strength, Speed.
+    Chilli on thumb or another problem you give - to hold shorts. It's not easy. Nth is easy - backing out is.
+    Any facility you want pay the price for it - guava then dogs, chicken then chase them. Want juice - no, then extract and give to us.
+Focus on abstract training - concrete is important but fundamentals are most.
+https://dzone.com/articles/kafka-gt-hdfss3-batch-ingestion-through-spark - kafka batch reading.
+set delete.topic.enable to true in config/server.properties
+zookeeper and kafka servers in the background - nohup - but better don't do it cuz these are servers with logs.
+get count in spark faster - df.cache(); df.count()
+Scala DMPM or regex.
+Apply function in a class in scala
+    https://stackoverflow.com/questions/9737352/what-is-the-apply-function-in-scala#:~:text=apply%20serves%20the%20purpose%20of,Function1%5BInt%2CInt%5D%20.&text=Writing%20f.
+Gift for mama in Udhampur - Scenery.
+Travelled to ekachakra,  mayapur the eating place - the service that they gave.
+SRM - sadda pind explored
+Youtube - Personal branding,
+Herbert Thompson at SAP - Hacks Airline entertainment system - tetris - number of blocks to see in advance - touch screen + and -
+    max value is 4 and can't change to 5 - is there another way to change this value.
+    hand held phone to make 20 euro a minute phone call to family and friends.
+    console highlights the number 4 - editable tried 10 so won't take it - boundary attack - 5 was taken and + takes it till 127.
+        risky after that - you are 36000 feet above ground - in name of science - and screens go blank on the plane.
+    #expressive for the emotions one would feel as reciting the story.
+2180055368
+With 1 added steps under stepconfig the calls are passing through - without the need for staging dev access
+    after consultation with abhishek jain
+    tenant iots url going into hibernation mode - Ashok checked they do it to reduce POC - so whitelisting request has been made thru BCP.
+    csw-migration - deployment has been failing due to container size but interestingly today morning it worked. That's what I am doing right now.
+    Spark connectors - I will contact sb.
+num_things - first all those objects, devices are created - so that time - better I should have minimized this number.
+    at ingestion step IOTS could not write to the raw topic. Saying 401 which means they didn't have the certificate for the same.
+Which means we face this bug due to subsequent conditions:
+    Our Spark < 2.4.1
+    1.1.0 < Our Kafka < 2.3.0
+Kafka consumer saying leader not available - set advertisement host and port to localhost:9092
+Kafka - source option "failOnDataLoss" to "false".
+    but it worked even without setting it - although debug option closed the spark job continued to do its thing.
+    I don't have maven based project - let me not do RDD thingy.
+    Let me also give preference to batch reading of kafka thru spark although there is a way to stop the query after n sec.
+IOTS application component - BC-NEO-SVC-IOT
+    An IOTS instance (https://5b835fca-919a-4caa-b433-437f5b183ec2.canary.cp.iot.sap) has hung after performance run which could have resulted from creating multiple sensor types and sensors.
+    Could you clean up the system so that it could be usable.
+CCB - Current Cloud Backlog
+    Find out the projected revenue for next year - divide 2 year subscription equally over every month and thus calculate next years projected revenue.
+    TCO is anyways standard and needs be less than that.
+    Your bonus depends on CCB - thus incentivising sales team to get new, get renewals so gotta give support well, avoid dropouts or TCO losses.
+        Bucket - new water, leakage and sustained water - height be maintained meansured by CCB.
+Security JAVA practices. Information Security Training, etc.
 Background job running in cloud for internal tenants cleanup - it is moved to hibernate for TCO reduction - https://github.wdf.sap.corp/iot/tenant-whitelists
     gotta raise a ticket to BC-NEO-SVC-IOT to whitelist my IOTS tenant.
-NFP - Condoms or contraceptives - DPMPM to be organized - use case, features, why, how, wrt govt, etc.
-    Brand - Manforce.
-    Flavors - Litchi (smell)
-    Electronically tested - pleasure and protection in a package.
-    Lubricated. Made in Haridwar.
-    Customer Care. 10 in a pack.
-    Nominal width - 53 +/- 2 mm and Length - 180 mm.
-    Premium quality. Natural rubber Latex product. 1500 dots.
-    ISO certified for single use. Reuse can cause failure. Keep away from heat sun and moisture.
-    80 Rs for 10. 3 year validity.
-    Seek medical assistance if leaks - within 72 hrs.
-    None is 100% but increased protection and prevention from STDs and preg.
-    How - tear the packet carefully from side (fingernails and jewellery can damage it)
-        squeeze top to remove air pocket. Put it on between erection and intimate contact.
-        Withdraw after ejaculation or b4 losing erection. Hold rim to avoid sliding off.
-        stop if too tight or too loose cuz then can lead to breakage.
-        Lubes - as recommended - avoid oil based like jelly, baby oil, body lotios, massage oils, butter, margerine, etc.
-Logs - Shaving cream at Kochi had Aloe.œ
-CS - Macbook, pro and air - pro is considered the best with most configuration.
-    Intro - Air is best for most. Pro 13 is Most speed for $, Pro 13 Premium is best for multitasking and Pro 16 inch is best for power users.
-    Comparisons
-        touchbar only in pro.
-        2 TB for pro; Storage 4 TB for pro 13 premium; 10 for 16 Pro.
-        Battery life is best or pro 13 16 hrs that is and 11 for pro 16.
-        pro 16 is heaviest.
-        Graphics M1 for air and pro 13. Intel for pro 13 premium and AMD Radeon Pro for pro 16.
-        All thunderbolt ports - 2 for air and pro13. 4 for pro premium and pro 16.
-        RAM 16 GB for air and pro13. 32 for pro premium and 64 for pro16.
-        CPU M1 for and pro13. i7 10th Gen for pro premium and i7 9th Gen 2.6 GHz for pro16.
-        air and pro13 are almost same with pro13 costs more (1K to 1.3K) - battery and weight difference.
-        Magic Keyboard from air better than butterfly keyboard.
-    Analytics
-        Summary - Air is best for most. Pro 13 is Most speed for $, Pro 13 Premium is best for multitasking and Pro 16 inch is best for power users.
-        pro13 premium adds on configuration for all the pro13 with 1.8K.
-        pro16 adds on configs of pro13 premium and better battery with more weight and screen size.
-HomeErp - SRM - Devarayana Durga - Yoga Narsimha: I did yoga there with colleagues, Kochin, Alleppey.
-    Ramanujacharya built a temple in Melukote. Srirangam, Sri Rangapatna, kanchipuram varadraj, Tirupati
-    Madhvacharya - Pajaka near Udupi, Hampi.
-    Devarayana Durga in Tumkur - temple town, Yoga Narsimha, Bhog Narsimha.
-    Ahobilam, Melukote with Iskcon whitefield with Chaitanya katha vaale Sr prabhu who took another association from RNSM.
+TODO - add Tenant to tenant list.
+yes it is placeholder only and can be changed
+    what he added was - find out the tenant id for a given subdomain name - so ?some zone id details finds out the tenant id (different guid and id)
+    somehow it determines it as 18 prefix and even IOTS launches with that id - but the mapping between Abstract and Device already exists with 16 prefix
+    the original prefix with which the tenant was created - so that's confusing part - but we just need to change this mapping once more and retrigger it.
+    The mappings must be existing from previous runs it seems. How it changed after cleaning is a mystery for now but don't care.
+    We need to change the mappings following some steps
+The source of lapse was incorrect and different versions for spark-sql-kafka - kafka spark streaming is not even required and the scope has to be correct - not provided or test.
+    always go scalable designing but that consumes time so either logically build it big bang or checkpointing in scalable approach. Worst case induction from square 1.
+You now receive learning content recommendations suggested by our algorithms and powered by machine learning. You can further personalize your recommendations by telling us about your learning interests.
+CS - Spark streaming query stop after 10 sec
+    make a new thread with handle to the query and invoke query stop method after sleep of specified time.
+AMD
+    your conf that you ran on UI, used the cached metadata info regarding the IoTS entities(i,e Sensors ST and capabilities) so that step went through and it was throwing 401 during Ingestion, But the main problem is even that IoTS metadata doesn't exist now (coz the IoTS tenant was cleaned)
+    So when I try to create an AM object with a new name, It will try to create respective IoTS entities , for that it has to retrieve info from IoTS tenant , and currently its trying to read from the IoTS tenant which doesn't exist anymore
+    IOTS tenant deleted and new one created. IOTAE - Abstract entities created and updated with device model and then ingestion happens and recorded.
+    Now the IOTS tenant (containing device model) is completely deleted - IOT AM tries to create structures but no need cuz already there and mapping we don't worry.
+    But if you change abstract model details and name - then new entities created in AM and attempt to create device details in IOTS but since the mapping is wrong - it fails with 404.
+    The solution is we gotta update the mapping or even remove the mapping and start with a clean slate.
+First deployment is in the intranet - next, not e1 on intranet can access (with credentials) the hana deployment service.
+    only chisel which has authorization to access can access by supplying the credentials ae:RIAN user password with authorized chisel for tunnel.
+Plugin dependency not resolved => Java 8 not configured properly in the IDE - otherwise from command line it's working fine.
+IQ - Debug Decision tree - thru discussions, figure out where the problem is thru checking what's working and what's not.
+can't find sca-maven-plugin or fortify one - java 8 - 1 of maven modules had problem - removed it to make maven sync well.
+Movie - Chhalang
+    Vakil - At least fight b4 accepting defeat. Even if defeat obvious, decision made after fight.
+    saam - compare, daam - prize of computer stud, dand - punishment that you don't know, bhed - they don't want your well being.
+    team lead by 8 not 80 - congratulate them for minor loss.
+        training against dogs helped for run.
+    skills but foundation when going gets tough. lesson of perseverence when going gets tough proved to be far valuable to them
+    Thank opponent that your arrival - I realized my responsibilities and that I was spoiling them.
+        you still are a better coach and gotta learn a lot from you
+    e1 wants to be known sportsman - it takes their parents, PTI - our children will become but first we must.
+        PTI chaddo election mein khade hovo
+Movie - gulabo sitabo
+    2 meaning talks - koi tucha chor hi hoga jisne bulb churaya. 
+    Not leaving then bulb, chandelier, fuse removal. Sensitive wall - I touched it broke I am leaving.
+    Locking rooms. charpayi taken to road in the night -  police complaint.
