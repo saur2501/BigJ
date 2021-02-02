@@ -108,15 +108,82 @@
     </S>
     <V>
         About - Varna is about being best producer in the social ecosystem (career)
-        <B> about - ego targets
-            DevOps
-                EPIC - ?; Backlog - Spark Streaming.
-            DataScience
-                EPIC - ?; Backlog - Spark ML.
-            Systems
-                EPIC - ?; Backlog - CF.
-            Research
-                EPIC - ?; Backlog - Book Reader.
+        <B> about - Life Story Tracing FDDL and ego targets
+            About - there's a possibility to merge Power and Money also - but let's not do that - then focus of FDDL maybe lost.
+            <Power>
+                About - job security, politics, rising to top, expressions of power
+                    Proof of IQGrats (sincere) from others - better if broadcast, but unicast also good.
+                    Also, sheer action of IQGrats being broadcast or recognized - even if not appreciated - eg - new development demo or even KT.
+                NIT JSR - Paper writing on VOIP.
+                Infy - Offer from foreign. Bank Finnacle.
+                VIT Pune - Lab sessions from him are different ballgame - very learnable.
+                Siemens - writing mail testimony he is really good. Suggestion to take regular sessions.
+                BYD - Mail to all for faster verification of ML of scanned invoice.
+                    Entrusted with production support team.
+                    Award from Managers.
+                NSME - My devp demo ew on ML.
+                    Our team singled out for POC of NSME and we delivered it - Navigating thru uncertainties.
+                    Sessions on what's being made.
+                    PO validating that I was being underused as per my capability.
+                SIOT - Idea for Ticket classification appreciated.
+                    Suggestion to take up more work for better work being entrusted.
+            </Power>
+            <Money>
+                Infy - 10 - 3.5, ?4.5
+                VIT Pune - 13 - 4.2
+                Siemens - 16 - 3.5+Diet (12 otherwise)
+                SAP - 17 - 7.5 (2.5 one time)
+                    18 - 8.02, 8.35
+                    19 - 9.01, 9.39
+                    20 - 10.19
+                    21 - ?
+                Leads
+                    20 - DS Comps - 13/14.
+                    20 - Huawei - 16/17 (refused 19)
+                    20 - Samsung - 19
+                    21 - ?
+            </Money>
+            <Contributions>
+            About - All Projects Done - be able to tell tech, etc used, contributions, roles played; challenges faced
+                some really interesting problems you feel proud to solve
+                This has to be abstracted out of project level domain details in interest of technically what is done
+                consulting abstraction is also possible but that can be done later on from source if needed.
+            NIT JSR
+                Java Media Player
+                SQL Administration
+            Infy - 3.5
+                SEZONL
+                Manual Testing for AT&T
+                Expert Support for BT
+            VIT Pune - 4.2
+                Teaching Programming
+            IIIT B
+                eBAY and REST on top
+                ACT Project - Testing Automation using Scripts
+                Semantic Web on NoSQL (Neo4J)
+                Stackoverflow analytics
+            Siemens - 3.5+Diet (12 otherwise)
+                Best execution engine for a given query - Data Science to metrics collection using program
+                Space Optimization Engine for NoSQL Engines - Cassandra, HBase, etc
+                Design Proposed for handling IOT sensor data
+            SAP - 7.5 (2.5 over 2 years)
+                Business By Design - mid year hikes,
+                    End to End ERP Business Suite
+                NSME - appreciation awards
+                    End to End ERP Business Suite on NodeJS Express PostSQL tech stack.
+                SAP IOT - Big Data Analytics for SAP IOT Data Streams.
+            </Contributions>
+            <Egos>
+            Ego Targets
+                DevOps
+                    EPIC - ?; Backlog - Spark Streaming.
+                DataScience
+                    EPIC - ?; Backlog - Spark ML.
+                Systems
+                    EPIC - ?; Backlog - CF.
+                Research
+                    EPIC - ?; Backlog - Book Reader.
+            </Egos>
         </B>
         <J> technologies I know
             <AppsUsed> SaaS - being client of to give some service
@@ -255,66 +322,234 @@
                 Subscript matching assignments
                 excel vba for reducing efforts of manipulating data details from REST JSON response of ML based Leonardo API.
         </D>
-        <K> All Projects Done - be able to tell tech, etc used, contributions, roles played; challenges faced - some really interesting problems you feel proud to solve
+        <K>
+            About - All Projects Done - be able to tell tech, etc used, contributions, roles played; challenges faced
+                some really interesting problems you feel proud to solve
+                This has to be abstracted out of project level domain details in interest of technically what is done
+                consulting abstraction is also possible but that can be done later on from source if needed.
             NIT JSR
-                Java Media Player
-                SQL Administration
+                Graphics Programs Pixel programming, Network Security Programs.
+                SQL Administration - Paper Presentations.
+                Java Media Player - UML diagrams.
             Infy - 3.5
-                SEZONL
-                Manual Testing for AT&T
-                Expert Support for BT
+                Contributions
+                    SEZONL
+                        Traceability Matrix from Customer Requirements to Implementation
+                        Traceability - SRS Requirements to Implementation mapping - Sequential Diagram for faster development, better maintenance thru easy debugging.
+                    Manual Testing for ATnT
+                        Application Testing - Regression Based Testing, System Testing, Test Case Generation.
+                        LINUX scripts for data generation, QTP or selenium for data generation for stress testing
+                        running UI scripts for scenario coverage
+                    Expert Support for BT
+                        Maintenance – Customer Issues Handling, Process Integration Message Handling.
+                        Message management
+                        SQL scripts writing for application data consistency.
             VIT Pune - 4.2
-                Teaching Programming
+                Contributions
+                    Computer Programming Concepts
+                    Guide for Programming Projects
+                Teaching Computer Programming - Structured and OOPS.
+                    invented ideas - online google form based quiz, etc.
+                Guide for Projects - Tic Tac Toe, Console Based Marketing Software, etc.
             IIIT B
-                eBAY and REST on top
-                ACT Project - Testing Automation using Scripts
-                Semantic Web on NoSQL (Neo4J)
+                EBay Prototype and REST Services
+                    what
+                        Bootstrap, Jquery, JSP, AJAX, Windows, Eclipse, Apache Tomcat 9, Structs, Java, Mysql, MVC.
+                    contribution
+                        Management - work assignment dynamics, etc.
+                            //ability to list all management lessons learnt from professor
+                        Schema Design, and UML Diagrams - Use Case, Sequence, DFD, etc on paper and StarUML.
+                        Purchase Scenario Coverage - division by application areas (and not technologies - cuz e1 wants to learn)
+                ACT Project - Abstract to Concrete Testing Framework
+                    what - CUP Parser, JAVA, Selenium, Solvers (Linear Programming), Paper reading.
+                    contribution - architectural ideas, Random data types generations, Web Design representation in invented format, Parsing the format to build a graph
+                        navigation thru the graph for finding all the paths, formulation of equations for all the paths, using solvers to come up with answers.
+                        build test cases using the answers, abstract to concrete conversion, running selenium scripts on the concrete test cases.
+                Semantic Web modeled in Neo4J
+                    what - XML Parser, XML, Neo4J, MongoDB for evaluation, OWL for semantic web, Bootstrap, Apache Tomcat.
+                    contribution -
+                        Application of Rules of Reasoning to infer based on existing edges - eg - isFather and isBrother means isSon relationship, etc.
+                        Modeling of a college data model
                 Stackoverflow analytics
             Siemens - 3.5+Diet (12 otherwise)
-                Best execution engine for a given query - Data Science to metrics collection using program
-                Space Optimization Engine for NoSQL Engines - Cassandra, HBase, etc
-                Design Proposed for handling IOT sensor data
+                what
+                    VM - VMWare, Hortonworks HDP2.0, CentOS, Windows SCP, Moba for SSH, etc.
+                    Libraries - Properties File, Logger, Random Number generation Types.
+                    UML online Softwares like Visual Paradigm
+                    Hadoop Technologies - HIVE, Spark, Drill, Presto, Ambari REST API.
+                    NoSQL (Cassandra, MongoDB, HBase)
+                    JAVA, REST API, Bootstrap for display, JUnit for Testing, Threading for faster access
+                    Factory Design Pattern, Singleton
+                contribution
+                    Benchmarking Studio - Best execution engine for a given query
+                        TPCDS, customizing queries as per syntax (using regex)
+                    Query Metrics Collector - Space Optimization Engine for NoSQL Engines
+                        Ideas - compressors, trend avoiding algorithm based on a paper, distributions that perform best.
+                        randomly generated data of different data types as per specific distribution.
+                        collection of running the application on AWS with specified data besides local cloud.
+                    Design Formulation for IOT based Project
+                Runtime Selection of Best Hadoop Execution Engines for a query on Big Data
+                    Skills - HDFS, HIVE, Drill, Presto, Spark, JAVA, JAVA Regex, JUnit, REST API, Bootstrap UI
+                    Solution
+                        Runtime Selection of Best Hadoop Execution Engines for a query on Big Data
+                        HDFS, HIVE, Drill, Presto, Spark, JAVA, JAVA Regex, JUnit, REST API, Bootstrap UI
+                        Knowledge of Design Patterns, Logger, Property File employed to create the framework.
+                        Used TPCDS data store to test the execution metrics for queries run on candidate Hadoop ecosystem tools.
+                        REST API used to fetch results from AMBARI after every query run.
+                        Handled multiple formats like text, JSON/ XML, CSV
+                        Regression didn't seem to be the best technique to be employed and hence classification was proposed for the same.
+                Selecting best NoSQL Database for storing stream data from sensors and algorithms to minimize the disk storage for the same
+                    Skills - Cassandra, HBase, Influx, JAVA
+                    Solution
+                        Adding another NoSQL tool influx to the existing framework.
+                        Generation of random data types (numbers, strings, etc) following a certain distribution to simulate the sensor behaviors.
+                        Collection of metrics and visualization in excel
+                        Creating types of queries in java which are not supported by the tool out of the box. Eg – Hbase total records.
+                        Implementation of slope algorithm to minimize the data objects instances stored by HBase.
+                Design Proposal for handling IOT Data Stream
+                    Skills - Diagrams- starUML, LucidChart Online
+                    Solution
+                        Proposed a Design for the upcoming application.
             SAP - 7.5 (2.5 over 2 years)
                 Business By Design - End to End ERP Business Suite
+                    Specification
+                        Exposure Large scale ERP applications, Suite in a box - end to end business processes support
+                    Design
+                        Experience of NGAP Application Platform, Multiple Application Frameworks, Communications across Application Areas; SRM Application Area Development
+                        Trace framework thru debugging to tell which configuration is missing or where the data provided for next exit was insufficient or if framework needs a change
+                            very small changes like variable retaining old value so clear - very corner case like unit price rounding followed by total price rounding
+                            loss of precision causes PO for approval to take place although shopping cart said otherwise - business scenario suffers.
+                            ?exposure to real world scenarios for design patterns - command pattern, factory, singleton, Strategy, Subscriber, etc.
+                    Implementation
+                        Tools
+                            Eclipse on ABAP, SAP GUI IDE for Web based IDE development
+                            HANA DB, MAX DB - Materialized Views for Analytics
+                        Features
+                            Fully Model Driven Software Development (configurations at different levels Developer, Key user, end user, etc)
+                            Analytics - Managing OLAP Systems - UI, Internal development tool, framework, MAX DB Materialized view secondary storage.
+                            Task Management - for end user attentions from messages failed across applications, etc.
+                            Output Management - pdf generation and sending by email. Using XML and Template (Adobe LiveCycle Designer) to Adobe Server.
+                            Workflow management - Approvals based on configured BO conditions, mapped to task management, Exception Handling in SIV, etc.
+                        UI
+                            ABAP, Fiori, UI5, Silverlight, Inbuilt version management, Transport Requests Management for DevOps.
+                            UI Development thru internal tool
+                            RUBY Scripts on internal tool, javascript, html;
+                        Integrations - Synchronous (A2X for tools like excel, etc) and Asynchronous (within or outside tenants)
+                            RMI or RFC as SAP calls it.
+                        ABAP to Typescript conversion - regex to create templates ready to use. (but didn't use it)
+                        User Stories (in short and incomplete - refer to byd for details)
+                            GDPR LXP, eInvoicing, Scanned Invoicing from text (support for intercompany), Scanned Invoicing from pdf, PO Reminder Letters (dunning), Manual PR,
+                            Link PRs to PO, PO Schedule Lines, IFRS, OLAP Reports (GDPR Data protection related, and more)
+                            Scanned Invoice to SIV BO - from text, from pdf (REST API, using OAuth1), from pdf on email, from pdf on folder thru collaboration window
+                            Manual PR QAF ECO
+                            shopping cart mobile app
+                            GDPR implementation adoption - writing code for BO exits - filtering and bo name.
+                            delivery sch lines
+                            Link PR Items with PO - action
+                            Document Destroy GDPR implementation
+                            Background job filtering out for health checks
+                            PO root price components in Output Form
+                            Kit items price calculation issue
+                            Invoice scanning review screen
+                            Master data PPS gaf.
+                            Create SIV From SIS - BO Updates Determinations, etc.
+                                    date User Fields from API fields in SIS BO - regex
+                                    PO reference so SIV created from SIS
+                                    Able to delete PDF files 1 or multiple.
+                            Update A2X Web Service - Read PO. A2A etc updates.
+                            Invoice scanning from text - Pattern Correction for Scanned Invoice from Text - problem of image having a pattern - that matches ditto fine tuned the regex.
+                            Email PDF to SIS BO Changes
+                                    SIS only permit PO that exist in system
+                            Data Source fields addition, updates.
+                            GDPR - BO Retention supplement
+                                    GDPR Person Deletion adoption.
+                            IFRS16 Lease Contract Payment Schedule Status Handle - Authorization handling included.
+                                    Lease Contract Run Remove Unauthorized Companies
+                            Excel integration - catch exceptions
+                            Cost Distribution for Goods Returned, All kinds of scenarios coverage. Additional cost distribution items
+                            Translation - OneChina Adoption also, otherwise b4 also.
+                            SIV Attachment Update (EC mappings)
+                            SIV Template supress errors
+                            BTM Task for ISI GSA request with bad PO Item ref - XML fails, inform user on UI with expected action.
+                            GSA expected read only flag as per business scenario state. IMAT, Finish resume PO properties. Shopping Card Retrieval COBL SO ref for Proj
+                            SME - Create SIV From PO, Make Payment on SIV and message handling.
+                                    SIV OWL Filters - selections and filters on CIP.
+                            Lease contract not found error messages - many such.
+                            Intrastat added error message for clarity
+                            Avoid dump for convert key to node id on item node - lots of framework level changes or adoptions even in PD - like clear the buffer.
+                            Product Category w/o Product Assignment not possible;
+                            Z-prefix CDT Days Due and Fixed Date both active together - Enable parameters of days, month and fixed date for payment terms maintenance
+                            More -
+                                management very well understood roll up, drill down.
+                                Consulting related discussions for end desirable product for end users, AUnits creation, JS Mocha Tests created and suggested.
+                                Design discussions like e-invoicing using word cloud
+                                Testing - BOUM2 and START scripts creation, run, correction - CRUD.
+                                Deployments - Hotfixes, patches, VP, EP.
+                                    Bug fixes and extensions in practically every BYD implementations, deployment assistance once using SPC (Service Provider Cockpit)
+                                Maintenance at all levels L1, L2, L3 -
+                                    Consulting - helps thru call 1:1, 1:n, consulting; Customer concerns directly visible. VH and over weekend support.
+                                    corrections - UI workarounds, runtime corrections (debugger), back end DB corrections;
+                                    code corrections, customer influence or extensions or future commits.
+                    Testing
+                        Unit Testing (AUNIT), Internal Tools for Testing - Integration testing (BOUM2), System Testing (Start WebIDE, Stand alone), Regression Based Testing (RBT)
+                    Support
+                        Creation and maintenance of tools for maintenance and support - along with custom reports writing for backend correction, DB Corrections.
+                        Consultations to customers for adapting software to their business needs or suggesting work arounds
+                        ABAP Debugger, User change log and few days interaction log for code correction
+                    Misc - communications
                 NSME - End to End ERP Business Suite on NodeJS Express PostSQL tech stack.
+                    what and contributions
+                        Specifications - Fresh scoping the application for different packages.
+                            Cross Functional works - Pricing, Master data, Foundation task creation, FIN coding block.
+                        Design - Fresh implementations so usage of many design patterns - singleton, strategy, template method, DAO, command, etc.
+                            ?saw working of an application server end to end.
+                            raising bugs, working on systems that are still stabilizing and not robust (eg colleagues on UI)
+                            Creating many stubs and skeletons.
+                        Implementations - GIT, VS Code, NPM, Node Express, REST API.
+                            Promises, callbacks, decorators, Postgres, HANA, etc. Debugging in TS, JS.
+                            Implemented Determination, validation, action, folder structure organization; used libraries like request.
+                            ML API integration for shopping cart approval - confidence as input for user and auto-approve as per user's choice. Configurable to write into a file.
+                                Mass Approval (set confidence in process map and play approvals in 1 go)
+                        Testing - Mocha Chai Unit Testing, Integration Testing, Sys and UAT by different teams in china.
+                            Unit Test also across lcp calls assuming all validations and determinations in place. Not class specific.
+                                UT cuz of less granular tests at attribute level
+                                integration test should focus on less granular stuff - PR is created, PO is in this status - scenario specific.
+                        Support - Logger Service for us to read the logs and tell what went wrong.
+                        Misc - start up feel, Manager roles understood better. Concept of Time recording better understood for billing and planning.
+                    User Stories -
+                        SRM POC for the NSME foundation - doable.
+                            IR - HEADER_CURR_CHECK - migrating validations and determinations.
+                                /SRMAP/CL_LREQ_IR_MODBO_PARTY
+                                Action: ITEM Copy
+                                /SRMAP/CL_LREQ_IR_IPROC_PRCT_E
+                                /SRMAP/CL_FND_C_FILL_ITEM_ID
+                                Incident solving or maintenance in NSME
+                                    Date handling and changing dates
+                                    Save not rejected for shopping carts w/o items
+                            ML API for Auto approvals of IR - REST API asynchronous calls to deployed models, data formatting and manipulations.
+                        SRM on NSME - all 3 tiers
+                            SIV OIF - all the layers - front, middle, back tiers.
+                                Done and remaining update regularly - hours recorded and task level tracing for updates.
+                            PurchaseOrderFactsheet - all layers - added task tracing at bugs and fixing level -
+                                cuz many at that time and micromanagement so would tell them where the error in framework is
+                                or use workarounds like adding codes to framework or DB query running after run.
+                                Creating pending user stories for transparency of bottlenecks.
+                            Migrate Purchase order Factsheet
+                        FIN UI And CIP mapping from BYD to NSME
+                            SplitOpenItemsFactSheetEnhancedController - UI and CIP.
+                            CheckDepositOWL - CIP
+                            txecslfactsheet - UI - Europe Community Tax Returns based on sales list.
+                            PaymentAllocationEditQAFEnhancedController_QAF_V2 - Allocate payment to SIV or CIV etc.
+                            IncomingFileOWL_V2 - Files for Bank or partners interface - bank statements, cheque deposits, etc.
+                            CostObjectsSettlementRunCreate_QAF - EC for background job creation.
                 SAP IOT - Big Data Analytics for SAP IOT Data Streams.
+                    Monitoring new endpoints (spark by context name), refactoring, GIT Wiki, Slack Integration.
+                    Refactoring Code for Data Generation Simulator
+                    Version updates for security, master parent pom, library adoption etc
+                    POC for Performance Execution on different CF Space
+                    Spark Connectors Health Check App
+                    IDEA - Ticket runtime assignment
         </K>
-        <OtherMetrics>
-            About - there's a possibility to merge Power and Money also - but let's not do that - then focus of FDDL maybe lost.
-            <Power>
-                About - job security, politics, rising to top, expressions of power
-                    Proof of IQGrats (sincere) from others - better if broadcast, but unicast also good.
-                    Also, sheer action of IQGrats being broadcast or recognized - even if not appreciated - eg - new development demo or even KT.
-                NIT JSR - Paper writing on VOIP.
-                Infy - Offer from foreign. Bank Finnacle.
-                VIT Pune - Lab sessions from him are different ballgame - very learnable.
-                Siemens - writing mail testimony he is really good. Suggestion to take regular sessions.
-                BYD - Mail to all for faster verification of ML of scanned invoice.
-                    Entrusted with production support team.
-                    Award from Managers.
-                NSME - My devp demo ew on ML.
-                    Our team singled out for POC of NSME and we delivered it - Navigating thru uncertainties.
-                    Sessions on what's being made.
-                    PO validating that I was being underused as per my capability.
-                SIOT - Idea for Ticket classification appreciated.
-                    Suggestion to take up more work for better work being entrusted.
-            </Power>
-            <Money>
-                Infy - 10 - 3.5, ?4.5
-                VIT Pune - 13 - 4.2
-                Siemens - 16 - 3.5+Diet (12 otherwise)
-                SAP - 17 - 7.5 (2.5 one time)
-                    18 - 8.02, 8.35
-                    19 - 9.01, 9.39
-                    20 - 10.19
-                    21 - ?
-                Leads
-                    20 - DS Comps - 13/14.
-                    20 - Huawei - 16/17 (refused 19)
-                    20 - Samsung - 19
-                    21 - ?
-            </Money>
-        </OtherMetrics>
         <EgoSpecific>
             about - focus on how I am suitable for a role cuz my ego matches with that.
                 also include friends and what they did is also a sign of what you are.
@@ -392,7 +627,7 @@
                             General - DSA, Data Modeling, OOAD, DP, etc.
                         online curious run on raspberry pi and arduino
                             !Cloud Design Patterns (eg - valet), etc.
-                    Analytical Skills and Certfications
+                    Analytical Skills and Certifications
                         Highlighted Tools
                         Technologies
                             Socket Programming, System Calls - ability to make processes communicate, etc, thread management, semaphores locking
@@ -456,7 +691,7 @@
                         Online Lynda Courses - Javascript, Typescript,
                         LinkedIn - NodeJS, Express, GITHUB, Microservices Foundation (assignments remaining), 
                         JavaBrains - Spring, Lambda, TS, Maven, JS, Struts, 
-                    Analytical Skills and Certfications
+                    Analytical Skills and Certifications
                         Highlighted Tools
                             DOTNET, C#, ?CPP, JAVA, SQL, NoSQL Databases like Neo4J, Cassandra, HBase; Struts, JQuery, Bootstrap; Jenkins, JMeter, ?Cloudfoundry / Kubernetes / Docker,
                             Ops Tools, Java Lambda, OAuth, Log4j2, etc.
@@ -515,6 +750,11 @@
                                 contribution - 
                                     Application of Rules of Reasoning to infer based on existing edges - eg - isFather and isBrother means isSon relationship, etc.
                                     Modeling of a college data model
+                            StackOverflow Analytics - Deriving Insights from Stack Overflow data survey
+                                Visualizations on tableau with different combinations of features.
+                                Clustering of related technologies that tend to go together based on user’s interests.
+                                Clustering of users that are very similar to each other in terms of the specified details.
+                                Classification – Predicting salary bracket for any set of specified details fo
                         Siemens - Research Scientist - proves capability of making a framework
                             what
                                 VM - VMWare, Hortonworks HDP2.0, CentOS, Windows SCP, Moba for SSH, etc.
@@ -611,7 +851,7 @@
                                                     Bug fixes and extensions in practically every BYD implementations, deployment assistance once using SPC (Service Provider Cockpit)
                                                 Maintenance at all levels L1, L2, L3 - 
                                                     Consulting - helps thru call 1:1, 1:n, consulting; Customer concerns directly visible. VH and over weekend support.
-                                                    corrections - UI work arounds, runtime corrections (debugger), back end DB corrections; 
+                                                    corrections - UI workarounds, runtime corrections (debugger), back end DB corrections;
                                                     code corrections, customer influence or extensions or future commits.
                                     Testing
                                         Unit Testing (AUNIT), Internal Tools for Testing - Integration testing (BOUM2), System Testing (Start WebIDE, Stand alone), Regression Based Testing (RBT)
@@ -635,11 +875,11 @@
                                             Mass Approval (set confidence in process map and play approvals in 1 go)
                                     Testing - Mocha Chai Unit Testing, Integration Testing, Sys and UAT by different teams in china.
                                         Unit Test also across lcp calls assuming all validations and determinations in place. Not class specific.
-                                            UT cuz of less granular tests at attribute level 
+                                            UT cuz of less granular tests at attribute level
                                             integration test should focus on less granular stuff - PR is created, PO is in this status - scenario specific.
                                     Support - Logger Service for us to read the logs and tell what went wrong.
                                     Misc - start up feel, Manager roles understood better. Concept of Time recording better understood for billing and planning.
-                                User Stories - 
+                                User Stories -
                                     SRM POC for the NSME foundation - doable.
                                         IR - HEADER_CURR_CHECK - migrating validations and determinations.
                                             /SRMAP/CL_LREQ_IR_MODBO_PARTY
@@ -653,8 +893,8 @@
                                     SRM on NSME - all 3 tiers
                                         SIV OIF - all the layers - front, middle, back tiers.
                                             Done and remaining update regularly - hours recorded and task level tracing for updates.
-                                        PurchaseOrderFactsheet - all layers - added task tracing at bugs and fixing level - 
-                                            cuz many at that time and micromanagement so would tell them where the error in framework is 
+                                        PurchaseOrderFactsheet - all layers - added task tracing at bugs and fixing level -
+                                            cuz many at that time and micromanagement so would tell them where the error in framework is
                                             or use workarounds like adding codes to framework or DB query running after run.
                                             Creating pending user stories for transparency of bottlenecks.
                                         Migrate Purchase order Factsheet
@@ -782,7 +1022,7 @@
                                         Used TPCDS data store to test the execution metrics for queries run on candidate Hadoop ecosystem tools.
                                         REST API used to fetch results from AMBARI after every query run.
                                         Handled multiple formats like text, JSON/ XML, CSV
-                                        Regression didn’t seem to be the best technique to be employed and hence classification was proposed for the same.
+                                        Regression didn't seem to be the best technique to be employed and hence classification was proposed for the same.
                                 Selecting best NoSQL Database for storing stream data from sensors and algorithms to minimize the disk storage for the same	
                                     Skills - Cassandra, HBase, Influx, JAVA
                                     Solution 

@@ -550,3 +550,44 @@ CS
         https://unix.stackexchange.com/questions/179954/username-is-not-in-the-sudoers-file-this-incident-will-be-reported
         Use Privilege icon for admin rights - add to sudoer file if you can edit it - su root and then change permissions on file and edit - adduser username sudo
         access_token=$(command) //substitution - it's plain assignment without it.
+SocialErp - Previous kings, samants, his appointed ministers are parallel to today's President, Governors, and ministers.
+    only the protocols have changed over time to ensure that power doesn't get concentrated in 1 hand.
+    President like those days had control over army but today the orders have to still go thru PM and cabinet.
+    It's like king is obligated to go thru ministers.
+    How kingdoms agreed to become states - not outta love but pressure.
+    They suddenly become from namesake kings to owners and again only getting funds to maintain their lifestyles - which Indira removed.
+    Britishers used to strike a deal with the state to accept themselves as central rule. So equivalent of today's center system governing n states.
+    Britishers were just yet another rulers
+        starting from East India company for business which gradually started expanding itself to villages.
+        Once gaining sufficient power focus changed to maintaining business and expanding it along with expansion.
+        1957 revolt made it very clear and they could not handle the administration and England Queen took charge of the administration which they had to comply.
+        Suddenly viceroy (today's CEO) was removed and governor general was appointed to India.
+        Now the queen equivalent of president would appoint a governor general for India and so many posts under him to administer India.
+        They would recruit IAS from India also but they won't make to high posts for obvious reasons.
+        Court systems existed with them but obviously highly biased to england personal interests - of course, constitution to suit whims.
+        No public interest in mind (which to some degree runs parallel to even previous rulers) - but heavy taxes and rules run for personal grats.
+            This can include forced to do farming of particular crop, run particular business cuz you are the government. So, incentive-ize as per your needs.
+            like muslim rulers, jajiya to Hindus and not able to dress properly in streets - so yes the rulers were not just power hungry but also wanted to spread their belief system.
+            of course, like previous kings, rebellions and revolts were handled harshly.
+    Don't think that today's system is any different - it's just more organized.
+        empires don't want to expand explicitly - although we do see eg of Tibet and many border fights. USSR division, etc.
+        But countries want to create dependence. Interestingly Indians have become more clever who were gullible b4 to understand world political tactics to safeguard self interests.
+        ministers still buy media (which is a stronger force today), courts do get manipulated - ministers may still be more intereted in making money from the positions, etc.
+    Power concentration avoided - 3 Election commissioners every 2 years new added in a queue and 1 of them gets to be chief.
+        so 6 year tenure ensures that only 1 gets to be Chief Election commissioner just once in their lifetime so can't manipulate much and numbers also help here
+        elected by ruling opposition and SC.
+    For practical purposes ministers should be thought of as public representative or even public or its voice.
+        these representatives are the customers of the govt machinery which is admin block running govt services - Social ERP.
+        Govt jobs isn't same as bureaucrats - latter are administrators of the govt machine - rules as delineated in constitution executors.
+        active use case or instructions and demands come from the representatives.
+        Creation and update is done thru bills or amendments - govt machine won't do anything outside the constitution.
+        anybody inside or outside govt machine can approach courts if they think constitution is getting violated.
+    History is primarily study of political life of those times - but arts, poetry, science, religion, etc also have history which is studied specifically or under civics.
+        define current day civics in terms of all these things and trace all of them back thru time.
+    USA political system are somewhat different from Indian political framework.
+        federal constitutional democratic republic - Prez having power.
+        Executive - Prez heads. Independent of legislative.
+        Legislative - senate and house of representatives. Increased power here.
+        Judicial - FC, federal. Wider scope of powers here.
+    The major difference between a democracy and a republic is that a republic is a form of government whereas a democracy is an ideology that helps shape how a government is run.
+        Put another way: a republic is the system of government that allows a country to be democratic!
