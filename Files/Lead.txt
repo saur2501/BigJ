@@ -681,3 +681,183 @@ CS - Regex - \n([\s]+).+\n\1 - \1 to detect the duplicate of previous pattern.
     https://stackoverflow.com/questions/1573361/how-do-i-find-and-remove-duplicate-lines-from-a-file-using-regular-expressions
     For Cleaning My XML - gotta better this expression - \n([\s{4}]+)(\w+\n\1(\s{4}){2})
     .* includes nothing and even spaces.
+Movie - Marvel Universe DAG
+    Infinity War - DAG but actually a set small DAGs with leads into Larger DAG
+        Characters
+            Shield - pivotal. Spy agency.
+            Individual main characters with stone bearing (important to understand DAG till phase 3)
+                Captain America (traditional values) - dealing with Soul, involved with space, time.
+                Iron Man (AI) - dealing with Mind, involved with space, mind, time, no bearing.
+                Hulk (Raw Power or Science Power) - dealing Power, involved with space and mind, no bearing.
+                Thor (Demigod Power - hammer) - Reality dealings, bearing with reality and some stones.
+                Black Panther - ?bearing with Soul stone.
+                Guardians - Space interactions, bearing with power.
+                Dr Strange (Mystic Power) - deals with reality, bearing with Time.
+            Individual Stories
+                Antman (Small Power)
+                Spiderman (Science and Spider-sense)
+                Black Widow (Fastness)
+                Captain Marvel (Flying)
+            No Story but member
+                Hawk-eye
+                Iron-fist
+                Falcon, War machine
+                Wanda, fast speed - mind control, fast speed.
+            Avengers - Ironman, Captain, Hulk, Thor, Black widow, Hawk-eye.
+            Antagonists - Hydra, Loki, Blue guy, Thanos.
+                Huge spider-man cast.
+        Stones
+            Power - Guardians of the Galaxy.
+            Mind - Avengers 2 Ultron, Avengers 1
+            Soul - PHI
+            Reality - Thor 2
+            Time - Dr Strange
+            Space - Avengers 1, Captain America 1.
+    Spider-man villains - science accidents, misuse of science.
+        Animal themed
+            Lizard
+            Morbius - bats
+            Octopus
+            vulture
+            rhino
+            Scorpion
+            Many unknown
+        Elemental Power
+            Sandman Hydroman
+            Electro
+        Crime Lords - Kingpin, Tombstone, hammerhead, Silvermane.
+        Trickery and Illusions - Mysterio, Chameleon
+        Horror based - Green Goblin, hobgoblin, Morbious, Symbiotes (Aliens)
+        Others - Craven, Shocker.
+    Pattern - individual fights, grouped fights, hero groups. End goal is precise what public wants - so how to create a story around those wants.
+        identify candidate triggers and all the flavors of presentations. PnC of eth.
+EQ - Current days movies unfortunately focus on how to navigate ur ego thru social framework and not creating one.
+Logs - Story - Udhampur Train jump. Missing train bombay. Drop from bus.
+Logs - Talk to roomies about car.
+EQ - Social layer is so important even if it's difficult I should do it - getting married - at least try it. If you have such temperament.
+Logs - Trayambakeshvar - 1 of many jyotirlingas I have visited.
+Logs - Story - Siemens Joke - BV is missing.
+PIES - 4 lives only - SVAF - social production and consumption (VA) - happiness hunt (S) and personal stabilization (F)
+SQ - Religions - mutually exclusive vs same one all. Offense - doubt broadcasted instead of clarified. Psych distancing of 1slf or itself OR mindless reasoning and justification.
+    Prove vs improve.
+EQ - Movies are powerful (cuz psychological mirroring) - cuz kafka topic - if you subscribe to it - you get streamo f value judgments.
+    on all other topics - share prices - thru expressing doubts of topics, praising some topics, adv confusions, etc - so is newspaper editorials, etc.
+PIES - 3 tiers - personal, social, trans - some atheists think remove trans => More focus on VA and personal.
+     Good performers there also - applications of trans on VAF but not hard add-ons - cuz FDDL takes care.
+     What about drawbacks of trans - are they mis-applications of bad results really
+     Trans not just personal ideologies but also social ideologies. Happiness hunt - at personal and universal level, social included.
+     Spiritual frameworks - personal frameworks - beliefs, values, etc.
+SQ - why are they "enlightened". What if they are not - in aaroh pantha - we don't think they are - just become a subscriber with assumption.
+    Not closed to inputs from others ppl.
+    Even VAF is based on a happiness hunt premise. We run, be grateful, study, tech, play cuz we think there's bliss.
+SQ - Aaroh pantha - KY is equivalent of VA in aaroh pantha - growth along this also takes you to perfection slowly though.
+    How? By taking MOP / MOI to MOG - on a layer for the sake of MOP of higher layer.
+    Maya is in  laws of material nature - external or internal - shiva durga controllers so important worship here in material world ppl do.
+    Krishna is passive controller or controller or controllers - yes he is passive controller - cuz active controllers are shiva and durga that's why shaktas and shivites.
+Logs - Story - I chanted a round in front of prasadam plate.
+Logs - Story - Tell cab driver in kochi to come and collect us from next beach - 50% rent is worth a try and it worked.
+SQ - Share our good fortune - if nothing greater than this - I ain't doing wishy washy stuff - I've to get perfection for every endeavor I do.
+SQ - Material world is for grats - no, for purification.
+PIES - VA for social satisfaction - foundation for platform - utils for stable and healthy base.
+    Sp/Tran/Truth for purpose of happiness - KC proposes love as highest prayojan in the Framework. // across scripures - avaroh but dictionary sizes different.
+    aaroh also has frameworks - like multiverse, theory of relativity, etc.
+PIES - Individual egos are dangerous until all of them believe in a society - VA.
+    Eg - goons if believe in society then can give power as a service (PaaS).
+    else it'll use power to exploit - but biz guy can hire goons to fight back.
+    or lure max protection offering guy a little favor in return of protection from others - government is that.
+Logs - Story - tried bounce in Bangalore. Also tried Yulu bikes - without risk we can't standardize something potentially useful.
+Logs - Story - car insurance - parked car inside was taken out thru maneuvering and luckily guard had no problem else without sticker it could be.
+    Learning the insurance intricacies when needed - call and have questions ready.
+PIES - BJDK phases translate into DM, PM, Regex and Hello world to sprints.
+LIB - Ashok is into Quality, Space management, Product procurement or SPC works.
+EQ - why marry
+    C - Social status, well being, boredom of no1 to share sth with, practically worldly probs (illness), no high maintenance
+        avoid opposites - like miser spendthrift
+    N - social awareness, mundane PS together (cooking, foods, luxuries), udna pudna (work things out like camera, installation, worldly problem solving)
+    I - different emotions, different worldly experiences - explorations, adventure, sight seeing.
+    PIES - HVAS or SVAF - All have bearing on others. So Varna - politics
+        #1 company award. voice - great performers, etc. but secondary not primary considerations - important though.
+        +1 be addressed in worldly considerations though also.
+EQ - Marriage Portal
+    Preferences - CC, edu, state, current resi (high maintenance), height, age (relatable), religion (relatable and has bearing)
+        earning (social status), lang (no barrier), pets (high maintenance).
+    Description+Photo+Families - hobbies in free time, pursuits, lifestyle - dressings, lang, alcohol. Cultured. Likeness.
+    Chat; vid chat - subjective verification about truthfulness. truthful; experience grade on scale of 1 to 10.
+    F2F - B2G, B'2G, B2G', B'2G', B''2G''.
+        Face levels - excavate values, beliefs, case studies, nature, temperament, tolerance, fun loving, pursuits, ambitions.
+    Describe adjectives for self and partner - values, some history, current State of the art of family.
+SQ - it's always selfish. Point is where the selfishness is best served - be intel selfish.
+    greatest selfish interest is in selfless love - but can't be explicit about it. pursuit is friendship - uanalysis is the undercurrent.
+    it's obvious but it's formal and exciting.
+PIES - 2 targets - 1 to be teacher - DMPM for all YT channels and other social media - anything helpful.
+    2. Resume for all - enrichment.
+    I've done PIES b4 but for grats streaming and not for social grats, now that is the focus.
+    Config to master to transaction - config = standardize = health + DMPM + abstracts - foundation + DMPM + abstracts.
+PIES - Foundation = HAS - Health, Abstract (PIES and indiv), scrum.
+PIES - meta for goal setting
+    About
+        B4 making goals - let's study what should be goals.
+        kernel - begin with the end result in mind - go and get it - ask and it is given, knock on the doors and they open. Layers + BJDK.
+    Varna Goal and use cases
+        spiritual seva, social seva - excellent interactions, worthy of designations. logs of grats and lapse while achievements, huge returns or money or rewards.
+    Ashram goals
+        spiritual general seva not specialized. Social interactions with family and world.
+        sume of experiences.
+        stories and logs. Best streaming like foreign fun.
+    Spiritual goals
+        Preach, help s.t ease of DS, sume of courses and achievements - wha tall is done.
+        Stories, ecstasies and logs, best streaming - fun bhajans.
+    Foundation
+        health for seva (like vessel lifting), health for others.
+        sume of health efforts, stories / challenges / logs, fun of it.
+SQ - goal ain't NFP but brahmacarya. life of continence. Oj, Tej, JY, etc.
+    What if's - lies I know; DY will take care of me.
+    If trade-offs then I'd rather choose shreyas of yoga (or at least worth taking risk).
+PIES - incentives for all classes of people
+    Power
+        Physical, desirable / abhor / like, science / orchestration / i/f management, reasonsing, position, numbers
+        alliance / partners
+        All layer serving the chess game of power - character / competence ; guna or karma.
+    Wealth / resources - role with max wealth - achieve for wealth.
+        love for wealth, partners for wealth, eth for wealth.
+        demand supply middleman/ invest. Role to max that. delegate or oneself, make or buy, case stuies of wealth.
+    Knowledge - BJDK and debates and discussions. Love for knowledge. Worship knowledge.
+    Talent or skilled for grats - enjoy at or with 7, position => enjoyment.
+        Like SG, etc it gets you. Allies for help, who can help.
+        Getting work done is end goal for reward.
+        Solution - study some highly skilled ppl and category-wise what all they did to get there.
+        Love for skill.
+SQ - Ishwar in 3 ways manifest
+    sp energy - yoga maya energy - transformation.
+    law of attraction.
+    PD interference (not actions but situations)
+PIES - Social layer like spiritual and ego layers comes with high rewards if done properly
+    but likewise, also dangers, obstacles, difficulties, vulnerabilities like exploitations.
+PIES - year goal
+    for SQ - next master section should be Applications centered and bridge - no overlap cuz application is the focus and bridge is already done just revisit.
+    for IQ - FL, Switch-ability, MBA (investments)
+    for EQ - DMPM; Networking, GF.
+    For PQ - Yoga, Running, NFP.
+        Books - win friends, 7 habits, tony robbins, etc.
+SQ - RSP saw potential - spoke iindirectly but I should also try to tap that potential in KC.
+    we're like non-entities so find better reason for KC than personal narrative-giver.
+    For SP like PD - yes full spiritual energy but not universal.
+    I ain't internal potency - proof is anarthas.
+    Even 6Gs - to call them manjaris ain't good attitude (KTP) - you ask me I'd say they were PMs in that kingdom who turned to DS.
+SQ - Spiritual system is distributed not centralized. Power stays distributed not concentrated so no infatutation, pride and no domino effect fall down.
+Logs - Story - Car parking inside society; 50% rent reduction in covid - inspiration from friends who did many months back.
+    psychologists consultation tryst, bounce, etc.
+    why car wobbled (syami once driving and bad driving from others; I cuz steering wheel changed angular position)
+    Sticker for prestige so he paused - waiting is unfavorable so leave eftsoon.
+    favorable situ - evening, back gate, story prep - forgot cleaning the car and prestige sticker. Air pump.
+PIES - fearless, interactions, power, personal commitment, being a man not a boy - std others and eth and fearless - doer, orchestrator, provider.
+PIES - Foundation - Personal (VA being social) - ABCD
+    Attitude (all good qualities)
+    Behavior - Skills, talents, health, amusement, practices, rituals.
+    Communication - verbal - content for different rasas, figure of speech; Body language, tone.
+    Devotion - scrum plan, exec, retro, etc.
+    HAS - health (B), Abstract (AB), Scrum (D).
+CS - Apple Mac - SSO cert but not F5 - always allow; admin rights thru software;
+    32 bit android connection not allowed from phone - you know the name so download it. Developer mode - USB debugging, USB open.
+    DMPM of Mac. Book - DOET from POET. Design of everyday thinking from process of every day thinking.
+IQ - use OneNote for concrete details at work.
