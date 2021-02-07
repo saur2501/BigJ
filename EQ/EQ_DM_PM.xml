@@ -138,7 +138,20 @@
 		Misc - Management consulting, 
     </SocialERP>
     <HomeERP>
-        About - Home ERP - DMPM of everything found in home and related stories
+        About - Home ERP - DM PM of everything found in home and related stories
+            PM - DFD levels L0, L1, L2.
+                L0 - Excellent Social Consumptions (gotta be server here and not just client)
+					L1 - TMP
+					Money - FIN (Balance Sheets)
+						Work Abstraction, Investments, Liquidity, Profits and Loss.
+					People - SocialErp, CRM, HCM (People interactions, networking, stories, co-info-entertainments/co-enjoy)
+						SocialErp - News.
+						CRM - Networking and Stories/info Sharing.
+						HCM - Standardized experience taking - Movies, music, sports, etc.
+					Things - SRM, SCM Logistics, SCM Production ({Make, buy} X {Things, Experiences} + Organize)
+						SCM Logistics - Life events, festivals, Cleanliness.
+						SCM Production - Cooking.
+						SRM - Consumerism.
         Home ERP View - Think of this as process model primary use cases which need to be explored into deeper levels (DFD Levels)
             CRM or marketing (serving guests, organizing parties/ events) - stories.
             SCM
@@ -156,16 +169,16 @@
         EQ - HomeERP - Secondary Economics (Reference : Flipkart) - Awesome collection of products.
             Men
                     Men's Grooming - Internal/Personal
-                            Deodorants
-                            Perfumes
-                            Beard Care & Grooming
-                            Shaving & Aftershave
-                            Sexual Wellness
+						Deodorants
+						Perfumes
+						Beard Care & Grooming
+						Shaving & Aftershave
+						Sexual Wellness
                     Clothing
-                            Top wear
-                                    T-Shirts
-                                    Formal Shirts
-                                    Casual Shirts
+							Top wear
+									T-Shirts
+									Formal Shirts
+									Casual Shirts
                             Bottom wear
                             Jeans
                                     Casual Trousers
@@ -250,7 +263,7 @@
                                     Skin Care
                                     Hair Care
                                     Bath & Spa
-                                    Deodorants & Perfumes
+                                        Deodorants & Perfumes
                     Clothing
                             Women Western & Maternity Wear
                                     Topwear

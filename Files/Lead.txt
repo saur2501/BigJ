@@ -591,3 +591,93 @@ SocialErp - Previous kings, samants, his appointed ministers are parallel to tod
         Judicial - FC, federal. Wider scope of powers here.
     The major difference between a democracy and a republic is that a republic is a form of government whereas a democracy is an ideology that helps shape how a government is run.
         Put another way: a republic is the system of government that allows a country to be democratic!
+PIES - Tapa by duration (days), tapa by intensity (in a day), tapa by investment - TME. Brahmaji told tapa. tapa is the difference maker.
+    And of course that of past - called karma.
+    Even why are demons able to outperform demigods sometimes - cuz of tapasya
+    they may not align themselves to original intentions and plan but their willingness to pay the goddamn price is appreciated by Krishna.
+IQData - Research
+    How research works - a researcher doesn't know the full picture.
+    Every individual piece of research is a DAG culminating into some potential for application.
+    Like ICMR or CSIR has a vision for COVAXIN medicine development and is open to other ideas or lines of ideas.
+        it is a body of government - must have started with 1 person entrusted with starting government funded research body in India.
+            he further recruits more persons to delegate work in different sections to further the work.
+            the ideas and topics are published on their website which universities professors can select or even propose.
+            Once selected the profs or candidates may be recruited for fellowship to do justice to that topic of research.
+    after the DAG of topics are fruitful - it culminates into COVAXIN medicine being made - this can be published for public consumption.
+    in turn, business men can approach the govt body for recipes and permissions to start making the medicine as per specifications.
+    Besides ICMR, there can funding done from companies - in foreign this practice is common but not so much in India.
+    The developed mature ideas are shared across nations and not full theses - similar to company to keep tech secret or patents to get rights.
+PIES - Scriptures or movies or science or any study be for applications as follows
+    look at the crew - director, writer, actor and their intentions - thru story or otherwise.
+        figure out the author - Mood, Mission, etc.
+    Story - DAG of story and different points of views thru stories.
+        look at the cast / actors - from story perspective what was their role. What they said or did and how justified was that - what different could be done.
+        Figure the story out. See perspectives of characters.
+    Look at the contents or world view presented thru a character - how justified the statement is.
+        Sequencing the content, sheer content - FOE, Knowledge, Understanding, Content Reorganization.
+        Figure out the content.
+    Look at yourself - how it affects you. What you would do in that situation.
+        Figure out the personal emotional changes - which part you liked the most.
+        Personal Application in situations.
+    Applications from all the different angles of visions.
+        So, it's about stakeholders X {Application, Content} X {SVAF} X {Personal, Social, etc}
+        SVAF includes social applications, personal applications, etc.
+    BS Course - Look at presenters, story FOE, content (cast, conversations), Wisdom (Knowledge, Understanding)
+        typical sequence is looking at these from right to left.
+        Also, applications can be applied from right to left only. All of these end up being personal applications only.
+        let's do these in iterations for applications perspective.
+PIES - SVAF - PIES Server -
+    Config is about identification of all possible execution traces (mark them as features) to be presented to users
+        mark them as configs yes/no and ability to tweak.
+    Master is about ability to effectively give an execution trace which is an independent unit in a humungous DAG or Graph.
+        it is like in a software you have ability to write any individual module. OR like @in a program you know and can write any individual statement.
+        It is about states and transitions mastery but not about FSM creation or event planning end to end with ability to delegate eth in hand at scale
+    Transaction means you can do it all yourself but you better delegate individual consumable chunks to right people.
+        Transaction is about being a shark or being the boss or guide - overseer and not doer of individual things.
+    Analytics means ability to draw insights from your runs and other's runs.
+    Current Plan
+        Semester
+            Now, this semester is about winding up the mastery over DMPM of SVAF.
+            Master will be about Regex of eth. Transaction will be about DAG of individual components of mastery.
+            Analytics will be reflections.
+            What follows phase of PIES Server is beyond the current scope and can be developed with passage of time.
+            My life is DAG of DAGs - like Avengers story - it's doing justice to the movie, the phase and the storyline thru those phases.
+            So, doing justice to current work, individual SVAF, culminating SVAF into S or happiness.
+        Month - Psychology, Winning friends, Spring, Spark Kafka windup, Communication Patterns, Exercise, BG BY + JY.
+CS - How CS things have grown over the years. This growth is somewhat natural flow of development also
+    Time Traversal of CS growth over the years
+        Hardware Time,
+        Assembly / Language Time,
+        OS Time,
+        System Apps (compilers, editors, IDE) and Utilities (Word, excel, access or sql) Time,
+        Applications Time,
+        Networking Apps Time (EaaS movement) - With Tiers specialization
+        Analytics Time
+    See, how things  have grown over time - not that the previous ones see no development
+        they do see it like OS on mobile, Hardware upgrades, SDN, Big Data Tools, microservices, etc.
+        Emergence of new tech at any layers has brought about cascading changes below it - it is not layered exactly cuz it influences others as well.
+        Innovation has always seen the problems faced by people and how to make it easier for others.
+    SaaS - Business Specific (B2B), Consumers Specific (B2C) - all are technically the same thing but domain wise different - so different schema and and different management around the storage.
+        Just different DM PM and technical differentiation based on details like nosql fits better than rdbms, etc.
+        So for some it can be IOT Domain and due to its size it become big data problem and big data tools start to show up.
+        making it schema agnostic is a powerful thing to do to cater to n customers.
+CS - Spark Connection
+    Local
+    SSH into the remote clusters and use Spark shell on the remote cluster.
+    downsample the data and pull the data to your laptop.
+    Remote notebook on a cloud - zepplin, jupyter supported on cloud - but crashes and gotta download.
+    Bridge local & remote spark - seamless with spark standalone but yarn gotta copy etc files to local spark - auth problem
+    Jupyter notebook kernel called “Sparkmagic” - sends code to/from Spark cluster thru livy (possible to install thru ambari) - but installation, connection, and authentication issues
+        sparkmagic introduces Docker containers to solve the problem of auth, installation, etc.
+    Problems - other languages to run on cluster, scheduling the run.
+        Set up a remote Jupyter server and SSH tunneling
+        Set up a cron scheduler
+        Set up Airflow
+        Set up Kubeflow and other Kubernetes-based solutions
+        Bayesnote is a notebook orchestration platform for Jupyter notebook:
+    Others - PySpark Gateway.
+CS - Auto-detect tabs in code styles to off. Tabs XML to tab size and indent set.
+CS - Regex - \n([\s]+).+\n\1 - \1 to detect the duplicate of previous pattern.
+    https://stackoverflow.com/questions/1573361/how-do-i-find-and-remove-duplicate-lines-from-a-file-using-regular-expressions
+    For Cleaning My XML - gotta better this expression - \n([\s{4}]+)(\w+\n\1(\s{4}){2})
+    .* includes nothing and even spaces.
