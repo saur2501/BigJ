@@ -7,16 +7,17 @@ Movie - Chhalang
 HomeErp - Gift for mama in Udhampur - Scenery.
 HomeErp - SRM - Spiritual - Travelled to ekachakra,  mayapur the eating place - the service that they gave.
 HomeErp - SRM - sadda pind explored
-Focus on abstract training - concrete is important but fundamentals are most.
-https://dzone.com/articles/kafka-gt-hdfss3-batch-ingestion-through-spark - kafka batch reading.
-set delete.topic.enable to true in config/server.properties
-zookeeper and kafka servers in the background - nohup - but better don't do it cuz these are servers with logs.
-get count in spark faster - df.cache(); df.count()
-Apply function in a class in scala
-    https://stackoverflow.com/questions/9737352/what-is-the-apply-function-in-scala#:~:text=apply%20serves%20the%20purpose%20of,Function1%5BInt%2CInt%5D%20.&text=Writing%20f.
-Youtube - Personal branding,
+IQ - Focus on abstract training - concrete is important but fundamentals are most.
+CS
+    https://dzone.com/articles/kafka-gt-hdfss3-batch-ingestion-through-spark - kafka batch reading.
+    set delete.topic.enable to true in config/server.properties
+    zookeeper and kafka servers in the background - nohup - but better don't do it cuz these are servers with logs.
+    get count in spark faster - df.cache(); df.count()
+    Apply function in a class in scala
+        https://stackoverflow.com/questions/9737352/what-is-the-apply-function-in-scala#:~:text=apply%20serves%20the%20purpose%20of,Function1%5BInt%2CInt%5D%20.&text=Writing%20f.
+IQ - Youtube - Personal branding,
 IQ - Debug Decision tree - thru discussions, figure out where the problem is thru checking what's working and what's not.
-can't find sca-maven-plugin or fortify one - java 8 - 1 of maven modules had problem - removed it to make maven sync well.
+CS - can't find sca-maven-plugin or fortify one - java 8 - 1 of maven modules had problem - removed it to make maven sync well.
 Movie - Chhalang
     Vakil - At least fight b4 accepting defeat. Even if defeat obvious, decision made after fight.
     saam - compare, daam - prize of computer stud, dand - punishment that you don't know, bhed - they don't want your well being.
@@ -69,65 +70,12 @@ CS - RnD Thinking - Layers
             inter-discipline study for inspiration and mutual applications. Eg - ML was application of statistics to CS.
             Application of something to other domains. Eg - NLP or Image Recognition is application of ML to linguistics or photography.
             Exploration of possibilities - where we are as State of art is and what all is possible - juice it out fully.
-CF not working - solution to trace backwards from current working application and you will find the stage at which it fails.
-ping reveals the all cloudfoundry hosted apps are same dns and hence should be same IP address but it's different 
-    same for some apps but different for others - new deployed in sandbox on same ip as jobsubmitter thing app in sb but jobsubmitter thing and abtract of sb on different ip
-1 SCP extension for roster for our employees.
-All different apps we have tried for us. Tried ECC then Lumira and now SAC.
-implementation of SAP Chatbot. Every year new apps of SAP have been tried and they stayed.
-SAC is along the lines of BYD OLAP with all descriptive visual analytics. dicing, slicing, roll up, drill down.
-Carbon footprint tracing for the company as part of Sustainability program.
-Most of vaccine makers and distributers are SAP customers so we are playing a big role.
-Jan Gilg
-    5 locations from India
-    2.5K employees from India
-    35% female in India in S4
-    2nd largest location for S4Hana.
-SAP Annual Highlights
-    Annual report
-    Innvent, 1B Lives, SAP.io
-    Industrial innovation awards 2020 (CII) - top 25 innovative companies
-        Confederation of Indian Industry
-    Customer Engagement - OneSAP
-    Growth and Innovation - TechEd, D-Shop (hands on workshop + n devX-talks)
-    Ecosystem - Startup studio, Industry initiatives
-    Employee Engagement - Grand Champion Award, Flexben (WFH also)
-    Inclusion - Domestic violence, Pride circle, Health and wellness
-    CSR - against COVID.
-I was going thru the code yesterday to identify where to make changes. Have written few doubts.
-Hari - DoD - finished and shared security report. Deployment descriptor files updated with sth related with jobs in spaces.
-Sweta, Prabhakar - Space X tenant X App X calls - which calls failing. New script - add to nightly build. Raised ticket with Ops, TM.
-    JMeter Script CRUD. Scope AWS, Azure. GDPR.
-    pull in functionality into existing scripts. And new scripts.
-Schema
-    Tags - equipmentId, indicatorGroupId, modelId, templateId.
-I am blocked by this BCP and its repercussions - present things as they are.
-cf auth.
-cf app CRUD.
-    cf service binding - server PaaS to be used
-        in code used thru env.
-    facilitates even sharing service instances across spaces.
-gotta change the zoneId to point to correct name
-    not sure if the tenant name is retained or not.
-IDEA - There should teams chat topic for every backlog which 1 can join or leave anytime.
-JIRA - informal jira also.
+CS - IDEA - There should teams chat topic for every backlog which 1 can join or leave anytime.
+IQ - JIRA - informal jira also.
     comment - Prayojan. Work Log - Abhidhyeya.
     prayojan status consists challenges and achievements.
     Abhidhyeya consists of done and what to do next.
-Service Instance is the auth Gateway (not IOT gateway) and it has keys.
-    like muenchhausen, this endpoint just facilitates talking with apps in central deployments (IOTAE, IOTS) possible.
-    once customer gains credentials to talk directly -
-        all customers across world contact the same IOTAE endpoints with different credentials giving their tenant details as part of payload and messages.
-        IOTS or IOTAE applications or microservices handle all those calls and do justice to them thru processing.
-    Think of it at server NIC card all packets from different sources piling separately until n http messages from m sources are obtained in a buffer queue - waiting to be processed.
-        web server handles all the http messages and extracts and forwards to application server which leverages spark and kafka servers to handle.
-    k customers, k (give or take) service instances, 1 (or more as per space, dominion) target system.
-        ?IOTS subscription generates REST based url - which is what will be used for writing device model details
-        This means that when IOTS was chosen as product - a new url got generate for that customer to be used for writing device model details.
-        For practicals purposes, think of IOTS application deployed in the cf
-        so, for IOTS there are going to be nn deployments - they could still be delegating to IOTS central deployment but we don't care for that.
-        Does new url means new deployment - not true for many blogs but cf was not installed for nothing.
-https://www.linkedin.com/learning/spark-for-machine-learning-ai/introduction-to-spark?u=57692769
+CS - https://www.linkedin.com/learning/spark-for-machine-learning-ai/introduction-to-spark?u=57692769
 CS - Maven from LinkedIn Official Learning for DMPM
     mvnrepository.com aggregates from many sources - not just maven central.
         there would be note below.
