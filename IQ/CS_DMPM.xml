@@ -154,7 +154,69 @@
             </Servers>
             <Framework>
                 <Spark>
-
+				Misc as follows
+				CS - Spark Connections ways - Excellent Raw Material for DMPM.
+					Local
+					SSH into the remote clusters and use Spark shell on the remote cluster.
+					downsample the data and pull the data to your laptop.
+					Remote notebook on a cloud - zepplin, jupyter supported on cloud - but crashes and gotta download.
+					Bridge local & remote spark - seamless with spark standalone but yarn gotta copy etc files to local spark - auth problem
+					Jupyter notebook kernel called “Sparkmagic” - sends code to/from Spark cluster thru livy (possible to install thru ambari) - but installation, connection, and authentication issues
+						sparkmagic introduces Docker containers to solve the problem of auth, installation, etc.
+					Problems - other languages to run on cluster, scheduling the run.
+						Set up a remote Jupyter server and SSH tunneling
+						Set up a cron scheduler
+						Set up Airflow
+						Set up Kubeflow and other Kubernetes-based solutions
+						Bayesnote is a notebook orchestration platform for Jupyter notebook:
+					Others - PySpark Gateway
+				CS - Spark applications (Documentation Reading) - Excellent raw material for DMPM - also add in LJ.
+					run as independent sets of processes on a cluster
+					coordinated by the SparkContext object in your main program (called the driver program). ?SparkContext is the framework main driver program which we elicit thru exit call role-reversal (cmp with MapReduce)
+					To run on a cluster
+						SparkContext can connect to several types of cluster managers (spark standalone, Mesos, YARN) for resource allocation across application.
+						Once connected, Spark acquires executors on nodes in the cluster; executors - processes that run computations and store data for your application
+						spark sends your application code to the executors.
+						SparkContext sends tasks to the executors to run
+					application gets its own executor processes in separate JVM from other application's executor processes.
+						executor runs in multiple threads with no interference and ability to share with other executor except thru persistence.
+						each driver schedules its own tasks.
+					Spark is agnostic to the underlying cluster manager - it justs gotta acquire executor processes
+					The driver program must listen for and accept incoming connections from its executors throughout its lifetime - so spark.driver.port in network config file.
+						driver program must be network addressable from the worker nodes
+					driver schedules tasks on the cluster => it should be run close to the worker nodes => Same LAN OR Open RPC to driver and submit operations from nearby.
+					Cluster Managers
+						Spark - Simple one included with Spark for easy cluster set up.
+						YARN - Hadoop2.
+						Apache Mesos - General CM which supports Hadoop.
+						K8 - OSS auto-deployment, scale, mgmt of containerized apps.
+					Submit Applications to Application
+						spark-submit script
+					Monitoring UI - node:4040 (typically) for tasks, storage, usage.
+					Job Scheduling - control over resource allocation both - ...
+						across apps (level of CM) - ?resources across applications.
+						within apps (if n computations on same spark context) - ?resource usage per application
+					Concepts
+						Application - User program built on Spark (Driver + Executors on nodes)
+						Application jar - user's app as jar - uber jar with dependencies but never hadoop and spark dependencies.
+						Driver program - process running the main() function of the application and creating the SparkContext
+						Cluster Manager - external service for acquiring resources on the cluster
+						Deploy mode - Distinguishes where the driver process runs.
+							cluster mode - framework launches the driver inside of the cluster
+							client mode - submitter launches the driver outside of the cluster
+						Worker Node - Any node that can run application code in the cluster
+						Executor - A process launched for an application on a worker node
+							The process runs tasks - keeping data in memory or disk storage across them.
+						Task - work that will be sent to one executor
+						Job - parallel computation consisting of multiple tasks that gets spawned in response to a Spark action (save, collect)
+							can see this term in logs.
+						Stage - Each job gets divided into smaller sets of tasks called stages that depend on each other
+					Submitting Applications - ...
+						Bundle dependencies
+						Launch apps with spark-submit
+							master URL
+							Load config from file
+						Advanced dependency Management.
                 </Spark>
             </Framework>
             <Scrum></Scrum>

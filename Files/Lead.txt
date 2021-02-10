@@ -520,21 +520,6 @@ CS - How CS things have grown over the years. This growth is somewhat natural fl
         Just different DM PM and technical differentiation based on details like nosql fits better than rdbms, etc.
         So for some it can be IOT Domain and due to its size it become big data problem and big data tools start to show up.
         making it schema agnostic is a powerful thing to do to cater to n customers.
-CS - Spark Connection
-    Local
-    SSH into the remote clusters and use Spark shell on the remote cluster.
-    downsample the data and pull the data to your laptop.
-    Remote notebook on a cloud - zepplin, jupyter supported on cloud - but crashes and gotta download.
-    Bridge local & remote spark - seamless with spark standalone but yarn gotta copy etc files to local spark - auth problem
-    Jupyter notebook kernel called “Sparkmagic” - sends code to/from Spark cluster thru livy (possible to install thru ambari) - but installation, connection, and authentication issues
-        sparkmagic introduces Docker containers to solve the problem of auth, installation, etc.
-    Problems - other languages to run on cluster, scheduling the run.
-        Set up a remote Jupyter server and SSH tunneling
-        Set up a cron scheduler
-        Set up Airflow
-        Set up Kubeflow and other Kubernetes-based solutions
-        Bayesnote is a notebook orchestration platform for Jupyter notebook:
-    Others - PySpark Gateway.
 CS - Auto-detect tabs in code styles to off. Tabs XML to tab size and indent set.
 CS - Regex - \n([\s]+).+\n\1 - \1 to detect the duplicate of previous pattern.
     https://stackoverflow.com/questions/1573361/how-do-i-find-and-remove-duplicate-lines-from-a-file-using-regular-expressions
