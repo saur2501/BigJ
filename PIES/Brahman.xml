@@ -6,6 +6,8 @@ and open the template in the editor.
 `-->
 
 <AT>
+	About - this document stands for PIES. All the high level studies of PIES done from self or conceptual perspective
+		so a lot like foundation but also with conceptual PIES study - like notes on what is IQ World, EQ, etc all about its DM PM.
     <Intro>Read it as jnana pertaining to respective tag- all w5H studied.
             This studies only the principles that apply. No planning is done in this.
             Vision setting is in Bhakti.xml
@@ -14,6 +16,32 @@ and open the template in the editor.
         Make all of my dhyan, jnana and karma into KY,DY,JY- that makes it so beautiful.
             Break it down in hierarchical structures to understand- XML and collapse, expand for BFS (not levelled traversal)
     </Intro>
+	<PossibleReorg_ImportantFoundationThread>
+		<Attitude>
+			All good qualities (huge applications coming from psychology study)
+		</Attitude>
+		<Behavior>
+			Psychology and Polity study - DAG of actions OR DAG or DAGs. Behavioral study.
+				Eg - Heuristics on best course of action from 1 state to final desired state.
+				This will contain humungous personal applications coming from social studies (primarily microeconomics) - civics, economics, history, geography.
+				But the social studies belongs to social consumption topic and this SVAF applications of every study is universal across landscape.
+		</Behavior>
+		<Communication>
+			Linguistics - Language, Figures of Speech, Contents for rasa; Body Language, Tone.
+				Can be viewed in layers
+					Presentation - BL, Tone, Fluency.
+					Application - Organizing the content.
+					Storage
+		</Communication>
+		<Devotion>
+			Self Improvements - Scrum, Health, etc.
+			Scrum Study
+			PQ Study
+			EQ Study
+			IQ Study
+			SQ Study
+		</Devotion>
+	</PossibleReorg_ImportantFoundationThread>
     <Health>
         all factors affect one another, culminating in PIES excellence.
         <K>
@@ -68,7 +96,6 @@ and open the template in the editor.
                         Eg- for society, Supreme courts.
                 Deployment/Selling- put to practice- does it solve the problems it promised?
                 Maintenance- support for the solution- client faces a prob?
-
         </K>
         <J>
             How- Study things in abstraction. Following Layered Approach.            
@@ -1494,7 +1521,6 @@ and open the template in the editor.
 					make UI beautiful. The positively affected ppl will become your brand ambassador.
 				3. Art over brand- Go to your workplace/labs/office to do your art (code like picasso painted)
 					study the master of the art.
-			
 			Making a team of picassos
 				coming from heart- hired, let go off,, encouraged, knocked down by/for employees.
 				1. 1 from 1000 insight- if we try 20 ppl to choose 1, we may not have the absolute best.
@@ -2710,157 +2736,158 @@ and open the template in the editor.
                 </PlacesVisited>
             </EQ>
             <IQ>Capabilities (knowledge/take a stand/confidense in); Varna stands out from them.
+				About - This should go in IQData.
             	<Uncat>
             		<TipsForTimeManagement>
-				felt like nobody wants you here- not invited to the party- best to go.
-				TT and weekly review
-				Activity or conversation for success- have an appointment 
-					vs todo list gets bigger (can be temp b4 gets in some appointment)
-					(schedule with start and end time)
-					30 mins to Plan the day in advance (most important part of day)
-				recognize and engage in thts, acts, conversations that produce most of results (20-80 rule)
-				keep buffers- being pulled away from work.
-				5 mins b4 and after every call or task- what end result you want to attain.
-					view success b4 it comes- so as to work accordingly.
-					after- to review and plan accordingly for next time.
-				When busy, put a DnD sign until work gets done.
-					Disconnect instant messaging- avoid urgent and not important stuffs.
-						is it absolutely crucial? then give attention.
-						schedule time for answering emails and phone calls.
-					Avoid social media distractions unless useful.
-				Accept that impossible to get eth done.
-			</TipsForTimeManagement>
-                        <IQNotes>
-                            IQ
-                                Goal setting- anything gravitated towards.
-                                Learning phase- Take shelter of (or choose) a right teacher- or even a set of right teachers- you confide in that they will make you master.
-                                    learn from them- draw essence- reiterate- become them!- standardize the standard things.
-                                Application phase- Apply learnings in different situations and scenarios.
-                            IQ Ideal
-                                    My idea is to propose the right thing with full clarity and ability to answer challenging questions - they are free to choose anything they want (being my customers).
-                                    I will accept and plan accordingly, even deliver accordingly. 
-                                    If later on something falls short, you can tell the reason why it's happening and why they better listen to you next time. 
-                                    Even if they don't listen to me next time, it's their choices and their reactions and not my big deal. But I remain master of my craft no matter what!!
-                                    Moment of clarity - my customer is the clients but my manager or PO is my customer - don't make it explicit but that's how it is.
-                            IQ - Fun, Healthy other layers
-                            IQ Stories - Once I had raised JIRA bug on open source Presto and they were quite responsive in 1-2 days response came.
-                            IQ - Employee then always keep playing with your market value. If businessman then your deft at ascertaining the future demands.
-                            IQ - Specialization in CS or Software world is bringing perfection in some aspect of software development like UI, Libraries, PL, Database Admin, etc.
-                                    Specializations also include Testing Experts (Testers), Design Experts (architects), Deployment Experts (Operations Leads), Maintenance Experts (Support Experts), Requirements Experts (Consultants).
-                                    Development is a lot more variegated in terms of specializations. like mentioned - UI, Libraries, PL, Database Admin, etc.
-                                    DS is just aspect of intelligence from data; rules or information mining for real world applications; or making processes smarter (decision making without person intervention).
-                            IQ - No matter where a person in a company is a fish in the water ecosystem so it is important to be mindful of personal growth.
-                                    and never be deluded that it's all cuz of me - of course you contribute a lot but facts have to be understood - it's all about us.
-                            IQ - AI vs DS = Analytics, experiments to conclude theories about data or make assertion about data with proper scientific methodology.
-                                    Analytics and AI have an intersection - AI is for making smart processes which can be transactional in nature. Analytics can also use non-smart/intel ways of making inferences from data - say OLAP SQL, Excel, viz like tableau, hadoop frameworks, etc.
-                                    ML is intersection of the 2.
-                            IQ - work + metawork - where my time is being spend - all obstacles are documented. Accountable for your work.
-                            IQ - BE - CG, DSP, etc all done nicely only not that I was apathetic but more on workings and not top down of real world requirements.
-                                    change in that attitude was necessary - end result is clear and you work for it - that's what you get.
-                                    few subjects not so good cuz of bad faculty like DIP, otherwise I was good in eth else. JS can't argue it didn't get my interest but all programming anyway.
-                                    didn't know web frameworks cuz no investments - primarily systems got my interest.
-                                    OO primarily grew with 1st job Infy.
-                            IQ - We are nodeJS - we pick up whatever is at hand FIFO - rather pick up as per priority with max that's doable. Basically mgr is our customer - we serve as they suggest.
-                                    pre-emption? yes, based on dynamics of priority and practicality also - if accessing system next time takes 30 mins - better invest 15 mins now and finish it off.
-                                    greedy approach to deadlines? No, priority based access - serve your customer the best, that's all.
-                                    this flexible in + and - in terms of time but to a limit. After that we give that day a break.
-                            IQ - DMPM
-                                    DMPM - Techs - IQ
-                                    DMPM - Domain + Specifics - EQ
-                                    DMPM - Specifics - (Prod)
-                                            DM
-                                            Business Level - Product Features, Processes, 
-                                            Deployments - What happens to whatever you develop - Hotfix, Systems, QCL, QCH, etc.
-                                            Quality Assurance (Present and Past) - Meeting Standards - Start scripts, boum2 scripts, Maintenance, etc.
-                                            Developments - IDE, Classes, Design Configurations, Run Configurations, exits, 
-                                            PM - abstract usecase as we drill down the levels
-                                                    Spring backlog, 
-                                                    New Dev Feature
-                                                            Plan Architecture
-                                                            Create or Configure BOs, ECOs
-                                                            Controllers and Helper Classes
-                                                            Integration - BC, PC, output, some rest api external, etc.
-                                                            Develop UI - Map with BO, ECO
-                                                    Analytics based feature
-                                                            Maintain MDAV
-                                                    Background Job based Feature
-                                                            MDRO
-                            IQ - Driving as the road is being laid.
-                            IQ - Discussion
-                                    so you like stability; get offers but like to stick to place - you know people, tech, etc.
-                                    Do you explore system in free time? no, not free time but problems are opportunities to go deep. 
-                                    We already have some idea - just reinforced by implementation when problem shows up. 
-                                    Standardize the explorations for the next time else your memory will help you.
-                            IQ
-                                    https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
-                                    google : applications of hadoop.
-                            IQ - The heck with worldly considerations. I just want me showing up something interesting to my manager (customer) every week.
-                                    whether project "rebases" (git rebase) it or not, it definitely comes in my set of achievements.
-                                    you always hunt for good ideas but at any point in time, you have to be working on 1 idea even if it doesn't seem feasible 
-                                            replace it with something feasible ASAP but sth is always there.
-                                    showing POC in local run (GIT type S4One vs SAP Logon) is much easiler than having only single tenant for development 
-                                            when you develop something even for testing, that's done for everyone.
-                                    any study or reading or learning - immediate thought - where can I apply it in my current product!
-                            IQ - Paper - just apply ideas learnt to different domains.
-                                    take up any real world problem or desirable usecase and reduce it to mathematical terms to solve it or take a given solution and apply it to another domain.
-                                    have strong engg skills to be able to do problem solving of any given problem.
-                                    have strong architectural skills to make protocols, make flexible and elegant attractive systems.
-                                    paper writing is more of less - the attitude of sambandh - have everything fully connected - apply development of 1 field to every possible thing you can think about.
-                                    eg - physics applied to gaming, ML applied to a non-CS field, etc.
-                            IQ - SQL - why do we load rows in batches - cuz customer does not need all at once.
-                                    and sql supports offset, FETCH NEXT number_of_rows ROWS ONLY; - this means that all are brought at once.
-                            IQ - If you call it magic. You don't understand it well.
-                            IQ - IDEA - read the mails for rollouts, eg - whever raising bug use this code - let all the mails create a model and whenever you are on JIRA with similar context, propose the code.
-                            IQ - Vocab - ECO is facade - no, adaptation of the BO.
-                            IQ - V Model of Software Development
-                                    Why (high level what) - Business - Manager - Customers Interfacing - Problem Formulators (decide on next feature)
-                                            abstracts out all different kinds of "real world problem solving experiences" gained in development.
-                                    What (specifics) - Functional Req Specification - PO or Consultant - L1 and UI automation Interfacing - Current and Final state of system as seen by end users specified for a given feature.
-                                            abstracts out all different kinds of functional experiences gained in development.
-                                    Where - Designers - Architects - L2 and Integration Tests Interfacing - Feasibility and Plan of development for a given feature.
-                                            abstracts out all different kinds of technical experiences gained in development.
-                                    How - Developers - SDE Component Specialists - L3 and Unit Tests Interfacing - Implement their part in developing a feature or innovation
-                                            Levels - Tech (map to tools), Engg (what PnC (Permutation and Combination) of tool aspects make up the final proposed or planned state), Architects (Component specific senior - can do everything by himself but delegates for effectiveness)
-                                    When - Deployments - ...
-                            IQ - Browser is still graphics drawing on the canvas only
-                                    HTML just gives specifications of what to draw 
-                                    how to draw is still taken care by browser only - so HTML is just layer on top of raw drawing.
-                            IQ - B Tech makes you engineer but M.Tech makes you an architect (abstract out all capabilities of techs and plan around them); PhD makes you a scientist.
-                                    Best of B.Tech guy - works in start up mode (quickest smartest achiever) - owns the product, knows ins and outs.
-                                    Best of M.Tech - Creates best market solution (maintainable, elegant) - designs the product.
-                                    Best of PhD - changes the thought paradigm.
-                                    My Teacher recommended as an Masters guy - master technologies in a day (sleep maybe a little less for a while)
-                                    Evolution - 
-                                            Top Down (expected tasks to be done) - first change the config file, then change the exit (steps)
-                                                    Temptation for bottom up should be avoided at this stage - this becomes important in later stages.
-                                            Explore (what happens under the surface - idea or viz) - how the solution is being engineered (how it works)
-                                                    arch - checkpoints
-                                            Innovate (bring new market techs, processes) - how to add elegance to the solution (make it better)
-                                            Research (inculcate new thought processes, paradigms, architectures) - how to RnD for others sake.
-                            IQ - Formalize the problems faced so that you get time to solve them.
-                                    Blockers (anything obstructing the regular flow of events - something taken for granted.
-                            IQ - The economics of your work is evident how consumers respond to your bids. 
-                                    You place your bid worth for certain amount of your work and you don't hear from them means that they (specific not generic) perceive the bid to be too high.
-                                    We need 1 consumer who values our "share" of the worth at which we want to sell it. So, see the general trend and fluctuate your bids wisely with considerations.
+						felt like nobody wants you here- not invited to the party- best to go.
+						TT and weekly review
+						Activity or conversation for success- have an appointment
+							vs todo list gets bigger (can be temp b4 gets in some appointment)
+							(schedule with start and end time)
+							30 mins to Plan the day in advance (most important part of day)
+						recognize and engage in thts, acts, conversations that produce most of results (20-80 rule)
+						keep buffers- being pulled away from work.
+						5 mins b4 and after every call or task- what end result you want to attain.
+							view success b4 it comes- so as to work accordingly.
+							after- to review and plan accordingly for next time.
+						When busy, put a DnD sign until work gets done.
+							Disconnect instant messaging- avoid urgent and not important stuffs.
+								is it absolutely crucial? then give attention.
+								schedule time for answering emails and phone calls.
+							Avoid social media distractions unless useful.
+						Accept that impossible to get eth done.
+					</TipsForTimeManagement>
+					<IQNotes>
+						IQ
+							Goal setting- anything gravitated towards.
+							Learning phase- Take shelter of (or choose) a right teacher- or even a set of right teachers- you confide in that they will make you master.
+								learn from them- draw essence- reiterate- become them!- standardize the standard things.
+							Application phase- Apply learnings in different situations and scenarios.
+						IQ Ideal
+								My idea is to propose the right thing with full clarity and ability to answer challenging questions - they are free to choose anything they want (being my customers).
+								I will accept and plan accordingly, even deliver accordingly.
+								If later on something falls short, you can tell the reason why it's happening and why they better listen to you next time.
+								Even if they don't listen to me next time, it's their choices and their reactions and not my big deal. But I remain master of my craft no matter what!!
+								Moment of clarity - my customer is the clients but my manager or PO is my customer - don't make it explicit but that's how it is.
+						IQ - Fun, Healthy other layers
+						IQ Stories - Once I had raised JIRA bug on open source Presto and they were quite responsive in 1-2 days response came.
+						IQ - Employee then always keep playing with your market value. If businessman then your deft at ascertaining the future demands.
+						IQ - Specialization in CS or Software world is bringing perfection in some aspect of software development like UI, Libraries, PL, Database Admin, etc.
+								Specializations also include Testing Experts (Testers), Design Experts (architects), Deployment Experts (Operations Leads), Maintenance Experts (Support Experts), Requirements Experts (Consultants).
+								Development is a lot more variegated in terms of specializations. like mentioned - UI, Libraries, PL, Database Admin, etc.
+								DS is just aspect of intelligence from data; rules or information mining for real world applications; or making processes smarter (decision making without person intervention).
+						IQ - No matter where a person in a company is a fish in the water ecosystem so it is important to be mindful of personal growth.
+								and never be deluded that it's all cuz of me - of course you contribute a lot but facts have to be understood - it's all about us.
+						IQ - AI vs DS = Analytics, experiments to conclude theories about data or make assertion about data with proper scientific methodology.
+								Analytics and AI have an intersection - AI is for making smart processes which can be transactional in nature. Analytics can also use non-smart/intel ways of making inferences from data - say OLAP SQL, Excel, viz like tableau, hadoop frameworks, etc.
+								ML is intersection of the 2.
+						IQ - work + metawork - where my time is being spend - all obstacles are documented. Accountable for your work.
+						IQ - BE - CG, DSP, etc all done nicely only not that I was apathetic but more on workings and not top down of real world requirements.
+								change in that attitude was necessary - end result is clear and you work for it - that's what you get.
+								few subjects not so good cuz of bad faculty like DIP, otherwise I was good in eth else. JS can't argue it didn't get my interest but all programming anyway.
+								didn't know web frameworks cuz no investments - primarily systems got my interest.
+								OO primarily grew with 1st job Infy.
+						IQ - We are nodeJS - we pick up whatever is at hand FIFO - rather pick up as per priority with max that's doable. Basically mgr is our customer - we serve as they suggest.
+								pre-emption? yes, based on dynamics of priority and practicality also - if accessing system next time takes 30 mins - better invest 15 mins now and finish it off.
+								greedy approach to deadlines? No, priority based access - serve your customer the best, that's all.
+								this flexible in + and - in terms of time but to a limit. After that we give that day a break.
+						IQ - DMPM
+								DMPM - Techs - IQ
+								DMPM - Domain + Specifics - EQ
+								DMPM - Specifics - (Prod)
+										DM
+										Business Level - Product Features, Processes,
+										Deployments - What happens to whatever you develop - Hotfix, Systems, QCL, QCH, etc.
+										Quality Assurance (Present and Past) - Meeting Standards - Start scripts, boum2 scripts, Maintenance, etc.
+										Developments - IDE, Classes, Design Configurations, Run Configurations, exits,
+										PM - abstract usecase as we drill down the levels
+												Spring backlog,
+												New Dev Feature
+														Plan Architecture
+														Create or Configure BOs, ECOs
+														Controllers and Helper Classes
+														Integration - BC, PC, output, some rest api external, etc.
+														Develop UI - Map with BO, ECO
+												Analytics based feature
+														Maintain MDAV
+												Background Job based Feature
+														MDRO
+						IQ - Driving as the road is being laid.
+						IQ - Discussion
+								so you like stability; get offers but like to stick to place - you know people, tech, etc.
+								Do you explore system in free time? no, not free time but problems are opportunities to go deep.
+								We already have some idea - just reinforced by implementation when problem shows up.
+								Standardize the explorations for the next time else your memory will help you.
+						IQ
+								https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
+								google : applications of hadoop.
+						IQ - The heck with worldly considerations. I just want me showing up something interesting to my manager (customer) every week.
+								whether project "rebases" (git rebase) it or not, it definitely comes in my set of achievements.
+								you always hunt for good ideas but at any point in time, you have to be working on 1 idea even if it doesn't seem feasible
+										replace it with something feasible ASAP but sth is always there.
+								showing POC in local run (GIT type S4One vs SAP Logon) is much easiler than having only single tenant for development
+										when you develop something even for testing, that's done for everyone.
+								any study or reading or learning - immediate thought - where can I apply it in my current product!
+						IQ - Paper - just apply ideas learnt to different domains.
+								take up any real world problem or desirable usecase and reduce it to mathematical terms to solve it or take a given solution and apply it to another domain.
+								have strong engg skills to be able to do problem solving of any given problem.
+								have strong architectural skills to make protocols, make flexible and elegant attractive systems.
+								paper writing is more of less - the attitude of sambandh - have everything fully connected - apply development of 1 field to every possible thing you can think about.
+								eg - physics applied to gaming, ML applied to a non-CS field, etc.
+						IQ - SQL - why do we load rows in batches - cuz customer does not need all at once.
+								and sql supports offset, FETCH NEXT number_of_rows ROWS ONLY; - this means that all are brought at once.
+						IQ - If you call it magic. You don't understand it well.
+						IQ - IDEA - read the mails for rollouts, eg - whever raising bug use this code - let all the mails create a model and whenever you are on JIRA with similar context, propose the code.
+						IQ - Vocab - ECO is facade - no, adaptation of the BO.
+						IQ - V Model of Software Development
+								Why (high level what) - Business - Manager - Customers Interfacing - Problem Formulators (decide on next feature)
+										abstracts out all different kinds of "real world problem solving experiences" gained in development.
+								What (specifics) - Functional Req Specification - PO or Consultant - L1 and UI automation Interfacing - Current and Final state of system as seen by end users specified for a given feature.
+										abstracts out all different kinds of functional experiences gained in development.
+								Where - Designers - Architects - L2 and Integration Tests Interfacing - Feasibility and Plan of development for a given feature.
+										abstracts out all different kinds of technical experiences gained in development.
+								How - Developers - SDE Component Specialists - L3 and Unit Tests Interfacing - Implement their part in developing a feature or innovation
+										Levels - Tech (map to tools), Engg (what PnC (Permutation and Combination) of tool aspects make up the final proposed or planned state), Architects (Component specific senior - can do everything by himself but delegates for effectiveness)
+								When - Deployments - ...
+						IQ - Browser is still graphics drawing on the canvas only
+								HTML just gives specifications of what to draw
+								how to draw is still taken care by browser only - so HTML is just layer on top of raw drawing.
+						IQ - B Tech makes you engineer but M.Tech makes you an architect (abstract out all capabilities of techs and plan around them); PhD makes you a scientist.
+								Best of B.Tech guy - works in start up mode (quickest smartest achiever) - owns the product, knows ins and outs.
+								Best of M.Tech - Creates best market solution (maintainable, elegant) - designs the product.
+								Best of PhD - changes the thought paradigm.
+								My Teacher recommended as an Masters guy - master technologies in a day (sleep maybe a little less for a while)
+								Evolution -
+										Top Down (expected tasks to be done) - first change the config file, then change the exit (steps)
+												Temptation for bottom up should be avoided at this stage - this becomes important in later stages.
+										Explore (what happens under the surface - idea or viz) - how the solution is being engineered (how it works)
+												arch - checkpoints
+										Innovate (bring new market techs, processes) - how to add elegance to the solution (make it better)
+										Research (inculcate new thought processes, paradigms, architectures) - how to RnD for others sake.
+						IQ - Formalize the problems faced so that you get time to solve them.
+								Blockers (anything obstructing the regular flow of events - something taken for granted.
+						IQ - The economics of your work is evident how consumers respond to your bids.
+								You place your bid worth for certain amount of your work and you don't hear from them means that they (specific not generic) perceive the bid to be too high.
+								We need 1 consumer who values our "share" of the worth at which we want to sell it. So, see the general trend and fluctuate your bids wisely with considerations.
 
-                            IQ - Karthik many a times uses the strategy of trying different combinations to the black box of software product. Instead making it whitebox for every ticket.
-                                    what combination works but what doesn't - so what's the missing link - so framework is assumed to be robust and give them input what works and what doesn't.
-                            IQ Discussions - not to say that git ain't cool but that it's not the only cool software out there - every software is cool and this is one of many cool softwares.
-                            IQ Discussions - In previous company they gave no case study and people didn't do it on their own so on the field learning which doesn't work at its best 
-                                    so good that sap dedicated some time for case study after the training.
-                                    That graph had Oracle high up there - it was SME not ERP. Oracle is good competitor but SAP is good in many other dimensions - the number of top customers it has for eg.
-                            Width of all domains, depth in 1 (CS techs)
-                                specializations in CS - are by domains the principles remain the same, techs remain roughly the same.
-                                don't be so devoted to domain cuz we have always changed that but keep the undercurrent techs same (utils for different pursuits)
-                                biology at its core and applying it for different disciplines - environment, wildlife, medical, drugs, etc.
-                                For DS, be a freelance.
-                                If you go on for a PhD you will have to specialize in something, but that something may not remain your speciality for the rest of your career.  Don't limit yourself by focusing too soon.
-                                Figure out the biggest, the most desireable problem to solve for which they need you more then you need them.
-                                It should be something which is easy for you and comes naturally. If there is such a thing.
-                                pick what you study based on what interests you, and what you feel you can invest a significant amount of time and energy on.
-                                don't go by what's hot cuz that changes over time in like 5 years.
-                                first determining how your interest compares between them. Rank them; you'll probably find that they fall into a natural interest level ranking
-                        </IQNotes>
+						IQ - Karthik many a times uses the strategy of trying different combinations to the black box of software product. Instead making it whitebox for every ticket.
+								what combination works but what doesn't - so what's the missing link - so framework is assumed to be robust and give them input what works and what doesn't.
+						IQ Discussions - not to say that git ain't cool but that it's not the only cool software out there - every software is cool and this is one of many cool softwares.
+						IQ Discussions - In previous company they gave no case study and people didn't do it on their own so on the field learning which doesn't work at its best
+								so good that sap dedicated some time for case study after the training.
+								That graph had Oracle high up there - it was SME not ERP. Oracle is good competitor but SAP is good in many other dimensions - the number of top customers it has for eg.
+						Width of all domains, depth in 1 (CS techs)
+							specializations in CS - are by domains the principles remain the same, techs remain roughly the same.
+							don't be so devoted to domain cuz we have always changed that but keep the undercurrent techs same (utils for different pursuits)
+							biology at its core and applying it for different disciplines - environment, wildlife, medical, drugs, etc.
+							For DS, be a freelance.
+							If you go on for a PhD you will have to specialize in something, but that something may not remain your speciality for the rest of your career.  Don't limit yourself by focusing too soon.
+							Figure out the biggest, the most desireable problem to solve for which they need you more then you need them.
+							It should be something which is easy for you and comes naturally. If there is such a thing.
+							pick what you study based on what interests you, and what you feel you can invest a significant amount of time and energy on.
+							don't go by what's hot cuz that changes over time in like 5 years.
+							first determining how your interest compares between them. Rank them; you'll probably find that they fall into a natural interest level ranking
+					</IQNotes>
             	</Uncat>
                 Job- (Ignoring extrisic demotivators)- degree of sync with nature.
                     Hate- Adharma, disservice to others.

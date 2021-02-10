@@ -244,3 +244,211 @@ CS - Maven from LinkedIn Official Learning for DMPM
                         declaration of dependencies.
                     maven-archetype-mojo to create a plugin.
                     default code comes - change it to make your code.
+PIES - In Master phase of IQ, you gotta be a hackathon guy (innovation comes naturally) - quicker implementer of anything
+    no responsibility to create a business but feature devp very fast.
+    Regex knowledge so quick feasibility; POC available so quick implementations.
+    Transaction phase will be ability to start business or support business - whichever is most rewarding.
+    This track is ignoring FDDL mapping with discrete phases cuz former is continuous and should not dependent on latter.
+    In Ashram, master is about ?(ability to do anything with resourcefulness) and later ?event plan, management or orchestrate.
+    Once master phase starts, stories will start happening cuz it will be applications of eth PIES.
+    Of course not at scale but individual short fun stories.
+    In transaction those stories become novels or big deals worth talking about as stand alone topics.
+    Foundational perspective, master will mark not just ABCD fundamentals but leveraging them actively every day with logs => Stories.
+Movie - Harry Potter Series
+    3 things for extra life
+    7 horcruxes
+        Tom Riddle's diary. -> Destroyed by Harry Potter in Harry Potter and the Chamber of Secrets
+        Marvolo Gaunt's Ring. -> Destroyed by Albus Dumbledore in Harry Potter and the Half-Blood Prince
+        Salazar Slytherin's Locket. -> Destroyed by Ronald Weasley in Harry Potter and the Deathly Hallows Part I with Gryffindor's sword.
+        Helga Hufflepuff's Cup. -> Destroyed by Hermione Granger in Harry Potter and the Deathly Hallows Part 2
+        Rowena Ravenclaw's Diadem. -> Destroyed by Harry Potter in Harry Potter and the Deathly Hallows Part 2
+        Harry Potter (unknown to Voldemort until after he had destroyed it). -> Destroyed in Harry Potter and the Deathly Hallows Part 2
+        Nagini the Snake. -> Destroyed by Neville Longbottom in Harry Potter and the Deathly Hallows Part 2
+        Lord Voldemort at the hands of Harry Potter at the end of the Battle of Hogwarts and this is in Harry Potter and the Deathly Hallows Part 2
+    Philosopher stone - Quirrell's failed attempt to revive Voldemort.
+        Difficulties involved in that culmination like walk past 3-headed dog. emotions like snape plottwist.
+    Chamber of secrets - Diary's failed attempt to revive itself into real form by extracting energy.
+        Basilisk for purpose of purging the school of all Muggle-born students
+    prisoner of azkaban
+        Azkaban escape, Dementors attack harry and his future version saves him; New prof for defense comes and goes - Actual killer pettigrew escapes.
+    Goblet of fire - rebirth made successful thru goblet of fire and game.
+    Order of phoenix - Prof in denial and ministry of magic so rebellion org appears. Friend lost by Bellatrix.
+    Half blood prince - horcrux hunt starts. Snape casts the killing curse on Dumbledore. Draco face offs.
+    deathly hallows - last year all horcruxes found and destroyed. 3 things for extra life to kill 1 horcrux.
+CS - Scala plugin configuration
+    <plugin>
+        <!-- see http://davidb.github.com/scala-maven-plugin -->
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
+        <version>3.2.0</version>
+        <executions>
+            <execution>
+                <goals>
+                    <goal>compile</goal>
+                    <goal>testCompile</goal>
+                </goals>
+                <configuration>
+                    <sourceDir>src/main/scala</sourceDir>
+                </configuration>
+            </execution>
+        </executions>
+    </plugin>
+IQ - LIB - quick implementation of spark Pi implementation
+    lesson learnt - we gotta go through the documentation without which we make silly mistakes. And turn around time of finishing off a simple use case takes huge time.
+    So, abstract mastery has to come with documentation and book and same thing applies to master phase as well - every project has its wiki and git readme
+        if not there or not clear enough - talk to colleagues every now and then and elicit moments of truths.
+PIES - master phase is about speed - urgency - getting stuffs done in a unit time.
+    this habit will come from trying speed in everything I do - speed in exercise, speed in bath, speed in sleep, speed in book reading, speed in code implementation, speed in interactions.
+CS - Spark applications (Documentation Reading)
+    run as independent sets of processes on a cluster
+    coordinated by the SparkContext object in your main program (called the driver program). ?SparkContext is the framework main driver program which we elicit thru exit call role-reversal (cmp with MapReduce)
+    To run on a cluster
+        SparkContext can connect to several types of cluster managers (spark standalone, Mesos, YARN) for resource allocation across application.
+        Once connected, Spark acquires executors on nodes in the cluster; executors - processes that run computations and store data for your application
+        spark sends your application code to the executors.
+        SparkContext sends tasks to the executors to run
+    application gets its own executor processes in separate JVM from other application's executor processes.
+        executor runs in multiple threads with no interference and ability to share with other executor except thru persistence.
+        each driver schedules its own tasks.
+    Spark is agnostic to the underlying cluster manager - it justs gotta acquire executor processes
+    The driver program must listen for and accept incoming connections from its executors throughout its lifetime - so spark.driver.port in network config file.
+        driver program must be network addressable from the worker nodes
+    driver schedules tasks on the cluster => it should be run close to the worker nodes => Same LAN OR Open RPC to driver and submit operations from nearby.
+    Cluster Managers
+        Spark - Simple one included with Spark for easy cluster set up.
+        YARN - Hadoop2.
+        Apache Mesos - General CM which supports Hadoop.
+        K8 - OSS auto-deployment, scale, mgmt of containerized apps.
+    Submit Applications to Application
+        spark-submit script
+    Monitoring UI - node:4040 (typically) for tasks, storage, usage.
+    Job Scheduling - control over resource allocation both - ...
+        across apps (level of CM) - ?resources across applications.
+        within apps (if n computations on same spark context) - ?resource usage per application
+    Concepts
+        Application - User program built on Spark (Driver + Executors on nodes)
+        Application jar - user's app as jar - uber jar with dependencies but never hadoop and spark dependencies.
+        Driver program - process running the main() function of the application and creating the SparkContext
+        Cluster Manager - external service for acquiring resources on the cluster
+        Deploy mode - Distinguishes where the driver process runs.
+            cluster mode - framework launches the driver inside of the cluster
+            client mode - submitter launches the driver outside of the cluster
+        Worker Node - Any node that can run application code in the cluster
+        Executor - A process launched for an application on a worker node
+            The process runs tasks - keeping data in memory or disk storage across them.
+        Task - work that will be sent to one executor
+        Job - parallel computation consisting of multiple tasks that gets spawned in response to a Spark action (save, collect)
+            can see this term in logs.
+        Stage - Each job gets divided into smaller sets of tasks called stages that depend on each other
+    Submitting Applications - ...
+        Bundle dependencies
+        Launch apps with spark-submit
+            master URL
+            Load config from file
+        Advanced dependency Management.
+IQ - Alliance between 2 companies is like cross product - SAP X Microsoft OR SAP X Siemens.
+CS - Personal Spark Notes - What is PiEstimation Program - PI*r^2 / r^2 - what proportion of random points generated in a square lie inside the circle.
+    Think about it - what is the approach of talk in data frame
+    this way spark wants its consumers to just talk in terms of current and final state of MR data I/O and it will figure out Map and reduce functions
+        basically, standardization not requiring rigorous maths
+    MR works as KV input coming as trivial key (rowNum JLT) and rows as values - you give transformations as you like.
+        CSV connectors and others are nothing but standardized programs for converting initial KV of (rowNum,lines) into (rowNum, data tuple)
+        Think of a simple table operation like filter or select
+            how would that translate into MR operation of KV pairs.
+            iterate over rows and extract the portion to determine qualification.
+            If select also a part of it - then transform the tuple as per columns desired.
+        How would group by and having translate - parse group by column and get hash and keep putting them in buckets (= shuffle) and reduce operation on theose buckets as per aggregation. Having is nothing but filter on those aggregations.
+            so group by columns will be keys and aggregates waale columns will be values. Shuffle on them and reduce as per aggregations.
+    Thus for all practical purposes, the data model and process model which spark wants us to think in terms of - is simplified. It's same old table, row, columns with different names and operations - df, ds, etc.
+CS - Spark - Bad symbolic reference to spark in library class - cuz library not included - not required for my code but is required by the libraries.
+    same thing applies to all spark connectors - My code doesn't need it but with your configurations, spark code will need it.
+    error goes away.
+CS - Spark - config signature doesn't match.
+    not even required cuz we request spark submit endpoint to run the app - spark endpoint program will invoke our specific app mainclass using the override method is configured to invoke so no problems.
+CS - Kibana Logs
+    Discover - filter, select.
+    Visualize - create visualizations over jobs.
+    Dashboard - Organize your visualizations.
+    Management
+IQ - We can ask questions from other colleagues (esp senior ones), like stack overflow questions.
+    your base knowledge, your expectations and results. what debugging you tried and your findings.
+    That way another colleagues should be able to solve a problem in less than 5 minutes.
+    And don't hesitate to ask anyone for this 5 minutes help.
+    And also be willing to offer this 5 mins help to anybody.
+    In fact, always prefer 1 minute help over 5 mins help - that saves eb's time - so sth like ping a question for help can make a difference.
+CS - IDEA - conceive of ideal logging.
+    with all different log levels - think of ability to collapse the logs into hierarchical buckets.
+    assuming that hierarchy is respected and logging is ideal - it should take less than 1 minute to solve it.
+CS - Spark cluster thru CF comes with
+    credentials
+    service url - REST endpoints.
+    UI Proxy - spark management.
+    logs - kibana logs and dashboards.
+    history proxy - past jobs.
+IQ - You gotta know how to pin point the source.
+    Eg - rather than searching with guessed names where spark job must be getting created - better call the spark swagger api classes - it is bound to work.
+PIES - Master is like application phase - history study is config.
+    historical applications in current times is master.
+IQ
+    My documentation following was perfect in every case - only scope of improvement was 
+        sometimes documentation isn't sufficient - it gives only 1 line of usage and skips another - the other line of usage like batch job, I would do lots of steps delineated for regular line of usage so any reference is a great help.
+        Other times, it suggests and problem is with our expectation like cf ssh program should end - no it's like chisel tunner it will stay on until stopped.
+    When a senior asks for async job for you - you accept it and you should accept it - we should value their time and eventually we also need to behave like that - async help to others.
+        OR help by hints, help by documentation, help by delegation, help by right person reference
+CS - Google : cloud foundry remote debug intellij
+    debug set to true in env.
+        env: JBP_CONFIG_DEBUG: '{enabled: true}'
+        cf set-env app1 JBP_CONFIG_DEBUG '{ enabled: true, port: 8000, suspend: true }'
+    cf enable-ssh app1
+    cf ssh-enabled app1
+    cf restage app1
+    cf ssh -N -T -L 8000:localhost:8000 app1
+    Add remote configuration
+CS - https://stackoverflow.com/questions/318239/how-do-i-set-environment-variables-from-java
+CS - Mac Default Apps
+    Facetime
+    Messages
+    Photos
+    Contacts
+    Calendar
+    Reminders
+    Numbers
+    Keynotes
+    Pages
+    AppStore
+    System Preferences
+    Self Service
+    Apple@SAP
+    Privileges
+    MS Office - Excel, Word, PPT, OneNote.
+CS - Dock or Taskbar Organized
+    System utils - Finder, Launchpad.
+    Browsers - including postman.
+    Editors - IntelliJ, Notes.
+    Fun Apps - Facetime, Self Service, etc.
+    Other Apps on demand like terminal, media players.
+CS - Mac or any OS launch an App - 4 ways - launch pad, shortcuts - taskbar, search - spotlight search, file associations.
+IQ - CS - Architect
+    For a given use case, make a heuristics diagram for all the possibilities.
+    What is presented is print all the paths from root to leaf
+PIES - Applications of economics in Foundations
+    there is only so much you can achieve on Production Possibilities frontier (PPF) without sharpening the saw and foundational changes.
+    so work hard but more importantly learn to work smart and improve the work itself.
+    We start from a place where we have measured TME stock which we can exchange or trade in order to achieve overall wellness on the PPF.
+    But we should grow the multi-dimensional karmic curve thru practice, techniques, action in stretch zone and foundational improvemtns (stability MOG, etc)
+        also innovation, application of other fields and applications into our own.
+    Too little of PIES will cause suffering and also too much of PIES will come at a price of others - so trading TME wisely on PPF - get to the point of interest.
+        but also stretch it so that the radial distance from the origin increasees - preferably in all the dimensions.
+IQ - LIB - if we make stages of our developments then we are a black box - not only we achieve tasks but we make them CICD available for other team members as well.
+    so that if for some reason, we change the task, we still had made the contribution to a checkpoint and others can pick from there.
+    These stages of development look on jira with task completed but also a deliverable - like wiki page added, git branch created, PR or merged, quality checked, etc.
+    Try to have some deliverable coming every mid week (every 2 days) along with some presentation (can be in minutes, even seconds but really important)
+    Every day is like a hackathon and we should reflect in state of wow on reflecting on the day after its done.
+    All meetings arranged and discussions over sub-tasks level (or different grains as per needs) - topic of the meetings and efforts logged there.
+    Master study for a user story also comes under the effort but not curiosity based master exploration
+        cuz you can't take scrum responsibility for the latter in work day efforts.
+IQ - Our work day is constituted of working on sub-tasks across user stories (OR High level work life)- nothing else.
+    It is in sub-tasks execution at a time that we face different challenges at the abstract or master level.
+    These challenges should also be noted as the part of user story execution - which will eventually become a tool for analytics.
+    At the start of the day or effort - think end result once, and then a set of sub-tasks (across user stories) - a set because we need to preempt for best results.
+    it is true that during the execution we may encounter sub-tasks getting spawned but that's ok - just update it in the jira.
