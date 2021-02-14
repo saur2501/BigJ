@@ -705,3 +705,387 @@ CS - Apple Mac - SSO cert but not F5 - always allow; admin rights thru software;
     32 bit android connection not allowed from phone - you know the name so download it. Developer mode - USB debugging, USB open.
     DMPM of Mac. Book - DOET from POET. Design of everyday thinking from process of every day thinking.
 IQ - use OneNote for concrete details at work.
+IQ - Actually using the desktops or screens or spaces for different work spaces
+    different threads of work at workplace for parallelism and for home also.
+Movie - Chhalang
+    3S - Stamina, Strength, Speed.
+    Chilli on thumb or another problem you give - to hold shorts. It's not easy. Nth is easy - backing out is.
+    Any facility you want pay the price for it - guava then dogs, chicken then chase them. Want juice - no, then extract and give to us.
+HomeErp - Gift for mama in Udhampur - Scenery.
+HomeErp - SRM - Spiritual - Travelled to ekachakra,  mayapur the eating place - the service that they gave.
+HomeErp - SRM - sadda pind explored
+IQ - Focus on abstract training - concrete is important but fundamentals are most.
+CS
+    https://dzone.com/articles/kafka-gt-hdfss3-batch-ingestion-through-spark - kafka batch reading.
+    set delete.topic.enable to true in config/server.properties
+    zookeeper and kafka servers in the background - nohup - but better don't do it cuz these are servers with logs.
+    get count in spark faster - df.cache(); df.count()
+    Apply function in a class in scala
+        https://stackoverflow.com/questions/9737352/what-is-the-apply-function-in-scala#:~:text=apply%20serves%20the%20purpose%20of,Function1%5BInt%2CInt%5D%20.&text=Writing%20f.
+IQ - Youtube - Personal branding,
+IQ - Debug Decision tree - thru discussions, figure out where the problem is thru checking what's working and what's not.
+CS - can't find sca-maven-plugin or fortify one - java 8 - 1 of maven modules had problem - removed it to make maven sync well.
+Movie - Chhalang
+    Vakil - At least fight b4 accepting defeat. Even if defeat obvious, decision made after fight.
+    saam - compare, daam - prize of computer stud, dand - punishment that you don't know, bhed - they don't want your well being.
+    team lead by 8 not 80 - congratulate them for minor loss.
+        training against dogs helped for run.
+    skills but foundation when going gets tough. lesson of perseverence when going gets tough proved to be far valuable to them
+    Thank opponent that your arrival - I realized my responsibilities and that I was spoiling them.
+        you still are a better coach and gotta learn a lot from you
+    e1 wants to be known sportsman - it takes their parents, PTI - our children will become but first we must.
+        PTI chaddo election mein khade hovo
+Movie - gulabo sitabo
+    2 meaning talks - koi tucha chor hi hoga jisne bulb churaya. 
+    Not leaving then bulb, chandelier, fuse removal. Sensitive wall - I touched it broke I am leaving.
+    Locking rooms. charpayi taken to road in the night -  police complaint.
+SQ - Krishna is not good or bad - nor are we supposed to stay till this realm - we gotta transcend to the realm beyond good and bad
+    BG Krishna says he is both good and bad but being conditioned we want good or bad in terms of grats - we have to rise beyond.
+    Why Krishna did sth to sages in past like Hiranya's time - cuz even they had to rise beyond good and bad in terms of experiences.
+    Good experience give a great incentive and thus facilitate progress but so can bad experiences sometimes.
+    That doesn't change his being supreme well wisher - cuz best self interest is not getting what we want conditionally but constitutionally.
+CS - RnD Thinking - Layers 
+    About - Human being is network of and pipelines of the following.
+        The idea of distribution or networking (peers and servers) drills down to all the layers.
+    [Digitized ]Data Interactions - Producers and Consumers - People, Browsers, Scraping programs, IOT Sensors and Actuators.
+        @Senses - read, write, act.
+        TOC, Regex, Compilers, NLP, DIP, etc.
+    Data Source and Data Sink - Application and Data Servers.
+        @Mind - store, recall.
+        Standardization - G3 -> G4 languages - SQL doesn't find a way but exploits a standardized way - "what" to standardized "how".
+        minor transformations. recall based mostly.
+    Data Manipulation and churning - sync or async.
+        @Intel - decision making algorithm to get to a desired goal.
+        synchronous at runtime (small data), async batch, streaming.
+        Standardization - G5 Languages (model -> (initial to end state))
+            AI, ML, Give only the model of the problem and current state and end state - it will find the way etc.
+            Many of DL applications tend to move to higher layers not this layer exactly (in terms of application and not means)
+                Eg - image to details. Sentence to nouns and verbs. Audio to text and vv.
+    Identity (max Soul Simulation) - give it layers and need to maximize profit cost functions - leave it free to act in a new modelled reality or system.
+        Knowledge about a system and means about a system - Knowledge model given and left free to act - independent or distributed.
+        PC lacks life injected into existence layers - like decision but not choice, store recall but not think or feel, etc.
+        ML is done by professionals and is not an automated process. 
+        When computer does the training process or performs reinforcement learning, that is different.
+        Think of a robot given an urge for survival, greed for grats (simulated), social framework based maximized grats.
+            Next, think how robot should figure out the the set of problems to further the markov's hierarchical needs.
+            Also, given the set of problems, the robot should 
+                figure out a set of candidate algorithms to target 
+                select the best one
+                an ability to adapt at runtime
+                all this in collaboration with the changing and well networked environment.
+        Now, most of the research focusses on PnC of everything - applied everywhere and standardized in biz interests.
+            inter-discipline study for inspiration and mutual applications. Eg - ML was application of statistics to CS.
+            Application of something to other domains. Eg - NLP or Image Recognition is application of ML to linguistics or photography.
+            Exploration of possibilities - where we are as State of art is and what all is possible - juice it out fully.
+CS - IDEA - There should teams chat topic for every backlog which 1 can join or leave anytime.
+IQ - JIRA - informal jira also.
+    comment - Prayojan. Work Log - Abhidhyeya.
+    prayojan status consists challenges and achievements.
+    Abhidhyeya consists of done and what to do next.
+CS - https://www.linkedin.com/learning/spark-for-machine-learning-ai/introduction-to-spark?u=57692769
+CS - mvnrepository.com aggregates from many sources - not just maven central.
+    there would be note below.
+    Checkout all the repos that mvnrepository indexes from.
+    maven dependencies in the windows were red marked cuz their dependencies could not be downloaded so included the repo of sap.
+PIES - In Master phase of IQ, you gotta be a hackathon guy (innovation comes naturally) - quicker implementer of anything
+    no responsibility to create a business but feature devp very fast.
+    Regex knowledge so quick feasibility; POC available so quick implementations.
+    Transaction phase will be ability to start business or support business - whichever is most rewarding.
+    This track is ignoring FDDL mapping with discrete phases cuz former is continuous and should not dependent on latter.
+    In Ashram, master is about ?(ability to do anything with resourcefulness) and later ?event plan, management or orchestrate.
+    Once master phase starts, stories will start happening cuz it will be applications of eth PIES.
+    Of course not at scale but individual short fun stories.
+    In transaction those stories become novels or big deals worth talking about as stand alone topics.
+    Foundational perspective, master will mark not just ABCD fundamentals but leveraging them actively every day with logs => Stories.
+Movie - Harry Potter Series
+    3 things for extra life
+    7 horcruxes
+        Tom Riddle's diary. -> Destroyed by Harry Potter in Harry Potter and the Chamber of Secrets
+        Marvolo Gaunt's Ring. -> Destroyed by Albus Dumbledore in Harry Potter and the Half-Blood Prince
+        Salazar Slytherin's Locket. -> Destroyed by Ronald Weasley in Harry Potter and the Deathly Hallows Part I with Gryffindor's sword.
+        Helga Hufflepuff's Cup. -> Destroyed by Hermione Granger in Harry Potter and the Deathly Hallows Part 2
+        Rowena Ravenclaw's Diadem. -> Destroyed by Harry Potter in Harry Potter and the Deathly Hallows Part 2
+        Harry Potter (unknown to Voldemort until after he had destroyed it). -> Destroyed in Harry Potter and the Deathly Hallows Part 2
+        Nagini the Snake. -> Destroyed by Neville Longbottom in Harry Potter and the Deathly Hallows Part 2
+        Lord Voldemort at the hands of Harry Potter at the end of the Battle of Hogwarts and this is in Harry Potter and the Deathly Hallows Part 2
+    Philosopher stone - Quirrell's failed attempt to revive Voldemort.
+        Difficulties involved in that culmination like walk past 3-headed dog. emotions like snape plottwist.
+    Chamber of secrets - Diary's failed attempt to revive itself into real form by extracting energy.
+        Basilisk for purpose of purging the school of all Muggle-born students
+    prisoner of azkaban
+        Azkaban escape, Dementors attack harry and his future version saves him; New prof for defense comes and goes - Actual killer pettigrew escapes.
+    Goblet of fire - rebirth made successful thru goblet of fire and game.
+    Order of phoenix - Prof in denial and ministry of magic so rebellion org appears. Friend lost by Bellatrix.
+    Half blood prince - horcrux hunt starts. Snape casts the killing curse on Dumbledore. Draco face offs.
+    deathly hallows - last year all horcruxes found and destroyed. 3 things for extra life to kill 1 horcrux.
+CS - Scala plugin configuration
+    <plugin>
+        <!-- see http://davidb.github.com/scala-maven-plugin -->
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
+        <version>3.2.0</version>
+        <executions>
+            <execution>
+                <goals>
+                    <goal>compile</goal>
+                    <goal>testCompile</goal>
+                </goals>
+                <configuration>
+                    <sourceDir>src/main/scala</sourceDir>
+                </configuration>
+            </execution>
+        </executions>
+    </plugin>
+IQ - LIB - quick implementation of spark Pi implementation
+    lesson learnt - we gotta go through the documentation without which we make silly mistakes. And turn around time of finishing off a simple use case takes huge time.
+    So, abstract mastery has to come with documentation and book and same thing applies to master phase as well - every project has its wiki and git readme
+        if not there or not clear enough - talk to colleagues every now and then and elicit moments of truths.
+PIES - master phase is about speed - urgency - getting stuffs done in a unit time.
+    this habit will come from trying speed in everything I do - speed in exercise, speed in bath, speed in sleep, speed in book reading, speed in code implementation, speed in interactions.
+IQ - Alliance between 2 companies is like cross product - SAP X Microsoft OR SAP X Siemens.
+CS - Personal Spark Notes - What is PiEstimation Program - PI*r^2 / r^2 - what proportion of random points generated in a square lie inside the circle.
+    Think about it - what is the approach of talk in data frame
+    this way spark wants its consumers to just talk in terms of current and final state of MR data I/O and it will figure out Map and reduce functions
+        basically, standardization not requiring rigorous maths
+    MR works as KV input coming as trivial key (rowNum JLT) and rows as values - you give transformations as you like.
+        CSV connectors and others are nothing but standardized programs for converting initial KV of (rowNum,lines) into (rowNum, data tuple)
+        Think of a simple table operation like filter or select
+            how would that translate into MR operation of KV pairs.
+            iterate over rows and extract the portion to determine qualification.
+            If select also a part of it - then transform the tuple as per columns desired.
+        How would group by and having translate - parse group by column and get hash and keep putting them in buckets (= shuffle) and reduce operation on theose buckets as per aggregation. Having is nothing but filter on those aggregations.
+            so group by columns will be keys and aggregates waale columns will be values. Shuffle on them and reduce as per aggregations.
+    Thus for all practical purposes, the data model and process model which spark wants us to think in terms of - is simplified. It's same old table, row, columns with different names and operations - df, ds, etc.
+CS - Spark - Bad symbolic reference to spark in library class - cuz library not included - not required for my code but is required by the libraries.
+    same thing applies to all spark connectors - My code doesn't need it but with your configurations, spark code will need it.
+    error goes away.
+CS - Spark - config signature doesn't match.
+    not even required cuz we request spark submit endpoint to run the app - spark endpoint program will invoke our specific app mainclass using the override method is configured to invoke so no problems.
+CS - Kibana Logs
+    Discover - filter, select.
+    Visualize - create visualizations over jobs.
+    Dashboard - Organize your visualizations.
+    Management
+IQ - We can ask questions from other colleagues (esp senior ones), like stack overflow questions.
+    your base knowledge, your expectations and results. what debugging you tried and your findings.
+    That way another colleagues should be able to solve a problem in less than 5 minutes.
+    And don't hesitate to ask anyone for this 5 minutes help.
+    And also be willing to offer this 5 mins help to anybody.
+    In fact, always prefer 1 minute help over 5 mins help - that saves eb's time - so sth like ping a question for help can make a difference.
+CS - IDEA - conceive of ideal logging.
+    with all different log levels - think of ability to collapse the logs into hierarchical buckets.
+    assuming that hierarchy is respected and logging is ideal - it should take less than 1 minute to solve it.
+CS - Spark cluster thru CF comes with
+    credentials
+    service url - REST endpoints.
+    UI Proxy - spark management.
+    logs - kibana logs and dashboards.
+    history proxy - past jobs.
+IQ - You gotta know how to pin point the source.
+    Eg - rather than searching with guessed names where spark job must be getting created - better call the spark swagger api classes - it is bound to work.
+PIES - Master is like application phase - history study is config.
+    historical applications in current times is master.
+IQ
+    My documentation following was perfect in every case - only scope of improvement was 
+        sometimes documentation isn't sufficient - it gives only 1 line of usage and skips another - the other line of usage like batch job, I would do lots of steps delineated for regular line of usage so any reference is a great help.
+        Other times, it suggests and problem is with our expectation like cf ssh program should end - no it's like chisel tunner it will stay on until stopped.
+    When a senior asks for async job for you - you accept it and you should accept it - we should value their time and eventually we also need to behave like that - async help to others.
+        OR help by hints, help by documentation, help by delegation, help by right person reference
+CS - Google : cloud foundry remote debug intellij
+    debug set to true in env.
+        env: JBP_CONFIG_DEBUG: '{enabled: true}'
+        cf set-env app1 JBP_CONFIG_DEBUG '{ enabled: true, port: 8000, suspend: true }'
+    cf enable-ssh app1
+    cf ssh-enabled app1
+    cf restage app1
+    cf ssh -N -T -L 8000:localhost:8000 app1
+    Add remote configuration
+CS - https://stackoverflow.com/questions/318239/how-do-i-set-environment-variables-from-java
+CS - Mac Default Apps
+    Facetime
+    Messages
+    Photos
+    Contacts
+    Calendar
+    Reminders
+    Numbers
+    Keynotes
+    Pages
+    AppStore
+    System Preferences
+    Self Service
+    Apple@SAP
+    Privileges
+    MS Office - Excel, Word, PPT, OneNote.
+CS - Dock or Taskbar Organized
+    System utils - Finder, Launchpad.
+    Browsers - including postman.
+    Editors - IntelliJ, Notes.
+    Fun Apps - Facetime, Self Service, etc.
+    Other Apps on demand like terminal, media players.
+CS - Mac or any OS launch an App - 4 ways - launch pad, shortcuts - taskbar, search - spotlight search, file associations.
+IQ - CS - Architect
+    For a given use case, make a heuristics diagram for all the possibilities.
+    What is presented is print all the paths from root to leaf
+PIES - Applications of economics in Foundations
+    there is only so much you can achieve on Production Possibilities frontier (PPF) without sharpening the saw and foundational changes.
+    so work hard but more importantly learn to work smart and improve the work itself.
+    We start from a place where we have measured TME stock which we can exchange or trade in order to achieve overall wellness on the PPF.
+    But we should grow the multi-dimensional karmic curve thru practice, techniques, action in stretch zone and foundational improvemtns (stability MOG, etc)
+        also innovation, application of other fields and applications into our own.
+    Too little of PIES will cause suffering and also too much of PIES will come at a price of others - so trading TME wisely on PPF - get to the point of interest.
+        but also stretch it so that the radial distance from the origin increasees - preferably in all the dimensions.
+IQ - LIB - if we make stages of our developments then we are a black box - not only we achieve tasks but we make them CICD available for other team members as well.
+    so that if for some reason, we change the task, we still had made the contribution to a checkpoint and others can pick from there.
+    These stages of development look on jira with task completed but also a deliverable - like wiki page added, git branch created, PR or merged, quality checked, etc.
+    Try to have some deliverable coming every mid week (every 2 days) along with some presentation (can be in minutes, even seconds but really important)
+    Every day is like a hackathon and we should reflect in state of wow on reflecting on the day after its done.
+    All meetings arranged and discussions over sub-tasks level (or different grains as per needs) - topic of the meetings and efforts logged there.
+    Master study for a user story also comes under the effort but not curiosity based master exploration
+        cuz you can't take scrum responsibility for the latter in work day efforts.
+IQ - Our work day is constituted of working on sub-tasks across user stories (OR High level work life)- nothing else.
+    It is in sub-tasks execution at a time that we face different challenges at the abstract or master level.
+    These challenges should also be noted as the part of user story execution - which will eventually become a tool for analytics.
+    At the start of the day or effort - think end result once, and then a set of sub-tasks (across user stories) - a set because we need to preempt for best results.
+    it is true that during the execution we may encounter sub-tasks getting spawned but that's ok - just update it in the jira.
+IQ - VS Code is powerful. Shift + click on the arrow for tabs level indentation segregations in even text file. So automatic hierarchies everywhere.
+PIES - Get Agitated or not - Grat streaming now vs later
+    How can I not get agitated in worldly situations while being here, I should be agitated and take apt steps
+    The answer is in abstraction of life at different grains
+    Hour gets lost - only its essence or abstract remains.
+    Similarly, Day, week, month, year all pass away with only its essence or abstract remaining which we can also call as karmic reactions.
+        This can be thought of as fragrance which wind carries after its all gone.
+    So, from karmic perspective, we gotta know where (state) we wanna land into - cuz eth else will just pass through us.
+        even that state will also pass thru (cuz temporary world) but that state characterizes higher grat streaming.
+        This also means that in pursuit of the state, you should not lose current set of state you transition thru
+            cuz what if that final state ain't that rosy.
+            OR what if that grat streaming comes packaged with some maintenance or even pain streams.
+            what about current state if always you are see green grass on other side then even after reaching there you will find grass still farther.
+            So, ideal way of living is grat streaming through the state (without infatuation in pursuit of something still higher)
+    This line of thinking explains that while we want to enjoy in the current state - this is still a transitory phase to be traversed through.
+        We would like to navigate thru these states with as little bothers as possible
+        but even the set of bothers along the way, is a great help for final state which we had not even conceived of yet.
+        So, while doing justice to all current situations is important for grat streaming, our ideals don't lie in current shit but in evolved states of being.
+    So practically speaking, whether work for the present or prepare for the future - both are just 2 different tasks in a backlog which are meant to be processed by OS thru preemption.
+        and there is a need to reflect and retrospect and introspect so that we stay calm, understanding the larger scheme of things desirable.
+        @just like, daily scrum is important but doing justice to them isn't enough - sprint end retrospection still matters or rather matters far more and so forth.
+        So, keep eyes on sprint goals is far important but at expense of daily scrum, would be a clear of sign of shortcoming or falling short.
+        Also, an important exercise to find our state expectations (vision and goals) at different grains - life, decade, 2 years, semester, month, etc.
+        And this line of thinking comes under transaction phase of server - it's not config or master - actually it's meta of transactions so can call it config.
+        This adds another dimension to our PIES - it is FDDL incentive but also for present or future or past - 3 cardinality of this set.
+EQ - LIB - In company what if a third party misbehaves
+    clarify it with them - most of the times there is a communication gap.
+    If not, Raise it with HR (escalation).
+    If not, Raise it with ur manager (who represents SAP for you)
+    If not, raise it with ur MD thru some channels (who represents SAP for policy making level).
+    If not, approach courts or police or media (as apt) - whoever you think is guilty.
+    If not, let go (many of the previous steps can also be bypassed in interest of present well being - some times wasting time isn't worth money).
+PIES - present framework of thinking - if your allies don't give justice to your present, break the bond - whether IQ or EQ or whatever.
+    but we can't decide it on smaller grains cuz life is meant to have those flavors as well for well being.
+    Lifetime commitment - conditionally (if eth goes fine) or unconditionally (irrespective) these are other combinations
+        think these in cartesian product with IQ and EQ, etc.
+        So, if boss ain't proper will you still stay with him for lifetime?
+        Or if husband is crazy and drunkard, do you still stay with him for lifetime?
+IQ - Installed MS Teams on mobile device with Microsoft Auth. OR even register mobile call or sms.
+CS - Maven
+    scalac: error: scala.reflect.internal.MissingRequirementError: object java.lang.Object in compiler mirror not found.
+        java version compatibility.
+    java.lang.NoClassDefFoundError: org/apache/spark/sql/SparkSession
+        The problem was the pom dependency was scoped provided and not compile and hence was not being supplied during this phase.
+CS - Maven - Failed to execute goal net.alchim31.maven:scala-maven-plugin:3.2.0:compile (default) on project
+    Check 2 tabs up - there are compilation errors in the code.
+IQ - Not only top down is the way to teach but top down is the way to work and showcase.
+    So you should not do POC on n items and after everything is done, you culminate everything into useful - only to find some other POCs still required.
+    Best way to work is you deliver AMAP - maybe a UI with all the connections showing the message - it is under repair.
+    So forth. Simulate things in objects until a DB is available. So forth.
+    So, in BJDK we are talking about K or transactions in IQ life - this should follow top down approach.
+    This is not to disregard sequence - of course, design first then implementation; but not bottom up, rather top down.
+    Even in design don't try figuring low level details b4 presenting the page - just scribble high level information for HLD then LLD.
+PIES - why we gotta work under concern mode or fear or tension mode.
+    actually no matter who or where you are that's how things are supposed to be.
+    Our choice or expertize is in making best choice for a set of tensions. Changing from 1 tension to another tension of our choice.
+        Eg - In all pies, child birth, marriage, DevOps to DS or teacher or vv, etc.
+    when we act and fantasize about ideal life and act towards it - we just choose a new package of concerns under new circumstances.
+    This is not pessimism but a reality - golden chains or iron chains are all chains.
+    Unalloyed streams of grats is possible in heaven. Here, you find kheer - either limited or adulterated or bodily limited.
+PIES - Transaction phase characterized by making allies like people do for songs, movies, x-men, marvel avengers
+    the best emerges when we have cooperating lions. And event management on top of that is transactional phase.
+    Mastery over your craft and hence cooperating lions is something you exhibit across these phases, especially in transactional.
+    But managing this cooperation is also yet another role - but high level delegation and overseeing juniors yes, cuz you are truly the master in transactional phase.
+    Master phase is also about ability to show all the talents you have - like in singing - all kinds of singing within a song - hip hop, stretch, pop, etc tapestry.
+        Or like avengers movie - you know what your audience wants so create a story to get to the points of their interest in interesting ways.
+        And precise rewards that you know they want.
+SQ - Women so many people behind so a situation not favorable for spirituality. Facilities for worldly fun and culture of enjoyment.
+Logs - Story - COVID so huge demand - SAP ally medibuddy funds must have fallen short and so ate up wfh allowance by merging it with next year.
+CS - We don't write version for Spring starter in pom cuz version must already be coming from the parent pom (spring parent)
+IQ - Daily scrum targets other colleagues but to have same frame of reference - like in parliament we talk to speaker, scrum master who also represents the team. Speaker in parliament is a kafka topic.
+IQ - There can be lots of master learning from the DoD role. Take eg of already solved to have further learnings - of course some basic code knowledge should be there.
+    But master exploration in emergency like very high - not desirable. Master learning from Daily scrum. Master learning from DoD. Master learning from exploration.
+    All of these things also give abstract or config learning.
+    In daytime (or better, scrum responsibility time), only master learning contextual to a sub-task is allowed and you take scrum responsibility for it
+        explorations can happen anytime outside of scrum responsibility time.
+IQ - At start of the day or even start of a user story (or backlog), we should serialize the DAG of efforts in an appealing way.
+    Topological sort - but act top down not bottom up.
+    All of these activities at different granularities - slot work to work day to user story to backlog
+        always start with SMART end result in mind and emotions feeding the determination.
+    For eg - Review phase subtask, Design Wiki page subtask, git repo creation, HLD implementation, basic delivery with stubs,
+        Successful scenario controllers and model - UI controller, application controller, utilities controller
+        View Beautification phase - UI beautification, application all exceptional scenarios FOE, utilities misbehaviors to be accounted for.
+    This approach is both scalable, evolutionary, CICD compliant, and giving you sense of achievement while WYSIWYG approach.
+PIES - IQ is a problem to solve. EQ is a different problem to solve etc - similarly for PIES.
+    IQ is standardized service. EQ is standardized love. These are different problems to solve.
+    Standard service streams - we can serialize top down and all these mantras + 1 more thing is interactions to have more or less complete picture.
+    We make interactions while making business problems, functional specifications; there interactions while finalizing design;
+    Implementation discussions - blockers, cross team services and clarifications; code review for design checks.
+    Functional review for functional checks. V-shaped all discussions exist - these showcase power (or responsibility) and is a contribution which elicits applauds and rewards.
+    EQ notices how much services are being done but more importantly how they are utils for love (to whatever degree).
+    SQ - can't expect worldly love from spirituality else we will be discouraged. But it is transcendental and takes game to next level.
+CS - Maven - use dependency:analyse to find dependency related updates required in the pom file.
+PIES
+    Psychology of mirroring for survival helps make different cultures along with all its variegated-ness and attractiveness.
+    Already existing tendencies from subtle body - a person expresses himself and similar subtle bodies like it.
+    Encouragement to do that more and also starts a mirroring effect - we like to be the ones we idolize and general tendency to be the ones around us.
+    Thus, a person tends to adopt lots of mannerisms of people around him - thereby making clusters at level of city, state, country
+        cuz of degree of association and idolizing which is natural being similar subtle bodies.
+        that's why neighboring clusters have similar properties or resembling properties.
+    It's not even about differences in subtle body or degree of similarity but compatibility of subtle body for ashram be it a friend or whatever.
+PIES - ability to control emotions spontaneity - just like ability to control your laughter when 7 gets hurt.
+    REL in JSR I laughed but handled by leaving the room.
+Logs - Story - I took part in stage presentation cuz my VOICE colleague wanted a partner
+    My psychological reasons why dictatorship ain't good which I made at runtime inspired by SQ training - 4 defects.
+    Showed appreciative expressions on the my teacher who was the judge. I stayed happy with that much reciprocation.
+Logs - Story - Why that lapse - she chose to leave and I complied cuz soul is free. Offensive behavior especially for related love objects is far more serious.
+    of course, that it's a bad bet (at all the layers) - this is noteworthy point b4 proceeds but anyways.
+EQ - Flight - what's not allowed
+    Radioactive Materials
+    Explosives
+    Weapons
+    Corrosive Substances
+    Peroxides & Oxidisers
+    Misc. Dangerous Goods
+    Flammable Liquids
+    Flammable Solids
+    All Gases
+    Toxic & Infectious Substances
+    Power Bank
+EQ - Ability to tolerate anarthas of people within bounds
+	if it comes to your concern then settle the matter then and there. Of course, it is cheap on your part meaning that your spending behavior still is not at the point where you would consider that much amount to be insignificant and not worth thinking about.
+	And of course, it is cheap on other side as well but this is pretty much expected from the worldly existence. Becoming overtly disturbed or excited by such worldly exchanges is itself a proof of less spiritual advancement.
+	Not that a spiritually advanced person would be apathetic towards it but he would perform dharma while tolerating rather accepting people for the state that they are in. He won't be disturbed by it just concerned and address the issue thru head-on pragmatism. If the issue can't be handled, he would rather accept the situation as it is. Like BSST would say KC can't wait for britishers to leave the country. There would be someone in material world whose subtle body wants power (coming from descent of any ego or identity) - which is a legitimate expectation from VA - it is people with anarthas willing to conform to Krishna's model of mutual cooperation and not pure devotees trying to have interactions within material world.
+	First thing is to empathize with Shringi and second is to understand how terribly wrong he was in terms of disproportionate punishment and immaturity in seeing small picture and not its repercussions.
+	There has been intolerance debate on tv - which is an excellent word to bring up - people do and should tolerate within limits - some place the anarthas are the norm and rules need to be made to accomodate such behaviors within the laws. Some places will permit anarthas under the table. Beyond limits some action needs to be taken otherwise the tolerance is seen as weakness and cowardice which leads to a realm that you don't belieave in.
+	Like movie seven, even extreme anger towards someone's anarthas is also an anartha. Anartha of anger.
+PIES - SQ - Realm changes with spiritual advancement.
+	We may think that it is ego that determines realm - to a good degree it does. but not entirely. Abstract out further from ego interactions within a society and you realize that the society could have had different models called social ideologies. Those social ideologies accept or reject the worldly "tools" of different crafts or egos depends on the their beliefs, social customs, social values, etc. Eg - India accepted IT but with lots of discussion on the impacts it will have in the economy. Realm is not just made the interaction of those egos that make up the economics but also human psychology of that place.
+	A person of similar subtle body is born in that place and pivots to an ego as per the upbringing and person attraction. But the person feels very happy in the ambience and environment of that place. Identifies a lot with people. Believe in the ideological end goals, ideological means, etc. The thing to them is superior to themselves. It stands above them. This explains why people agree to die for their nation or for their profession in taj. Some rebels fight against the state - to them they are fighting on this layer which is above their personal ego.
+	That's why people persuaded with spiritual reasonings are dangerous and so terribly wrong. It addresses a need of belonging to a realm of choice.
+	Different places are differently suited as per the state of anarthas or weeds you have. Surprisingly people with anarthas in some places are very highly situated - it is a disadvantage spiritually so first it's not that good. Why opulence? We should not be jealous of anybody behind the surface. Whoever has opulence has got them by the grace of god - on what basis? they have paid the price. The price of tapasya or penance, the price of giving time, money, efforts. The price of donations, etc. These are spiritual dimensions expressed in the material realm. They may even be into spirituality but at their deepest core they have taken birth in a realm cuz they belong there - from subtle body perspective. After death the realm is chosen on the basis of subtle body - family and society is given as per what would be most apt.
+PIES - SQ - I don't think very high of people - well, duh! in general but more evolved state is like 6 goswamis of bowing down to even neophyte devotees.
+	what does this mean? It means that they are fully dedicated to the transcendence and whatever spark of transcendental rightness they find they bow down unto that and the holder is respectable for representing that to whatever degree.
+	Less anarthas are good for business - eg a person arranged for another plate free of cost cuz we were not satisfied with the service. Don't you think if we were frequent visitors, we will like to visit them again. Whereas those who are cut to cut and would rather take rounding off as ceiling instead of floor or nearest digit of even mild amount, we will be less disposed towards it. Many may ignore accepting anarthas as they are but you know what is more respectable and gratifying experience.
+EQ - Economics - Centralized market vs distributed market - centralized where champs rock the show. With communism things just replace champs with govt being the champ.
+	VA working model knows too well that there are pros and cons on both sides but VA believes in distributed model of economy. Not centralization of power.
+	Think globally but act locally is their motto. I heard some people say that centralization of say singing helped them get better at increase in demand in the distributed model. So probably what we need is the distributed model of economy coupled up with centralization co-existing.
+	We don't want a selected few holding all the money in the world - that just makes crime increase and increase in social dissatisfaction. So income taxes are a great help but those belong to govt - so they can make a thumbs up deal among each other.
+	IT like other tools made the jobs increase in market as expected but graph of economy it creates doesn't grow exponentially.
+	Think past decades even rich people would eat chapattis with pickle cuz of bad economy so centralization is necessary.
