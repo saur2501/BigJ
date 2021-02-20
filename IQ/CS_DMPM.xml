@@ -154,69 +154,107 @@
             </Servers>
             <Framework>
                 <Spark>
+				CS - Spark
+					Features
+						Speed - 100x in RAM and 10x in Disk of hadoop. Done thru reduced Disk I/O. Interin results in memory.
+						Supports multiple languages - JAVA, Scala, Python, R.
+						Advanced Analytics - MR but also SQL, Streaming, ML, Graph X.
+					Deployed on Standalone (Spark on HDFS), YARN / Mesos, SIMR (Spark in MapReduce)
+					Components -
+						Extensions
+							SQL - new data abstraction called SchemaRDD to support structured and semi-structured data
+							Streaming - leverages Spark Core's fast scheduling capability to perform streaming.
+								ingests data in mini-batches and performs RDD and performs transformations on those mini-batches.
+							MLib - distributed machine learning framework. Done against Alternating Least Squares (ALS) implementations.
+								9x of Apache Mahout. Now Mahout also has spark interface.
+							GraphX - distributed graph-processing framework.
+								API for expressing graph computation that can model the user-defined graphs by using Pregel abstraction API.
+						Core - general execution engine for spark platform. Provides IN-Memory computing and referencing datasets.
+					RDD - ...
+					Installation - ...
+						Client environment -
+							No Set up Spark - Website based.
+							cli - Spark shell, spark submit
+							Languages client API
+							Notebooks
+							Cluster Access - Zepplin Notebook, SSH cli access, etc.
+							CF SJS (Spark Job Server) Access - APIs exposed to submit job.
+					Core Programming - ...
+					Spark Deployment - ...
+					Advanced Programming
+						contains two different types of shared variables ->
+						Broadcast variables − used to efficiently, distribute large values.
+							val broadcastVar = sc.broadcast(Array(1, 2, 3))
+							...
+						Accumulators − used to aggregate the information of particular collection.
+							val accum = sc.accumulator(0)
+							sc.parallelize(Array(1, 2, 3, 4)).foreach(x => accum += x)
+							accum.value
+							...
+						Numeric RDD Operations - ...
 				Misc as follows
-				CS - Spark Connections ways - Excellent Raw Material for DMPM.
-					Local
-					SSH into the remote clusters and use Spark shell on the remote cluster.
-					downsample the data and pull the data to your laptop.
-					Remote notebook on a cloud - zepplin, jupyter supported on cloud - but crashes and gotta download.
-					Bridge local & remote spark - seamless with spark standalone but yarn gotta copy etc files to local spark - auth problem
-					Jupyter notebook kernel called “Sparkmagic” - sends code to/from Spark cluster thru livy (possible to install thru ambari) - but installation, connection, and authentication issues
-						sparkmagic introduces Docker containers to solve the problem of auth, installation, etc.
-					Problems - other languages to run on cluster, scheduling the run.
-						Set up a remote Jupyter server and SSH tunneling
-						Set up a cron scheduler
-						Set up Airflow
-						Set up Kubeflow and other Kubernetes-based solutions
-						Bayesnote is a notebook orchestration platform for Jupyter notebook:
-					Others - PySpark Gateway
-				CS - Spark applications (Documentation Reading) - Excellent raw material for DMPM - also add in LJ.
-					run as independent sets of processes on a cluster
-					coordinated by the SparkContext object in your main program (called the driver program). ?SparkContext is the framework main driver program which we elicit thru exit call role-reversal (cmp with MapReduce)
-					To run on a cluster
-						SparkContext can connect to several types of cluster managers (spark standalone, Mesos, YARN) for resource allocation across application.
-						Once connected, Spark acquires executors on nodes in the cluster; executors - processes that run computations and store data for your application
-						spark sends your application code to the executors.
-						SparkContext sends tasks to the executors to run
-					application gets its own executor processes in separate JVM from other application's executor processes.
-						executor runs in multiple threads with no interference and ability to share with other executor except thru persistence.
-						each driver schedules its own tasks.
-					Spark is agnostic to the underlying cluster manager - it justs gotta acquire executor processes
-					The driver program must listen for and accept incoming connections from its executors throughout its lifetime - so spark.driver.port in network config file.
-						driver program must be network addressable from the worker nodes
-					driver schedules tasks on the cluster => it should be run close to the worker nodes => Same LAN OR Open RPC to driver and submit operations from nearby.
-					Cluster Managers
-						Spark - Simple one included with Spark for easy cluster set up.
-						YARN - Hadoop2.
-						Apache Mesos - General CM which supports Hadoop.
-						K8 - OSS auto-deployment, scale, mgmt of containerized apps.
-					Submit Applications to Application
-						spark-submit script
-					Monitoring UI - node:4040 (typically) for tasks, storage, usage.
-					Job Scheduling - control over resource allocation both - ...
-						across apps (level of CM) - ?resources across applications.
-						within apps (if n computations on same spark context) - ?resource usage per application
-					Concepts
-						Application - User program built on Spark (Driver + Executors on nodes)
-						Application jar - user's app as jar - uber jar with dependencies but never hadoop and spark dependencies.
-						Driver program - process running the main() function of the application and creating the SparkContext
-						Cluster Manager - external service for acquiring resources on the cluster
-						Deploy mode - Distinguishes where the driver process runs.
-							cluster mode - framework launches the driver inside of the cluster
-							client mode - submitter launches the driver outside of the cluster
-						Worker Node - Any node that can run application code in the cluster
-						Executor - A process launched for an application on a worker node
-							The process runs tasks - keeping data in memory or disk storage across them.
-						Task - work that will be sent to one executor
-						Job - parallel computation consisting of multiple tasks that gets spawned in response to a Spark action (save, collect)
-							can see this term in logs.
-						Stage - Each job gets divided into smaller sets of tasks called stages that depend on each other
-					Submitting Applications - ...
-						Bundle dependencies
-						Launch apps with spark-submit
-							master URL
-							Load config from file
-						Advanced dependency Management.
+					CS - Spark Connections ways - Excellent Raw Material for DMPM.
+						Local
+						SSH into the remote clusters and use Spark shell on the remote cluster.
+						downsample the data and pull the data to your laptop.
+						Remote notebook on a cloud - zepplin, jupyter supported on cloud - but crashes and gotta download.
+						Bridge local & remote spark - seamless with spark standalone but yarn gotta copy etc files to local spark - auth problem
+						Jupyter notebook kernel called “Sparkmagic” - sends code to/from Spark cluster thru livy (possible to install thru ambari) - but installation, connection, and authentication issues
+							sparkmagic introduces Docker containers to solve the problem of auth, installation, etc.
+						Problems - other languages to run on cluster, scheduling the run.
+							Set up a remote Jupyter server and SSH tunneling
+							Set up a cron scheduler
+							Set up Airflow
+							Set up Kubeflow and other Kubernetes-based solutions
+							Bayesnote is a notebook orchestration platform for Jupyter notebook:
+						Others - PySpark Gateway
+					CS - Spark applications (Documentation Reading) - Excellent raw material for DMPM - also add in LJ.
+						run as independent sets of processes on a cluster
+						coordinated by the SparkContext object in your main program (called the driver program). ?SparkContext is the framework main driver program which we elicit thru exit call role-reversal (cmp with MapReduce)
+						To run on a cluster
+							SparkContext can connect to several types of cluster managers (spark standalone, Mesos, YARN) for resource allocation across application.
+							Once connected, Spark acquires executors on nodes in the cluster; executors - processes that run computations and store data for your application
+							spark sends your application code to the executors.
+							SparkContext sends tasks to the executors to run
+						application gets its own executor processes in separate JVM from other application's executor processes.
+							executor runs in multiple threads with no interference and ability to share with other executor except thru persistence.
+							each driver schedules its own tasks.
+						Spark is agnostic to the underlying cluster manager - it justs gotta acquire executor processes
+						The driver program must listen for and accept incoming connections from its executors throughout its lifetime - so spark.driver.port in network config file.
+							driver program must be network addressable from the worker nodes
+						driver schedules tasks on the cluster => it should be run close to the worker nodes => Same LAN OR Open RPC to driver and submit operations from nearby.
+						Cluster Managers
+							Spark - Simple one included with Spark for easy cluster set up.
+							YARN - Hadoop2.
+							Apache Mesos - General CM which supports Hadoop.
+							K8 - OSS auto-deployment, scale, mgmt of containerized apps.
+						Submit Applications to Application
+							spark-submit script
+						Monitoring UI - node:4040 (typically) for tasks, storage, usage.
+						Job Scheduling - control over resource allocation both - ...
+							across apps (level of CM) - ?resources across applications.
+							within apps (if n computations on same spark context) - ?resource usage per application
+						Concepts
+							Application - User program built on Spark (Driver + Executors on nodes)
+							Application jar - user's app as jar - uber jar with dependencies but never hadoop and spark dependencies.
+							Driver program - process running the main() function of the application and creating the SparkContext
+							Cluster Manager - external service for acquiring resources on the cluster
+							Deploy mode - Distinguishes where the driver process runs.
+								cluster mode - framework launches the driver inside of the cluster
+								client mode - submitter launches the driver outside of the cluster
+							Worker Node - Any node that can run application code in the cluster
+							Executor - A process launched for an application on a worker node
+								The process runs tasks - keeping data in memory or disk storage across them.
+							Task - work that will be sent to one executor
+							Job - parallel computation consisting of multiple tasks that gets spawned in response to a Spark action (save, collect)
+								can see this term in logs.
+							Stage - Each job gets divided into smaller sets of tasks called stages that depend on each other
+						Submitting Applications - ...
+							Bundle dependencies
+							Launch apps with spark-submit
+								master URL
+								Load config from file
+							Advanced dependency Management.
                 </Spark>
             </Framework>
             <Scrum></Scrum>
@@ -224,7 +262,475 @@
         <Development>
             <PL>
                 <Scala>
+				CS - Scala
+					scala.reflect.internal.MissingRequirementError: object java.lang.Object in compiler mirror not found.
+					Need to have java version point to 1.8 and also, in IDE the selected version has to be 1.8
+				object MainObject
+					def main(args:Array[String]){
+						statements
+					}
+				Where
+					Web applications
+					Utilities and libraries
+					Data streaming with Akka
+					Parallel batch processing
+					Concurrency and distributed application
+					Data analysis with Spark
+					AWS lambda expression
+					Ad hoc scripting in REPL
+				Features
+					Type inference
+					Singleton object
+					Immutability
+					Lazy computation
+					Case classes and Pattern matching
+					Concurrency control
+					String interpolation
+					Higher order function
+					Traits
+					Rich collection set
+				statements
+					[var|val] variableName[:dataType] = literal
+					var data:Int = 100
+					dataType -
+						Boolean
+						Char, String
+						Byte, Short, Int, Long,
+						Float, Double
+						Any
+					selective
+						standard if-else
+						ternary - if (a >= 0) 1 else -1
+						match case
+							var a = 1
+							a match{
+								case 1 => println("One")
+								case "Two" => println("Two")
+								case _ => println("No"
+								}
+					iterative
+						while, etc usual
+						for(variable <- list){}
+							for( a <- 1 to 10 )
+							for( a <- 1 until 10 )
+							for( a <- 1 to 10 if a%2==0 ){
+								 println(a);
+							}
+							var result = for( a <- 1 to 10) yield a
+							for(i<-result){
+								println(i)
+							}
+							var list = List(1,2,3,4,5,6,7,8,9)          // Creating a list
+							for( i <- list){                         // Iterating the list
+								println(i)
+							}
+							for(i<-1 to 10 by 2)
+						foreach - list.foreach(function)
+							list.foreach{
+								println
+							}
+							list.foreach(print)
+							list.foreach((element:Int)=>print(element+" "))
+						break, etc - not part of language but import scala.util.control.Breaks._
+					comments standard.
+					multiline expression - throw exception sometimes
+					Functions
+						def functionName(parameters : typeofparameters) : returntypeoffunction
+						def functionExample(a:Int, b:Int):Int = {
+							if(b == 0)          // Base condition
+							 0
+							else
+							 a+functionExample(a,b-1)
+						}
+						with default value - parameters with some default value
+						def functionExample(a:Int = 0, b:Int = 0):Int = {}
+						named parameters - functionExample(b = 15, a = 2)
+							functionExample(15,2); functionExample(a = 15, b = 2)
+						Higher Order Functions
+							functionExample(25, multiplyBy2)
+							def multiplyBy2(a:Int):Int = {
+								a*2
+							}
+							def functionExample(a:Int, f:Int=>AnyVal):Unit = {
+								println(f(a))
+							}
+							Function composing
+								var result = multiplyBy2(add2(10))      // Function composition
+						Anonymous functions
+							rocket - var result1 = (a:Int, b:Int) => a+b
+							wild card underscore - var result2 = (_:Int)+(_:Int)
+							(result1(10,10)); result2(10,10)
+						Function Currying
+							multiple parameter lists
+							def add(a:Int)(b:Int) = {
+								a+b
+							}
+							var result = add(10)(10)
+							var addIt = add(10)_
+							var result2 = addIt(3)
+						Function nesting
+							def add(a:Int, b:Int, c:Int) = {
+								def add2(x:Int,y:Int) = {
+									x+y
+								}
+								add2(a,add2(b,c))
+							}
+							def main(args: Array[String]) = {
+								var result = add(10,10,10)
+								println(result)
+							}
+						Variable length parameter functions
+							def add(args: Int*) = {
+								var sum = 0;
+								for(a <- args) sum+=a
+								sum
+							}
+							var sum = add(1,2,3,4,5,6,7,8,9);
+							println(sum);
+					Scala OOP
+						Object and Class
+							class Student{
+								var id:Int = 0;                         // All fields must be initialized
+								var name:String = null;
+							}
+							var s = new Student()
+						Singleton object
+							object SingletonObject{
+								def hello(){
+									println("Hello, This is Singleton Object")
+								}
+							}
+							SingletonObject.hello()
+						Companion Object
+							class CompanionClass{
+								def hello(){
+									println("Hello, this is Companion Class.")
+								}
+							}
+							object CompanionObject{
+								def main(args:Array[String]){
+									new ComapanionClass().hello()
+									println("And this is Companion Object.")
+								}
+							}
+						Case Classes and Case Object
+							public and immutable by default
+							case class CaseClass(a:Int, b:Int)
+							object MainObject{
+								def main(args:Array[String]){
+									var c =  CaseClass(10,10)       // Creating object of case class
+									println("a = "+c.a)               // Accessing elements of case class
+									println("b = "+c.b)
+								}
+							}
+							useful also for pattern matching - f match {case CaseClass(a,b)=> //do something case CaseClass2(a)=>//do something}
+						Default Primary Constructor
+							statements in class body.
+							class Student(id:Int, name:String){
+								def showDetails(){
+									println(id+" "+name);
+								}
+							}
+						Secondary Constructor
+							class Student(id:Int, name:String){
+								var age:Int = 0
+								def showDetails(){
+									println(id+" "+name+" "+age)
+								}
+								def this(id:Int, name:String,age:Int){
+									this(id,name)       // Calling primary constructor, and it is first line
+									this.age = age
+								}
+							}
+						Constructor overloading
+							class Arithmetic{
+								def add(a:Int, b:Int){
+									var sum = a+b
+									println(sum)
+								}
+								def add(a:Int, b:Int, c:Int){
+									var sum = a+b+c
+									println(sum)
+								}
+							}
+							object MainObject{
+								def main(args:Array[String]){
+									var a  = new Arithmetic();
+									a.add(10,10);
+									a.add(10,10,10);
+								}
+							}
+						Method Overloading with different data types
+						this - this(), this.variable
+						Inheritance
+							class SubClassName extends SuperClassName(){}
+							Single, multi-level, hierarchical, multiple, hybrid.
+						Overriding
+							class Vehicle{          //use final to stop
+								val speed:Int = 60  //use final to stop
+								def run(){          //use final to stop
+									println("vehicle is running")
+								}
+							}
+							class Bike extends Vehicle{
+								override val speed:Int = 100        //OR use var in parent and don't declare here
+								override def run(){
+									println("Bike is running")
+								}
+							}
+						Abstract class
+							abstract class Bike{
+								def run()
+							}
+							class Hero extends Bike{
+								def run(){
+									println("running fine...")
+								}
+							}
+							it has constructor but no object
+						Trait
+							interface with partial implementation
+								trait Printable{
+									def print()
+								}
+								abstract class A4 extends Printable{            // Must declared as abstract class if not gonna implement abstract method
+								   def printA4(){
+									   println("Hello, this is A4 Sheet")
+								   }
+								}
+							var or val variables both allowed - can have abstract and non-abstract members
+								trait Printable{
+									def print()         // Abstract method
+									def show(){         // Non-abstract method
+										println("This is show method")
+									}
+								}
+								class A6 extends Printable{
+									def print(){
+										println("This is print method")
+									}
+								}
+							Multiple traits
+								trait Printable{
+									def print()
+								}
+								trait Showable{
+								   def show()
+								}
+								class A6 extends Printable with Showable{
+									def print(){
+										println("This is printable")
+									}
+									def show(){
+										println("This is showable");
+									}
+								}
+							Mixins - extends PrintA4 with Print (first class or abstract class and then traits)
+						Access Modifiers
+							None - protected + package + outside package access
+							protected - private + subclass access
+							private - class or companion access.
+					Exceptions
+						try{
+							a/b
+						} catch{
+							case e: ArithmeticException => println(e)
+							case ex: Exception =>println(ex)
+							case th: Throwable =>println("found a unknown exception"+ ex)
+						} finally{
+							println("Finaly block always executes")
+						}
 
+						throw new ArithmeticException("You are not eligible")
+						throws keyword or throws annotation
+							class ExceptionExample4{
+								@throws(classOf[NumberFormatException])
+								def validate()={
+									"abc".toInt
+								}
+							}
+						Custom Exception
+							class InvalidAgeException(s:String) extends Exception(s){}
+							class ExceptionExample{
+								@throws(classOf[InvalidAgeException])
+								...
+							}
+					Collection
+						Array
+							var arrayName : Array[arrayType] = new Array[arrayType](arraySize);     //new Array[Int](2)
+							var arrayName = new Array[arrayType](arraySize)
+							var arrayName : Array[arrayType] = new Array(arraySize);                //new Array(5)
+							var arrayName = Array(element1, element2 ... elementN)                  //Array(1,2,3)
+							arr(2); loop for all; arr.foreach((element:Int)=>println(element))      //ops
+							var arrayName = Array.ofDim[ArrayType](NoOfRows,NoOfColumns)            //Array.ofDim[Int](2,4)
+							var arrayName = Array(Array(element...), Array(element...), ...)        //Array(Array(1,2), Array(3,4,5))
+							Eg -
+							var arr = Array(Array(1,2,3,4,5), Array(6,7,8,9,10))
+							var arr = Array.ofDim[Int](2,2)
+							var arr1 = Array(Array(1,2,3,4,5), Array(6,7,8,9,10))   // Creating multidimensional array
+							var arr2 = Array(Array(1,2,3,4,5), Array(6,7,8,9,10))
+							var arr3 = Array.ofDim[Int](2,5)
+							for(i<- 0 to 1){               // Traversing elements using loop
+							   for(j<- 0 to 4){
+									arr3(i)(j) = arr1(i)(j)+arr2(i)(j)
+									print(" "+arr3(i)(j))
+								}
+								println()
+							}
+						String
+							Immutable - s1 = "Something " + s1
+							equality works - s1 == s2 is true if same strings.
+							methods
+								equals (==)
+								compareTo - lexicographically
+								concat (+)
+								substring(startIndex, endIndex)
+							String interpolation
+								println(s"value of pi = $pi") - s for string - allows us to pass variable in string object
+								println(f"This is $s1%s, scala version is $version%2.2f") - f for formatting
+								var s1 = "Scala \tstring \nexample" - println interprets \t and \n specially.
+								var s2 = raw"Scala \tstring \nexample" - println won't interpret \n as newline
+						Tuple
+							var tuple = (1,5,8,6,4)                     // Tuple of integer values
+							var tuple2 = ("Apple","Banana","Gavava")        // Tuple of string values
+							var tuple3 = (2.5,8.4,10.50)                // Tuple of float values
+							var tuple4 = (1,2.5,"India")                // Tuple of mix type values
+							println(tupleValues._1) // Fetching first value
+							println(tupleValues._2) // Fetching second value
+							tupleValues.productIterator.foreach(println)
+						Others
+							Traversable
+								Iterable
+									Set - HashSet, BitSet, ListSet
+										SortedSet
+										TreeSet - Abstract class
+									Sequence -
+										IndexedSeq - Vector, NumericRange, String, Range
+										LinearSeq - List, Stream, Queue, Stack
+									Map - HashMap, ListMap
+										SortedMap - TreeMap
+							Traversable - head, init, isEmpty, last, max, min, size, sum, tail, toArray, toList, toSeq, toSet
+							Set - Store unique elements without ordering
+								val games = Set("Cricket","Football","Hocky","Golf")
+								games += "Racing"
+								games -= "Golf"
+								merge - games ++ alphabet
+								contains
+								for, foreach
+								intersect, union.
+								More - SortedSet(5,8,1,2,9,6,4,7,2)
+							HashSet - neither maintains insertion order nor sorts the elements
+							BitSet - maintains arrays of bits - BitSet(1,5,8,6,9,0)
+							ListSet - immutable sets using a list-based data structure
+								maintains insertion order. suitable only for a small number of elements.
+								create empty - ListSet.empty or ListSet()
+							Seq - represents indexed sequences that are guaranteed immutable
+								access elements by using their indexes. It maintains insertion order
+								var seq:Seq[Int] = Seq(52,85,1,8,3,2,7)
+								seq(2)
+								contains, copyToArray(xs: Array[A], start: Int, len: Int): Unit
+								endsWith[B](that: GenSeq[B]): Boolean - seq.endsWith(Seq(2,7))
+								head, indexOf, isEmpty, lastIndexOf,
+								reverse - seq.reverse
+							Vector - import scala.collection.immutable._
+								general-purpose, immutable data structure. Good for large elements.
+								var vector = Vector("Hocky","Cricket","Golf")
+								vector :+ "Racing"
+								newVector ++ vector2
+								mergeTwoVector.reverse
+								mergeTwoVector.sorted
+							List - class for immutable linked lists. Good for LIFO - stack. Ordered with duplicates.
+								foreach, random access - true for all.
+								list ++ list2
+								list3.sorted
+								list3.reverse
+							Queue - FIFO DS.
+								var queue2:Queue[Int] = Queue(1,5,6,2,3,9,5,2,5)
+								queue.front
+								queue.enqueue(100)
+								var dequeueQueue = queue.dequeue
+							Stream - Stream is a lazy list - evaluates when required.
+								val stream = 100 #:: 200 #:: 85 #:: Stream.empty
+								var stream2 = (1 to 10).toStream
+								println(stream) - Stream(100, ?)
+								stream2.head
+								stream2.take(10)
+								stream.map{_*2}
+							Maps - to store elements as KV pairs.
+								var map = Map(("A","Apple"),("B","Ball"))
+								var map2 = Map("A"->"Aple","B"->"Ball")
+								var emptyMap:Map[String,String] = Map.empty[String,String]
+								map("A")
+								var newMap = map+("C"->"Cat")
+								removeElement = newMap - ("B")
+							HashMap - use hash code to store elements
+								var hashMap = new HashMap()
+								var hashMap2 = HashMap("A"->"Apple","B"->"Ball","C"->"Cat")
+								println(hashMap)
+								hashMap.foreach {
+									case (key, value) => println (key + " -> " + value)
+								}
+								hashMap+("D"->"Doll")
+							ListMap - immutable maps by using a list-based data structure. maintains insertion order
+								var listMap = ListMap("Rice"->"100","Wheat"->"50","Gram"->"500")    // Creating listmap with elements
+								var emptyListMap = new ListMap()            // Creating an empty list map
+								var emptyListMap2 = ListMap.empty           // Creating an empty list map
+					File Handling - scala.io
+						val fileObject = new File("ScalaFile.txt" )     // Creating a file
+						val printWriter = new PrintWriter(fileObject)       // Passing reference of file to the printwriter
+						printWriter.write("Hello, This is scala file")  // Writing to the file
+						printWriter.close()             // Closing printwriter
+						Character-wise reading
+							val filename = "ScalaFile.txt"
+							val fileSource = Source.fromFile(filename)
+							while(fileSource.hasNext){
+								println(fileSource.next)
+							}
+							fileSource.close()
+						Line wise reading
+							val filename = "ScalaFile.txt"
+							val fileSource = Source.fromFile(filename)
+							for(line<-fileSource.getLines){
+								println(line)
+							}
+							fileSource.close()
+						For more, use java.io package to access file methods
+					Multithreading - multitasking by using Multithreading - lightweight sub-processes
+						About
+							create Thread by extending Thread class or Runnable interface
+							start() - new to runnable state.
+							OS - runnable to running.
+							sleep, i/o, lock, suspent, wait - running to blocked or non-running.
+								back to runnable after over.
+							run() exits - running to termination
+						class ThreadExample extends Thread{
+							override def run(){
+							  println("Thread is running...");
+							}
+						}
+						new ThreadExample().start()
+						Runnable
+							class ThreadExample extends Runnable{
+							override def run(){
+							println("Thread is running...")
+							}
+							}
+							new Thread(new ThreadExample()).start()
+							Method
+								getName()
+								getPriority()
+								getState()
+								isAlive() - if started.
+								join() - wait for thread to die.
+								run() - if separate runnable object then run.
+								setName, setPriority, sleep, yield - pause for other threads to proceed.
+							Eg - t1.start()
+							t1.join()
+							t2.start()
+							Eg - t1.setPriority(Thread.MIN_PRIORITY)
+							Eg - observe concurrency.
+							t1.start()
+							t1.task()
                 </Scala>
                 <JAVA>
                     JAVA - DM (behavioral abstract study - no DFD levels here)
@@ -467,7 +973,8 @@
                                         dependency is always available.
                                         dependency is propagated. when used in dependency - transitive.
                                     provided - similar to compile. won't see dependency in war but at runtime we assume it.
-                                        only available on runtime and test classpaths.
+                                        only useful during compilation but not packaged cuz runtime will have these.
+										difference is in the classpath listed in the MANIFEST.MF file included in the jar if addClassPath is set to true in the maven-jar-plugin configuration. 'compile' dependencies will appear in the manifest, 'provided' dependencies won't.
                                         common in enterprise but not in cloud - cuz violates 12 factor principle.
                                         not transitive.
                                     runtime - useful when multiple versions of api.

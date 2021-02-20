@@ -74,217 +74,172 @@ CS - Postman New Update
         But wait! Even you can be a part of the Postman API network. Simply create a public workspace and share your collections in it - they are automatically available to millions of Postman users.
 
         Like to contribute to someone else’s API? That’s easy too! Fork the collection into your workspace, make the changes and raise a pull request.
-Wiki page
-    State of the art - specifications and arch refs.
-        can give UML if necessary.
-    Requirement 
-        Epic Discussion - Customer needs
-        Concrete SRS - How we intend to meet the needs. Endpoints descriptions, STD - State Transition Diagrams.
-    Architectural 
-        Alternatives - discussions with pros and cons.
-        Finalized one and why
-        Details that follow - tables needed, etc.
-        Additional resources needed - new endpoints to be created.
-JIRA
-    spaces
-        Pages - Page Groups. 
-        Page hierarchy - every page created with a parent - source or context of creation.
-        Page - operations.
-The application Confluence would like to have read and write access to your data on sapjira.wdf.sap.corp. The application will be allowed to use your credentials to authenticate (Devgun, Saurabh) as you in the future.
-LIB - IQ - In worst case, the presentation may unorganized - which is not the case on average but there is bound to be many useful statements in a session or presentation.
-    it's a valid point - let me think aobut it and get back to you for further discussions.
-    first cut, backdoor entry, 
-    these calls are self explanatory.
-    effort, feedbacks -> good job, work, nice presentation.
-Checked it conclusively that spark apis need to redone from the start - from middle they will always show wrong picture.
-    if you have made any difference in the code redo all the apis.
-Intellij stuffs
-Scrum
-    I was going thru the code yesterday to identify where to make changes. Have written few doubts.
-    Hari - DoD - finished and shared security report. Deployment descriptor files updated with sth related with jobs in spaces.
-    Sweta, Prabhakar - Space X tenant X App X calls - which calls failing. New script - add to nightly build. Raised ticket with Ops, TM.
-        JMeter Script CRUD. Scope AWS, Azure. GDPR.
-        pull in functionality into existing scripts. And new scripts.
-Schema
-    Tags - equipmentId, indicatorGroupId, modelId, templateId.
-Scrum - I am blocked by this BCP and its repercussions - present things as they are.
-Scrum
-    code smells, UT, merged PR, today e2e test; Master POM merged - e1 except csw, abstract and migration.
-    Derivation sonar quality - addressed to ops - PR can be merged with that.
-    valid jobs running in EU10 - scripts to check needed jobs are running in eu10 and canary spaces. With prabhakar.
-        CF issues - SSO works fine. Login with thing modeler it fails. Multi factor authentication failing - else would check with Ops team.
-    Abhishek Security KT - exploring tools. Handling internal errors implementation in derivation just started.
-    Hari - jobs in different spaces - PR and merged. Remaining 2 tenant migration - this week security report preparation.
-        SetSDL meeting so discussing with them - Srini connected with that team for security task - what meeting.
-        First assessment - improvement plan. Requirement.
-        US10 abstract model - login to cf failing - Pavan or Abhijeet sync. client I can help you.
-Hello World
-React is mastering presentation layer
-Spring is mastering application layer.
-Scrum updates - L0 and drill down to L1 DFD until more is required.
-Scrum - Need devp access for staging space in order to get kafka keys from the service instance. If not, their performance user - needs dev access and only Severin can do it.
-    He is offline since morning must be one leave.
-    Spark skeleton is ready - need to add casssandra and redis to it
-    Kafka I have added but not working - haven't got time to work on it.
-Scrum updates
-    Performance
-        Markdown formatting
-        Added more details to wiki
-        Added file in the same place
-        Can I close it
-    Spark Connection Health Check
-        Added env parts for hana
-        For spark - went thru the code
-        Will start in scalable manner.
-Scrum
-    Performance
-        validated a successful run but couldn't check spark metrics - could not restart cuz permission asked thru BCP.
-        Added wiki link to the story
-        more ideas on eventual analytics with the digital twin of spark and extending to azure integration - discussed.
-    Spark Connector
-        Tried deploying a sample spring app and it failed.
-        Was trying spring security but not necessary
-        continue
-    Security Training is remaining from blr team side.
-        Export control about ECC stuffs.
-    Re-ingestion part tested in sandbox - blocked in pipeline - not resolved - so calling it blocked in jira.
-        will jmeter script shared with colleagues
-    finished testing hybrid issue for thing model. Take to staging. Testing scenarios in there for both models.
-        some time in tickets. Spark jobs coming and going - NGP created. Chisel directly into NS2.
-        sth failing cuz not able to log to IOTS instance.
-        Contact that guy.
-    DoD yesterday - 4 BCP taken care, 1 for derivation, 1 for PdMS in stakeholder space; some consultation for other team.
-    abstract model hook, modeling incorporating sth, ...
-        chance to sync regarding master pom.
-    Security expert handover SVM - check, audit and assess vulnerabilities b4 release.
-        spark lib size limit.
-        diff of maven dependency trees - marked as provided. Transitive dependencies are causing the problem.
-        reduce the jar size thru that.
-        Master pom - have pipeline dependency added. Check-in to master pom then dependents should get triggered automatically.
-        trigger build from di-utils can be removed - all apps will trigger automatically from master pom - so we remove our masters from there.
-        Security audit - avoid doing things in the midnight.
-        Derivation task - could not find time to work on it. Discuss with Suraj what's pending for handover.
-    VH BCP time taken - analysis goes like this - submit to jobsubmitter passing credentials to tenant. Some of the tenants
-        404 on managed store. Object store creation - onboarding - object store not created for some of tenants - core store.
-        404 continuously - goes on trying endlessly. Doesn't know that object store doesn't exist.
-        discussed with Imran and couple of options. Roll out that object store creation is not instant so gotta accommodate that scenario.
-        worklist in 404.
-        Migration activity - setting mirror maker with cluster with help of Thomas team. Replication of topics happening.
-            automatic provisioning happening. Right offset should be there.
-        Evaluation for mirror maker or manual things.
-    Rules runtime is part of foundation1 - putting it in required section of app - it failed.
-        removed and added to correct section. 1 part of rule is always available in Noah space.
-        working with abstract model - some cases failing. will get stuck with jar size as well.
-    Hari - migration for v2 to v3. 1 tenant in progress. Security report prep for app - for 2 it's already done.
-        pipeline status fortify if possible.
-        PR approved and ops coordination for merging.
-    Review comments for fix.
-    Derivation script updating going on.
-    Explored some tools yesterday.
-    2 scripts failing - Sweta aligned - eth goes fine after configs - derivation script for data purge. Created my own app to test it.
-        data ingestion monitoring. expose api for her today.
-        master pom adoption. Script fails in test suite - in commit space works fine.
-Review meeting
-    Raise blockers in the jira.
-    kafka topic unsubscribed and not used to be deleted.
-        monitoring/kafka topic cleanup - /api/jobsubmitter/exclude
-    Next sprint - reingestion capabilities and master pom adoption besides.
-    Update on kafka migration.
-        part of standard cluster migration.
-        non-mirror maker base and with mirror.
-They share and pass on the culture to next generation but not huge pass on from 1 gen to next.
-{
-    "id": "dcacbd50-4117-4140-925b-17bbff325a17",
-    "name": "app1",
-    "tenantId": "f02fb6cd-43db-4604-856b-c2dacbab6804",
-    "type": "java",
-    "lastModified": "2021-02-05T08:04:37.297Z",
-    "parameters": {
-        "mainClass": "org.First"
-    },
-    "config": {}
-}
-
-curl --location --request POST 'https://spark-service.cf.sap.hana.ondemand.com/v1/f02fb6cd-43db-4604-856b-c2dacbab6804/apps' --header 'SLUG: app1' --header 'Content-Type: application/json' --header 'Authorization: Basic c2Jzc18xMTNfb3R0MmVjY2FfLW42YzctZ3Nrc2s4bXM9OmFhX3RQVW9EVzNyYVhaTWRscXMzNjROLzZMdStROD0=' --data-raw '{
-    "type": "java",
-    "parameters": {
-      "mainClass": "org.First"
-    }
-}'
-
-curl -X POST -u "user:passwd" -H "SLUG: app1"
-  -H "Content-Type: application/json"
-  -d '{
-    "type": "java",
-    "parameters": {
-      "mainClass": "org.First"
-    }
-  }' https://spark-service.cf.sap.hana.ondemand.com/v1/f02fb6cd-43db-4604-856b-c2dacbab6804/apps
-curl --location --request DELETE 'https://spark-service.cf.sap.hana.ondemand.com/v1/f02fb6cd-43db-4604-856b-c2dacbab6804/apps/app1' --header 'SLUG: lib1' --header 'Content-Type: application/json' --header 'Authorization: Basic c2Jzc18xMTNfb3R0MmVjY2FfLW42YzctZ3Nrc2s4bXM9OmFhX3RQVW9EVzNyYVhaTWRscXMzNjROLzZMdStROD0=' --data-raw '{
-    "type": "java",
-    "parameters": {
-      "mainClass": "org.First"
-    }
-}'
-curl --location --request GET 'https://spark-service.cf.sap.hana.ondemand.com/v1/f02fb6cd-43db-4604-856b-c2dacbab6804/apps' --header 'SLUG: app1' --header 'Content-Type: application/json' --header 'Authorization: Basic c2Jzc18xMTNfb3R0MmVjY2FfLW42YzctZ3Nrc2s4bXM9OmFhX3RQVW9EVzNyYVhaTWRscXMzNjROLzZMdStROD0=' --data-raw '{
-    "type": "java",
-    "parameters": {
-      "mainClass": "org.First"
-    }
-}' - all names like iot-gdpr-unified-dsc-app, iot-iot_sandbox-unified-app, der-deriv251-unified-app, coldstore-export-sap-app.
-You can send binary data thru postman - https://stackoverflow.com/questions/50395010/spring-postman-content-type-application-octet-stream-not-supported
-    form file, data binary content, binary string, etc.
-{
-    "id": "4b3791c1-9265-4262-8204-58dbadf0c3f6",
-    "name": "lib1",
-    "tenantId": "f02fb6cd-43db-4604-856b-c2dacbab6804",
-    "appId": "f630d1c1-2b4c-4dd1-b5f8-50ef23eac01e",
-    "externalId": "l~f02fb6cd-43db-4604-856b-c2dacbab6804~f630d1c1-2b4c-4dd1-b5f8-50ef23eac01e~lib1",
-    "version": "b301005eb7ebe9418378585be10cfa28b5600608",
-    "contentLength": 3115,
-    "lastModified": "2021-02-05T08:31:00.882Z"
-}
-curl --location --request POST 'https://spark-service.cf.sap.hana.ondemand.com/v1/f02fb6cd-43db-4604-856b-c2dacbab6804/contexts' --header 'Content-Type: application/json' --header 'SLUG: context1' --header 'Authorization: Basic c2Jzc18xMTNfb3R0MmVjY2FfLW42YzctZ3Nrc2s4bXM9OmFhX3RQVW9EVzNyYVhaTWRscXMzNjROLzZMdStROD0=' --data-raw '{
-    "parameters": {
-      "context-factory": "spark.jobserver.context.StreamingContextFactory"
-    }
-}'
-{
-    "id": "87e92e1a-262a-474d-b34c-cfb16f4e2f39",
-    "name": "context1",
-    "tenantId": "f02fb6cd-43db-4604-856b-c2dacbab6804",
-    "externalId": "c~f02fb6cd-43db-4604-856b-c2dacbab6804~87e92e1a-262a-474d-b34c-cfb16f4e2f39",
-    "status": "RUNNING",
-    "cores": 2,
-    "memory": "512mb",
-    "lastModified": "2021-02-05T08:37:52.324Z",
-    "parameters": {
-        "context-factory": "spark.jobserver.context.StreamingContextFactory",
-        "spark.cores.max": 2,
-        "spark.executor.memory": "512mb",
-        "launcher.spark.driver.memory": "1g"
-    }
-}
-spark.jobserver.context.SessionContextFactory
-{
-    "id": "[400-SUBMITS-UNCLEX]",
-    "description": "Unexpected Classpath Exception",
-    "message": "The specified main class (org.App) is not found on the classpath of context context1",
-    "timestamp": "2021-02-05T08:45:57.482Z",
-    "requestId": "a92dc65c-169b-4ab5-7ae9-d1c871b4878b"
-}
-I changed file name but not class name of scala and hence it was not able to detect the main class path - cuz file with old class name didn't even exist.
-{
-    "id": "[400-SUBMITS-SULOFA]",
-    "description": "Submit Loading Failed",
-    "message": "Necessary class or method is not provided for the app app1. Inspect the Spark cluster log files.",
-    "timestamp": "2021-02-05T08:52:10.048Z",
-    "requestId": "ca830f48-8b93-4339-6d19-96e5cd8e446f"
-}
-need to implement runJob Method and extend a class.
-appName not a valid name.
-gotta extend SparkJob
-    add pom dependencies of sparkJob-api and its extension.
-    gotta override the methods.
-https://github.com/spark-jobserver/spark-jobserver
-Cloud Foundary access from UI - Basically SCP SPC - link given by Suraj but it's SCP only.
+EQ - I should love not only family, but also friends and relatives, next I should love my city, state, country and world (meaning people in there).
+    This is what ashram entails as its goal.
+CS
+    If you don't use @Lazy, the framework creates a singleton bean at the application startup and makes sure that the same instance is autowired and reused in all other dependent beans
+    REST Controller is multithreaded - It is not the case that the controller will block all subsequent calls while busy. It is multithreaded.
+        REST controller is multithreaded as the DisptcherServlet handles multiple requests from the clients concurrently and serves using the respective controller methods.
+        Your controller is a singleton by default and your service is singleton by default too.
+        So, to make them thread safe - make sure that the operations that take place inside the service must be thread safe
+        Use @transactional annotation in spring or implement it yourself.
+        We can test this thru a variable increment - have a class with a variable able to take 3 values.
+            Let the returned value increment over every call.
+    Thread safe - lots of threads in a process will traverse thru a given object (class instance) methods.
+        A class is thread-safe if it behaves correctly when accessed from multiple threads,
+        regardless of the scheduling or interleaving of the execution of those threads by the runtime environment,
+        and with no additional synchronization or other coordination on the part of the calling code.
+    Web App - starts with premise of n threads for n requests
+        but nothing shared across threads except singleton objects and static class members - variables and methods of the class.
+        All threads have different class instances to run on without a problem - nth shared but when threads work on anything shared - then there are potential problems.
+        like shared class members or singleton class or classes with limited instances - then you have the problem of thread safety.
+        Think of it this way - lots of threads are coming thru Our controller class. Any state information can easily be wronged.
+    Rest controllers don't run 1 after the other - although controller instance is shared - all threads run it simultaneously
+        so at any given time we can have n threads running thru the singleton controller.
+CS - Arch - make 1 straight forward transactional DFD story and then think alternatives.
+IDEA - Derivations and discussions. Also delivered in LIB so qualifies for sume.
+    Create a transformation matrix for the TSS vector. Any product is also yet another transformational matrix. But convenient for the user.
+        chaining of the rules is output becomes input for the other.
+        This is being realized thru nested rules - rule that has rule as a function. Good idea. Called rule orchestration.on
+        windowing - for sliding average - can think of implementing it in terms of sequences of previous one itself.
+            but the problem of late comers. Integral as a solution. I would like to have it but how to explain to the users but gotta explain - not easy to sell.
+        Transformation problem solution is quite a work.
+            introduce 2 spark jobs - error recognition, outlier recog, and correction, UoM transformations.
+            expensive to break everything around monitoring and data ingestion pipeline. Any idea to do it quicker.
+            We lose many customers cuz we don't have these basic capabilities.
+    Sequential circuits vs combinatorial circuits - when output becomes the input for the same or the other circuit.
+        Sequential circuits - can realize polynomial functions of higher order.
+        Not that design time team has to do it - even we can do it from inside our spark job - this can be proposed or implemented when time comes.
+        @who needs it from hardware when software can do it.
+CS - Refactoring
+    Doesn't matter lines of code (5-15 is a helpful indicator through). method should do one thing and only one thing.
+    Indicators that this is not the case -
+        More than one level of indention in a method
+        Paragraph Breaks - whitespaces between logical statements.
+    fit on screen is very good - imagine if you have to gives reasons to a lawyer.
+PIES - Foundation - It is about well being. Divided into 4 as follows
+    Attitude - Internal or mental well being. Mental States - personal psyche.
+        Can stretch this to include external conduct in personal space.
+    Behavior - Well being with respect external conduct (personally or socially) - eg driving car, polity, etc. Social psyche (or personal well being in society)
+    Communication - Well being thru Interactions or exchanges. Networking - micro-economics and fun
+    Devotion - Well being thru being purpose centric. Scrum. Effectiveness or IQ Motivation.
+    Conclusion - Psychology, economics and Motivation is at the heart of this.
+        but also social studies for behaviors eg but that can always be studied under ashram.
+EQ - Economics
+    Price increase does not change demand (only demanded quantity). In economic terms, demand is a reference to how useful a good is to the customer.
+    in economics, if they say “demand increases” it means people are willing to pay more for it.
+    True demand has it’s root in fundamental human desire, not in economics. It’s a subjective measure of how important a good or service is to a person relative to other goods and services.
+    So when we say demand increases, we are suggesting people have changed their view of what is important to them and they want more of a product than they did in the past.
+    if ice were simply to become a far more popular product for people to buy, then the companies producing and selling ice might be able to produce it for less, due to economies of scale
+    So in general, increased demand increases price when supply kept constant but if supply can be increased then economics of scale takes over.
+    Similarly, lower demand, lower cost.
+    Higher prices mean less demand. But High demand raises the prices.
+    1 ice-creaming then bidding so price shoots. 100 icecream, price drops cuz you have replacements.
+    Higher price (than value), you reduce the intake thus demand; lower price, then you over use it.
+    So, price is just in middle and price and demand keep affecting and stabilizing each other along with supply.
+    There's demand so there's price. Price rising, then demand reduces so you can't increase it too much.
+    Study it as human behavior with respect to price in terms of supply and demand. The price is too low, people will desire it more.
+        another study, market behavior of price, with respect to demand and supply. You know that people value this, you can rate it high.
+CS - Spark - Exception in thread "main" java.lang.NoClassDefFoundError: org/apache/spark/SparkContext
+    Caused by: java.lang.ClassNotFoundException: org.apache.spark.SparkContext
+    change scope for spark dependencies from provided to compile
+CS - Logger
+    logger.info - can't write long along - concatenate with string for proper results.
+CS - cf Process not found. Memory not sufficient.
+    cf delete-orphaned-routes and open cf apps in new terminal.
+    launch front end and delete some stopped services. That won't work.
+    Delete some running unnecessary services cuz of quota cf org org_name, cf quota quota_name.
+IQ - Presentation
+    Organize your content.
+        Theory and Practical should intersperse - practical really spices things up.
+        specification, then end user presentation, architecture, code review.
+    Practice 3 times b4 your presentation.
+CS - Mac hierarchy - Good UXD.
+    Apple icon -> list -> icons -> tabs -> list columns hierarchy -> individual controls / Demo video.
+CS - Maven POM - CF 404 - Sometimes even after deployment cf app does not respond and gives 404 not found - although it worked in local. Gotta add following to spring-boot maven plugin.
+    <execution>
+        <goals>
+        <goal>repackage</goal>
+        </goals>
+    </execution>
+    </executions>
+CS - Kafka
+    Producer
+        Properties
+            bootstrap.servers - eg - localhost:9092,localhost:9093
+            key.serializer - eg org.apache.kafka.common.serialization.StringSerializer
+            value.serializer - eg - SupplierSerializer class
+            Others in respective places
+                props.put("group.id", groupName); - for consumer
+                props.put("partitioner.class", "SensorPartitioner"); - for partition
+                props.put("speed.sensor.name", "TSS");
+        KafkaProducer(props)
+        send(ProducerRecord) - exception proned (?asynchronous)
+            get() - for synchronous
+        send(ProducerRecord, callback(recordMetadata, exception){})
+            send(ProducerRecord, new MyProducerCallback())
+        producer.close();
+    dependencies ->
+        ProducerCallback 
+            class MyProducerCallback implements Callback {
+                public void onCompletion(RecordMetadata, Exception) {}
+            }
+        ProducerRecord[Object, Object](topic, key, value)
+        Partition
+            props.put("partitioner.class", "SensorPartitioner");
+            Producer(props).
+            class SensorPartitioner implements Partitioner {
+                configure
+                Partition("topic", Object key, byte[] keyBytes, value, valueBytes, Cluster cluster) {}
+                close(){}
+            }
+        SupplierSerializer implements Serializer[Supplier] {
+            configure
+            serialize(String topic, Supplier data): byte[] {
+                id.toString().getBytes("UTF8")
+                ByteBuffer.allocate(space)
+                ByteBuffer.putInt(id); 
+            }
+            close
+        }
+        Deserialize
+            Deserialize(topic, byte[] data): Supplier {
+                ByteBuffer.wrap(data).getInt();
+                new String(ByteBuffer.get(byte[]), "UTF8")
+            }
+    Consumer
+        Properties
+            key.deserializer - org.apache.kafka.common.serialization.StringDeserializer
+            props.put("group.id", groupName);
+            enable.auto.commit, false
+            props.load(new FileInputStream("fileName"));
+        KafkaConsumer[Object, Object] consumer = new KafkaConsumer[](props);
+            consumer.subscribe(Arrays.asList(topicName));
+                consumer.subscribe(Arrays.asList(topicName),rebalanceListner);
+            records = consumer.poll(100) -> ConsumerRecords
+            consumer.commitAsync();
+            consumer.commitSync();
+                consumer.commitSync(currentOffsets);    //Map[TopicPartition, OffsetAndMetadata] - useful with RebalanceListener
+            consumer.close()
+        ConsumerRecords[String, Supplier] records = consumer.poll(100);
+            records.count()
+            record.topic(), record.partition(),record.offset()
+            for(ConsumerRecord record: records)
+            record.value().getID()
+        TopicPartition
+            p0 = new TopicPartition(topicName, 0);
+            p0.partition()
+            consumer.assign(Arrays.asList(p0,p1,p2));
+            consumer.position(p0)
+            consumer.seek(p0, offset)
+            consumer.position(p0)
+        rebalanceListner extends ConsumerRebalanceListener
+            new RebalanceListner(consumer)
+            rebalanceListner.addOffset(record.topic(), record.partition(),record.offset());
+                remember topicPartition and OffsetAndMetadata Map.
+            onPartitionsRevoked(Collection[TopicPartitions] partitions) {
+                use currentOffsets to consumer.commitSync(currentOffsets)
+            }
+            useful if you had read but not committed and rebalance happened in the meantime.
+    AvroProducers and AvroConsumers - ...
+    

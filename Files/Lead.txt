@@ -1089,3 +1089,47 @@ EQ - Economics - Centralized market vs distributed market - centralized where ch
 	We don't want a selected few holding all the money in the world - that just makes crime increase and increase in social dissatisfaction. So income taxes are a great help but those belong to govt - so they can make a thumbs up deal among each other.
 	IT like other tools made the jobs increase in market as expected but graph of economy it creates doesn't grow exponentially.
 	Think past decades even rich people would eat chapattis with pickle cuz of bad economy so centralization is necessary.
+PIES - Manasvi - fully active but not conscious of surroundings - like in a sleep b4 wake up
+    scientists are manasvi st forget surroundings.
+    Yogis are manasvai. Tapasvi - is absorption in tapa. Taking self on mind or tapa - incentive-ize your meditation.
+PIES - Give direction to your efforts
+    We end up with lots of busy-ness - it is important that we always know our culminating point else we tend to go haywire.
+        ultimately eth ends what remains is the abstract - we are not meant to play with cheap thrills but see a larger picture.
+        The follow lists different granularities goals but they are not mutex and the former is meant to act as the lighthouse for the latter.
+        It is like you are on a journey but choose the trace which is more satisfying. Some people may choose the shortest trace in favor of enjoyable ride - that's a personal choice.
+    And may feel a sense of incompleteness even after doing a lot. The hierarchy of goals is as follows:
+        Godhead - truly worthy goal after life - we have to achieve the stage of love by EOL - so need urgency. Eg - SP line.
+            At least, qualify for the righteous circle
+            At least, qualify to be a demigod
+            SVAF - Spiritual visions, VAF - subtle body readiness for next lives.
+        Legacy - Giving legacy (BJDK - showed way, knowledge, PS, made something) to future generations - everything else abstracts out to nothing - but legacy lives on.
+            Eg - ISKCON, Yoga by Ramdev, many historical personalities like freedom fighters, etc.
+            SVAF - legacy in spirituality, legacy in varna (research papers), legacy in ashram (3 idiots movie), in foundation (some abstract health topics)
+        YOLO - Living a fulfilling life - all layers of gratifications - YOLO conscious life.
+            S - Social Spirituality
+                Love for Jivas.
+                service as a goal - contributions in the present.
+            V - Ego - Becoming - by paying the price. Heisenberg.
+                Intel - work where lots of challenges are solved - all the while. Walter White's Umph!
+            A - Mind - fun where social consumption is significant - all the while. Swat Cats Yeah! Ye zindagi milegi na dubara.
+            F - best and authentic personal self - where I get to learn and be what I want while I am here. Newton, batman, spider-man.
+CS - REST webclient
+    username = "username"
+    password = "password"
+    url = "http://route.com/resource"
+    Client client = ClientBuilder.newBuilder().build();
+    HttpAuthenticationFeature feature = HttpAuthenticationFeature.basic(username, password);
+    client.register(feature);
+    WebTarget target = client.target(url);
+    MultivaluedMap<String, Object> headers = new MultivaluedHashMap();
+    headers.add("Content-Type", "application/json");
+    JSONObject input = new JSONObject();
+    input.put("field", "value");
+    JSONObject jsonParams = new JSONObject();
+    jsonParams.put("anotherField", "anotherValue");
+    input.put("parameters", jsonParams);
+    Response response = target.request().headers(headers).post(Entity.entity(input.toString(), "application/json"));
+    response.bufferEntity();
+    int httpcode = response.getStatus();
+    System.out.println("HTTP Code = " + httpcode + " " + response.getStringHeaders());
+
