@@ -148,7 +148,134 @@
                         Kafka Streaming
                             ...
                     Regex
-                        JavaDocs and Eg
+                        Kafka
+							Producer
+								Properties
+									ProducerConfig.CLIENT_ID_CONFIG, "appName"
+									bootstrap.servers - eg - localhost:9092,localhost:9093
+										props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, AppConfigs.bootstrapServers);
+									key.serializer - eg org.apache.kafka.common.serialization.StringSerializer
+										ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG
+										import org.apache.kafka.common.serialization.IntegerSerializer
+									value.serializer - eg - SupplierSerializer class
+										ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG - string, int whatever with path.
+										JSONSerializer Class can be made - implements Serializer[T]
+											public byte[] serialize(topic, T data) {
+												if data != null, ObjectMapper().writeValueAsBytes(data);
+											}
+											ObjectMapper().readValue(new File(data_file), PosInvoice.class) -> responsible for converting json to object - outside of plugin.
+											this class is written with @JsonProperty("JsonField") private String objectField;
+
+									Others in respective places
+										props.put("group.id", groupName); - for consumer
+										props.put("partitioner.class", "SensorPartitioner"); - for partition
+										props.put("speed.sensor.name", "TSS");
+								KafkaProducer(props)
+								send(ProducerRecord) - exception proned (?asynchronous)
+									get() - for synchronous
+								send(ProducerRecord, callback(recordMetadata, exception){})
+									send(ProducerRecord, new MyProducerCallback())
+								producer.close();
+							dependencies ->
+								ProducerCallback
+									class MyProducerCallback implements Callback {
+										public void onCompletion(RecordMetadata, Exception) {}
+									}
+								ProducerRecord[Object, Object](topic, key, value)
+								Partition
+									props.put("partitioner.class", "SensorPartitioner");
+									Producer(props).
+									class SensorPartitioner implements Partitioner {
+										configure
+										Partition("topic", Object key, byte[] keyBytes, value, valueBytes, Cluster cluster) {}
+										close(){}
+									}
+								SupplierSerializer implements Serializer[Supplier] {
+									configure
+									serialize(String topic, Supplier data): byte[] {
+										id.toString().getBytes("UTF8")
+										ByteBuffer.allocate(space)
+										ByteBuffer.putInt(id);
+									}
+									close
+								}
+								Deserialize
+									Deserialize(topic, byte[] data): Supplier {
+										ByteBuffer.wrap(data).getInt();
+										new String(ByteBuffer.get(byte[]), "UTF8")
+									}
+							Consumer
+								Properties
+									key.deserializer - org.apache.kafka.common.serialization.StringDeserializer
+									props.put("group.id", groupName);
+									enable.auto.commit, false
+									props.load(new FileInputStream("fileName"));
+								KafkaConsumer[Object, Object] consumer = new KafkaConsumer[](props);
+									consumer.subscribe(Arrays.asList(topicName));
+										consumer.subscribe(Arrays.asList(topicName),rebalanceListner);
+									records = consumer.poll(100) -> ConsumerRecords
+									consumer.commitAsync();
+									consumer.commitSync();
+										consumer.commitSync(currentOffsets);    //Map[TopicPartition, OffsetAndMetadata] - useful with RebalanceListener
+									consumer.close()
+								ConsumerRecords[String, Supplier] records = consumer.poll(100);
+									records.count()
+									record.topic(), record.partition(),record.offset()
+									for(ConsumerRecord record: records)
+									record.value().getID()
+								TopicPartition
+									p0 = new TopicPartition(topicName, 0);
+									p0.partition()
+									consumer.assign(Arrays.asList(p0,p1,p2));
+									consumer.position(p0)
+									consumer.seek(p0, offset)
+									consumer.position(p0)
+								rebalanceListner extends ConsumerRebalanceListener
+									new RebalanceListner(consumer)
+									rebalanceListner.addOffset(record.topic(), record.partition(),record.offset());
+										remember topicPartition and OffsetAndMetadata Map.
+									onPartitionsRevoked(Collection[TopicPartitions] partitions) {
+										use currentOffsets to consumer.commitSync(currentOffsets)
+									}
+									useful if you had read but not committed and rebalance happened in the meantime.
+							AvroProducers and AvroConsumers -
+								Use Value serializer - io.confluent.kafka.serializers.KafkaAvroSerializer
+								make avsc json file
+								add avro dependencies or plugins in sbt or pom files and both java model and java serializer will be taken care of.
+									"org.apache.avro" % "avro" % "1.8.1",
+									"io.confluent" % "kafka-avro-serializer" % "3.1.1",
+									repo and resolvers - confluent.
+							POMs
+								kafka-clients, slf4j, maven compiler plugin.
+							Multi-threaded kafka producer
+								In a loop, Thread[] dispatchers = new Thread(new Dispatcher(producer, details)).start()
+								for(Thread t: dispatchers) dispatchers[i].join()
+								producer.close()
+								ANOTHER
+								ExecutorService executor = Executors.newFixedThreadPool(noOfProducers);
+								RunnableProducer runnableProducer = new RunnableProducer(producer, details);
+								executor.submit(runnableProducer);
+								//addShutdownHook
+									Runtime.getRuntime().addShutdownHook(thread);
+									thread - new Thread(()-> {
+										runnableProducer.shutdown(); //for all threads - ending code.
+										executor.shutdown();
+										executor.awaitTermination(50, TimeUnit.MILLISECONDS);
+									})
+							Transactions Producer - all or none.
+								Property - ProducerConfig.TRANSACTIONAL_ID_CONFIG, AppConfigs.transaction_id
+								producer.initTransactions();
+								producer.beginTransaction();
+								//do producer works
+								producer.commitTransaction();
+								producer.abortTransaction(); and close.
+								start another thru beginTransaction.
+							JSON to POJO - Json Schema to POJO plugin
+								jsonschema2pojo-maven-plugin
+								dependencies - jackson-databind; commons-lang.
+							Maven Avro plugin for generating pojo
+								avro-maven-plugin
+								avro dependency.
                     HelloWorld
                 </Kafka>
             </Servers>

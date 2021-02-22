@@ -163,83 +163,46 @@ CS - Maven POM - CF 404 - Sometimes even after deployment cf app does not respon
         </goals>
     </execution>
     </executions>
-CS - Kafka
-    Producer
-        Properties
-            bootstrap.servers - eg - localhost:9092,localhost:9093
-            key.serializer - eg org.apache.kafka.common.serialization.StringSerializer
-            value.serializer - eg - SupplierSerializer class
-            Others in respective places
-                props.put("group.id", groupName); - for consumer
-                props.put("partitioner.class", "SensorPartitioner"); - for partition
-                props.put("speed.sensor.name", "TSS");
-        KafkaProducer(props)
-        send(ProducerRecord) - exception proned (?asynchronous)
-            get() - for synchronous
-        send(ProducerRecord, callback(recordMetadata, exception){})
-            send(ProducerRecord, new MyProducerCallback())
-        producer.close();
-    dependencies ->
-        ProducerCallback 
-            class MyProducerCallback implements Callback {
-                public void onCompletion(RecordMetadata, Exception) {}
-            }
-        ProducerRecord[Object, Object](topic, key, value)
-        Partition
-            props.put("partitioner.class", "SensorPartitioner");
-            Producer(props).
-            class SensorPartitioner implements Partitioner {
-                configure
-                Partition("topic", Object key, byte[] keyBytes, value, valueBytes, Cluster cluster) {}
-                close(){}
-            }
-        SupplierSerializer implements Serializer[Supplier] {
-            configure
-            serialize(String topic, Supplier data): byte[] {
-                id.toString().getBytes("UTF8")
-                ByteBuffer.allocate(space)
-                ByteBuffer.putInt(id); 
-            }
-            close
-        }
-        Deserialize
-            Deserialize(topic, byte[] data): Supplier {
-                ByteBuffer.wrap(data).getInt();
-                new String(ByteBuffer.get(byte[]), "UTF8")
-            }
-    Consumer
-        Properties
-            key.deserializer - org.apache.kafka.common.serialization.StringDeserializer
-            props.put("group.id", groupName);
-            enable.auto.commit, false
-            props.load(new FileInputStream("fileName"));
-        KafkaConsumer[Object, Object] consumer = new KafkaConsumer[](props);
-            consumer.subscribe(Arrays.asList(topicName));
-                consumer.subscribe(Arrays.asList(topicName),rebalanceListner);
-            records = consumer.poll(100) -> ConsumerRecords
-            consumer.commitAsync();
-            consumer.commitSync();
-                consumer.commitSync(currentOffsets);    //Map[TopicPartition, OffsetAndMetadata] - useful with RebalanceListener
-            consumer.close()
-        ConsumerRecords[String, Supplier] records = consumer.poll(100);
-            records.count()
-            record.topic(), record.partition(),record.offset()
-            for(ConsumerRecord record: records)
-            record.value().getID()
-        TopicPartition
-            p0 = new TopicPartition(topicName, 0);
-            p0.partition()
-            consumer.assign(Arrays.asList(p0,p1,p2));
-            consumer.position(p0)
-            consumer.seek(p0, offset)
-            consumer.position(p0)
-        rebalanceListner extends ConsumerRebalanceListener
-            new RebalanceListner(consumer)
-            rebalanceListner.addOffset(record.topic(), record.partition(),record.offset());
-                remember topicPartition and OffsetAndMetadata Map.
-            onPartitionsRevoked(Collection[TopicPartitions] partitions) {
-                use currentOffsets to consumer.commitSync(currentOffsets)
-            }
-            useful if you had read but not committed and rebalance happened in the meantime.
-    AvroProducers and AvroConsumers - ...
-    
+IQ - Lessons from College Alumnus senior Abhijeet of SAP who left for Intuit
+    US Finance for tax filing - books maintain - us finance - real time transactions to be streamlined - kubernetes, apache kafka,streaming real time, it's not there yet
+    it could batch - schedule they do - as much as manager said - that has to be real time.
+    4.5 years now so have to see new - Any time no learning it's time to switch within or outside.
+    do as much in 40 years - do as much good as possible by that time.
+    Stable position by 40 years - monetary value and designation - it gets dangerous with time. Like pandemic.
+    stable - work and money. You are young - design item pick.
+    Brain you have - design item uthao - crowd - only few people are good - Ajay is good (a lot to learn from, can offer helps), kanu is good, ok, Imran is good.
+    Baaki sabki dukan chal rahi hai. Tune dukaan nahi chalani - seekh karke nikalna hai. Grow more. Learn and grow - repeat.
+    Get good work - this is old and deprecated. Old home work and then pick new work.
+    New tools and learning but money is less - that disturbs.
+    Less money should inspiration for work. People still can give you more money for work - but you gotta see both work and money.
+        not step out just like that - money more and work also good.
+        Know good work then good money not vv. Basics strong and then go out - lots of money in market.
+        Private company this is the advantage it's not govt company.
+        No deception here - learn till you know everything - what you do - ppl or can close eyes and tell it all. I know in and out - he knows business - he should be able to say.
+        Less money will give you inspiration that I need to improve and get better.
+        This is beginning - pick work then learning and responsibility comes naturally - if you keep sitting, that's what you end up with.
+        More work you pick, more you are pushed forward.
+        Work pickers are little less - pick a bcp and take help from others.
+        BCP solving then you will understand the product - Ask ajay he will help - but need to go to him with knowledge - to ask him about M, you already need to know A to L.
+        Accha sa Kaam utha - design kar, interest automatically aa jayega.
+        coming from good place and have learnt so much that others won't know - so implement more than others - give suggestion.
+        Behind the curtain won't give anything - Come ahead and speak - it's our team only. Speak out and you know so much that here people don't 
+            not so much about showcasing yourself than giving really good suggestion.
+            But b4 suggestion, read something about product - if that's feasible not selling knowledge - speaking anything without even knowing the product.
+            wiki documents - product exploration - sap help document gives business knowledge.
+            Ingestion pipeline - scala streaming code - no rocket science - only take input source is different from output.
+            so take input from device. Output is time series. Spark streaming written for that. Cache written - transforms and gives something else. That's all.
+            Know some spark and kafka - write some spark streaming app - then Confidence that I know things.
+            Architectural understanding - product understanding and product programming then architecture is automatic.
+        State spec - spark streaming lecture - it's a hashmap. Any language to learn is see its documentation.
+            if keywords then you don't get anywhere - it's simple cache. If you hold onto something then you won't get it.
+            Lectures see - conference, summits gotta see - some old ones really good. Faruki's is good.
+            Some small product you should make in weekends - read spark like a guy came who didn't now spark earlier - he learnt - picked data from open source.
+            and did streamlining on aadhar card and stored in redis - automatically understanding comes - for your own learning.
+            don't think it is company's work - company's work is project. Technology is OSS and that is another project. Office we just more.
+            But learning tech is first thing and then comes product.
+        You need to look up to 7 - And I am not going till that date and there are many more people to look up to. take my number. Anyways from the same college.
+    Hike is good 50% and your level it will be far more - market is not bad - market is good and they pay a lot.
+        ye log bakar kar rahe hain in praising.
+CS - we can always pin point the source of where it stops working when we have 1 working piece and another not working piece.
+    https://stackoverflow.com/questions/42701394/why-doesnt-offset-get-updated-when-messages-are-consumed-in-kafka
