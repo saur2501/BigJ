@@ -5,6 +5,73 @@
     <Systems>
         <Platforms>
             <Suse></Suse>
+			<LINUX>
+				Linux directory structures
+					/
+					IaaS
+						/dev - virtual files for the devices.
+						/media - removable drives as folder.
+						/mount - system admins use this to manually mount a filesystem.
+					OS (=windows)
+						/boot - boot files
+							contains the files of the kernel and boot image, in addition to LILO and Grub
+						/proc - process and kernel files
+							information about. to get runtime system information.
+						/var - variable data files - appData
+							programs store runtime information like system logging, user tracking, caches, and other files that system programs create and manage.
+							Eg - login history - not cleaned automatically. All logs also in here - mail server logs, system boot logs, kernel logs, etc.
+						/etc - configuration file (of system) used by admins or services (password file and networking files)
+							system config changes like hostname change is done here.
+					Shell - OS Facade (=windows system32 files)
+						/bin - binaries
+							executable files of many basic shell commands like ls, cp, etc.
+						/sbin - only su can run these binaries.
+						/lib - shared libs.
+							codes that can be used by the executable binaries
+					PaaS - softwares for dev or prod (= program files)
+						/usr - user program data and binaries.
+							all the executable files, libraries
+							/usr/bin - basic user commands. sbin for additional user commands. lib - system libs.
+							Eg - /usr/bin/python.
+							Observation - by default all apt-get installations go here and other parts like etc and all.
+						/opt - optional software
+							installing/storing the files of third-party applications that are not available from the distribution’s repository
+							eg - /opt/tomcat, /opt/eclipse-installer
+					SaaS and personal data also (=D Drive)
+						/root - for super user.
+						/home - for all users - has bin, sbin, lib eth.
+					Software Data (appData is actually /var)
+						/srv - service data like website data.
+						/tmp - temp files
+							deleted when your system restarts. Apps use for temp storage.
+					Eg - apt-get maven install writes to /usr/bin/mvn and also etc and /usr/share.
+						Just like program files contains application executables but data and configuration like registry details is somewhere else.
+			</LINUX>
+			<Windows>
+				Windows Toolbar shows all background processes - daemons.
+					A typical PC user has lots of standalone software and clients softwares but almost no servers.
+					Windows - 
+						Analytics - Task Manager.
+						Transactional - Daily business like excel sheets, etc.
+						Master - Apps, data.
+							Apps can be GUI based like IDEs or CMD based like maven.
+						Foundation (authentication, etc) - User accounts, task views, util softwares like scheduler, etc.
+						Configurations - settings and control panel.
+				Windows -> C Drive
+					Windows folder
+					ProgramFiles
+					ProgramData - Eg - Microsoft -> Windows -> StartMenu -> shortcuts in start Menu of windows.
+					Users
+						public
+						Me
+							Onedrive, Favorites, Contacts, 3D Objects, Links, Games, Searches.
+							Desktop, Downloads, Pictures, Documents, Videos, Music, etc.
+							Dumps of apps - .m2, .ssh, .gitconfig, etc.
+							Workspace for IDEs - Pycharm project, etc.
+							AppData
+								Local, LocalLow, Roaming
+								User specific storage by the process of the program.
+			</Windows>
         </Platforms>
         <Frameworks></Frameworks>
     </Systems>
@@ -28,7 +95,7 @@
             <Servers>
                 <Kafka>
                     DM
-                        Kafka
+                        Kafka - Documentation says Distributed streaming platform. similar to message queue or enterprise messaging system.
                             Cluster - Group of computers sharing workload for common purpose
                                 Broker - Kafka Server
                             zookeeper
@@ -48,7 +115,10 @@
                                     Y? parallel processing a topic; manages partition assignment; can rebalance as per consumer entry exit.
                             Meta - Schema Evolution
                             Stream - client library to process data in kafka (like substitute of spark, storm, etc)
+								Stream processors interact.
+								continuous stream of messages can be handled. Stream processing apps - read and store back or pass on
                             Connectors - i/o kafka and systems (Kafka producer separated from App - Kafka Connect to handle producer and consumer part)
+								a framework to build connectors for in / out movement of data between kafka and other systems. Like DB.
                     PM
                         Distributed streaming (platform) - publish subscribe to a record stream, store them, process the stream
                             Fault Tolerance -
@@ -148,6 +218,13 @@
                         Kafka Streaming
                             ...
                     Regex
+						Kafka Cli - Most important scripts
+							./zookeeper-server-start.bat ../../config/zookeeper.properties
+							./kafka-server-start.bat ../../config/server.properties
+							./kafka-topics.bat --create --topic quickstart-events --bootstrap-server localhost:9092
+								./kafka-topics.bat --create --zookeeper localhost:2181 --partitions 1 --replication-factor 1 --topic topic1
+							./kafka-console-producer.bat --topic topic1 --bootstrap-server localhost:9092
+							./kafka-console-consumer.bat --topic topic1 --from-beginning --bootstrap-server localhost:9092
                         Kafka
 							Producer
 								Properties
@@ -281,7 +358,117 @@
             </Servers>
             <Framework>
                 <Spark>
-				CS - Spark
+				About - all the following notes actually belong in detailed CS. Here it should be only DMPM and regex.
+				PySpark (Spark Programming in Python) - Source - LearningJournal.
+					?Useful in - I/O and Storage and Processing
+						1. Data Collection and Ingestion
+						2. Data Storage and Management
+						3. Data Processing and Transformation
+						4. Data Access and Retrieval
+					1. Google File System – 2003
+					https://ai.google/research/pubs/pub51
+						1. HDFS - Hadoop Distributed File System
+						vs Data Lake - Vertical scalability, High capital cost.
+					2. MapReduce – 2004
+					https://ai.google/research/pubs/pub62
+						2. Hadoop MapReduce
+					Layers
+						Infrastructure (Storage) - HDFS, Amazon S3, Azure Blob, Google Cloud, CFS.
+						Resource Managers - YARN Kubernetes Mesos
+						Runtime - Apache Spark Engine - Most active sources
+							Spark Installations or Environment
+								Local Mode - Command Line REPL
+								Python IDE - Pycharm. Anaconda distribution of python is recommended.
+									https://www.jetbrains.com/pycharm/
+									https://www.anaconda.com/products/individual
+									https://spark.apache.org/downloads.html
+									1. Anaconda Platform
+									2. PyCharm
+									3. Spark Binaries
+									4. SPARK_HOME
+									5. HADOOP_HOME
+								Other Notebooks - Jupyter Notebook.
+									set SPARK_HOME
+									install findspark -> python -m pip install findspark
+									Use it in python notebook
+										import findspark
+										findspark.init()
+										import pyspark
+										from pyspark.sql import SparkSession
+										spark = SparkSession.builder.getOrCreate()
+										spark.read.csv("C:\\Users\\I341365\\Desktop\\di.csv").show()
+								Databricks Cloud - Notebooks.
+									Single cluster limited to 6GB and no worker nodes
+									Basic notebook without collaboration
+									https://docs.databricks.com/getting-started/quick-start.html
+									DROP TABLE IF EXISTS diamonds;
+									CREATE TABLE diamonds USING CSV OPTIONS (path "/databricks-datasets/Rdatasets/data-001/csv/ggplot2/diamonds.csv", header "true")
+									?Personal exploration
+										DATABRICKS PLATFORM – FREE TRIAL - ML Frameworks, BI, SSO, 14 day trial
+										COMMUNITY EDITION - For students and educational institutions
+											Import explore data. blank notebook.
+											New Notebook, Table, cluster, MLFlow Experiment, Library Import, Documentation.
+										Cluster - Create, Edit, Clone, Restart, Terminate, Delete.
+											Name, Runtime Version, Zone, Spark.
+											Configuration, Notebooks, Libraries, Event Log, Spark UI, Driver Logs, Metrics, Apps, Spark Cluster UI Master.
+											4 minutes to spin up.
+											Apps, Jobs, Executors, stages.
+										History server for past, yarn for present.
+								Other options - cloud offerings. Eg - Amazon EMR, Google DataProc, Azure HDInsight, etc. Commercial in nature.
+							Execute
+								Execution Styles
+									Stream processing - data is continuously coming and getting processed - Eg - business users informed about news, or IOT.
+									Batch Processing - extract a batch from history and process it. Eg - YT to HDFS to Spark to insights.
+								Program Execution
+									Interactive clients - spark-shell, Notebook.
+									Submit Job - spark-submit, Databricks Notebook, REST API.
+								Processing Model
+									Spark Client - triggers spark-submit to Cluster Manager (YARN).
+									Spark Cluster - YARN receives request. and Creates for Application -> Driver and Executors.
+								Spark Local and Execution Modes
+									Local Machine (Spark Local JVM) - Spark-shell | Notebook | IDE
+										local[n]
+										YARN
+										Kubernetes
+										Mesos
+										Standalone
+									Interactive Clients - Spark Client triggers spark-shell or Notebook.
+										Client Machine - Driver.
+										Spark Cluster Slaves have executors.
+								Spark Session Configs - Configuring Spark Session
+									Sources
+										Environment variables
+										SPARK_HOME conf spark defaults.conf
+										spark submit command line options
+											spark-submit --master local[3] --conf "spark.app.name=Hello Spark" --conf spark.eventLog.enabled=false HelloSpark.py
+										SparkConf Object
+									Precedence for session configs
+										Application Code - SparkConf
+										Spark-submit sources
+											Command Line Options
+											Spark-defaults.conf
+											Environment Variables
+						Spark Core - Scala, Java, Python, R.
+							Ingest - Informatica, Talend, AWS Glue, HVR, 
+								Spark Data Frame Partitions
+									Driver has Spark Session - spark.read.csv() is called.
+									YARN Cluster - In Memory data frame partitions created after reading file blocks. Separate Executor JVMs.
+									HDFS - the file from HDFS blocks.
+							Store (infrastructure already) or process - 
+								Transformation and Actions
+									Read, where, select, group by, count.
+										read.csv()
+										select(age, gender, country, state)
+										filter(age < 40)
+										groupBy(country).count()
+										Actions - show()
+									Narrow Dependency Transformation - A transformation performed independently on a single partition to produce valid results. Literally union of results. REL - where clause only.
+									Wide Dependency Transformation - A transformation that requires data from other partitions to produce valid results. Needs so combining. REL - group by. Solution perform shuffle and sort exchange before group by.
+									Spark Actions - Read, Write, Collect, show.
+							Consume - File Download, JDBC/ODBC, REST Interface, Search, Data Scientist.
+						Spark Libraries - Spark SQL, Spark Streaming, MLlib, GraphX.
+							https://github.com/LearningJournal/Spark-Programming-In-Python
+				CS - Spark - Source - TutorialsPoint
 					Features
 						Speed - 100x in RAM and 10x in Disk of hadoop. Done thru reduced Disk I/O. Interin results in memory.
 						Supports multiple languages - JAVA, Scala, Python, R.
@@ -335,7 +522,7 @@
 							Set up Kubeflow and other Kubernetes-based solutions
 							Bayesnote is a notebook orchestration platform for Jupyter notebook:
 						Others - PySpark Gateway
-					CS - Spark applications (Documentation Reading) - Excellent raw material for DMPM - also add in LJ.
+					CS - Spark applications (Documentation Reading) - Excellent raw material for DMPM.
 						run as independent sets of processes on a cluster
 						coordinated by the SparkContext object in your main program (called the driver program). ?SparkContext is the framework main driver program which we elicit thru exit call role-reversal (cmp with MapReduce)
 						To run on a cluster
@@ -382,6 +569,24 @@
 								master URL
 								Load config from file
 							Advanced dependency Management.
+				Spark UI
+					Spark
+						Worker nodes.
+						Apps 
+							Drivers - SubmitId, Worker Instance, MainClass, Core, Mem, TS, State.
+								Running Completed.
+							Running - AppId, User, Context, Cores, Mem, TS, Duration, State.
+							Completed
+					Spark Job Submit - 
+						ingestionFlow - type abstract.
+						sparkJobConfig
+							jobCategory
+							ContextProperties - hardware specifications
+							additional - batch duration, zk commit counter.
+				Regex
+					Spark Context Creation 
+						conf = new SparkConf().setAppName("App").setMaster("local[*]")
+						val sc = new SparkContext(conf)
                 </Spark>
             </Framework>
             <Scrum></Scrum>
@@ -886,6 +1091,18 @@
                             Main class with static method - containing statements
                             Class Orchestration - OOP concepts over classes.
                                 Design Patterns
+									Strategy - Class behavior at runtime.
+										Observer - trigger a behaviors in subscribers.
+										Template Method - abstract behavior extracted out.
+										Command - commands to behavior mapping.
+										Mediator - middleman for communication.
+										Memento - state recall.
+										State - behavior changes with state.
+										Structural
+										Adapter - Make class behave like other.
+										Facade - representative class for encapsulating all behaviors.
+										Composite - Make object and composition behave similarly.
+										Decorator - add combination permutation of similar behaviors.
                             All Class Logic - DSA over statements.
                         JAVA Compile - javac command creates bytecode (.class files - name same as classes not necessarily file names).
                             classpath, dependencies
@@ -1209,6 +1426,33 @@
                     mvn eclipse:eclipse
             </Maven>
         </Deployment>
+		<Maintenance>
+		Incident Solving Context Flow Diagrams
+			L0 - Is user's concern legitimate - Business Level - 
+				Feature - do we support? 
+					Yes - go to L1.
+					No - Put in a request for future.
+			L1 - Functionality Level
+				What was the problem - Click path or steps that show a problem
+				Explore Expectation vs Actual. Refer changes or History for different transactions over a business scenario.
+				Was this expected?
+					Yes - Inform customer with consultation on how to use things. 
+					No - but there is instant solution - Workaround.
+					No - and We need to dig the transaction - Go to L2.
+			L2 - Architectural Level.
+				Map UI or User State with the persistence State. Is persistence or utils already in expected state?
+					This means you gotta know the Tables and its state transition diagram at persistence level - FSM.
+					Yes - We need to trace the logic - Go to L3.
+					No - Somewhere the persistence has been modified against expectation.
+						Immediate fix - reinstate the persistence or util.
+						Permanent Fix - Take steps to ensure bug fix.
+			L3 - Implementation Logic Level
+				Is it reproducible or simulate-able.
+					Yes - debug the application with it thru debugger or logs.
+					No - Try from your end to replicate or simulate the user conditions refering to transaction history over business scenario.
+						Still No - Give a workaround alternative to customer so that business scenario continues and ask him to reproduce.
+
+		</Maintenance>
     </DevOps>
     <DataScience>
         <Tools>
@@ -1218,6 +1462,18 @@
                 RStudio, Spyder, Jupyter, pycharm
             </IDE>
             <Hadoop></Hadoop>
+			<RLibs>
+				Text mining in R
+					frequency; correlations
+					classification naive bayes, 
+					sentiments by classification algos; sentiments by function (positive - negative words)
+					Topics by frequent unique terms LDA algo.
+					Network analysis
+					clustering
+					NLP - Regex, Processing, Named entities, patterns, topic modeling
+					feature extraction, text classification.
+					words similarity like king and man. predict next word, spam classification using cnn.
+			</RLibs>
             <Tensorflow></Tensorflow>
             <Keras></Keras>
         </Tools>

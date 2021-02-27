@@ -11535,19 +11535,6 @@ CS - Spring faces problems when default package is used for application and othe
 CS - Kafka - https://dzone.com/articles/running-apache-kafka-on-windows-os
 	https://www.geeksforgeeks.org/how-to-install-and-run-apache-kafka-on-windows/
 CS - Tomcat not starting - clean is ok but st not just port problem but mapping problem in web.xml that tomcat won't start with illegal details there.
-CS
-	Strategy - Class behavior at runtime.
-	Observer - trigger a behaviors in subscribers.
-	Template Method - abstract behavior extracted out.
-	Command - commands to behavior mapping.
-	Mediator - middleman for communication.
-	Memento - state recall.
-	State - behavior changes with state.
-	Structural
-	Adapter - Make class behave like other.
-	Facade - representative class for encapsulating all behaviors.
-	Composite - Make object and composition behave similarly.
-	Decorator - add combination permutation of similar behaviors.
 CS - Kafka vs bridge pattern - within application vs across applications communication.
 CS - find any text file under current folder having a text content - findstr /s /i "text" *.txt
 CS - Application server vs Web server communication - server exposes this business logic through a component API, such as the EJB (Enterprise JavaBean) component model found on J2EE (Java 2 Platform, Enterprise Edition) application servers.
@@ -11632,114 +11619,6 @@ CS - Cloud Foundry - org
 		hosted app route - app instance, processes and status.
 			task
 	Cloud Foundry provides a highly efficient, modern model for cloud native application delivery on top of Kubernetes.
-CS - PySpark (Spark Programming in Python)
-	1. Data Collection and Ingestion
-	2. Data Storage and Management
-	3. Data Processing and Transformation
-	4. Data Access and Retrieval
-	1. Google File System – 2003
-	https://ai.google/research/pubs/pub51
-		1. HDFS - Hadoop Distributed File System
-		vs Data Lake - Vertical scalability, High capital cost.
-	2. MapReduce – 2004
-	https://ai.google/research/pubs/pub62
-		2. Hadoop MapReduce
-	Layers
-		Infrastructure (Storage) - HDFS, Amazon S3, Azure Blob, Google Cloud, CFS.
-		Resource Managers - YARN Kubernetes Mesos
-		Runtime - Apache Spark Engine - Most active sources
-			Spark Installations or Environment
-				Local Mode - Command Line REPL
-				Python IDE - Pycharm. Anaconda distribution of python is recommended.
-					https://www.jetbrains.com/pycharm/
-					https://www.anaconda.com/products/individual
-					https://spark.apache.org/downloads.html
-					1. Anaconda Platform
-					2. PyCharm
-					3. Spark Binaries
-					4. SPARK_HOME
-					5. HADOOP_HOME
-				Databricks Cloud - Notebooks.
-					Single cluster limited to 6GB and no worker nodes
-					Basic notebook without collaboration
-					https://docs.databricks.com/getting-started/quick-start.html
-					DROP TABLE IF EXISTS diamonds;
-					CREATE TABLE diamonds USING CSV OPTIONS (path "/databricks-datasets/Rdatasets/data-001/csv/ggplot2/diamonds.csv", header "true")
-				Other Notebooks - Jupyter Notebook.
-					set SPARK_HOME
-					install findspark -> python -m pip install findspark
-					Use it in python notebook
-						import findspark
-						findspark.init()
-						import pyspark
-						from pyspark.sql import SparkSession
-						spark = SparkSession.builder.getOrCreate()
-						spark.read.csv("C:\\Users\\I341365\\Desktop\\di.csv").show()
-				Other options - cloud offerings. Eg - Amazon EMR, Google DataProc, Azure HDInsight, etc. Commercial in nature.
-			Execute
-				Execution Styles
-					Stream processing - data is continuously coming and getting processed - Eg - business users informed about news, or IOT.
-					Batch Processing - extract a batch from history and process it. Eg - YT to HDFS to Spark to insights.
-				Program Execution
-					Interactive clients - spark-shell, Notebook.
-					Submit Job - spark-submit, Databricks Notebook, REST API.
-				Processing Model
-					Spark Client - triggers spark-submit to Cluster Manager (YARN).
-					Spark Cluster - YARN receives request. and Creates for Application -> Driver and Executors.
-				Spark Local and Execution Modes
-					Local Machine (Spark Local JVM) - Spark-shell | Notebook | IDE
-						local[n]
-						YARN
-						Kubernetes
-						Mesos
-						Standalone
-					Interactive Clients - Spark Client triggers spark-shell or Notebook.
-						Client Machine - Driver.
-						Spark Cluster Slaves have executors.
-				Spark Session Configs - Configuring Spark Session
-					Sources
-						Environment variables
-						SPARK_HOME conf spark defaults.conf
-						spark submit command line options
-							spark-submit --master local[3] --conf "spark.app.name=Hello Spark" --conf spark.eventLog.enabled=false HelloSpark.py
-						SparkConf Object
-					Precedence for session configs
-						Application Code - SparkConf
-						Spark-submit sources
-							Command Line Options
-							Spark-defaults.conf
-							Environment Variables
-		Spark Core - Scala, Java, Python, R.
-			Ingest - Informatica, Talend, AWS Glue, HVR, 
-				Spark Data Frame Partitions
-					Driver has Spark Session - spark.read.csv() is called.
-					YARN Cluster - In Memory data frame partitions created after reading file blocks. Separate Executor JVMs.
-					HDFS - the file from HDFS blocks.
-			Store (infrastructure already) or process - 
-				Transformation and Actions
-					Read, where, select, group by, count.
-						read.csv()
-						select(age, gender, country, state)
-						filter(age<40)
-						groupBy(country).count()
-						Actions - show()
-					Narrow Dependency Transformation - A transformation performed independently on a single partition to produce valid results. Literally union of results. REL - where clause only.
-					Wide Dependency Transformation - A transformation that requires data from other partitions to produce valid results. Needs so combining. REL - group by. Solution perform shuffle and sort exchange before group by.
-					Spark Actions - Read, Write, Collect, show.
-			Consume - File Download, JDBC/ODBC, REST Interface, Search, Data Scientist.
-		Spark Libraries - Spark SQL, Spark Streaming, MLlib, GraphX.
-			https://github.com/LearningJournal/Spark-Programming-In-Python
-CS - Databricks
-	DATABRICKS PLATFORM – FREE TRIAL - ML Frameworks, BI, SSO, 14 day trial
-	COMMUNITY EDITION - For students and educational institutions
-		Import explore data. blank notebook.
-		New Notebook, Table, cluster, MLFlow Experiment, Library Import, Documentation.
-	Cluster - Create, Edit, Clone, Restart, Terminate, Delete.
-		Name, Runtime Version, Zone, Spark.
-		Configuration, Notebooks, Libraries, Event Log, Spark UI, Driver Logs, Metrics, Apps, Spark Cluster UI Master.
-		4 minutes to spin up.
-		Apps, Jobs, Executors, stages.
-	History server for past, yarn for present.
 CS
 	https://www.logicbig.com/tutorials/spring-framework/spring-boot/random-properties.html
 	https://www.baeldung.com/properties-with-spring
@@ -11751,25 +11630,8 @@ CS - JMeter error on boot layer during activation.
 	C:\ProgramData\Oracle\Java\javapath
 	C:\Program Files (x86)\Common Files\Oracle\Java\javapath
 	cmd.exe needs to be restarted or re-sourced in order for changes to reflect.
-CS - 
-	Spark
-		Worker nodes.
-		Apps 
-			Drivers - SubmitId, Worker Instance, MainClass, Core, Mem, TS, State.
-				Running Completed.
-			Running - AppId, User, Context, Cores, Mem, TS, Duration, State.
-			Completed
-	Spark Job Submit - 
-		ingestionFlow - type abstract.
-		sparkJobConfig
-			jobCategory
-			ContextProperties - hardware specifications
-			additional - batch duration, zk commit counter.
 CS - JAVA project with scala libraries is 1 thing - plugins will make repl accessible and help compile the scala files. But it remains a java project.
 	https://stackoverflow.com/questions/21208778/sbt-and-external-libraries-in-intellij
-CS - Spark Context Creation 
-	conf = new SparkConf().setAppName("App").setMaster("local[*]")
-	val sc = new SparkContext(conf)
 CS - https://stackoverflow.com/questions/59481878/unable-to-start-kafka-with-zookeeper-kafka-common-inconsistentclusteridexceptio
 	remove all logs and restart.
 CS - Maven Scala plugin will be able to compile the files but won't be able to run from IDE cuz scala is not even known to the IDE without plugin.
@@ -11817,59 +11679,12 @@ CS
 	GIT SSH - https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git
 	https://stackoverflow.com/questions/21615431/git-pushes-with-wrong-user-from-terminal
 CS - Kafka
-	Apps interact
-		Producers - Publishes records to the topics in kafka.
-		Consumers - pulls records stored in kafka topics.
-	Streams - client library for processing data stored in kafka. Stream processors interact.
-	Connectors - a framework to build connectors for in / out movement of data between kafka and other systems. Like DB.
 	Intro
-		Documentation - Distributed streaming platform. similar to message queue or enterprise messaging system.
 		Message system - producers message broker and consumers.
 			see the mess with n and m target and source systems. @wire mess.
 			vs adapter.
 			fault tolerant.
 			Store in kafka message logs.
-		Stream - continuous stream of messages can be handled. Stream processing apps - read and store back or pass on.
-CS - Linux directory structures
-	/
-	IaaS
-		/dev - virtual files for the devices.
-		/media - removable drives as folder.
-		/mount - system admins use this to manually mount a filesystem.
-	OS (=windows)
-		/boot - boot files
-			contains the files of the kernel and boot image, in addition to LILO and Grub
-		/proc - process and kernel files
-			information about. to get runtime system information.
-		/var - variable data files - appData
-			programs store runtime information like system logging, user tracking, caches, and other files that system programs create and manage.
-			Eg - login history - not cleaned automatically. All logs also in here - mail server logs, system boot logs, kernel logs, etc.
-		/etc - configuration file (of system) used by admins or services (password file and networking files)
-			system config changes like hostname change is done here.
-	Shell - OS Facade (=windows system32 files)
-		/bin - binaries
-			executable files of many basic shell commands like ls, cp, etc.
-		/sbin - only su can run these binaries.
-		/lib - shared libs.
-			codes that can be used by the executable binaries
-	PaaS - softwares for dev or prod (= program files)
-		/usr - user program data and binaries.
-			all the executable files, libraries
-			/usr/bin - basic user commands. sbin for additional user commands. lib - system libs.
-			Eg - /usr/bin/python.
-			Observation - by default all apt-get installations go here and other parts like etc and all.
-		/opt - optional software
-			installing/storing the files of third-party applications that are not available from the distribution’s repository
-			eg - /opt/tomcat, /opt/eclipse-installer
-	SaaS and personal data also (=D Drive)
-		/root - for super user.
-		/home - for all users - has bin, sbin, lib eth.
-	Software Data (appData is actually /var)
-		/srv - service data like website data.
-		/tmp - temp files
-			deleted when your system restarts. Apps use for temp storage.
-	Eg - apt-get maven install writes to /usr/bin/mvn and also etc and /usr/share.
-		Just like program files contains application executables but data and configuration like registry details is somewhere else.
 CS - GITHub first push and OAuth 2.0 gets triggered with permissions asked for git configuration manager to access your repo's contents. You grant and it goes fine.
 CS - Learning Material as follows from different courses - Big Data - Github of learningjournal.
 	FP - Haskell exercises - Data analysis and Programming.
@@ -11881,33 +11696,16 @@ CS - Learning Material as follows from different courses - Big Data - Github of 
 	Ex_Files_Accelerating_TensorFlow.zip    Ex_Files_Deep_Learning_OpenCV/            Ex_Files_Linux_Security_EssT.zip    Glossary_Data_Driven_Network_Security_Essentials.zip
 	Casual/   Express/   GITHUB/  'Interesting Snippets'/   JS/   JS_World_Workspace/   NodeJS/  'NodeJS SAP Training'/   npmTrials/   TensorflowJS/   TP/   TS/
 	OpenSAP - Suse, Excel, Being Visual, etc.
-CS - Kafka server scripts
-	./zookeeper-server-start.bat ../../config/zookeeper.properties
-	./kafka-server-start.bat ../../config/server.properties
-	./kafka-topics.bat --create --topic quickstart-events --bootstrap-server localhost:9092
-		./kafka-topics.bat --create --zookeeper localhost:2181 --partitions 1 --replication-factor 1 --topic topic1
-	./kafka-console-producer.bat --topic topic1 --bootstrap-server localhost:9092
-	./kafka-console-consumer.bat --topic topic1 --from-beginning --bootstrap-server localhost:9092
 CS - Sometimes browser is configured with proxy.pac file to act as proxy server from the machine.
 	when many proxy servers exist and based on the hostname used in browser the proxy server should be decided.
 	A sample statement in such file looks like follows - if ( shExpMatch(host, "office365.com") ) { return "PROXY 194.138.0.25:9400;PROXY 194.138.0.26:9400"; }
 CS - Why use maven modules - 
 	Monoliths with tiers vs
 	Microservices - separate apps with needed talking with each other. Parition your big app. Even UI becomes a microservice.
-		vs DAG of dependendencies from devp space - not outside like MVN - different modules - eg - x4, BAF, Foundation used by all the functional modules simultaneously - if this was the case of parallel functional devp then foundation could be a separate dependency to be used thru maven but we want simultaneous devp so using it.
+		vs DAG of dependencies from devp space - not outside like MVN - different modules - eg - x4, BAF, Foundation used by all the functional modules simultaneously - if this was the case of parallel functional devp then foundation could be a separate dependency to be used thru maven but we want simultaneous devp so using it.
 			Think of this as single dependency of your project which doesn't need to be a separate project until there are many consumers for that jar.
 			let's call maven modules as project dependencies only but restricted to the scope of the project.
 		vs package - package is within a single focussed app - unique purpose served thru a set of packages.
-CS - Text mining in R
-	frequency; correlations
-	classification naive bayes, 
-	sentiments by classification algos; sentiments by function (positive - negative words)
-	Topics by frequent unique terms LDA algo.
-	Network analysis
-	clustering
-	NLP - Regex, Processing, Named entities, patterns, topic modeling
-	feature extraction, text classification.
-	words similarity like king and man. predict next word, spam classification using cnn.
 CS - CentOS launch another shell thru another tab OR use background jobs.
 CS - Set maven's JAVA_HOME to anything higher than the release you wanna use and it will happily do it but not vv.
 	Scala plugin is both mvn and IDE requirement - former to compile and latter to make it run
@@ -11923,20 +11721,6 @@ CS - Spark run - only hadoop home, run spark code on a lang (platform, IDE, run 
 	pycharm = IntelliJ but project setting from interpreter settings on status bar.
 	Notebook = spyder but also remember the state in former and code look in the latter.
 	installing pyspark in python sdk = installing spark dependency using mvn or sbt in scala envt. compatible version thru prefix or suffix.
-CS - Windows -> C Drive
-	Windows folder
-	ProgramFiles
-	ProgramData - Eg - Microsoft -> Windows -> StartMenu -> shortcuts in start Menu of windows.
-	Users
-		public
-		Me
-			Onedrive, Favorites, Contacts, 3D Objects, Links, Games, Searches.
-			Desktop, Downloads, Pictures, Documents, Videos, Music, etc.
-			Dumps of apps - .m2, .ssh, .gitconfig, etc.
-			Workspace for IDEs - Pycharm project, etc.
-			AppData
-				Local, LocalLow, Roaming
-				User specific storage by the process of the program.
 CS - ?1 zookeeper server instance is what is used by all kinds of servers to interact with each other and have pulse checks.
 	?REL - 2 kafka servers or brokers get started with 1 zookeeper as their pivot - it is possible that they are clients of zookeeper server. They form a cluster cuz they are connected thru zookeeper.
 	?Cluster means ability to talk with each and assign work or tasks and get results back. Every node just needs IP address of the other but the health of nodes is not assured so zookeeper maintains clusters health status.
@@ -11944,15 +11728,6 @@ CS - App Software Layers look like
 	Extensions or addons or plugins
 	Software
 	Libraries (clients or utils - most of the times)
-CS - Windows Toolbar shows all background processes - daemons.
-	A typical PC user has lots of standalone software and clients softwares but almost no servers.
-	Windows - 
-		Analytics - Task Manager.
-		Transactional - Daily business like excel sheets, etc.
-		Master - Apps, data.
-			Apps can be GUI based like IDEs or CMD based like maven.
-		Foundation (authentication, etc) - User accounts, task views, util softwares like scheduler, etc.
-		Configurations - settings and control panel.
 CS - Tenant is a logical separation. BYD codeline goes thru different systems for testing and all and eventually deployed to n systems in the cloud.
 	Every system is high on resources and 1 customer can't use that alone so a set of customers use it simultaneously and logical separation is done by app server to ensure no data mixing. Eg - Mandt field in a table.
 	Typically 1 tenant = 1 customer but 1 tenant can be used for n companies doing intercompany Purchase orders. n tenants by 1 customer is also possible for heavy customers like hilti. They have n tenants for m locations.

@@ -1,79 +1,3 @@
-CS - Postman New Update
-    New Features Galore!
-        Workspace overview: Get a quick overview of all the activity happening inside a workspace. Manage your workspace by adding helpful description, modifying visibility and inviting team members to collaborate.
-
-        Collection Runner: Collection runner now opens in a tab instead of a new window, helping you switch seamlessly between workflows. Find the new runner on the bottom right corner.
-
-        Monitors: View and work with all of your monitors without having to leave your application. You can now view run details, activity logs, and watch your monitor runs start, execute, and finish in real-time.
-
-        Mock servers: View and edit mock servers in a tab.
-
-        Trash: Accidentally deleted a collection? Fret not. You can recover collections from Trash within the app. Find trash on the bottom right corner.
-
-        Forking and Pull requests: Contributing to collections has never been easier. You can fork a collection from any workspace to create a copy for your reference or development. Moreover, you can request reviews using pull requests from the app.
-
-        Merge checks: Enforce rules on how collections should be updated by setting merge conditions. Click on “Manage roles” in the collection dropdown to edit these. This feature is available on the Business and Enterprise tiers.
-
-        Supercharged profiles: Enrich and customize your user profile and team profile with profile and cover pictures, descriptions and links to your presence on the internet.
-
-        Private API Network: The Private API Network is now available right inside the postman app in the Home section.
-
-        Inline comments in API schema: You can now collaborate and review API schemas more effectively by leaving line-by-line comments.
-
-        Documentation: Postman’s documentation is now closely integrated with requests and collections. You can now easily edit documentation while defining requests and collections and also refer to the documentation while sending a request. Complete documentation view is also available within the app for personal, team and public workspaces.
-
-        Scratch Pad: This release will let you use a space called Scratch Pad, where you can work while not being connected to Postman Servers. All your work will be stored locally and will not be synced.
-
-        API watching: You can watch APIs in any workspace and be alerted about changes made to their specification.
-    Postman v8.0
-        Postman v8 gives you a consistent, better API development experience. It has universal search across all of Postman, including the Public and Private API Networks, plus you can work on public workspaces directly through the desktop app. This means that the Postman desktop app and Postman on the web are now equally empowering—which one you use is a matter of preference for your workflows.
-
-        Here’s what’s new in this version -
-
-        1. Universal navigation
-        1.1 Home
-        Introducing the all new Home section in the top navigation. Get an overview of everything happening in your team - activity by team members, new alerts, notifications and a lot more. From here, you can quickly navigate to workspaces, API network, integrations or Postman learning center - wherever you want to go, home is the place to start.
-
-
-
-        1.2 Workspaces
-        We have a brand new workspace selector which lets you quickly switch between workspaces which were used recently. You can now search through different types of workspaces without having to switch tabs. Just type the name of the workspace you want to go to.
-
-        And oh! We now have public workspaces These are just like any other workspace but visible to everyone on the internet and easily accessible via Postman API network. Create a new public workspace and share your APIs with millions of Postman users around the world.
-
-        1.3 Reports
-        Available on the Enterprise and Business tiers, reports help you understand how your organization is building and consuming APIs. Get insights about requests, collection runs and test failures. Administrators can also use reports to analyze how Postman is being used across the organization.
-
-        1.4 Explore
-        One stop solution to explore all APIs published in the Postman API network. Browse through different teams and their public workspaces to discover new APIs. Read on to know more about this.
-
-        1.5 Universal Search
-        Universal search makes it incredibly easy to search and discover any private or public API element. It looks through all API elements in your account, the private API network, and the Public API Network to help you get started in a few clicks.
-
-
-
-        2. A unified interface for web and native
-        2.1 Panes
-        The main working area is now divided into Panes, which help you customize the Postman interface to match your preferred work environment. You can expand and adjust relevant panes so that the right information is accessible readily.
-
-
-
-        2.2 Updated sidebar
-        Postman v8 lets you access collections, environments, mock servers, monitors and request history right from the sidebar. You can easily author, search and modify any of these elements without leaving the app. The whole sidebar acts like a pane which can be resized and also collapsed based on your liking.
-
-        2.3 Context bars
-        Context bars provide information relevant to the element you’re viewing in a workspace. Here, you can access documentation for an element, see pull requests, add comments or just copy the ID for CI/CD integration.
-
-
-
-        3. All the world’s APIs are just a click away
-        Postman v8 not only simplifies your API development experience but also makes exploring APIs a piece of cake. Browse through hundreds of third party APIs in the “Explore” section. Here, you can look at collections published by different teams and navigate through them just like you do in your own workspace.
-
-        Interested in an API? Want to send a request? It is just a few clicks away. Just fork the collection into your workspace and you’re good to go.
-
-        But wait! Even you can be a part of the Postman API network. Simply create a public workspace and share your collections in it - they are automatically available to millions of Postman users.
-
-        Like to contribute to someone else’s API? That’s easy too! Fork the collection into your workspace, make the changes and raise a pull request.
 EQ - I should love not only family, but also friends and relatives, next I should love my city, state, country and world (meaning people in there).
     This is what ashram entails as its goal.
 CS
@@ -206,3 +130,170 @@ IQ - Lessons from College Alumnus senior Abhijeet of SAP who left for Intuit
         ye log bakar kar rahe hain in praising.
 CS - we can always pin point the source of where it stops working when we have 1 working piece and another not working piece.
     https://stackoverflow.com/questions/42701394/why-doesnt-offset-get-updated-when-messages-are-consumed-in-kafka
+CS - editor.skip.copy.and.cut.for.empty.selection enable in Registry action of Intellij.
+    Tools > Options > Text Editor > All Languages > 'Apply Cut or Copy Commands to blank lines when there is no selection'
+    VSCode - Setting / Text Editor.
+CS - Maven
+    Maven Shade Plugin - https://maven.apache.org/plugins/maven-shade-plugin/index.html
+    Maven Dependency Plugin - https://maven.apache.org/plugins/maven-dependency-plugin/
+        capability to manipulate artifacts. It can copy and/or unpack artifacts from local or remote repositories to a specified location.
+        many goals - tree, copy, copy-dependencies, resolve, etc.
+CS - JSON
+    new JSONObject(string)
+    JSONObject json = (JSONObject) new JSONParser().parse(stringToParse);
+Lapse - new RuntimeException vs throw new RuntimeException.
+    Until I try it once that logger isn't writing - checked it and it was working all this while - just needed the library for writing - that's all.
+    Logs always in kibana and never in spark app.
+IDEA - Home Alone IOT, Aggressor's Karmic Reactions IOT or Robots, etc.
+PIES - Humility - Emphasis is not how little I know but rather how much there is know. The latter is humility and former is proof for the same or self deprecation.
+    Better focus on latter. How much there is to know. Even in IQ.
+    Best combination is self Confidence or esteem - that I know what I know but there is so much to know - like Newton.
+CS - you can install cf thru brew, cf binaries, windows installer, etc.
+IDEA - Instead of DoD checking status in 10 places - let's have an app or integrate with monitoring - which checks availability across apps in scheduled manner and returns error with which all failed.
+    what about failed in past - kibana logs - ideally 500 response from any app can be configured to inform on slack / email or raise IOT alarms.
+    But suggesting may reduce our DoD efforts and hence manpower. 2nd, this must have already been thought before. Third, building it means not focussin on our own IOT core work.
+Logs - Story - Giving an order and leaving since something urgent comes up - courtesy to inform the supplier before you leave.
+PIES - Goals that truly matter.
+    Godhead
+        PIES - BTG, CS Life, Heavenly, Experienced.
+    Legacy
+        PIES - Spiritual Books or knowledge, Varna Streaming for the world, Art of living at different grains, Ideas worth sharing.
+    YOLO
+        PIES - All philosophies in essence (life mystery); New features, new smart apps - I did that umph; Enjoy love in various spheres (most fun emotion is love tinged with different worldly moods); Experience everything (All games, driving, and stuff).
+    About - Sume and Scrum planning ensures them.
+        Goal settings are always going to be based on advertisements and how they emotionally affect - too rigid won't help and being gullible also won't help. Go with reason and hunt for fun.
+        Advertisements for YOLO mode, ads for legacy; ads for godhead - until something sticks with you.
+EQData - Geography - Location - Near Landmark - A set of Roads which leads to here.
+    Area - scope defined. Chheharta
+    Landmark - Suggested vs a candidate set. cuz person could be coming from any direction.
+        that e1 knows or would know. Set of instructions to get here as well. Bihal Hardware - not known? then Chheharta Girls High School.
+    A set of [list of roads] (with smaller landmarks) that lead you to the destination.
+    Eg - Chheharta
+        Kale Pind Side - Miri Piri Gurudwara from Kale Pind
+            Follow Ghanupur Kale Road or come to it and follow until Miri Piri Gurudwara. Come to a junction - on your left after crossing the road.
+        GT Road Side - Girls High School
+            Follow the Ghanupur Kale Road until junction with Sher Shah Suri Road - The house on your right.
+        Khandwala side - Jagdev Bharat Gas Agency or warehouse.
+            Come to Sher Shah suri road (from Khandwala market park as ref). Come to Gas Agency - come straight till road junction. left house b4 junction.
+        ByPass side - Left turn from where the 3rd lane ends and before a new lane starts.
+            Take left after the third lane on the left ends (caution - much b4 junction). Come to the junction. Landmark on that road
+    About - Alternate way to think about it - find all roads that lead to you - construct 2 landmarks on the either sides of the roads.
+EQ - Archaeological Survey of India (ASI), under the Ministry of Culture, was established in the year 1861 is the premier organization for the archaeological researches and protection of the cultural heritage of the nation.
+    Pratna kirti apavrinu - let us uncover the glory of the past
+    IPS - सत्यमेव जयते
+    Supreme courts - Yato Dharmastato Jayaḥ; Where there is righteousness (dharma), there is victory (jayah)
+CS - JSON
+    org.json - simple and powerful to use. amongst the worst json libraries some say.
+    gson - great JSON serialisation and vv.
+        GSON does not support dynamic filtering of fields on levels other than root
+    jackson - clear winner
+    json-simple and oracle's jsonp perform terribly
+    quick-json parser - good reviews.
+    Use minimal-json
+CS - Postman - duplicate not working - gotta save the request b4 duplicating.
+PIES - DSA Applications - SVAF - Problem solving -
+    DnC in everything be it time management, finishing tasks, etc. Backtracking in homely tasks, Greedy approach is st the best.
+    Ways of organizing things (DS), DP - Standardized bottom up or standardized top down is best rewarding in terms of time.
+    Induction - solve smaller problem then add bits to a solved problem.
+PIES - Design Patterns SVAF Applications - Creation (single creation thru single source, factory to create with specification)
+    structural - adapter - let it behave as it should; let consumer be as he wants - we bridge the 2 to connect well.
+    behavioral - observer - let an entity get subscribers thru service (onus on subscibers). Entity will inform all subscribed ones on event.
+CS - scalac: Scala compiler JARs not found (module 'whatever') - invalidate cache and restart from IDE.
+    OR you can remove and reindex all the dependencies again.
+    OR go to Project Properties and Look at problems - fix option there - instead of changing root, I changed the scala dependency version.
+CS - greyed out breakpoint in intelliJ - not getting hit - cuz you muted it thru the icon.
+CS - NoSuchMethod - different versions maybe or you have not compiled - it tries to call the method but fails to do that.
+CS - gotta master all layers as CS guy.
+    Hello World
+    React is mastering presentation layer
+    Spring is mastering application layer.
+    DSA, etc - all the layers to be mastered - persistence layer included and utilities as well in that.
+SQ - Ecstasy - Poem (with no rhyming but short succinct and fun)
+    In a hypothetical dream I saw myself sitting with dignified bhaktas, yogis, jnanis and karma yogis.
+    I saw myself from outside and seeing the person filled with pride spoke to the person in compassion
+    You think you deserve Krishna. What do you understand about Krishna - what would you know of his value.
+    //Somehow last statement got blurted out loud in front of all.
+    What's his value - Ask them - they say - He is worth sacrificing everything.
+    1 yogi said - he was worth all the penance; who got a glimpse of him after 1000s of years of penance.
+    Ask devotees [like SP] who would not mind undergoing severe pains even if it leads to failing for his cause.
+    Ask devotees who laid down their lives as it was a flower to offer in face of protecting other devotees of Krishna.
+    Ask devotees who have given all their time, money, effort to Krishna's cause.
+    Ask those who would wait 1 million years, if that's what it takes to see him again.
+    Ask those who would beg to be an insect or dog in his servant's house to serve.
+    Ask the gods who beg to be a grass to be trampled upon by his devotees.
+    Ask seekers who sacrifice everything in his exploration to find his traces.
+    Ask servers who work for him without any demand for personal remuneration.
+    //What right do we have for distinction in front of all these giants. We can just follow in their footsteps humbly.
+    Speak nothing of rights to get. What right do we have to sit among them.
+    [Also sit cuz that's what your object of gratitude expects from you]
+    We are not special, we are fortunate. [Although all are special in their unique stories]
+    I heard someone ask - How can we ever repay for we have got
+    To this my hero replied - you can't. But if you are grateful, please share it.
+CS - java.lang.NoClassDefFoundError: org/codehaus/janino/InternalCompilerException
+    Solution - add codehaus dependency -
+        <dependency>
+            <groupId>org.codehaus.janino</groupId>
+            <artifactId>janino</artifactId>
+            <version>3.0.8</version>
+        </dependency>
+CS - another way of Spark JDBC
+    val hanaConnectionProp = new Properties()
+    hanaConnectionProp.setProperty("user", "SBSS_43188545002462655168262054253591143797706101676732846923103770758")
+    hanaConnectionProp.setProperty("password","Aa_53607719440088786596610323383080489041734805533982051582196853347")
+    hanaConnectionProp.setProperty("driver", "com.sap.db.jdbc.Driver")
+    val sqlContext:SQLContext = new SQLContext(sparkSession.sparkContext)
+    val hanaMappingViewDF = sqlContext.read
+      .jdbc(
+        remoteUrl,
+        """tables""",
+        hanaConnectionProp
+      )
+EQ - They share and pass on the culture to next generation but not huge pass on from 1 gen to next.
+EQ - Insurance Apps - iltakecare; instaspec, apps.
+CS - Wiki page
+    State of the art - specifications and arch refs.
+        can give UML if necessary.
+    Requirement 
+        Epic Discussion - Customer needs
+        Concrete SRS - How we intend to meet the needs. Endpoints descriptions, STD - State Transition Diagrams.
+    Architectural 
+        Alternatives - discussions with pros and cons.
+        Finalized one and why
+        Details that follow - tables needed, etc.
+        Additional resources needed - new endpoints to be created.
+EQ - Customer care.
+    Customer ID is 71192489.
+    Complaint number is Banc0221023434.
+CS - Mac - Developer not identified - Go to System Preference and System Security - allow anyway.
+IQGrats - Cracked it myself that the real problem was spark library not being uber jar - read it from the documentation and also thru dependencies exploration - removing them 1 by 1 - working vs non-working.
+CS - why some files called as .gitignore or or .log - cuz they are singleton files with that extension and not intended to have more.
+CS - Devcenter - Cassandra - DevCenter Screen frozen - check java version inside package, update plugin folder of app 
+    from downloaded 3.108 version in https://search.maven.org/search?q=g:org.eclipse.platform%20AND%20a:org.eclipse.swt.cocoa.macosx.x86_64&core=gav.
+PIES
+    YOLO pinnacle is social validation like being a celeb for something.
+    It has to be across the layers otherwise it will be shallow.
+    The validation is goal when we are talking YOLO life but in face of legacy, validation is a utility only.
+    Stabilization in SVAF means finding a niche where you become celebrity or get huge social validations along with worldy rewards and power.
+    In SVAF world, you are a leader. People are leaders like being parents, being political leaders, etc.
+    PIES Engineering should already get you to personal level SVAF or achieving ego gratifications on personal front. Social recognition would be good add-on, if possible.
+    This social validation comes in different grain and 3 levels (CNI - Concern Need Interest - FDDL)
+        You are helpful (not awkward or disturbance) - F or C.
+        You are recognized as a menber contributor (accepted as one of us) - D or N.
+        You are celebrated (celeb) - This should be our target - D or I.
+        //Your love for craft is visible - L as fuel.
+SQ - We are really fortunate that we got Krishna's grace in all the environment since birth that takes us out of MOI and MOP infatuations - anarthas.
+PIES - I am NodeJS. Asynchronous threads - keep the context so as to return to them with all details when necessary. Time saved for something more useful.
+SQ - why don't I just accept people the way they are - we really don't need photocopies of people.
+    We need a variety of people and we should celebrate variety and difference of opinion instead of opening.
+    How can we respect people in all MMN - we accept tiger for eating meat and don't kill it for its natural behavior.
+    But humans can control themselves - it is rather our responsibility to enlighten them and if they still continue that's their free will. Isn't it?
+    We can respect MOP for their dedication even if it's for grats. Respect MOI for their humanity and empathy.
+    respect MOG for paying the price for alignment. Respect trans for their visions and goals.
+    1 problem in past was that people in MOG hated MOI people which are so innocent - they deserved to be helped than hated. But that hatred has a recoil. That's what at least history teaches us.
+    But that's 1 showcased problem - what about MOP hating MOI - kings or leadership roles exploiting the innocent labors - all the same.
+    In KC, we rise about this MMN hatred.
+SQ - Asura != MOP. Asura means exclusion of spiritual awareness - such a person can be in all MMN like MOG, MOP, MOI.
+    Similarly spiritually aware person can also be in MMN until he evolves enough.
+PIES - I have paid the goddamn price of MOG - people striving for enmity which you refuse. etc.
+    You are manipulated into acting in a certain way - but I believe in acting in that way - don't refuse only cuz you are aware of it and refuse to accept manipulation.
+    Doing dharma even if it triggers different feelings.

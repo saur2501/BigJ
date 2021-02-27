@@ -10147,9 +10147,93 @@ and open the template in the editor.
 			</Engg>
             <Science> study of world
                 <Macro>
+					<NonLiving> aka Physics - macroscopic behavior of objects (human body is an object with free will)
+                        Physics studies factors of nature- light, magnets, charge, temperature (measure of degree of hotness)- any thing in touch get the flow of heat. Fire also transfers heat (high temperature)
+                        What is weight? force or pull we experience. measured as no of molecules and molecular weight. or how much content is there.
+                        <BehavioralStudy>
+                            <Macro>
+                            Physics
+                                    Mechanics
+                                    Oscillations and Waves
+                                    Electronic Devices
+                                            Communication Systems
+                                    Electricity
+                                            Electrostatics
+                                            Current Electricity
+                                    Magnetism
+                                            Magnetism and electriciy
+                                            Electromagnetic Induction, AC/DC
+                                    Optics - Ray, Wave.
+                            </Macro>
+                        </BehavioralStudy>
+                        <StructuralStudy>
+                            <Space>
+                                Cosmology - ether, space.
+                            </Space>
+                            <Earth>
+                                Macroscopic Study of earth; study of the physical features of the earth and its atmosphere, and of related human activity (population, resources distribution)
+                                <Hydrosphere>
+                                    Hydrology
+                                    Oceanography
+                                </Hydrosphere>
+                                <Aerosphere>
+                                    Climatography- fire
+                                    Atmosphere
+                                </Aerosphere>
+                                <Geology>
+                                    Cartography- maps
+                                    Soil
+                                </Geology>
+								<StudyOfAllOfTheAboveIn1Go>
+									<Geography>
+										About - all of the following has a bearing on the life it sustains.
+										Earth
+											Mountains - Ranges, Peaks.
+											Plateau
+											Maidan
+											Caves
+											Valleys
+											Misc - Earth quakes, ports, etc.
+										Water
+											Mahasagar or Ocean
+											Sea
+											jalsandhi
+											Bays, Prayadvip.
+											Lakes (Lagoons)
+											Rivers
+											naharein
+											Ocean different layers.
+										Air
+											layers of air.
+											Winds in the ocean and monsoon flow.
+										Fire
+											Deserts, Cold regions - rain criteria
+											Vishuvat rekha karka rekha
+											Volcanos
+										Ether
+											Waves - types.
+
+									</Geography>
+								</StudyOfAllOfTheAboveIn1Go>
+                            </Earth>
+                        </StructuralStudy>
+                    </NonLiving>
                     <Living> aka Biology - find behavior study intersperced in structural division as follows.
                         <Biosphere>
-
+							Geography - Refer under non-living - Structural Study.
+								has a bearing on life is sustains - Plants and animals.
+								this also has a bearing on politics and civics (culture)
+							<LifeOnEarth>Planet Earth - 1 and 2
+								ESMD => Trends on world level.
+								Food Chain and Food Web.
+								Niche - adaptations high level
+									Jungles
+									Mountains
+									Rivers
+									Deserts
+									Grasslands
+									Cities
+							</LifeOnEarth>
                         </Biosphere>
                         <Ecology>
                             Natural Cycles. Biology in human welfare - biotechnology applications
@@ -10408,7 +10492,7 @@ and open the template in the editor.
                                                                 Charlie produces 30 cups and Patty produces 30 plates- every day.
                                                                 Assume they agree to exchange 1 cup for 1 plate.
                                                                 Charlie gains cuz he had to pay 3 cups to make a plate but is getting a plate for worth of 1 cup in exchange
-                                                                Their marginal cost < opportunity cost
+                                                                Their marginal cost lt; opportunity cost
                                                                 If they agree on exchanging 15:15- they end up being at a point on graph which was unattainable thru their own PPF.
                                                 Comparative advantage and absolute advantage
                                                         imagine 40 plates vs 40 cups
@@ -10917,195 +11001,259 @@ and open the template in the editor.
                                 it's a social aspect of an individual
 								EQ - Psychology - NCERT
 									What is Psychology?
-									Methods of Enquiry in Psychology
-									The Bases of Human Behaviour
-									Human Development
-									Sensory, Attentional and Perceptual Processes
-									Learning
-									Human Memory
-									Thinking
-									Motivation and Emotion
-									Variations in Psychological Attributes
-									Self and Personality
-									Meeting Life Challenges
-									Psychological Disorders
-									Therapeutic Approaches
-									Attitude and Social Cognition
-									Social Influence and Group Processes
-									Psychology and Life
-									Developing Psychological Skills
+										Methods of Enquiry in Psychology
+										The Bases of Human Behaviour
+										Human Development
+									Mind
+										Sensory, Attentional and Perceptual Processes - i/p.
+										Learning - trained models.
+										Human Memory - storage
+										Thinking - processing
+										Motivation and Emotion - o/p reward
+										Variations in Psychological Attributes - ACK n brands.
+									Behavior
+										Social - n/w
+											Attitude and Social Cognition - internal
+											Social Influence and Group Processes - external
+										Personal
+											Self and Personality (borders) - o/p
+											Psychology and Life - see it in life.
+											Developing Psychological Skills - psych apps.
+									Offbeat
+										Meeting Life Challenges - general.
+										Psychological Disorders - specific
+										Therapeutic Approaches - solutions or applied
 								EQ - Psychology - Crash Course
-									What does Psychology mean? Where does it come from? Hank gives you a 10 minute intro to one of the more tricky sciences and talks about some of the big names in the development of the field.
-									Psychological research
-										The Scientific Method 2:06
-										Case Studies 3:05
-										Naturalistic Observation 3:48
-										Surveys and Interviews 4:15
-										Experimentation 6:35
-										Proper Research Practices 8:40
-									The chemical Mind
-										BAHHHHHH! Did I scare you? What exactly happens when we get scared? How does our brain make our body react? Just what are Neurotransmitters? In this episode of Crash Course Psychology, Hank takes us to the simplest part of the complex system of our brains and nervous systems; The Neuron.
-									Master Brain
-										Basics of the CNS 2:15
-										Basics of the Brain 5:03
-										Ancestral Structures of the Brain 5:37
-										Limbic System 7:31
-										New Structures of the Brain 8:32
-									Sensation and Perception - And what does this have to do with a Corgi
-										Sensation vs. Perception :54
-										Sense Thresholds 2:11
-										Neurology of Vision 4:23
-									Homunculus - deeper understanding of this weird model of human sensation.
-									Perceiving is believing - seeing something and making sense of it?
-										Perceptual Set 01:53:15
-										Form Perception 03:44:17
-										Visual Cues 06:08:08
-										Depth Perception 05:39:12
-									Consciousness - what Consciousness is, how our attention works, and why we shouldn't text and drive
-										Defining Consciousness 00:00:00
-										Neuroimaging 02:16:01
-										Dual Processing 03:45:18
-										Selective Attention 04:22:16
-										Selective Inattention 05:46:21
-										Change Blindness 06:12:08
-									To Sleep, Perchance to Dream - brain functions when sleeping and how it can malfunction as well
-										Four Stages of Sleep 02:38
-										Why We Dream 04:28
-										Information Processing 08:13
-										Physiological Function 08:31
-										Cognitive Development 08:52
-										Neural Activity Models 09:04
-									Altered States - movies. Zoolander, The Manchurian Candidate
-										Hypnosis 0:00
-										Psychoactive Depressants 05:51
-										Non-Drug Induced Hallucinations 09:33
-									How to Train a Brain - Skinner Box
-										Associative Learning 01:33:17
-										Behaviorist Theory 04:32:05
-										Classical and Operant Conditioning 03:47:01
-										Positive and Negative Reinforcement 07:18:22
-										Reinforcement Scheduling 09:32:02
-									The Bobo Beatdown - Learn by observation
-										Limitations of Classical and Operant Conditioning 01:58:09
-										Basics of Learning 02:24:23
-										Mirror Neurons 07:20:16
-										The Bobo Doll Experiment 0:00:00
-									How We Make Memories - Make and recall memories
-										Encoding and Storing Memory 03:15:08
-										Implicit & Explicit Processing 04:46:03
-										Shallow & Deep Processing 07:27:03
-										Long-Term Storage 04:03:00
-									Remembering and Forgetting - memories are fallible
-										How Memories are Stored 01:12:05
-										Retrieval Cues & Priming 02:19:10
-										Context & Mood Influences 03:00:09
-										How Information is Forgotten 04:34:20
-										Interference & Misinformation 06:21:06
-										Issues with Eyewitness Accounts 07:02:23
-									Cognition - How Your Mind Can Amaze and Betray You - like a computer or a lot more complex
-										Thinking & Communicating 01:39:16
-										Solving Problems 03:21:03
-										Creating Problems 05:46:06
-									Language - talk to people, they can make meaning out of it, and then talk back to us
-										Phonemes, Morphemes, Grammar 01:48:13
-										Receptive and Productive Language 03:22:06
-										Babbling 03:55:22
-										How We Acquire Language 05:50:22
-									The Power of Motivation
-										Four Theories of Motivation:
-											Evolutionary Perspective 1:38:22
-											Drive-Reduction 2:45:10
-											Optimal Arousal 3:38:21
-											Maslow's Hierarchy of Needs 4:49:04
-												How Sex, Hunger, and the Need to Belong Motivate us 5:29:02
-									The Growth of Knowledge
-										Schemas, Assimilation & Accommodation 2:39:12
-										Piaget's Four-Stage Cognitive Development 1:47:02
-											Sensortimotor, Preoperational, Concrete Operational,and Formal Operational Periods 3:48:22
-										Vygotsky's Theory of Scaffolding 7:45:05
-									Monkeys and Morality - seriously unpleasant study with monkeys and fake mothers; attachment, separation anxiety, stranger anxiety, and morality
-										Three Styles of Attachment 02:16:23
-										Parenting Styles 07:35:19
-										Developing Self Concept 06:34:04
-										Kolhberg's Stages of Morality 08:18:00
-									Adolescence - identity, individuality, and The Breakfast Club.
-										Erikson's 8 Stages of Progressive Psychosocial Development 02:08:00
-										Emerging Adulthood 03:41:00
-										Fluid & Crystalline Intelligence 06:53:00
-										Dementia & Alzheimer's Disease 08:10:00
-									Rorschach and Freudians
-										Personality Theory 02:16:12
-										Psychoanalytic Theory 02:52:11
-										Neo-Freudians 07:44:00
-										Humanistic Theory 09:31:02
-									Measuring Personality
-										Trait & Social-Cognitive Personality 01:35:01
-										Measuring Personality 02:57:03
-										Who or What is the Self? 09:16:14
-										How Self Esteem Works 09:42:04
-									Controversy of Intelligence
-										Defining Intelligence 00:00:00
-										Types of Intelligence 01:22:09
-										G-Factor 01:37:05
-										Sherlock Holmes 04:44:12
-										Intelligence Testing 02:26:23
-										IQ Scores 08:00:21
-										Eugenics 07:47:05
-										Intelligence Controversy 09:05:17
-									Brains vs. Bias
-										WAIS & WISC Tests 01:09:22
-										Standardization & Validity 02:13:10
-										IQ Performance 07:44:12
-									Feeling all the Feels
-										Emotions 00:54:22
-										Theories on Emotions 02:10:20
-										Cognition & Emotion 03:35:17
-										The Autonomic Nervous System 07:39:11
-									Emotion, Stress, and Health
-										How Emotions Work 00:00
-										Two-Dimensional Model of Emotional Experience 03:29
-										How Anger, Happiness, and Depression Affect Health 4:52
-										Stress, the Nervous System, and Chronic Stress 6:36
-									Let's Talk About Sex
-										Alfred Kinsey & Sex Surveys 0:00
-										Biological Sex & Gender Identity 2:01
-										Masters & Johnson 3:07
-										Sex Hormones 5:31
-										Physiological & Social Factors of Sex 7:11
-										Sexual Orientation 8:51
-										Why We Have Sex 10:17
-									Psychological Disorders
-										Defining Psychological Disorders 00:10:09
-										Perspectives on Mental Illness 03:16:10
-										Diagnosing Disorders with the DSM 07:09:09
-										DSM is Constantly Evolving 07:42:12
-									OCD and Anxiety Disorders
-										What Defines an Anxiety Disorder 01:55:20
-										Symptoms of Obsessive Compulsive Disorder 02:35:07
-										Generalized Anxiety Disorder 04:05:18
-										Panic Disorder and Phobias 04:47:20
-										The Learning Perspective 07:38:20
-										The Biological Perspective 09:13:14
-										Don't Use OCD as a Punch Line 00:00:00
-									Depressive and Bipolar Disorders
-										What are Mood Disorders? 1:05
-										Symptoms of Depressive & Bipolar Disorders 2:00
-										Biological, Genetic, Environmental, & Social-Cognitive
-										Causes of Mood Disorders 5:47
-									Trauma and Addiction
-										PTSD: Causes and Symptoms 01:57:18
-										How Trauma Can Affect the Brain 05:12:09
-										Addiction 07:08:18
-										Trauma and Addiction 07:41:17
-										Dual Treatment Model 08:24:07
-										Post-Traumatic Growth 06:31:00
-										The Wise Frodo Baggins 00:00
-									Schizophrenia and Dissociative Disorders
-										Schizophrenia Spectrum Disorders 01:31:05
-										Brain Activity 05:03:16
-										Dissociative Disorders 08:04:23
-										Sybil Was a Lie! 08:58:14
-									...
+									Def - What does Psychology mean? Where does it come from? Hank gives you a 10 minute intro to one of the more tricky sciences and talks about some of the big names in the development of the field.
+									?Basis
+										Psychological research
+											The Scientific Method 2:06
+											Case Studies 3:05
+											Naturalistic Observation 3:48
+											Surveys and Interviews 4:15
+											Experimentation 6:35
+											Proper Research Practices 8:40
+										The chemical Mind
+											BAHHHHHH! Did I scare you? What exactly happens when we get scared? How does our brain make our body react? Just what are Neurotransmitters? In this episode of Crash Course Psychology, Hank takes us to the simplest part of the complex system of our brains and nervous systems; The Neuron.
+										Master Brain
+											Basics of the CNS 2:15
+											Basics of the Brain 5:03
+											Ancestral Structures of the Brain 5:37
+											Limbic System 7:31
+											New Structures of the Brain 8:32
+									Mind
+										Sensation and Perception - And what does this have to do with a Corgi
+											Sensation vs. Perception :54
+											Sense Thresholds 2:11
+											Neurology of Vision 4:23
+										Homunculus - deeper understanding of this weird model of human sensation.
+										Perceiving is believing - seeing something and making sense of it?
+											Perceptual Set 01:53:15
+											Form Perception 03:44:17
+											Visual Cues 06:08:08
+											Depth Perception 05:39:12
+										Consciousness - what Consciousness is, how our attention works, and why we shouldn't text and drive
+											Defining Consciousness 00:00:00
+											Neuroimaging 02:16:01
+											Dual Processing 03:45:18
+											Selective Attention 04:22:16
+											Selective Inattention 05:46:21
+											Change Blindness 06:12:08
+										To Sleep, Perchance to Dream - brain functions when sleeping and how it can malfunction as well
+											Four Stages of Sleep 02:38
+											Why We Dream 04:28
+											Information Processing 08:13
+											Physiological Function 08:31
+											Cognitive Development 08:52
+											Neural Activity Models 09:04
+										Altered States - movies. Zoolander, The Manchurian Candidate
+											Hypnosis 0:00
+											Psychoactive Depressants 05:51
+											Non-Drug Induced Hallucinations 09:33
+										How to Train a Brain - Skinner Box
+											Associative Learning 01:33:17
+											Behaviorist Theory 04:32:05
+											Classical and Operant Conditioning 03:47:01
+											Positive and Negative Reinforcement 07:18:22
+											Reinforcement Scheduling 09:32:02
+										The Bobo Beatdown - Learn by observation
+											Limitations of Classical and Operant Conditioning 01:58:09
+											Basics of Learning 02:24:23
+											Mirror Neurons 07:20:16
+											The Bobo Doll Experiment 0:00:00
+										How We Make Memories - Make and recall memories
+											Encoding and Storing Memory 03:15:08
+											Implicit & Explicit Processing 04:46:03
+											Shallow & Deep Processing 07:27:03
+											Long-Term Storage 04:03:00
+										Remembering and Forgetting - memories are fallible
+											How Memories are Stored 01:12:05
+											Retrieval Cues & Priming 02:19:10
+											Context & Mood Influences 03:00:09
+											How Information is Forgotten 04:34:20
+											Interference & Misinformation 06:21:06
+											Issues with Eyewitness Accounts 07:02:23
+										Cognition - How Your Mind Can Amaze and Betray You - like a computer or a lot more complex
+											Thinking & Communicating 01:39:16
+											Solving Problems 03:21:03
+											Creating Problems 05:46:06
+										Language - talk to people, they can make meaning out of it, and then talk back to us
+											Phonemes, Morphemes, Grammar 01:48:13
+											Receptive and Productive Language 03:22:06
+											Babbling 03:55:22
+											How We Acquire Language 05:50:22
+										The Power of Motivation
+											Four Theories of Motivation:
+												Evolutionary Perspective 1:38:22
+												Drive-Reduction 2:45:10
+												Optimal Arousal 3:38:21
+												Maslow's Hierarchy of Needs 4:49:04
+													How Sex, Hunger, and the Need to Belong Motivate us 5:29:02
+										The Growth of Knowledge
+											Schemas, Assimilation & Accommodation 2:39:12
+											Piaget's Four-Stage Cognitive Development 1:47:02
+												Sensortimotor, Preoperational, Concrete Operational,and Formal Operational Periods 3:48:22
+											Vygotsky's Theory of Scaffolding 7:45:05
+									Behaviors
+										Monkeys and Morality - seriously unpleasant study with monkeys and fake mothers; attachment, separation anxiety, stranger anxiety, and morality
+											Three Styles of Attachment 02:16:23
+											Parenting Styles 07:35:19
+											Developing Self Concept 06:34:04
+											Kolhberg's Stages of Morality 08:18:00
+										Adolescence - identity, individuality, and The Breakfast Club.
+											Erikson's 8 Stages of Progressive Psychosocial Development 02:08:00
+											Emerging Adulthood 03:41:00
+											Fluid & Crystalline Intelligence 06:53:00
+											Dementia & Alzheimer's Disease 08:10:00
+										Rorschach and Freudians
+											Personality Theory 02:16:12
+											Psychoanalytic Theory 02:52:11
+											Neo-Freudians 07:44:00
+											Humanistic Theory 09:31:02
+										Measuring Personality
+											Trait & Social-Cognitive Personality 01:35:01
+											Measuring Personality 02:57:03
+											Who or What is the Self? 09:16:14
+											How Self Esteem Works 09:42:04
+									Mind Again
+										Controversy of Intelligence
+											Defining Intelligence 00:00:00
+											Types of Intelligence 01:22:09
+											G-Factor 01:37:05
+											Sherlock Holmes 04:44:12
+											Intelligence Testing 02:26:23
+											IQ Scores 08:00:21
+											Eugenics 07:47:05
+											Intelligence Controversy 09:05:17
+										Brains vs. Bias
+											WAIS & WISC Tests 01:09:22
+											Standardization & Validity 02:13:10
+											IQ Performance 07:44:12
+										Feeling all the Feels
+											Emotions 00:54:22
+											Theories on Emotions 02:10:20
+											Cognition & Emotion 03:35:17
+											The Autonomic Nervous System 07:39:11
+										Emotion, Stress, and Health
+											How Emotions Work 00:00
+											Two-Dimensional Model of Emotional Experience 03:29
+											How Anger, Happiness, and Depression Affect Health 4:52
+											Stress, the Nervous System, and Chronic Stress 6:36
+										Let's Talk About Sex
+											Alfred Kinsey & Sex Surveys 0:00
+											Biological Sex & Gender Identity 2:01
+											Masters & Johnson 3:07
+											Sex Hormones 5:31
+											Physiological & Social Factors of Sex 7:11
+											Sexual Orientation 8:51
+											Why We Have Sex 10:17
+									Offbeat
+										Psychological Disorders
+											Defining Psychological Disorders 00:10:09
+											Perspectives on Mental Illness 03:16:10
+											Diagnosing Disorders with the DSM 07:09:09
+											DSM is Constantly Evolving 07:42:12
+										OCD and Anxiety Disorders
+											What Defines an Anxiety Disorder 01:55:20
+											Symptoms of Obsessive Compulsive Disorder 02:35:07
+											Generalized Anxiety Disorder 04:05:18
+											Panic Disorder and Phobias 04:47:20
+											The Learning Perspective 07:38:20
+											The Biological Perspective 09:13:14
+											Don't Use OCD as a Punch Line 00:00:00
+										Depressive and Bipolar Disorders
+											What are Mood Disorders? 1:05
+											Symptoms of Depressive & Bipolar Disorders 2:00
+											Biological, Genetic, Environmental, & Social-Cognitive
+											Causes of Mood Disorders 5:47
+										Trauma and Addiction
+											PTSD: Causes and Symptoms 01:57:18
+											How Trauma Can Affect the Brain 05:12:09
+											Addiction 07:08:18
+											Trauma and Addiction 07:41:17
+											Dual Treatment Model 08:24:07
+											Post-Traumatic Growth 06:31:00
+											The Wise Frodo Baggins 00:00
+										Schizophrenia and Dissociative Disorders
+											Schizophrenia Spectrum Disorders 01:31:05
+											Brain Activity 05:03:16
+											Dissociative Disorders 08:04:23
+											Sybil Was a Lie! 08:58:14
+										Eating and Body Dysmorphic Disorders
+											Anorexia, Bulimia, Binge-Eating Disorder 01:55
+											Types of Body Dysmorphic Disorders 05:58
+											Psychological & Environmental Roots 08:03
+										Personality Disorders
+											Personality Disorders 02:04
+											Ego-Dystonic vs. Ego Syntonic Disorders 00:44
+											Three Clusters of Personality Disorders  02:23
+											Overlapping Personality Disorders 03:35
+											Borderline and Antisocial Personality Disorders 04:31
+											Bio-Psycho-Social Roots 06:54
+										Getting Help - Psychotherapy
+											Major Types of Psychotherapy 00:00
+											Psychodynamic Therapy 01:14
+											Freud's Psychoanalysis 01:28
+											Existential-Humanist Therapy 03:45
+											Roger's Client-Centered Focus 04:20
+											Behavior & Cognitive Therapies 06:00
+											Group and Family Therapy 09:48
+										Biomedical Treatments
+											Client & Clinician Perceptions 01:19
+											Efficacy & Effectiveness of Psychological Treatments 03:10
+											Biomedical Therapies & Drug Therapies 04:46
+											Electroconvulsive Therapy 07:37
+											Lifestyle Changes 09:25
+									Social
+										Social Thinking
+											Social Psychology 01:29
+											Fundamental Attribution Error 02:04
+											Dual-Process Theory of Persuasion 03:18
+											Foot-In-The-Door Phenomenon 04:35
+											Stanford Prison Experiment 05:12
+											Cognitive Dissonance 8:08
+										Social Influence
+											Milgram Experiment 0:31
+											Automatic Mimicry 3:29
+											Solomon Asch 4:08
+											Normative Social Influence 5:31
+											Social Facilitation 5:59
+											Social Loafing 6:19
+											Deindividuation, Group Polarization, & Groupthink 6:50
+										Prejudice and Discrimination
+											Prejudice, Stereotyping, & Discrimination 00:00
+											Prejudice Can Often Be Non-Conscious 02:03
+											Implicit Association Test or AIT 04:23
+											Ingroup-Outgroup Phenomenon 07:08
+											In-Group Bias 07:48
+										Aggression vs. Altruism
+											Robber's Cave Experiment 0:00
+											Realistic Conflict Theory 0:57
+											Physical & Environmental Triggers 3:23
+											Frustration-Aggression Hypothesis 4:24
+											Altruism 5:25
+											Bystander Effect 5:56
+											Social Exchange Theory 7:19
 								Applications
 									Overcome Fears
 											aware of fear - list down
@@ -11988,46 +12136,6 @@ and open the template in the editor.
                             </Stress>
                         </Uncat>
                     </Living>
-                    <NonLiving> aka Physics - macroscopic behavior of objects (human body is an object with free will)
-                        Physics studies factors of nature- light, magnets, charge, temperature (measure of degree of hotness)- any thing in touch get the flow of heat. Fire also transfers heat (high temperature)
-                        What is weight? force or pull we experience. measured as no of molecules and molecular weight. or how much content is there.
-                        <BehavioralStudy>
-                            <Macro>
-                            Physics
-                                    Mechanics
-                                    Oscillations and Waves
-                                    Electronic Devices
-                                            Communication Systems
-                                    Electricity
-                                            Electrostatics
-                                            Current Electricity
-                                    Magnetism
-                                            Magnetism and electriciy
-                                            Electromagnetic Induction, AC/DC
-                                    Optics - Ray, Wave.
-                            </Macro>
-                        </BehavioralStudy>
-                        <StructuralStudy>
-                            <Space>
-                                Cosmology - ether, space.
-                            </Space>
-                            <Earth>
-                                Macroscopic Study of earth; study of the physical features of the earth and its atmosphere, and of related human activity (population, resources distribution)
-                                <Hydrosphere>
-                                    Hydrology
-                                    Oceanography
-                                </Hydrosphere>
-                                <Aerosphere>
-                                    Climatography- fire
-                                    Atmosphere
-                                </Aerosphere>
-                                <Geology>
-                                    Cartography- maps
-                                    Soil
-                                </Geology>
-                            </Earth>                
-                        </StructuralStudy>
-                    </NonLiving>
                 </Macro>
                 <Micro>
                     aka Chemistry - micro-level details of earth's constitutional elements.
