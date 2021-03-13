@@ -15423,13 +15423,48 @@ Sume - Enercon for Data Engg
 Sume - Rexnor - good package. experience for C#, selenium, microsoft, manual testing, functional testing for mobile. Telephonic, skype round and relocate quite a while cuz of COVID. Outside of line and bangalore.
 Sume - Authorization management for SIV creation for lease contracts.
 	Payment Terms for SIV.
-Sume - SRIB - Network team - 1's vs 2's complement. Locality of reference advantage with array vs linked list - did you know about this - frankly, i was thinking more like number of Operations but thinking in terms of memory hierarchy, it all makes sense. Base station creation by jio - vendor - get data uses flume not kafka. Rest api impl vs general. Rest api advantage. Layers of network. Java based. Compression algorithm. Data analyst expected. What was samsung problem. In Touch with programming - personal space. Sql vs nosql - space vs speed. Why 1.5f vs 1.5 during assignment - typecast and value loss. No personal data but call drop rate high near that base station. Current data analysis done at hq - we need here as well. Anything interesting amuses me - innovation challenge so studied the courses as part of it. Tell me about samsung programming challenge story - minimise weight but here exact dimensions and along height or width so attempt of bottom up failed which i realised quickly but there was time so did top down approach which worked fine. Normal forms purpose - rdbms more time cuz joins and nosql faster but more space by sql cux redundancy allowed. Advantages of rest api over other approaches - money source, open source work, plug and play approach of microservices. # think how sap uses it even in personal space - paper holder in toilet - only paper is replaced and it's brand new advertisement. Yes i implemented rest api in college project and siemens in personal space.
-	14 patent and more paper published. Analytics team target 100 ppl work here. Hacks or tweeks to better systems - sdn for network priority. Looking forward to work with you. Tell any project of your choice. You are ok with working closely with systems. How to utilise cloud instance to fullest - those kinda hacks - on top of hypervisor. Os development is mostly saturated so not strictly systems, platform to be more precise. Tell 1 project that you like the most. Told siemens project - feel free to use the board. Depending on if things go well and you choose to opt it.
-	Previous panel for group involved 2nd tech - so narrative was good tech review by 1st but not by ml guy seasoned pro so 2nd tech 3rd otherwise for a revisit and prospects of some other role - again good review but not for ml so mgr saw desperation and no specific pivot of interest so dropped idea - they afterall, started off with desire to get a seasoned pro ml guy. My email if any questions - Karthikeyan.s@gmail.com 
-	Question - more like comment that I find it amusing that patents and interest in papers. Lte tech. You are selected. Hr guy will come in some time.
-	Other vendors like nokia, ericson, etc for base towers. Our presence in us, ui, japan, korea south and now jio.
-	User privacy intact - legal compliance - high data speed inflow - millions if records handled by java code so small but robust it is.
-	Advantages and limitations of bitwise operators - ever used it - not so much. Wait, yes used it to implement DES and AES algorithm. Easy multiplication by 2 not by others. Keeping track of overflow while shift else wrong answer same like *2 also. 2's complement to represent number in negative form and adder, subtraction, work seamlessly not so with 1 bit representing sign of number.
+Sume - SRIB - Network team
+    1's vs 2's complement.
+    Locality of reference advantage with array vs linked list - did you know about this - frankly, i was thinking more like number of Operations but thinking in terms of memory hierarchy, it all makes sense.
+    Base station creation by jio - vendor - get data uses flume not kafka.
+    Rest api impl vs general. Rest api advantage. Layers of network.
+    Java based. Compression algorithm. Data analyst expected. What was samsung problem.
+    In Touch with programming - personal space. Sql vs nosql - space vs speed.
+    Why 1.5f vs 1.5 during assignment - typecast and value loss.
+    No personal data but call drop rate high near that base station.
+    Current data analysis done at hq - we need here as well.
+    Anything interesting amuses me - innovation challenge so studied the courses as part of it.
+    Tell me about samsung programming challenge story - minimise weight but here exact dimensions and along height or width so attempt of bottom up failed which i realised quickly but there was time so did top down approach which worked fine.
+    Normal forms purpose - rdbms more time cuz joins and nosql faster but more space by sql cux redundancy allowed.
+    Advantages of rest api over other approaches - money source, open source work, plug and play approach of microservices.
+    # think how sap uses it even in personal space - paper holder in toilet - only paper is replaced and it's brand new advertisement.
+    Yes i implemented rest api in college project and siemens in personal space.
+    14 patent and more paper published.
+    Analytics team target 100 ppl work here.
+    Hacks or tweeks to better systems - sdn for network priority.
+    Looking forward to work with you.
+    Tell any project of your choice.
+    You are ok with working closely with systems.
+    How to utilise cloud instance to fullest - those kinda hacks - on top of hypervisor.
+    OS development is mostly saturated so not strictly systems, platform to be more precise.
+    Tell 1 project that you like the most.
+    Told siemens project - feel free to use the board.
+    Depending on if things go well and you choose to opt it.
+        Previous panel for group involved 2nd tech - so narrative was good tech review by 1st but not by ml guy seasoned pro so 2nd tech 3rd otherwise for a revisit and prospects of some other role
+        again good review but not for ml so mgr saw desperation and no specific pivot of interest so dropped idea - they afterall, started off with desire to get a seasoned pro ml guy.
+    My email if any questions - Karthikeyan.s@gmail.com
+    Question - more like comment that I find it amusing that patents and interest in papers.
+    Lte tech.
+    You are selected.
+    Hr guy will come in some time.
+        Other vendors like nokia, ericson, etc for base towers.
+    Our presence in us, ui, japan, korea south and now jio.
+        User privacy intact - legal compliance - high data speed inflow - millions if records handled by java code so small but robust it is.
+        Advantages and limitations of bitwise operators - ever used it - not so much.
+    Wait, yes used it to implement DES and AES algorithm.
+    Easy multiplication by 2 not by others.
+    Keeping track of overflow while shift else wrong answer same like *2 also.
+    2's complement to represent number in negative form and adder, subtraction, work seamlessly not so with 1 bit representing sign of number.
 Sume - Driving Story. Career Story. Cooking Story. Etc.
 Sume - Amazon - Good Algorithmic questions
 	Find all substrings of given length that have exactly 1 character repeating and all others are unique.

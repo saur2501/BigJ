@@ -613,7 +613,6 @@ CS - Redis
 CS - Spark 
     exception: java.lang.NoSuchMethodError: scala.Product.$init$(Lscala/Product;)V at com.redislabs.provider.redis.RedisEndpoint.<init>(RedisConfig.scala:26) at
     this is cuz of version mismanagement
-LIB - when you have lots of ticket to solve - give shallow answers - pointing the direction to take. If you have more time, give detailed and precise answers - what to do to solve the issue.
 EQ - Tricks - is your name savita - mild change to verify a person?
 CS - Trust a souce - CA
     Certificate - take this public key - encrypt and send - message hidden but anybody can send this public key problem. Anybody can obtain the key and write.
@@ -643,3 +642,292 @@ EQ - Geography - 5 elements interactions - Jharna. Lake, etc - all land water in
 Logs - Story - when in our school story telling from all teachers started.
     When in udhampur Principal used to invite people to give presentations of different types - magicians, astrologers and what not.
     CCA parts of curriculum - music, gardening, p ainting, etc.
+PIES - Foundation enablement or focus for powerful SVAF.
+    Foundation is util for others - self love the basis - it's abstract and concrete but undercurrent in social settings of VA.
+    D - Devotion - has 2 utils.
+        A - Attitude
+        BC - Behavior and Communication
+    Devotion for personal goal (even social and trans goals)
+        SVAF goals - FDDL based priority
+            Internal, CRM, FIN, Foundation or health or stability - security, power, performance, etc.
+            iow, Love or enjoy it, Contribute the most or High Sell Value (MSP), Profits maximized and increase over time, stability.
+            In VA - Fun, Praises (self and external), Profits or networks (potential or employed profits), relax life.
+        Devotion in life is Deep Learning neural network -
+            where for 1 end result there are lots of layers to be optimised (not necessarily maximized or minimised)
+            Those individual layers represented by behavior - edge represented by communication - attitude is the algorithm.
+            to get the final best results of classification or whatever.
+        When devoted to object of devotion, you get healthy target of devotion - healthy person, family, nation, etc.
+    BC
+        Behavior - in all the interactions we should act in ways that facilitate our objects of devotion.
+            huge self help books, tips and tricks on multi-media.
+            Whole body of social conduct (it's still foundational and personal in FBD - Free body diagram).
+            Based on principles in psychology and economics - polity, persuasion, initiatives all come in this.
+            Study of Human behavior - what works and what won't work, etc.
+        Communications necessary within the behaviors for devotion - in both VA.
+            Purpose driven (Need and concern based) - or formal. May also have interest element in favor of mutual success plan
+                having protocols for success plan.
+                gotta give justice to economics.
+                From experience or MBA or scriptures.
+            Liking driven (love and fun) - informal
+                personal long term goal (love for field) - eg V some field or role so I like listening about it.
+                social mutual win goal (fun for short term or long term alliance) - mutual interest in fields => so love talks
+            How? Tier arch
+                Presentation Layer - Spice up the presentation.
+                    Elicit emotions thru 12 rasas study.
+                    Language mastery.
+                Content (Application Layer) - Stories and principles
+                    Narratives - past stories, update stories or news, future plans.
+                    Principles - revisit the journey, discover, principles brain-storm.
+                    Trigger - I have done lots of homework in this b4 - let's revisit that sometime.
+                Persistence - what stays with us or impressions or take away or take home message.
+    A - Attitude - this is the qualities or values or beliefs we hold sacred so traversal path that we adopt.
+        This is not tips and tricks but inner drivers.
+        This is whole body of personal conduct - scriptural guides and traditional ideas like think and grow rich, etc.
+PIES - Effective SRM - how to best spend money?
+    Concern - All the transactions I must do - food, lodging, clothing.
+    Need - All SRM that is necessary for CRM.
+    Interest - Grats at all the layers.
+        Senses - Mall products.
+        Mind - Multimedia, stories.
+        Intel - Consuming world services to achieve. Ideas worth sharing.
+        Ego - Shopping for status symbol - what quality you buy.
+        Spiritual - ?
+PIES - Many people blindly think that greedy approach algo to happiness is the best algorithm but it's not - intelligence to enjoy as per BG.
+    Others could be induction, DnC, Backtracking, approximation, etc.
+EQ - Deep Learning - it's also about algorithm chosen, data introduced but also values and beliefs held sacred.
+    Every country or region or cluster in general is through its all the efforts and protocols and turmoils, get what it originally decides to stand for.
+    So, devotion and attitudes (what we want and what we are; behavior - what we do) - is what identifies a culture.
+    Think about it, some country chooses freedom as god beliefs. Some cultures choose secularism. Some choose love, etc.
+    In God value, some may choose prosperity, some may choose comfort, some may choose power, etc.
+IQ - L1 functional problem solving is roll up of the L2 details - you gotta know as its abstract that what all functionalities, RaaS, etc are in place for the promise to be met.
+    Similarly L2 is abstract of L3 - configs, I/O between blocks of arch.
+    L0 or business is abstract of L1 or functionalities - You have solved a customer problem.
+    What has given rise to all the comforts of current times?
+        it's entrepreneurship or businesses who wanna profit themselves by making lives easier for others.
+SQ - Same Deep Learning applies to our spiritual life as well.
+    In beginning we under-fit or over-fit our lives with badly trained model on how spiritual life is to be practiced.
+    As we encounter stimuli where our model (not spiritual life) performs badly we realize that we need to adjust.
+    VA gets importance and foundation also so as to have a model which factually optimizes our spirituality for long run and fast run in that.
+FND - Foundation Domain includes ed morning spending time on hobby, Exercise, Yoga, Spirituality, Book reading, personal development.
+Logs - Story - Papaji tension and CSF leakage from head collision - mirgi - teeth crushed the finger. Hospital - honest doctor no treatment you better take him to PGI. Homeopathy cured him.
+CS - Annotations in JAVA - https://www.baeldung.com/java-custom-annotation
+PIES - Attractive Checkpoints - what they stand for in general - how do you serialize the achievements to get to a checkpoint.
+    SVAF - all the following:
+    F - Attractive checkpoint of healthy body (metabolism and anatomy), healthy physiology, heathy psyche.
+        Oj, Fragrant, sharing meals, great touch, tej. Best Body metrics. Puzzle solver.
+    A - Experiences (backlogs) cultivation in love centred co-enjoyments and re-live them thru stories and abstracts.
+    V - Team Player who contributes a lots of backlogs (ideas and impl)
+    S - Godhead is state attained at love of God but other checkposts are also attractive - nishtha, anartha nivritti.
+FND - NFP - only Scarf, ribbon, bald and bold.
+PIES - Stagification of our goals give us a checkpoint to look up to and persevere for.
+    SQ - Stagify attractive checkposts.
+        About - Bhajan kriya although the result of powerful SS, is also a fuel (other extensions) thru all these stages.
+        Godhead - or Love of God - Different internal checkposts like ruchi, asakti, bhav, etc.
+            God emotion (ultimate) experienced with God - foreshadowed by many checkpoints.
+        Nishtha - unshakable - powerful reasoning ability and realization that transcends even reasoning.
+            unshakable by arguments; by twisted (targetted or cultural) manipulations; by best of stimuli; etc.
+        Regulated Life - Do and Don't - Anartha Nivritti and BK
+            Unmanifest - 4 things roasted.
+                KR - Karmic reactions - conceptual attraction but also characterised by a general happy state.
+                Karma - No self fear of action. Self trust and confidence. 4 regs => Gentleman.
+                Kutam - potential dangerous sanskars but not vrittis; and parallel roasting of sanskars and vrittis as well - little attention avoids sanskars inputs also.
+                    no proclivities or pulls - no more agitated states. no unsettlements of missing out of sth.
+                Beejam - Deep Taste in KC so no dependence on external tastes (they may or may not still be allowed exist as flavors but no dependence)
+            Manifest - worldly cultivated addictions overcome. Light weight life and power to redirect in worthy goals.
+            BK - Deep Meditation Sessions. BK itself is attractive.
+        Sadhu Sang - Wonderful lovely people to be around.
+    EQ - Stagify attractions.
+        Godhead - Great co-enjoyments abstractions.
+        Nishtha - Excellent Plans and executions. PPF - Past Present Future.
+        SS and AN, BK - Fun interactions and value adds. Fun sessions with you.
+    IQ - Stagify attractions.
+        Godhead - CS Life - products with great user experiences and customer satisfaction.
+        Nishtha - Architecture - great discussions with best organized products and features.
+        SS and AN - Smart people around. Productive interactions (no silly mistakes). Best deliverables.
+    PQ - Health Stagify Attractions.
+        Godhead - Awesome health.
+        Nishtha - Great workouts.
+        SS and AN - Suggestions and No health lapse.
+PIES - if you get insecure with 7 performing great in any of SVAF, that should be an object of adoration and inspiration 
+    if that unsettles you then that exposes the gap of your vision and current state resulting in jealosy.
+    If it's inspiration then you acknowledge their contribution in the culture you believe in and you are inspired in that spirit.
+CS - could not resolve dependencies - Failure to find org.scala-lang:scala-library:jar:2.11 in
+    The dependency direct or transitive assumes the scala runtime environment - either added thru scala extension in intellij or plugin?
+    Solution add the dependency with provided in compile time - at runtime - the scala which runs will have all the paths asked for.
+    The jar could not be downloaded as 2.11 - it can be downloaded as 2.11.6 however but this is not the version that many dependencies as for.
+    They ask for 2.11 only - which is not even available - At runtime, those packages will internally ask for a class on the classpath - since scala is the runtime it will be provided.
+Logs - Story - It was day 69 of the streak and it was difficult after kesar and NF - brainstormed the goals of PIES, still not enough. Temple of iron for stability for some time. Then a long walk - 7.25 Km. Solved.
+EQ - FIN
+    Asking for platform charges which gives not much value add (I can take value add thru the drop downs) except information
+    so there's opportunity here - what needs to be done. withdraw and share proft and don't pay without profit.
+    Share holding or Mutual Funds - We expect the country economy to grow at a certain rate
+    Annualized profit is no value add - net profit is something - withdraw early investments as per interest scale and reinvest in a short while it get regularized.
+        If it is lower than anticipated but promise to make up - then only principal recovery.
+        If lower and no promise, then withdraw totally and put in FD. If negative, then patience and time to buy.
+IQGrats - IDEA - Outlook add on or plugin to handle individual mails - perform some ML or NLP to classify the mail to 1 of the boxes.
+    Also huge crowd of emails - there is a possibility of doing group by over the mails for an hour and then send a grouped mail.
+    non-repudiation - it won't allow us to modify emails but we should have handles for permanent deletion and persisting some information until we send an aggregated mail or write it on some pane.
+    https://docs.microsoft.com/en-us/office/dev/add-ins/tutorials/outlook-tutorial#implement-a-first-run-experience
+CS - Maven shade plugin is more powerful than assembly plugin cuz it permits renaming, filtering, etc.
+SQ - I need some shelter but won't call upon him like a fool - he is a dependable shelter - not a shopkeeper type but a parent or guide type.
+PIES - Adhyatma makes a great combination with Varna and ashram constantly exposing the lack of our alignment with spiritual platform.
+    Like lack of spiritual qualities - exposing our MMN attachments, inducing agitations thru falling short on expectation or fear thereof.
+    The ideal answers that you can give for how to handle a situation ultimately is what is expected from constitutional nature of soul, who is currently under conditioned atmosphere.
+    That soul is unable to act as expected is an exposed shortcoming 
+    although these qualities on psyche come naturally with spiritual advancement - and start to stabilize as good sanskars and vrittis, these should also be cultivated on our psyche (mind, intel, ego).
+        this effort is sign of sincerity, 
+        attracts Lord's attention, 
+        gives a favorable culture for spirituality to in turn develop them, 
+        is a sadhana itself - VA is good for SQ although maybe not the best answer. Eg - M Janak perfected thru this alone.
+            Practically this is an assistance with other sadhana and not independent or alone or mutex.
+            For that matter our BK sadhana is also performed at psyche level only to attract mercy.
+    Godhead is defined not by comforts or ideal realm - it is that but most importanly, the state of being in love with most lovable person.
+        It is really difficult - it's about full alignment and being in love - where it's not not about me anymore, it's all about you. Even beyond, it's all about us.
+        It's a pipeline of perfection so although it seems far off, there will be many good examples - not pop in kali but eg will still be there 
+            at least of those in past generations that stood out - many more that don't get their names registered. Mahajano yena gatah sa pantha.
+        Typically it's difficult - from 1st introduction thru extended arm of Krishna (devotees), it takes 3 lifetimes - but that's not the package SP has given.
+            it's possible we are already in our 2nd or 4th lifetime - both quality and quantity matters besides mercy.
+            SP's standard is strict sadhana and services in surrender - a lifetime of surrender - that lives only for pleasing the object of love.
+        There are many attractive checkposts like AN - manifest (true for habits breaking 4 regs - exact or approx) and unmanifest - that show up on stimuli or sustained stimuli.
+            AN is crossed when share holding of KC has exceeded AN and any stimuli even if attractive is faded in face of KC and its culture.
+            Nishtha where we are firm and see it for fact - this stage is ideal for preaching.
+PIES - We are destined to become what we decide to be. Worst is no decision.
+    My Ego - Godhead (ultimate god love), CS Life / Singham Winnow, CustomerOfGod/ SocialServer, Breathe Science.
+    These are my decisions in SVAF. So, if that's true, I have made my choice.
+    Proof of being there - when others start to say that about you. What's need of doing anything else - only these goals matter. Decision means - nothing but that.
+        REL - You give a seminar and others explicitly address you as CS. You write papers and implicitly you are accepted as CS Guy. Your contributions on YT and people say wow the cs guy.
+            also that well, you are a winner or singham (that's poetic that this was given to me from dev director and how my parents address me).
+        REL - when others say that You are customer of god - you have experience world a lot. Or you are a social server - your contributions thru newspaper articles make a difference.
+        REL - when others start to say that you are worthy of godhead or that you are in love for God - no damn pretension.
+        Now, no1 will say that out of blue, it means that 
+            wherever we are obligated, we get appreciated for doing best justice to our work like many comedians in their show. Being client makes me an edge server 
+                REL like comedy of good level - not professional but awesome quality.
+            And taking initiatives, like for CS Life, giving a seminar OR others have so much trust on you that they come and propose you give a seminar.
+    What about escaping it all sometime - yes, regulate that as well or make most out of it - in terms of standardization. That's again customer of god for you. So, reduce eth to that.
+FND - NFP - 7 in compromised situation, should that invoke compassion to help or is that an opportunity to take advantage of. What mental and social culture is this creating - is this what we believe in?
+CS - Maven - Shade Config
+    execution phase, goal.
+    Alt
+        createDependencyReducedPom - removes transitive dependencies which are already in your shaded jar. This prevents consumers from pulling them in twice.
+            Makes it behave like normal pom with no automatic transitive dependencies in the jar corresponding to the pom.
+        relocation or rename
+        filters - filter - artifacts patterns to include; patterns to exclude.
+    Solving approach - Big bang and DnC vs induction or Backtracking the problem.
+CS - Maven - Compile means include the pom for transitive jars so that during the deployment build we will get it all on classpath. Provided means no need to include pom for download to get its jar.
+    jars from here eventually open in the lib folder.
+    shade or assembly means includes classes of the transitive jars.
+    Think of pom dependency as asking for a branch of jar and not a leaf jar.
+IQ - When anything does not work - it is either bad orchestration from our end or some promise not being met from a tool.
+    If tool we have to reduce or debug the tool to basics and figure where we went wrong in the configuration - if it was not our wrong configuration - then raise a bug and start finding a workaround in the meantime.
+    quick help websites are a great help.
+    and all the while we have to stay cool - cuz it is all about aligning with the tools and helping others in the process. if you can't then wth - take some time out to ultimately help or raise bug for helping your peers who wanna help.
+PIES - Realization that materialists are amazing in their serving a certain layer of deep neural network - only that we have additional layer which uses the layer that they may be good at so take their help.
+    Work or ashram is nothing but a dhyan session - meditation should not play around with your emotions. Emotions should be invested but not be playable by that. Meditation means fully aligned and absorbed into the object.
+    There can be context switching involved and that's ok - that's a set of meditations based on 1 topic.
+IQGrats - Cracked - No Sync between dependencies resolved and external dependencies with classes shown by intellij IDE - invalidate cache and restart the IDE solved the problem.
+IQGrats - Cracked - Scala lang uses transitive dependency with version specified in the property of your project pom - scala.version should be 2.11.8 and that will be used to download relevant version in transitive dependency.
+    I used 2.11 and hence it was trying to search the artifact with version that didn't even exist - they key was using the property.
+PIES - The plan is increase attraction towards sadhana and checkpoints.
+    Always set the platform which stretches as if we are forced to say I am not ready for this and then make that work.
+    REL - I may be on manifest AN stage but push yourself to Nishtha platform - here, it is expected that you will encounter some agitations and challenges 
+        face them and learn to navigate thru them until that platform becomes natural.
+    For AN, maintain a lapse log or agitation log. It should act as need for jnana and dhyana reminders 
+        where head on limitation is and keep reminding yourself of tattva, divine qualities I must get.
+        also incentivized top down approach of cultivating strong KC to be able to handle that.
+Logs - Agitations
+    Bad logistics - public using an area for garbage disposal.
+    Garbage songs on weekends
+    Getting angry over value judgments on some temple managements.
+    Can't take shit of a tool not working - although it is just a proof of lack of alignment. Maven shade plugin not working as promised causing a big bang failure.
+    Fear of anticipated pressures - being forced to act right - seeing opportunity as restriction on freedom. 
+        Relatives gonna come and work is stuck somewhere and I must deliver the best personal expectation - fear of falling short. So escapsim with manifest AN.
+Movie - Pirates of Caribbean.
+Movie - Star Wars.
+Movie - Kungfu Panda movies.
+Movie - Kick.
+Movie - Chhalang, Badhai Ho, Dream Girl, Good News.
+Movie - Punjabi - 2 of them.
+EQ - 1 arch achievement is ability to have RDBMS of movies, anime, etc to suggest to someone. Ability to quote eg from there 
+    CRM means networking - especially guests but also other inmates - HCM is pure enjoyment. There is also a merger of HomeErp.
+    EQ Arch is seeing the merging of different HomeErp and also taking Edge Server stands for different fields like comedy, poetry, magic, philosopher, etc.
+PIES - Anartha Nivritti Phase is about not just tolerating pleasures but also pains.
+    Not just tolerating but also solving and evolving
+    Scope - Pain (3-fold miseries and BODD) and Pleasures (6+1 anarthas) over future promises, past sanskars giving a push and present persisting ones
+        causing illusion or rebellion while taking fake or dangerous or sub-optimal shelters
+    C - tolerating how - by taking shelter of something.
+        material shelters as advised are good for stabilizing the situation but not ultimate.
+        Fake and dangerous shelters should be avoided - like 4 regs breaking or escaping the problems or ignoring the pleasures inducing illusion
+        Those not on transcendence inevitably depend on worldly shelters - VA and distributed souces for stability - n pillars of dependence instead of 1, etc.
+        Some take only spiritual shelter - this is a high road which is master stroke but demands more price - so desirable but not easy - better club it with apt material shelters.
+    C - Letting Go - Escaping is evading the problem but sometimes it helps.
+        At least to gain mental equilibrium to face the problem or sometimes, helps us change the track (alternative) to avoid the problem.
+        This path is also acceptance of fact that sometimes situations are just beyond us and we should let time heal it.
+    I - Evolving how - By making the experience count - with advantages for future SVAF.
+    N - Solving how - foundational changes or manipulations to make situation favorable for KC again 
+        working on your attitude, worldly behaviors, communicating things well and devotion - focusing on what's worthy of devotion and readjusting paths or tracks of devotion.
+SQ - Preaching or Nishtha at premature stage comes with many dangers 
+    imagine n people dumping their problems and doubts in you
+    it is like making their doubts and challenges your own.
+    If you don't have good standing you can get shaken. Or can't continue.
+    people look up to not just words but also actions, and estimate thoughts thru bodily gestures 
+        it is huge responsibility and hence pressure of alignment (a great help but also loss of freedom if you ain't there yet)
+        setting bad eg or you diluting standards or changing fundamentals to suit your need for freedom - discourages sincere practitioners and spawns an apasampradaya, etc.
+    SP recommends preach as much as you know so preaching with humility - that we don't know it all but I can help as much as possible for us.
+IQGrats - Lapse - Minimize jar along with specifying all artifacts with few excludes solved the class not available for spark uber jar problem.
+    Then hana driver not found cuz no reference except JDBC so wrote exclusive include for the driver in shade plugin.
+    Google: maven shade plugin minimizejar
+    2 jars => 2 folders - 1 work and another didn't for spark submit and du -hs * | sort for comparing 2 contents on excel along with VLOOKUP.
+        found lots of extra undesirable content for 1 so minimizeJar.
+FND - Devotion - every scrum update is talking about your IQGrats - so it's a fun journey giving scrum updates.
+CS - Maven - To remove local repo - simple go to m2 directory and delete the contents or another, mvn dependency:purge-local-repository -DreResolve=false
+CS - JAVA - Annotations is a very important concept. Frameworks or libraries use reflection classes to read the classes, methods fields with annotations and apply logics accordingly.
+    https://www.baeldung.com/java-custom-annotation
+CS - Maven and IntelliJ not importing maven - indexing problem.
+    -Xmx10068m in the Intellij preferences - maven importing vm - -Xmx10068m
+causes - traffic separation, disable coldstore, unexplored consts.
+    is record ever deleted? if yes, when.
+    is record ever updated that causes the selection fail.
+    Never deleted - except update from performance so ain't never happening.
+    Checked the kibana logs we maintain the ceiling of 1 week logs only then we throw or archive them.
+    This means that they could be lost for us now.
+    Since Code store type was assigned so we already know the cause of ExecutionException.
+    Now, the problem is exactly what she is asking - why was the entry not made, buds.
+    Since logs must be gone for onboarding also - exact reason could be difficult but a theory can surely be made.
+Polity - Stereotype actions to personality and see a person rebel or change behavior.
+    Complain and person tries to change. Appreciation.
+    Firm stand of how you want yourself to be taken - even st vocal about it.
+    Typecasting - 1-2 encounters used as justification to define a person.
+        solution - counter eg.
+    Narrative forming - few incidents and giving it a story of your choice.
+    Other sources of power exercised -
+    Brute power - physical or vocal or resourceful.
+        numbers on your side.
+    Willingness or not on your side. Talking win-win.
+    Information manipulation - hiding, showcasing, lying as per comfort.
+    Logic on your side; reminding logic.
+    Power from position - cuz you are the role so what you say is true.
+        Power of alliance - buying body guards, etc.
+    Power from purity or ethics or morality - Let's do this cuz it's right.
+    Some disruption from normal is always expected - we don't want civil war among guards and citizens.
+        Some citizens are bound to think that they deserve to cross the fence a little and thru insisting - they settle with just a little beyond.
+        We feel upset cuz we like people to pay the price for anything - and well, even if we don't like it - this behavior manipulation is a deserving act - maybe not enough but still deserves some art.
+    Take a stand - others are bound to change it to clarify - like saying no it's not ghee - let me taste again.
+        package is 15 right. Ok, just tell more or less.
+    Reinforcement learning - sell away the chair if Rajasthan king didn't show up.
+    set boundaries so that only alternative of your choice is left for the person to do.
+    Your behavior of approval or disapprovals - showing a person potential friend or enemy based on how you behave.
+EQ - Indian plight - it's not that bad first of all - 2ndly - god emotions or driver. Next, conflicting forces - cancelling vectors. Individual level - lack of discipline or alignment to disciplines - arts not supporting science - making fun of.
+    Glorifying those who can get a workaround - of course that's a talent but also lack of ability to do wonders with alignment. But many a times, practicality is the answer; teaching is difficult to align with - being theoretical.
+    I am not saying that there are no valid reasons. There could be. But why some are god performers and some are not.
+    There are really good performers in India as well - these are those align. There is no shortage of list.
+Movie - Super 30.
+Logs - Story - Mama papa mediators neighbor jatts in the rowhouse.
+    Dog no bark and no bite just standing in face of 10 attack modes dogs and no messing around. Even his master - what a spirit.
+    Home Lakshmi Mama - Business went down with globalization and loan load - removed, partners who wanted to withdraw paid back.
+    Bauji's father had landholding - which divided among the children
+    Chachaji very assertive about his room swapped with vheli house - which they didn't like.
+    Papa spent a lot on chachaji room and willingly handed all the rooms to elder brother as well. That's love.
+    Jass got lots of money by taking some lands on his name and 50% of factory land but with some profits, conflict of water bambi came.
+Movie - Fukrey.
+SQ - I remember a devotee joking but so true - We just maintain newcomers with meeting seniors the real magic happens.
+    so if good practice we could have started nishtha stage but those who are deeper levels they reinforce our KC better.
