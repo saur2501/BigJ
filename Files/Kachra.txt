@@ -944,3 +944,73 @@ FND - NFP - Fem are far more than just externals. Beautiful minds, intellects, a
     It degrades us. The experience that they must go thru cuz of demand also degrades them and hence the culture cuz of broadcast.
     Their fears of their families not looking at their work.
 Movie - Fukrey.
+EQ - In Grihastha Ashram, should we marry? Marriage - with another person - will it help?
+    Godhead - Nope. It's personal endeavor - only favorable else problem. So, like a clutch.
+    Legacy - Preaching or teaching creates better legacy. But gene pool lost if you don't. You gonna compete with pop and multimedia and other influences.
+    World Grats -
+        in SVAF, except ashram it's just should be favorable else it's a potential problem - that's the only abstraction that matter - no direct involvement.
+        for ashram, all ERP are bound to increase and grow in flavors - SRM, SCM production, CRM Networking, etc; even HCM entertainment will grow but since total time is same - new genres will be explored like with friends.
+            New shoppings that you earlier didn't but new resource that means which otherwise you would not have bought.
+            FIN will increase cuz 2 sources.
+        FDDL - Is this all increased grats?
+            Lack of fear cuz at least 1 more person as shelter or security. More desire fulfillment - yes at different layers.
+            Love in material world so something noteworthy there. Duty of legacy already covered.
+        So, verdict is addition of new flavors which if are welcome-worthy then great. More security or shelter. Experience of Krishna's substitute love.
+            although in theory no one can replace Krishna but still at our stage we can't approach Krishna.
+Logs - Story - how powerful your other ERP become with good SRM. Like teaching courses online for child or Healthify Me - Surabhi Didi does this wonderfully.
+    Even Syami orders whatever must be ordered.
+IQGrats - Lapse - Searching by exception log in current project the exception could be happening from a dependency of the project - that won't show in the find.
+CS - Inner class is like having an assistant. Outer class in the same file - no obvious view to programmer but available just in case. Separate file then - in view of programmer.
+IQ - PIES also.
+    I do Varna for happiness DFD L0 - next, I achieve it thru FDDL - Stability, Money, Contributions and Fun. Same applies to SVAF.
+    Think of day work as canvas to drag and drop your standardized stuffs to. So, easy stuff there. Implementation is nothing.
+    As far as best drag and drop pattern that's also Design pattern thingy - mastered - more time goes in that fun thinking and discussion
+        than implementation - that's easy - to be done in an hour.
+    In 20s work hard in various fields but 30s work - decide your niche and delegate or standardize for easy life so that you can focus on other things.
+    30s is better for business than tech - of course, can be done before also but 30s also brings in maturity.
+CS - Redis connection
+    var full_df = sparkSession.read.format("csv")
+      .option("sep", "\t")
+      .option("inferSchema", true)
+      .option("header", true)
+      .load("/Users/I341365/Desktop/Lets/spring-boot-multi-module/service/src/main/resources/pantheon.tsv")
+    full_df.write.format("org.apache.spark.sql.redis").option("table", "people").option("key.column", "en_curid").save()
+    println("Done!!")
+    var df = sparkSession.read.format("org.apache.spark.sql.redis").option("table", "people").option("key.column", "en_curid").load()
+    df.show(2)
+    println("Hope you like it, bro!!")
+    //sparkSession.read.format("org.apache.spark.sql.redis").option("table", "people").option("key.column", "en_curid").load()
+    //runJob(sparkSession, null, null);
+    val sparkConf = new SparkConf().setMaster("local[*]").setAppName("DataIngestion")
+    sparkConf.set("spark.streaming.stopGracefullyOnShutdown", "true")
+    sparkConf.set("spark.default.parallelism", "2")
+    sparkConf.set("spark.driver.host", "localhost")
+    val sc = new SparkContext(sparkConf)
+    //runJob(sc, ) - no worries cuz submit program is gonna call this class - and it will call runJob.
+    sc.stop()
+Movie - Agnipath.
+CS -  https://google.github.io/styleguide/javaguide.html
+Logs - Lots of lessons for foundations behavior and even others.
+    Syami praised for his funny mood unlike others being serious. Let's enjoy seriousness. Yes we gotta make most of what's there.
+        This is still a good choice to by default be doer or solver for a project and st spice it up for fun 
+        while this is true - it is always possible to seek more fun in every given situation with practice.
+        So, we gotta associate with right people for subconscious training and for conscious just deliberate a little over what amuses you.
+    Agitated by manhandling phone snatched - spoke my ATM pin loudly which I generally don't do.
+    People are artificial - yes eth is beyond binary but you gotta take 1 stand at a time with confidence. So, never negate your statement especially immediately.
+    Head Doctor at Ranjeet Avenue - to be pursuaded in your interest
+        People can be talked into agreement - pleading to consider your case, we are willing to pay more; our plight we have already travelled thru so many hospital and we came here with great hope.
+    She tells alternatives - tell why approaching you was the best bet; start telling your story which makes your case stronger - after investing into your story probability of yes grows.
+    Hospital visit and wait at reception
+        Ew we gotta put pressure on people for them to behave at their best in terms of time, their duties or efforts - how much time will it take; follow ups - Sir our job is very small; start explaining your case.
+    Check with hotel to guide you regarding airport behavior on covid proofs. And they did offer useful insight of soft copy - gmail from testers or hospital or photo to be sent, etc. Id generated national check online.
+    Agitating situation becomes more agitating when people are not united and are busy proving that they are better than others or 7 is shit.
+    Papa is best at tolerating things over impedance mismatch - we gotta do our duties and even when there isn't proper reciprocation we gotta still do the duty and not backout. Papa is exemplary in some ways at tolerating undesirable situations.
+    Compassion for the car driver lady who could not maneuver her car while parking - no issues I parked it where possible for me.
+    Adhrit - introduce as many nouns and verbs as possible - amuse yourself if you were his age with all the help from quora and so - how will you enjoy and learn more at his age.
+        becoming like a dog trying to bite his fingers and failing in the attempt.
+PIES - There are more fallbacks after ashram, there's personal amusement be in varna or ashram based but personal - personal improvement (health included) also but that's more on the side of spiritual.
+Uncat - Adhrit - Studying thru movies - synthesis.
+    Nathdvara details. Doctor arranged for Adhrit Story. Udaipur Stories. Kumbhalgarh stories.
+    Polity - Boarding pass - speak it out at least and give reasons for what you want and accept whatever.
+    The way or tone that you speak also has an impact on a person - he got fever in different tones.
+    I spend so much TME - that's not for nothing - these have to add up.
