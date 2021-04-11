@@ -181,121 +181,44 @@
                 Ashray
                     Diksha and Ashrams of life
         </More>
+		GirlsVoice - None of my business; just FYI.
     </SMY>
-    <GirlsVoice>None of my business</GirlsVoice>
-    <EBG>
-        About - Applications of BG with focus on corporate life.
-            Busy life and they don't care whether science bridges to spirituality as much they value its applications.
-            Although very spiritual centric - this can be thought of assisting Varna in KC.
-            For corporates, Personal Development is the Bridge course and EBG is the intermediate course.
-        SpiritualScientist
-        PositiveThinker
-            Identifying the Divine Guide
-            The Spirit of Bhagavad Gita
-            Qualifications of an Idea Disciple
-            Reincarnation - Fact or Fiction
-            Evolving Towards Perfection
-        SelfManager
-            Peace Formula
-            Who should be the Object of My Worship
-            God and gods
-            Is God Personal or Impersonal
-            The Art of Self Management
-        ProactiveLeader
-            The Three Ropes That Bind Us
-            Surpassing Maya
-            Our Lost Home - Kingdom of God
-            Karma - The Law of InFallible Justice
-        PersonalityDevelopment
-    </EBG>
-    <Applications>
-        About - Personal applications of BG or vedic literatures OR its lifestyles.
-        Ref: Prerana, TSS, Youth Encyclopedia, One Time Programs.
-        <Varna>
-            Lack of passion cuz easily satisfied - nothing happens without determination.
-                Eg - SP passionate about spread. Firm stands and All personal qualities but motivation inside
-                as far as motivating others - integrity, etc inspires others. So leaders they trust. Not easily busted with setbacks.
-                Inspiring others or managing others by hearts vs by hands or heads. They become your representatives.
-                Business or job - competition not snub others but decisions for growth within - why fall others - grow oneself - making enemies bad for business.
-                Never cheat ur customers and they get trust. Crushing other is a short cut not worth taking
-                    Mafatlal's father used to say reputation building takes years and breaking takes 1 day.
-                    Taking loan and banker knows it will be paid back and we did.
-                Not easily shattered on failures - seeing objectively what went wrong.
-        </Varna>
-        <Ashram>
-            Center of attraction is transcendental means no intersection.
-            From me to we - tolerance increased, purpose is evolution. Please God thru it - don't hate instrument
-            Personal qualities are attractive and can withstand.
-			Lecture - Languages of Love
-			Grihastha Ashram Manual (from Radha Gopinath Mandir)
-        </Ashram>
-        <Personal>
-            <Fearlessness></Fearlessness>
-            <Love></Love>
-            <SpiritualLustGreed></SpiritualLustGreed>
-            <Tech></Tech>
-            <Illusions></Illusions>
-            <Engg></Engg>
-            <EastMeetsWest></EastMeetsWest>
-            <TitanicLessons></TitanicLessons>
-            <CharacterWithCareer></CharacterWithCareer>
-            <DoTheBestLeaveTheRest></DoTheBestLeaveTheRest>
-            <LifeBalance></LifeBalance>
-            <FromFearToHope></FromFearToHope>
-            <TakeABreak></TakeABreak>
-            <UTurn></UTurn>
-            <ConflictManagement></ConflictManagement>
-            <SeekerWithinAchieverWithout></SeekerWithinAchieverWithout>
-            <TitForTatORTolerateThat></TitForTatORTolerateThat>
-        </Personal>
-		<Preaching>
-			Facilitator Empowerment Course
-				SP Vision for Devotee Care
-				Vision and mood required of a facilitator to care for others
-				How should a a facilitator care for those in his guidance by HH RNSM
-				Putting the horse b4 the cart
-				Taking shelter of hari guru and vaishnava
-				Facilitator as a caregiver, rather than as an authority
-				Ideal Vaishnava behavior of a facilitator
-				Group Presentation - Qualifications and Responsibilities of a Facilitator
-			How to read and make notes effectively
-				Knowledge
-				Understanding
-				Personal Application
-				Preaching Application
-				Faith and Conviction
-				Authority
-				Theological Application
-				Evaluation
-				Mood and Mission
-				Academic and Moral Integrity
-				Responsibility for Learning
-				Sastra Cakshus or realizations
-			Become Deep By Sacinandana Swami M
-			Presentation Feedbacks
-				Avoid Unwanted use of humor
-				Good Eye contact
-				Avoid fillers like "You know"
-				Good use of stage space.
-				Invite Participation
-				Good Voice variations
-			Others - Infy
-				Personal Brand Identity
-				Personal Effectiveness
-				Business English Course
-		</Preaching>
-    </Applications>
-    <KCCulture>
-        About - Intended for congregation. They want a culture and relevant guidance for a happy life. Expect a detailed ashram study.
-            Think all the GS and NS camps.
-        <Lifestyle>
+	<PracticalKC> Yoga (Varna) and Temple (Ashram) Phase - See Culture of KC through many dev eg, inspirations and camps.
+        About -
+			<EBG> Yoga Phase - Spirituality for corporates or varna (Detailed depth study in Applied phase)
+			About - Applications of BG with focus on corporate life.
+				Spiritual foundations enrich your qualities for varna - premise and convictions
+				Busy life and they don't care whether science bridges to spirituality as much they value its applications.
+				Although very spiritual centric - this can be thought of assisting Varna in KC.
+				For corporates, Personal Development is the Bridge course and EBG is the intermediate course.
+			SpiritualScientist
+			PositiveThinker
+				Identifying the Divine Guide
+				The Spirit of Bhagavad Gita
+				Qualifications of an Idea Disciple
+				Reincarnation - Fact or Fiction
+				Evolving Towards Perfection
+			SelfManager
+				Peace Formula
+				Who should be the Object of My Worship
+				God and gods
+				Is God Personal or Impersonal
+				The Art of Self Management
+			ProactiveLeader
+				The Three Ropes That Bind Us
+				Surpassing Maya
+				Our Lost Home - Kingdom of God
+				Karma - The Law of InFallible Justice
+			PersonalityDevelopment
+		</EBG>
+        <BrahmacariLife> lifestyle until one changes the ashram
         GS - Detachment inducing Talks - focus on temporary nature and Harsh truths - self centered-ness of eb vs spiritual paradigm, etc.
             Syllabus can jotted down but nothing more is intended to be done here.
             There is a possibility of jotting generic etiquette and culture here - which is general - cuz grihasthashram spawns from this phase.
 			Vaishnava Training and Education Manual
-			VTW Course
-        </Lifestyle>
-        <GrihasthaCulture>
+			VTW Course, VMML.
+        </BrahmacariLife>
+        <GrihasthaLife>
         NS - Refer my google drive (nitjsr and vitpune shared) for content.
             <B2G>
                 ...
@@ -869,8 +792,94 @@
             <Parenting>
                 Ref - Grihasta Ashram Seminar - The Principles of Vedic Parenting by Sankirtanras Prabhu
             </Parenting>
-        </GrihasthaCulture>
-    </KCCulture>
+        </GrihasthaLife>
+    </PracticalKC>
+	<TheoreticalKC>
+		<BhaktiShastri>Refer</BhaktiShastri>
+		<LilaSmaranCourses>Refer</LilaSmaranCourses>
+	</TheoreticalKC>
+    <AppliedKC>
+        About - Personal, Relational, Social applications of vedic literatures OR its lifestyles.
+			vs PracticalKC - that's more personal spiritual application; here it's SVAF application of KC at 3 selfs - personal, relationships and social.
+        Ref: Radheshyam Pr's Management Camps (MALA, etc), Prerana, TSS, Youth Encyclopedia, One Time Programs, Namita Purohit, Mumbai Congregation, etc.
+		<SpiritualApplications>
+			About - How to apply what you have understood thru different courses.
+		</SpiritualApplications>
+        <Varna> Ref - Lectures (VA being soil for the Bhakti plant, etc), PIES, self motivation.
+            Lack of passion cuz easily satisfied - nothing happens without determination.
+                Eg - SP passionate about spread. Firm stands and All personal qualities but motivation inside
+                as far as motivating others - integrity, etc inspires others. So leaders they trust. Not easily busted with setbacks.
+                Inspiring others or managing others by hearts vs by hands or heads. They become your representatives.
+                Business or job - competition not snub others but decisions for growth within - why fall others - grow oneself - making enemies bad for business.
+                Never cheat ur customers and they get trust. Crushing other is a short cut not worth taking
+                    Mafatlal's father used to say reputation building takes years and breaking takes 1 day.
+                    Taking loan and banker knows it will be paid back and we did.
+                Not easily shattered on failures - seeing objectively what went wrong.
+        </Varna>
+        <Ashram> Ref - Congregation and Counselor System - They want a culture and relevant guidance for a happy life.
+            Center of attraction is transcendental means no intersection.
+            From me to we - tolerance increased, purpose is evolution. Please God thru it - don't hate instrument
+            Personal qualities are attractive and can withstand.
+			Lecture - Languages of Love
+			Grihastha Ashram Manual (from Radha Gopinath Mandir)
+        </Ashram>
+        <Personal> Foundational
+            <Fearlessness></Fearlessness>
+            <Love></Love>
+            <SpiritualLustGreed></SpiritualLustGreed>
+            <Tech></Tech>
+            <Illusions></Illusions>
+            <Engg></Engg>
+            <EastMeetsWest></EastMeetsWest>
+            <TitanicLessons></TitanicLessons>
+            <CharacterWithCareer></CharacterWithCareer>
+            <DoTheBestLeaveTheRest></DoTheBestLeaveTheRest>
+            <LifeBalance></LifeBalance>
+            <FromFearToHope></FromFearToHope>
+            <TakeABreak></TakeABreak>
+            <UTurn></UTurn>
+            <ConflictManagement></ConflictManagement>
+            <SeekerWithinAchieverWithout></SeekerWithinAchieverWithout>
+            <TitForTatORTolerateThat></TitForTatORTolerateThat>
+        </Personal>
+		<Preaching>
+			TTC - PIES,
+			Facilitator Empowerment Course
+				SP Vision for Devotee Care
+				Vision and mood required of a facilitator to care for others
+				How should a a facilitator care for those in his guidance by HH RNSM
+				Putting the horse b4 the cart
+				Taking shelter of hari guru and vaishnava
+				Facilitator as a caregiver, rather than as an authority
+				Ideal Vaishnava behavior of a facilitator
+				Group Presentation - Qualifications and Responsibilities of a Facilitator
+			How to read and make notes effectively
+				Knowledge
+				Understanding
+				Personal Application
+				Preaching Application
+				Faith and Conviction
+				Authority
+				Theological Application
+				Evaluation
+				Mood and Mission
+				Academic and Moral Integrity
+				Responsibility for Learning
+				Sastra Cakshus or realizations
+			Become Deep By Sacinandana Swami M
+			Presentation Feedbacks
+				Avoid Unwanted use of humor
+				Good Eye contact
+				Avoid fillers like "You know"
+				Good use of stage space.
+				Invite Participation
+				Good Voice variations
+			Others - Infy
+				Personal Brand Identity
+				Personal Effectiveness
+				Business English Course
+		</Preaching>
+    </AppliedKC>
     <AdvaitaSabha>
         About - expect life retrospects and realizations from experiences and connect the experiences to spirituality.
             Urgency of spirituality in focus for preparation of exam. How to guide others with detachment.
