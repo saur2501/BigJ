@@ -37,11 +37,39 @@
             J - All the DMPM doesn't come here but only the courses done. Others can go in MS Notebook or some concrete sections (local cache for all online helps)
             K - All the Logs don't come here but their rolled-up information. Logs used in ego section to support narratives.
             Ego Specific - Logs view prepared for a narrative.
+			Uncat - Grand Story or Larger Narrative - It is all about your exciting journey
+				excitements or fun along the way
+				services or contributions along the way.
     </About>
     <S>
         BY - Scrum and Themes
         DY - Mantra Meditation, Naiti Meditation, Attention Meditation, Transcendental Meditation, Pranayama Breathing Meditations.
         JY - SMY, Bhakti Shastri, Sadhguru casual talks, Art of living casual talks.
+			Courses and teachers journey.
+				Most prominent Guides - SP, RNSM, RSP, CCP, Gauranga Pr, Govind Pr.
+				Inspiration - SP, Humungous widespread culture of ISKCON Hare Krishna Swamis under SP and their disciples (different specializations)
+				General Shelter - Many temples and extensions. Associations of wide variety of devotees.
+				SMY - DYS, EBG, Camps - RSP (and whole jet age gurukul teachers - Pune, Kolkata) - 2006-2012
+				VTW - Many Pune sr devotees. (2007-2008, 2010-2015)
+				Practical KC - Radha Gopinath Prerana (personal), KTP applied BG study.
+					More - Social applications, Pune and Mumbai Congregation on Ashram. Variety of lectures from Swamis and Prabhus.
+				Ashram - GS Teams and NS Teams (2012-2015)
+				TTC - BGP, Camp - RSP, CCP (2011-2015)
+				Bhakti Shastri - CCP (2018-2021)
+				MB, Ramayan, Krishna Lila - Govind Pr (Dharma application), ?CCP (insights, controversies, relevance), ?Amogh Lila Pr - (2021 - 2 sems)
+					Krishna Lila - Krishna book and Radha Govinda Swami YouTube Playlists - baal lila, braj lila, dwaraka lila, saptah.
+					Book - Krishna dharma Prabhu
+				?SB - RNSM (Theme based - folder random files IDT, lila based - covered in VOICE) - (2022 2 semesters)
+					Krishna Lila - Radha Govind Swami (Krishna book)
+					Inspiration - Many, Mahavishnu Goswami Maharaj, CCP, etc
+				?CC - BCS - 2023 spring
+					Inspiration - RNSM, etc.
+				?SP - Random Lectures from different IDT sources (search - Prabhupada, _ Lila, _ pastimes, etc - 2023 fall
+					Books - Prabhupada Lilamrita
+				future - Applied Spirituality (SVAF Applications at different scales - personal, relationships, society, etc)
+					systematic, Revisits, numerous devotees with their specialities, etc.
+				Uncat - SA course (Radha Govinda Swami's disciple), Kalacakra Krishna Pr, Sanskrit insights from a pune sanskrit scholar, etc.
+					Countless inspiration from wide range of Swamis (SP Disciples) and Prabhus (recognized for their unique KC presentations)
         KY - VA Evolution Focus. 
             Sakaam - Services (social or trans-spiritual) Sacrificing fruits portion - Charity for spiritual growth, for social well being.
             Nishkaam - Services sacrificing fruit (partly or completely) and work portion - services that please but no tangible outcome eg - FFL
@@ -104,6 +132,29 @@
                     Management Skills
                     Additional Qualifications
                     Personal Interests
+			Uncat - Grand Story or Larger Narrative
+				VOICE (10+) - SMY Books - KC Basics.
+					Basic Concepts of KC - SP Small Medium Books (KC Basics), Vani Lecture Series (DD, Prerana, SP, RNSM, Boiling the milk)
+					SMY camps - Utkarsh (DYS), Sankalpa (Faith and Doubts), Sphurti (Mind)
+					//Backward compatibility with Prahlad School Phase and Lots of foreshadowing (FS)
+				20s - Personal Application Phase
+					YOGA - ABG (Personal Applications) - EBG. Prerana.
+						FS - EBG since VOICE.
+					VOICE Revisit - GS NS.
+						FS - B2G, Ashray Camp.
+					Temple - KC Culture, Preaching inspiration.
+						FS - Preaching camp or TTC (Preaching foreshadowing), Guru Disciple Course, STW VTW (KCC FS)
+				30s - Deep Study Phase
+					Bhakti Shastri.
+						FS - All throughout the journey. Nishtha Camp.
+					Lila Smaran (30+) - SB, CC, SP.
+						FS - all throughout the journey.
+					?Wide Study - Other schools basics (FS from Bhakti Shastri, etc)
+				40s - Sharing Phase
+					Preaching Phase (40+) - All Revisits + Sharing
+						More of everything - More SP Lila, More Lord Devotee's lila, etc.
+					Social Application Phase (50+)
+					Advaita Sabha (75+) - Crash Course or sincere preparation for exam starts, Life Reflections.
         </EgoSpecific>
     </S>
     <V>
@@ -114,7 +165,7 @@
                 About - job security, politics, rising to top, expressions of power
                     Proof of IQGrats (sincere) from others - better if broadcast, but unicast also good.
                     Also, sheer action of IQGrats being broadcast or recognized - even if not appreciated - eg - new development demo or even KT.
-                NIT JSR - Paper writing on VOIP.
+                NIT JSR - Paper writing on VOIP. NPTEL Lecture downloads until made public.
                 Infy - Offer from foreign. Bank Finnacle.
                 VIT Pune - Lab sessions from him are different ballgame - very learnable.
                 Siemens - writing mail testimony he is really good. Suggestion to take regular sessions.
@@ -136,12 +187,13 @@
                     18 - 8.02, 8.35
                     19 - 9.01, 9.39
                     20 - 10.19
-                    21 - ?
+                    21 - 10.69
                 Leads
-                    20 - DS Comps - 13/14.
-                    20 - Huawei - 16/17 (refused 19)
+                    19 - Huawei - 16/17 (refused 19)
+					20 - DS Comps (PwC, etc) - 13/14.
                     20 - Samsung - 19
-                    21 - ?
+                    21 - Empty fire - Amazon written 1.5/2 (cuz non optimal) solved, Amazon Alexa, Amazon kindle, Amazon AWS resume found attractive.
+					21 - Samsung Networking -
             </Money>
             <Contributions>
             About - All Projects Done - be able to tell tech, etc used, contributions, roles played; challenges faced
@@ -282,7 +334,7 @@
                             NoSQL - Cassandra, HBase, Redis, MongoDB, Neo4J, etc.
                             RDBMS - PostGre, MS SQL, MySQL
                             Data Models - RDBMS, XML, JSON, Text, Semantic Web, Data Warehousing, NoSQL,
-                        Big Data - Spark Server.
+                        Big Data - Spark Framework, Spark Job Server.
                         Messaging Servers - Kafka Brokers
                         Model Verification - TOC - NuSMV (Model Checking or software verification)
                         Compilers - yacc, lex, CUP, etc.
@@ -321,6 +373,7 @@
                     web scraping for desktop images.
                 Subscript matching assignments
                 excel vba for reducing efforts of manipulating data details from REST JSON response of ML based Leonardo API.
+				IDEA - Ticket runtime assignment
         </D>
         <K>
             About - All Projects Done - be able to tell tech, etc used, contributions, roles played; challenges faced
@@ -543,12 +596,36 @@
                             IncomingFileOWL_V2 - Files for Bank or partners interface - bank statements, cheque deposits, etc.
                             CostObjectsSettlementRunCreate_QAF - EC for background job creation.
                 SAP IOT - Big Data Analytics for SAP IOT Data Streams.
-                    Monitoring new endpoints (spark by context name), refactoring, GIT Wiki, Slack Integration.
+					High Level State Monitoring
+						Contributions
+							Support for newer endpoints (spark by context name)
+							Extending slack integration for exceptions.
+							Refactoring code using OO Principles and design patterns
+						Tools - Updating GIT Wiki, Slack, REST APIs, HANA DB, Spring boot, JAVA, Adapter pattern,
                     Refactoring Code for Data Generation Simulator
-                    Version updates for security, master parent pom, library adoption etc
-                    POC for Performance Execution on different CF Space
-                    Spark Connectors Health Check App
-                    IDEA - Ticket runtime assignment
+						Contribution
+							Refactoring and Code clean up.
+							Redesign of existing code for compactness.
+						Tools - JAVA, Spring boot, Kafka
+                    Security Handling through Version Management
+						Contributions
+							Updating the dependency versions in order to take care of the identified vulnerabilities.
+							Dependency tree exclusion of transitive dependencies.
+						viz - Version updates for security, master parent pom, library adoption etc
+						Tools - MAVEN, GIT
+					Performance Metrics POC for different Cloud foundry space
+						Contributions
+							Adapting config file to a CF space different from originally intended to avoid traffic.
+							Communications with Performance team to fill the gaps.
+							Idea proposal for automation of data collection for future analytics - Jmeter runs, REST endpoints to be given by the team, etc.
+                    	viz - POC for Performance Execution on different CF Space
+						Tools - Cloud Knowledge, Cloud Foundry, Wiki Page Creation
+                    Spark Services Connections (and CF included) - Hana, Kafka, Cassandra, Redis.
+						Contributions
+							Supporting deployment checks and checks through REST endpoints for connection health of spark with other services.
+							Extendable design to accommodate easy additions or removals in future.
+						Tools - Cloud Foundry, Spark, Hana, Kafka, Redis, Cassandra. Multi-module Maven. JAVA, Scala, Factory / Builder Design Pattern
+					...
         </K>
         <EgoSpecific>
             about - focus on how I am suitable for a role cuz my ego matches with that.
@@ -1588,6 +1665,7 @@
                 Management Skills
                 Additional Qualifications
                 Personal Interests
+			Uncat - Grand Story or Larger narrative should be seen as places of residence that I have been through (homes, cities, etc)
         </EgoSpecific>
     </A>
     <F>
@@ -1677,6 +1755,16 @@
             Management Skills
             Additional Qualifications
             Personal Interests
+		Uncat - Grand Story or Larger Narrative
+			Udhampur - Video Games, Outdoor games many.
+			Jamshedpur - Bhangra in Puri, Acting, singing, Books reading, etc.
+			PIES Pune, Video Gaming Starts, ASR Gym. Finger Chanting powerful.
+			IIITB and Siemens - Morning Yoga and Exercise, Evening Run, Gym stretch.
+				Om Chanting, Long walks.
+			SAP - Society Gym - Morning runs, Morning inspirations, night affirmations, Sports so many participated.
+				Emphasized 10 MM. Shloka Recitation or listening.
+			SAP ASR - Evening Runs and walks. Many indoor Games and Challenges. ABCD Planned and Starts. Book Reading starts.
+				Foreshadow - ABCD Depth. Lots of books. Standardizations, etc.
     </F>
     <LifeLogs>
         SQ

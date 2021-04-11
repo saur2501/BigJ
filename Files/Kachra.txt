@@ -104,7 +104,7 @@ FND - Communication - Jokes involve involving different sources of information -
 PIES - To cultivate FND we need - knowledge and practice but also Role models, many eg to train over, etc.
 IQ - Work like a scientist not just a productive worker - you are the one investigating and going the essence of eth and thru all approaching finally making it work.
     that's why I say computer scientist not computer engineer or computer techician, or computer worker, etc.
-FND - NFP - tattoo, artistic, design, outfits, tasteful; It interferes with my immune system. It interferes with my TME investment on other dimensions worthy of investment.
+FND - NFP - tattoo, artistic, design, outfits, tasteful, head towel; It interferes with my immune system. It interferes with my TME investment on other dimensions worthy of investment.
     How much TME do you invest on your goals.
 PIES - Tolerance is a very important concept. Take anything, you get what you tolerate. LCM emphasizes it, Krishna emphasizes, all yogis practice it.
     There's a penance or tapasya for a goal; on the path of which there are obstacles to be overcome - while it takes determination and discrimination to do it.
@@ -113,3 +113,386 @@ PIES - Tolerance is a very important concept. Take anything, you get what you to
     immune system works - it solves but we gotta tolerate while it does.
     You tolerate and be a good engineer when all that becomes easy but then you must tolerate next level to be an arch.
 PIES - mind is a library - everything you put in - is gonna go in the warehouse to be organized - conscious of what you put inside.
+Movie - Justice League 2021.
+Movie - Pyaar ka Punchnama 2.
+Movie - The Jungle Book 2016. Mowgli 2018.
+Movie - Comedy Night Bachao, Comedy nights with Kapil, The Kapil Sharma Show, Comedy Nights Bachao Taaza.
+Logs - Story - Follow up on the Flexben mixup between Last year's wfh and new year's optional benefits. And finally it got settled so persevere.
+Logs - Story - Car Zoom car key with us - and charge was set as 10K which Syami paid to get next trip - and then reimbursed the same.
+    Learnt fighting spirit from didi jiju and applied it at first person I met at airport - he happened to be manager. Next time, I needed a favor and I was hiding my face.
+LIB - Kafka connection all properties
+    getSaslAuthenticationProperties(credentials)
+        Properties properties = new Properties();
+        properties.put(CommonClientConfigs.SECURITY_PROTOCOL_CONFIG, "SASL_SSL");   //security.protocol
+        properties.put(SaslConfigs.SASL_MECHANISM, "PLAIN");                        //sasl.mechanism
+        properties.put(SaslConfigs.SASL_JAAS_CONFIG, getJaasString(kafkaCredentials));  //sasl.jaas.config
+            String base = "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"%s\" password=\"%s\";";
+            String username = kafkaCredentials.getUser();                           //literally kafka credential's username.
+            String token = kafkaCredentials.getToken();                             //refresh token and generate.
+            return String.format(base, username, token);
+        properties.put(SslConfigs.SSL_ENDPOINT_IDENTIFICATION_ALGORITHM_CONFIG, "");        //ssl.endpoint.identification.algorithm
+    clientFactory.createAdminClient(allProperties)
+        properties.putAll(getAuthenticationProperties(credentials));
+            Properties properties = new Properties();
+            properties.putAll(getSaslAuthenticationProperties(kafkaCredentials)); -- already done
+                ...
+            properties.put(SslConfigs.SSL_TRUSTSTORE_LOCATION_CONFIG, kafkaCredentials.getTrustStoreLocation());    //ssl.truststore.location - addCertificateToTrustStore - download and add
+            properties.put(SslConfigs.SSL_TRUSTSTORE_PASSWORD_CONFIG, TRUST_STORE_PASSWORD);                        //ssl.truststore.password - from TRUST_STORE_PASSWORD in env
+        properties.putIfAbsent(SslConfigs.SSL_ENDPOINT_IDENTIFICATION_ALGORITHM_CONFIG,"")                          //ssl.endpoint.identification.algorithm
+        super.createAdminClient(properties);
+            defaultAdminClientProperties();
+                properties.put("bootstrap.servers", credentials.getBrokers());
+        //super.createProducer()
+            defaultProducerProperties
+                properties.put("bootstrap.servers", credentials.getBrokers());
+                properties.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+                properties.put("value.serializer", "org.apache.kafka.common.serialization.ByteArraySerializer");
+            getMetricReporterProperties
+                properties.put(CommonClientConfigs.METRIC_REPORTER_CLASSES_CONFIG, reporters.trim());
+                properties.putAll(healthReporterProperties);
+SRM - Chandrabhaga, east ghats, west ghats, indian ocean. Ganga, Yamuna, etc.
+SQ - AN is primarily about BV to SV - svarth to paramarth. Selfishness to extended self.
+    KY - thru VA service or Dharma finding the ultimate expression of union.
+    JY - tattva darshan thru sattva path - DMPM.
+    DY - life of absorption meditation - yam niyam practices to be able to do that.
+    BY - 9 stages with anartha nivritti being from svarth to paramarth
+        (maps to sattvik life JY; maps to yam niyam DY; maps to dharma parayan KY) primarily done thru Bhajan kriya (maps to tattva darshan or nididhyasanam; maps to meditation; maps to dharma parayan action)
+        BK to AN maps in JY stages (Mananam to Nididhyasanam); DY stages (Pranayam to Pratyahar); KY stages (Dharma samashti - e1 to srishti - constitutional)
+        Following this there's nishtha (Preaching) and growing interest in transcendence (Dharana Dhyan in DY; Sakshatkar in JY; parameshti in KY)
+    This is more difficult to get perfection cuz it's a lifetime course and conglomerates all the yogic paths - common people can still perfect in stages and in other ages.
+        The toughest road is that of anartha nivritti - getting across unfavorable after picking the favorable.
+        Many don't even pick up the favorable whole heartedly so where's the question of next stages.
+Logs - Stories - SAP ASR to Bangalore for Car - Macbook, Tejinder Trip to Kerela, Project that had same colleagues from last project and college heroic, SAP colleagues from past all heroic.
+    Meeting Vishesh during Bangalore trip, all fun. Car and Laptop all handled.
+SRM - ILife Robo Vaccum Cleaner bought
+    direction, pause/ play, modes - zigzag, edge, random, spot cleaning, mopping.
+Movie - Hulchul, Hungama, etc.
+CS - Maven - Failed to execute goal org.apache.maven.plugins:maven-war-plugin:2.2:war (default-war) on project spark-services-job-submitter: Error assembling WAR: webxml attribute is required (or pre-existing WEB-INF/web.xml if executing in update mode)
+    Add maven war plugin also along with spring plugin
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.0.0</version>
+    </plugin>
+    If version less than 3 then add following
+        <plugin>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>2.6</version>
+            <configuration>
+                <failOnMissingWebXml>false</failOnMissingWebXml>
+            </configuration>
+        </plugin>
+IQGrats - Habit of this.port = port while it had to be this.port = value - 
+    case misplacement - causing 2 services.
+FND - NFP - I am almost done with story of cultivating grats here. Now the story is mostly gonna be about how I got rid of this extremely deep rooted sanskar and vritti.
+    Since birth it has been deep. Next, thru my life actions instead of curbing it, I have nourished it - culture could have helped and also could have hurted - I chose both with some bias towards latter.
+    My solution phase has gone thru many phases. Some of them are follows
+        Prayashcit Paschattap Phase - helped me a lot.
+        Maximize layered grats - helped me a lot at the next level.
+        Structured Streaming of layered grats - Config of Arch - this is gonna work wonders this addresses the problem at much closer to root level.
+            The problem being - Life gets boring with streaming not proper or impedance in the streams - boring life or pain points in life.
+            We gotta cultivate tolerance stamina (called grit) to avoid the pain points (iow, challenges - which should rather be choosed than accepted) 
+            and proper plans or solutions to the streams impedance.
+            For boring life or streams of grats not being proper across the layers (SVAF) - We need to have a thorough plan (IQ World) or lifestyle (abstract concrete mix) or approach (ask when in problem; seek help from managers; change, etc)
+                And we should have alternatives and persistence to go on till we solve the tough challenges and experience far more grats.
+                We need external validations and internal validations for SVAF - these incentivize SVAF in a huge way. So think along these lines - use concrete and abstract tracks. Short term and long term plans.
+            When there is a pain - this acts as pain reliever or escape mechanism. When life is boring - this becomes a go to point - solution is have alternatives and reduce the need itself.
+            Counters is a great help for this.
+    The power of focus - I will get superpowers when I will focus my TME to SVAF specific goals - that's the key 
+        super awesome people in world do extra-ordinary feats cuz first they want it strongly and second they are willing to pay the TME price.
+        So, yes if you practice NFP along with avoiding distractions or escape mechanisms in other places like ignorance or extreme MOP - then you are bound to get super powers but in the direction you choose - one is free to still choose no direction.
+    My life is SVAF - Spirituality in BJDK SQ and VA for KY primarily. F is the Fuel for all.
+        I don't want just good VA or doing outta compulsion - I wanna do it outta interest or extreme fun - being in love with it - external validations and internal validations.
+        of course, V has greatest portion in the day. Next we have Personal (Spiritual and FND).
+        Ashram has lesser hours in the workday and more in weekends - but is very pivotal and has high importance - even directly satisfy the mind with lesser price and more rewards.
+PIES - If only we learn from world politics and warfares - they all show human behaviors at a scale - it's about appeasing population for votes suiting their ideology. It's about winning the desirable ends from creating conflict or resolving an existing one.
+    conflicts are always gonna be a fact and how people deal with them has lots of lessons on human behavior.
+    FND is human psychology and microeconomics. Ashram is macro social studies and its concrete eg along HomeErp domain and SocialErp.
+EQ - Civics - yes while females are disadvantaged in some ways and carrying a certain kinda subtle body with somewhat greater distance from perfection - they are also favored by transcendence
+    thru sheer natural compulsions, limitations and social structures - they end up with lot of service attitude and proclivity towards spirituality.
+    So, learn or take inspiration from this spirit of service attitude, etc. like Sita.
+    From males we can learn sense of responsibility or dependability, being a leader (alpha) like Hanuman.
+IQ - Social validations - company culture, Awards, peer when elicited on a user story, appreciating a user story which you worked on, people coming to you for help, 
+    peers taking 2nd opinion from you, your presence was needed during ur vacations, Can't start the meeting without him.
+    Extrinsic validations can even be implied - these are IQGrats outside of intrinsic sume based grats - it can thru an IDEA that got appreciated or a casual praise.
+    Like a senior saying I see lots of potential in you. List these thru IQGrats which also includes Lapse btw which are intrinsic pleasures from negative axis.
+    Group Discussions - Your ideas get recognition. Your contributions to an idea in flow. your opinions or feedback matters
+        voice it anyways with pros and cons - that will be at least intrinsic grat.
+    Implied praises.
+EQ - Social Validations - remarks thru incidents that is so funny. That's so unique. Identity based praises he is so funny or poetic.
+    Your knowledge is exquisite in this regards. That's an amazing story or you are a great story teller - involvement in a story - what about you choosing that.
+    GD - the same remarks when offered by you and listened intentfully by others are also grats.
+    All mentioned flavors of IQGrats with their social twists show up here - so this study is more foundational in a way.
+Logs - Story - Breaking glass at shop in Bangalore - can pay them aptly but not more
+    recalling incident of Udhampur person putting weight in book shop - how much? tu ghotala karega.
+    Tuck shop - tasty chatni with samosa; Syami's tie up - got the same flavor once while coming back to ASR from Chandigarh.
+        Tie up - it's not mindless asking which works but getting involved with them does - in fact, samosa becomes a minor reward in front of human connections.
+        think from vendor's perspective it's nothing but with 20 to be carried - why would I give away - I don't want the feeling of being exploited.
+Logs - Story - 
+    Getting to have counselor meeting this time in bangalore.
+        Called Saurabh Mehta Pr outta connections I was making with all devs and he connected me with the group while I was avoiding contacting them out of fear.
+        Once he invited I could not refrain myself from going - no matter shame that I would feel.
+    Casual walks and thanks giving for the car movement to Tejinder Veerji - led eventually to Kerela trip that I wanted before. What I story!
+        Then in my mind I wanted Rajasthan trip - that was the idea that Surabhi didi came up with - I said yes without 2nd thought. Udaipur trip.
+    Stories are always getting created - we just need to pay attention and organize them for discussions.
+EQ - Your presence is celebrated like online interviews - why? cuz fun interactions. cool reveals, trivia, etc.
+    even you celebrate others presence cuz that's a grat itself.
+SAP - Interest groups - Games - basketball, volleyball, table tennis, cricket, music, dance, Rangabhoomi, Roadies runners. Sankalpa social services, Karnataka day celebrations.
+SCMProd - Oat Parantha with raw veggies inside (carrot, capsicum, tomato, onion, etc)
+    Dalia, Muesli, Bread butter, Peanut butter bread, Poha with crispy veg + curd + chatnis, Upma + chatni, etc.
+    Karela, Ghiya daal, chappan kaddu, halva kaddu; all pulses. With chatni, raita or curd, brown rice, salad or boiled beets.
+    Sandwiches, double decker sandwich.
+PIES
+    Spiritual Story - extrinsic and intrinsic pleasures.
+    Sume development - Chanting Bhajans journey, Yoga Meditation Journey, Knowledge journey, VA journey (donations included) - that's intrinsic pleasures.
+    Social validations - whenever 7 said me something - preaching, new comers. Juniors, seniors, equals.
+SQGrats
+    HG PSP - hey STW VTW for you only you must attend.
+    NIT JSR - Sab moh maya hai. I won't attend that session on Krishna is SPOG. Saurabh is not in our competition.
+        Cow Milk started. Jack of 50-50 partitioned further into 25-25-50.
+    Jumping the gate to enter. I won't stop him from using my cycle but sth is objectionable. More of a story than SQGrat.
+    RSP - He is my old friend. Give this laddu to one with most beautiful dress. He will do something special (of course, besides grat this is also my regret)
+    CCP - congratulating on good article.
+    KTP - Reading the book and finishing Salted bread.
+    Gauranga Pr - Why not use broom in vessels if it's all spiritual. Go have your meals. You heard Daily BG talks on Atma series - what's your name.
+        you are still in Pune. Are you married. In Chowpatty - RSP students are very sharp - on asking what my soul means - it means you need to do more services.
+        Should not tell KC is difficult that bluntly - yes I should take permissions from you, right.
+        Kolkata dancing on Narsimha Arti.
+    RNSM stroke in the head in Chowpatty on obeissance to him while walking past the stairs.
+    Your Mangal arti is very absorbing - I didn't have it since Mandali Bhadra Pr last came.
+    Devarayan Durga or sw - What a kirtan - that elicits emotions while it's going on - feels so heartfelt.
+    Shayan Kirtans celebrations in YOGA phase. Shloka recitation - Brahma samhita st in the morning - drama anecdotes in MP and Quiz from notice board with awards.
+    VAP - brutally honest. So, many praises in our festivals and celebrations but I have not kepts track of them.
+    Even with beginners we can have SQGrats of preaching - like we awe our seniors. ISKCON is such a great acronym.
+    Lots of KC centered deep friendships - many of them - some being Jyotirmoy Pr, etc - lots of revisits in Bangalore and even in Pune.
+    Many many more but I never kept track of them b4.
+Sume - SQ (BY centered) - Chanting (Bhajans) and Association (temples, places, preaching)
+    B4 - all TV series - MB, Ramayan, Sai Baba.
+        Temple jai jagdeesh hare song. Calling from the dholak sound.
+    2004 - Peer Baba. Baba Gabah.
+    2006 - 1 thru 16 even b4 joining camps - inspired to control my mind - throat mala, adopting no tea, adopting onionless garlicless.
+    2007 camps and joined voice - 16 rounds. BTG. But wasted interest in Krishna book chapters.
+    2008 - Moving out to explore acads but unfortunate internal reality to explore NFP. Burst of tears. infrequent chanting.
+        Later IDT stuffs. But also worldly artworks and poetry - wasted. Poetry revisits with KC connection.
+        Some hare Krishna website chats. Where learning that it's towards 4 regs only as per SP - personal association.
+    2009 - internal anger going to Nityanand's mercy giving place. Jagannath Puri Yatra and small experiences with Gauranga Pr.
+    2010 - Mayapur visit and deep spiritual experience - Irregular chanting.
+    2010 - I will be waiting, waiting for you - choosing Pune over Chandigarh swap. Atma series. Chanting few rounds - enacting drama alone.
+        repeat exam - hearing lectures - Practically MOI to MOG thru MOP.
+        Chanting searching for a devotee - Bangalore call from KTP and Chandan Pr - heard there was 7 - searching with bead bag to find 7 - met 1 with tilak whose guru would eat butter becoming Krishna - his room visit.
+        Ritwik temple visit in Mysore - any sanyasi's here - who are you - I am only interested in KC not political stuff - they still dropped me at weird place with no bus.
+    2011-2014 - 16 rounds resume with 4 regs excepts few break points. Many camps. Many rich experiences in temples, VOICE, etc.
+        NVCC starts with donation, inauguration, movement, camps.
+        Preaching in IISER - revisit from selection in NIT JSR IIT. beating dead snake. Preaching in I2IT. BD - company bus encounter. Preaching Gulbarg - wearing dress in other religious areas with frowns.
+    2014 - Irregular chanting. Help extended to Lakshya Pr's family - smirk in front of deity.
+    2015 - Spiritual revisit for NFP - regular 2 rounds and temple visits.
+        Ritwik to ICC to Jagannath temple to SLNT (1st time free uber) 
+        YOGA VAP's place (where later VAP would come and I would still visit him - it is worse - it has always been temple)
+        Bhakti center in Electronic City and Later Bhakti Center in Whitefield connected to SLNT - regular 2 rounds with festival super streaks - 64 rounds. 10 attentive MM starts.
+        Sunday streaks - 16 rounds. Still some camps.
+        Siemens - understanding the strong need to be atheist when it comes to expecting sth from Krishna.
+    2020 - asking Krishna for mental help - depressed with greatest complaint against Krishan than others - reduced faith in trans, karma, etc 
+        but reinstated with a little thought and maturity in KC - that 3 doers always.
+        Learning to be more practical while in KC and deeper insights into stages of Bhakti (importance of anarthas (inclusion of MOI based also) and dangers thereof)
+        Importance of all the spiritual paths including atheism and aptheism, impersonalism and where they fit in the jigsaw - where they should be adopted and given up.
+        1 round streak. With plan to chant Ekadashi extra and special days extra.
+Sume - SQ - Uncat - not arranged as per time.
+    Gauranga Pr some interaction early on - praised thru 7 else but too much attention first and then no personal attention in GS CC study.
+    RSP - 2 transitive sources - both so advanced that they appreciated this weird statement.
+        burst while eating prasadam - when he just said plz take prasadam.
+        pleasure of getting served prasadam from him in camps.
+        He will settle in here.
+    Laddu in exchange of tough words - are we qualified to blaspheme LCM's blasphemer - foolish of me - but greatness of him.
+        did you mean that he is not qualified - ask forgiveness else it destroys bhakti - I immediately asked forgiveness and he disapproved but forgave with a laddu.
+    Lamination from a Anant Bhagavan Pr - retained for a significant time - Radha Madhav - altar in many hostel rooms, later in Mysore, etc.
+    Grihastha home visit in JSR. Gaudiya Math visit for Prasadam in holidays and arguments. Tear in his eyes on hearing about grand disciples of SP.
+    BY is about 2 things - chanting and association (which includes temples, etc)
+    DY is about pranayam and meditation.
+    JY is about books and studies.
+    KY is about VA.
+    ISKCON Amritsar many temples - visit during Gaura Purnima - with external view. Another temple during corona - just a visit.
+        Very beautiful deities - but seen in pixels.
+    Nathdvara temple seen with gupta darshan. Fortune of colors. Many more temples and places visited.
+    DY Patil Voice preaching - assistance.
+    HG BGP personal association in Pune - Wednesday classes and later on TTC course - I longed for his association b4.
+Logs - Story - Enterpreneurship idea from a dev and even relatives rejected in Pune cuz it has to come from within. Later in BLR also.
+    what do you think of doing business - it has to come from inside. I don't do it just based on externals.
+Sume - BY evolutions thru time
+    chanting laughing stories.
+    chanting as responsibility not automatic "Be happy"
+    chanting recording and listening phase - how well do I chant.
+    chanting 16 rounds no eyes open phase - especially in Bangalore - on sunday streaks especially.
+Logs - Story - In SAP, with a friend, Discussion on why fal ki chinta na karo. I later would realize that he had bought BG as it is from his drawer.
+Sume - DY Story
+    Family of yoga - first done in school and stage performances relished.
+    Morning yoga routine at Udhampur and lifestyle. Learning about dhirendra brahmacari
+    asanas (landing on head) and forced MOG (raw veggies only) failed in NIT JSR; without onion garlic (1 meal at hostel) thru alu chops only - so unhealthy and turns out it had garlic all this while.
+        some yoga at hostel
+    Mysore - mild yoga. Pune - very little yoga. Some running later starts.
+    yoga for youth phase in VOICE and lotus voice during GATE preparation.
+        Mindfulness meditation by Sandeep Maheshwari.
+    Om chanting in Bangalore and morning regular yoga with 1:3 defined with breathing recordings.
+        holiday streaks in morning yoga in garden.
+        Sadhguru and others start.
+    Running (with morning motivation) or morning yoga titbits (with song or motivation or timer) in SLS Square.
+        Saturday streaks with regular Swami Ramdev school.
+        Maun vrata discussions with SAP colleague.
+            Others being - Introduced to Gaiya youtube, hindu academy, hindu protectors, IIT Kanpur talks which is what inspired 1 of the colleagues.
+        Naiti Meditation on wake up - st scary that I am independent of my circumstances.
+        Balancing meditations - Multi-dimensional analog reality with many numbers between 0 and 1. It's about song of ice and fire - balance in everything.
+        Book on power of now. Shlokas b4 bed retire.
+        Power of demigod worship on the special days leveraged - more as response to mindless opposition prevalent in pop.
+    ASR - Saturday streaks stopped but very irregular yoga titbits with motivation going on.
+        Plan of every day yoga streaks postponed; plans of healthify me guided yoga.
+        Planned naiti meditations to resume in morning. Yin Yang (complementary dualities) realizations - darkness in light and vv.
+        Mindfulness during the workday.
+Sume - KY Story
+    Very good at acads but irresponsible st in college - NPTEL - no exposure of work culture.
+    performer without incentive.
+    Irresponsible with no interest in work although very smart at stuffs. Reflected in time escapes - it's time to go back home else next day wake up SQ stuff.
+    Alternative fortunate to find professorship which I was anyways interested - genuine work but sh didn't work out. 
+        walks to solve other problems around work.
+    Bad Twist - Yearning for work - hearing SP that better work for free than not work. Broke with all money gone.
+    Gate wasted cuz of distracted mind. Calls start from home - frequent calling. Family Supportive of bad twists of life.
+        walks to figure out my life's direction - intuition that sth very special is coming.
+        extremely Demotivated - Feeling I should not be staying at VOICE - but preparing for GATE - lead of IIITB from quora.
+        Drawn into CS stuffs in the mind even if some govt exams like SSC tier 2 than UPSC civil services for tier 1.
+    IIITB good hard work and genuine interest. as expected depth with revisits.
+        online stuffs and friendliness and inspirations from colleagues. Projects were game changers.
+    Siemens big lead thru OOP.
+    SAP Labs - big lead into humungous softwares.
+        All acads leveraged including Big Data, ML, etc.
+    Recruitments in biggies Huawai Labs RnD, Samsung Labs, Consulting for ML, etc.
+Sume - IQ - using design patterns in projects
+    Mememento pattern in BYD NSME - to undo for atomicity of a transaction. State Design pattern proposed instead of graph framework but not used. Appreciated by colleagues through.
+    Visitor pattern, command pattern, template method pattern witnessed.
+    Siemens - witnessed singleton and factory pattern.
+    SAP IOT - witnessed following
+        For refactoring monitoring code - adapter pattern, decorator proposed but rejected for refactoring
+        For spark services connectivity check, witnessed 
+            builder pattern - Factory used but rejected in favor of builder cuz we won't have a spark job but directly let consumers use our library.
+            Null pattern to give a default services behavior; Mememento pattern only glimpse to reset options to null after usage.
+            Facade pattern supported under the builder pattern - instead of adding all service credentials one by one - give the vcap which internally uses all the methods like options, add, connect (or build)
+        Observer pattern witnessed for kafka scale up or scale down.
+Sume - KY Story - Donations
+    Prasadam distribution in VOICEs.
+    Easy donations with punctuality.
+    Some donation at every place.
+    NVCC 3 months.
+    Birthday donations - cows, books, etc.
+    Gratitude of any favors - online drama, online songs, transitive favors, IDT, temple or bhakti center favors, etc.
+    Diwali donations for diya. Old sources donations - kolkata, pune - old gratitude and being a patron. Narsimha yajna, etc.
+    Mayapur donations from a distance - gesture of support. Pandharpur.
+    Goshala donations. Temples renovations, ganga project, sadhguru, COVID fund, etc.
+    Delhi, Dwaraka, Vrindavan thru people. Vrindavan medium for 7's donation - do you want to give or not?
+    Food Plates packing and distribution, Temple food for life distribution. Food for devotees cooking, carrying, packing, dispatching - all services at various places.
+    Tried wiki donations but they asked too much information.
+SCMProd - Daily dipped dry fruits and seasonal fruits
+PIES - MOI - In general, sloth or laziness in its gross sense but more profound that you want reward without much investments.
+    all escapisms or entertainments also fall under this category - but that's not as bad as high dopes
+    So, our entertainments should also be well planned and limited - too much MOI leads to MOI becoming a tendency - attached to MMN so the solution is restricted planned entertainments.
+    Even sleep can be seen as bodily requirement (MOG) or fun / escape (MOI)
+    Now, not that we pay no price for entertainments - that's why it's MOI tilted but st it can be MOP also.
+    Ideal life is MOG based - you decide the best course of action to an end and play accordingly.
+    Man nahi karta is a typical MOI saying - I extracted the fun outta it is a MOP saying - we have to rise to MOG - where the pleasure is more sophisticated.
+    Even entertainments can be MOG based - planned and serving a purpose rather than fun seeking or driven exercises.
+    pure fun seeking entertainments can be planned aptly within threshold like MOP anarthas in threshold.
+    There is nothing called pure gold - 24 caret but purer the better - it's like that when SP says 70% pure is enough for BTG - it's difficult to assume that we will stop thinking about self at any point.
+        But it's reasonable that more advanced people (even from worldly standards) think more of others than themselves.
+PIES - MMN have huge bearing on the SVAF.
+    Varna is more in MOP in general but can be practiced in MOG as well - MOI gets disapproved.
+    Ashram can be MOP but tends to be more towards MOI - Ashram can also be practiced in MOG if planned properly.
+        that's 1 reason why the time slots of Varna is typically higher than ashram.
+PIES - The trap of foundation is very clear - when there is no sense of incompleteness felt - no dissatisfaction or discontentment or craving for more completeness,
+    and still 1 is forced to act - it does not have that strong fire which a man with yearning shows.
+    So, worldly escapes make us feel satiated already - then we question why do I lack the fire to act or we act in luke warm ways - cuz foundation isn't strong.
+    that's why spirituality encourages MOG and not breaking 4 regs - cuz that's turning off the fire - the bad foundation will show no fire for the end goal.
+    That's not deprivation - SQ doesn't favor denial either but MOG based fulfillment and no escapes or enjoy without paying the price.
+    Not breaking 4 regs ensures at least MOP - with more refinement we can move to MOG which are ever better platforms for transcendence. and are closer in themselves to trans.
+    Imagine when foundation is proper and you keep on developing your personal self - you will constantly have that fire that you deserve more. How favorable this is to perfection!
+PIES - Social applications of PIES understanding
+    Spirituality is a layer above SVAF with F being psychology and microeconomics - this clearly indicates that Spirituality can't break the principles of SVAF over which it is itself based.
+    If a spiritual school, breaks the society or builds strife among people or is against economic development or is counter to psychology - like suppression (this isn't equal to control or regulate), we need to reject that school.
+    if I tell you to do something which is impossible pscyhologically cuz of us being SCA seeking beings by nature - then that proposal has to be rejected.
+    There are examples of mass suicides arranged by unscrupulous teachers who said aliens would take them to ever beautiful place if they die in opportune moment.
+    If spirituality encourages you to fight with family (not talking trans here) or discourages social contributions - spirituality at its layer above SVAF will break the civilized society principles itself which supported it to exist.
+IQGrats - Syami saying your sitting is awesome.
+    should not fear laziness cuz once in a while exception is ok - mar mit nahi jaana - getting paid for the day - ok exception and can even be honest about it or explain it away.
+IQGrats - winning many arguments and accepting also while discussing with Ajay.
+    My ideas accepted for derivation jobs by Ashok. Many ideas accepted in different phases of discussions.
+    Understood the strengths and weakenesses of all the peers - so really knowing the stuff working on. Helpful colleagues is characteristic of SAP.
+Sume - Maven many plugins - dependency plugin to copy, shaded plugin for uber jar, scala plugin, war plugin, etc.
+CS - Code Review
+    remove the hardcoded credentials
+    remove commented code
+    remove not really needed parts like this class serves no purpose
+    Avoid using print stack trace - plan the exception hanliong properly.
+    You don't override comments from previous team - that's like insulting the reviewer.
+    remove unwanted dependencies from pom - use properites when recurring versions.
+    always avoid sysouts - logs for production readiness
+    avoid constants in the code - read from property file.
+    Follow standards for naming - self explanatory in the large picture - name => respnsibile person.
+    Don't write credentials in code even for testing - that's like revealing a lot to possible seers of the code.
+CS - Spark Cassandra - Cannot build a cluster without contact points
+    cuz url can actually not be found - it had extra quotes
+IQGrats - Even when I had covid and it was difficult with cough, fever and headache still I was solving complex problems in SAP IOT - so really devoted to my varna.
+SocialErp - Street lights showed up in ASR just like Udhampur. Campus of Golden temple.
+IQGrats - SAP IOT Spark services connections was quite a journey - it was a very learning experience and I got to explore all the terrains just like for different space Performance POC.
+    thorough discussions and senior colleagues welcoming for weekends discussions.
+    learning their approach of doing things and discussing their suggestions - validation over the best outcome - we will finish this big story.
+    When their mature ideas also come as suggestions.
+    I don't have to fear laziness for 1 day cuz I make up for it the very next day with huge overtime - our field itself is so interesting.
+Movie - POTC - On stranger tides - Mermaid based story - best installment acc to me.
+NFP - Lick; Replay - Normalization based
+    P should be taken seriously - it's a small lapse which should be accepted. If you don't sequence will follow.
+    Sleep should be valued - Learn how to increase the value of sleep when it's time - thru affirmations, retros over the day, planning next day and deep breathes.
+    It's all about microeconomics - I choose what I value the most with my TME - I really think indulgence is more valuable than abstinence.
+    Instead of days let's have a 15 weeks redirection protocol.
+        I will have journal with what's the week's personal agenda, and a topic or book focus. At least I owe it to myself.
+FND - NFP - Week 1 - Win Friends book. Also sleep on time.
+    Measurements journal - ??
+Logs - Story - Mami's father in Punjab terrorism shooting.
+    Dadi also. Neighbors also. Mama's relp also.
+    Bro - drinking habit.    
+Movie - The Mask - Repressed tendencies show up with the mask.
+Logs - Story
+    Mami's own brother
+    Street guy's father was in Jaliyawallah - he was behind - 3 gates so escaped and saw ladies falling and chaos. Marshall law so stealthly returned home.
+    Servants very unprofessional
+        Syami slapped for asking milk but didn't leave her still cuz of dependence.
+        Even bibi - used to drink child's milk.
+        Surabhi didi choking under water - bucket upside down - slapped her cuz had asked her to stand for bath.
+        A guy pushed didi into drainage with all germs - bath in December so fever - very supportive only tolerating.
+        Opening meter searching for sth.
+        Carrying a cleaning brush outside - why - I thought you don't need this.
+        Pyare's phone stolen by Avatar woodworker's son saying that his phone is lost - sim later found broken over meter.
+            Avatar uncle used to say I wish to hand him over to police. He was devoted himself.
+FND - NFP - masked only specific parts. Unmask specific parts.
+EQ - Game - make 6 with 2 hands.
+Sume - EQ - I feel fortunate to be born in Punjab and of my family member therein.
+    I personally feel Punjab is culturally among the best even in India in terms of spiritual favorable culture - south India also has it being separated but see non-veg, etc is far more.
+    our people are decent, not vulgar, spiritually inclined, politically smart, socially smart, vegetarians in high percentage, vocally smart etc.
+    I am fortunate to travel and explore different places - all special in their own way.
+Logs - Story - Bhangra in 5th.
+SCMProd - All different foods at VOICE, etc - special khicadi lip smacking (Pune temple), VIT Prasadam specialization OMG, Vrindavanchandra prasadam variety.
+    sabudana khicadi, sabudana dry poha type, sabudana kheer.
+    All varai variants. Halwa of some non-grain, raw banana sabji, many unique sabjis of Jharkand.
+    Cooking at kolkata, Milk boiling seva for kheer, Thekua, Vessel lifting, etc.
+    Atmanivedan Yoga (sudarshan Voice) - saturday love feasts with some efforts and then feast, amrakhand, 
+        purchasing in dhoti kuta, tiffin packing for lunch, satisfying meals.
+    Temple meals - very MOG and satisfying - nothing specific. Gud dalia sweet.
+        bhagavat saptah type meals - very satisfying and coming back singing kirtan on bike like intoxicated or by bus.
+    Vraj Dham VOICE - all different kinds of rice - biryani, lemon rice, maize sabji, gunpowder, pongal rasam, 
+        idlis, gulkand kheer, Milk seva, Variety of veggies in Maharashtra, 
+        Misal Paav, Idlis, and many more normal but extraordinary dishes. Cooks - be a devotee else we don't work for nothing.
+        Bulk purchasing from wholesale in dhoti kurta and auto booking.
+    Self cooking at Atmanivedan Lotus VOICE or yoga. Daal, Rice, sabjis, paneer sweet dish of bengal.
+    Govinda's - all kinds of outside dishes. 
+        Blr - Stuffed bun (Spicy alu in there), sweet cake, nearby butter dhabeli. Misal paav in Delhi
+        Shrinathji - Pasta and all outside dishes Saurabh Pr, Rajdhani with Awdhesh Pr, Small dishes at Shrinathji.
+SCMProd - Andhra meals tried - Gunpowder butter idli, button idlis, mysore bajji, High spiced meals.
+    Others - mangalore buns, gur sweet roti, Potato khaskhas - alu posto, brinjal and chilli pakoda, etc.
+    Kerala kadi, kadala with coconut rice, etc.
+SCMProd - Asr - Mungfali chatni, mint chatni and many more - mint raita, veg raita.
+    crisp veg poha, upma, dalia, peanut butter bread milk, Musli milk many variants.
+    variety of veggies and all dals - chappan, etc.

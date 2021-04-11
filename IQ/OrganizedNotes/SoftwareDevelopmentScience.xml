@@ -6754,7 +6754,7 @@
                                     Eg- after mocha embellishment- don't know object type returned so can't use discount percentage.
                                         sequence can be obtained thru the containment of mocha-ed coffee type object.
                                         beverage = new Mocha(beverage);
-                                        we are wrapping up objects (components)- pass the object and get back a dcorated "Mocha-ed beverage" as output
+                                        we are wrapping up objects (components)- pass the object and get back a decorated "Mocha-ed beverage" as output
                                         1 core and many decorators
                                 </Decorator>
                                 <PrivateClassData>
