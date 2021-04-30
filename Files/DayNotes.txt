@@ -6496,7 +6496,7 @@ Logs - EQData - Story - "Chal pajj itthon" in childhood trying to scare away chi
 Logs - EQData - SqData - Story - GA visit in early KC days for dev in NIT JSR. Function and so inspired by statement that you do little, I will do far more. I liked it. Seniors disapproved it - which was right from higher goal perspective but wrong in the sense that Krishna is shelter for artharthi also and should not be taken lightly. That's also a testimony to Krishna's reciprocative nature. Narad didn't stop Dhruva but engaged him for higher pursuits.
 Logs - EQData - Michael Cremo Pr's lecture organized and arranged by us - but I slept that afternoon so missed his session.
 Logs - EQData - ISKCON Nasik also I have gone. Nigdi installation I have seen. Vrindavanchandra installation also. Felt very happy on seeing the deities - engaged in services throughout the day. Kolkata cooking seva also whole day and night no coupon so served and still very happy - 7 came from nowhere giving me coupons.
-	have seen panchavati and caves of different types there. Hampi caves, Anjanadri parvat, etc. Udupi connected to madhvacharya, also Ramanujacharya's place have seen.
+	have seen panchavati and caves of different types there. Hampi caves, Anjanadri parvat (Steep mountain), etc. Udupi connected to madhvacharya, also Ramanujacharya's place have seen.
 Logs - EQData - Stories sources - History, civics, geo, economics, psyychology, science, movies, real life stories (Crime petrol, etc)
 	Personal stories - strictly speaking eth is story and anecdote but no attractive enough for quoting - there has to be infotainment, laughter etc. Ur experiments with social world counts.
 	what is story or anecdote worth telling? to start with anything that's isn't normal - talking normal's abstractions is important as information not entertainment.
@@ -13142,7 +13142,7 @@ CS - DevOps - Jenkins (or bamboo) Deployment Delivery Pipeline High level tool.
 		Ansible - automating software provisioning, configuration management, and application deployment. Servers controlled centrally like web and db servers. each script to create consistent envt. IT Automation, Configuration Mgmt consistency, apps deployment in variety of envt. Playbook, envt connect with ssh. create server in seconds. Now GUI also available.
 	Logs
 		ELK - Logstash collects input from various sources, and Elasticsearch stores that info. Kibana is the visualization layer.
-		Splunk (makes machine data and logs accessible) also prometheus graphana.
+		Splunk (makes machine data and logs accessible) also prometheus grafana.
 	Nagios (for network problems - track outages and failures)
 		monitor servers, utils, health, APIs reachable.
 CS - https://stackoverflow.com/questions/122160/is-there-an-easy-way-to-attach-source-in-eclipse
@@ -16888,7 +16888,7 @@ FND - Scrum - Current phase is config. DMPM of everything social ERP, Home ERP, 
 	This architect has to be at IQ - stabilization - working at office is yet another thing - not a big deal. Exciting but not a big deal. It's already a problem solved.
 	For this I must first focus the area I want to focus on going forward. And it's pretty much this big data development which includes AI and distributed computing and software development - smartness of IOT and Android are all add ons. This isn't mixing of fields - I am a user of systems not developer. I use AI libs and don't make them. I leverage distributed computing frameworks - don't make those. So I have to familiarize, listen to experts, read books and follow documentation pattern recognition (for scalability).
 	This stabilization is also expected in EQ or Ashram. Being a very smart consumer. Generally the ashram tasks don't come with huge penalty very often but there's always a best way to do things fastest route to be taken - the bus took us 1 hr more (some situations could be demanding) - it doesn't hurt to make a wrong turn - but sometimes they do - eg take a u-turn penalty on NH.
-FND - Scrum - TODO - DayNotes - gotta organize EQData, EQ, and small sections - Discussion, Polity. Health needs to be renamed.
+FND - Scrum - DayNotes - gotta organize EQData, EQ, and small sections - Discussion, Polity. Health needs to be renamed.
 FND - Scrum - I am currently at engr state where I am an object which gives services when asked for but doesn't take initiatives to offer services.
 FND - Scrum - speak like an IAS.
 FND - Scrum - Mornings for SQ and Day for Home or office (prefer concrete but abstract VA also included in cladding or padding); Evenings for entertainments and social life - amusements included here.
@@ -16936,7 +16936,6 @@ FND - Scrum - Calendar blockings - when stuck then inputs from others - How woul
 	Action item - you book the reverse KT.
 	API made to do primitive checks to help them forward the ticket to right time.
 FND - Scrum - PC be my workspace and cloud for persistence.
-FND - live:arunita.biswas
 FND - NFP - Country, mirror, gif, off, flash, jumping, bounce (motions), situation - in snow, running, in streets, etc.
 	Page 3, body issue, celebrating, pure chocolate, stage dance, One tl one nd.
 	Poses, Soft, Massage, Balcony, Suckle, bounce, 69, Shy, Hiding parts or self, With brace, Guitar.
