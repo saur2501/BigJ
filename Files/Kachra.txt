@@ -683,3 +683,80 @@ SQ - Representatives of God in this world
     Similarly Chanakya Pandit on 7 classes of mother or motherly or mother-like behavior (along some important dimensions, of course)
         ?There's also a conception of transcendental mother.
     Although Representatives they don't change the fact that to represent and to be ain't the same thing but similar. Accessible.
+IQGrats - Lapse - I was search for /Things in project but in REST by spring, path can also be specified as @Path("Things")
+    This was solved by getting handle for v2/Things and locating the file and searching in its vicinity.
+    Next, Another manifest.yml is maintained at the maven parent project path - but sets the path for main deployable module only so no problem there 
+    basically intended to avoid having to go to child module to push an app to cf.
+CS - 1 way of finding execution trace of a code is to backtrack using file hierarchy - what writes to kafka - which class and thus we reach to which API called it.
+Sume - CBA (Commonwealth Bank of Australia) DS
+    1.5 crore records and many columns.
+    Installed anaconda, anaconda navigator launched.
+        Anaconda installed in the applications folder in mac.
+        Downloaded file remains at download folder.
+    4.2 GB loaded from csv in 80 sec (in unicode). And Hardware resources challenged to their limits.
+        2 GB file is tough to handle for simple PCs but under that is a breeze.
+    3 sec to make a column numeric with 1.5 crore records.
+    10 license for 1 medallion (1700 entries for that medallion)
+        license - all the travels by a driver.
+        But unique medallion for a given driver_license.
+        1 license - 1, 6, 1, 4 medallion.
+    hack license = permit, license
+    Using sql query it is clear that evenings 6 to 8 are busiest.
+        union of the 2 is the best bet for this also.
+    Another alternative approach would be to write lambda function to count hours for every interim journey.
+        Same idea can be applied to busiest locations also but that would be foolish to do extra effort.
+            It's really foolish cuz of bad assumptions that all coordinates in middle are used (locality of reference).
+            2 tracks A to B and C to B - may seem reasonable to take point D that both will pass through but that's ill informed 
+            maybe A to B thru E and C to B thru F and D is least used path or impossible coordinate.
+        Need a heat map for busiest locations using only pick up and drop - both.
+    Make reasonable assumption for calling trips - round off to 3 digits.
+    DS - QA will need no automation. Nor will problem solving take. But models made if complex or using pipeline will involve some small automation.
+        but this automation is nowhere close to what SDE folks are used to.
+    medallion, hack_license, vendor_id, rate_code, store_and_fwd_flag, pickup_datetime, dropoff_datetime, passenger_count, trip_time_in_secs, trip_distance, pickup_longitude, pickup_latitude, dropoff_longitude, dropoff_latitude
+    medallion, hack_license, vendor_id, pickup_datetime, payment_type, fare_amount, surcharge, mta_tax, tip_amount, tolls_amount, total_amount
+    Pandas can't handle join of 2 2GB tables - spark is powerful it can easily join 1.5 crore records.
+        18,307,944,547 - 18 Billion records.
+    where abc1.medallion = table2.medallion and abc1.` hack_license` = table2.` hack_license` and abc1.` vendor_id` = table2.` vendor_id` is not enough
+        too many records because the person A with Taxi T working for Vendor V - charges n people and makes m trips over a month - merging them is cross product across them.
+        include at least the same day.
+    Lapse - Thought of pickup_datetime as payment_datetime - merging is piece of cake if that's the case.
+        With payment we had to make sure that payment in within the range of start and end trip or within tolerance of that and therefore ensure that another trip doesn't eat that up.
+        There is no late payment getting adjusted for another trip - bad dirty data.
+    Smartness of join thru spark and writing csv and reading thru pandas.
+        now we can also revise the number of passengers per trip.
+    After trying different methods without tracing the learning over observations, finally decision tree was performant with lesser error 
+        but thru R2 it was only as good as using means cuz some observations would go entirely haywire.
+        What does this mean - we can improve a lot - Next move would be tracing.
+        And then using ensemble methods for learning.
+        Further still, there is a possibility of using neural networks or deep learning for regression
+            yes, deep learning supports regression also - in the last layer we replace classification with regression.
+        Deep learning should be the last resort to avoid overkill and overfitting - and also, the learning is untraceable but error over time is observable.
+    Realization about DS field
+        Neither fun, nor money, nor adding up from past for best service, different from CS, And it's simple - just unexciting effort.
+        Best way to decide is to live it for a short time and you will know.
+        It's surely innovation and utility but not worth changing a field for.
+    DS
+        Established for fact that medallion isn't a trip code cuz it was not already informed.
+        Busiest hours - 2 flavors - discrete hours vs any hour starting any time.
+            1st is easier problem using sql on standard bin size.
+            2nd can seen with smaller bins diagram.
+Logs - Story - 2 stories
+    what is talli - different language looking for bell - will ask somebody but even the helpers indicated talli would be near trunk and went inside with door closed.
+    Brahmins offering first those days - 1 tall muslim used to stand in street and she used to feel horrified seeing him - dhat dhat outta nowhere - ki hoya, koi daka pai gya. She ran away - imagine his response.
+    Vinarani Aunty dharma sankat
+        COVID time high casualties. No free hosptial, Oxygen shortage and Mutated virus.
+        Going to the house for afsos - this time is not suited for elderly people anyways.
+        Whether to go and make yourself vulnerable (with really high probability) OR to not go and appear disinterested (but people will understand)
+        compare the weightage - with 1 it's little good of formality (they are grown and can handle it + there are more + e1 know elderly are affected).
+            With another, it's potentially a lot bad.
+        I involved Syami cuz I knew which way the outcome would go in spite of earnest effort from me and mama - involving didi would mean lots of aggression
+            also Syami doesn't go well on decision making fronts with her.
+        With his little ideas and discussions, Papa agreed although it was most difficult for him - dharma sankat then any decision makes you feel bad but we have to choose the lesser bad option.
+        for once even I thought maryada was more important than life itself. This happened after Syami dropped the phone cuz he could not accomodate Surabhi didi on call.
+    Attention required while buying from hawkers - You didn't give money for kulcha. Vatta being wrong.
+        Alu kulcha from dhaba - any dang rate was told, asked owner to make bill - the gap was 25%. Even with veggies owner if you don't compute, they may get away with adding 10-20 Rs more.
+CS - Machine Learning
+    scikit-learn is a Python module for machine learning built on top of SciPy and distributed under the 3-Clause BSD license. On the other hand, SciPy is detailed as "Scientific Computing Tools for Python". ... scikit-learn and SciPy are both open source tools
+    Sklearn is built on top of Python libraries like NumPy, SciPy, and Matplotlib, and is simple and efficient for data analysis. However, while Sklearn is mostly used for machine learning, PyTorch is designed for deep learning. ... Ease of Use: Undoubtedly Sklearn is easier to use than PyTorch.
+    So, both TensorFlow and PyTorch provide useful abstractions to reduce amounts of boilerplate code and speed up model development. The main difference between them is that PyTorch may feel more “pythonic” and has an object-oriented approach while TensorFlow has several options from which you may choose.
+    TensorFlow is an open-sourced end-to-end platform, a library for multiple machine learning tasks, while Keras is a high-level neural network library that runs on top of TensorFlow. Both provide high-level APIs used for easily building and training models, but Keras is more user-friendly because it's built-in Python

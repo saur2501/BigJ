@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSLearningOnTheGo>
+<Pandas>
+df["a"] = pd.to_numeric(df["a"])
+df.loc[0, 'new'] = df.iloc[:N, df.columns.get_loc('col2')].mean()
+from scipy.stats import norm
+# generate random numbers from N(0,1)
+import seaborn as sns
+data_normal = norm.rvs(size=10000,loc=0,scale=1)
+ax = sns.distplot(data_normal,
+                  bins=100,
+                  kde=True,
+                  color='skyblue',
+                  hist_kws={"linewidth": 15,'alpha':1})
+ax.set(xlabel='Normal Distribution', ylabel='Frequency')
+ax.set_xlim(50, 70);
+===
+import pandas
+from collections import Counter
+a = ['a', 'a', 'a', 'a', 'b', 'b', 'c', 'c', 'c', 'd', 'e', 'e', 'e', 'e', 'e']
+letter_counts = Counter(a)
+df = pandas.DataFrame.from_dict(letter_counts, orient='index')
+df.plot(kind='bar')
+===
+Numpy Arrays - print(precip_2002_2013[0:1, 0:2])
+==
+df = df.drop_duplicates()
+    drop_duplicates(subset = ["b"])
+===
+df.loc[:, 'C':'E']
+    df.loc[:, ['C', 'D', 'E']]
+df[['C', 'D', 'E']]
+dataframe.iloc[:,[1,2]]
+===
+df = pd.DataFrame({'Animal': ['Falcon', 'Falcon',
+                              'Parrot', 'Parrot'],
+                   'Max Speed': [380., 370., 24., 26.]})
+===
+df.loc[df['column_name'] == some_value]
+To select rows whose column value is in an iterable, some_values, use isin:
+
+df.loc[df['column_name'].isin(some_values)]
+Combine multiple conditions with &:
+
+df.loc[(df['column_name'] >= A) & (df['column_name'] <= B)]
+===
+df.filter(df("state") === "OH" && df("gender") === "M")
+    .show(false)
+
+df.filter("gender == 'M'").show(false)
+df.where("gender == 'M'").show(false)
+df.filter($state === "OH").show(false)
+df.filter(col("state") === "OH").show(false)
+df.where(df("state") === "OH").show(false)
+===
+
+df.dropna(subset = ['column1_name', 'column2_name', 'column3_name'])
+
+trip_data["rate_code"] = pd.to_numeric(trip_data["rate_code"])
+trip_data[['trip_distance', 'pickup_longitude', 'pickup_latitude', 'dropoff_longitude', 'dropoff_latitude']] = trip_data[['trip_distance', 'pickup_longitude', 'pickup_latitude', 'dropoff_longitude', 'dropoff_latitude']].astype(float)
+
+trip_data.columns = trip_data.columns.str.replace(' ', '')
+df['New_Sample'] = df.Sample.str[:1]
+df['New_Sample'] = df.Sample.apply(lambda x: x[:1])
+===
+df['Value'].round(decimals=3)
+np.round(df['DataFrame column'], decimals=number of decimal places needed)
+ df[list("ABCD")] = df[list("ABCD")].fillna(0.0).astype(int)
+>>> df[list("ABCD")] = df[list("ABCD")].astype(int)
+df = df.astype({'col1': 'int', 'col2': 'int', 'col3': 'int'})
+df.nlargest(3, 'a')
+df['sum_values_A'] = df.groupby('A')['values'].transform(np.sum)
+===
+No column space in names
+from pyspark.sql import functions as F
+renamed_df = df.select([F.col(col).alias(col.replace(' ', '_')) for col in df.columns])
+===
+idea given a problem make a pipeline of what all we need to do to get to end result - like column name change, data nan removal, data frame creation, table creation, join, etc.
+---
+df['col'] = df['col'].str[:9]
+Or str.slice:
+
+df['col'] = df['col'].str.slice(0, 9)
+df
+    concat - union. append - any times.
+pd.datetime.now()
+
+pd.Timestamp('2017-03-01')
+print pd.Timestamp(1587687255,unit='s')
+print pd.date_range("11:00", "13:30", freq="30min").time
+====
+trip_merged["date"] = trip_merged['pickup_datetime'].str[0:10].astype(str)
+trip_merged["day"] = pd.to_datetime(trip_merged["date"]).dt.day_name() #Or dayofweek
+trip_merged["day"] #could be number as well but categorical variable so let it be.
+===
+trip_merged["pickup_time"] = trip_merged['pickup_datetime'].str[11:13].astype(str) \
+    + "." \
+    + (trip_merged['pickup_datetime'].str[14:16].astype(int)/60*100).astype(int).apply(lambda x: "0" + str(x) if len(str(x)) == 1 else str(x))
+trip_merged["pickup_time"] = pd.to_numeric(trip_merged["pickup_time"])
+trip_merged["pickup_time"]
+======
+df = df.apply(lambda x: np.square(x) if x.name == 'd' else x, axis=1)
+</Pandas>
+<Spark>
+Spark
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder \
+    .master("local[1]") \
+    .appName("SparkByExamples.com") \
+    .getOrCreate()
+data = [('Scott', 50), ('Jeff', 45), ('Thomas', 54),('Ann',34)]
+sparkDF=spark.createDataFrame(data,["name","age"])
+sparkDF.printSchema()
+sparkDF.show()
+
+print((sparkDF.count(), len(sparkDF.columns)))
+----
+df.createOrReplaceTempView("test")
+re=spark.sql("select max_seq from test")
+re=spark.sql("select ` max_seq` from test")
+re=spark.sql("select ` max_seq` from test where count > '5'")
+----
+df.describe().show()
+df.describe('uniform', 'normal').show()
+df.select([mean('uniform'), min('uniform'), max('uniform')]).show()
+=====
+import pandas as pd
+spark.conf.set("spark.sql.execution.arrow.enabled", "true")
+pandasDF=sparkDF.toPandas()
+print(pandasDF.shape)
+====
+df.limit(10) or take(10) or head(10) or show(10)
+data.select(" timedelta", " shares")
+low memory - use dtype='unicode'
+===
+SELECT user, stddev(duration)
+                  FROM df
+                  GROUP BY user
+import org.apache.spark.sql.functions.{stddev_samp, stddev_pop}
+selectedData.groupBy($"user").agg(stdev_pop($"duration"))
+===
+spark.sql(query)
+===
+df.groupBy("C1").count().rdd.values().histogram()
+===
+select * from table where ` pickup_longitude` != '0.0' and ` pickup_latitude` != '0.0' and ` dropoff_longitude` != '0' and ` dropoff_latitude` != 0"
+---
+https://sparkbyexamples.com/pyspark/pyspark-substring-from-a-column/
+from pyspark.sql.functions import substring
+abc2=abc1.withColumn('pickup_hour', substring('` pickup_datetime`', 12,2))
+spark.sql('select pickup_hour, count(*) from abc2 group by pickup_hour order by pickup_hour').show(30)
+matchesDf
+  .join(playersDf, $"matches.player1" === $"players.player")
+  .select($"matches.matchId" as "matchId", $"matches.player1" as "player1", $"matches.player2" as "player2", $"players.birthYear" as "player1BirthYear")
+  .join(playersDf, $"player2" === $"players.player")
+  .select($"matchId" as "MatchID", $"player1" as "Player1", $"player2" as "Player2", $"player1BirthYear" as "BYear_P1", $"players.birthYear" as "BYear_P2")
+  .withColumn("Diff", abs('BYear_P2.minus('BYear_P1)))
+  .show()
+spark.sql("select distinct cast(dev AS DECIMAL(2,1) from abc").show(6)
+df1=spark.read.option("header", "true").option("inferSchema", "true").csv("/Users/I341365/Desktop/Spark-Programming-In-Python/01-HelloSpark/data/trip_data_4.csv")
+
+df.na.drop("all").show(false)
+dataFrame.write.format("com.databricks.spark.csv").save("myFile.csv")
+`medallion`,` hack_license`,` vendor_id`,` rate_code`,` store_and_fwd_flag`,` pickup_datetime`,` dropoff_datetime`,` passenger_count`,` trip_time_in_secs`,` trip_distance`,` pickup_longitude`,` pickup_latitude`,` dropoff_longitude`,` dropoff_latitude`,` payment_type`,` fare_amount`,` surcharge`,` mta_tax`,` tip_amount`,` tolls_amount`,` total_amount`
+select abc1.`medallion` as medallion,abc1.` hack_license` as ` hack_license`,abc1.` vendor_id` as ` vendor_id`,` rate_code`,` store_and_fwd_flag`,` pickup_datetime`,` dropoff_datetime`,` passenger_count`,` trip_time_in_secs`,` trip_distance`,` pickup_longitude`,` pickup_latitude`,`
+xyz = spark.sql('select abc1.`medallion` as medallion,abc1.` hack_license` as ` hack_license`,abc1.` vendor_id` as ` vendor_id`,` rate_code`,` store_and_fwd_flag`,abc1.` pickup_datetime` as `pickup_datetime`,` dropoff_datetime`,` passenger_count`,` trip_time_in_secs`,` trip_distance`,` pickup_longitude`,` pickup_latitude`,` dropoff_longitude`,` dropoff_latitude`,` payment_type`,` fare_amount`,` surcharge`,` mta_tax`,` tip_amount`,` tolls_amount`,` total_amount` from abc1 inner join table2 --where
+spark.sql('select * from abc1 inner join table2 where abc1.medallion = table2.medallion and abc1.` hack_license` = table2.` hack_license` and abc1.` vendor_id` = table2.` vendor_id` and table2.` pickup_datetime` = abc1.` pickup_datetime`').count()
+xyz = spark.sql('select abc1.`medallion` as medallion,abc1.` hack_license` as ` hack_license`,abc1.` vendor_id` as ` vendor_id`,` rate_code`,` store_and_fwd_flag`,abc1.` pickup_datetime` as `pickup_datetime`,` dropoff_datetime`,` passenger_count`,` trip_time_in_secs`,` trip_distance`,` pickup_longitude`,` pickup_latitude`,` dropoff_longitude`,` dropoff_latitude`,` payment_type`,` fare_amount`,` surcharge`,` mta_tax`,` tip_amount`,` tolls_amount`,` total_amount` from abc1 inner join table2  where abc1.medallion = table2.medallion and abc1.` hack_license` = table2.` hack_license` and abc1.` vendor_id` = table2.` vendor_id` and table2.` pickup_datetime` = abc1.` pickup_datetime`')
+14830404
+xyz.repartition(1).write.format("com.databricks.spark.csv").option("header","true").save("/Users/I341365/Desktop/Spark-Programming-In-Python/01-HelloSpark/data/trip_merged_4.csv")
+df.withColumn("dayofweek", date_format(to_date($"date", "MM/dd/yyyy"), "EEEE"))
+select date_format(my_timestamp, 'EEEE') from
+date_format(from_unixtime(created_utc), 'EEEE') from testTable
+</Spark>
+<SKLearn>
+sklearn
+====
+from sklearn.preprocessing import PolynomialFeatures
+model_name = 'Poly'
+polynomial_features = PolynomialFeatures(degree=2)
+plRegressor = LinearRegression()
+plr_model = Pipeline(steps=[('polyFeature', polynomial_features),('regressor', plRegressor)])
+plr_model.fit(X_train,y_train)
+y_pred_plr = plr_model.predict(X_test)
+plrMetrics = model_metrics(plRegressor, y_test, y_pred_plr)
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3,
+                                                    random_state=1)
+reg = linear_model.LinearRegression()
+reg.fit(X_train, y_train)
+# variance score: 1 means perfect prediction
+print('Variance score: {}'.format(reg.score(X_test, y_test)))
+
+import matplotlib.pyplot as plt
+## setting plot style
+plt.style.use('fivethirtyeight')
+
+## plotting residual errors in training data
+plt.scatter(reg.predict(X_train), reg.predict(X_train) - y_train,
+            color = "green", s = 10, label = 'Train data')
+
+## plotting residual errors in test data
+plt.scatter(reg.predict(X_test), reg.predict(X_test) - y_test,
+            color = "blue", s = 10, label = 'Test data')
+
+## plotting line for zero residual error
+
+plt.hlines(y = 0, xmin = 0, xmax = 3000, linewidth = 2)
+
+## plotting legend
+plt.legend(loc = 'upper right')
+
+## plot title
+plt.title("Residual errors")
+
+## method call for showing the plot
+plt.show()
+
+from sklearn.tree import DecisionTreeRegressor
+model_name = "Decision Tree Regressor"
+decisionTreeRegressor = DecisionTreeRegressor(random_state=0,max_features=30)
+dtr_model = Pipeline(steps=[('preprocessorAll',preprocessorForAllColumns),('regressor', decisionTreeRegressor)])
+dtr_model.fit(X_train, y_train)
+y_pred_dtr = dtr_model.predict(X_test)
+print(decisionTreeRegressor)
+<Misc>Internally uses sciPy which we can use if we want to perform tracing and using maths with low level APIs - recall Octave programming</Misc>
+</SKLearn>
+<TensorFlow>
+</TensorFlow>
+<Keras>
+</Keras>
+</CSLearningOnTheGo>
