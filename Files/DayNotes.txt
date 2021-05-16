@@ -334,8 +334,9 @@ Movie - Blue Valentine
 	making love with song on.
 	support each other is good or worse - this is my worse plz tell me what to do.
 Movie - Mahabharat, Ramayan, Chanakya. Vartman.
-Movie - Jobs, Silicon valley, The social network, The social dilemma, Mr Robot, The IT Crown, Black Mirror
-Movie NFP - Animal Instinct. survival island. cat skin.
+Movie - Silicon valley, The social network, Black Mirror
+Movie yet to watch - The social dilemma, Mr Robot, The IT Crowd, The Great Hack
+Movie NFP - Animal Instinct. survival island. cat skin. Country wise.
 Movie - Simmba, Scam1992.
 Movie - Laddakh warriors
 	preparation for extremes, personality devp, younger brother (nanu)
@@ -13691,11 +13692,11 @@ CS - Spark cluster thru CF comes with
     logs - kibana logs and dashboards.
     history proxy - past jobs.
 CS - Google : cloud foundry remote debug intellij
+    cf enable-ssh app1
+    cf ssh-enabled app1
     debug set to true in env.
         env: JBP_CONFIG_DEBUG: '{enabled: true}'
         cf set-env app1 JBP_CONFIG_DEBUG '{ enabled: true, port: 8000, suspend: true }'
-    cf enable-ssh app1
-    cf ssh-enabled app1
     cf restage app1
     cf ssh -N -T -L 8000:localhost:8000 app1
     Add remote configuration

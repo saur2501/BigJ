@@ -102,77 +102,190 @@ trip_merged["pickup_time"]
 df = df.apply(lambda x: np.square(x) if x.name == 'd' else x, axis=1)
 </Pandas>
 <Spark>
-Spark
-from pyspark.sql import SparkSession
-
-spark = SparkSession.builder \
-    .master("local[1]") \
-    .appName("SparkByExamples.com") \
-    .getOrCreate()
-data = [('Scott', 50), ('Jeff', 45), ('Thomas', 54),('Ann',34)]
-sparkDF=spark.createDataFrame(data,["name","age"])
-sparkDF.printSchema()
-sparkDF.show()
-
-print((sparkDF.count(), len(sparkDF.columns)))
-----
-df.createOrReplaceTempView("test")
-re=spark.sql("select max_seq from test")
-re=spark.sql("select ` max_seq` from test")
-re=spark.sql("select ` max_seq` from test where count > '5'")
-----
-df.describe().show()
-df.describe('uniform', 'normal').show()
-df.select([mean('uniform'), min('uniform'), max('uniform')]).show()
-=====
-import pandas as pd
-spark.conf.set("spark.sql.execution.arrow.enabled", "true")
-pandasDF=sparkDF.toPandas()
-print(pandasDF.shape)
-====
-df.limit(10) or take(10) or head(10) or show(10)
-data.select(" timedelta", " shares")
-low memory - use dtype='unicode'
-===
-SELECT user, stddev(duration)
-                  FROM df
-                  GROUP BY user
-import org.apache.spark.sql.functions.{stddev_samp, stddev_pop}
-selectedData.groupBy($"user").agg(stdev_pop($"duration"))
-===
-spark.sql(query)
-===
-df.groupBy("C1").count().rdd.values().histogram()
-===
-select * from table where ` pickup_longitude` != '0.0' and ` pickup_latitude` != '0.0' and ` dropoff_longitude` != '0' and ` dropoff_latitude` != 0"
----
-https://sparkbyexamples.com/pyspark/pyspark-substring-from-a-column/
-from pyspark.sql.functions import substring
-abc2=abc1.withColumn('pickup_hour', substring('` pickup_datetime`', 12,2))
-spark.sql('select pickup_hour, count(*) from abc2 group by pickup_hour order by pickup_hour').show(30)
-matchesDf
-  .join(playersDf, $"matches.player1" === $"players.player")
-  .select($"matches.matchId" as "matchId", $"matches.player1" as "player1", $"matches.player2" as "player2", $"players.birthYear" as "player1BirthYear")
-  .join(playersDf, $"player2" === $"players.player")
-  .select($"matchId" as "MatchID", $"player1" as "Player1", $"player2" as "Player2", $"player1BirthYear" as "BYear_P1", $"players.birthYear" as "BYear_P2")
-  .withColumn("Diff", abs('BYear_P2.minus('BYear_P1)))
-  .show()
-spark.sql("select distinct cast(dev AS DECIMAL(2,1) from abc").show(6)
-df1=spark.read.option("header", "true").option("inferSchema", "true").csv("/Users/I341365/Desktop/Spark-Programming-In-Python/01-HelloSpark/data/trip_data_4.csv")
-
-df.na.drop("all").show(false)
-dataFrame.write.format("com.databricks.spark.csv").save("myFile.csv")
-`medallion`,` hack_license`,` vendor_id`,` rate_code`,` store_and_fwd_flag`,` pickup_datetime`,` dropoff_datetime`,` passenger_count`,` trip_time_in_secs`,` trip_distance`,` pickup_longitude`,` pickup_latitude`,` dropoff_longitude`,` dropoff_latitude`,` payment_type`,` fare_amount`,` surcharge`,` mta_tax`,` tip_amount`,` tolls_amount`,` total_amount`
-select abc1.`medallion` as medallion,abc1.` hack_license` as ` hack_license`,abc1.` vendor_id` as ` vendor_id`,` rate_code`,` store_and_fwd_flag`,` pickup_datetime`,` dropoff_datetime`,` passenger_count`,` trip_time_in_secs`,` trip_distance`,` pickup_longitude`,` pickup_latitude`,`
-xyz = spark.sql('select abc1.`medallion` as medallion,abc1.` hack_license` as ` hack_license`,abc1.` vendor_id` as ` vendor_id`,` rate_code`,` store_and_fwd_flag`,abc1.` pickup_datetime` as `pickup_datetime`,` dropoff_datetime`,` passenger_count`,` trip_time_in_secs`,` trip_distance`,` pickup_longitude`,` pickup_latitude`,` dropoff_longitude`,` dropoff_latitude`,` payment_type`,` fare_amount`,` surcharge`,` mta_tax`,` tip_amount`,` tolls_amount`,` total_amount` from abc1 inner join table2 --where
-spark.sql('select * from abc1 inner join table2 where abc1.medallion = table2.medallion and abc1.` hack_license` = table2.` hack_license` and abc1.` vendor_id` = table2.` vendor_id` and table2.` pickup_datetime` = abc1.` pickup_datetime`').count()
-xyz = spark.sql('select abc1.`medallion` as medallion,abc1.` hack_license` as ` hack_license`,abc1.` vendor_id` as ` vendor_id`,` rate_code`,` store_and_fwd_flag`,abc1.` pickup_datetime` as `pickup_datetime`,` dropoff_datetime`,` passenger_count`,` trip_time_in_secs`,` trip_distance`,` pickup_longitude`,` pickup_latitude`,` dropoff_longitude`,` dropoff_latitude`,` payment_type`,` fare_amount`,` surcharge`,` mta_tax`,` tip_amount`,` tolls_amount`,` total_amount` from abc1 inner join table2  where abc1.medallion = table2.medallion and abc1.` hack_license` = table2.` hack_license` and abc1.` vendor_id` = table2.` vendor_id` and table2.` pickup_datetime` = abc1.` pickup_datetime`')
-14830404
-xyz.repartition(1).write.format("com.databricks.spark.csv").option("header","true").save("/Users/I341365/Desktop/Spark-Programming-In-Python/01-HelloSpark/data/trip_merged_4.csv")
-df.withColumn("dayofweek", date_format(to_date($"date", "MM/dd/yyyy"), "EEEE"))
-select date_format(my_timestamp, 'EEEE') from
-date_format(from_unixtime(created_utc), 'EEEE') from testTable
+UI Facade - http://localhost:4040/
+Kibana Logs - another.
+createDataFrame(df, schema)
+Schema or metadata or descriptive
+    printSchema
+    columns
+    describe().show()
+        describe('uniform', 'normal').show()
+Read
+    spark.read.option("header", "true").option("inferSchema", "true").csv("trip_data_4.csv")
+		.schema(flightSchemaStruct)
+		//where
+			flightSchemaStruct = StructType([
+				StructField("FL_DATE", DateType()),
+				StructField("OP_CARRIER", StringType()),
+				StructField("OP_CARRIER_FL_NUM", IntegerType()),
+				StructField("ORIGIN", StringType())
+			])
+show, head,
+    limit(10) or take(10) or head(10) or show(10)
+	join_df.collect()
+Write
+    dataFrame.write.format("com.databricks.spark.csv").save("myFile.csv")
+    xyz.repartition(1).write.format("com.databricks.spark.csv").option("header","true").save("trip_merged_4.csv")
+		mode("overwrite"), option("path", path), partitionBy, option(maxRecordsPerFile, max)
+Clean
+    df.na.drop("all").show(false)
+	.dropDuplicates(["name", "dob"])
+Manipulate
+	filter("Age = 40")
+    groupBy("C1")
+        groupBy("C1").count()
+	select([mean('uniform'), min('uniform'), max('uniform')])
+    Add column
+        abc2=abc1.withColumn('pick up_hour', substring('` pickup_datetime`', 12,2))
+		file_df.select(regexp_extract('value', log_reg, 1).alias('ip'),
+                             regexp_extract('value', log_reg, 4).alias('date'))
+		drop("day", "month")
+    Using functions
+        abc2=abc1.withColumn('pickup_hour', substring('` pickup_datetime`', 12,2))
+        df.withColumn("dayofweek", date_format(to_date($"date", "MM/dd/yyyy"), "EEEE"))
+        select date_format(my_timestamp, 'EEEE') from
+        date_format(from_unixtime(created_utc), 'EEEE') from testTable
+	Using UDF
+		def to_date_df(df, fmt, fld):
+    		return df.withColumn(fld, to_date(fld, fmt))
+		new_df = to_date_df(my_df, "M/d/y", "EventDate")
+		OR
+		def parse_gender(gender):
+			female_pattern = r"^f$|f.m|w.m"
+			male_pattern = r"^m$|ma|m.l"
+			if re.search(female_pattern, gender.lower()):
+				return "Female"
+			elif re.search(male_pattern, gender.lower()):
+				return "Male"
+			else:
+				return "Unknown"
+		parse_gender_udf = udf(parse_gender, returnType=StringType())
+		survey_df2 = survey_df.withColumn("Gender", parse_gender_udf("Gender"))
+		OR
+		spark.udf.register("parse_gender_udf", parse_gender, StringType())
+		survey_df3 = survey_df.withColumn("Gender", expr("parse_gender_udf(Gender)"))
+	aggregate
+		Mean, sum, count, Max, min, Variance, Stdev, sort.
+	Group by and multiple aggregates
+		summary_df = invoice_df \
+        .groupBy("Country", "InvoiceNo") \
+        .agg(f.sum("Quantity").alias("TotalQuantity"),
+             f.round(f.sum(f.expr("Quantity * UnitPrice")), 2).alias("InvoiceValue"),
+             f.expr("round(sum(Quantity * UnitPrice),2) as InvoiceValueExpr")
+             )
+	JOIN
+		join_expr = order_df.prod_id == product_df.prod_id
+		product_renamed_df = product_df.withColumnRenamed("qty", "reorder_qty")
+		order2_df = order_df.join(product_renamed_df, join_expr, "inner")
+			.drop(product_renamed_df.prod_id)
+		order_df.join(product_renamed_df, join_expr, "left")
+	Running Window
+		running_total_window = Window.partitionBy("Country") \
+			.orderBy("WeekNumber") \
+			.rowsBetween(-2, Window.currentRow)
+		summary_df.withColumn("RunningTotal",
+                          f.sum("InvoiceValue").over(running_total_window)) \
+        				.show()
+	Ranking with partition
+		rank_window = Window.partitionBy("Country") \
+			.orderBy(f.col("InvoiceValue").desc()) \
+			.rowsBetween(Window.unboundedPreceding, Window.currentRow)
+		df = summary_df.withColumn("Rank", f.dense_rank().over(rank_window)) \
+			.where(f.col("Rank") == 1) \
+			.sort("Country", "WeekNumber") \
+			.show()
+RDD
+	linesRDD = sc.textFile(sys.argv[1])
+	linesRDD.repartition(2)
+	colsRDD = partitionedRDD.map(lambda line: line.replace('"', '').split(","))
+    selectRDD = colsRDD.map(lambda cols: SurveyRecord(int(cols[1]), cols[2], cols[3], cols[4]))
+		//SurveyRecord = namedtuple("SurveyRecord", ["Age", "Gender", "Country", "State"])
+    filteredRDD = selectRDD.filter(lambda r: r.Age = 40)
+    kvRDD = filteredRDD.map(lambda r: (r.Country, 1))
+    countRDD = kvRDD.reduceByKey(lambda v1, v2: v1 + v2)
+	colsList = countRDD.collect()
+transformations
+	map, filter, flatMap,
+	mapPartitions, sample
+	union, intersection, distinct, groupByKey,
+	reduceByKey, aggregateByKey, sortByKey
+	join, cartesian, pipe, coalesce, repartition
+Actions
+    count()
+	reduce, collect, first, take, takeSample
+	countByKey, foreach
+Powerful
+	cache(), unpersist
+	val broadcastVar = sc.broadcast(Array(1, 2, 3))
+		should be used instead of the value v; v is not shipped to the nodes more than once
+		object v should not be modified after its broadcast
+		to ensure that all nodes get the same value of the broadcast variable.
+	val accum = sc.accumulator(0)
+	sc.parallelize(Array(1, 2, 3, 4)).foreach(x => accum += x)
+SQL
+    createOrReplaceTempView("test")
+    re=spark.sql("select max_seq from test")
+    SELECT user, stddev(duration) FROM df GROUP BY user
+Pandas
+    pandasDF=sparkDF.toPandas()
+Eg
+    matchesDf
+    .join(playersDf, $"matches.player1" === $"players.player")
+    .select($"matches.matchId" as "matchId", $"matches.player1" as "player1", $"matches.player2" as "player2", $"players.birthYear" as "player1BirthYear")
+    .join(playersDf, $"player2" === $"players.player")
+    .select($"matchId" as "MatchID", $"player1" as "Player1", $"player2" as "Player2", $"player1BirthYear" as "BYear_P1", $"players.birthYear" as "BYear_P2")
+    .withColumn("Diff", abs('BYear_P2.minus('BYear_P1)))
+    .show()
+Eg - Wordcount
+	val input_file = sc.textFile("input.txt")
+	val counts = input_file.flatMap(line => line.split(" ")).map(word => (word, 1)).reduceByKey(_+_);
+		idea - for each line, get array of string - for every string in the array, create a tuple (word,1) - we gotta group keys and aggregate the sum / count.
+	counts.saveAsTextFile("output")
+Deployment
+	Compile the code with dependencies on classpath
+		scalac -classpath "spark-core_2.10-1.3.0.jar:/usr/local/spark/lib/spark-assembly-1.4.0-hadoop2.6.0.jar" SparkPi.scala
+	Create Wordcount Jar along with dependencies
+		jar -cvf wordcount.jar SparkWordCount*.class spark-core_2.10-1.3.0.jar /usr/local/spark/lib/spark-assembly-1.4.0-hadoop2.6.0.jar
+	Submit Jar
+		spark-submit --class SparkWordCount --master local wordcount.jar
 </Spark>
+<Hive>
+	ALTER TABLE employee PARTITION (year=’1203’) RENAME TO PARTITION (Yoj=’1203’);
+	supported - && and AND both.
+	A[n], M[key], S.x
+	SELECT round(2.6) from temp;
+	CREATE VIEW emp_30000 AS (query)
+		drop view emp_30000
+	CREATE INDEX index_salary ON TABLE employee(salary) AS 'org.apache.hadoop.hive.ql.index.compact.CompactIndexHandler';
+		drop index index_salary ON employee
+	Extra - [CLUSTER BY col_list | [DISTRIBUTE BY col_list] [SORT BY col_list]]
+	Rownum, latest, etc.
+		Get latest records
+			select count(*) from test_table where to_Date(datetime) in (select max(to_Date(datetime)) from test_table);
+	Windowing
+		SELECT t.id
+			,t.name
+			,t.age
+			,t.modified
+		FROM (
+			SELECT id
+				,name
+				,age
+				,modified
+				,ROW_NUMBER() OVER (
+					PARTITION BY id ORDER BY unix_timestamp(modified,'yyyy-MM-dd hh:mm:ss') DESC
+					) AS ROW_NUMBER
+			FROM test
+			) t
+		WHERE t.ROW_NUMBER <= 1;
+		//similarly for top n.
+	table_reference JOIN table_factor [join_condition]
+	   | table_reference {LEFT|RIGHT|FULL} [OUTER] JOIN table_reference
+	   join_condition
+	   | table_reference LEFT SEMI JOIN table_reference join_condition
+	   | table_reference CROSS JOIN table_reference [join_condition]
+
+</Hive>
 <SKLearn>
 sklearn
 ====
@@ -226,8 +339,18 @@ y_pred_dtr = dtr_model.predict(X_test)
 print(decisionTreeRegressor)
 <Misc>Internally uses sciPy which we can use if we want to perform tracing and using maths with low level APIs - recall Octave programming</Misc>
 </SKLearn>
+<Pytorch>
+	Google: python pytorch regression
+		https://www.analyticsvidhya.com/blog/2020/10/perform-regression-analysis-with-pytorch-seamlessly/
+		https://www.guru99.com/pytorch-tutorial.html
+		https://www.kaggle.com/aakashns/pytorch-basics-linear-regression-from-scratch
+		https://medium.com/@benjamin.phillips22/simple-regression-with-neural-networks-in-pytorch-313f06910379
+</Pytorch>
 <TensorFlow>
+	Google: Python Tensorflow regression
+		https://www.geeksforgeeks.org/linear-regression-using-tensorflow/
 </TensorFlow>
 <Keras>
+	Google: Python keras regression
 </Keras>
 </CSLearningOnTheGo>

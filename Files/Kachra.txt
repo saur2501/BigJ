@@ -217,7 +217,6 @@ PIES - inspired by NFP.
         Introspection can be an ideal fallback also in trying situations along with SVAF fallbacks.
     The real problem is that I am unhappy with all in SVAF that I am doing - it is symptom of a problem.
         I have to learn to be happy in SVAF with robustness - no exceptions covering all FOE.
-SAP - Interest groups - Games - basketball, volleyball, table tennis, cricket, music, dance, Rangabhoomi, Roadies runners. Sankalpa social services, Karnataka day celebrations.
 SocialErp - Street lights showed up in ASR just like Udhampur. Campus of Golden temple.
 SocialErp - Driving situations
     Aunty crossing with dhadalla. 
@@ -541,9 +540,21 @@ IQGrats - My assumption that topicName1 or baseURL1 exists in the remote was wro
 FND - Communication - Jokes involve involving different sources of information - Modiji lockdown lagate lagate haanf gaye yahaan ye corona hone par dance kar rahe hain.
     Change the context or reference - like layer of vision - like in comedy circus suddenly reminding them outta role into their real life.
     Ambiguity advantage, OOP jokes punjabi, etc.
-FND - NFP - tattoo, artistic, design, outfits, tasteful, head towel, open or unmasked, hollywood posters, Age dimension, dress dimension.
+FND - NFP - tattoo, artistic, design, outfits, tasteful, head towel, open or unmasked, hollywood posters, Age dimension, dress dimension, flowers on , touching bl.
+    Tickling on, finger bb, finger roll bb.
+    Squeeze, grab. Realization that it is endless chewing the chewed.
+    F - Pressing ground, Pressing against, Oscillations to-fro (3D possible), bang on top, tip touch, campfire rotation, hand positions, side tease, lock inside.
+        tongue on. Sandwiched, covered collection.
+        All independently - this is called misused intelligence.
+    PMO is monstrous - when I am too infatuated by it - Krishna loudly bhajans kirtans my only rescue and it definitely works.
+        Other things like demigods bhajans and mundane songs also help but can't come close to the spiritual quarantine.
     It interferes with my immune system. It interferes with my TME investment on other dimensions worthy of investment.
     How much TME do you invest on your goals.
+FND - NFP - Big Data Distributed Streaming phase is tried and has indeed given good results but now, next phase has to come which is gamechanger.
+    Level of living has to become social (spiritual that doing things outta love is already done by me)
+    Personal mastery in foundation and config terms is more or less here and now, is the time to do personal mastery at master and config DMPM level for social purposes.
+    This level will be game changer in my NFP journey. I will be very social in my SVAF - not a leader (transactional) but a lead contributor (master).
+    See how well Punajbis perform in different circles. Why? cuz of their social involvement and personal mastery but being rebellious is their downside.
 FND - NFP - I am almost done with story of cultivating grats here. Now the story is mostly gonna be about how I got rid of this extremely deep rooted sanskar and vritti.
     Since birth it has been deep. Next, thru my life actions instead of curbing it, I have nourished it - culture could have helped and also could have hurted - I chose both with some bias towards latter.
     My solution phase has gone thru many phases. Some of them are follows
@@ -740,9 +751,33 @@ Sume - CBA (Commonwealth Bank of Australia) DS
         Busiest hours - 2 flavors - discrete hours vs any hour starting any time.
             1st is easier problem using sql on standard bin size.
             2nd can seen with smaller bins diagram.
+    Sume - CBA Challenge - approaches
+        Internet access - this was most important while doing programming exercise cuz syntax is important.
+            best we organize and standardize this for future - standardized pandas, sklearn, spark in the process.
+        Excel - can't handle that big data but can showcase results after analytics is done and we have very small table.
+        SQL - Sqoop, etc to first insert into hdfs. OR make dataframe in spark and convert to table and then use it - that's best and easy and performant.
+        Big Data Spark - spark df or spark sql works best for table manipulations. For ML and graphX I need to go thru them.
+            Used spark command line - pyspark - cuz wanted to just try it all.
+            Jupyter Spark could have been best
+            Online Spark was not tried but good for immediately trying things out.
+                Cloud - no access so not worth thinking. For databricks also possible but it will forget after the session is over - will need to save for sure.
+            IDE - Spark on IDE like pycharm or IntelliJ - this is again useful for automating and thinking like ML or Data engineer along with with SDE.
+        R, Python - for both ML and descriptive, exploratory - great tools but can't handle too big data 
+            like 2GB was still manageable but when it came to join - it fell apart. That time spark sql join came to the rescue and it could handle it.
+                and then write into 
+            Pycharm - good for automation feel of a program and also viewing csv files always. And outline the project sideways.
+            RStudio / Spyder - similar feels of the tool although spyder was too slow - but run statements and see in console in parallel and then forget previous console results.
+            Jupyter - Best for showcasing, remembering, etc.
+        Google:advantages of using mean as measure of central tendency
+PIES - We want to support economics for SVAF.
+    Spiritual association (buying books, taking seminars etc)
+    Office for work (deals, mutual rewards)
+    Family and friends (fun exchanges)
+    Personal level (reward oneself aptly for desirable actions)
 Logs - Story - 2 stories
     what is talli - different language looking for bell - will ask somebody but even the helpers indicated talli would be near trunk and went inside with door closed.
-    Brahmins offering first those days - 1 tall muslim used to stand in street and she used to feel horrified seeing him - dhat dhat outta nowhere - ki hoya, koi daka pai gya. She ran away - imagine his response.
+    Brahmins offering first those days - 1 tall muslim used to stand in street and she used to feel horrified seeing him 
+        dhat dhat outta nowhere - ki hoya, koi daka pai gya. She ran away - imagine his response.
     Vinarani Aunty dharma sankat
         COVID time high casualties. No free hosptial, Oxygen shortage and Mutated virus.
         Going to the house for afsos - this time is not suited for elderly people anyways.
@@ -755,8 +790,566 @@ Logs - Story - 2 stories
         for once even I thought maryada was more important than life itself. This happened after Syami dropped the phone cuz he could not accomodate Surabhi didi on call.
     Attention required while buying from hawkers - You didn't give money for kulcha. Vatta being wrong.
         Alu kulcha from dhaba - any dang rate was told, asked owner to make bill - the gap was 25%. Even with veggies owner if you don't compute, they may get away with adding 10-20 Rs more.
+    Philosophers of corona. It comes from mobile rays - conspiracy by govt to control population.
 CS - Machine Learning
     scikit-learn is a Python module for machine learning built on top of SciPy and distributed under the 3-Clause BSD license. On the other hand, SciPy is detailed as "Scientific Computing Tools for Python". ... scikit-learn and SciPy are both open source tools
     Sklearn is built on top of Python libraries like NumPy, SciPy, and Matplotlib, and is simple and efficient for data analysis. However, while Sklearn is mostly used for machine learning, PyTorch is designed for deep learning. ... Ease of Use: Undoubtedly Sklearn is easier to use than PyTorch.
     So, both TensorFlow and PyTorch provide useful abstractions to reduce amounts of boilerplate code and speed up model development. The main difference between them is that PyTorch may feel more “pythonic” and has an object-oriented approach while TensorFlow has several options from which you may choose.
     TensorFlow is an open-sourced end-to-end platform, a library for multiple machine learning tasks, while Keras is a high-level neural network library that runs on top of TensorFlow. Both provide high-level APIs used for easily building and training models, but Keras is more user-friendly because it's built-in Python
+IQ - Manage Signature option (under annotate option under tools) in every pdf tool - adobe, preview.
+	also paint online.
+CS - Mac advantages
+    Fast download in maven.
+    spotlight search and easy switch. Different desktops (but difficult full screen and dock)
+    Problem of open file with enter.
+    hand gestures. smart key ribbon (but missing fn keys)
+    No touch screen.
+    Sleep mode support. Neat interface (but ms good at UXD).
+    Missing beauty of MS office.
+Logs - Story - Nikhil Bhaji discussion about daughter Saanvi (means lakshmi).
+Logs - Surabhi didi
+    The problem is when it comes to work we start to see hours but when it comes to tv watching, we forget all times.
+    When you work like with full focus and attention magic starts to happen.
+    IITian from different stream changed to CS after a gap of home preparation and made a switch every year and in matter of years was in 20L.
+    Yes sense of responsibility and ability to handle things should grow over years. 
+        1 lady asked didi what I am not able to do it - of course you can do it. 
+        It's possible - the confidense comes with practice.
+CS - cf ssh - connection breaks when the application stops for any reason.
+Logs - Story - Reference from Nikhil Bhaji on how is going to go to Bangalore - he ain't going cuz they support home pick up; they had not told.
+    Surabhi Didi and Syami Pra's help and guidance on accept the current offer and try to raise the bid and not replay huawei - I need it so let it be.
+Logs - Story - 1 devotee friend wanted to help a covid suffering friend - he contracted it himself and lost his life.
+    Many casualties - Bhakti Charu Swami, Pankajanghri Prabhu.
+Sume - Samsung Bargain - can we move some component. I will feel better.
+	that I feel is less. that is high.
+	50% hike you got - less paid - can't keep you on lesser package. E1 else on higher side.
+		I am gonna start family - I am changing cuz I need it.
+		If variable you can move to fixed. Repeat the statements.
+	Increase my fixed component - variable move to fixed - you know better I feel fixed is less.
+	Notice period.
+	Joining time.
+	Notice period - place.
+Sume Process - Samsung as an eg.
+    Get recruited or selected.
+    Get offer mail after all the details you give (including shares)
+    Call and get clarifications and expectations gaps. Offer suggestions to improve and your concerns.
+        accept the offer when you think it's ready.
+        Think about getting company shares also after getting the offer.
+    Inform your manager about your decision and shoot a mail for notice period to start - announcing your last date.
+    Get the best bid meanwhile and prepare for it.
+        In your current company your 2nd honeymoon period starts - no major reponsible task will be assigned to you.
+IQ - working is exactly like stock bidding - we have only one resource and we want the best bid. Just do that systematically.
+SCMProd - Oats Fruits Porridge, 
+IQGrats - Lapse - When we attach debugger to cf application - it won't work normally until you connect your remote ssh debugger to it.
+IQGrats - Nikhil Bhaji asked about an DSA problem
+    Sume - Confirm practically that the time complexity of operations in quick sort is m.log(n) as claimed by plotting it on graph.
+    count number of operations for quick sort and plot x-axis exponential scale n and number of operations on y-axis linear scale.
+    The output line should be linear.
+    explained it on ms paint SaaS - https://jspaint.app/#local:5772fc1a970a8
+Sume - CBA Interview
+    Experience discussion - Narrative for DS - M.Tech specialization in CS Core with courses on DS.
+        Siemens primarily big data with some little machine learning like decision trees.
+        SAP Labs - BYD - Data cleaning and validation for pdf data extraction and not into model training.
+            SME Shopping cart approval - how it works in offices. How any value addition and automation is a great service.
+            E-Invoicing great idea on word cloud. Didn't materialize cuz some other team took it up but idea was appreciated.
+                concept - CIV creates XML message for country specific and is to be consumed by SIV - identify country and hence specific schema using word cloud.
+            Some FIN UI screens - source documents, on Clearing, settlements, general ledger.
+            Current work - Using spark streaming for transactional processing - take advantage of distributed computing to read and write IOT messages to/ from kafka
+                for use cases of processing sensors to things, enrichments thru derivations and persistence into object store.
+    and work day discussion - ML primarily cuz another data engg team. GIS data - which locations to target, what strategy to play, etc.
+        ed is different but will try my best.
+        Modeling or statistical learning principles will come as our area of responsibility.
+        Not data analytics, or recording - close to functions team. Our area of expertise - applying and scaling up processes.
+        Some risk in estimation and results - predictions and output 
+        that could occur for single forecast - Rate of interest on investment.
+        For question - time window - something scaled up to entire population. 
+        Propensity of our clients to need or desire a new lending product for marketing and contract or contact purposes.
+        Challenge around research procedure every now and then - how to allocate on scarce budget. Like ?money, allocating personnel across geography of Australia.
+        Which product should be sold ahead of another product - what is the risk associated with that. Risk estimation, downside.
+        Large scaled query on our big data source if that question is best answered thru bootstrapped simulation procedure.
+            if aggregate over entire population then some data here and some data there.
+            estimation then us vs exact calculation then to someone else.
+        That gives you a view of task in there.
+        70-80% of current effort is around our outbound and inbound strategy. Developing models and predictions to support that effort.
+            it moves based on what's in forefront and what's in the queue. And what emergency might come up.
+            Eg - covid last year so lots of requests on risk estimation.
+            Eg - Push5 - working with very large giant data sources - which source code to which customer gets affected.
+            So lots of other work can come outside of traditional marketing initiative.
+    Quiz
+        Financial Mathematics 
+            Link between 2 equations - (1+Rd/m)^(n.m) and e^(rc.t)
+            amount to principal - CF0 + CF1/(1+r0) + .... + CF2/(1+rn)^n = ???
+        statistics and probability intuition checks
+            Which metric - Variance formula given (and also graph) - what's missing - divide by n and for sample variance n-1.
+            sd deviation vs deviation - can replace mean with median
+            How minimize its result - which statistic - all xi = mu - what's the minimum value and when will that be.
+            Prior and posterior probability. Extra information if all same data in a table none.
+                what is its cardinality - can be m:n but generally many causes to 1 effect but can be vv.
+                Given P(Label) and P(X|???) - what's the 3rd column.
+        Linear Algebra and Calculus check
+            given the expanded formula for error in the linear regression in rms form - why would this formulation be used 
+            and how to simplify it - using matrix or what is relation between this formula and this matrix form.
+            Dimensions of the results. What are the requirements on X for the matrix form to work 
+            it should be invertible or no dependency else it's rank would reduce and inversion in the formula won't be possible.
+        Machine Learning Review
+            Difference between K-means and K-medoids. Why would you choose between the 2 - not asked.
+            what's KNN and which ML procedure is this.
+            ROC curve - what curve is this. Mistook it with elbow curve.
+                what statistic do they present.
+                what does dotted diagonal line represent.
+                what other statistics would you infer from the figure on the left and why would it be used.
+        Programming and Data skills check
+            what does the query seek to do - age and gender - aggregation functions - max and avg wages and count of people.
+                There's a bug in the code - group by and select columns difference.
+                what would change if we replace LEFT join by inner or right join.
+            Which language - HIVEQL.
+                what does it seek to do.
+                identify a bug - not asked.
+                what does hive.exec.parallel do - let job be distributed into tasks.
+                What can we do to make it faster - separate the operation by union and take the union later of the 2 tasks.
+                which system or programming paradigm does the query refer to HIVEQL it is.
+            What is spark
+                how is it different from hive. SQL Engine vs execution engine.
+                how do partition numbers impact performance?
+                what is hash join and how is it used by spark workers?
+                    spark SQL - using hash joins (not using the bits comparisons but hash comparisons of the data we merge on)
+                    Disadvantages - key collision. And also something more.
+                        it distributes its hash index across its all the workers. If dealing with very big payload and it's well partitioned.
+                        your hash joins end up taking all of the memory space even if well partitioned.
+                        payload merge sort also there with spark - where you sort and split out across the worker nodes instead.
+                        Challenge there is computation cost but hash join is little less expensive.
+            Programming knowledge - which language python
+                what does self represent - the instantiated object - the caller of this method.
+                identify input args = null, recursion and what this program does - typecasting whole dictionary to apt datatypes.
+        DevOps and MLOps checks
+            CICD what you know - Jenkins, CF deployments. We use something else but good.
+    CBA Presentation Plan
+        Data - what do we have here and what fields and what information in general terms and some technical terms.
+        Challenges or cleaning efforts - Merging 2 tables will be required in future, nan values, 0.0 values, etc. Too huge but pandas can handle - not merge so spark there.
+        General insights.
+        Specific questions. Arrange from descriptive to prescriptive.
+            Answers to the questions - roll up for the answer and drill down the details to technical and further to implementation if needed.
+            Explore alternatives and how they performed.
+            Evaluation metrics - alternatives and what it denotes.
+PIES - We base our life as following our bliss. The alchemist book is based on this - in karma, you have a calling.
+    even challenges on the path are the original you.
+    So live life as if YOLO but follow this path espcially cuz not YOLO 
+        it is about evolution and not somehow fitting in for max rewards in 1 life even if it's unnatural and unorganic.
+    Live life in more of natural way and organic way - don't ask what you believe in or what's right in world or Philosophical eyes.
+        If it's not coming organically it's not natural or perhaps we need time to get there.
+    All tech gadgets and services hack into our natural reality - they provide lots of help and convenience but they also shape our new reality.
+        Our natural instinctive tendencies get channelled thru the tech as well and that could have quite different effect.
+        We see pixels and imagine real person and fantasize reality while it is a highly partial and tailored representation of reality.
+        Eg - Female attraction is very natural but we dovetail it in the digital and ignore real women and proper relationship with worldly appeasements.
+        This is what saints don't approve of but after your sanskars and vrittis are enough evolved then it will rather be organic to not run after these.
+SRM - Griller.
+    Home automation - ILife, Camera detection information on smartphone, Water motor inform when water tank is full.
+    Door bells etc are not automations but electricals or electronics.
+SCMProd - Shakkar Parotha, Pyaas Parotha, Oreo Cake at home, Bread cut sandwich, bread grilled sandwich, bread sandwich with moistmaker.
+    Bread grilled with amchoor
+    Last year myself bread dosa.
+CS - Spark - java.lang.ClassNotFoundException: Failed to find data source: org.apache.spark.sql.redis
+    add the maven dependency for spark-redis-connector.
+Movie - Vadhaiyaan ji Vadhaiyaan. Mr and Mrs 420. Lucky di unlucky story. Bhaji in problem. Carry on Jatta. Carry on Balle Balle.
+    Qismat, Nikka Zaildar 1-3, jatt and juliet, Yaar Anmulle, Naukar Vahuti da.
+    Ardaas, Jijaji, Chak de phatte, Double di trouble.
+Sume - CBA - Presentation ideas
+    Keep it spicy and not monotonous.
+    Maths lecture in english vs Did vedic maths and it was hinglish.
+    Tell what all alternatives were and how this is the best.
+    How to answer the questions best - the team already knows enough about it - we need to sell ourselves - what new idea you brought to table.
+        how you became a part of them by fulfilling their end goal - money saved or profits increased.
+    Use the terms which they like and use everyday - like for banking it will be profits or use cases for business etc.
+    Avoid traversing the territories you are not confident with like neural networks while you don't want them to ask questions.
+    Justify eth - Why such accuracy - this is what showcases the real data scenario that accuracy is small in the real world but we gotta improve and make most outta that.
+Logs - Story - Corruption in govt schools - no possibility of moving to another competitor so gotta appease the boss and politics is bound to grow.
+    Power distance grows cuz of boss appeasement. And power is exploited cuz power is there undeniably.
+    Corruption grows cuz loopholes can be identified and taken advantage of as long as one can maintain communication gap at layer and respecting hierarchy.
+    Eg - Govindram who would not pay for the exam duty saying that money has not come yet - no digital traceability those days.
+    So escalation had to be done cuz face off in extreme cases but better alternative could have been verbal manipulation (implicit warning)
+        that since you can't, let me escalate for sangathan to fasten the process.
+Logs - Story - Nikhil Bhaji - home pick up flights wasted. but benefit of sap shares taken advantage of.
+IQ - Privacy and Security - Firewall stopping the app from using camera. So after changing the flag MS teams could use the camera as well.
+CS - Arch - 
+    It is highly desirable to present your system architecture as a code.
+    In DS, we can think of having many utility pieces of code with us and whenever a new business problem shows up we think in terms of how to connect those pieces together.
+CS - LIB - Consulting - to arrive at what the requirements are - think of simplest system design and then wonder why we have any more logic and you will know.
+Logs - Story - RSP said please take prasadam so heart warming it was.
+Sume - In SIOT I got Spark Batch Processing (CSW, SparkConnections), Spark Streaming Processing (StateSpec-based joins for the streams, just distribution and query based streamings)
+    For some of the things, that's common or already built, I can't say I built it but I can say we build (or extend) and maintain it.
+    without knowledge and skills one can't even claim that.
+SCMProd - Chila myself also in Blr, Chila authentic at home, Oats dosa with paneer variants.
+Sume - CBA - Assignment - PPT making is remaining.
+    Business and Data Understanding - Insights into data;Data described with all the available attributes
+        Trip Details - trip start and end location given by a medallion.
+        Trip Fare Details - How much a trip that started at given time, for a medallion costed.
+        Enrichments - Trip Merged Details - cardinality 1:1 - trip with all its details.
+            prepared using spark cluster
+    Data Preparation - Cleaning for quality data.
+        Removing spaces in column names - difficult to work with columns that have spaces in them.
+        Remove 0.0 and empty data in a set of attributes.
+        Remove the rows with NaN.
+        Typecasting data columns.
+        Many Extractions required to answer important questions - covered later.
+            Date time to day and time hour and time minutes.
+        Trips uniquely identifiable thru coordinates alone => need to decide on precision so dropped decimals to keep precision of 300 meters.
+        Time minutes on scale of 60 needs to be converted to 100 for sake of graphs and better interpretation.
+        outliers removal not done.
+        Sampling not required cuz pandas able to handle this much data on my system.
+            spark based merging cuz pandas could not handle.
+        Rows to start with reduced after cleaning data.
+    CYCLE - QA with drill down and comparisons and benefits.
+        Data Description and Exploration
+            Data distribution for a set of columns.
+            passenger_count typically 1 but can exceed up to 9. Potential customers are huge.
+            Most of the payments are done by card already; second being cash - so already popular and there is a chance of card selling to these people.
+            Fare amount is on average 1.47 units and is much beyond median - so that means it has fat head - most of the people end up paying lesser for their small journeys.
+            Challenge - Personal effort to prove that medallion isn't a trip - but if I could interact with source of data then this problem could be avoided.
+            Average distance is 2.8 much greater than median so most people travel lesser than 2.8 and comparatively lesser percentage travel significant more which can even go till 100 Km.
+            Busiest hours start from 6 and 9 pm - with 19th or 7 pm to 8 pm being most crowded; 6-7 is next.
+            Some locations so busy that about 11.9% trips used that location for either drop or starting point. That one of every 8th trip.
+                Bronx River Greenway, New York, NY 10473, United States of America
+                75th percentile being The Dene, East Drive, New York, NY 10153, United States of America - almost 11 miles drive from there.
+            Greatest time variance is observed around 1 km travel near 309 West 230th Street, New York, NY 10463, United States of America.
+                if however one is curious about deviation from normal - then a trip that started from an unknown road with zip code 11430 took around 3 hrs.
+                    That's after ignoring bad data.
+                    better ignore this interpretation.
+                    Null island where coordinates are taken as 0,0 and India is in 1st quadrant.
+            Many drivers drove very consistently
+                eg 1 driver with medallion 001C8EC421C9BE57D08576617465401A had 3 trips all with same charge.
+                And driver with medallion 17A3D1C9C47C5B519AECCE5BB75625B4 charged very inconsistenly across his 10 drives for obvious reasons.
+                Another interpretation wrt locations - 
+                There are many trips with very consistent rates - these trips were usually over a very small distance.
+                Maximal deviation was observed for the trip without rate_code standardization sd can be as huge as 3.72 of mean in extreme cases but even for 3rd quartile or 75% percentile - the deviation is 0.20
+                    so more or less with using mean as predictor, we will be approximately correct more than 3/4 of the times.
+                    With rate codes considered, mean can be considered as a even a better cuz max deviation reduces to 2.37 in that case.
+        Modeling
+            test size - 0.3 cuz huge data.
+            LinearRegression - 0.019336783789338563 - so almost as good as mean - only a little improvement.
+            PolynomialRegression - r2 was 0.7482960536880445 - good predictors.
+            Decision Tree - r2 0.7482960536880445 - highest predictor being locations.
+        Evaluate Results
+        Prescriptions - ToDos
+            how to maximize profits - learn from medallion drivers with greatest earnings over a span.
+                to scale it to 10 cabs - most probably do it 10x but confirm this.
+            how to relax the most with average profits - repeat this process.
+            1 way of solving it is to obtain the multi-polynomial complex equation and solve it using differential calculus - along the lines of coursera course also.
+                while this is the best approach but this is not easy and is time consuming.
+                it is not applicable to all the models who are not just polynomial expressions.
+            More desirable at present moment is to perform statistical pattern recognition - find the dataset that meets the conditions that we want.
+                like highest earning or highest relaxing with average income - find dataset using normal distribution.
+                now to perform pattern recognition simple one ASAP - use describe function
+                to get the nature of the information on the dataset that we are interested in.
+            Preparation - trip_merged["trip_duration"] to find who gets to relax most and how much relaxation do the best performers do.
+    Deployment - NA
+    QA - Many Refer to recording later.
+        Distributions types - binomial, multinomial, normal, zipfian, log normal, etc.
+            Is it normal distribution - yes but a little skewed.
+            what about log normal - yes it's that.
+            Which distribution drops very sharply and goes on way till end - zipfian distribution.
+            Which distribution goes on increasing on Geometric scale - that's exponential but there would be limit to it.
+        How do you find distance in GIS - earth is sphere so 2 coordinates on the sphere and not pythogorus.
+            also how you figured the location - SaaS on web.
+        The only intepretation I was looking for what not greatest deviation but greatest standard deviation from the grouping only and that's right.
+            but then you should not call it standard deviation but I didn't say - yes, it was about grouping only.
+        What's the meaning of central tendency - indicative number.
+            you used exploratory way to find out - what would be other approach - using it as predicted y value and find out the RMSE.
+        What does it mean if RMSE is high and remains high after training and test - it means model has high bias or underfitted.
+        Why used R2 - how do you interpret it - improvement over error over mean as prediction.
+            R2 is negative? yes, it can be negative when model performs worse than using mean as predictor.
+        What are your assumption in busiest hours - quantized over minute clock as 00. Difference would be change the scale to aggregate and then use windowing function to cumulate and find the highest.
+        What are your assumption in busiest locations - considering only beginning and end locations and cuz there's no data for the middle.
+        Prescriptions done in the last day cuz more than interview I was curious about how I would do it.
+        Are you a leader -  no I am a developer; my work is technical in nature.
+CS - BDDSAI -  Big data files Processing using shell or java as tools - 2.6 GB
+    Shell regular commands like wc responds in like 9-10 sec.
+        it is possible that even shell scripting will perform quite neat but as observable - it is only a slight improvement over making programs.
+    Using java program to read 14 million records 
+        got heap space out of memory exception at 3.12 million records. That's around 1/4th file size and this processing took 5 sec.
+        This is very encouraging in terms of time and also that heap space has to be conscious about.
+        btw my configuration is also good - it's mac, it's 16 GB RAM and so forth.
+        that's ability to process IO at the rate of approx 700 MB per 5 second so roughly 150 MB per sec.
+        operations like replaceAll in java for size of 400 MB string is unwelcomed.
+            even 300 MB accepted. But 350 is not.
+        Time taken
+            3 sec for reading, 5 sec for regex replace cleaning, and processing failed.
+            next time - 3 sec reading, 4 sec cleaning, 9 sec processing, instant writing. based on trivial word splitter.
+            with proper split of comma - 3 sec reading, 6 sec cleaning, processing heap dump. with 200 MB - 4 sec cleaning and 33 sec processing.
+            with 200 MB data - cleaning and writing almost instantaneous but processing took 4 sec.
+            This means - with proper memory management (like remembering only essence while traversing) java tools can give a value helping aid
+                to do something outta box like DSA. But always try to think in terms of utils and not reinventing wheel cuz that takes time.
+                with only a little penalty on time taken - instances scaling possible just like distributed computing.
+                Difference being 20 people each doing independent 1 unit of work vs 20 unit of work shared across 20 people.
+    Spark was able to answer complex questions like group by and aggregation in matter of 10 sec based on complexity 
+        so that's still 1 node and 2x plain JAVA's just reading without processing.
+PIES - Inspiration from DS.
+    We live life in silo theories - we have model for everything discrete thing like Philosophy for office, home, friends, etc.
+    OR we can have one Philosophy which can explain it all.
+    Think of this as in maths we have discrete functions vs continuous one - one function equation single one explains eth.
+    On other hand - we have a set of equations with a set of conditions. Eg - y = x^2 if x > 0 else y = x^3 - b
+    When we say 7 is very clear headed, one meaning of that statement is they know the essence which underlies everything.
+    Is this what Krishna means when he is says in BG that this is the essence of all knowledge.
+PIES - Now NFP is gonna get solved.
+    First the challenge is brahmacharya until brahmana level comes.
+        Then decide whether to resume brahmacharya or have a detour of grihasthashram for evolution if it fits.
+    brahmacharya is not just not breaking 1 reg but a lifestyle which assumes 4 regs don't get broken as fact.
+        Although home is not best ashram for this but it can still be performed in current settings cuz of internet access.
+        Here's a unique opportunity to perform it under foundations with good note and integrate it with being social (or master) at next level so that I can be a leader.
+        I can have huge streak under FND semester and then in master phase also cuz of circumstances I can think of a great streak with humungous returns.
+    Data Science exploratory on my patterns reveal that certain conditions that turn me towards lapse are to be avoided.
+        No smartphone access in proximity after evening.
+        No privacy or isolation or solitude - no purdah 
+            (purdah is a facility when sth as public doesn't help - purdah is not sth to be removed once in a while but to be kept once in a while)
+        Spiritual sadhana is a must - there is no brahmacharya without it.
+        Big Data streaming VA with social involvement - this can be so powerful that it can even attract Krishna to the point of he mentioning you.
+    Enjoyments are not breaks from brahmacharya although not encouraged but assistants so I do responsible enjoyments.
+        These enjoyments even break disturbance pattern and act as fallbacks.
+    If I don't respect sleep then how does a VIP person behave when he is not valued - he leaves. Sleep will not be given.
+        I will ensure this by keeping no window purdah and keep the door open 
+        what about night disturbance - that's unfortunate but we can use white noise and take measures as exception.
+        Why some people are successful cuz that's their highest value - whatever your highest value is, you use all other dimensions as utils to maximize on that valued dimension.
+            Here is a thought - Even life is ideal when our value system is flexible with the age and we stabilize aptly in our values.
+    We are not anti-BV and pro-SV.
+        The fact is anythingn is PnC of every life dimension and its corollaries. So chewing the chewed has different flavors applies to both.
+        BV is mostly at sense or mental level but has a bearing on higher layers like atma trying to play God as well making it difficult to overcome.
+        SV is at social or spiritual layer so already very superior and can be done anytime, anywhere unlike BV.
+        Funda is not go anti-BV cuz that's very pleasing to atma also - even if it's not constitutional nature of soul and not the prime purpose of the universe.
+        BV should be like body temperature - just right is ideal. Too low is prob. Too high is worldly MOP.
+        Also enjoying world is not prime purpose - it is like prisoner begins to like the facilities of jail and forget the intended purpose was to go out - after purification.
+    The root problem was that all this while I was striving for NFP and not brahmacharya. Not what to do but what to not do.
+        still sanskars and vrittis so it's not a cake walk but facing the problem at right level.
+Logs - Story - Lots of cleaning and orchestrating services for NVCC building process and witnessing different checkpoints of temple developments.
+    way till its inauguration. Services always. Donations also.
+SQ - Solution to ego gratification is hearing appreciation about other devotees.
+SQGrats - Rashik Kumar Pr's condolence meeting - 5 hrs - VAP's pain of heart. E1 broke in tears seeing the calmness of his wife.
+CS - DS - np.logical_or
+NFP - Celibacy yields power - Gandhi, Steve Jobs, Hanuman, Bhishma die at will, Mike Tyson, Spartacus, Newton, Tesla/ Edison, APJ, Vajpayee, Modi.
+    Ratan Tata, Bhabha, Lata, Ramdev.
+SQ - How is Krishna controller.
+    Jiva and prakriti is understood but where is ishwar
+    Jiva guided by ishwar - listened to different degrees inside a person or thru transitivity.
+    Prakriti is guided by ishwar thru laws of material nature - manifest and unmanifest.
+    Interactions
+        orchestrations therein is maintained not by chance but trans force.
+        God of gaps (or width or chance) - what we don't know. Can be seen as atheistic argument but also theistic argument.
+        God of depths - we know immediate cause but don't see remote and original causes.
+            controller of controllers that is.
+    In conclusion,
+        Independent force - all lilas he shows himself as extreme of 6 opulence. So, designer or owner coming in field once in a while exhibiting control.
+            Purifying force - HN, Books (or representative - SM), Deity, etc.
+            Participating Force - Deity, Lord in Dreams.
+        Controller of Jivas - 
+            Brahmins - The guiding light - the inner sense or voice or sound of doing the right. Not just game theory.
+            Kshatriyas - Questionably empowerment - We can say that's harnessing the laws of nature. But it's still a benediction force benevolent to anyone who pays the price.
+            Vaishyas - alliance for enjoyment. Opportunities in "chance"
+            Shudras - taste of worldly rewards.
+            Law of attraction. Also getting right idea at right time (Favors from unknown transcendence).
+        Controller of Prakriti - trasitive controller thru demigods and rarely direct controller (very few pastimes).
+            Karma - Alignment and conforming rewarded (MOG behavior) and disalignment punished by nature and VA system.
+        Controller of orchestration 
+            thru destiny (karma) 
+            or internal energies (for devotee).
+            or even literally chance - Favors thru ur mistakes, ur ignorance, right opportunity as per our subtle resources.
+                It's surprising it comes - in purely random world, it doesn't routinely show up.
+            Kaal - devours everything. Change flux. Facts of nature BODD. Dualities co-existence in individuals, one's life and lives across population.
+        So, Can we say for practical purposes, it's just interfacing of jivas and prakriti? Depends on scope of prakriti and scope of one's life and TPC.
+            we can't ignore law of attraction and law of karma also.
+            And depths of each jiva, prakriti, interactions within and without.
+            And the width - which we can call chance or destiny or plan.
+IQGrats - Spark Redis was not working - classNotFound - so not found at compile time itself not just runtime - this means that The uber jar doesn't have it and bingo.
+	Cuz it is not explicitly mentioned in any class. So, in the assembly or shade plugin I gotta add the must include.
+    Then tracing the execution of shade plugin thru jar commond line.
+    ERR unknown command 'get' - perhaps using sentinel node.
+SQ - Some eg of shelter suddenly changed but emerged greatest.
+    Sita Devi, Kunti M, Pandavas, Chanakya, Arya Stark, 
+CS - DS - Spark supports look ahead functions thru sql - over window operators.
+    Spark streaming could be another option - we ain't left with reading in java alone.
+Sume - Amazon - What about previous assessment and cleared
+    you had taken it last year this month - so this means, for every candidate they maintain a DB tracker.
+    Also they somehow didn't have score though - this means some problem happened while submitting. Questionnaire not filled properly he said.
+Sume - SAP IOT - Spark Services Connections Approach check, Read Check and Write Check (wherever possible).
+Movie - Jobs. Doing business can be an art. Resolute determination - highest value that eth else sacrificed.
+PIES - from CS 
+    GIT is like our internal commitments and then sharing them with society as PR which some repos or groups may accept or deny or ask to improve.
+        It is design time acceptance in society.
+    Maven is like your talent or standardizations put to tests in a pipeline framework
+        This is taking your theories or ideas to runtime with primeval checks and a machinery which prepare your artifacts and run framework in collaboration with your artifacts.
+Sume - PayTM BDE (Big Data Engineer)
+    Theory
+        Spark Structured streaming vs streaming - context vs session and the latest one. RDDs based and older version.
+        Spark Lazy Evaluation - postpone the data manipulations - action is invoked when result is required - evaluations performations only then.
+    Spark UDF - what does this code do - registers the udf and performs conversion to a map.
+        sparkSession.sqlContext().udf().register("map_from_arrays", (scala.collection.mutable.WrappedArray<String> cityIds, scala.collection.mutable.WrappedArray<Map<String, Double>> countsMaps) -> {
+        scala.collection.mutable.Map<String, scala.collection.immutable.Map<String, Double>> map = new scala.collection.mutable.HashMap<String, scala.collection.immutable.Map<String, Double>>();
+        for(int i=0; i<cityIds.size(); i++) {
+            map.put(cityIds.apply(i), countsMaps.apply(i));
+        }
+        return map;
+        }, DataTypes.createMapType(DataTypes.StringType, DataTypes.createMapType(DataTypes.StringType, DataTypes.DoubleType)));
+    Spark SQL - find nth highest salary - using inner query.
+        select s1.salary from EmployeeSalary as s1
+            where 
+            (select count(distinct salary) from EmployeeSalary as s2 where s1.salary < s2. salary) = n
+    Java Program - given that keyboard types some characters multiple times - check if the typed conforms to name or not.
+        Ask questions so as to cover all the scenarios and feel free to take as much time is required.
+        What are edge cases - those kinda doubts.
+    Work - Spark Batch and Spark ML using ETL Warehouse results and produces some summary stored in some DB like cassandra.
+        This summary is being used for giving recommendations in PayTM Mall.
+        2 years now - smaller tasks in beginning and full fledged data pipeline now.
+            lots of responsibilities and services independent though
+            Only red flag - roadmaps we follow - very precisely followed - depends on business - decision based on numbers so it changes over time.
+            Work quality and ppl are good - morning meeting starts - sprints and jira boards. 1 or 2 weeks sprints - assigned to individuals and followed up with testing.
+        Use case - input for another team or analytical product delivered to somebody.
+            ETL done by another team - DWH maintained by them. Although ETL is not the only input for us.
+            We do transfromations and SparkML on what we receive from them. We utilize some background jobs as well.
+                Tree logic utilized at multiple places so needs to be stored sw - instead of spark streaming for it to take lots of time to formulate that dataset.
+                separation of 2 jobs and store in cassandra DB.
+                He has experience in both web services and spark systems.
+        This JD is purely for Big data engineering side focus on Spark and Spark ML which was being implementated few months back.
+    Not asked - given dataset with schema id, parent_id and level - list the sequence from child to the root.
+        331, 456, 4
+        456, 31, 3
+        31, 12, 2
+        12, 3, 1
+        3, -1, 0
+        So, if 331 then 3, 12, 31, 456, 331.
+        This is interest cuz the numbers could stand for fashion, apparent, footwear, men's footwear, men's sports shoes.
+        How would you code it.
+            This is sequential so just read every line creating LL.
+            But if randomized and many but sequential then keep your eyes peeled using hashing when first element has appeared before - then update corresponding LL.
+            If randomize and many and non-sequential - keep array of maxsize and then update the placeholders aptly.
+            and even repetitive - then tree has to be made. Sort based on level and iterate over every element and keep adding to the tree using a lambda.
+        Solution - reference from stackoverflow
+            parent_query = """
+            SELECT asset_id as parent_id FROM {0}.{1}
+            where name = 'ROOT'
+            """.format(db_name,table_name)
+            parent_df = spark.sql(parent_query)
+            final_df = parent_df
+            child_query = """
+            SELECT parent_id as parent_to_drop,asset_id
+            FROM
+            {0}.{1}
+            """.format(db_name,table_name)
+            child_df = spark.sql(child_query)
+            count = 1
+            while count > 0:
+            join_df = child_df.join(parent_df,(child_df.parent_to_drop == parent_df.parent_id)) \
+                    .drop("parent_to_drop") \
+                    .drop("parent_id") \
+                    .withColumnRenamed("asset_id","parent_id")
+            count = join_df.count()
+            final_df = final_df.union(join_df)
+            parent_df = join_df
+            print("----------final-----------")
+            print(final_df.count())
+            final_df.show()
+        Solution2 - Refer https://github.com/apache/spark/pull/23531.
+    Not asked - design demographic score based movie recommendation system.
+        Motive - To utilize geolocation, gender, age, etc metrics to power recommendations on netflix.
+        ?SparkML.
+Logs - Story - Jeevan Mehta Uncle getting papa's contact thru me.
+    He sharing with Nand Kishore Relan and guess who - your first name is Nand mine too. After that comes Kishore? for me too - oh you are that.
+    Come to me, have your passport made. PGI I come for lecturing for free since aged and will go to search Bhuppi in his village.
+    Papa's friends used to be his fan but papa doesn't approach them in general.
+    Marriage proposal excuse to meet Kulbeer Singh uncle in Nangal. Fast friends used to go out to drink tea sometimes.
+    Has to told you about me - no - mujhe pehle hi shak tha.
+SQ - Papa told about another dimension to God as being a guide and guru and worldly leaders as his representatives.
+    That's the conception of God as Vaheguru or original guru.
+    Idea is even if God appears after regular stuffs, what we would really need is guidance on our karma (for evolution or whatever)
+    Now extrapolation to say every guru is god can be a poetic expression (although strictly not true) but the idea is clear.
+SQ - Papa gave an insight that all the supernatural pastimes, st for social acceptance cuz of conditionings, need to be projected to entirely worldly conditioned plane.
+    So sth like Krishna helping Draupadi happened cuz Krishna was there in some room and showed up with intervention when called out.
+    The problem with supernatural although it might be true is that it is not repeatable - the approach of science.
+    So, that way, yes, the event took place but supernatural element can be sidelined. Similarly, Ved Vyas can also be seen as a title or degree.
+    These args can work only in hindu religion but other religions don't permit such args.
+    Although all these hypotheses are ok if they help a person - mainly for historical insights but st they may come at the expense of spiritual insights.
+        in aaroh pantha approach over scriptures (instead of avaroh pantha), these theories can be experimented wrt to other contents and artifacts.
+        But spiritually or avaroh pantha side - first, they are not meant to be meddled for purity.
+        In any case, in spirituality the focus is on not fiction or fact but impact.
+SQ - Spirituality is another dimension - it's no correlated with varna, ashram dimensions - states, country - it's only favorable or not but it's independent
+    that's why any person from any cultural and personal background gets beautified as a devotee.
+CS - Data Science - Goal and means hierarchy
+    Business Problem Solution - tell us with some crucial informations for business success.
+        Statistics (And General Maths - GIS, DM, Prob, Calculus, etc.) - Problem Solving using numbers and crunching and ideas and tracing.
+            Computer Science Library constructs - DS thinking line.
+                Computer Science Library Developments - CS.
+            Data Source from BDE Team.
+                uses ETL DWH work.
+    Corollary - 
+        while working on DS, if you won't feel core CS but it will be a util mostly.
+        although you can bypass the libraries (cuz researcher and other impl OR no supported direct operation to do sth smart) and still feel CS.
+        If BDE work is also handled by you then you can have CS feel wrt analytics and not transactional.
+        You will see the engagement of all fields of maths but separated by the abstraction that you work on - would be required for tracing and improving.
+            This answers that DS is more than APIs.
+CS - Emergence of PL Generation 4.
+    SQL and also functional languages - iterative and selective constructs replaced by functions with no side effects.
+    Languages like Python and NodeJS - Threading being different but Philosophy is focus on what and mathematical functions to solve.
+        Python libraries - or emergence of libs in general wants you to focus on what and not how. Using abstraction of right level.
+        Python operations like vector and value comparisons. Support for array filtering instead of index using another boolean array, etc.
+        Write minimal code in python - no data types - you focus only on what you want.
+        Emergence of scala - code lesser. Support for multiple returns which was onerous in JAVA with making a class first.
+        All of them have started supporting OOP paradigm also - do you see the mergers.
+        JAVA embracing Functional and Formerly Functional accepting OOP syntactic sugar (not facade exactly in CS sense).
+    Even JAVA moving towards functional regime support with lambdas and richer operations and optional - don't keep writing null equality - just use the functions.
+        more dependabilities, more idiot-proofing and support for function chaining.
+        Reading All python analytics library code in OO way or underlying functional conception had its own fun - it all adds up.
+        Be it numpy vector or matrix operations, pandas data manipulations, seaborn visualizations, sklearn ml, all could be seen in programming library light.
+IQ - All Motto for KY.
+    KV - Tat tvam pushan apavrinu.
+        Prayer - asato ma sadgamah tamaso ma jyotirgamaya
+        Best schooling providing foundation in all spheres of life - smart schools I studied.
+    NIT JSR - Shan Ribhavah Sukritah Suhastah
+        Mission. To build conducive environment for learning and creativity
+        AIR Rank 55.
+    Infy - Tagline - Powered by Intellect, Driven by Values
+        Values - CLIFE - Client value, Leadership by eg, Integrity (& Transparency), Fairness, Excellence.
+        1 of Best and Leading Indian IT Company.
+    VIT Pune - LEAD (Learn Empower Act Develop)
+        Top Private college in Maharashtra.
+    IIIT B - Jnanam Uttamam - Knowledge is Supreme Type
+        Research motto - expand the pie
+        Tier 1 College in India.
+    Siemens - slogan or tagline - Ingenuity for life
+        Values - 
+            Responsible: Committed to ethical and responsible actions
+            Excellent: Achieving high performance and excellent results
+            Being innovative to create sustainable value
+        Global rank 74.
+        Fortune magazine Most Admired Rank 1 for 5th consecutive year.
+    SAP - best-run businesses; Run Simple; The best-run businesses that make the world run better. The best run SAP
+        JLT - Making sustainability profitable and profitability sustainable.
+        Values
+            Tell it like it is.
+            Stay curious
+            Embrace differences
+            Keep the promise
+            Build bridges not silos.
+        #1 Employee friendly company for 3rd year in row in India and in World (also for females). Most Innovative company awards. 90% businesses run on it.
+    Leads
+        PwC - Big 4 for consulting. couple of rounds cleared.
+            PwC - build trust in society and solve important problems.
+            mission statement - to provide an unrivalled level of service and to contribute to the sustained growth of the economy through the execution of vigorous, fair, and high-quality audits based on clear leadership and creative teamwork.
+        EY - Also EnY - couple of rounds cleared.
+            Quality in Everything We Do
+            provide help build trust and confidence in the capital markets and in economies the world over.
+        Huawei - Huawei is best known as one of the world's top three smartphone makers. But Huawei is firstly a world leader in telecommunications - its industry-leading equipment, connecting developed and developing countries, is present in 170 countries.
+            Building a Fully Connected, Intelligent World
+            Mission - technology, applications, and skills
+        Samsung - Rank 12 to now 19.
+            Electronics Industry rank 1. Ranks among toppers for many aspects as per fortune magazine.
+            Tagline, Slogan, Motto - Inspire the World, Create the Future; Do What You Can't.
+            Values - people, excellence, change, integrity, and co-prosperity
+            Vision Statement - Inspire the world with our innovative technologies, products and design that enrich people's lives and contribute to social prosperity by creating a new future.
+            Mission Statement - We will devote our human resources and technology to create superior products and services, thereby contributing to a better global society.
+        Amazon - Work Hard. Have Fun. Make History
+            From A to Z is more famous.
+            Mission statement - We strive to offer our customers the lowest possible prices, the best available selection, and the utmost convenience.
+        CBA - Commonwealth bank of australia
+            The big four bank
+            Can Lives Here.
+        Paytm - Pay through Mobile; Paytm karo.
+Logs - Story - Yol cantt - foolishness of anger against family for slapping me for playing with kerosene.
+    ran away to make them realize their mistake - and lost - realized my mistake to retrace.
+    It could go terribly wrong but we found each other - slap was a welcome relief this time.
+SCMProd - Grilled Chat masala bread, Grilled paneer masala sandwich, Griller paneer bhurji sandwich.
+SCMLogistics - Smart TV, Smart Washing machine, etc.

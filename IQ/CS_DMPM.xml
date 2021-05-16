@@ -642,21 +642,21 @@
 								}
 					iterative
 						while, etc usual
-						for(variable <- list){}
-							for( a <- 1 to 10 )
-							for( a <- 1 until 10 )
-							for( a <- 1 to 10 if a%2==0 ){
+						for(variable - list){}
+							for( a - 1 to 10 )
+							for( a - 1 until 10 )
+							for( a - 1 to 10 if a%2==0 ){
 								 println(a);
 							}
-							var result = for( a <- 1 to 10) yield a
-							for(i<-result){
+							var result = for( a - 1 to 10) yield a
+							for(i-result){
 								println(i)
 							}
 							var list = List(1,2,3,4,5,6,7,8,9)          // Creating a list
-							for( i <- list){                         // Iterating the list
+							for( i - list){                         // Iterating the list
 								println(i)
 							}
-							for(i<-1 to 10 by 2)
+							for(i-1 to 10 by 2)
 						foreach - list.foreach(function)
 							list.foreach{
 								println
@@ -714,7 +714,7 @@
 						Variable length parameter functions
 							def add(args: Int*) = {
 								var sum = 0;
-								for(a <- args) sum+=a
+								for(a - args) sum+=a
 								sum
 							}
 							var sum = add(1,2,3,4,5,6,7,8,9);
@@ -902,8 +902,8 @@
 							var arr1 = Array(Array(1,2,3,4,5), Array(6,7,8,9,10))   // Creating multidimensional array
 							var arr2 = Array(Array(1,2,3,4,5), Array(6,7,8,9,10))
 							var arr3 = Array.ofDim[Int](2,5)
-							for(i<- 0 to 1){               // Traversing elements using loop
-							   for(j<- 0 to 4){
+							for(i- 0 to 1){               // Traversing elements using loop
+							   for(j- 0 to 4){
 									arr3(i)(j) = arr1(i)(j)+arr2(i)(j)
 									print(" "+arr3(i)(j))
 								}
@@ -1022,7 +1022,7 @@
 						Line wise reading
 							val filename = "ScalaFile.txt"
 							val fileSource = Source.fromFile(filename)
-							for(line<-fileSource.getLines){
+							for(line - fileSource.getLines){
 								println(line)
 							}
 							fileSource.close()
@@ -1077,7 +1077,73 @@
                         ADT - Imp DT and Data Structures - String, Array, Stream.
                             Collections
                         Functional - From JAVA 8
-                            Lambda, callbacks, etc.
+							Concept - Lambda is Interface implementation with 1 method.
+								Greeting innerClassGreeting = new Greeting() {
+									public void perform() {
+										System.out.print("Hello world!");
+									}
+								};
+								greeter.greet(() -> System.out.print("Hello world!"));
+								greeter.greet(innerClassGreeting);
+							new Thread(() -> System.out.println("Printed inside Lambda Runnable")).run();
+							Collections.sort(people, (p1, p2) -> p1.getLastName().compareTo(p2.getLastName()));
+							printConditionally(people, p -> p.getLastName().startsWith("C"));
+								Internally -
+								printConditionally() {
+									for (Person p : people) {
+										if (condition.test(p)) {
+											System.out.println(p);
+										}
+									}
+								}
+							Some famous lambdas
+								Biconsumer, consumer - function used as parameter which inputs 1 or 2 args and returns nothing.
+								Producer - function used as param which consumes no argument and returns something.
+								Predicate - function param which consumes 1 arg and return boolean.
+								Eg -
+								performConditionally(people, p -> p.getLastName().startsWith("C"), p -> System.out.println(p));
+								private static void performConditionally(List(Person) people, Predicate(Person) predicate, Consumer(Person) consumer) {
+									for (Person p : people) {
+										if (predicate.test(p)) {
+											consumer.accept(p);
+										}
+									}
+								}
+							Exception handling - use a wrapper lambda.
+								Eg -
+								process(someNumbers, key, wrapperLambda((v, k) -> System.out.println(v / k)));
+								private static BiConsumer(Integer, Integer) wrapperLambda(BiConsumer(Integer, Integer) consumer) {
+									return (v, k) ->  {
+										try {
+											consumer.accept(v, k);
+										}
+										catch (ArithmeticException e) {
+											System.out.println("Exception caught in wrapper lambda");
+										}
+
+									};
+								}
+								process(int[] someNumbers, int key, BiConsumer(Integer, Integer) consumer) {
+									for (int i : someNumbers) {
+										consumer.accept(i, key);
+									}
+								}
+							Method Reference - same as lambda picked from some class method.
+								Eg -
+									Thread t = new Thread(MethodReferenceExample1::printMessage);
+									printMessage() {
+										System.out.println("Hello");
+									}
+								Eg
+									performConditionally(people, p -> true, System.out::println);
+									performConditionally(List(Person) people, Predicate(Person) predicate, Consumer(Person) consumer)
+							streams
+								people.stream()
+									.filter(p -> p.getLastName().startsWith("C"))
+									.forEach(p -> System.out.println(p.getFirstName()));
+								long count = people.parallelStream()
+									.filter(p -> p.getLastName().startsWith("D"))
+									.count();
                         Misc
                             Important Keywords
                             vs CPP
@@ -1236,6 +1302,34 @@
                         ...
                 </Python>
             </PL>
+			<DSA>
+			CS - DSA Approach to problem solving for any puzzle
+				Data structures - Organize your data properly to solve with great performance (least effort) and ease.
+					Lang bare Capabilities - Arrays, pointers
+						Exploring possibilities of combinations and self references.
+					Data Structures - ability to reduce problems to data structures.
+						Sets, Lists
+						Maps, Trees, Graphs, etc.
+					Standardizations - ADT, Collections
+						Comparisons, operations and Time complexities.
+				Algos - Approach taken to solve abstract problem, thus all instances thereof.
+					Mantra - Mixture of following
+					Housekeeping - keeping track of details while solving.
+					Logic
+						Take an approach case and prove that wrong.
+						Go exhaustive with PnC and reason which is the best.
+					Induction
+						linear scale
+						Geometric scale - DnC
+					Backtracking - final solution tryst.
+						Brute force - try every candidate solution.
+						Greedy - Inductive approach of scaling with best now is best always.
+						BnB - Pruning.
+						Dynamic Programming - Memoization.
+					More
+						Linear Programming, Approximation algorithms, etc.
+
+			</DSA>
         </Development>
         <Deployment>
             <GIT_VIM_SHELL></GIT_VIM_SHELL>
