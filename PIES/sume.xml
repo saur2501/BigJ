@@ -897,6 +897,7 @@
                     Security Handling through Version Management
 						Contributions
 							Updating the dependency versions in order to take care of the identified vulnerabilities.
+								Security team identifies version vulnerability with reasons - we appreciate and adapt to it.
 							Dependency tree exclusion of transitive dependencies.
 						viz - Version updates for security, master parent pom, library adoption etc
 						Tools - MAVEN, GIT

@@ -335,7 +335,7 @@ Movie - Blue Valentine
 	support each other is good or worse - this is my worse plz tell me what to do.
 Movie - Mahabharat, Ramayan, Chanakya. Vartman.
 Movie - Silicon valley, The social network, Black Mirror
-Movie yet to watch - The social dilemma, Mr Robot, The IT Crowd, The Great Hack
+Movie yet to watch - Mr Robot, The IT Crowd, The Great Hack
 Movie NFP - Animal Instinct. survival island. cat skin. Country wise.
 Movie - Simmba, Scam1992.
 Movie - Laddakh warriors
@@ -17988,8 +17988,32 @@ Sume - SRIB - Network team
 Sume - Driving Story. Career Story. Cooking Story. Etc.
 Sume - Amazon - Good Algorithmic questions
 	Find all substrings of given length that have exactly 1 character repeating and all others are unique.
-	Partition a character sequence into partitions s.t a shot in a scene should not appear in the latter part. All shots for a scene are contiguous but to be identified. Eg abca - so 4 shots in 1 scene - abcab - 5 shots, abcabdefe - 5,4 shots
-	used hash table for both of the problems. Could have thought of a better approach so a need was triggered for good algorithmic thinking.
+	    Used hash table.
+	Partition a character sequence into partitions s.t a shot in a scene should not appear in the latter part.
+	    Explanation
+            All shots for a scene are contiguous but to be identified.
+            Eg - abca - so 4 shots in 1 scene - abcab - 5 shots in 1 scene, abcabdefe - 5,4 shots in 2 scenes with partitions - abcab and defe.
+        Solution
+            used hash table again - but about 50% cases failed - that could be cuz of huge data size or logical bug cuz of not understanding it properly.
+            Better approach - More of a housekeeping with right data structures.
+                Inputs - A list to keep track of listed characters, partitionList table to list all candidate partitions.
+                Algorithm - for every character at index k,
+                    does it exist in the the listedCharacterList?
+                    if not, then make a new entry in partitionList table from k to k.
+                    if yes, at what index did it last appear? foundIndex
+                        move backwards as long as beginIndex of partitionList table is greater than foundIndex.
+                        for entry where it breaks, replace the end index to k.
+                Analysis -
+                    what I did was more of a logical bug of not understanding data or problem as far as I can remember.
+                    Better approach
+                        Could have thought of a better approach so a need was triggered for good algorithmic thinking.
+                            yes, but for every problem that can be solved using elegant DSA there exists a bad performing DSA as well.
+                            It is good to have a performant DS but not must. Make a list of DS with standardization of when to use.
+                        Actually this thinking was precisely why it didn't work
+                            instead of using housekeeping, I relied on some unknown DS to solve it best.
+                            Even that unknown DS will do it using housekeeping only.
+                            Always try thinking a problem in terms of what you know and not what you don't.
+                    They said they didn't have score - this means that either some compulsive tab change or network issue could have rendered the session invalid.
 	Amazon Questionnaire - scale on 1 to 5 - strongly disagree to strongly agree.
 		I am not comfortable working with tight deadlines.
 		I can work well under pressure.

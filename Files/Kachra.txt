@@ -1348,8 +1348,451 @@ IQ - All Motto for KY.
             The big four bank
             Can Lives Here.
         Paytm - Pay through Mobile; Paytm karo.
+Sume - Paytm R2
+    Detail your work and your contribution in there.
+    Sum of 1s in any numbers binary representation and execution trace for a sample inputs.
+    Explain Spark Mechanism, EMR cluster.
+    You have clicks details detailed in parquet file by ETL, what would you do to make it useful for OLTP.
+        Store it in HDFS - some spark cluster or online service like EMR or so - then spawn spark job using a set of nodes, and store the results in some RDBMS.
+        Can use messaging like kafka queues or nosql but data not that much so RDBMS should be fine which OLTP can consume.
+        Mapper and reducer is abstracted out to us.
+    How do you trace the hardware resources - YARN does it but we can kill jobs from UI Proxy given to us by SJS team.
 Logs - Story - Yol cantt - foolishness of anger against family for slapping me for playing with kerosene.
     ran away to make them realize their mistake - and lost - realized my mistake to retrace.
     It could go terribly wrong but we found each other - slap was a welcome relief this time.
 SCMProd - Grilled Chat masala bread, Grilled paneer masala sandwich, Griller paneer bhurji sandwich.
-SCMLogistics - Smart TV, Smart Washing machine, etc.
+SCMLogistics - Smart TV, Smart Washing machine, Smart phones, Smart laptops - touchscreen, Macbook pro with suggestions, etc.
+Movie - Uri, RAW (Romeo Akbar Walter), Ghazi, Border, Lakshya.
+Movie - Wazir, Rustom, Airlift, Special 26, Kesari, Jolly LLB, Pink, Dangal, No1 killed Jessica, Murder, Killer, Gangster.
+Movie - SRK Movies, Sarfarosh, Sultan, Queen, Andhadhun, GoW, Kahani, NH10, Dear Zindagi, Zindagi milegi na dubara.
+Movie - Secret Superstar, pk, Sanju, 3 idiots, Fukrey, Fukrey returns, ajab prem ki, taare zamin par, lagaan, devdas, Bajirao Mastani, Padmavat.
+Movie - Wednesday, English/ Hindi Medium, Lunchbox, Chak de India, Svades, Hera pheri, Phir hera pheri, Bhool Bhulaiyan, Dilwale Dulhania Le Jayenge,
+Movie - KKHH, KKKG, Drishyam, Udta Punjab, Vicky Donor, English Vinglish, Gully Boy, Badhai Ho, Girlfriend, Kya Kehna, Main hoon na, Mohabbatein.
+Movie - Gadar, Dhoom series, Black Friday, Tere Naam, Billu Barber, Guru, Sarkar, Kyon Ki, rab ne banaa di jodi, KNPH
+Movie - Bhagam Bhag, Coolie no 1, Andaaz apna apna, Biwi No 1, Damini, Dulhe Raja, Attacks of 26/11. Welcome series, Golmaal series.
+Movie - Bluffmaster, Taxi 9211, Krantiveer, Agnipath, Don, Bombay to Goa, Sholay, Dosti, Kabuliwala, haathi mere saathi, Anand, Bawarchi.
+Movie - Pyaar ka Punchnama, Love aajkal, etc.
+CS - Decisions for likes - persistent liking, short term liking repeated after stipulated period how to capture in just like, dislikes or upvotes, etc.
+    Decisions like remote the like credit after some time keeping your count so that you can like again.
+CS - logs for WYSIWYG debugging and tracing thru if they don't help. Historical events tracing is st enough for consulting level.
+SocialErp - Bank Account Inward Wire remittance - can also do via online.
+    This mail is sent by the bank end team - non-customer facing staff (MBA guys, IT guys, shares handling team, etc)
+    Money credit mail sent but money not yet received.
+SQ - Layers that we have to overcome - just an idea.
+    Ego aligned | false ego.
+    Intel - Knowledge, wisdom, ignorance.
+    Mind - MMN and anarthas attached.
+    senses - purified impure.
+SQ - Krishna like exposing different queries from people
+    showcases the some test cases failing while doing programming.
+    It is equivalent to need in us to grow in our spiritual understanding.
+    Thus, all discussions regarding spirituality should not be hated but welcomed. Of course not too much and not for fame like Gs rejected the debates in Vrindavan.
+SQ - RSP - JAPA Talks, SP's quotes on japa, Books.
+IQ - Decision of leaving
+    why?
+    How - the process - should I fire a mail to HR.
+Sume - Amazon - Test environment - Div vs span and then FizzBuzz question - number n, list all till n with FizzBuzz if divisible by none, 3, 5, both.
+PIES - signs of imbalanced societies.
+    Church centered power - when church started exploiting for power.
+    Monarchy / Dictatorship society - power lies with kshatriyas.
+    Capitalism - power lies with vaishyas.
+    Communism - power lies with sudras.
+    Vedic principle is avoid going extreme on any varna, rather mutual collaboration among all sections of society.
+        so has the power - rajrishi - but under guidance of scriptural moral advocated by Brahmins or experts
+            and feedback from tax payers. More tax from more earning is ok.
+            why does power exist with businessmen these days - cuz money is the central attraction - it's not about power but worldly enjoyments.
+    surprisingly religious people's main attraction went to power and not knowledge. why? They started misusing their position and also their dintinct prowess.
+        Kshatriyas became whimsical and power hunger and win lands and properly.
+        Vaishyas obviously gonna comply but suddenly what happened that now power is where the money is. We see characteristics of inventions, ease of living, science growing.
+        Church misuse eg of geocentric to heliocentric involved murdering. Poisoning of scientists.
+        perhaps monarchy ended cuz eventual rulers had lesser power and society in general also adapted to power cultivation.
+        Businesses can hire bouncers to keep himself safe and can create a parallel government.
+    Every time the power was misused and they diminished in their power.
+        The other section frustrated or dissatisfied with the former and still powerful and in knowledge now took control next.
+        Realization that kings are not godsent but humans like us and they have no speciality and they are troubling us so we better remove them - not just person from post but post itself.
+        In interest of greater good.
+EQ - Social Studies division.
+    Theology (Philosophy like science) - Brahmin.
+    Poltics and warfare - Kshatriyas.
+    Economics - Vaishyas.
+    Civics - Sudras.
+    Foundational - Psychology (subtle elements), Geography (other 5 elements included)
+    All of them have historical trace as well.
+PIES - people are so rascal that in twitter terminology they wanna consider themselves a celebs being followed by fans but when it's fandom of politician then bhakt they say.
+    Taking advantage of people's ignorance to allege central govt while e1 knows that it's a state level lapse - do they not know it - they do but cheap politics.
+Sume - Amazon
+    Code 1 - Branch and Bound Problem - D Dollars and baskets to pick from with every item in basket charging unique prices. A set of lists with prices. Amazon shopping cart recommendations as per your balance.
+        DP - n-dimensional - not possible cuz gonna pick exactly 1 item from every bucket.
+        gotta find number of combinations.
+        Perform BnB - backtracking failed many test cases.
+        So used BnB with stopping as soon as expenditure exceeds D dollars.
+    Code 2 - Kindle reading - subscriber can gift to another thus making a group - given adjacency matrix - find the number of partitioned groups.
+        DFS could be used but preferred something else.
+        Visited flag as false for all.
+        Start from 0 thru n 
+        set all nodes with connection as visited flag = true.
+        Count incremented only when visited flag = false.
+    Discuss approach and time complexity.
+    Lots of personality subjective MCQs.
+    Analytics -
+        Once again - solved both the problems. Debugging Code 1 took lots of time with many silly mistakes like sum not reset after every iteration.
+        2nd problem - logic looked good but didn't have time to debug using logs.
+        IDE usage is allowed for debugging and input code and input data is always at disposal so easier debugging using IDE is always possible which I didn't use.
+        Printing logs is always time consuming.
+Movie - The Social Dilemma
+    We pay money to sponsor some members of population to turn to anarthas and ruin their life.
+    becomes basse for ppl.
+    predict and sell more - manipulation also - making you buy sth.
+    positive intermittent reinformation - programming when refresh youtube.
+    bubble - ?we decide your attention
+    tagged so gotta see.
+    hack their psychology so as to get more hikes or trigger a behavior.
+    ?platform for world.
+    predict votes - using algos - every interaction is input for person natures.
+    prison experiment - black box and trigger neurons to stimulate response.
+    exploiting vulnerability in human psychology.
+    Bicycle was tool - waiting for you - but this seduces you and manipulates you, addicts you.
+    can't help but view it although child wants attention.
+    addicts - can't help but bring it back to bedroom.
+    evolution for different but dopamine is kicked.
+    can't do proper social talks.
+    dopamine deficit needs.
+    Not evolved to take inputs from 10K people for how to be - we conflate it with truth.
+    more vacant and empty. A person says those ugly ears and you feel silly but this was not proper in physical world - P2P. But this won't be so direct in Client and server.
+    Suicides rate increased. More anxious, depressed and fragile.
+    self worth coming from inputs. somebody would anyways give input in physical world but not that scale but only near and dear ones.
+    ?it is like to 10K ppl we make announcement like showing your face etc.
+    Lonely then digital atrophy with us.
+    learn how to live with them.
+    Imagine who will win - man who has not evolved much but computation grown exponentially.
+    algos optimized to some success - commercial interest. Put posts in right order.
+    AI Gives lots of control in systems hands and we ain't full controller anymore.
+    The feed may not be good for the person but is good for commercial success - theoretically what's the person wants but not practically.
+    Nor ever movies or commercials had good interest in mind but scale of tech has anyways been manipulating us but this is scaled up.
+    Business people - 
+    autocomplete shows different results form different locations - what's of interest.
+    why person is so different - they are no seeing the same information that you are seeing.
+    Polarization growing - rabbithole to your interest and you get more of it.
+        rabbithole to find earth is flat; covid is 5G result.
+        as per recommendations, people will end up acting being served in a certain direction
+    Twitter fake news is 6x.
+    system biases towards fake information - truth is boring.
+    water can kill corona or corona is hoax or cocaine is corona. Govt is using with fake infos.
+    Exponential gossip - don't know what's true.
+    Wanna come for dinner - hmmm.
+    FB - greatest thing ever created for persuasion.
+    FB Free basics in myanmar - propaganda in the hands of 1. Can give narrative with such ease.
+    Democracy crisis - FB given scale.
+    We listen to channels that say that we are right. No need to people to come together.
+    Problem is for tech to bring worse in society and thats the threat.
+    More distraction, voting hacking, etc.
+    not doom gloom - utopia but also dystopia. Tech for positivity in the world. Political polarization was not on our radar.
+    AI be consistent with our goals, etc. Internet from weird wacky thing to mall - it's more than that.
+    We build these things and have responsibility to change. Products be designed humanely.
+    Never use recommendation. Only search. do extra google. Want the algo criteria to change.
+    Don't use social media. Disagree with Everything. No social media till high school and 1 hr b4 sleep.
+PIES - Inspired from the social dilemma documentary.
+    ?as if tv does not manipulate. Addictive that is and so was radio.
+            so whether p2p or client server the same thing. That I suspected b4 that's not natural but can be made best - we grow up taking them for granted.
+        ?yes that's true it becomes part of our new world. Like laws of physics and laws of tech - DMPM.
+    ?Have problem with power in commoners than power in random dictators. etc.
+        ?Power in hands of people. Democrazy in that direction. Social media in that direction.
+        ?Just see how kali has grown along the lines of power moving to priests, to rulers, to business, to people.
+    Our economy whale is more valuable dead than alive, etc. Users interest > profits when it comes to functional features end goals.
+        ?Tree is more valuable dead than alive - our economy works in that way - it has always been the ones in power exploiting the planet and worse world for future generations.
+Sume - PayTM - Recruitment for PayTM mall
+    Introduction
+        Team Lead - worked with PayTM travel b4 and now Paytm mall - 8 yrs now.
+        Introduction - tell only the end results and not everything that was done (in the beginning)
+            Then which tech used and what was your role.
+            was this in java on spark - no, spark was also 1 of the systems put under test
+            M Tech 4th semester - chose internship. Skipped the part of before Masters cuz SE and not related to Bigdata.
+    Big data - what are you comfortable with.
+        What all I worked - hdfs, mapreduce, sql engines, kibana logs, ambari, etc.
+        Kafka not much then but using it now.
+        Kibana development sth - no, mainly a user.
+        Spark outperformed at that time - spark has improved a lot after that. Spark rose in comparison to hadoop.
+    Any recent project that you worked on and tell me its architecture.
+        Architectural details of any of these projects but current project is IOT on big data.
+        Details given IOT sensor data; spark reading from kafka; and enrichments and finally writing into S3.
+        Fetch data from different servers located differently and fetch data from there and create data frames.
+    PL of preference - expert in all - but familiar.
+    1 simple Coding questions - Count number of 1s in binary representation of any number.
+        Code walk thru and execution trace for the same.
+    Design a Recommendation engine for payTM Mall
+        Search shoes and get lots of shoes - catalog has 1 lakh jeans.
+            shown in some order - order is decided how?
+            Currently - CTR and CVR - Click Thru rate and Conversions.
+            Getting a call - sorry, dropped it. Will put it into silent mode. Done.
+            Impression - when 1 product is completely visible on your screen.
+                so 1 impression for a product.
+            Click on product is clicked.
+        DAU for paytm let's say 1M. 1 user can browse 100/200 products - more or less.
+            Millions of impressions generated - events like add to cart etc.
+            Every generated event is persisted in a flat file.
+            backend team wants a task - these params executed for all the products for ranking algorithms.
+            to be used for their ranking algorithm.
+        How would you go about - huge data in TB - used on daily basis file to find ranking.
+            what is I/O for you. Daily 500 GB data.
+            come with design - where store data, in 1 file, how will you manage this.
+            Please confirm that I am understanding it right - collection of all events but not aggregated yet.
+            For this user and product, I got 1 impression and 1 click, etc.
+            format of file - parquet or anything. Compressed file so lesser storage space.
+            Which all columns - these are low level things - we can check that later.
+            High level things - CSV with all details - captures all event interaction details
+                This file can be uploaded in HDFS - spark system then store it there.
+                In S3 format that can consume it. Spark should just have access to S3.
+                Spark cluster with spark job written and retrieve contents as data frame
+                manipulations on the data frame - outputs stored in some place which backend team can pick from.
+                Which place - I am expecting those details as well - RDBMS, kafka or nosql not reqd cuz not reqd - even file that user has access to.
+                Microservices in backend will make it complicated so won't use it.
+                Which data store? aggregated data won't be that huge - 1000s of products only. CTR and CVR for 1 product.
+                Any RDBMS can be used if centralized. If distributed then problem of trade off - CAP theorem.
+        Impression - the first view of all candidates that you see.
+        Click of interest - Any selection that you make.
+        CTR - Click thru rate = click of interest / Impression.
+            Number of times it is clicked divided by number of times it is seen.
+            More CTR and CVR should be shown on top.
+        Conversion = Added to cart / Interest - Higher then show on top.
+        Collected from user (DAU - Daily Active User)
+        1 M impressions.
+        File created after ETL over every user event or interaction recorded in a file.
+        Aggregate all these details for future decisions criteria.
+        Size GB or even TB. File in the back end.
+        Use spark on EMR or so - which cluster configuration.
+        Storage from S3 and Read it from the file parquet file and process it across nodes.
+        Then write the results to some RDBMS being less in volume.
+    How spark works
+        Job into tasks over different executors - results are reduced from mappers.
+        ouput is delivered to user or persisted somewhere.
+        spark abstracts away all these details from us.
+        Infra where you will run this job - scale is high 
+            using publically available Managed Services - EC2 manual, EMR (Elastic Mapreduce)
+            Private cloud will also do - otherwise, we can run on private cloud or databricks.
+            Even local machine also but too small a scale.
+    EMR Configurations
+        Master and slave configs. How many and which job should go where.
+        YARN abstracts away that details.
+        Give these details to DevOps team - to procure an EMR cluster.
+        How many jobs will be running on these clusters.
+        We use SAP cloud with facade to hide details - the details of cloud used underneath is hidden.
+        UI Proxy - tells which executors are there at disposal, config, which jobs currently running, any logs associated.
+            Historical jobs.
+            Not hadoop UI but spark UI.
+            If we have to get alert when job has to end.
+            Used anything for alert notificationsn or spooling spark jobs.
+            How will your spark let you know that sth has failed - service logs or notifications or alerts
+            imbed that in code itself like slack channel, email or so.
+        We use SJS to talk to Spark - enough APIs and not command line.
+    n jobs on EMR - all resources exhausted.
+        single job not on wait; eth running.
+        How resource allocation happens
+        Managed services will take care for us - then how to manage?
+        YARN and other Resource negotiators used but at my end - kill a job, not a solution.
+    Spark which langauage - Scala at present, python at personal purposes.
+    ML - any project there?
+        Course in coursera - I had many case studies.
+        Decision tree algo at Siemens.
+        Previous project - deployed models consumed and additional activities like data cleaning and evaluations. Helped perform those.
+        Model making - decision tree when in Siemens.
+        SparkML I have not used - casual look at APIs - along the lines of pandas and scikit learn only.
+        no personal hands on experience there.
+    Any Questions?
+        Lots of experience as well
+        What a day looks like and what to expect in BDE role.
+        Culture of paytm.
+            work culture isn't great but not bad as well - just ok.
+            Depends on manager at times - but I never faced any problems.
+            I read on internet so was skeptical about it - but on joining paytm it's ok.
+            No more a startup but still startup culture to expect.
+            On paper - 9:30 to 6:30 - not mandatory - just maintain some overlap time.
+            Freedom for any language, technology to work on.
+            New service getting implemented - I will write microservice using language which never used but should be able to justify its usage.
+            There are people to help you guys always - and you anyways have experience.
+            payTM travel - not huge data and no data engineering required - only backend engineering.
+            paytm mall - then person in commerce - there we started using spark; not more than a year in spark.
+            we learn on our own and started - there are people who are very thorough.
+            Lots of opportunity to learn and write everyday.
+            WFH - whenever start or end the day but get work done.
+            standups that keep on happening - give status and get back to work.
+            Daily activities change accordingly.
+            My time mostly in meeting - st reporting as well.
+            Lots of team here and lots to do. Interact with them and understand their thing and help in coding.
+            Get involved with design things as well.
+        What deliverables look like
+            Recommendation engine was one of the deliverable.
+            There can other changes inside it.
+            Here usually not lot of bifurcation data engr and backend engr - data coming in.
+            UI generates data - write data - another team makes parquet outta that.
+            processing data points depends on us only.
+            Search also - my team is involved.
+            Popularity of any product. Those who viewed this product - also bought this product.
+            What's recommended product for you.
+            Lots of other things - older services - older spark version to newer version, etc.
+            Using Dockers from now on.
+            Mix of everything.
+            Suggestion to reduce the number of pages in resume - nobody can read that much.
+IQ - Imran Suggestions
+    Be honest - don't pick a tech cuz you know but cuz that's the best and be open to discussions and try to make truth win.
+    Suggestion - better to work somewhere for some time and then venture.
+    I personally don't restrict myself to specific technologies but those who do can specialize.
+    If not depth, at least in width know a tech.
+CS - Functional languages don't have side effects. That's why map and reduce complain. But foreach doesn't cuz that's the only permission for sideeffects.
+PIES
+    In SVAF, we keep on increasing 2 things - seva and bhog.
+    That's the only vision - seva quality weighs more than seva quantity.
+    Something that you only you could do it - is far valuable.
+    Seva is most rewarding when it is serves uniquely in quality or in great quantity - whether directly or transitively.
+    It's better to hit the nail in one place for best results unless economics demand changes or I figure that my service in some other role is better.
+SQ
+    Science stems from pratyaksh and anumaan pramaan - even shabda is only input for these and not the highest value.
+        In social study, science is specialization of theology or philosophy.
+    Academic standardizations over science has done wonders and engg or applied science monetized thru business has changed the face of earth.
+    Basics or foundations of epistemology
+        Pratyaksha and anumana - is logical pursuit (Effect to cause mostly and vv) and seeing is believing.
+            this step is done by almost everybody - even telling he must out of the town cuz whatever, etc.
+        Shabda harnessed is nothing but standardizations and passing on the knowledge in a systematic and organized way - society favoring the movement.
+    Master - 
+        Aaroh
+            About - 
+                Make an invisible world or model to explain away everything that goes on.
+                models become more elegant and predictable with maths.
+            Raw life - simply standardizing stucturing and organizing our raw life is itself a powerful thing to do.
+                how people tend to behave with a given situation. But why would he behave differently.
+                Language and worldly Logic play very important role here.
+            Science - models or explanations for nature - micro, macro, the corresponding view of life.
+            Social studies - Psychology as foundation when applies to prominent varnas and studying along with standardizations of effects.
+            Spirituality - 
+                This is also done thru travel and explorations - seeing different traditions
+                    studying different books, studying one's life and other's life.
+                Exploring the essence of life thru systematic study of life journey and its bigger picture.
+                This realization can also be scientific and social in nature.
+                Than just assuming that here we are and here is current of population and you also pick a goal and run.
+            Others - 
+                purely logical debates or discussions, etc. 
+                    Anything useful? Yes, people discuss for 1 hr and realize that they know more than before.
+                    Discussion and share different values and beliefs and thru logical discussions, we can arrive at something that both parties can agree on.
+                    This is also used by earlier disciplines. It's not science but a great input for science - peer reviews.
+                Independent meditations. Anything useful ever came here?
+        Avaroh
+            About - Read and realize - see it happen after reading it.
+                this can apply to healthy body, happy mind, and holy soul.
+                But mostly religions or traditions are seen to pertain to only spiritual dimension.
+            Study all scriptures - especially ones you invest deep into.
+                Discussions over sciptures and mixed with subservient logic also.
+            Guided Meditations
+            Devotion
+            More -
+                what about applied Avaroh - yes, it is not just something to study but also has a practical.
+                    mostly deals with alignment; also applications - manipulate yourself, environment, people or nature to suit your ends.
+        More - These 2 paths can, should and also do merge but their priorities still remain the same.
+            Personally, I am very well trained in both the discplines and I see them as merging.
+            Life is best lived when preferably in harmony or alignment with scriptures.
+            But if studies (science or social) back it then great.
+            If studies don't back it and is neutral - then take it with grain of salt.
+            Studies present hypotheses which are not thorough - then we can keep these in unsure bucket but do whatever resonates.
+            If studies vehemently oppose it - it is better to avoid or get into the study for its validness and ensure 4 defects are not the cause.
+HomeErp - Lapse - AC set on fan mode and it was not cold even after 3 hrs and was being corrected by others.
+PIES - As architect - What
+    why - need of it in bigger picture.
+        when - precisely enumerate when and not generic whenever.
+    what all
+        why all and when all.
+        how all
+    how
+    Programming or ground work is trivial for an architect. 
+        why cuz all the challenges faced should not show up at all as
+            you know their essence.
+            you know the building blocks to debug if sth does not work both as black box or white box.
+            This means convenient and stable life at varna and focus can go to other components as well.
+        This means that you have more time for discussions, decisions and pivotal problem solving.
+PIES - IQ - What and why - seva and bhog how to maximize the both.
+    being the best in bhog and seva - no, best in yog.
+    for bhog and seva - if I am in top 5% of normal distribution - that would be great.
+    Best in bhog and seva just means at individual arch level (30s) not preaching or idolizing level (40s leader)
+    Bhog - man, how much the guy enjoys or has fun. Man, how much the guy serves or contributes.
+Sume - Paytm - Round 3 - Managerial but all technical discussion.
+    2 kafka topics with 7 day retention and want to get data of 30 days to query.
+        take data bring into data frames of spark and create inner join and persist anywhere.
+        Keep rolling or scheduled jobs which keep on getting - data as data frames and write into some parquet, csv or postgres.
+        What if I have to maintain number of transactions per month for the user - then do subtraction from last 30 days and add to latest day.
+        Better still maintain yet another data frame or data structure or persistence for the user's every day details and update it on new job run.
+    Have worked with EC2 and EMR then ok.
+        Most of my work on AWS is abstracted.
+    Ever done ML deployment and consumption.
+        Yes, for siemens decision tree and evaluation and cleaning for SAP.
+        What exactly - vba scripts, R.
+    Python confident - I can pick up - decent experience in personal level - used for opencv.
+    Why us? Paytm has good name, reputation in the market. Techs of interest in analytics.
+    QA - work culture, role involves, different features recently developed.
+        In any culture - flipkart, amazon (most colleagues from there), agile, etc.
+            Flexible, ownership driver, open and reachable.
+            Flexible work timing. Startup culture - pretty much startup.
+            Big orgs and they paytm mall, bank, recharges, insurance - all are startups in themselves.
+            Startups - everyday surviving not there - plans in place - getting work done - reach out to e1.
+                using techs reach out to e1. Next 1 year plan in place.
+        Role - Data Engineer role - Work along engr team to build pipelines.
+            Data function and data science - working closely with my team.
+            I lead data function role here.
+            This role will work closely with my team also - helping me build data pipelines.
+            working closely to deploy various ML projects.
+            And scale it up - we work at normal scale. So millions of users doing transactions.
+            Velocity and vastness of data is huge. Used spark extensively. Other techs also.
+        Features - Paytm recently vaccine finder - go there find a slot and notification when vaccine is available.
+        Interdependent or indpendent in nature?
+            Depends on project you are working.
+            working with development then alone.
+            Massive integrations with UI and payments, etc then reach out to wallets.
+            But that’s rare.
+CS - Testing - Mockito - must do in conjunction with junit and jacoco.
+    Used powerMock cuz had to mock static method also.
+        For class
+            @RunWith(PowerMockRunner.class) //using it
+            @PrepareForTest(Utils.class)    //class with static method
+        For members
+            @Mock and @InjectMock into class to be tested.
+        @Before setup
+            make spies for introducing your dummy mocking classes to enter inside.
+            when(cache.getQueue()).thenReturn(spy);
+            when(conf.getAppPrefix()).thenReturn("app");
+            mockStatic(Utils.class);
+            when(Utils.getRedisKey("appPrefix")).thenReturn("resultKey");
+            doNothing().when(dao).updateItems(isA(List.class), isA(String.class));
+                all args are matcher or none.
+        Trigger with test
+            For void methods test the exceptions and all.
+            If mock, then ensure that the methods used in future will also have something to return else we get null or nullpointer exception.
+IQ - Whenever stuck with some syntax - try to search for someone who must have already done it successfully in the repo or neighborhood.
+Sume - HomeErp - Gardening. Cloth washing.
+Movie - The Great Hack.
+Polity
+    Syami - doing it and saying that aapko sahi lag raha hai na.
+        How he appeased papa - not imposing your plans on others but give inception of an idea in them.
+        maan rakh lo dusre ka. This is my suggestion.
+    Mama
+        Vice Principal - messed with mama and did it.
+            Madam you should not take weighing machine to home - it is not meant for that.
+            Late evening Madam I didn't like it - cuz it's my duty as discipline incharge.
+            Never make enemies - formal gossip against her - don't mess with genuine smarts.
+            Madam what is this teacher! - what happened - that's what happend and she said that she would deal with principal. She knows how to handle.
+            Principal's attitude and looks changed.
+        Tuck shop handling - see how he has served me tea.
+            Madam that was my limitation - tell him the upcoming problems and the solution - see them comply. 
+            FND behavior tactic.
+        M N singh strategy - Sir immediate payments for duty - so I am fetching paneer for them.
+            eliciting behavior from others to act in certain ways in terms of how you act.
+        Flower plucker proper response.
+            attitude that you should not mind for temple since they are so many
+            what about our temple usage with these flowers.
+            don't gimme all these reasons - if you want them then sow in your own garden. Stop these reasons.
+CS
+    When using matchers - either use all isA or all any() but don't mix them - don't ignore varargs in the signature.
+    St gotta change private static final field, gotta use JAVA reflections API.
+        Field field = ClassName.class.getDeclaredField("fieldName");
+        field.setAccessible(true);
+        Field modifiersField = Field.class.getDeclaredField("modifiers");
+        modifiersField.setAccessible(true);
+        modifiersField.setInt(field, field.getModifiers() & ~Modifier.FINAL);
+        field.set(null, newFieldObjectValue);
+    when(restTemplate.exchange(Matchers.any(String.class), Matchers.any(HttpMethod.class), Matchers.<org.springframework.http.HttpEntity<?>>any(), Matchers.<Class<String>>any())).thenReturn(responseEntitySpy);
+        Secret - Someone else must have implemented it here or in some other repo.

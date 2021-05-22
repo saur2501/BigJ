@@ -89,6 +89,246 @@
             productivity loss
         </Scrum>
         <Design>
+			<SystemDesign>
+			System Design - Ref Gaurav Sen
+				Basic - Scaling to cloud providers - hardware taken care of by them for us with security, resilience taken care of.
+					Server is one who serves requests.
+					Nice algorithm I like your code - I will pay you for using it for a month.
+					Really happy with your algo that takes an image and returns the image with moustache detected with red rectangle.
+					Now he publicizes you and you get lots of requests thrown at your server - you gotta scale.
+				Horizontal Scaling vs Vertical
+					Load balancing required, resilience vs single point of failure, Network calls (RPC) vs IPC,
+					Data consistency, scales well with users.
+				Pizza parlour growing.
+					1 chef analogy
+					work harder - optimize processes and increase throughput using the same resources.
+						Vertical scaling
+					Prepare before hand at non-peak hours. when it's less.
+						Preprocessing and cron jobs (background)
+					Resilient - 1 chef is single Point of failure - backup chefs.
+						master slave architecture.
+					Hire more resources
+						horizontal scaling.
+					Specialized chef - can still distribute randomly but also as per their specialization.
+						even a team of specialized. Dividing responsibilities.
+						Microservices architecture.
+					Back up of not just basket but shop - fault tolerant for say electricity gone then no business there.
+						Distribution System (partitioning)
+					Balance Requests among them.
+						Know the Different time metrics for every partition
+						Assign a request for quickest response to user.
+					Flexible to change.
+						Delivery agent should deliver as soon as possible.
+						decoupling - separation of concerns - efficient handling when separate.
+					Logging everything - delivery agent's bike maybe wrong, cook as bad oven - track their times thru logs.
+						Metrics Calculation - Analytics, Auditing, Reporting, Machine Learning.
+					Extensible - It is pizza today and burger tomorrow - delivery agent should be unaffected.
+					HLD vs LLD - Deploying servers, talking or interacting between them.
+						LLD - how you gonna code. Classes, objects, signatures.
+				Load Balancing
+					Lots of money with huge requests coming - so have many servers then who should get requests.
+					Balance the load thru load balancer.
+					How? Request id, hash it, modulo n servers - go to that server.
+						ideally load factor would be X/n for X requests.
+					More servers as we scale more.
+						using same hash and modulo with n+1 will result in most movements.
+						What's the big deal - practically speaking request id ain't random.
+						Better use user id instead of request id - now users gone to different servers.
+						overall change should be minimum so consistent hashing.
+				Consistent Hashing
+					same as before but now the module result doesn't point to server but a point in a ring that ceils or quantizes to next server.
+					So servers mapped to points on the ring.
+					requests as any random point on the plane.
+					but random add is minimum change but not uniform distribution.
+					Next approach is to take nested hashing - using hashing again.
+				Message Queue and Where to use
+					Pizza shop order placed and response is confirmation not pizza.
+					The order is placed in a queue and made 1 by 1 from that queue.
+					Afterwards pay and get pizza after it's made.
+					Asynchronous - engage your resources elsewhere rather than in queue - go check your mails or sit somewhere.
+					Successful then chain is made - Pizza shop set - PS1, PS2, etc.
+					Power goes down then redirect to other PS-k but we need persistence for orders
+					Notifier to check if server is alive - dead if no response heartbeat.
+						If no response, orders which are not done redistributed.
+						what if duplicates? if all orders are redistributed.
+							what is if heartbeat not sent by chance.
+						Of course, do that for only failed orders not others.
+						Assigning managed by task queue.
+					Eg - Rabbit MQ, Zero MQ, JMS, ?Kafka
+				Monolith vs Microservice - advantages.
+					Monolith - 1 huge system machine running entire system.
+						there could be multiple machines and even DBs that can scale.
+						Benefits - Good for small team - no time to break it up.
+							cohesive team - less complex - no need to maintain multiple servers.
+							code for setting tests and env - less duplication.
+							No RPC so faster.
+						Disadvantages
+							More context required - gotta know it all b4 new developer can make.
+							Frequent deployments - any touch then eth needs to change.
+							Single point of failure - gotta restart eth and not just what failed.
+					Microservice - 1 small system function on different machines interacting.
+						single business unit - all data functions in 1 unit.
+						3 MS in entire architecture is possible.
+						Talk to dedicated service.
+						Clients talk to gateway and gateways talk to MS.
+						Eg - thru Gateway to Profiles, analytics or chat.
+						Advantages
+							Easy to scale
+							Easier for new team members - lesser context.
+							Working in parallel so develop parallelly - tight coupling of code and developer time.
+							Easier to reason - only targetted MS to be scaled.
+						Disadvantages
+							Not easy to design - you may end up creating smaller granules than required.
+								If S1 talks to S2, they should have been in same box.
+								Needs skilled architects.
+						Extensively used in biggies - Google, fb, etc.
+				Database sharding
+					Fun bit
+						How to query DB - optimize query - lots of data so that's old school.
+						indexing on table.
+						Nosql - no we gonna use RDBMS - we gonna use sharding.
+					Think of distributing as pizza slice divided into 8 - every request is point on circle and that's under 1 pizza slice.
+						Partitioning the pizza - we can't finish ourselves
+						Using key to partition is horizontal partitioning.
+						Vertical partitioning in column based.
+						Partitioning is dividing the data so that every server gets one chunk.
+						We are talking DB servers here instead of application servers which are stateless or platform servers.
+						Expectation - Consistency and Availability - Consistent trumps availability most of the times.
+						Search in shard then faster results.
+					problems
+						JOINS - talk across network.
+						It's not flexible - once sharded then once and for all.
+							Memcached but still practically assume, fixed number of shards.
+							Hierarchical or nested sharding - so taken care of.
+						Indexing - given range of age for eg for faster results.
+							If power failure then master slave.
+							n slaves - write request always on master and slaves poll and serve read requests.
+							If master fails then voting for new master among slaves.
+							Good tolerance to single point of failure
+						Practically the sharding is difficult to do cuz of consistency.
+							better to think of indexing and other mechanisms like nosql readymade b4 delving into sharding.
+				Netflix - solves legal and technical challenges.
+					Different formats - mp4, avi - codex compression formats.
+						High quality or not - good internet speed, details format, data loss is minimum and good quality.
+						Size of file not huge,
+						Reduce quality more then lossy compression and lesser space.
+					Different resolutions - on cellphone vs laptop vs Home theater, etc.
+					Tuples - Formats X Resolutions = number of video files to store.
+					A new converter to store every file in a standard format.
+						Better storage format comes - this process takes time.
+					Netflix does sth smart - break videos into chunks and every chunk will have F X R = V files.
+						so smaller task to deal with.
+						but problem actions scene and another API call to fetch next file chunk and lag then you are frustrated.
+						so not timestamps based chunks but scenes chunks.
+						4 seconds shots fine grained combined or collated to form scenes.
+						Sparse movies - then don't send all or lots of data but as much as asked.
+							OR similarly, predictively fetch the future parts also when asked for.
+						Where Netflix stores data? Amazon S3.
+					IP Addresing - Address register at ISP.
+						physical address somewhere - talks to computer.
+						Netflix server in USA then lots of time - so cache is somewhere.
+						Netflix applies this concept of IP Addressing to cache in ISP.
+						Assume video existing at ISP and easy access - reduce load on netflix servers and ISP.
+						Open Connect Boxes at ISP that 90% is taken care of there.
+						New content comes then Netflix can copy content to ISP's open connect boxes around 4 am or so when less traffic.
+				Tinder Architecture
+					Usecase Features - think as story line with questions but keep fluffy
+						Store Profiles
+							Images, how many - 5 per  users.
+						Recommend Matches
+							Number of active users.
+						Note Matches - 10^-3 for India.
+						Direct Messaging
+							gotta talk.
+					Go from front (user expectations) to back rather than directly ER or DB design.
+					How to store images - as file or blob.
+						DB - mutability, transaction guarantees, Indexes to improve search.
+							Mutability - We will ever change image? No.
+							Transaction - no atomic operation on image.
+							Indexing or search - Find entry quickly - never used for searching a row.
+							Access control - Same set thru file.
+						File storing
+							cheaper
+							faster -
+								select * nightmare.
+							Can have Content delivery Networks built on it to do faster
+							File URL in file distribution systems.
+						Blob not bad - if pushed too hard then go for it.
+					Request call for profile making and Profile service puts it in DB.
+						Update calls - authentication?
+						Send username, passwords.
+						OR use tokens, etc.
+						Every microservice will gotta have it so better gateway service.
+						Gets call and gets profile service response for valid or invalid.
+						No hard yes or no but images can be elsewhere with image service.
+							heavy computation and distributed File system and DB.
+							Profile, image id and file.
+					Messaging - 1 client to another client.
+						Protocol
+							HTTP is way of talking of 2 machines.
+								Client server - polling is bad for messaging but pushed to you.
+							SMTP - is also good but better still.
+							Peer to Peer Protocol - XMPP Protocol.
+						XMPP - uses web sockets in TCP.
+							connection ID for every user id.
+							sessions service for chats or messaging.
+							userId with connection.
+							Any cons to keep matches at client - no, server should be source of truth.
+								If client uninstalls then server should still have all the info.
+							Matcher service - user to user mapping.
+								Sessions will talk to matcher if that's valid to send a message.
+							So we gonna check with matcher and then use connections details to send details and record in sessions.
+							We not gonna track left or right - we can keep recommending again and again.
+					Recommendations -
+						Filter
+							filter criteria - age, gender, location.
+							index - one of the column is used for filtering.
+							To filter over more than one columns better use nosql db replica data in n places and efficient queries.
+							OR use amazon Dynamo. Same concepts on RDBMS - sharding and horizontal partitioning.
+							All people with names from A-J on shard 1. So, partitioning - so as per name go to that node.
+						Recommendations pulling people from profile every hour.
+							and store user id and location.
+					Failures of MS - have Master slave architectures.
+					Tinder was simpler cuz no news feed or group chat.
+				Whatsapp - Read receipts.
+					Features
+						Group Messaging
+						Flags - Sent, Delivered, Read Receipts
+						Online / Last seen.
+						Image Sharing
+						Chats are temporary or permanent.
+							more temporary than snapchats or MS apps.
+							Privacy and power with users.
+							If 2 clients uninstall app together, then reinstall the chats are lost forever.
+						One to one chat.
+					Assumptions - will have message queues, load balancing etc are abstractions while designing.
+					Gateways
+						So that lesser security mechanisms while inside the whatsapp MS.
+						A connects to Gateway - it has to know which gateway B is connected to.
+						Mapping user to gateway is expensive cuz maintaining TCP connection itself takes memory.
+						So sessions MS not on gateway
+							A.sendMessage(B, msg) - uses sessions table to use gateway and to user.
+							HTTP not ideal cuz only client to server request and only response other side.
+								Long polling - every 5 mins client asks.
+								Not real time so not ideal.
+							WSS - Web sockets - TCP based - P2P communications.
+								A to B and B to A.
+								Received flag, Sent receipt next.
+								got message communicated to Sessions and informed to A that sent.
+								Similarly Read flag - B reading informed to Sessions thru gateway and informed in turn to A.
+							Thrift used by facebook internally.
+					Timestamp usage table - shows online to other.
+						client sends when there is a user activity.
+					Group Messaging - decoupled from sessions service.
+						Group Service - route group id.
+						Group and user mapping.
+						Message to be sent - use message queues - it will be delivered eventually.
+						flags for group messaging is very expensive and many don't even have that.
+					Important issues - Retrial, Idempotency, Ordering.
+						Lots of happy diwali messages - don't drop messages; the feature can be ignored like flags for the messages - delivery is important than flag.
+						Better to perform ok than not perform at all.
+				(Chapter 10 done)
+			</SystemDesign>
             <DesignTools>
                 <IDE></IDE>
             </DesignTools>
@@ -1313,22 +1553,28 @@
 					Standardizations - ADT, Collections
 						Comparisons, operations and Time complexities.
 				Algos - Approach taken to solve abstract problem, thus all instances thereof.
-					Mantra - Mixture of following
+					Mantra - Mixture of the following
 					Housekeeping - keeping track of details while solving.
 					Logic
 						Take an approach case and prove that wrong.
 						Go exhaustive with PnC and reason which is the best.
 					Induction
-						linear scale
+						linear scale. Eg - reversing the linked list without any extra memory.
 						Geometric scale - DnC
 					Backtracking - final solution tryst.
 						Brute force - try every candidate solution.
 						Greedy - Inductive approach of scaling with best now is best always.
 						BnB - Pruning.
 						Dynamic Programming - Memoization.
+					Reduction - Reduction to existing problem
+						Piggyback - on an approach
+							like inversion pairs using merge sort, using quick sort, etc.
+							Remember approaches taken
+						Pipelines
+							Reduce a problem to solved problems like first sort and then work on the problem for faster access.
+						Higher layer abstraction - take solution for granted thru collections, modules, etc.
 					More
 						Linear Programming, Approximation algorithms, etc.
-
 			</DSA>
         </Development>
         <Deployment>
