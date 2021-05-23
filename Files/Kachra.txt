@@ -1796,3 +1796,64 @@ CS
         field.set(null, newFieldObjectValue);
     when(restTemplate.exchange(Matchers.any(String.class), Matchers.any(HttpMethod.class), Matchers.<org.springframework.http.HttpEntity<?>>any(), Matchers.<Class<String>>any())).thenReturn(responseEntitySpy);
         Secret - Someone else must have implemented it here or in some other repo.
+Movie - Avatar.
+    Waterworld, Ants.
+Sume - My colleagues in previous project - Sunil, Karthik, Venkatesh, Sunil B, Somya, Nirosha.
+Sume - Infy - nb. Sume - Siemens - Vikram, etc.
+PIES
+    FND lapse are not unique but recurring ones.
+    All layers ask how well doing - social what you give "Make business run better" - how you contribute to society and what you get - SRM at HomeErp.
+        HomeErp has 2 sides enjoy things and people (All 5 rasas)
+            Madhurya rasa - in brahmacharya or student life and also eventual possible nivritti marg you minimize all the rasas experience.
+            Otherwise, you can experience them fully - 3 levels of life goals (DAKM but also) - Grat Streaming, Legacy (Now and future) and Godhead (or alignment or harmonized life)
+        Personal lapse - of Truth presentation at ADBC - nope, Respect the sequence - No, definitely not just truth but projection of truth which makes sense in ADBC.
+FND - Material world - don't put your heart here but try to align to the FND laws.
+    that's where the magic happens - you put heart and what's the probability that people understand your insides.
+SocialErp - All PM did great value add for India - not even slow - they have all given their best.
+    the frictions act like samudra manthan and makes the best come out even if slow.
+PIES - In pursuit of ideal, it may seem that I am demeaning their position but they are very respect-worthy.
+    Alleging home remedies as myths - although it is truth to some degree.
+    Every statement you have right to make but take responsibility of it. How?
+        Quote the authority for the assertion. Yours or 7's.
+        If your authority then your post, your papers, peer reviews or experimentations to be quoted.
+        In science, not everything needs experimentation to prove or disprove but theory is proved and predictions are based on that.
+        If 1 proposes otherwise, either come up with mew theory or fulfill the burden of proof that lies with you.
+        Do you have right to allege a system as flawed - theoretically yes cuz that's healthy and offers a best mix.
+        But practically you don't want to induce chaos by giving freedom to e1.
+    Computer Science will reduce jobs or increase.
+        First of all if you don't appreciate your contribution to society your performance may be impacted.
+            eth comes with yin and yang - even most good has a dark inside and vv.
+        scale increases of interaction.
+        Some people may wonder just direct impact and they ain't wrong but they couuld not see remote transitive impacts and cultural impacts.
+            reality is complex - predicting future (like stocks) is difficult
+            We want to have such discussions but with open mind.
+            Bank work automated true but many teachers freed from fees collection cuz it can be delegated.
+    We are prominently aaroh only and it is bound to work. We just appeal open mindedness that's all.
+        cuz of approach of observations and predictions - systematic and organized.
+        How can we be against science while we are science (essence of me).
+        We are not against even scientism but see it for what it is with a smile.
+        Take the ideal stand and st when necessary - show the limitations of different extremes and expose the reality.
+    Speak whole of truth and feelings in front of everyone as it is - is like being naked out in public.
+SQ - I have done cleaning in Jagannath temple during gundica marajanam.
+    besides also done in voice, temple etc during rath yatra and otherwise.
+    I have handled tulsi care department, water filling department also.
+IQ - Your future is function of your present so just show me your calendar and I will tell you where you will be in 5 years.
+CS - Youtube - why this ad.
+    Thanks to GDPR - gotta tell what is recorded and why a certain event happening to you.
+    video, time location, age group, gender as per profile
+    Activity, interests, signed in activities, location.
+    similarity to groups of people the advertiser is trying to reach
+    estimation of your general location or the general locations where you have been
+    estimation of household income.
+    Based on Video that you are watching.
+    Google's estimation of your interests, based on your activity while you were signed in to Google (for example, your searches)
+    Based on the video you are watching.
+    activity, while you were signed in to Google
+    Google's estimation of your Job Industry
+        explicit layer of deep neural network
+    similarity to groups of people the advertiser is trying to reach, according to your activity while you were signed in to Google
+        there is a clustering of people done internally for ads targeting.
+    ?Previous success, time spent on ads, etc.
+    Given a suggestion - ability to explain why this ad.
+        Not just 1 algo but n algo - select which algo to apply - recommendation engine or similar watched or your signed in history, etc.
+        Given an algo - a set of dominating features for the classification.
