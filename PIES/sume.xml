@@ -376,13 +376,15 @@
 					20 - DS Comps (PwC, etc) - !13/14.
                     20 - Samsung - !19 (Asked but lockdown so no response)
                     21 - Empty fire - !Amazon written 1.5/2 (cuz optimal) solved, Amazon Alexa, Amazon kindle, Amazon AWS resume found attractive.
-					21 - Samsung Networking - 18.40 (15.77+2.63) and 1 time 3.80
+					21 - Samsung Networking - 18.40 (=15.77+2.63) and 1 time 3.80 => 22.20 for first year.
+					21 - PayTM - 19 (=19+0) and 1 time 2L for 18 months retention.
             </Money>
             <Contributions>
             About - All Projects Done - be able to tell tech, etc used, contributions, roles played; challenges faced
                 some really interesting problems you feel proud to solve
                 This has to be abstracted out of project level domain details in interest of technically what is done
                 consulting abstraction is also possible but that can be done later on from source if needed.
+				can think of writing social contributions as company visions or end product making society a different place.
             NIT JSR
                 Java Media Player
                 SQL Administration
@@ -397,7 +399,7 @@
                 ACT Project - Testing Automation using Scripts
                 Semantic Web on NoSQL (Neo4J)
                 Stackoverflow analytics
-            Siemens - 3.5+Diet (12 otherwise)
+            Siemens - 3.5+Diet intern (12 otherwise)
                 Best execution engine for a given query - Data Science to metrics collection using program
                 Space Optimization Engine for NoSQL Engines - Cassandra, HBase, etc
                 Design Proposed for handling IOT sensor data
@@ -600,12 +602,14 @@
 			</Personal>
 			<NITJSR>
             NIT JSR
+				Idols - Pradeep Panigrahi, Amit Happy.
                 Graphics Programs Pixel programming, Network Security Programs.
                 SQL Administration - Paper Presentations.
                 Java Media Player - UML diagrams.
 			</NITJSR>
 			<Infy>
             Infy - 3.5
+				Idols - "I want to help but don't have time" guy, Mayank, KT lady for maintenance, Vibhor, Presentation guy onboarding.
                 Contributions
                     SEZONL
 						System Design
@@ -626,6 +630,7 @@
 			</Infy>
 			<VITPune>
             VIT Pune - 4.2
+				Idols - Vishal Kaushal Sir, Karthick Sir, Ras Vigrah Sir.
                 Contributions
                     Computer Programming Concepts
                     Guide for Programming Projects
@@ -635,6 +640,7 @@
 			</VITPune>
 			<IIITB>
             IIIT B
+				Idols - Anish, Anjani, Mayur Bhaiya, Shishir
                 EBay Prototype and REST Services
                     what
                         Bootstrap, Jquery, JSP, AJAX, Windows, Eclipse, Apache Tomcat 9, Structs, Java, Mysql, MVC.
@@ -657,6 +663,7 @@
 			</IIITB>
 			<Siemens>
             Siemens - 3.5+Diet (12 otherwise)
+				Idols - Vikram Singh Chandel, Priyansh Saxena, Varsha Raveendran, Vinay Sudhakaran.
                 what
                     VM - VMWare, Hortonworks HDP2.0, CentOS, Windows SCP, Moba for SSH, etc.
                     Libraries - Properties File, Logger, Random Number generation Types.
@@ -709,6 +716,7 @@
             SAP - 7.5 (2.5 over 2 years)
 				<BYD>
                 Business By Design - End to End ERP Business Suite
+					Idols - Saurav Nahata, Nikhil Bhaji, Sunil Bhandarkar, Sunil Kumar, Karthik, Vishesh, Krishna, Hitesh, Mukesh.
                     Specification
                         Exposure Large scale ERP applications, Suite in a box - end to end business processes support (SCM, SRM, CRM, FIN, HCM, Foundation)
                     Design
@@ -805,6 +813,7 @@
 				</BYD>
 				<NSME>
                 NSME - End to End ERP Business Suite on NodeJS Express PostSQL tech stack.
+					Idols - Kavitha, Deepak, Vishesh Agrawal, Siddharth, Sunil Parvartikar, Chandan.
 					System Design
 						Front End - UIDesigner in XML and Javascript (not Ruby) - Framework by core team and exit code handled by Front end team for handling these xml design time and json data at runtime.
 						Application on Node Express Router - Exit code across BOs in functional areas.
@@ -869,6 +878,7 @@
 				</NSME>
 				<SAPIOT>
                 SAP IOT - Big Data Analytics for SAP IOT Data Streams.
+					Idols - Sathya (PO and Arch), Ashok (Computer Science terminology and clarity), Abhijeet (agressive achiever), Ajay (Architecture and programming), Imran (neat coding), Pavan (Services), Varsha (Scrum master).
 					System Design
 						Front End - Sensors Actuators (MQTT or REST microservices), Simulations for writing and reading (DataGen, Direct REST), Read-Only Configurable UI Facade.
 						Application -
@@ -1297,26 +1307,89 @@
                 </Objective>
                 <BAndJ>
                     <EducationalQualification>
-                            ToDo - Online Course - Udemy - PySpark, Spark Streaming.
-                            TODO - LinkedIn assignments for - Hadoop, Microservices foundations
-                            ToDo - Online Course - Analytics Vidhya
-                                Specialization - NLP
-                                Year and credits
-                            Online Certification - Coursera
-                                Specialization - ML
-                            Online Course - Jigsaw Academy
-                                Specialization - Machine Learning in R
-                            M. Tech - IIIT Bangalore
+                            2021
+								LinkedIn Certifications for 2021
+								TODO - Kafka, spring boot.
+								Gaurav Sen - System Design (ongoing)
+								Spark Seminars - Streaming by Tathagat Das.
+							2020
+								Online Certification - Udemy - PySpark, Spark Streaming.
+								Youtube - Learning Journal - Apache Kafka, Scala Programming (Revisits)
+								JAVA Brains Courses - Spring Frameworks, JAVA 8, OAuth.
+								Youtube - Redis (ProgrammingKnowledge)
+								Online Course - Deep Learning (Take full responsibility of)
+								Others LinkedIn - Hadoop, Microservices foundations.
+								SAP - Careers over Coffee.
+							2019
+								Online Certification - Coursera - Machine Learning
+								Courses
+									Java Brains - Javascript, Typescript, JAXRS (Revisit)
+									Learning Journal - Scala
+									Lerna.
+									Automation Step by step - Kubernetes (and other sources), Postman, JMeter, Jenkins.
+									JumpstartCS - Cassandra.
+									Youtube - Maven (LinkedIn also), JUnit Mockito.
+								Misc
+									TutorialDrive - Zookeeper.
+									Spark Kafka Integration - Data Savvy.
+									Spark Learning Journal.
+									Arduino and Raspberry Pi - Last Moment Tutions.
+									Android Glimpse.
+									Udacity - Advanced OS.
+									Crash Course - Statistics - Also Khan Academy Revisited.
+									Codevolution - Chrome Extensions.
+							2018
+								Online Courses - 2018 (Take full responsibility of)
+									Jigsaw Academy
+										Specialization - Machine Learning in R
+									Analytics Vidhya
+										Specialization - NLP
+								IBM Cloud Intro. Excel and VBA (ExcelVbalsFun)
+								JAVA Brains - Soap.
+								OpenSAP
+									Writing Testable Code for ABAP
+									SAP Business ByDesign Financials
+									SAP Business ByDesign Supply Chain Management
+									iO Startup School (SAP internal, Pilot)
+									Excel Course.
+									Introduction to SUSE Linux Enterprise Server (SLES, Repeat)
+								Success map - RAW - Respect at work, Data Security, GDPR, etc.
+							2017 - 2019
+								BYD - ERP Courses (SCM, SRM, CRM, FIN, etc)
+									NodeJS, Typescript, Express Router Frameworks.
+									GIT, etc.
+								Youtube and success map - ABAP Tutorials.
+								OpenSAP
+									Application Development for SAP Business ByDesign
+							College Online Refreshers
+								OOP - Derek, Web resources.
+								CN - Gate Teacher Guy, Network Security from Saurabh.
+								DSA - Naveen, IIT KGP, IIT Mumbai, Stanford, UNSW, Tushar Roy, random.
+								Maths - IIT Madras, Khan academy.
+								OS - NPTEL IIT KGP, random, etc.
+								DBMS - NPTEL, Random.
+								Data Modeling - Random.
+								OOAD - Java Brains.
+								TOC - Harry Potter, IIT Madras.
+								Data Analytics - Statquest, Luis Serrano, Random, SentDex, mathematicalmonk.
+								Design Pattern - Derek Banas
+								Model Verification (Prove correctness) - NPTEL MOOC.
+								AI - IIT Madras.
+								Distributed Computing - Durgasoft, MIT.
+								Stats - XMIT.
+								IDEs - Eclipse, VSCode, Intellij.
+								ComputerPhile.
+                            M. Tech - 2017 - IIIT Bangalore
                                 Specialization - Data Science
                                 Optional - Data Analytics, Data Modeling, Data Visualization, Distributed Computing, Artificial Intelligence, Machine Learning
                                     Future - Network Science for Web, GIS, Deep Learning.
-                            B. Tech - NIT Jamshedpur
+                            B. Tech - 2010 - NIT Jamshedpur
                                 Specialization - Computer Science
-                            H.S.C. - K V No 1, Udhampur
+                            H.S.C - 2006 - K V No 1, Udhampur
                                 Specialization - PCMB
-                            S.S.C. - K V No 1, Udhampur
+                            S.S.C - 2004 -  K V No 1, Udhampur
                             Specialization - NA
-                            Future - DL RNN LSTM, AI, DC, NLP, etc.
+                            Future - AI, DC, DIP, etc.
                     </EducationalQualification>
                     <AnalyticalSkillsAndCertifications>
                         <HighlightedTools>
@@ -1528,6 +1601,7 @@
                         Undergone training on Scrum based software development with day today observations of scrum practices.
                         Good Communication skills with sound experience at interactions with different stakeholders. 
                         Ready to shoulders responsibilities, resourceful with a pro-active approach in accomplishing targets.
+						Lots of Lynda / LinkedIn Courses to be more effective.
                     </ManagementSkills>
                     <AdditionalQualifications>
                         ???
@@ -1622,9 +1696,40 @@
             Sociology - history, politics, Psychology, economics, civics, geography; (Secondary School)
             Home - MBA - Stage Presentation, Group Involvement (SAP Labs BYD, LinkedIn courses)
             Personal - skills and psychology - Singing, Joking, Games, Philosophy (Charisma On Command, Self Help Books)
+			Trace
+				2021 - Crash Course Psychology
+					Khan Academy Microeconomics. Bharatvarsh TV Series.
+					?Pradhanmantri 2, Monica Gupta.
+					Lots of audiobooks.
+				2020 - Study IQ, ThePrint. Bike. Dhruv Rathee, Praveen Mohan. Sid Talk.
+					Lots of Audio
+				2019 - Philosophy Crash course.
+				2017 - Charisma On Command, Seeken.
+				2015 - Pradhanmantri 1.
+			For F - ASMR, Exercises, Yoga, Affirmations, motivations, etc.
         </J>
         <D> Challenges and stories and Grats during projects for instances
-            Instances - Goa Trip Bike petrol finish story; Heavy rain in Kharagpur story; Left home in yol story;
+            	Instances - Goa Trip Bike petrol finish story; Heavy rain in Kharagpur story; Left home in yol story;
+			Idols and Friends
+			Amritsar - Idols - Family, Teacher ward, Rashpal Madam, TV.
+			Udhampur - Idols - Johny Sir, Vikram Sir, Manish Sir, Pandey Family, MN Singh Sir, Uttam Sir, Asgar Alam Sir, Anish, Hemant Senior.
+			Jamshedpur Hostel Phase 1 - Idols - Roommates, Savyasachi, Dancer guy, Goyal, Litti guy.
+			Jagannath Puri VOICE (KGP) - Anand Babu Pr, Scar on cheek Pr, Bharat Pr, Sr Devs, PSP, KTP, RPP, KGP devs.
+			Jamshedpur Hostel Phase 2 - Pradeep Panigrahi, Priyaranjan, Mess incharge a friend.
+			Mysore - Vikas.
+			Pune
+				Atmanivedan YOGA - VOICE devs, Indresh Pr, Amarjeet Pr, Deepak Pr, KGP's dev, Preaching Devs. Infy devs. Vibhor Pr, Ravi Pr.
+					Arch Pr, Same building waale Pr, Ramvilas Pr, Nilesh Pr.
+					BGP, RPP, RK Pr, etc for Wednesday BG talk.
+				Atmanivedan Sudarshan VOICE - OC Pr, Desktop waale Pr, Amit Pr, IIM waale Pr.
+				ISKCON Pune - KTP, Sanskrit Scholar Dev, etc.
+				Atmanivedan Lotus VOICE - Saurabh Mehta Pr, Vraj dev, Canada jaane walle Pr, Ravi Pr.
+				Vraj Dham VOICE - OC, PM Pr, Prof Pr at VIT (Maths waale long height waale) and at VOICE also.
+			Bangalore
+				IIITB Hostel - Anjani, Shishir, Anish, JnK waale, Electronics Anime walle.
+				SLS Square - Anshul, Apoorv, Akash, Siddharth, Tejinder Sir.
+			Amritsar - Idols - Mama, Papa, Surabhi didi and Jiju, Syami.
+				Relatives - 1st level extended family, 2nd level - Other jijus, etc. Vicky Bhaiya, etc.
         </D>
         <K>
             <Social> Standardizations
@@ -1845,7 +1950,7 @@
                         School - Vocab, Grammar, Poetry in Hindi
                         SSC, HSC - Personal and Interpersonal skills, Grammar, Contextualizing etc
                         NITJ - Phonetics, Vocab
-                        Infy - Speak Up, Telephone Conversation
+                        Infy - Speak Up, Telephone Conversation, Interpersonal skills, Stephen Covey's 7 principles, etc.
                         SAP - 
                             Take a More Creative Approach to Problem-Solving
                             Bystander Training: From Bystander to Upstander

@@ -794,6 +794,7 @@ Logs - Story - 2 stories
 CS - Machine Learning
     scikit-learn is a Python module for machine learning built on top of SciPy and distributed under the 3-Clause BSD license. On the other hand, SciPy is detailed as "Scientific Computing Tools for Python". ... scikit-learn and SciPy are both open source tools
     Sklearn is built on top of Python libraries like NumPy, SciPy, and Matplotlib, and is simple and efficient for data analysis. However, while Sklearn is mostly used for machine learning, PyTorch is designed for deep learning. ... Ease of Use: Undoubtedly Sklearn is easier to use than PyTorch.
+    There are also other Deep Learning tools which use GPU like Theano.
     So, both TensorFlow and PyTorch provide useful abstractions to reduce amounts of boilerplate code and speed up model development. The main difference between them is that PyTorch may feel more “pythonic” and has an object-oriented approach while TensorFlow has several options from which you may choose.
     TensorFlow is an open-sourced end-to-end platform, a library for multiple machine learning tasks, while Keras is a high-level neural network library that runs on top of TensorFlow. Both provide high-level APIs used for easily building and training models, but Keras is more user-friendly because it's built-in Python
 IQ - Manage Signature option (under annotate option under tools) in every pdf tool - adobe, preview.
@@ -1834,9 +1835,11 @@ PIES - In pursuit of ideal, it may seem that I am demeaning their position but t
         We are not against even scientism but see it for what it is with a smile.
         Take the ideal stand and st when necessary - show the limitations of different extremes and expose the reality.
     Speak whole of truth and feelings in front of everyone as it is - is like being naked out in public.
-SQ - I have done cleaning in Jagannath temple during gundica marajanam.
+Sume - SQ - I have done cleaning in Jagannath temple during gundica marajanam.
     besides also done in voice, temple etc during rath yatra and otherwise.
     I have handled tulsi care department, water filling department also.
+    I have also handled cleaning department; even vessel washing department.
+    Seva allocation department at Vraj Dham Voice - Used a cyclic way so that people would experience different services on different days and no repetition.
 IQ - Your future is function of your present so just show me your calendar and I will tell you where you will be in 5 years.
 CS - Youtube - why this ad.
     Thanks to GDPR - gotta tell what is recorded and why a certain event happening to you.
@@ -1857,3 +1860,218 @@ CS - Youtube - why this ad.
     Given a suggestion - ability to explain why this ad.
         Not just 1 algo but n algo - select which algo to apply - recommendation engine or similar watched or your signed in history, etc.
         Given an algo - a set of dominating features for the classification.
+Logs - Digital electronics only I in the class got it right and other got full marks cuz of not trying what was being asked.
+    Only got it right in the physics distance to time graph and not just getting it right but convincing the teacher how it's right.
+IQ - Arch - Do it gracefully.
+    Have not groomed this yet.
+    Do justice to this. I have not estimate for the time it will take.
+IQ - Manager - ask questions that will be done in future - put a positive pressure.
+    Who is reviewing your PR while the work is going on => do it as soon as possible and next question in future piggybacks on this or follows this.
+    OR possibility of things getting delayed.
+CS - SOLID Principles of software development.
+IQGrats - Made Postman teams and shared my standardized collections with the teams along with proposal to avoid islands.
+CS - Email sending
+    HTML, REST API to get an endpoint with access for application to send - whether slack or gmail.
+        https://developers.google.com/gmail/api/guides
+    Spring boot email with all the details like password.
+        https://www.tutorialspoint.com/spring_boot/spring_boot_sending_email.htm
+    Java mail - https://www.javatpoint.com/example-of-sending-email-using-java-mail-api-through-gmail-server
+        https://stackoverflow.com/questions/46663/how-can-i-send-an-email-by-java-application-using-gmail-yahoo-or-hotmail
+        mail.jar
+        activation.jar
+Tickets - Spark job default down in EU20 - nb gives a dang there.
+    But stop and start thru postman. Could also delete the context from platform APIs and then start.
+SCMProd - Oats Pulav, Bhel Puri at home, Soya chunks.
+Sume - Asr services - my services - gardening, vessel cleaning, milk seva, cloth washing, room cleaning with robo vacuum Cleaner, bed raising for ILife, etc.
+    basically SCM Logistics (except security - locks) AMAP.
+    car driving for family, help bed sheet changes - rooms office designation and resetting.
+    Small SCMProd - Churi kutti in oven, Sweet rice in oven.
+IQ - Personal Branding
+    80/20 - don't convert but engage thru your social media channel. Consistent delivery.
+    Everything is worth engaging - livestream. People like behind the scenes in entertainment - they would like it even in business.
+        tease new feature - insider info.
+    Demo ur product.
+    Monetize if true expert. backed by certifications, etc.
+    Marketing ain't pushing but drawing them.
+    brand tribe.
+    influencer cuz influences their decision.
+    signature offer you offer.
+    leverage testimonials - peer validations.
+    vision, measure results, test and repeat what works. It's marathon.
+    brand website - squarespace templates etc.
+        where you are and what's next.
+        Home page attractive and call to action and authority.
+        social channels also linkage.
+        customer testimonials matter to 90%
+        A contact form works wonders.
+    content of many types - blogs, seminars, etc.
+        opportunity to network - ask them to join and their networks will also join.
+        quality traffic => leads.
+        hashtags help.
+    speaking is highly paid for 1 hr 20K dollars - buzz worthy and hot topics demand attention and rewarding.
+        but research and target audience.
+        prepare. show reels of past engagements.
+        better 7 else tell how great you are.
+    your bio in there - first few lines be powerful.
+        use power of video - your story and content.
+        not followers but degree of engagement with how many people.
+IQ - Indu 4.0
+    Population grew.
+        series of revolutions in industry - eth changed. Work standardizations also helped.
+        Mechanical - Train. Textile, Indu mass scale.
+            diseases stop and economy but fights and ww. 
+        Electricity - Bulb. 1800. Telephone, gas engine. 
+        Electronics - Transister. Analog to digital. chips for modern computers.
+        Software - www 90s and web 2.0 in late 90s where commerce on web.
+    Gaps of inequality
+        Then 4.0 will really show up - velocity and scope fastest in time.
+            50M users - TV vs internet vs twitter - how much time they took to get popularized vs pokemon go in 9 days.
+            e-scooters.
+            scope - far and wide - buy product and get but now software new update over internet in days.
+                automatic cars to autonomous car - huge impact on other aspects.
+            Impact - new challenges - virus can attack many people together so security.
+        e1 is getting connected. packet switching no reliance on 1 path.
+            TCP IP emerged in university - opened in 89 and miracle afterwards.
+            email, social media, videos, research - sequence of activities on smartphones in time spent.
+            IOT 50 B by 2020.
+        digital transformation by 3rd wave. modifying behavior so live differently like once smartphone comes.
+        4th indu - 1st wave to 99 - hardware and software infra of internet and static webpage.
+            2nd wave - user location and input interaction - search, social and ecommerce. Growing people of internet. smartphone and app economy.
+                SaaS.
+            3rd - app native solutions - uber, insta, siri, ?home automation, etc.
+                internet into wild array of products and services - disruptive.
+        Ages for advances in science - renaissance in france 1300 and arts, science, engg grew. politics.
+            conducive politics and movement.
+            library to public and new thinking. Leonardo vinci combined art and science.
+            science - observation, experiement and determination => human view of life.
+            1900 - science assimilates to rest of world.
+            1600 - age of reason or enlightenment. rational change. Newton, voltaire, etc. brutal and war.
+            1900 - modernism. easy access to knowledge and convenient living. catalysed scientific invention.
+                gene, graphene, electrical aircraft, home power.
+                space efforts.
+        economic and demographic shifts - poverty reduced.
+            china - 80s to now exponential growth.
+            population grown and life expectancy from 30s to 71.
+    Core Tech trends.
+        Mapping for trip was not possible until good internet, mobile and os existed. wireless and payment standardizations.
+        Disruptive business models when cultural acceptance, capital avail, convergence of software and hardware. build on knowledge and good luck.
+        additional capabilities.
+        right convergence puts business models to its head - breathtaking.
+        AI - visual, speech and decision.
+            viable now but talked since 1950.
+            Movie - space odessey, Star wars.
+        IOT - billions devices connectivity.
+        Blockchain - db for cryptocurrency.
+FIN - lots of expenditures and savings for after retirement. Maintaining dependents - madhurya, vatsalya, sakhya, etc.
+    Pressure - the more you face, the more you grow. What felt impossible in past, seems peanuts in the present. You become like banyan tree.
+    Very confident and huge potential - people starve for your presence or to recruit you cuz having you means no longer troubles.
+    Switch every year said a colleague. I will keep growing.
+IQ - Special allowance for tax benefits right - can I refuse to avail any of the benefits. LTA, food, Gifts.
+    What form just like that in monthly salary as tax benefit or gotta show bills to get paid.
+    What's this food allowance and gifts coupon - Do I get after bills or not get if no bills.
+    HRA - What if I don't stay on rent. Will I get the money still?Logs - Took milk with haldi and kali mirch and cough gone. hot water b4 for cough and vapours helped with covid cure.
+Sume - Simpress - customise products instead of amazon.
+Sume - SCMLogistics - Prasadam Serving.
+Sume - Tejinder Bhaji Suggestions
+    don't take greedy approach - that immediate best decision is long term best - does not work with career.
+        the rate of change is higher with paytm mall dy/dt but not maxima over time t - we want to be in crores and not stuck in plateau.
+        Eg of a friend who is IISc post grad and head of org but earns 44L so it is the limit.
+        We get to crores when we get our own room.
+        Better be in core than specialize in domain which many newcomers can do. Many companies realizing that investing into ML buzz isn't paying them back.
+    See their salary structure. It's not standardized - what if they realize that they can't afford - it's like worm bait for the fish.
+        work is niche and not distinguishable - i/o over libraries not making libraries. So, many can do it - if paid more than average than you become easily replaceable.
+        It's a new team - the probability of success isn't very high when starting with a new team.
+        For recommendation engines already there are libraries to do it out of box - and validations from outside does not take huge talent.
+    When talent does not distinguish, the politics becomes the deciding factor and that's even desirable to may be not do to others but at least safeguard oneself.
+        Politics is a survival toolkit.
+        People want to replace and don't care if they are losing 7's talent.
+    With startups the micromanagement can be a problem and given that they are paying above their average - it can happen.
+SCMProd - Tinde, Ghiya Tori (dry, wet); oat fulka with paneer bhurji.
+    Daal ghol in different daals, etc.
+SQ - All 9 stages of bhakti are neither stages to be at nor the checkpoints but are neural network layers.
+    They are like layers of neural networks - every layer getting better as you work on improving any layer to overall best results.
+    REL as I improve on bhakti practice - my distractions and anarthas go on reducing leading to ever better steadiness in sadhana and hence the growing interest.
+    Also this growth along the neural layers is also exponential (not linear) in nature cuz result of next layer get ever better as the previous layers get better.
+        why exponential cuz improvement feeds itself.
+    And it takes lots of input at a neural layer to produce a small result in the next neural layer
+    but it gets faster over time cuz of ever increasing quality of input cuz of reducing impurities.
+Movie - Chronicles of Narnia.
+FND - NFP - observations on lapse -
+    lost or rather, considerably reduced sense of greatness or superiority, jovial behavior gone, talkative and ability to play in communication gone, reduced initatives or incentives in VA.
+    Cause - Insides, Overeating with ghee, Ayurvedic Article read that may lose creativity and should not stop the flow and normal people do it but retention helps with spirituality.
+    Why trust populace or so called experts ignoring your own gut or instinct.
+SocialErp - UAN Number for EPF.
+    UAN
+        Old - 100089259339 - mobile - 72*****0944
+        New from Sal Slip. Registration with 97.*
+    Given UAN - get mobile and activated registration - that's all. UAN was most precious anybody could do it - very dangerous (internal link to existing mobile number)
+        got information on bank linked to another UAN with prefix and suffix.
+    PAN - to get UAN with all details including mobile registered.
+        Trying to login using UAN - get error that different mobile is registered.
+        Must link adhar and UAN - https://iwu.epfindia.gov.in/eKYC/LinkUanAadhaar.
+        gotta change the registered mobile - need UAN and password for that.
+CS - Script vs Program
+    A "script" is code that acts upon some system in an external or independent manner and can be removed or disabled without disabling the system itself.
+    A "program" is code that constitutes a system. The program's code may be written in a modular manner, with good separation of concerns, but the code is fundamentally internal to, and a dependency of, the system itself.
+    Scripts are often interpreted, but not always. Programs are often compiled, but not always.
+IQ - Manager - Best Management is async - write your concerns in a kafka topic and address them when consumed.
+    also also all your NICE have some kafka topic.
+SCMProd - Brothers Dhaba, Haveli, Gyan di Lassi, Special Parantha and snack on the way, Sadda Pind, Kesar da Dhaba.
+    Bakasur, Different city delights, All famous Bangalore points, Pizza parties, Farewells with samosas and kachoris, etc.
+FND - NFP - 27 Mainstream movies with most.
+Movie - Malena.
+Movie - Deranged And Psychologically Disturbing Films - reviews from people. Similar to horror or Bhayanak rasa (1 of 12 rasas).
+SQ - Ramayan - our hero Ram has his Varna and Ashram both in focus.
+    Ram's ashram - how to behave with different relationships. Both sweet and strong - not gullible but dharma centered even in ashram.
+        Ram was not victim of conspiracy - he saw opportunity and established attitude in that familiar dealing.
+        Given opportunity to come back so not a layi lag. Guha lets him be king in another place - eager for sages association and purpose.
+    Ram's Varna - primary varna is to purposes of descent which he really does.
+        But also earthly, his varna being to protect. Biggest need of protection for sages and eventually e1 from demons.
+        Ram gets to wipe earth of demonic forces and already protection from wild.
+        Establishing the selflessness of letting citizens to be taken care of under bharat and eventually Ram Rajya.
+        Single handedly challenging the largest force on earth; power of making allies.
+    Ram's spirituality - he inspires our spiritual life and for himself he associates with sages always.
+    Ram's person - is always attractive.
+    Same thing can apply to Krishna also.
+SQ - Jivera svarupa hoye Krishnera nitya das - To serve is our nature - not even enjoying 12 rasas.
+    We gotta increase the stock price of seva vritti more than bhog vritti but not thru denial or imposition but naturally and gradually.
+    We are servers of rasas not enjoyers of in spiritual world.
+PIES - communication sometimes brings new insights or tells facts but other times it just fuels an argument within the listener.
+SQ - DAKM is essence but essence of essence is Seva Vritti coming to a point of spiritual realm acceptance is higher essence.
+    Is karma essence of hinduism - by hinduism obviously it's scriptures.
+    Then yes and no - there are many projections to see it so karmic being one of them.
+NFP - Great Brahmacaris.
+    Bhishma - He was the reasons Kauravas felt invincible and he was the one who made them undefeatable.
+        He made it difficult for pandavas literally and physically but he had to tell his defeat secret.
+    BSS - Undefeatable in arguments.
+    Gandhi - such willpower to challenge a nation - of course, mistakes - to err is human but his stature was high.
+    Spartacus - became leader and eg for future for freedom.
+    Mohammad Gauri - 1 year abstinence to defeat Prithviraj.
+    Mike Tyson - Yes, in those days I thought greatness was everything.
+    Modi - Love or hate but you can't ignore him.
+    Newton - Such scientific foundation laying foundation for psychological movement and 1st Industrial revolution.
+    Temple Brahmacaris - we felt to be part of a great movement - so profound it was whatever they presented.
+        I wished others knew about them and their contents.
+SQ - What is life all about according to Hinduism - yes it explains karma cycle, etc.
+    But what's the guidance for 1 life - it 4 pursharthas - DAKM.
+    Dharma (svadharma (VA) and sanatan (sp)), artha (tangible and untangible resources), kaam (all layers of existence), moksha (prema included).
+    These can be thought to map to kshatriya, vaishya, shudra and brahmin but that mapping is not at social level but at individual level.
+    Overbloating of any 1 of the purusharthas for 1 life leads to phenomena like dictatorship, capitalism, communism, and church governance.
+    But is VA really kshatriya thingy - not at all - it is trigger of person's administrative aspects not social people do it.
+    In Nivritti marg, Artha and Kaam is kept to the bare minimum like body temperature.
+        Nivritti is prominently feed dharma to Moksha directly (seva vritti is implicit neural layer) with least effort to artha and kaam.
+        but pravritti allows for all and gradually increase seva vritti stakes.
+    Is vedas all about seva vritti - that's the essence of essence of essence so can't quote that directly.
+        VA is natural. Then DAKM is life's goal for e1 and even in that goal, the goal is to grow the stakes of seva vritti ultimately for moksha.
+CS - Quora: Is a data engineer more in demand than data scientists?
+    ML has been democratised into cloud containers.
+    DL is the next thing and regular data engg.
+    If your company doesn't have technical tracks then your only choice is management
+    Tracks - Solutions Architect, Data Architect, Application architect
+    could end up CDO or CIO
+    Reddit
+    Do you like building things, solving problems with logic, and writing code? Software Engineer
+    Do you like pouring through data, cleaning it, working with python, thinking through problems with data, running experiments? Data engineer
+PIES - Ashram can't be translated as personal life, social life or household life - but a union of all of them.
+    Best translation in my opinion is consumer life.
+    And for varna it is producer life or career.
