@@ -29,17 +29,59 @@
                     D - What's new with you; what are you up to, how are you doing, what's going on.
                     K - study of your actions and impacts or stories in the world
             PQ - Health
-                    BJDK
-            B - Scrum -> Themes in there.
-                Epics (yearly update), Backlogs (release or monthly update), Stories (sprint or weekly update), Subtasks (daily update)
-                For the dhansu thing that comes after the year, what is planned this month. What to do this week to get there. Give daily status update on that weekly goal.
-            D - (Logs --> IQGrats, Lapse --> Stories, Standardizations). All the routine IQGrats and lapse don't come here; only the ones that stand out. DMPM goes to specific XMLs.
-            J - All the DMPM doesn't come here but only the courses done. Others can go in MS Notebook or some concrete sections (local cache for all online helps)
-            K - All the Logs don't come here but their rolled-up information. Logs used in ego section to support narratives.
+			BJDK
+				B - Scrum -> Themes in there.
+					Epics (yearly update), Backlogs (release or monthly update), Stories (sprint or weekly update), Subtasks (daily update)
+					For the dhansu thing that comes after the year, what is planned this month. What to do this week to get there. Give daily status update on that weekly goal.
+				D - (Logs --> IQGrats, Lapse --> Stories, Standardizations). All the routine IQGrats and lapse don't come here; only the ones that stand out. DMPM goes to specific XMLs.
+				J - All the DMPM doesn't come here but only the courses done. Others can go in MS Notebook or some concrete sections (local cache for all online helps)
+				K - All the Logs don't come here but their rolled-up information. Logs used in ego section to support narratives.
             Ego Specific - Logs view prepared for a narrative.
 			Uncat - Grand Story or Larger Narrative - It is all about your exciting journey
 				excitements or fun along the way
 				services or contributions along the way.
+			Yoga is life's essence (with DAKM as the medium or driving force) - Life is composed of following phases of yoga evolution.
+				About -
+					We need to deploy both aaroh and avaroh methods in BJDK to do this.
+					yes, we can't wait for the phases but there is a generic focus
+					mostly based on current working of society
+					Premature acceptance of last stage ignoring former stages can be immature.
+					our goal is to perform these stages ourselves and try to assist others in their phases (whether naive or advanced) thru BJDK.
+						sb doesn't want to take any assistance is their choice but ensuring availability is our part.
+					Love at transcendence is the ultimate essence but quite far off to aspire immediately
+						may not even be attractive in initial stages.
+						but our eyes should always be to improve on the next neural network layer of yoga in light of final outcome.
+					Every yoga phase suffers when the previous one isn't in a standardized and stable shape.
+						Eg - after 40, Leadership is necessary for e1 but a must in KC (evam raj rishayo viduh - this knowledge for kings)
+						actually others also can do - but it's somewhat risky for formally untrained and hence less refined or immature person
+				Till 20 - Personal Yoga
+					oneness of body, senses, mind, intel, ego, ourselves.
+				Till 40 - Group Yoga (Home Yoga, Business or office Yoga)
+					become one with your groups.
+					Seva brings oneness.
+					even enjoyment is best done as co-enjoyment and not independent enjoyment.
+					But group level enjoyments and services (and personal side should be subservient to it)
+				Till 60 - Social Yoga
+					oneness with society at large.
+					Legacy - society contributions thru SVAF - mastery already there, concrete transactional, concrete predictive, concrete prescriptive.
+				Till 80 - Spiritual Yoga
+					oneness beyond society - with God almighty.
+					And if aaroh alone, then realizations and standardizations thru life stories - Life analytics.
+					Abstract transactional, exploratory, prescriptive, etc.
+					Exploring inner, outer, meta and transcendental world with full enthusiasm.
+				Beyond - fine tuning yoga.
+				wrt others
+					we do our yoga nicely and assist them in their dharma to whatever extent possible.
+					eg parents in spiritual yoga phase and you in group yoga phase
+						it is expected that you do lots of SVAF and assist them in their life insights.
+						But I can't do it all like cooking
+						actually we can - to whatever degree in their ERP domain and strong in our own ERP domain
+						We must do Leading the show else they have the unnecessary burden which won't let them focus on their phase.
+						and as per previous traditions our complementary friend is supposed to assist us also in helping them and vv.
+						Eg - wife should help in cooking and when I go to saure, then I should also help with some things.
+						This is not how conservative systems work but the fact that wives also work, some aspects of HomeErp definitely need reconsiderations
+							not denied but reconsidered like ishta goshti.
+					Read aaroh pantha - personal help books in FND ABCDE and apply them for effective yoga.
     </About>
     <S>
 		<B>
@@ -61,6 +103,7 @@
 			Aaroh Panth of science being an integral part of being - DYS helps a lot to bridge with spiritual principles.
 			My specialization in KC
 				SME, Camps - VANY Syllabus.
+				VMML VTW or Etiquettes - Deity Worship workshops (also individual departments)
 				EBG, GSNS Camps
 				Counselor Group
 				Bhakti Shastri - 4 books with technical study.
@@ -190,6 +233,7 @@
 					Night Audiobooks.
 					Pranayam + Affirmations.
 					Chanting 2 book reading and improving the quality - Listen to 1 MM (Mindfulness over transcendence - superself)
+				2021 June - MDNIT Delhi online Yoga Camp.
 		</DYStory>
 		<JYStory>
         JY - SMY, Bhakti Shastri, Sadhguru casual talks, Art of living casual talks.
@@ -198,7 +242,7 @@
 				Inspiration - SP, Humungous widespread culture of ISKCON Hare Krishna Swamis under SP and their disciples (different specializations)
 				General Shelter - Many temples and extensions. Associations of wide variety of devotees.
 				SMY - DYS, EBG, Camps - RSP (and whole jet age gurukul teachers - Pune, Kolkata) - 2006-2012
-				VTW - Many Pune sr devotees. (2007-2008, 2010-2015)
+				Vaishnava Lifestyle Training (VOICE YOGA) VMML - Many Pune sr devotees. (2007-2008, 2010-2015) - Deity worship
 				Practical KC - Radha Gopinath Prerana (personal), KTP applied BG study.
 					More - Social applications, Pune and Mumbai Congregation on Ashram. Variety of lectures from Swamis and Prabhus.
 				Ashram - GS Teams and NS Teams (2012-2015)
@@ -448,6 +492,10 @@
                 Postman, Slack, Browser Debugging.
                 Tableau, etc.
             </AppsUsed>
+			<Management>
+				JIRA, Ticket Queues - BCP, CSS NG, ServiceNow, etc.
+				Scrum, Kibana, TDD (Test Driven Development), Pair Programming.
+			</Management>
             <Domain>
                 FIN
                 SCM - SRM, SCM, CRM
@@ -837,7 +885,7 @@
 									Retrieving Front end XML from persistence for correctness - whether changes reflect correctly on activation or save - all DB names figured thru code or names.
 							Created many stubs and skeletons for experimental pilot project
 								Also, suggested folder structures for organizing, codes, refactoring, etc
-                        Implementations - GIT, VS Code, NPM, Node Express, REST API.
+                        Implementations - GIT, VS Code, NPM, Node Express, Sinon, REST API.
 							UI Conversions in FIN - enabled thru ABAP Script (Not my idea)
                             Promises, callbacks, decorators, Postgres, HANA, etc. Debugging in TS, JS.
                             Implemented Determination, validation, action, folder structure organization; used libraries like request.
@@ -893,6 +941,10 @@
 									Coldstore Apps - CSW (V2, V3), CS-Reader
 							Misc Apps - Rule, Geo, Edge, Performance, Deployment Pipelines, JMeter, etc.
 						Persistence - Kafka, Cassandra, HANA, Redis.
+					Onboarding Facilitation - Created and Maintained Onboarding MS Teams channel containing details for new joiners.
+						Environment set up
+						Credentials and commands - organized commands and sources for all the tools and services that we use.
+						Artifacts for new joiners - IDE, Compressed binaries, postman collections and env.
 					High Level State Monitoring
 						Contributions
 							Support for newer endpoints (spark by context name)
@@ -925,7 +977,13 @@
 						Tools - Cloud Foundry, Spark, Hana, Kafka, Redis, Cassandra. Multi-module Maven. JAVA, Mockito, JUnit, Scala, Factory / Builder Design Pattern
 					Developer on Duty
 						Organizing and Structuring credentials and information for monitoring systems and handling wide demands
+							ensure services running and available
 						Solving issues in consultation with colleagues.
+						Maintaining the spark jobs and cf apps running thru all thicks and thins - like platform updates, app deployment.
+					Cold Store writer (JAVA and Scala or spark job) - JUnit, Mockito, Powermock, scalatest_2.11 (MockitoSugar)
+						Testing (Unit and Functional)
+						ensure code coverage.
+						Integration Testing - not big bang but integration with few modules also checked but using mockito for all external dependencies.
 				</SAPIOT>
 			</SAP>
         </K>
@@ -1370,7 +1428,7 @@
 								DBMS - NPTEL, Random.
 								Data Modeling - Random.
 								OOAD - Java Brains.
-								TOC - Harry Potter, IIT Madras.
+								TOC - Harry Potter, IIT Madras, IIT Kanpur.
 								Data Analytics - Statquest, Luis Serrano, Random, SentDex, mathematicalmonk.
 								Design Pattern - Derek Banas
 								Model Verification (Prove correctness) - NPTEL MOOC.
@@ -2103,7 +2161,10 @@
 					The alchemist
                     Think and Grow Rich.
 					Awaken the giant within
-                    Future - rich dad, poor dad, how to win friends and influence people, 7 habits of highly effective people, unlimited power.
+					7 habits of highly effective people
+					?How to win friends and influence people
+						https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People
+                    Future - rich dad, poor dad, unlimited power.
 						The power of now.
 						Men are from mars and Women are from venus.
 						Languages of Love.
@@ -2209,6 +2270,5 @@
         Foundation / Health - December walk streak.
         ===UPDATE===
         Monitoring Check Status. Abstract Learning Spark, Kafka, Spring, Lambda, Mockito, Log4J.
-
     </LifeLogs>
 </PIES>

@@ -543,7 +543,7 @@ FND - Communication - Jokes involve involving different sources of information -
 FND - NFP - tattoo, artistic, design, outfits, tasteful, head towel, open or unmasked, hollywood posters, Age dimension, dress dimension, flowers on , touching bl.
     Tickling on, finger bb, finger roll bb.
     Squeeze, grab. Realization that it is endless chewing the chewed.
-    F - Pressing ground, Pressing against, Oscillations to-fro (3D possible), bang on top, tip touch, campfire rotation, hand positions, side tease, lock inside.
+    F - Pressing ground, Pressing against, Oscillations to-fro (3D possible), bang on top, tip touch, rim touch (fold 01), campfire rotation, hand positions, side tease, lock inside.
         tongue on. Sandwiched, covered collection.
         All independently - this is called misused intelligence.
     PMO is monstrous - when I am too infatuated by it - Krishna loudly bhajans kirtans my only rescue and it definitely works.
@@ -1862,6 +1862,9 @@ CS - Youtube - why this ad.
         Given an algo - a set of dominating features for the classification.
 Logs - Digital electronics only I in the class got it right and other got full marks cuz of not trying what was being asked.
     Only got it right in the physics distance to time graph and not just getting it right but convincing the teacher how it's right.
+FND - NFP - all individual NPMO separately or tuples - power set 2^n. PHI, N, P, M, O, NP, NM, NO, PM, PO, MO, NPM, NPO, NMO, PMO, NPMO.
+    Soap, hot water, cdm.
+FND - NFP - websites or pages dedicated to paint, art.
 IQ - Arch - Do it gracefully.
     Have not groomed this yet.
     Do justice to this. I have not estimate for the time it will take.
@@ -1879,8 +1882,6 @@ CS - Email sending
         https://stackoverflow.com/questions/46663/how-can-i-send-an-email-by-java-application-using-gmail-yahoo-or-hotmail
         mail.jar
         activation.jar
-Tickets - Spark job default down in EU20 - nb gives a dang there.
-    But stop and start thru postman. Could also delete the context from platform APIs and then start.
 SCMProd - Oats Pulav, Bhel Puri at home, Soya chunks.
 Sume - Asr services - my services - gardening, vessel cleaning, milk seva, cloth washing, room cleaning with robo vacuum Cleaner, bed raising for ILife, etc.
     basically SCM Logistics (except security - locks) AMAP.
@@ -2043,7 +2044,7 @@ SQ - DAKM is essence but essence of essence is Seva Vritti coming to a point of 
 NFP - Great Brahmacaris.
     Bhishma - He was the reasons Kauravas felt invincible and he was the one who made them undefeatable.
         He made it difficult for pandavas literally and physically but he had to tell his defeat secret.
-    BSS - Undefeatable in arguments.
+    BSS - Undefeatable in arguments. SP, BVT, etc.
     Gandhi - such willpower to challenge a nation - of course, mistakes - to err is human but his stature was high.
     Spartacus - became leader and eg for future for freedom.
     Mohammad Gauri - 1 year abstinence to defeat Prithviraj.
@@ -2075,3 +2076,738 @@ CS - Quora: Is a data engineer more in demand than data scientists?
 PIES - Ashram can't be translated as personal life, social life or household life - but a union of all of them.
     Best translation in my opinion is consumer life.
     And for varna it is producer life or career.
+Logs - IQ - Spark job hardcoding taken to submit params and in turn to db.
+PIES - Transaction phase of SVAF will look like not ability to navigate thru frameworks like hospital or hotel, but walking like you own the framework, ability to interrogate, etc.
+CS - Brave browser is 3x chrome.
+FND - NFP - Ability to tolerate NPMO in all combinations.
+FND - NFP - Paschattap and Prayashcit for misused privacy is forced to be social and public. Includes sleeping without air conditioner.
+CS - CRUD on all software also - create thru documentation and official announcement. Deprecation for delete and gradual removal.
+SQ - I don't do spiritual practices as futile exercise - Every J must have an application. Every D must have verifiable K trace of evolution.
+    Application is not a phase is life but an accompanying aspect with all the study.
+    Individual applications are like tips so a lot to implement and remember and may have ingredients but not the dish - so framework is practical side of KC (rituals to never forget).
+        So every study J is a reinforcement of practical framework.
+SQ - J Phases
+    Life Prep
+        Prerana - 
+        Study Circle - See work in spiritual light.
+            Eg - Varna is the foundation or the soil for the tree of KC.
+        Ashrams or Sabha - Spiritualize our social life.
+    Sanskars Cultivation for VOD
+CS - Mockito
+    To get the json - I tried manually then tried to create object and used gson to make jsonObject.
+    Also, the real problem that it was giving null pointer exception on streaming was that Utils object was mocked which I was hoping to work with other static method to return Gson and do the needful.
+    If you are using argument matcher, you can't use it with some of the arguments, you gotta use it with all.
+    doReturn("foo").when(spy).get(0);
+    spy to change only specific pieces and let others remain.
+IQGrats - URL not working - there was a space after the url hence getting rejected.
+    comparison with existing working url helped.
+Sume - Amazon - Subjective paper
+    Perhaps they want to find the n-dimensional distance from amazon employee's average score
+    2 extremes are worded s.t you find it amusing either way - think what they want.
+    and then find the distance in n-dimensions - euclidian or whatever.
+    Also observe that statements on either side have assertion and a reason - when you say most like me - it's AND and more like more - then Assertion is true but reason is wrong.
+    So, it's not a continuous variable but can be discrete with 1 best discrete answer in that case - it should not distance but sth like manhattan distance 1 for every different answer.
+    Eg - where are you on the horizon - good on both sides - take your pick.
+        I usually have ideas about how to improve an old way of doing things VS Once in a while, I find it difficult to integrate new data.
+        Most Like Me
+            More Like Me
+                More Like Me
+                    Most Like Me
+        I am more of a realist compared to those around me. VS something else.
+            ....
+IQGrats - Voting based feature proposed and liked. Partners or dev angels already there who act like consultants - Product Management.
+Sume - bibucket, gitlab, etc used.
+CS - GIT - Keep commit remove its content OR cherrypicking
+    git diff commit2..commit4 | git apply -R
+    git revert 3 //not sure how this would work.
+    git cherry-pick master~4 master~3
+    The real problem being master allows merge but not direct writing - additional commit already written into master.
+    Now gotta write older commit of master on top so that merge can happen. Solution apply reverse.
+    Commit replay tried but won't be very helpful in this case - https://thoughtbot.com/blog/git-interactive-rebase-squash-amend-rewriting-history
+    https://stackoverflow.com/questions/30540608/how-to-replay-a-commit-onto-a-branch-that-already-contains-the-commit
+Logs - Story - I recall when 7 collapsed during lecture - RSP ran towards him during lecture - so what character he has, awesome.
+CS - Maven - https://stackoverflow.com/questions/13354531/maven-project-build-directory
+IQ - Arch - while trying to solve a problem, we think of what all possible ways are possible to solve this problem.
+    And how do you reason in a best possible way to single out the best architecture or design.
+    Arch is a practice - we should explore lots of designs and think what would be other ways to do it and which is better or worse with reasons.
+    Consider all trade-offs.
+    Even every arch design can be thought of as a program written in its own language.
+Sume - Grey Scale AI
+    ML - KMeans Algo, SVM Algorithm how it works.
+    OS - Explain file system in LINUX - Blocks and buffer cache. DB Normalization and indexing explain (BTrees).
+    JAVA OOP, Functional programming how is it different - good. Functions first class citizens - create pass and receive.
+        No side effects - pure mathematical.
+        Immutability - how for iterative and selection blocks - again thru functions. No reuse of variables.
+    Computer Vision - DIP, CNN, OpenCV for Nephew Detection.
+    How does authentication and authorization work in microservices - many tokens jwt, oauth, oauth2.
+        but how internally - we separate a gateway service to get tokens and use those with another microservices.
+        But that microservice won't know the new token right - yes, so those active tokens are maintained in some redis cache or somewhere common to access.
+        But these tokens can be stolen - yes, that's right so that's why we have 2 tokens - access token and session token - both are used.
+    What's the work - pipeline check if there is any crack or bad quality while processing is going on. Upload this data to the cloud.
+        there's hardware side to it and software side as well.
+    SAP vs start up - good to settle and working on small parts of big arch vs grow in career in fast changing design - fast growth and so forth.
+Logs - Story - Papa says we didn't know what fight is - This house even the needle can't enter so much together.
+    Later came to know about property conflicts and all but we thought e1 belongs to others.
+    All lifetimes money from bauji and brothers given away to adopted youngest brother who was like a child.
+Logs - Story - Managing school behaviors - power hunger cuz no alternatives.
+    Clerk misbehavior - register given to teacher who mishandled fees and sought help which was refused under other's influence.
+        heard her for a while and she saw that as an opportunity to become heavy - our audits, why gave to teacher (clerk gave).
+        but beyond a line you gotta take a stand - then I won't and you must.
+        There must be solution - no solution you correct it - then do it yourself.
+        But corrected it to avoid escalation and small work and huge reward to be reminded afterwards.
+        Help from sanskrit teacher - simple solution - change 1 row column entry alone others would match but clerk was somewhat incompetent to see that possibility.
+    Money usurped from teachers exam duty.
+        escalated to principal and he remembered it with grudge.
+        Should have threatened him implicitly - what's wrong with governance we must escalate it.
+    Beli Ram gave tea to principal in very lousy way 
+        principal unhappy with abysmal service told mama about it - who was in charge.
+        Madam what to do I had winded up - go ask forgiveness from him explaining your situation else he will send charge sheet for explanation.
+        He followed and it was resolved. And also brought mama in good light.
+        Madam you are in charge - said yes loudly cuz that gives impression - gave service but must pay
+            else you come under their debt - take it or else we won't come again.
+    Syami's friendship with tuck shop owner for same reason and of course for empathy.
+Sume - HR kinda person said - Manager nobody wants but coding everybody wants.
+    Market is hot so obvious that you are getting many offers.
+    start up - more close to technologies - need 20 hard core people from premier institutues.
+        engineer somewhere around the corner in MNC is possible.
+    Don't take shit from nobody - if 7 saying if you can do it.
+    My work is actually combination of capabilities.
+    Opposite of start up is established not MNC. Opposite of MNC is localized business.
+    Don't get increment thru comparison - yes, it is bidding but not explicit one.
+    I am earning so goddamn less. So, veredict is very clear.
+CS - Mockito
+    without framework annotation - mocked class object gives null pointer exception - so add @RunWith(PowerMockRunner.class)
+    we must always use doReturn with spies and not when thenReturn - but there can be exceptions to this.
+IQ - We don't announce our team's weakenesses - that gives bad impression.
+CS - Quality - sonar-project.properties with all sonar config information.
+IQ - He doesn't like so much Bureaucracy so over mails also he discusses and communicates besides the tool.
+    Ask bold questions and then justify the intent with something else.
+    But probability will have only such eg thus many effects and probability of cause being something will be high.
+Movie - Martyrs
+    means witness - pain and suffering imposed 
+    Be victim (fear, ?revenge, imagining problems) or transcend (let go and accept).
+    something so beautiful and beyond humanity that she chose not to tell anyone and kill herself
+    what Anna told her was too terrible for her to live with
+    Removes all cosmetics as useless, exclaims that it was unambiguous and that does not want to tell and dies.
+    In horror movies, all characters end up being martyrs to this cause for us, the audience members.
+    We witness their suffering from a place of complete safety; we're never victims ourselves, nor are we the monsters.
+        What are we willing to do to someone else--even someone fictional--in order to experience this euphoric sensation of a transformation-by-proxy
+Movie - The passion of the christ.
+Movie - Blue Valentine - relationship that won't work.
+Movie explained - irreversible, audition, The girl next door, etc.
+SocialErp - Now a new thread will start - SocialErp also means how soul in material world will behave.
+    We have to not just do grats in PIES but also grow socially thru our services in VA (This is beyond seeing VA for PIES grats)
+SocialErp - Family lessons
+    Bauji was very learned and we could learn a lot from him but took him for granted.
+        Don't repeat the mistakes of past whether SocialErp or HomeErp.
+        We learn throughout our lives - so yes we are not perfect - this is humility. Ignorants think they are the best.
+    We have very great resource of intelligence - but what are we doing with it.
+        Great cause - Newton saying I am just collecting sea shells and he was right.
+        Noble cause - People obsessed with finding life on planets. Medicines, etc.
+        Not utilized - What use is the intel that was not utilized. ?It was a wasted resource - it would have been ok if we didn't have it.
+        Wasted (or spoilt) - there are so many places to waste our intelligence in. Degrade ourselves and society with our assets.
+        More
+            world is endless - it has avenues for the best and also for the worst.
+            ?How unfortunate it is that we have made TV as our guru - all greedy people with their 4 defects and biases start to teach us their ideologies.
+            We sell ourselves to not even our own family heritage, to speak nothing of spiritual potential heritage and get socially manipulated. How unfortunate!
+        May we find the best direction for our intelligence.
+    Kshama shobhati hai us bhujang ko - never leave all poetry we have studied.
+SQ - Spiritual maturity to realize that impersonalism is worth respecting, so is atheism, buddism and all.
+    But subscribing to them alone may not be in our best self interest.
+    Learning to respect all jivas in different roles they are serving in.
+    There are people who have dedicated their lives and perform serious tapasya on the path so please a little respect.
+    1 thing is to realize that they have rascaldom (or 4 defects) but another that they have a genuine evolution stage and every stage is worth respecting if you are sincere [lover of trans]
+SQ - Unfortunately people take their spiritual lessons from immature people.
+    Immature cuz they have done no discipline study or tapasya to qualify to comment but their feelings are enough a criteria according to them.
+    People based on feelings wanna make karna a hero - no disciplined scrutinized study of shastra is important to them. Why should we take our spiritual lessons from such shallow experienced people.
+    Is our spirituality that cheap that we take lessons from Tom, Dick and Harry after learning from our most honorable parampara.
+Logs - Story - Kamsa why he kept Vasudev and Devaki together in mail sent to all - I answered to the author alone.
+Logs - Radheshyam Prabhu given garland and sometimes unfortunately we think envious but we are his product - his praise is our praise.
+    But we need to evolve so no problem.
+PIES - there is a parampara system in SVAF.
+    We have an ashram parampara (Family, social state or nation), Varna (Our stream is jnana and school college is sampradaya)
+    so with spirituality.
+    We have to do justice to our roots and serve either as a beneficiary of our gharana or carrier of legacy.
+    There is Rin (debt) associated with all the sampradayas to be paid as dakshina and most importantly as legacy.
+EQ - Even HCM or entertainment which is like SRM from society in entertainment is also one valid source.
+    extremes to be avoided here also and principle of yukta is important - neither too less nor too much.
+    What's too less - disconnect from society. Can't co-enjoy with our social circle.
+    What's too much - that exploration which does not serve me spiritually or socially.
+Logs 
+    Papa answered properly to bade papaji regarding clarifications on keys not given to jawai.
+    Mama witnessed fans twisted by asr team.
+    Mama's encountered with girls full of lies but street smart.
+    Papa on narratives to the story.
+PIES - 12 rasas (4+4+4)
+    Primary - Senior (Vatsalya), Junior (Dasya), Equal (Sakhya and Madhurya)
+    Secondary Art - Creator (Fan or Shant), Creation Quality (new - Surprise), Creation Scale (Grandeur - Adbhuta), Trivialization (Humor or hasya)
+    Secondary Drama - Predator (anger), Prey (daya), Prey self (bhayanak), Savior (Hero or veer)
+    Action Item
+        Levels - 1st hand, 2nd hand (witness it in others)
+        Gotta cultivate Drama stories, And ack arts around. And participation in relationships for Ashram (Seva in VA).
+SQ - There should be times when I am open to question everything in SMY with suspicion or skepticism but if I make it default or unbridled then sp growth can get stunted.
+PIES - Rasas essence.
+    General Primary - feeling of love. Behaving as one is underlying thread.
+    Senior - Vatsalya - Making your photocopy - represented and living thru your dependent. SM or teachers included, etc.
+    Equal
+        Sakhya - cluster of similar for some co-achievements with value additions to final art (peers) or each other (client server)
+        Madhurya - compatible relationship for co-achievement as complementary units making individual more complete.
+    Junior - Dasya - Pride of contribution to highest cause.
+    Secondary being specific emotions triggered thru definite patterns in stimuli.
+    One goal is to create streams of this mental gratification thru proper management and skill development - Skills, knowledge, Attitude (ASK).
+PIES - Essence of IQ grats being achievements at different granularities with roll ups and drill downs - streaming at different scales - hour, day, etc.
+PIES - SVAF at social layer is different and the next level after doing PIES for personal grats streaming and maximization.
+SQ - no1 can boast in face of prakriti.
+    laws are stringent - if 1 does not have a positive hook, world and even subtle resources can potentially lead us to breaking bad.
+    SP said my disciples are not sufficiently afraid of maya - we should be - this only helps us in our KC.
+    This should be our topmost fear - fear of Krishna's mahamaya.
+    That way we also get to positively and best approach Krishna outta fear (FDDL).
+CS - Kafka - https://stackoverflow.com/questions/51375187/why-kafka-is-not-p-in-cap-theorem
+Sume - GreyScale AI.
+    Summary - Recursion based first question - Recursion based Tree traversal. 2nd question was just smart (difficult for one who has never thought of this idea). Practice would do it.
+    Work culture - multiple threads with handovers across silicon valley team and Indian teams every morning evening.
+        no customer yet but someone in a role can better tell - so startup with an investment.
+    Problem 1 - Flood Fill the image - color code all the neighboring pixels with the same old color values (0-255) as the point's color (0-255).
+        Recursion to solve it. Make sure to not visit a visited pixel again.
+        Recursion continues as long as any of 4 neighbors has same color value.
+        Stopping condition when no unvisited neighbor found with same color code.
+        func(int[][] image 0-255, Point point.x.y, int color = 0-255);
+    Problem 2 - Traverse thru the list containing numbers from 0 to n-1 in array of size greater than n.
+        Write down all the repeating the numbers (twice at least) in linear time and without extra space.
+        Without linear time - then sort and perform.
+        With extra space I can go ahead with hash table approach.
+        How to remember if I have visited some number
+        answer thru its index - mark the number against the visited number's index as negative.
+            as soon as 2 appears first time - the index's number is marked negative.
+            If It appears again - we can see the number as negative and conclude that it has appeared again.
+FND - NFP - 80 reasons to evolve beyond - an exercise to engage intelligence which may grow weaker (discrimination and determination)
+    Dopamine saturation - no incentive left for big achievements in life.
+    Confidence is affected.
+    Induces lots of lack of sleep and unrest.
+    Unwillingness to take interest in real women.
+    Playfulness replaced - I would rather go play some sports with that time.
+    I can perform exercise and make myself stronger.
+    It has lots of inertia and won't let you grow easily.
+    I have past of yearning my way out of it.
+    The apathy it causes has shown worst of days.
+    It gives tensions which are simply distractions from something higher.
+    Spiritual progress is greatly limited by this.
+    Foggy and cluttered brain - rather than organized understanding cuz of genuine investment into subject of interest. So, worse recall.
+    Days become formalities and not filled with willingness to do something more than normal.
+    Jeevanam Bindu rakshanat, Maranam bindu patanat.
+    You feel weak after that.
+    There is a guilt and sorry after every iteration.
+    It appears innocent but is an enemy in disguise cuz of all the bad it yields.
+    All breaking bad stories start with good or innocent intentions.
+    If we don't do the right, you should know that this is the foundation principle of many horrific crimes worldwide.
+    Many people claim that it makes you weaker at all the layers of existence.
+    There is eg of so many stalwart personalities who harnesssed the power and became great in history.
+    Even contemporary times, wrestlers claim to get extra strength, aggression from proper channeling this force.
+    Do we want to be like Hanuman or the crow in Ramayan.
+    Even the demons during the phase of cultivating power used this force to their advantage.
+    Nepolean Hill's book scored extra after addition of this chapter.
+    Love is subsided under selfishness.
+    It is objectification of jivas - the very thing that I disapprove of when animals are mistreated.
+    This does not let the best emerge from subjects cuz they are seen with that vision - but they are much greater than that. They are jiva souls.
+    Subjects are culturally forced to act like that cuz there is a demand created.
+    Subjects lose their innocent humanity - fearing that their family should not see them like this.
+    It is hypocrisy in our spiritual practice.
+    pythogorus told students that they could do it iff they wanted to be weaker than themselves.
+    The desire for service attitude does not come cuz this wolf is not fed.
+    It feeds the bad wolf - it becomes more difficult to control it in future - stronger impressions and tendencies.
+    This stronger wolf revisits in sincere hours and create a mess in a legimimate sincere endeavor. Just like Rakshasas in Ramayan.
+    The danger of 7th offence - spiritual practice taken for granted as broomstick for cleaning our mess - that won't be good when taste or medicine is denied or works less effectively.
+    With this purity, we become blunt to spiritual realities - we will start projecting basal nature in understanding subtlest realities. So, we will become alien to our spirituality.
+    Character build up becomes difficult at best and scandalous at worst.
+    What makes a wuss - he is not interested in the field in question but why is he not interested - cuz he is interested in something else - why is he not there then - cuz that place is escapism and not expertise.
+    Sadhana is sidelined to again come back to working condition - eg you can't wake up early to do something.
+    Tendency to postpone the real head on problem solving.
+    Tolerance (of any kind) becomes reduced - inebriation destroys the principle of penance which needs ability to tolerate.
+    It also destroys the principle of cleanliness - unclean body, unclean mind and in turn, unclean surroundings cuz of reduced incentive and unclean dress.
+    It feeds MOI characterised by willingness to get a reward without any endeavor - so always trying to hack into rewards and not pay the price.
+    You feel like you have lost all control - drishtva eva atmani ishware does not happen.
+    External victory comes from internal or personal victory - as told by Tukaram to Shivaji.
+    Self controlled man will yield best of armies - said by historically recognized men like Nepolean or so.
+    You ignore even other kinds of fallbacks - like entertainments on other layers of existence and thus, your overall enjoyment of life is reduced.
+    You ignore legitimate track of same enjoyment instead of simulated one thus no excitement or curiosity left.
+    Your grats benchmarks of it rise leading to reduced interest everywhere.
+    It contaminates higher layers to start with intelligence and breaking bad starts - you don't realize when it happens like crocodile movement.
+    In such self obsession even spiritual practices simply show the face of fanaticism only cuz such person won't even have discipline of systematic study.
+    Reduced discipline and dedication in life - you don't wanna work like formality to finish things and not doing things artistically.
+    An act of lapse of determination and discrimination - becomes an acceptance criteria for the future cuz you said yes at that time.
+    intelligence is like a wall here and if it is breached, Our confidence in ability to withstand it next time gets shaky like batman trying to get out of well - failure becomes acceptable.
+    Imagine our mind's thinking feeling willing tainted by lower nature - the higher pleasures become difficult.
+    You can't maintain an intellectual session with a woman cuz you are constantly distracted by lower level details.
+    Your imagination or possibilities frontier gets restricted by the willingness which is contaminated by the prevailing attachments.
+    Hatred shows up for a group who are not even worthy of it because of your internal conflicts.
+    Your sense of self worth is reduced. You can't see a greatness magma inside you, ready to burst as a volcano.
+    Your efforts are minimal to do the needful and not requiring full dedication of an artist.
+    Your associations determine your actions, thoughts, desires - what are you cultivating? Need an effort to raise the bar and associate with worthy and VIP folks.
+    What you associate with is a strong determinant of your future - so how does your future look like - I surely hope you don't want to be an escapist.
+    Our future lives is greatly affected by our actions and associations in the present - with so strongly attached to such things, probability evolved life is reduced in comparison.
+    What possibility human life holds - even Bhishma, already vasu in past life, became a mahajan, so evolved in further. Normies can become Krishna homies.
+    tripod of mind, seed and prana.
+    vicar, dharan shakti.
+    What a great wastage of human endowments or resources it is that we are ready to misuse it, while these resources could help humanity socially and spiritually.
+    Laws of nature snatch away the misused human endowments, we surely don't want to live a more restricted life - rather we want a more freedom based life. Cow with great circumference is better off than short one.
+    Many people have witnessed a very strong linkage of it with depression. And e1 knows which alleys depression can take a person to.
+    Your physical and mental benefits grow; web is full of successful stories.
+    I would rather release dopamine, oxytocin, endorphins from legimimate source after paying the price than have it for free; there is nothing called free lunch.
+    My personal space should be full of making myself better and not worse or remaining same as before.
+    It's time to increase our services through increased service attitude and scaled it to social scale thru all granularities. Enjoyment mentality is same high traffic boring road.
+    Our time should be spent on studying the super awesome scriptures from our acaryas with such fine understanding and not chewing the chewed - the combinations of the same old.
+    The possibility of aaroh panth in scriptures is also very encouraging - it will benefit us and also the society if applied right - why waste life in 5 tattvas' 1 concrete mixture.
+    Story of Liquid beauty - this is what we are attached to - it's only the packaging - inside is all substances of pus, mucus, bile, blood, bones.
+    The power of it is so strong a person willingly jumps into the fire to burn inside it cuz it's pain in the womb of pleasure. It's a lion hiding in sheep's cloth.
+    How degrading it can get that it will make a person see VA relationships with sordid stories from worst of wuss. This degraded life becomes a new normal for people cuz they know nothing better - like common cuss words.
+    Our senses, mind, intel, ego and soul or ourselves deserve Krishna installed on its seat and it's also the best bet. Like Rukmini said this prey or rather cub belongs to only the supermost predator and not puny jackals.
+    How unfortunate it is that soul in the alien nature is attracted to pretty looking glass and forgetting the jewel that he is truly worthy of, which is closest than the close.
+    You promise but don't deliver cuz no clear head to put into something with determination.
+    It's easy to stop but very difficult to start. To resume is still relatively easy.
+Sume - GreyScaleAI - Questions to be asked.
+    How many customers, Weekends off, Day work 12-14 hours, technology stack.
+    JD, Job responsibilities include CNN creation or openCV or not.
+    What all will be the expectations.
+    Ambitions in short term features.
+CS - Quality - Mockito stubbing concepts.
+    Don't change the existing working code a lot - only extract methods as protected and create stubs or adapter classes for these protected methods.
+    Now use these adapter classes to perform your tests - this will guarantee full code coverage and thorough testing.
+    This also enables us to escape the use of powerMock.
+    This is a great idea but won't apply to scala directly cuz objects can't be overridden but we can still to do it by making it class or by using null checks but ignore them for now.
+    So dependency injection can also be solved thru stubbing the whole class to be tested.
+IQGrats - Understood Statespec by just some KT session and exploration and logic in the code.
+Logs - Taking revenge from children cuz they laughed while they didn't get good treatment - making them choke. Not good.
+Logs - Kanwal mausi once insect entered in ear. Rat bit on ear.
+Sume - GreyScaleAI
+    Problem - given employee, dept, salary tables find the top 3 employee salaries. join and order by desc with limit.
+    Problem - find the longest path from any given cell of a matrix until we have unit or no increase.
+        Actually it's a standard DP problem but we can also think along building the ideas.
+            Idea is have a DP matrix - start from 0,0 and recursion of 1+sideCell's value if constraint is met and 0 when outside matrix boundaries (base case).
+            So, it's a bottom up DP or BnB with memorization.
+        gotta use recursion to traverse - done already.
+        gotta use DP for finding the longest.
+            That will be involving and unnecessary cuz it won't help - can't reduce a problem to it.
+        so better go for backtracking and then improve the top down approach.
+            the problem of visited - maintain local visited array for all of them.
+            we can think of keeping track of largest from a node already (using tracker table) so as to improve performance.
+            that way this can be a DP problem - memorization stored in the matrix of same dimension.
+        Evolution - first immediate check, then recursion to find 1 sample path, then find the best path.
+            then improve the time complexity thru memorization.
+        Following solution was given.
+        Class Point {
+        Int x;
+        Int y;
+        }
+        int [][] visited = new int[mat.length][mat[0].length];
+        Point[] bestPath = new Point[max.length*mat[0].length];
+        Point[] path = new Point[max.length*mat[0].length];
+        Int Count = 0, maxCount = 0;
+        Int pathSize = 0;
+        maxLength(int[][] mat, Point point, Point[] path, int pathSize) {
+            Count++;
+            path[size+1] = point;
+            Visited[point.x][point.y] = true;
+            System.out.println(mat[point.x][point.y];
+            Point[4] neighbor = new Point[4];
+            Neighbor[0] = (point.x-1, point.y)
+            Neighbor[1] = (point.x+1, point.y)
+            Neighbor[2] = (point.x, point.y-1)
+            Neighbor[3] = (point.x, point.y+1)
+            for(int i=0;i < 4; i++)
+            {
+                if((mat[neighbor[i].x][neighbor[i].y] == mat[point.x][point.y]) + 1) || (mat[neighbor[i].x][neighbor[i].y] == mat[point.x][point.y]) && visited[point.x][point.y] == false)) {
+                    Visited[neighbor[i]] = true;
+                    Count, path = maxLength(mat, neighbor[0], path, pathSize+1);
+                    if(count > maxCount) {
+                        maxCount = count;
+                        bestPath = path;
+                    }
+                    Visited[neighbor[i].x][neighbor[i].y] = false;
+                    Break;
+                }
+                Count--;    //unnecessary
+            }
+            Return maxCount, bestPath;
+        }
+        https://docs.google.com/document/d/19uirWSkmB28KFA8QtEaQ3gZB0vx3zi-BTxR81VBxQtg/edit?ts=60c2d663
+    Problem - Questioning your very use case.
+        Why not use drill already - cuz it just lets us query thru an sql engine at design time specification not runtime.
+        What's the difference between these engines - Drill is for design time flex, presto vs hive is not known to me, hive and spark are different engines.
+            Hive started supporting on spark also but later on that.
+        This is unnecessary as they would have done it - no, one thing is to improve arch internally and another to check them out of the box for different queries.
+        but query will behave differently for different DB states and queries - queries are already characterised in terms of constructs.
+            DB states we used TPCDS for standardization.
+    Startups don't want sythesis route to a solution but standardized things
+        like reverse this linked list now
+        perform DP on this standard problem now.
+        nothing wrong with it - it's just how they want it to be that's all as per my observation.
+Sume - Joining Startup at this stage
+    will be foolishness at top level cuz that will
+        malign my career graph.
+        make it appear less important - names make a difference be it college or company.
+    First of all name of the established MNCs always make your resume attractive.
+    Techs matter much lesser than DSA and system design.
+    Also, why I stayed at SAP - cuz of respecting faith and instill self confidence in myself that I really serve the best whoever I join.
+    Of course, startup is MOP culture which is somewhat desirable but it will affect my association with J if K is too darn demanding.
+PIES - Life choices criteria (Very important)
+    About - nomenclature - choice means immediate path pick and decision means final carved goal and all other possibilities cut out.
+    My ashram choices have always been subservient to varna - I stayed wherever my varna could be done best.
+    Why I stayed in Jamshedpur cuz that was best for my varna.
+    But st varna decisions also made subservient to spirituality - like stay at VOICE or YOGA at the locations.
+        Varna best could be sth else but chose another. St ashram best and varna neutral vs spirituality best then also I chose spirituality.
+    So, In decision making also spirituality has been and even should be the primary criteria
+        but of course, 1 can override it.
+        Not that I want to stay at another location even if there are no IT companies there - there better be suitable atmosphere for varna and then decide best for ashram.
+    1. So, always decide based on priority and n-dimensional space skyliner - best for spirituality, best for varna, best for ashram.
+        skyliner is an important concept here. st varna a little good but ashram a lot good with a certain choice.
+    2. Next, very important consideration is decide based on the end result you wanna see. And dijkstra's shortest path to that.
+        There is nothing wrong with any choice - there is no right or wrong choice but only repercussions.
+            We have this exit or config in the framework of things - starting a new business which favors your interests in a company is not easy
+                vs accepting the one which favors your interest is easy.
+        Future is invisible no matter which choice we make and can take us any ride - that way it is not a DSA problem but AI problem with heuristics.
+        All choices will always be based on heuristics to better our long term best self interest (shreyas and not just preyas)
+        every choice is valid with pros and cons wrt different goals (money, stability, fun, IT, etc).
+        Visualize the final desired picture in your head and think which choice best serves the interests to my final desired picture (dijkstra approach but also greedy approach in light of intended outcome)
+    All other alluring choices become difficult because of lack of maturity.
+        Eg - offer of 45 lakhs in desired place which is not even spirituality or varna favorable
+        in lack of maturity, we may think that greedy approach is to grab it but that may not be the best self interest.
+    My life decision (as of now) is not to maximize along a unique dimension but to expand along PIES dimension together with mutual applications and wisdom.
+        this makes for a very fulfilling life in both bhog and seva.
+        It is seen that being topper in any 1 Dimension sometimes comes at a cost of sacrificing something in other Dimensions.
+        sometimes people take this assertion way too far but there is some truth to it.
+        It is better to be among the best in all the fronts - why should you be outlier until really necessary - be the top 3% of normal distribution - that is already awesome.
+        Life is not a competition but I wish to convey the idea.
+        Hardcore materialists ignore spirituality dimension in pursuit of some of PIES which are all natural for the jiva.
+        Hardcore spiritualists ignore jiva's natural tendencies to express themselves in conditional world cuz of which they sometimes again get attracted to world.
+        Healthy spiritualists maintain spiritual practice as recommended by BG - taking care of SVAF 
+            until at sanyas stage, one is so much evolved in constitutional state that the worldly tastes are redundant and no better.
+            Actually the goal is only SQ but it won't be sustained in the marathon without PIES balance. So, 1 goal is evolution of consciousness and way to do it is balanced PIES.
+CS - Writing code is bottom up construction and ticket solving is top down from functionality to arch to code implementation.
+    That's why both of them together serve as a great combo.
+IQ - CS specific - Learning
+    Ticket solving helps with top down understanding
+        First premise for this is all that is told is all that you need to know
+            Be it - functionally (customer view), Architecturally (system and app design) and implementation-wise (Programming capabilities and APIs)
+        For all exceptions, Be upfront at asking details.
+    Implementations helps with bottom up.
+    All KTs and discussions bridge things in the middle.
+    Personal Explorations paints everything getting darker with every iteration.
+SQ - Soul is sat cid ananda and body, mind are all dead anyways - then who is miserable in the material world?
+    Soul has a constitutional nature of sat cid ananda 
+    but in bahirmukh state when soul's consciousness is projected to matter
+        like person identifying himself in the movie experiences movie emotions.
+        The person is not himself but sth else - sth alloyed like mud in contact with water.
+        soul experiences are wrt conditional reality and conditional reality operates by its own arrangements.
+    another perspective is that jiva wants matter to behave as server to himself being client or beneficiary like for Krishna.
+        for Krishna all jivas, all prakriti (energies) are the servers and he is the client or beneficiary of different rasas.
+        when we don't get the experience of the bhoga vritti expressions (proprietor, controller, enjoyer, well wisher), we suffer.
+        Why soul suffered cuz of wrong expectations; why expectations - cuz trying to be Krishna or beneficiary of eth.
+        why sat cid ananda soul thought of expecting anything outside of itself - bhoga beejam eventually bhoga kutam (sanskars and vrittis)
+        bhoga beejam may have reasons beyond the scope of comprehension and ability to relate but it's revealed as causeless unwillingness - like rich wants to eat poha.
+    Therefore, the problem is caused by not just being bahirmukh (that's natural in conditioned state) or enjoying mentality but both combined.
+        but seeking enjoyments (disease or infatution of the jivas) from the conditional reality, thereby, breaking 3 peace formula aspects.
+        and this realm although inferior to marginal energy, doesn't operate strictly under marginal laws but superior energy's laws.
+        we just wanna take advantage of the existing laws and create a stream of enjoyership aspects by manipulating them in our favor.
+        which is bad?
+            not necessarily bad (only potentially) but whimsical. Ishavasya idam sarvam.
+            Like any manipulation of object outside of its intended purpose is risky 
+            at best is substandard usage and at worst is dangerous at different granularities of being (personal, group, social, spiritual).
+    why is soul subject to this 
+        cuz beejam has to be given a stimulus by supreme merciful Lord.
+        So with projected consciousness and bhoga beejam, soul suffers like kasturi mriga looks for fragrance outside of itself.
+            The actual pleasure is in itself - service, the constitutional nature of soul - jivera svarupa hoye Krishnera nitya das.
+        So, soul needs service for pleasure and is not constitutionally pleasurable - no, the 2 are not separate but in the same package of soul's nature.
+            Then why is enjoyment not constitutional - actually it is constitutional being part and parcel of Krishna but when misdirected independent of Krishna then it causes misery.
+            Then the real problem is why jiva thought of pleasure outside of Krishna - causeless unwillingness as answered b4 but it's beyond scope of comprehension.
+        The spiritual reality is beyond the scope of comprehension
+            although it is relatable cuz it's us only but covered over with conditional reality
+            we will strongly adulterate it by mixing our conditional understandings.
+        Why jiva can't just get antarmukhi immediately - this switch is gradual like everything else in nature
+            Krishna won't give it cheaply (it's not meant to be a child play)
+                show that you really want it and you get it.
+                Does maya test e1 -
+                    it's more like laws of physics and psychology along with internal energy
+                    presenting configs and exits in life to write Krishna or choose Krishna - in terms of favorability and willingness.
+                    Again there is no wrong answer, only answers which are not best to take you thru evolution towards Krishna like choosing 4 regs breaking.
+            That's how everything is supposed to work even in material nature - gradually you increase investment and increased rewards
+                you want to proceed further then increase your investment 
+                and stop if no further - but you won't do that - that's a separate thing.
+                This is what we do through meditation and BJDK practices.
+        Why is it not public in nature - why is spiritual progress private 
+            cuz that's desirable for SVAF equilibrium of the world.
+            Krishna is complete and so is everything that emanates from him
+            and so is the process to return to him.
+SQ - Bhishma was a vasu but what he made thru his life is exemplary.
+    Life is meant to be whatever in terms of framework and choices - these choices make difference.
+    of course, as per rule you gotta go back to heaven when you come untimely to earth for a life.
+    but his consciousness went way ahead of heavens - that's what makes him mahajan.
+SQ - Attitude towards conspiracy theories vs pop
+    there are lots of conspiracy theories 
+        and some of them could be from social engineers 
+        and very few could be genuine as well (basically a real leak)
+    See RSP, perspective is very clear avaroh panth is our way and use aaroh wherever appropriate.
+        For conspiracy theories support it will only give us a label.
+        Similarly, using what's popular can also be done.
+    We who have lots of aaroh training also should think rationally to decide everything 
+        but ultimately, we do what the essence is - cuz this confusion is characteristic of age of kali.
+PIES - In our Ashram parampara we learn ERP from our home tradition and carry it forward.
+    All rasas are covered as a part of this lineage or parampara.
+    We learn SocialErp, HomeErp and PersonalErp can be thru n sources.
+    Friends and complimentary friends take application side of your ashram and also contribute to it.
+    Dependents carry forward your lineage.
+    Of course, there is some mixing with every stage in parampara
+    but that's required in its form as per TPC and internal and external MMN but not substance.
+    So, b4 understanding how to forward it, we first need to understand what it is
+        not just generic HomeErp but also also specific uniqueness of our ashram (at different scales or granules - personal, home, social)
+        with lineage undesirable elements should also be stripped down and desirable elements should be picked.
+    This lineage runs very similar to other lineages like for varna and spirituality.
+EQ - what personality traits define our home. Make a list of them - are they not same as scriptural good things?
+    Not really - first of it's not all of them and it's not each of them in their purity.
+    There are gonna be meta discussions at home for what we stand for - in beliefs and values
+        and what we would do given different situations based on those values.
+    Like belief in decision criteria strongly considering science or aaroh panth or research papers or pop culture or so on.
+        what value is this? being rational wrt already done research.
+        Yes the research can sometimes mislead 
+            but that's the price we are willing to pay for the belief
+            some may be close minded to even ack this.
+        This could be a quality not stated in scriptures.
+    Things are dynamic and not meant to be listed
+        eg - emotion vs rational - it depends is the answer.
+        But still there are some god values - not each one of them are meant to be listed.
+        But this self awareness can be very rewarding in decision making like recruiting a complimentary friend.
+        but just awareness of them with a value statement ensures that you achieve your ashram goals.
+SCMProd - Paneer waali jalebi.
+PIES - Abstract ashram parampara is coming from scriptures only (or self help) but concrete from how we handle some of those principles practically like guest comes.
+    similarly abstract varna is also from scriptures or self help.
+    master VA - comes from so many sources like college, videos, etc.
+SQ - Leap of faith for Krishna - what if it's not as expected.
+    I don't wanna invest so much on Krishna - what if it turns out to be imagination or anything less than hopes.
+    yes, being avaroh it needs leap of faith. But sensible, verifiable and milestone checkpoints based.
+    Also, the stages of yoga are not just on personal front internally
+    but also externally growing in personal, home office, social, spiritual realm.
+    Even if spiritual realm turns out to be imagination (which it's not), still we have to traverse thru other checkpoints.
+    So, have bhoga and seva for person then family then social legacy (now and later).
+    KC is best approach and study (BJDK) towards life at all these levels of evolution.
+    KC is a chamber dictionary of all the different schools of thought - not just bhakti religions.
+    Our problem is only with animalistic ignorant whimsical gratification, we are not against systematic yukta DAKM.
+    We are animal without VA - that's the message of vedas. It's not an idea sprung from humans - even if it was Philosophically this is correct.
+    And also if it's any consolation, blunt eyes are meant to see few of 5 material elements not even other gross and subtle to speak nothing of spiritual Krishna.
+        This is a path of antarmukh - it's not easy or trivial - all yoga practices will help you dive deeper into your own reality and also the supersoul.
+    Also, seeing is of no value, cuz we can easily underestimate.
+    What we want is evolution of consciousness from gross to supersoul. Or Annamaya to Anandmaya chetana.
+    So, application wise, we are meant to become leader in homes and then society in SVAF so persevere for that b4 we make it to godhead.
+    This leadership can be as per your varna of interest but you must be a leader in all SVAF.
+        social mastery or leadership is preceeded by personal mastery.
+        Master phase will create lego blocks and transactional phase will connect them in all possible ways of graph to make sth interested.
+        The input for transaction would be all unit capabilities across SVAF.
+        Analytics is also a requirement for leadership.
+    Leadership in eg, in guidance, in practicality, in completeness, etc.
+SQ - NFP - Very Important - learn to call mind as entity separate from you even you energize it - that way you will disown your sanskars and vrittis.
+    My mind is urging me to act in MMN but I won't.
+    Maya tests in generic way (not sure about specific way) thru internals (MMN in mind to be overcome) and externals (situ and ppl pushing towards some MMN behavior).
+    These tests need to be overcome.
+    Adding wise moments is easier than removing all unwise moments - so focus on what we can do - COI vs COC.
+    For unwise moments, keep and maintain the fight while and aftermath - big data batch and streaming and all previous prayashcits.
+    Anartha Nivritti is never a stage we must finish in order to go ahead - it's an ongoing stage which gets weaker over time.
+    What I need is not just push myself (although engaging MOP in SVAF is good), but a pull in each SVAF.
+    The decision to be a leader (which every KC person is supposed to do on their path of evolution) will ensure that there is a strong pull.
+        How it will look concretely is your choice no pressure there.
+IQ - Docker, spark, etc are software development companies themselves
+    and all the specialized roles are like becoming their customer
+    of course, they are leading players in distributed computing or so but not the only ones.
+    Getting specialized in these may have its advantages and depths but we can also be a user of these for sth larger than justed intended usage.
+CS - Docker
+    Docker fits in deployment - in itself it is a full stack application.
+    frontend backend workers, DB, env, libs dependencies.
+    Any application also has these and and all of these should work across machines.
+    This problem maps to shipping problem many years ago - how to transport different goods, different sizes, shape and requirements.
+        trucks, packaging, expert labors, medium of carrying.
+        App focusses of making app and putting it in a container and that container will be shipped anywhere to different platforms - docker's responsibility.
+        This revolutionized shipping industry.
+    If it doesn't work in production, it must not have worked during development as well.
+    Workflow
+        dependencies requirements in dockerfile to create image.
+        runtime instance of docker image is docker container and remote repo of docker image in docker hub.
+        pull images from docker hub anytime to create docker containers.
+    Docker is container platform - virtualization vs containerization.
+        Virtualization - Host OS, hypervisor, VMs (Guest OS (Space allotted), Apps)
+        Containerization - Host OS[, VM], Container Engine, Containers (lib or bin, Apps)
+    Docker is client server architecture
+        cmd or REST is client and on server, docker daemon which has all the containers.
+        docker daemon and docker client can be on same machine or different hosts.
+    Terms - Dockerfile, docker images, docker containers, docker hub or registry, docker client, docker server (daemon), docker engine.
+    benefits - simplifies DevOps.
+        portability - container made on EC2 - can change it to another.
+        isolation - no interference with apps on another container.
+        productivity - deployment becomes very fast and efficient.
+    Practice - https://labs.play-with-docker.com/
+    Pre-requisites - 
+        Connect to Linux - If not avaiable then aws free tier.
+            Use within limits.
+            Create instance - Don't launch but Connect / copy and paste in terminal for ssh.
+            docker manuals for more.
+        Install Docker
+            sudo yum -y update
+            sudo yum install -y docker
+            type docker - get options.
+            docker info - nothing to connect to.
+        Start Docker
+            sudo service docker start - starts the service.
+            optional (to create a user to avoid sudo et) - sudo usermod -a -G docker ec2-user
+            docker images - list all images.
+            docker ps - for all running containers.
+                docker ps -a for all (running or not)
+            docker run hello-world - to run a container
+                if not available then pulled from remote.
+        Stop Docker
+            sudo service docker stop
+        Uninstall Docker
+            sudo yum remove docker.
+        get.docker.com and docs.docker for binaries. Installation steps for ec2.
+    windows
+        use toolbox to install on docker virtual machine.
+        ...
+PIES - Yoga is life's essence (with DAKM as the medium or driving force) - Life is composed of following phases of yoga evolution.
+    About -
+        We need to deploy both aaroh and avaroh methods in BJDK to do this.
+        yes, we can't wait for the phases but there is a generic focus
+        mostly based on current working of society
+        Premature acceptance of last stage ignoring former stages can be immature.
+        our goal is to perform these stages ourselves and try to assist others in their phases (whether naive or advanced) thru BJDK.
+            sb doesn't want to take any assistance is their choice but ensuring availability is our part.
+        Love at transcendence is the ultimate essence but quite far off to aspire immediately
+            may not even be attractive in initial stages.
+            but our eyes should always be to improve on the next neural network layer of yoga in light of final outcome.
+        Every yoga phase suffers when the previous one isn't in a standardized and stable shape.
+            Eg - after 40, Leadership is necessary for e1 but a must in KC (evam raj rishayo viduh - this knowledge for kings)
+            actually others also can do - but it's somewhat risky for formally untrained and hence less refined or immature person
+    Till 20 - Personal Yoga
+        oneness of body, senses, mind, intel, ego, ourselves.
+    Till 40 - Group Yoga (Home Yoga, Business or office Yoga)
+        Seva brings oneness.
+        even enjoyment is best done as co-enjoyment and not independent enjoyment.
+        But group level enjoyments and services (and personal side should be subservient to it)
+    Till 60 - Social Yoga
+        oneness with society at large.
+        Leadership is a must for KC guy - actually others also can do - but it's very risky for immature or a person who has not got formal cultivation.
+        Legacy - society contributions thru SVAF - mastery already there, concrete transactional, concrete predictive, concrete prescriptive.
+    Till 80 - Spiritual Yoga
+        oneness beyond society - with God almighty.
+        And if aaroh alone, then realizations and standardizations thru life stories - Life analytics.
+        Abstract transactional, exploratory, prescriptive, etc.
+        Exploring inner, outer, meta and transcendental world with full enthusiasm.
+    Beyond - fine tuning yoga.
+SQ - Should we declare dependence on Krishna.
+    no, we should declare our independence towards Krishna (in parts to start with)
+    first 1 gotta realize we are always dependent on Krishna 
+        and that too in big hierarchy of dependence including direct one - origin, maintenance, destruction.
+        constitutionally we are directly connected with Krishna
+            in origin (part and parcel), maintenance (supersoul by our side), destruction (laws for navigation to next destination)
+        But conditionally,
+            if origin, we ain't directly coming from him - brahma, sage, huge lineage, etc.
+            if maintenance, there are heavenly planets in middle and then earthly masters, etc.
+            if destruction, there are different levels of destruction that jiva or bhautik prakriti goes thru.
+    second, declaring external dependence simply results in our navigation to MOI of MMN
+        this contamination at ego level is highly undesirable.
+    So, Should we never depend on Krishna
+        no, we can approach him on artharthi platform when sth disrupts our sadhana cuz that's our core.
+    Will Krishna take care of my meals or comforts?
+        he is already taking care thru agencies
+            and we gotta work in VA to access that.
+        actually even without VA he will like animals
+            but that's not even human platform to expect so.
+            and not appropriate for a person willing to evolve.
+            no1 should get victimized by MOI in the name of KC even by mistake - vinash eva kalpate.
+    this is not to be mistaken with taking shelter
+        taking shelter doesn't mean to sit in his camps like a refugee.
+        taking shelter or surrender means to do as asked to - like police says surrender doesn't mean sleep but act as I say. iow, to align is to surrender.
+        another way to see shelter is being under protection - so KC protects us from maya so practicing KC is taking shelter.
+    KC is not the path of taking favors from Krishna but to giving favors to Krishna
+        which we can't without his or his tadiya's mercy.
+CS
+    Every tool - Everything is software only these days - with backend front end and persistence.
+        Some tools are clients, some are stand alone tools, some talk to server on same machine or cluster, some just an input to the framework - spark, git, maven, docker, kafka, redis.
+            spark is not a server (but SJS is). Spark submit command tool - run thru ssh or whatever.
+                spark submit process reads the jar (uber) and with scala runtime executes things itself.
+                for spark context or session instructions
+                creates a new job (jvm) on a worker node which creates its tasks jvm processes on other nodes.
+                taking help from the yarn and hdfs all the while for space and heartbeat considerations
+                    which in turn uses zookeeper for cluster management.
+            kafka is server client like DBs - does it have a front end - for DBs there are many 3rd party front ends.
+            Docker has a client on the same machine as server - on linux machine like EC2.
+                docker remote or repo server also exists like git, maven.
+            Jmeter a tool not a server.
+            Jenkins a build tool but ?not a server again - it's a tree of commands to be executed and tested against.
+            CF is client server with front end for server as well.
+        ssh tunneling to access server - what it means in CS terms - at low level.
+        By specializing in a tool, we go away from our core software development line and work in specialized sector of an already built application from a company.
+        Working using only ML or spark libraries is like mostly working on business or managerial side of things instead of technical. And all software technicalities are below that layer.
+    tomcat is a program binary which starts a process with port listening making it a server called web server.
+        It has a jar inside its container whose classes are called after reading web.xml thru reflection APIs.
+        thus, tomcat is also a framework.
+        without tomcat we would have to write socket programming along with threading for get and post endpoints concretely with hard coding.
+        struts takes j2e with further standardizations of resource to application class mapping in a file.
+        spring is one of the best frameworks with web server support till now.
+    Application servers like for X4 for BYD encountered is misnomer.
+        actually they are application framework layers in the system and application architecture
+        all organized to form a beautiful masterpiece.
+        actually it's a metadata framework and many hierarchy of frameworks may be possible.
+        X4 metadata framework or platform and Foundation or BC frameworks.
+        Many frameworks in the ecosystem - listed but not organized here 
+            UI front end Framework, UI back end framework, background jobs frameworks,
+            PI framework, MDRO framework, OLAP framework, OLAP graph frameworks.
+            UI ECO mapping frameworks, BO Frameworks (BOPF, ESF2, Handcoded)
+            Functional area frameworks (like PDF)
+PIES - my group yoga phase has been done with full devotion
+    whether my college, company projects, team members, flat mates or family.
+    I have done devotion with full sincerity - giving TME extra.
+    My next path is to be architect - clear companies with expected neat and classy architectures.
+        All the preparation should also assist you in your architectural growth along CS life.
+        Like Full stack funtional details, DSA, Non functional aspects making you an artist,
+            System design, application design, Different tools integration and extensions.
+            Smartness aspects (algo, approximation algos, AI, ML and its applications, Distributed Computing)
+    In Ashram as per group yoga phase, I gotta be a leader and be an ardent contributor at home.
+        If I have a wife, then even cooking works, also can be contributed 
+        but these days such service attitude is a rare commodity.
+Sume - GreyScale AI
+    How many team members for the technical team or my kind of work.
+    Who is funding this product.
+    I didn't like the slave mentality attitude.
+        which is typical of startups.
+    6 month experience and then change. Or propose to do freelance for them.
+Sume - Samsung - Laptop dispatch.
+    WFH scene. Online onboarding.
+PIES - For decision making - criteria - 1 with the group OR I am the group.
+    Which statement gives you most grats and sense of service at higher layer.
+    being 1 with the purpose and 1 with people, 1 wrt shared rewards.
+    fully qualified to be one with - deserve.
+    Full desire to be one with - desire.
+    what is your acceptance criteria for being 1 with society or group.
+        in your full capacity - you represent that and you are that.
+    there is also balance of oneness - I have to balance oneness with one group along with that with another.
+    You can help the group, understand what they are doing and help them only when you are exquisite in your own personal yoga at SVAF.
+    If personal yoga ain't very strong then group yoga becomes difficult.
+        If group yoga ain't very strong, social yoga becomes difficult.
+    Evolution KY means eventually you want success of the group not just yourself.
+        still further you will want progress and success of the society you are a part of, at different grains.
+        eventually you will want success, progress and grats of spiritual self or super self or God.
+        evolution in KY is not narrowing grats but broadening them till the highest 
+        and in the proces, it has a bearing on reducing personal SG but far accelerating happiness or bliss.
+    That oneness target will become your identity - Like I am SAP, I am Siemens. I am Samsung, Paytm or Greyscale AI.
+        or I am Devgun (and btw, Bhaturia also).
+    This oneness in purpose is advocated by your interests to start with 
+        higher layer's interests needs and concerns coupled with your personal interests of intellectual gratification
+        Priority is to be seen - higher layer or addressing personal needs or interests.
+        Grow in bhoga and grow in seva - both together address thru grow in yoga.
+        How? grow in bhoga - not just in quantity or quality but the richness thru group yoga and so on.
+        grow in seva - not just personal seva in quantity and quality or group seva but growing henceforth.
+        which yoga stage the lower stage is assumed and already standardized. Like for social yoga, your group yoga is already good, that's understood.
+        In general seeing a variety of persons, groups, societies is a good training.
+    for every decision yes proximity for end result is the basis but this AI evaluation is itself a problem to solve.
+        consider all the factors along all the dimensions.
+        How can I maximize my gratifications wrt to group and also seva wrt group - that's what makes group yoga.
+        For varna I am talking intellectual grats and seva - grats is oneself wrt to layer and seva is oneself wrt higher layer.
+SQ - whether aaroh or avaroh, every has to have a reference.
+    if no reference is quoted, then it is meant to be seen as your understanding - given the premise of all your aaroh and avaroh cultivations.
+    best is to quote whenever possible - but only quotations also ain't enough - the presentation still has to be a narrative.
+    Be open to course correction if your understanding needs to be updated.

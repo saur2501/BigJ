@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CS>
     About - this is my DM PM take on different tools and everything. For details, refer to specific xml files - this is just few words for high level understanding.
+		expectation is to have a list of capabilities and features - it is meant to be top down and absolutely no need to go till leaves.
+		These are supposed to eventually merge with regular Organized Notes.
     <RnD></RnD>
     <Systems>
         <Platforms>
