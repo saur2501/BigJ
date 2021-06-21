@@ -60,13 +60,149 @@ abstract class DMPM {
         DBMS();
         DistributedComputing();
     }
+    void ProcessManagement() {
+        //Practical Power - shell create processes, delete processes.
+        //Create Threads and Threadpool, ExecuterService.
+    }
+    void MemoryManagement() {
+        //Practical Power - JAVA internally for data types, objects creation, garbage collection.
+        //malloc, free.
+    }
+    void DiskManagement() {
+        //Practical Power - Use file abstractions and streams.
+    }
+    void ComputerNetworking() {
+        //Practical Power - Sockets Programming
+    }
+    void FileSystem() {
+        //Same as diskManagement
+    }
+    void DBMS() {
+        //Practical Power - Tool for persistsence over V(CRUD)PM of data following ACID properties.
+    }
+    void DistributedComputing() {
+        //Practical Power - ability to do job's tasks across computers.
+    }
     void Shell() {
         int process, memory, disk, io, files, network;
     }
     void PlatformEg() {
-        Suse();
         Linux();
         Windows()
+    }
+    void Linux() {
+        Distributions();
+        Features();
+        FHS();  //Filesystem hierarchy standard - compartmentalisation, writability, sharability
+        FileTypes();
+        UserManagement();
+        FileUserPermissions();
+        SwitchIdentities();
+        RPM();      //DB, package manager, package - syntax of file - name/version/release/architecture
+        Libyzipp();     //facade over RPM for Yast, packageKit, zypper, etc - equivalent of yum, etc.
+        NetworkManagement();
+        StorageAdmin();
+        Shell_Suse();
+        ProcessAdmin();
+        ProcessScheduling();
+    }
+    void Distributions() {
+        //eg - redhat, suse, centos.
+        //under it flavors(opensuse, SLES), releases(leap, tumbleweed)
+        //phases - GA, SP1 (SP(k)), LTSS - every next SP 1/2 year b4 end of previous SP and 3 years extended support for all SP.
+    }
+    void Features() {
+        YaST();     // configure the network, storage devices, software, and most network services using series of modules like firewall, nfs server, sudo, etc.
+        UnifiedInstaller();
+        SLESModules_Extensions();      // eg - Server Applications like DHCP, DNS; Web scripting; dev tools.
+    }
+    void YaST() {
+        CommandLineNonInteractive();
+        CommandLineInteractive();
+        Graphical();
+        Non_Graphical_NCurses();
+    }
+    void FHS() {
+        //boot – boot loader files
+        //proc – virtual filesystem with kernel and process information
+        //sbin – system binaries - mount, ping, m5, reboot, ifconfig.
+        //bin – user binaries - sh, date, bash, kill, cat.
+        //lib – libraries - all softwares.
+        //etc – configuration files - ssh config, zshrc, zprofile.
+        //run – run-time variable data -
+        //var – variable files - McAfee, mail, etc.
+        //usr – programs, libraries and more - has bin, sbin, lib, src everything - like user environment besides system env.
+        //root – root user home directory
+        //opt – optional and third-party applications - my own downloaded binaries, installers, packages, libraries.
+        //home – user home directories - empty.
+        //tmp – temporary files - temporarily stored by any application.
+        //srv – site-specific data served by the system
+        //mnt – temporarily mounted filesystems
+        //dev – device files
+        //sys – information about devices, drivers, etc.
+    }
+    void FileTypes() {
+        int normal, directory, links;   //symlinks point to same iNode.
+        int sockets, pipes, blockCharacters, characterDevices;  //logical endpoint for process comm, comm of output of process over FS
+    }
+    void UserManagement() {
+        //user and group id
+        //etc/passwd, /etc/group, /etc/shadow - login:password:userId:primaryGroupId:Comments:HomeDir:Shell
+        //groupName:GroupPassword:GroupId:ListOfSecondaryGroupMembers; shadow has password hashes, last change, next change
+    }
+    void FileUserPermissions() {
+        //ls -l -> TypeNPermission:LinksAndContent:Ownership:FileSize:ModificationTime:FileName
+        //user, group, others X rwx - owner has rwx by default and others are set.
+        //standard, binary, octal notations; chown, chmod, chgrp.
+        //sticky bit - delete files under directory if owner of directory.
+    }
+    void SwitchIdentities() {
+        //SubstituteUser (su), switchPrimaryGroup (sg)
+        //privilege delegation - sudo (superuser do or substitute user do)
+        // /etc/sudoers maintains config for sudo use visudo to edit; required root privilege
+        //syntax - user/group host = commands
+        //permits user and command aliases as combinations.
+    }
+    void RPM() {
+        //options i for install, e for uninstall, q for query, U for update, F for reinstall
+    }
+    void NetworkManagement() {
+        //device, interface, link, address, broadcast, route.
+        /*System’s hostname: /etc/hostname
+        Local name resolution: /etc/hosts
+        DNS servers: /etc/resolv.conf
+        Order of name resolution services: /etc/nsswitch.conf*/
+        //ifstatus eth0, ifup, ifdown.
+        //ping, traceroute, firewall cmd and config - used by the graphics.
+    }
+    void StorageAdmin() {
+        //layers - physical, data access protocol layer, logical storage (device mapper, etc), block device, file system, file system mount layer (FHS)
+        //partitioning utils
+        //MBR and GPT
+        //supported File Systems
+        //commands - mount, umount, lslbk (list block devices), blkid, df (disk free space), du, lsof (list open files), fuser (list procs using a file)
+    }
+    void Shell_Suse() {
+        //most basic UI - bash, csh, ksh, tcsh, zsh.
+        //components - variables, functions (core functionality), alias.
+        //invokes as login shell or not (inherit env) - etc/profile, /etc/bash.bashrc, user specific (~/.profile, ~/.bashrc, ~/.alias) in order of execution
+        //cmd - alias, unalias - file at ~/.alias; ~/.bash_history
+        //tab for autocomplete.
+        //channel redirection - pipes, redirection to (into, append, error into) file, redirection from file.
+        //command chaining - using ";"; && to mean run second if 1st successful, || to run second if first errors.
+        //man command
+    }
+    void ProcessAdmin() {
+        //program, process, task.
+        //user and daemon (no controlling shell or terminal); pid - parent and child
+        //cmd - ps, pstree, top, kill, killall, nice, renice, ctrl+z, bg, fg, jobs,
+    }
+    void ProcessScheduling() {
+        //Cron Jobs options - elr - edit list remove.
+        //minute thru month and day of week run this shell file - when who what.
+        //dir - /etc/cron.hourly, etc.
+        //cron architecture
+        // The at daemon - at, batch, atq, atrm, /etc/at.allow, /etc/at.deny - listed users can or not define jobs.
     }
     void Framework() {
         StandaloneAppsFramework();
@@ -80,11 +216,13 @@ abstract class DMPM {
         JAVA_AWT();     //swings, fx, applet.
     }
     void ClientFramework() {
+        int browser;
         int Bootstrap, JQuery;
         int Silverlight, SapUI5, SAP FIORI;
         int Angular, React;
     }
     void WebFrameworks() {
+        //HTTP web standardized communication
         Struts();
         ABAPServer();
         NodeExpress();

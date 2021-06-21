@@ -419,9 +419,11 @@
                     19 - Huawei - !16/17 (refused 19)
 					20 - DS Comps (PwC, etc) - !13/14.
                     20 - Samsung - !19 (Asked but lockdown so no response)
+					20 - Internal Change to SAP IOT - PHI
                     21 - Empty fire - !Amazon written 1.5/2 (cuz optimal) solved, Amazon Alexa, Amazon kindle, Amazon AWS resume found attractive.
-					21 - Samsung Networking - 18.40 (=15.77+2.63) and 1 time 3.80 => 22.20 for first year.
+					21 - Samsung Networking - 18.40 (=15.77F+2.63V1 + 1.8V2) and 1 time 2 (B) => 22.20 for first year.
 					21 - PayTM - 19 (=19+0) and 1 time 2L for 18 months retention.
+					21 - Grey Scale AI - 29 (25F + 4V + 2B + RSU was possible) (Free hand offer - 22F + 5F + 1B + RSU)
             </Money>
             <Contributions>
             About - All Projects Done - be able to tell tech, etc used, contributions, roles played; challenges faced
@@ -975,15 +977,22 @@
 							Supporting deployment checks and checks through REST endpoints for connection health of spark with other services.
 							Extendable design to accommodate easy additions or removals in future.
 						Tools - Cloud Foundry, Spark, Hana, Kafka, Redis, Cassandra. Multi-module Maven. JAVA, Mockito, JUnit, Scala, Factory / Builder Design Pattern
-					Developer on Duty
+					Developer on Duty (DoD)
 						Organizing and Structuring credentials and information for monitoring systems and handling wide demands
 							ensure services running and available
-						Solving issues in consultation with colleagues.
+						Solving issues in consultation with colleagues and customer
 						Maintaining the spark jobs and cf apps running thru all thicks and thins - like platform updates, app deployment.
-					Cold Store writer (JAVA and Scala or spark job) - JUnit, Mockito, Powermock, scalatest_2.11 (MockitoSugar)
+					Cold Store writer (CSW JAVA and Scala or spark job) - JUnit, Mockito, Powermock, scalatest_2.11 (MockitoSugar)
 						Testing (Unit and Functional)
 						ensure code coverage.
 						Integration Testing - not big bang but integration with few modules also checked but using mockito for all external dependencies.
+					Thing Data Ingestion Analysis
+						Local set up
+						Analyse the working of current system
+						Analysis on why jobs with small batch intervals were unstable.
+							Try with different batch intervals - black box
+					Commit Stage Testing before stage promotion for tests b4 live.
+						...
 				</SAPIOT>
 			</SAP>
         </K>
@@ -1417,6 +1426,7 @@
 									NodeJS, Typescript, Express Router Frameworks.
 									GIT, etc.
 								Youtube and success map - ABAP Tutorials.
+								Coursera or so - Approximation Algorithms (2 part course)
 								OpenSAP
 									Application Development for SAP Business ByDesign
 							College Online Refreshers

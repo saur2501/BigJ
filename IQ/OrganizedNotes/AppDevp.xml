@@ -366,8 +366,9 @@
                         RDBMS- 4 properties of transaction manager (ACID)
                             <Atomicity>
                             Atomicity- commit all or none- In a transaction, either commit all of the information pieces or none
-                                REL not that seat is decremented but seat number not alotted to ticket.
-                                    Challenges- Power failure, errors, crashes.
+								How - Commit and Rollback.
+                                REL not that seat is decremented but seat number not allotted to ticket.
+                                    Challenges- Power failure, errors, crashes, ?1 successful operation and not the other.
                                 ?Success thru commit, rollback system- not written to DB until whole transaction is complete.
                                 Eg- account transfer- either increment B and decrement A by 5000 or do nth at all.
                                 <LogBasedRecovery>
@@ -825,62 +826,113 @@
                                 </GUI>
                                 <SQL>
                                 SQL- Conceptual Level View
-                                    <Schema>
+                                    <DDL> Schema changes.
                                     DBA -> DB Schema (creation)- As made by DB Designer
                                         No Rollback
+										<Create>
                                         create table (tableName)(
                                             colName datatype [condition]*
                                             [,colName datatype [condition]*]*
                                         )
+										</Create>
+										<Update>...</Update>
+										<DROP>
                                         drop table (tableName)
                                             deletes schema also
                                             removes table from DB.
                                             rows, indexes and privileges will also be removed
+										</DROP>
+										<Truncate>
                                         truncate table (tableName)  
                                             deletes data not structure
                                             doesn't occupy the undo space
+										</Truncate>
+										vs Delete
                                         (DML) delete book     //removes all rows on condition- gotta commit/rollback
-                                    </Schema>
-                                    <Queries>
+                                    </DDL>
+                                    <DML> Data Queries or changes
                                         Queries and Intermediate computation may be performed on Main Memory
+										<SQLExecutionSequence>
+											Cross product of tables.
+											Filter rows from there
+											aggregate on fields
+											filter on those aggregates
+											order the results
+											display the results
+										</SQLExecutionSequence>
+										<Retrieve>
                                         Retrieval
+											Eg- select acc_no from book where title="CD"
+											{t|t.acc_no and t.title = "CD"}
                                             select A1,A2,A3 //6- present in seq
                                             from r1,r2,r3   //1- cross product
                                             where P         //2- filter rows
                                             group by G      //3- aggregate on field[s] (superset of select)
                                             having H        //4- filter on aggregates
                                             order by O1 asc, O2 desc      //5- sequence them; 2nd level ordering on equality of 1st
-                                            Eg- select acc_no from book where title="CD"
-                                            Eg- select acc_no from book where title="CD" MINUS select acc_no from borrow
+											<MINUS> use NOT IN.
+                                            Eg- Compiler Design books which are not yet borrowed.
+												{t|t.acc_no and t IN book and NOT(EXISTS(b)|b.acc_no = t.acc_no)
+												select acc_no from book where title="CD" MINUS select acc_no from borrow
                                                 select acc_no from book where title='cd' and acc_no not in (select acc_no from borrow)
-                                                //Compiler Design books which are not yet borrowed.
+											</MINUS>
+											<INTERSECTION> use IN.
+											Eg - accNo of CD books which are borrowed
+												{t|t.acc_no and t IN book and (EXISTS(b)|b.acc_no = t.acc_no)
                                             Eg- select acc_no from book where title="CD" INTERSECTION select acc_no from borrow
-                                                //accNo of CD books which are borrowed
                                                 select acc_no from book where title='cd' and acc_no IN (select acc_no from borrow)
-                                            IN 
-                                                similar to BELONGS to a set.
+											</INTERSECTION>
+                                            <BELONGS> ?use exists
+                                                construct is similar to BELONGS to a set.
                                                 works similar to nested iteration
+											</BELONGS>
+											<NestedSelfChecks> The equality expression containing 2 table references is the criteria of 2 loops.
+											Eg - select users that share the address with Vijay.
+												{t IN users | EXISTS(t2 IN users) and t2.name = Vijay and t2.address = t.address}
                                             Self Join- select U.name from user U, user V where V.name=Vijay and U.address = V.address
                                                 2 tables multiply with rows on their side.
                                                 vs IN construct- similar functionality- but faster
-                                            Rank
-                                                select T.name, T.acc_no from supp S,supp T where T.price > S.price and S.name="narosa"
-                                                    selects all but smallest priced supplier
-                                                select S.name ,accNo from supp where price > some (select price from supp where name=narosa)
+											</NestedSelfChecks>
+                                            <Rank>
+												<AllBut> OR Some
+												select S.name ,accNo from supp where price > some (select price from supp where name=narosa)
                                                     //could well be select min(price)
                                                     //if all (select ...) = select max(price)...
-                                                costliest book of narosa- select max(price) from supp where name=narosa
-                                                    select price from supp where name=narosa and price >= all (select price from supp where name=narosa)
+												selects all but smallest price from supplier Narosa
+													{t IN Supp | (EXISTS s(Supp)) and t.price > s.price and s.name = Narosa}
+                                                	select T.name, T.acc_no from supp S,supp T where T.price > S.price and S.name="narosa"
+													OR {t IN Supp | t.price > price_var and (EXISTS s(Supp)) and price_var = min(s.price) and s.name = Narosa}
+														//indication to use price with where clause cuz that's the pivot
+												all but costliest book passes thru
                                                     select S.price from supp S, supp T where (S.price < T.price and S.name=narosa and T.name=narosa)
-                                                        //all but costliest book passes thru
-                                                        Minus from select price from supp where name=narosa to get 1st.
-                                                <LMSPost>
+												</AllBut>
+												<Best>
+													costliest book of narosa
+														All keyword - select price from supp where name=narosa and price >= all (select price from supp where name=narosa)
+															{t|t IN supp and t.name = narosa and FOR_ALL(t2 IN Supp) AND t.price > t2.price}
+														Best as holds same value as max - Use max inner query.
+															{t|t IN supp and t.name = narosa and t.price > t2|FOR_ALL(t2 IN Supp and max(t2.price))}
+															Thinking pattern > and FOR_ALL means MAX.
+																lt; and FOR_ALL means MIN.
+																FOR_ALL always have a combo with aggregation functions - when talking about a group - you can think of some set functions.
+															select price from supp where name=narosa and price >= (select max(price) from supp where name=narosa)
+														Best as Negation of exists
+															{t|t IN supp and NOT(EXISTS(s IN supp)s.price > t.price)}
+															select price from supp t where not exists (select * from supp s where s.price > t.price)
+													Get costliest - Get All but and then MINUS from total set.
+														Minus from select price from supp where name=narosa to get 1st.
+													Use order by and limit.
+														{t2|(FOR_ALL t2 IN SUPP Order(t2.price) and limit(3))}
+												</Best>
+                                                <Top_N_Query> Ref LMSPost in IIITB.
+													Idea - count number of people greater or less than current while making new table.
                                                     Suppose Data in table Top_N is as follows:
                                                         5
                                                         5
                                                         6
                                                     Scheme-1
                                                         Rank of 5=0; Rank of 6=2
+														{t|EXISTS(a in Top_N) and t.val = a.val and t.rank = (FOR_ALL(b in TOP_N)(count(b.val < a.val)))}
                                                         Query
                                                             SELECT A.val, (SELECT COUNT(B.val) FROM Top_N B WHERE B.val < A.val) Rank
                                                             FROM Top_N A
@@ -896,18 +948,58 @@
                                                         FROM Top_N A
                                                         GROUP BY A.val
                                                         HAVING RANK=2; 
-                                                </LMSPost>
-                                            Division (subset of)- CONTAINS
-                                                select S.name from supp S where (
-                                                    (select title from book where book.acc_no=S.acc_no)             //set of titles (by every supplier (1 by 1))
-                                                    CONTAINS                                                        //superset of
-                                                    (select title from book, user, borrow where book.acc_no=borrow.acc_no and user.cardNo=borrow.cardNo and user.name="vijay")  //titles issued by vijay
-                                                    )
-                                                iow, suppliers for which book titles are superset of vijay issued titles.
-                                                Eg- suppliers for which book titles are subset of vijay issued titles
-                                                    use other way!
-
-                                            Exists 
+                                                </Top_N_Query>
+											</Rank>
+											<Division> OR Subset Of.
+                                            Division (subset of) - Opposite of cartesian product.
+												Implementation - 2 sub-queries using CONTAINS.
+												Eg - Which supplier supply all the books which Vijay issued (they could be supplying more)
+													iow, Suppliers for which book titles are superset of vijay issued titles.
+													iow, suppliers for which book titles are subset of vijay issued titles
+												Alternative 1 - CONTAINS syntax (but not supported)
+													{t|EXISTS(s in Supp) and t.name = s.name and (titles given by s) SUPERSET_OF (titles issued by Vijay)}
+													{t|EXISTS(s in Supp)(b in Book)(r in Borrow) and t.name = s.name and FOR_ALL(b.title|b.acc_no = s.acc_no) CONTAINS b2.title|(EXISTS b2,r2,u2)(b2.title|b2.acc=r2.acc and r2.card = u2.card and u2.name = Vijay)}
+													select S.name from supp S where (
+														(select title from book where book.acc_no=S.acc_no)             //set of titles (by every supplier (1 by 1))
+														CONTAINS                                                        //superset of
+														(select title from book, user, borrow where book.acc_no=borrow.acc_no and user.cardNo=borrow.cardNo and user.name="vijay")  //titles issued by vijay
+													)
+												Alternative - 2 NOT EXISTS
+													Formula -
+														swap CONTAINS parts
+														replace ALL and contains both with NOT EXISTS
+														add some parts aptly.
+													iow, name a supplier s.t there exists no title borrowed by Vijay which that supplier does not provide.
+													Break it down to understand
+														Get all titles borrowed by Vijay
+														among these there exists no title OR check for every title
+														which a supplier s does not provide - name that supplier s.
+													iow,for a given supplier s, we could not find any title borrowed by Vijay which were not supplied by the s.
+													Personal tryst -
+													select S.name from supp S where
+														NOT EXISTS(
+														(select title from book, user, borrow where book.acc_no=borrow.acc_no and user.cardNo=borrow.cardNo and user.name="vijay" and where
+															NOT EXISTS(
+																(select title from book2 where book2.acc_no=S.acc_no and book2.title = book.title)
+															)
+														)
+													)
+													3rd alternative - count of books issued by Vijay > count of books given by every supplier (group by)
+													Eg - Movie WW2 - There ain’t no planes in this hangar that I can’t fly!
+														hangar means list of planes and pilotskills means which pilot can fly which planes.
+													SELECT DISTINCT pilot_name
+														FROM PilotSkills AS PS1
+														WHERE NOT EXISTS
+														    (SELECT *
+															    FROM Hangar
+																WHERE NOT EXISTS
+																    (SELECT *
+																	    FROM PilotSkills AS PS2
+																	    WHERE (PS1.pilot_name = PS2.pilot_name)
+																	    AND (PS2.plane_name = Hangar.plane_name)));
+											</Division>
+											<Exists>
+                                            Exists
                                                 ?SIMILAR TO IN (WRONG)
                                                 for a row's given value- there exists [1 or more ]rows satisfying a condition.
                                                 user who has issued at least 1 of narosa's book
@@ -923,10 +1015,10 @@
                                                                 where U.cardNo = B.cardNo and B.acc_no = S.acc_no and S.name=Narosa
                                                         )
                                                         Or select name from user, supp, borrow where...
-
                                                 Eg- for the titles issued by Vijay, are there suppliers (supplying some) other than Narosa, if yes, name them
                                                     Contains
-
+											</Exists>
+											<NotExists>
                                             Not Exists
                                                 select name from user where not exists (select * from supp S, borrow B where user.cardNo=B.cardNo and B.acc_no=S.acc_no and S.name="allied")
                                                 //P(t) is never true for this name- for all rows this doesn't hold
@@ -939,7 +1031,8 @@
                                                         where T.cardNo=borrow.cardNo and borrow.acc_no=supp.acc_no
                                                         and supp.name=allied
                                                     )
-
+											</NotExists>
+											<Aggregate>
                                             Aggregate- Avg, max, min, count, sum. 
                                                 Select name, avg(price) from supp group by name
                                                 select title from book group by title having count(acc_no) > 50
@@ -957,17 +1050,22 @@
                                                             where supp.acc_no=book.acc_no
                                                             group by supp_name      AS P
                                                         select max(cost),supp_name from P
-
-                                        Delete
+											</Aggregate>
+										</Retrieve>
+                                        <Delete>
                                             delete borrow where cardNo in (select cardNo from user where name=vijay)
                                             delete (table) where rowCondition
-                                        Insert
+										</Delete>
+                                        <Insert>
                                             insert into (table) [(col[,col]*)] values(val[,val]*)
                                             insert into book values (23,1999,"DBMS");
-                                        Update
+										</Insert>
+										<Update>
                                             update (table) set (col)=(val) where rowCondition
                                             Eg- update supp set price = price * 0.95 where name=allied and price > 1000
-                                    </Queries>
+										</Update>
+                                    </DML>
+									<DCL></DCL>
                                     <PLSQL>  
                                     Application Programs- PL/SQL- procedures, functions, triggers.                                    
                                         create view v as (query expression)- evaluated everytime v is used.

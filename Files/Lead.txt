@@ -1,0 +1,8 @@
+About - Like a notifications kafka topics.
+    Contains the notification metadata messages for the ingestion into other files as plans.
+    iow, backlogs, plans, innovations for every topic.
+LIB - Master - 3 Design Items in LIB.
+LIB - Transactional - Ingestion State Spec Code.
+CS - Revision of Grad and Post Grad as CS guy.
+    DM PM world at App levels - what all are our capabilities; Platform level, etc.
+    Spring, angular, computer vision, ML DL.

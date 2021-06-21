@@ -2724,6 +2724,8 @@ SQ - Should we declare dependence on Krishna.
         another way to see shelter is being under protection - so KC protects us from maya so practicing KC is taking shelter.
     KC is not the path of taking favors from Krishna but to giving favors to Krishna
         which we can't without his or his tadiya's mercy.
+IQ - My empirical observation.
+    Can we start the meeting - full house right
 CS
     Every tool - Everything is software only these days - with backend front end and persistence.
         Some tools are clients, some are stand alone tools, some talk to server on same machine or cluster, some just an input to the framework - spark, git, maven, docker, kafka, redis.
@@ -2770,11 +2772,42 @@ PIES - my group yoga phase has been done with full devotion
         If I have a wife, then even cooking works, also can be contributed 
         but these days such service attitude is a rare commodity.
 Sume - GreyScale AI
+    Recruiting and what money to expect
+        I have never seen a decline - they always make good offers.
+        Wallmart - 70 lakhs so he had to show. So nothing unprofessional here.
+            get better offers - if you want the benefit the share.
+            some don't want bargain but give a figure - good firm of mind - good work more than money.
+        even for retention they may ask you.
+        current offers bottlenecking the offers
+            guy getting 25 and offer from oracle 35 lakhs - decent 16 years - asked 40.
+            not great playmasters - should I leave stable org and join startup right.
+        until they offer sth better why you would leave paytm or samsung right.
+            some got convinced by the recruitment pattern itself.
+            don't get to do such work in India - larger orgs we work but routine work and smart work abroad.
+        very young but knows the value of working 2 years with him instead of sony, etc - instead of microsoft.
+            all work in japan and not much in India.
+            Vision teams take lots of time to get approvals for any work.
+            many folks are not able to clear Neeraj in passion or whatever.
+            Things have gone well - want tentative joining date.
+    Have been recruiting from amazon, intuit etc since 2003 personal tie up with them.
+        nothing this year but from 2022 only.
     How many team members for the technical team or my kind of work.
-    Who is funding this product.
-    I didn't like the slave mentality attitude.
-        which is typical of startups.
-    6 month experience and then change. Or propose to do freelance for them.
+        19 Full stack and 1 Computer vision and ML and eventually a separate computer vision lab of 50% capacity.
+        20 to 40 from this year. For RnD they will have about 10 people and development 30 all front and back end.
+        very qualitative selects. These 30 people under CTO working together gonna be.
+    Computer - laptop will be dispatched. Kit - once you are onboarded.
+        Taken care b4 or after - immediately after onboarding - they will check.
+        on meant to work online - virtually.
+    Who is funding this product. Investing companies not known.
+        Not able to answer at this point.
+        But very good funding - of course, cuz all from cream colleges and companies.
+    Tech involved - anything of your choice - nothing beyond what your skills are.
+        Fine tuning on skills already working on - train if necessary.
+        Ed learning and enjoying - ed learning curve.
+    Concerns
+        I didn't like the slave mentality attitude.
+            which is typical of startups.
+        6 month experience and then change. Or propose to do freelance for them.
 Sume - Samsung - Laptop dispatch.
     WFH scene. Online onboarding.
 PIES - For decision making - criteria - 1 with the group OR I am the group.
@@ -2811,3 +2844,327 @@ SQ - whether aaroh or avaroh, every has to have a reference.
     if no reference is quoted, then it is meant to be seen as your understanding - given the premise of all your aaroh and avaroh cultivations.
     best is to quote whenever possible - but only quotations also ain't enough - the presentation still has to be a narrative.
     Be open to course correction if your understanding needs to be updated.
+SQ - st in KC we trivialize things so is eth trivial.
+    In constitutional position, eth in their role, position are trivial in face of what lies transcendental to them.
+    But in conditional reality, they are not trivial they are very significant and should be dealt with significance cuz Krishna is not transcendental but imminent.
+    So, combining the 2 - small things make a big difference - the lecture that HH RNSM once gave.
+    Eg - Heavens is trivial in front of spiritual reality but very signifcant in itself conditionally and also in constitutional evolution.
+        same concept applies for worldly things.
+    In 1 sense, some say life is small.
+        In another sense, it's not that small (to ignore and escape reality), it is very big
+        it is only small in face of eternity.
+        Make most outta long life (it ain't passing trivially) - which is small in face of eternity.
+CS - UML - draw.io files from https://app.diagrams.net/
+IQ - Group yoga means if you don't have a question during presentation - you ask for wiki link to come back to them after it's done.
+    You ask questions from them whenever you go thru it and get questions later point in time - this is a proof of group yoga.
+CS - Abstract CS, Master CS, Transactional CS
+    Maps to College, Personal study Project, Contribution to Project.
+    Maps to Capabilities, System Design or Arch (Story of capabilities permutation), Application Design (Story of customer usages).
+    This is also layered - transactional built on master built on abstract.
+    Every design session is combination of all the 3
+        how customer requirements will be served thru the permutation of capabilities.
+IQ - when scheduling any calendar (eg over outlook), covering the W5H is the formula.
+    What, who, when, where, why, how (preview).
+    How in detail is a home work to perform.
+IQ - Exit Workflow is also like jenkins pipeline.
+    Inform thru portal (yourself or manager) -> Initial Trigger with Acceptance
+    Jenkins Branches to different departments. Acceptance from them.
+        Finance - Payslips download, Expense reimbursements, 
+            Gratuity, Superannuation, Personal Loan, Equity.
+            Form 16
+        E-SCM
+            IT - all issued IT equipments.
+            Training or Library Center.
+            Schemes - health insurance portability.
+        HCM - Local HR Services Clearance - sign-on bonus, personal loan, loss of pay, shortfall of notice period
+        FND - Security - ID card, RSA, Cupboard keys, etc.
+        Final Sign off - All cleared along with payments give or take.
+    Final Sign off along with Relieving Letter.
+    Payment dues cleared on the following month.
+IQ - Negotiations.
+    Shopping - previous offer is a show for the next one.
+    My risk has to be compensated properly else why take it.
+    Have exact number in your mind - fixed + variable + bonus also clear in head - focus on annual.
+    finally, open to deal or no deal.
+    Keep your alternatives in mind. I can always switch from there vs stick here for a while.
+    They may try to start off with current package or wherever the bottleneck is and how alluring the offer is.
+    Downside of other offers and focussing on candidate's compulsion and not employer's compulsions.
+    Play around with fixed, variable, etc.
+CS - Scala test Class
+    methodName
+        CanBlocks
+            ShouldBlocks
+                InBlock (single)
+    utility methods
+CS - Amazon S3 thru JAVA
+    Singleton S3ConnectionProvider
+    Connection Object
+        private val s3ClientCache = collection.mutable.Map[String, AmazonS3]()
+        s3ClientCache.getOrElseUpdate(tenant, createS3Connection(credential.get))
+        s3Client = AmazonS3ClientBuilder
+        .standard()
+        .withRegion(credential.objectStoreCredential.get.region)
+        .withCredentials(
+            new AWSStaticCredentialsProvider(
+            new BasicAWSCredentials(credential.objectStoreCredential.get.access_key_id,
+                                    credential.objectStoreCredential.get.secret_access_key)))
+        .build()
+    Bulk Read
+        sparkSession.read.schema(schema)
+            .option("host", "")
+            .option("awsAccessKey", "")
+            .option("awsSecretKey", "")
+            .option("region", "")
+            .option("bucket", "")
+            .format("orc")
+            .load(s"s3a://${bucket}/${dirPath}/")
+    Write
+        val objectMetadata = new ObjectMetadata()
+        objectMetadata.setContentLength(fileInfo.length)
+        s3Client.putObject("bucket",
+            "filename",
+            inputStream,
+            objectMetadata)
+    Read
+        val keys =
+        s3Client
+            .listObjectsV2("bucket", "filePrefix")
+            .getObjectSummaries
+            .toList
+            .toStream
+            .map(x => x.getKey)
+            .filter(x => !filenames.contains(x.split("/").last))
+            .toArray
+    Delete
+        s3Client.deleteObjects(
+        new DeleteObjectsRequest(cred.objectStoreCredential.get.bucket).withKeys(keys: _*))
+    Read
+        val req = new GetObjectRequest(bucketName, key)
+        req.setRange(offset, offset + length)
+        s3OrcFileObject = s3Client.getObject(req)
+        val inputStream = s3OrcFileObject.getObjectContent
+        data = IOUtils.toByteArray(inputStream)
+        s3OrcFileObject.close()
+    Metadata
+        Key = Fully qualified File Name
+        Data|Footer|Script|Size of Script in 1st byte
+        OrcProto.PostScript.parseFrom(postScript)
+        Footer = script.getFooterLength + script.getMetadataLength + size of script.
+CS - Azure blob
+    Bulk Read
+        sparkSession.read.schema(schema)
+        .orc(s"wasbs://${containerName}@${accountName}.blob.core.windows.net/${dirPath}"))
+    Connection
+        val blobContainerClient = collection.mutable.Map[String, BlobContainerClient]()
+        blobContainerClient.getOrElseUpdate(tenant, createBlobConnection(credential.get))
+        val blobContainerClient =
+        new BlobContainerClientBuilder()
+            .endpoint (credential.container_uri)
+            .sasToken(credential.sas_token)
+            .containerName(credential.container_name)
+            .buildClient
+    Write
+        val blobClient = blobContainerClient.getBlobClient(s"${getDirPath}/${filename}")
+        blobClient.upload(fileInfo.inputStream, fileInfo.length)
+    Delete
+        val keys =
+        blobContainerClient.listBlobsByHierarchy("dirPrefix").toList
+            .toStream
+            .map(x => x.getName)
+            .filter(x => !filenames.contains(x.split("/").last))
+            .toArray
+        blobContainerClient.getBlobClient(key).delete();
+        azureCloudContainer.listBlobs
+    Reading
+        val outputStream = new ByteArrayOutputStream();
+        val blobClient = azureCloudContainer.getBlobClient(key)
+        blobClient.downloadWithResponse(outputStream,
+        new BlobRange(offset,length), options=null,
+        requestConditions=null, getRangeContentMD5=true, timeout=null, Context.NONE)
+        outputStream.toByteArray
+IQ - you are acting really strict - no, sb should know if it's going to live - it does not have to be me.
+PIES - Very Important - abstract fears as follows: high level medium adversity (they can be opportunities)
+    About - 
+        extreme enjoyment thru inapt means is breaking 4 regs.
+            higher you go, worse you fall - saying this not outta envy but laws of psychology.
+            Extreme pleasures make you more sensitive to even little pains; to speak nothing of extreme pain.
+        The world of duality. We need equanimity as life principle.
+            this happens when triggered by higher layer pursuits - tolerating the dualities on the way.
+            Even while pursuing any layer's positive, we should understand that nature of the world will push the negative side inevitably.
+            This incentivizes people in MOI - cuz they don't want the shit of a layer so why work hard for it
+                but they still want pleasure being soul so they wanna hack for little rewards or do bare mimimum with escapism.
+        Fear can empower us when it cautions us from wrong choices
+            but it can also paralyse us or reduce performance with panic.
+            The insecurities and context switch with repercussions affects our performance but 1 gotta tolerate.
+        What do we have to fear
+            all the dual sides are inevitable for e1 in the world.
+            It's our lack of alignment to prakriti that we hate these but we gotta learn to let go and be a martyr.
+            evolve beyond to transcendence thru tolerate
+    Soul - Sat cid ananda vs asat, acid, nirananda - getting what we don't want and vv.
+        basically no Krishna and infatuation with material world.
+        Seeking what's natural from incompatible place.
+    Ego - praise vs insult - Destruction of elements from the set of self esteem
+        different scales - small - insult, medium - big deal losses, large - death.
+    Intellectual - achievement vs setbacks
+        price to pay along with achievements for higher layer. With this, positive is more pleasing.
+        Victors are among those who try and if every try worked, e1 would do it.
+        So, guts for grit is the price for grat.
+    Mental - suffering of desired rasas denied and undesired rasas given.
+        eg - we st want enjoy bhayanak rasa but st we don't want it and getting it at that time is suffering.
+    Senses - pain vs pleasure. Senses not getting desired or vv. Getting extremes.
+PIES - Group Yoga - I have never compromised the interests of current groups while pursuing better prospects.
+IQ - Senior Suggestions
+    Abhijeet - You have not come here to run your shop but learn here.
+    Imran - Are you being honest that this is the best decision architecturally.
+    Ajay - keep on working like you are doing now. try exploring stuff!
+CS - Computer Science DM PM Scope (Capabilities)
+    Consulting for automation
+    Arch or System Design
+    Software Power
+        PL - DSA, OOAD, DP
+        Already Tools
+            DBMS, NOSQL, Spark, Kafka, ML Apps, etc.
+            DA related - Excel, R, SQL, DV.
+            Tech frameworks - Web Server, bootstrap, React, etc.
+    Systems and its techs - Compiler, Shell and Utils, Browser (HTML, CSS, etc)
+    Embedded - OS, CN, DC - with bearing on upper layers
+    Electronics
+    Maths - DiM, SP, LA; TOC; DM (Data Modeling)
+CS - DBMS - All SQL capabilities presented and then given any query we can express it in set thinking - relational calculus and reduce it to keywords we know.
+    Relational Algebra
+    Relational calculus.
+Sume - Samsung check
+    remote onboarding.
+    Laptop.
+    wfh - virtual.
+    Background verification - some documents and id generation phase will start.
+Sume - Farewell Plan.
+    Smartest people around. Awesome team - great knowledge, good skills.
+        Go getter Attitude and ever thinking of doing something smart.
+    Difficult decision to make - FIN concerns.
+        put a stone on my heart to do it.
+Sume - Sathya Send off
+    Explanations of architecture and landscapes - meticulous, amazing explanation.
+    Concerned and follow ups how process could be improved. Thinking of apt user stories.
+    Organized effort like creating onboarding document outta our traversal.
+IQ - quality of our team to convince each other with the approach.
+EQ - Persuasion 
+    About - 
+        Gratify a person by paying heed to your problem.
+        Punish the person on that layer if they pay no heed.
+        Start from whatever works - While setting up - going top down explicitly or implicitly is best.
+        While convicing someone it's better to go bottom up.
+        As written in how to win friends and influence people - induce in other person an eager want.
+    Soul - that's adharma or unethical
+        Ethics based convicing - what shall we gain by troubling others around us?
+            what was his fault to deserve this.
+            This is not what shastra teaches.
+        it's bad against your or social spiritual interests.
+        It is bad against overall social well being.
+    Ego - Friendship or enmity based on how you act.
+        Befriend or be friendly with those who act your way.
+        Affirm current roles - this does not befit you, O son of Kunti.
+        verbal fear inducing, insult the person, harm or hurt a person at any level.
+        Attach it to your identity or its feature
+            Habit based - make something rule based or that's normal - Indians don't act like that.
+            Habit induction - As the wise men do, common folks follow.
+    Intellect - Talks, Reinforcement learning.
+        Experiential Learning - Dama and Danda 
+            Create some rewards for them to act in alternative ways and negative otherwise 
+            make them feel bad over the choice - like bad smell when such decision is made.
+        Talks based learning
+            Reduce inherently best queries to best for you (intellectual to mental) - present an alternative.
+            Inherently best - Logical Debate over what's inherently best.
+    Mind - Expressive Talks - Likes and Dislikes based (Mine and yours)
+        Expressing that I dislike it - affirmative words to convince them - tussi sayane ho na karo.
+        Convince a choice they will like - Best for you
+            I am talking your best self interest - tell them what's their best self interest.
+        Psychological barriers - fear of pain that will ensue - gotta listen to their bitching.
+            Bitching or bickering - offering maximal resistance - verbal.
+    Senses -
+        Gentlemanly gestures for those who respect physical set ups.
+        Physical hinderance - great pain to the senses to do something (great lengths they gotta go)
+        Counter side - Stealing - I can do that when you are away.
+    Acting senses - 
+        Manhandle to enforce a behavior.
+        I will do it anyway cuz I can.
+    More - While persuading you wanna reiterate the higher layer as much as possible.
+        Eg - give a logical reason and immediately reinforce the alternative way to act.
+FND - Comm - Feeble sound. Blur, mild.
+PIES - CRUD is actually V(CRUD)PM - Preceded with validation and proceeded with messages and properties.
+    Besides V(CRUD)PM, there is also non-functional aspects of anything.
+    Master phase of each PIES consists of exploring "already built" part or "innovation" part - primarily on the weekdays.
+    weekends primary focus should be master backlog (supposed to do in weekdays) and abstract plans.
+    Everything in Software development is basically V(CRUD)PM at different 3 layered architecture.
+        The next power comes when you play at a higher level of combination of these V(CRUD)PM capabilities across the software realm.
+    Ideally all master stuff should be understood inline
+        but if not, then we have a separate phase to revisit the day's master backlog.
+        this should not be done during the day.
+        early morning hours is also primarily master (Secondary abstract subjugated under the master).
+        Even email reading of those which could not be done in the day is master stuff only.
+SQ - it's a sin to be weak.
+    So, at FND level we have to be strong - thru ABCD.
+    In Attitude and Aptitude - we cultivate physical, mental, etc strengths thru exercise, yoga, food, sleep, books, etc.
+        all of which should be taken very seriously.
+    Eg - Poverty has a potential to bring worst out of a person.
+SQ - VA does not cover away all the the lower animal propensities
+    but create a most healthy facade which is uplifting, more rewarding, etc.
+    but the room for some lower tendencies still remains open.
+    Likewise, in spiritual life the upliftment and rewards are further higher but not e1 can get there just like not every soul in animal body was ready for VA.
+    Even many human species (among 4L) are not ready for VA.
+IQ - Arch - Default is always a consideration.
+SQ - Typical tendency is that MOP and MOI come in a combo - bhoga and tyaga.
+    1 can't sustain MOP for too long and then inevitably you don't want intense grats and only little bit of them with least work.
+    The path of yoga is the balanced approach where none of the 2 drive the show but are utilities for a higher layer.
+    In MOG - All inconvenience on the path is seen as tapasya or the price to be paid for higher layer yoga - becoming one.
+Sume - Calendly web software used for appointment scheduling.
+    Duration informed (guest no access to change beyond default 15 mins) - many slots buttons to pick from
+    prompt for email, name and message - book and the specified email will receive a mail along with the calendar target.
+    Both can accept the meeting.
+IQ - Arch - Let's have it under major version upgrade.
+    Always maintain homogeneity across our jobs and applications
+    in terms of implementation practices and also i/o of each of them.
+PIES - Social Fears and Social Desires are the next stage that help us rise beyond personal FDDL infatuation.
+    Social fears in their healthy state means choosing to take pressure on yourself.
+IQ - How to really listen.
+    Yoga, etc can help with concentration during the session along with breaks that follow.
+    Also respects for the speaker - without respect you trivialize their words.
+    First of all if master or abstract isn't clear, it is bound to take extra effort.
+    ensure passion for the topics inside our project
+        any user story you not only want to explore them but anticipate and see its completion.
+PIES - Power of MOP in daily life.
+    MOP subjugated under MOG can be very powerful but independent MOP creates a strong impedance against any achievement on the path.
+        in the agitated state, we can't concentrate on a topic for a long time or st, can't even start to concentrate.
+        Channelled MOP in the slot of the day should be very focussed - nothing but that.
+        Even MOP or MOG of higher layer can be a distraction for that layer.
+            Why can be? cuz higher layer might get seen as disconnected from lower layer which is immaturity.
+        Eg - if you are thinking food or even spirituality, you can't focus very well on the object of focus.
+    Why do some people act in MOI alone and not MOP if they are counterpart of each other.
+        Actually they do - take achievement as eg
+        if you are busy with experience of achievement thru cheap thrills or lower layer grats (even higher layer)
+            then incentive for achievements at that layer is reduced.
+        Higher layer is different in a sense that higher layer is supposed to consume the lower layer.
+            so bad performance in lower layer affects higher layer.
+            but in immaturity, you may take higher layer as a different layer which needs nothing from lower layers.
+                Higher layer is best performed with KY or evolving along VA in practical sense.
+            only after perfection, they may not affect but bearing will still be there
+                only that you won't be affected being transcendental
+                but that's a misuse of transcendence
+                to be whimsical and independent of Krishna's social ideology of VA again.
+                and it's not a good eg for common public to follow - BG.
+            that's why higher layer should only take a high level view of VA ->
+                enthuse you again for it besides other things and set you off.
+    So, what we need in life is properly channelled MOP and its counter part MOI.
+        not extreme and whimsical of either but ideal and aligned power of both.
+        Without these modes, we can't even live.
+CS - it's early ack of for the REST call so it should be 202 instead of 200.
+    upstream error should better be 502 instead.
+Sume - GreyScaleAI
+    Thanks for the conversation. I was thinking about our discussion and I thought I over-emphasized only on the fixed component of the salary to the point that it may seem that I was talking about entirely negating the performance bonus.This is not what I meant. I just wanted to keep fixed as 28 (considering the bottleneck caused by my current package and the offers at hand) even if it takes any reduction in the performance bonus.It will be nice to be incentivized by performance incentive even if it is shrunk down.I acknowledge the grant of 8000 shares offered with the offer and I am quite delighted by them.Kindly see if salary can be restructured to meet my expectations. I am looking forward to working with the team.
+CS - du -sh . for current directory size. to remove files by name find . -name "*.jar" | xargs rm -f
+    space not allowed in path to jar file and use -rf if directory to be deleted.
+CS - OS - https://stackoverflow.com/questions/24036214/how-does-a-system-call-work
+IQ - How did China manage to make fastest building in 29 days - cuz containers were already there.
+    that's the trick to speed.
+CS - GIT - https://github.com/coursefiles/angular-essential-training.git
+CS - JAVA8 - Optional.ofNullable(dataCategory).orElse(GdprDataCategory.NORMAL

@@ -1,8 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CS>
+	About - A new idea to have DM PM for all subjects - so that I immediately know my capabilities from different subjects.
+		Eg - always remember postfix is also a way to do it. These are raw material for architecture.
+		Gotta remember that some famous problems are already solved thru approximation algorithms.
     About - this is my DM PM take on different tools and everything. For details, refer to specific xml files - this is just few words for high level understanding.
 		expectation is to have a list of capabilities and features - it is meant to be top down and absolutely no need to go till leaves.
 		These are supposed to eventually merge with regular Organized Notes.
+	<NewProposedSchema>
+		About - Present capabilities and also limitations.
+		<Meta>
+			Computer Science DM PM Scope (Capabilities) - know the essence of eth so as play on top of them.
+				Consulting for automation - Use case diagram, state transition diagram, Control flow diagram.
+				Arch (App or System Design) - 
+					Class diagram, etc.
+					DFD, Collaboration or sequence diagram.
+				Software Power
+					Coding - PL
+						DSA
+						OOAD - SOLID, etc.
+						DP
+					Already Tools
+						DBMS, NOSQL, Spark, Kafka, ML Apps, etc.
+						DA related - Excel, R, SQL, DV.
+						Tech frameworks - Web Server, bootstrap, React, etc.
+				Systems and its techs - Compiler, Shell and Utils, Browser (HTML, CSS, etc)
+				Embedded - OS, CN, DC - with bearing on upper layers
+					OS
+						
+				Electronics
+				Maths - DiM, SP, LA; TOC; DM (Data Modeling)
+		</Meta>
+		<OS>
+			<Thread>Power to parallelize our work - making it faster</Thread>
+			<Shell>A world of DevOps</Shell>
+		</OS>
+		<GIT>
+			Free account has limitations on resources usage.
+		</GIT>
+		<MessagingTools>
+			<Kafka>
+				A queue of persistence with messages which expire
+				Limitation - can't read the messages from queue after TTL is over.
+					error if messages requested from offset after the TTL for the messages on those offsets.
+			</Kafka>
+		</MessagingTools>
+		<Tools>
+			<Slack>Power to send notifications anytime - also email, kafka notification, sms notification, android notifications, etc</Slack>
+			<CronJobs>Background jobs supposed to run</CronJobs>
+		</Tools>
+		<NonFunctional>
+		CS - Non-functional requirements.
+			Essence - vs functional
+				What system should do vs how it should do it.
+				Product features vs product properties
+			Biz level -
+				Accuracy
+				?Nothing wrong
+					Security - Never wrong (CIA, not vulnerable, non-repudiation) - edge cases
+					Legal compliance
+			UXD - Lifetime.
+				concurrency.
+			Always fast
+				Time - Performance - DSA and Organized content (caches) and Best among candidate tools.
+				Duration - Availability - No Downtime.
+			Something wrong - or not right - Maintainable
+				DXD - refactoring
+				Flexibility - SOLID, DP.
+				portability - Docker.
+			Persistence
+				ACID or CAP.
+				Logs - Audit - traceability - Loggers.
+			Thought Pattern - at every stage of SDLC - do it with mastery.
+				is your offering legally acceptable and what to take care about.
+				Start with end result of cool UXD.
+					Think of threads to make it faster.
+				Perform system design that saves time.
+				Organize with OOAD that meet the requirements and makes system flexible.
+				Think of best algorithm (time) which is legally acceptable.
+				Write functionally complete Code V(CRUD)PM - Message means proper exception handling in place.
+					Ensure secure (non-vulnerable) - covers all cases (boundary, edge cases)
+					neat (refactored) code with logs.
+					Make it faster thru concurrency - n instances and threads, etc.
+				Ensure persistence respected the constraints of the tools.
+				Deploy it thru Docker.
+				Check its regression limits.
+		</NonFunctional>
+	</NewProposedSchema>
     <RnD></RnD>
     <Systems>
         <Platforms>
