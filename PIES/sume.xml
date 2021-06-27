@@ -981,7 +981,7 @@
 						Organizing and Structuring credentials and information for monitoring systems and handling wide demands
 							ensure services running and available
 						Solving issues in consultation with colleagues and customer
-						Maintaining the spark jobs and cf apps running thru all thicks and thins - like platform updates, app deployment.
+						Maintaining the spark jobs and cf apps running thru all thick and thins - like platform updates, app deployment.
 					Cold Store writer (CSW JAVA and Scala or spark job) - JUnit, Mockito, Powermock, scalatest_2.11 (MockitoSugar)
 						Testing (Unit and Functional)
 						ensure code coverage.
@@ -991,8 +991,12 @@
 						Analyse the working of current system
 						Analysis on why jobs with small batch intervals were unstable.
 							Try with different batch intervals - black box
-					Commit Stage Testing before stage promotion for tests b4 live.
-						...
+							Proving that processing time exceeds the ingestion time by far.
+					Testing - Commit / Stage Testing before / after stage promotion for tests b4 live.
+						Also sandbox testing for every new development with sonar, jmeter, build, etc in jenkins.
+						Nightly build scripts - red ones - re-trigger thru jenkins bot
+						in workspace results csv file with every call - figure out where the problem is.
+						Raise BCP for those problems or solve them whichever works.
 				</SAPIOT>
 			</SAP>
         </K>
@@ -2026,6 +2030,7 @@
                             Improving Your Thinking
                             The Mindful Workday
                             Time Management: Working from Home
+							Career Canvas - Manager, Secrets HRs don't tell; overseas; relationships, networking, etc.
                     Social and Science - SSC and HSC respectively.
                         Online Content - dedicated channel - Interviews, comedy, songs, poetry, etc
                 Skills
@@ -2172,11 +2177,12 @@
                     Think and Grow Rich.
 					Awaken the giant within
 					7 habits of highly effective people
+					Men are from mars and Women are from venus.
+					As a man thinketh.
 					?How to win friends and influence people
 						https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People
                     Future - rich dad, poor dad, unlimited power.
 						The power of now.
-						Men are from mars and Women are from venus.
 						Languages of Love.
                 </Books>
                 <Acting>
