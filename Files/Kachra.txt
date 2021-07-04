@@ -85,39 +85,113 @@ PIES - Most important
             aaroh - long sessions of quality meditation or deliberation.
         K - scrum life for increased seva.
             aaroh - self management.
-SQ - Arjuna
-    Sympathize with Karna but e1 wants to be like Arjuna.
-    Represents success, focus, prosperity, determination and stability.
-    Sanjay after BG samvad says I become ecstatic thinking about it - 2nd hand knowledge.
-        Context for Arjuna but also generic message for e1. That's power of Krishna.
-        Arjuna is historical personality but also principle.
-        SP - Arjuna and Kunti are eternal associate of Krishna.
-        Arjuna expands in all brahmanda and plays the role of Arjuna.
-        Arjuna has human and divine manifestation.
-        dharma married murti the daughter of daksha -> nara and narayan appeared.
-        In Badrinath - Arjuna and Krishna - avatar is descent - balance of human form and divinity.
-        Krishna follows the rules of avatar.
-        To invoke the nature, names should be given
-            Brahmin's son - knowledge, stability and satisfaction.
-            Kshatriya based on bala or strength.
-        Where there is Krishna and Arjuna - Krishna inspires Arjuna but not act for him.
-            there is success, victory, etc.
-            driver of chariot of life then all the power comes.
-        BG does not cause fight but guides us.
-    Arjuna's 3 characteristics.
-        Thriving in troubled waters
-            His life is not a stage performance but battlefield of chaos.
-            For us it becomes yuddha symbolic - at home, school, office, within, etc.
-            yuddha is specific and also principle.
-            maam anusmara yuddhasca.
-            Kauravas had stolen cows - cow fights have been very old.
-            Uttama syndrome - boastful b4 fight and when facing kauravas then you need Arjuna.
-            Huge army is happiness for Arjuna - celebration.
-            Arjuna - Going on battlefield fighting for dharma is my greatest pleasure just like calf looks for milk and lovers looks for beloved.
-            savyasachi - can use both the hands.
-                savyasachi institute
-                fighting for young children - mardani khel - 1 police cop controls 38K citizens.
-                Learn the art with proper sanskar - himsa is always directed towards helpless, this is always seen.
-                kshatriya dharma is so important that when so trained in self defense you get strength.
-                resourceful and sanskars - become self sufficient, no more looking for sympathy, don't complain, call ill names to society, don't play a victim card.
-                
+PIES - release - just express yourself.
+    It's the same energy which when focussed and channelled properly shows itself as exquisite power.
+    self confidence - what you know no1 else does.
+    Eg - Gyani Zial Singh speech career - think of audience as kaddu.
+    Eg - Papa - what you know about your PhD they don't know even a dime about.
+IQGrats - Size of my spark job consuming existing shaded spark jar was almost double the size. Why? cuz provided scope not given so both in classes and in jar.
+    GIT code only for reusability - the size of the spark job is your responsibility and no1 else's.
+IQ - There is lots of reduction involved while working - there are so many ways something would work.
+    if you want a specific way to work - then by contrasting with what works in scalable way, taking delte, etc
+    reduce the problem to specific - and then check online or ask 7, etc.
+    Work like a scientist - ability to explain away everything or reduce problem to its subproblems to be solved.
+Sume - paytm vs Greyscale
+    About - No matter what the decision - every action or choice will create a very unique destiny.
+    Compensation of Greyscale is 1L + RSUs more.
+    Spirituality
+        use case is proned towards some 4 regs breaking - meat eating and intoxication.
+    Proven and established vs its future in jeopardy.
+    Coolest tech in DIP (OpenCV + full stack) vs Cool tech with spark, kafka, etc.
+        probability of working on openCV and CNN is a little lesser cuz there will be a separate lab in future.
+    Next work estimate - data engg and ML specialization, back to software with architectural knowledge 
+        vs DIP on resume, software demand, entry into silicon valley.
+    Smart associations - smart experienced people with greyscale; smart colleagues in paytm.
+    Risk or Danger - instablity of startup, need for high passion (work always) vs knowledge hunt mindset.
+        high expectations of experienced people
+        need for concrete upskill for practically everything OpenCV, Backend, frontend, etc besides doing cool stuffs.
+        Even if you want to see the startup culture it is better to see it gradually than abruptly.
+    Brand Value - Paytm has higher brand value being established though not MNC.
+    who has higher P(Reward)/P(Risk) ratio in general
+        and also who has higher P(Reward)/P(Risk) ratio specifically - taking my beliefs and value system into consideration.
+    Next, who has better contingency plan in case of risk facing.
+        gap in past looks bad and anything that undermines my talents should be avoided.
+        preferably cool brands on my resume that showcase my talent.
+    Next, Which techs have greater demand/Supply ratio generally
+        and also specifically considering my already expertise or cultivate-able expertise given my nature.
+PIES - Group yoga to social yoga.
+    In Group yoga phase, try to work with coolest of people for coolest of the things
+        grow you capability as a team player.
+        try to pick a work that doesn't violate the upcoming yoga tiers - like social or spiritual yoga.
+        The case in point is just try - with fire there is smoke also and we try to minimize smoke but can't avoid it.
+    Later in social yoga, it's more about working for social overall wellness or social well being (from sp perspective)
+        or Ram Rajya (whether with or without Ram).
+        the pursuit of action that will make 
+PIES - this is layered karma.
+    For a decision based on spiritual criteria - you may get a benefit of spiritual destiny but don't expect anything on lower layers.
+    Every decision will have systematic results at separate layers as per the laws of nature, jiva and ishwar.
+    Many make spiritual decision, expecting material favors - it does not work that way.
+    So it is your responsibility to do justice to your psyche in the marathon of life.
+    You know what the layered shreyas is and every decision creates destiny in terms of the tuple of all the layers of existence.
+    So choices matter - cuz every choice is a destiny in terms of tuple of layers of existence.
+    Some choices project very charming prospects of 1 element of the tuple or a dimension but at the expense of others.
+    shreyas hierarchy - Ishwar, srishti, groups, individual.
+        VA is also a path to transcendence - you are at a certain level of evolution.
+        At every tier - the yoga is about oneness - in purpose and in grats.
+        But while looking for maximizing yoga of 1 tier - make sure you ain't compromise (not necessarily maximizing) a higher tier (or shreyas)
+IQ - IT Giant MNC Companies -
+    IaaS (Intel, Samsung, Panasonic, Cisco)
+    PaaS (MS, IBM, Apple, Google Android)
+        Platforms - Oracle, MS GIT, SAP HANA, Angular Google.
+    SaaS
+        Standalone - Software (Adobe), MS - Office
+        B2B SaaS (SAP, Oracle, MS)
+        B2C CRM (Amazon, Wallmart, ebay)
+        B2C FIN (Paypall)
+        Social media (fb, twitter, MS (linkedIn), Google Youtube)
+    Analytics - PHI.
+Logs - Story - How I chose Samsung.
+PIES - Stagifying our perfection to Krishna.
+    For group yoga, personal yoga is assumed. Similarly with social yoga.
+    benchmarks are high so we have to have sprint review every weekend to get the status report.
+    Group yoga means I have become the group - honesty to tell flaw when it's there. Feeling good and bad wrt group.
+        Why am I not sensitive to my home group - cuz I don't identify myself very strongly with that group - forget becoming 1 with it or being it.
+    You go to Krishna after you become 1 with Krishna - it's not that easy - gradual evolution is thru tiers approach.
+    With sadhana 1 can even bypass the tiers tracking but that's not the ideal way to go.
+PIES - Mature growth is gradual.
+    In KC we have summom bonum, the essence of all essence.
+    But life is a journey to reach and live by that essence gradually with maturity.
+    The desirable thing is to not deny it like stupid 
+    but realize your fortune and align to the ultimate goal while respecting the stages of growth.
+SQ - Karmic reactions are not the only principle - there are also law of attraction, strong desire of someone, and influence of kala.
+CS - RDBMS
+    t| Employee(t) and t.fName = "John"
+    s.t, exists in table, dot operator, exists, For all, logical and or.
+    Algebra
+        set operation - UNION, INTERSECTION, DIFFERENCE (MINUS), cartesian
+        relational operations - selection(SIG), projection (PI), join (|X|), set division (/).
+        set functions - min, max, any, count, sum, avg.
+        PI(SNAME)((SIG(PID=3))SP)
+    Relational calculus to get requirements from query.
+        Relational algebra to sequence operations for every instance.
+        syntax mapping from there.
+    PI(S.movieTitle, M.studioName)SIG(movieYear>=2000)(Stars X Movie)
+    Q - select capability with all these specified properties.
+        IN can be converted into EXISTS by moving where clause inside exists.
+        OR can be converted into UNION by rewriting the previous query with where clause added.
+    SQL Engine
+        SQL
+        Translation to RA (logical query plan)
+        Plan optimization (optimized logical query plan)
+        physical plan selection (along with stats and metadata)
+        execution engine (refer physical data storage)
+        result
+    UNION - 
+        JOIN as bad alternative.
+        scalar subquery - replace projection clause with another select clauses from dual.
+    INTERSECT - 
+        IN or JOINS.
+    MINUS - NOT IN.
+    IN vs DISTINCT JOIN - no difference on unique index columns; otherwise IN performs better cuz of using hashes.
+        EXISTS is more flexible but more prone to inefficiency.
+    select * from bodyInput

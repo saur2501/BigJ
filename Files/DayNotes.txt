@@ -5207,7 +5207,7 @@ Movie - Justice League 2021.
 Movie - Pyaar ka Punchnama 2.
 Movie - The Jungle Book 2016. Mowgli 2018.
 Movie - Comedy Night Bachao, Comedy nights with Kapil, The Kapil Sharma Show, Comedy Nights Bachao Taaza.
-Movie - Hulchul, Hungama, etc.
+Movie - Hulchul, Hungama, Garam Masala, etc.
 Movie - POTC - On stranger tides - Mermaid based story - best installment acc to me.
 Movie - The Mask - Repressed tendencies show up with the mask.
 Movie - Batla House.
@@ -18444,7 +18444,7 @@ CS - it's early ack of for the REST call so it should be 202 instead of 200.
 CS - du -sh . for current directory size. to remove files by name find . -name "*.jar" | xargs rm -f
     space not allowed in path to jar file and use -rf if directory to be deleted.
 CS - OS - https://stackoverflow.com/questions/24036214/how-does-a-system-call-work
-CS - GIT - https://github.com/coursefiles/angular-essential-training.git
+CS - Front end - https://github.com/coursefiles/angular-essential-training.git
 CS - JAVA8 - Optional.ofNullable(dataCategory).orElse(GdprDataCategory.NORMAL
 CS - package structuring.
     Client View - No worries or separate resources folder
