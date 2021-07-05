@@ -216,28 +216,84 @@ CS - Some important GIT repos
     https://github.com/scala/scala-module-dependency-sample.git
     https://github.com/tmcgrath/spark-scala.git
 IQ - SAP IOT Farewell
-    Awesome team - the smartest people around and also helpful.
-    Usecase is 1 of the finest and most promising for the world.
-    Imran - his questioning style showcased that this is a team of bright talented people.
-    Srini - use case convinced me that I definitely had to be in this team.
-    Sathya - Initial intro.
-    Ashok - being organized. Mathematical outlook at different KT and discussions. very friendly.
-    Varsha - Excellent managing and coordinating skills; very alert.
-    Ajay - architectural knowledge and code organization. wide knowledge and learnt a lot from him
-        unique ideas proposed and discussions are so powerful.
-    Pavan - a very deep and systematic knowledge of all the tools and services. Great interacting.
-        Greawt architectural knowledge is a benchmark.
-    Abhijeet and Imran - very learned and helpful.
-    Kanu - impressed by her knowledge, questioning skills, and helpfulness whenever asked for.
-    Kunal
-        Lots of practical knowledge and willingness to help. Friendly interactions with lots of knowledge.
-    Abhishek
-        Their skills of managing and supporting code is just exquisite.
-    Hari - Heights of DoD - sessions - struggled for every little detail - that's his secret.
-        Thanks for invitation for some ML usecases like anomaly detection.
-    Suharsh, Jagriti, Suraj - just wow! How well they adapted to the team.
-        It was great pleasure for me to network with them frequently.
-        They all are very smart, always available, and carry a mindset of contribution.
-    Vishesh - special guy from my last team who made me feel very homely in the new team.
-    I used to approach almost everybody for any misbehaving system and all were very cooperative
-        and like to see younger colleagues grow - very fortunate to be in this team.
+    Awesome team
+        the smartest people around and also helpful.
+        Usecase is 1 of the finest and most promising for the world.
+        Imran - his questioning style showcased that this is a team of bright talented people.
+        Srini - use case convinced me that I definitely had to be in this team.
+        Sathya - Initial intro.
+        Ashok - being organized. Mathematical outlook at different KT and discussions. very friendly.
+            QA session with Sathya made it clear for me that arch doubts he can answer.
+            Suharsh about him - very patiently explaining each and everything. Very peacefully but completely he takes things.
+        Varsha - Excellent managing and coordinating skills; very alert.
+            Suharsh contacted her for back end work and she gave confidence.
+        Ajay - architectural knowledge and code organization.
+            wide knowledge and learnt a lot from him
+            unique ideas proposed and discussions are so powerful.
+            Kunal on Ajay - he is a senior you can approach for any issue and reachable - even if busy.
+        Pavan - a very deep and systematic knowledge of all the tools and services. Great interacting.
+            Great architectural knowledge is a benchmark.
+        Abhijeet and Imran - very learned and helpful.
+        Kanu - impressed by her knowledge, questioning skills, and helpfulness whenever asked for.
+            Suharsh - she was open to suggestions.
+            She exclaims - learning from her too from younger colleague.
+            Suharsh - she has clarity of thought - she can explain things in layman terms.
+            e2e knowledge of system during ticket solving - Ability to manage multiple commitments.
+        Kunal
+            Lots of practical knowledge and willingness to help. Friendly interactions with lots of knowledge.
+            Ashok on Kunal - Kunal involvements for anything after meeting him cuz joined few months b4 and ability to explain.
+            Ajay on Kunal - Thanks Kunal for issue solving and he brings insights making it like puzzle solving.
+            Jagriti on Kunal - didn't have confidence but that with your knowledge you can handle the technologies we are using here.
+        Abhishek
+            Their skills of managing and supporting code is just exquisite.
+            any code management issue - any problem, his eveready attitude of being "on it"
+        Hari - Heights of DoD - sessions - struggled for every little detail - that's his secret.
+            Thanks for invitation for some ML usecases like anomaly detection.
+        Suharsh, Jagriti, Suraj - just wow! How well they adapted to the team.
+            It was great pleasure for me to network with them frequently.
+            They all are very smart, always available, and carry a mindset of contribution.
+            Suharsh - he is the bro guy - you can talk anything under the sky with him in after hours.
+                Kanu on him - always available even at 6. Amazed by his involvements.
+            Suraj - like your go getter attitude.
+            Jagriti - interacted for sessions for performance KT - calm, patient, having knowledge, willingness to help with it.
+            Kunal on them - Suraj and Jagriti will be great asset to the team
+                have interacted with them and feel so.
+                please take nice care of them.
+        Vishesh - special guy from my last team who made me feel very homely in the new team.
+        Misc - I used to approach almost everybody for any misbehaving system and all were very cooperative
+            and like to see younger colleagues grow - very fortunate to be in this team.
+    Discussions ideas - when joining, new company in BLR, how long, joining again ever
+        vaccination taken
+        tell something about your experience - must be busy.
+        busy-ness is welcomed Ashok - busy around smart set of people who really know their work in great depth and are helpful is always welcomed.
+            did you get it - I did. 1 of the most awesome teams I have found - if I didn't have personal reasons I would stay here more.
+        How will I deliver big data stuff asked Suharsh from his buddy.
+    Suggestions and Compliments from team members
+        Ashok - You had great ML ideas going by your profile which we could not pursue but you can sharpen it in another project in future companies - many datasets online.
+            we could not put you to the best use - the topics that interested you the most.
+            Keep this passion at this age. Keep passions alive - take to next few years b4 bringing them to logical closure.
+            with certain roles, it is very difficult to pursue these topics.
+            You can reach out to any of us (Ashok or Hari) for not just ML but also any other engg topic.
+            All of us colleagues are always there to help you.
+            In general, Commitment - that whoever comes into our team is gifted with commitment.
+                You tell them something - they find remainder information from different sources
+                and next time you ask them they deliver you more info on that.
+            For sure it will be difficult to fill in the shoes of all leaving - vacuum to be filled.
+        Ajay - it's all how you take it. Appreciate the effort you put in the team.
+            Good the way you have delivered things.
+        Varsha - bugged for jira stories - that's why I said alert.
+            what you have done in short time is appreciable.
+        Kanu - I never worked with you but heard from others that you were good and will excel at whatever or wherever you are.
+        Srini - commitments grow when in this team and bar is raised with the team is a great compliment.
+            people think that they become better when they join the team - nothing can be better compliment to team and to themselves.
+            commmitment goes up - when you like what you are doing, when you think that you are among the best, you feel happy doing it.
+            normal days we don't say such things but leaving they speak their minds outta emotions.
+            regret meeting you in person - pleasure working under you.
+            Challenge is difficulty to bring in people as good as the one who are leaving.
+                it takes learning curve and not all make the cut.
+                challenge to make those finds - in this we had pretty good finds.
+                unfortunately we lost you. Hope you will perform well in career - you are all young.
+        Abhishek - committed for whatever task given but didn't interact a lot.
+        Jagriti - great interactions.
+        Suharsh - interactions of coffee hours in virtual setting.
+IQ - Local user and domain user for every computer - after leaving, domain user is deactivated first.
