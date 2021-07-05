@@ -195,3 +195,49 @@ CS - RDBMS
     IN vs DISTINCT JOIN - no difference on unique index columns; otherwise IN performs better cuz of using hashes.
         EXISTS is more flexible but more prone to inefficiency.
     select * from bodyInput
+Sume - IQ Bhakti - No problem even if I won't make a consuming application of spark-service-connection library but I did so that the consumer will have no difficulty.
+    No problem if I let go off the Hilti thing job instability reasons but I finished it and shared my findings which he ack b4 taking up further causes.
+PIES - Be like NodeJS while working, ERP, Big Data Batch, Big Data Streaming, Jenkins pipeline. From siemens also there can be something.
+    Now is OpenCV time.
+CS - Some important GIT repos
+    https://github.com/koushikkothagal
+        ipl-dashboard		spring-security-jpa
+        spring-boot-security	spring-security-jwt
+    https://github.com/LearningJournal
+        Apache-Kafka-For-Absolute-Beginners	Spark-Streaming-In-Python
+        ApacheKafkaTutorials			Spark-Streaming-In-Scala
+        Spark-Programming-In-Python		SparkProgrammingInScala
+    https://github.com/purnima-jain/spring-boot-multi-module.git
+    https://github.com/deepaksrivastav/spring-boot-multimodule.git
+    https://github.com/alexholmes/avro-maven.git
+    https://github.com/gonvaled/jskemator.git
+    https://github.com/nikhilkumarsingh/YouTubeAPI-Examples.git
+    https://github.com/binodsuman/kafka-spark-streaming-integration.git
+    https://github.com/scala/scala-module-dependency-sample.git
+    https://github.com/tmcgrath/spark-scala.git
+IQ - SAP IOT Farewell
+    Awesome team - the smartest people around and also helpful.
+    Usecase is 1 of the finest and most promising for the world.
+    Imran - his questioning style showcased that this is a team of bright talented people.
+    Srini - use case convinced me that I definitely had to be in this team.
+    Sathya - Initial intro.
+    Ashok - being organized. Mathematical outlook at different KT and discussions. very friendly.
+    Varsha - Excellent managing and coordinating skills; very alert.
+    Ajay - architectural knowledge and code organization. wide knowledge and learnt a lot from him
+        unique ideas proposed and discussions are so powerful.
+    Pavan - a very deep and systematic knowledge of all the tools and services. Great interacting.
+        Greawt architectural knowledge is a benchmark.
+    Abhijeet and Imran - very learned and helpful.
+    Kanu - impressed by her knowledge, questioning skills, and helpfulness whenever asked for.
+    Kunal
+        Lots of practical knowledge and willingness to help. Friendly interactions with lots of knowledge.
+    Abhishek
+        Their skills of managing and supporting code is just exquisite.
+    Hari - Heights of DoD - sessions - struggled for every little detail - that's his secret.
+        Thanks for invitation for some ML usecases like anomaly detection.
+    Suharsh, Jagriti, Suraj - just wow! How well they adapted to the team.
+        It was great pleasure for me to network with them frequently.
+        They all are very smart, always available, and carry a mindset of contribution.
+    Vishesh - special guy from my last team who made me feel very homely in the new team.
+    I used to approach almost everybody for any misbehaving system and all were very cooperative
+        and like to see younger colleagues grow - very fortunate to be in this team.
