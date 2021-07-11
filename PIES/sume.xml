@@ -657,7 +657,7 @@
                 SQL Administration - Paper Presentations.
                 Java Media Player - UML diagrams.
 			</NITJSR>
-			<Infy>
+			<Infosys>
             Infy - 3.5
 				Idols - "I want to help but don't have time" guy, Mayank, KT lady for maintenance, Vibhor, Presentation guy onboarding.
                 Contributions
@@ -677,7 +677,7 @@
                         Maintenance – Customer Issues Handling, Process Integration Message Handling.
                         Message management
                         SQL scripts writing for application data consistency.
-			</Infy>
+			</Infosys>
 			<VITPune>
             VIT Pune - 4.2
 				Idols - Vishal Kaushal Sir, Karthick Sir, Ras Vigrah Sir.
@@ -711,7 +711,7 @@
                         Modeling of a college data model
                 Stackoverflow analytics
 			</IIITB>
-			<Siemens>
+			<SiemensRnD>
             Siemens - 3.5+Diet (12 otherwise)
 				Idols - Vikram Singh Chandel, Priyansh Saxena, Varsha Raveendran, Vinay Sudhakaran.
                 what
@@ -761,8 +761,8 @@
                     Skills - Diagrams - starUML, LucidChart Online
                     Solution
                         Proposed a Design for the upcoming application.
-			</Siemens>
-			<SAP>
+			</SiemensRnD>
+			<SAPLabs>
             SAP - 7.5 (2.5 over 2 years)
 				<BYD>
                 Business By Design - End to End ERP Business Suite
@@ -926,7 +926,7 @@
                             IncomingFileOWL_V2 - Files for Bank or partners interface - bank statements, cheque deposits, etc.
                             CostObjectsSettlementRunCreate_QAF - EC for background job creation.
 				</NSME>
-				<SAPIOT>
+				<SAP_LIB>
                 SAP IOT - Big Data Analytics for SAP IOT Data Streams.
 					Idols - Sathya (PO and Arch), Ashok (Computer Science terminology and clarity), Abhijeet (agressive achiever), Ajay (Architecture and programming), Imran (neat coding), Pavan (Services), Varsha (Scrum master).
 					System Design
@@ -997,8 +997,15 @@
 						Nightly build scripts - red ones - re-trigger thru jenkins bot
 						in workspace results csv file with every call - figure out where the problem is.
 						Raise BCP for those problems or solve them whichever works.
-				</SAPIOT>
-			</SAP>
+				</SAP_LIB>
+			</SAPLabs>
+			<Samsung_SRIN>
+				Samsung - 15.5 + 5 (+2)
+				Specification - Telecom Base station Analytics
+				Idols
+				System and App Design
+				Contributions
+			</Samsung_SRIN>
         </K>
         <EgoSpecific>
             about - focus on how I am suitable for a role cuz my ego matches with that.

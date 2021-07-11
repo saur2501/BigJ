@@ -558,6 +558,858 @@
                                                         Set up IDE for app-devp.
                                                         Go to struts2 website and download distribution. set up the project to have distribution included in the build path.
                                         </Struts2>
+										<Spring>
+										<SpringCore>
+										Spring
+											dependency inversion or injection - dependency to be injected and not part of it - member variable.
+												Shape - Circle and Triangle.
+												Application class - handle to parent object
+													Shape shape = new Triangle();
+													shape.draw();
+												Application class - dependency removed - but sw shape method is created.
+													myDrawMethod(Shape shape) {
+														shape.draw();
+													}
+													Shape shape = new Triangle();
+													myDrawMethod(shape);
+												Application class - put myDrawMethod inside a Drawing class, member variable of shape and it's perfect.
+													but still triangle creation in the application class - yes, it is meant to be modified for that.
+													separate dependency out of class was the whole point.
+													Drawing does not need to know the actual shape.
+											spring source org - get all spring jars and add to path.
+												project, properties - add libs.
+											Spring bean factory
+												spring container - servlet container eg tomcat - tomcat creates servlets objects which are reqd to run an application.
+													configure all the servlets in an xml and you would supply the classes.
+													tomcat reads xml and identifies the servlets that need to be instantiated.
+													spring is container of beans - every pojo in sping container.
+													container has a set of objects - whole lifecycle - creation, maintenance and destruction by spring.
+													advantages of spring maintaining our objects' lifecycle
+												spring should own them to be able to do that.
+													instead of new object you ask spring to instantiate an object - that's factory pattern.
+													Object Factory is java object - analogous to actual factory.
+													factory reads from blueprint called configuration to create an object and keeps with itself and returns.
+													Spring has bean factory in it - reference bean factory to read from spring xml
+													creates spring bean or object and creates spring bean and passes the reference back.
+												dependency injection not yet but getting reference alone.
+												Practical
+													Application code
+														BeanFactory factory = new XmlBeanFactory(new FileSystemResource("spring.xml"));     //other types of factories as well.
+														Triangle triangle = (Triangle) factory.getBean("triangle");                         //typecast important
+														triangle.shape();
+													Spring.xml
+														should have DOCTYPE.
+														<!--<beans>
+															<bean id="triangle" class="org.Triangle" />
+														</beans>-->
+															//which class to be instantiated for the bean with the given id.
+													why circus with more lines - make once and used any number of times and convenience with bigger pieces.
+											Application context
+												About - is bigger brother of BeanFactory and prefered when no resource crunch.
+												Code
+													Triangle
+														member variable - String type;
+													Application code
+														ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+														Triangle triangle = (Triangle) context.getBean("triangle");                         //typecast important
+														triangle.shape();
+												Initialization - say with member variable.
+													<!--<beans>
+														<bean id = "triangle" class = "org.Triangle">
+															<property name = "type" value = "Equilateral"/>
+														</bean>
+													</beans>-->
+												//here the member variable practically primitive string type but injection still.
+													setter injection to be precise - without triangle setter this won't work.
+											Constructor Injection
+												<!--<bean id = "triangle" class = "org.Triangle">
+													<constructor-arg value = "Equilateral"/>
+												</bean>-->
+												2 args for constructor? then 2 elements for constructor-arg.
+													both as string in double-quotes but typecasted by spring.
+												3 constructors - 2 with 1 field and 1 with 2 fields - make bean with specifications.
+													if 1 bean with 1 constructor-arg of type int - then specify type = "int"
+													<!--<constructor-arg type = "java.lang.String" value = "29"/>
+													OR <constructor-arg index = "0" value = "29"/>-->
+													unset one is kept as default.
+											Injecting objects
+												Triangle - has Point object array of 3. pointA, pointB, pointC.
+													Point is int x and y.
+												Application code - we would initialize points and then pass them to triangle.
+												Beans
+													make beans for each point.
+													assign bean to triangle bean.
+													<!--<beans>
+														<bean id="triangle" class = "org.Triangle">
+															<property name="pointA" ref="zeroPoint"/>
+															<property name="pointB" ref="point2"/>
+															<property name="pointC" ref="point3"/>
+														</bean>
+														<bean id="zeroPoint" class = "org.Point">
+															<property name="x" value="0"/>
+															<property name="y" value="0"/>
+														</bean>
+														<bean id="point2" class = "org.Point">
+															<property name="x" value="10"/>
+															<property name="y" value="0"/>
+														</bean>
+														<bean id="point3" class = "org.Point">
+															<property name="x" value="0"/>
+															<property name="y" value="20"/>
+														</bean>
+													</beans>-->
+												Power of 1 place for bean creation than in code.
+											Inner beans, aliases, idref.
+												Inner bean
+													inner bean if I know that point2 and point3 won't be independently used.
+														consolidation benefits - no performance benefit.
+													for triangle bean becomes -
+													<!--<property name="pointB">
+														<bean class="org.Point">        //id won't be reqd
+															<property name="x" value="20"/>
+															<property name="y" value="0"/>
+														</bean>
+													</property>-->
+												Alias - some name for a bean and then reference it anywhere.
+													under beans tag, use alias tag.
+													<!--<alias name="triangle" alias="triangle-alias"/>-->
+													now you can use triangle-alias instead of triangle to get a bean.
+													alias in the bean definition use name attribute.
+													<!--<bean id="triangle" class="org.triangle" name="triangle-name">
+														...
+													</bean>-->
+												idref
+													<!--<property name="pointA">
+														<idref="point2"/>       //same as ref but foolproofing that it's ref to id in the xml.
+													</property>-->
+											Initializing Collections.
+												if point objects converted to a list or array of points called points.
+												<!--<bean id = "triangle" class = "org.Triangle">
+													<property name="points">
+														<list>
+															<ref bean="zeroPoint"/>
+															<ref bean="point2"/>
+															<ref bean="point3"/>
+														</list>
+													</property>
+												</bean>-->
+												type conversion to points happens here as well for points.
+											Bean Autowiring
+												skip configuration that we have to do, using intelligent guessing that we have to do.
+												<!--<bean id="triangle" class.. autowire="byName">
+												</bean>
+												<bean id="pointA"...>
+													...
+												</bean>-->
+												all the points are automatically picked in triangle beans cuz they have same member variable names as the point bean in the xml.
+												autowire="byType" and "constructor".
+												with small list is easy, but with huge xml file - it will be huge amount of tracking.
+											Bean Scopes
+												when we start spring container - define application context by providing xml.
+												reads spring xml and creates beans already - getBean calls not made yet.
+												when getBean is called - only hand over happens.
+												we can configure it that way also but default is like this.
+												Scopes
+													Singleton - only once per spring container - same bean instance is returned.
+													Prototype - New bean created with every request or reference.
+														even nested references are different object reference like zeroPoint.
+													Web aware context bean scopes - jsp or servlet apps
+														when new request or sessions - then bind bean to that request or session.
+														Request - New bean per servlet request.
+														Session - New bean per session.
+														Global session - new bean per global HTTP session (portlet context)
+												<!--<bean id="triangle" class.. scope="singleton">
+													...
+												</bean>-->
+											Using ApplicationContextAware
+												if triangle is singleton and points are Prototype no use cuz made only once.
+												to get access to ApplicationContext
+													?at any class at any time instead of passing it around or create new.
+												public class Triangle implements ApplicationContextAware {
+													setApplicationContext(ApplicationContext context) {
+														...
+													}
+												}
+												during loading the beans - it will use this method to have a member variable reference.
+												public class Triangle implements BeanNameAware {
+													setBeanName(String beanName) {} //get the beanName at runtime - bean id.
+												}
+												Thus you don't have to make object of ApplicationContext everytime in the codebase.
+											Bean Definition Inheritance
+												common definitions to be reused - templates for other beans.
+												<!--<bean id="parentTriangle" class="">
+													<property name="pointA" ref = "pointA"/>
+												</bean>-->
+												only 1 point configured for parent triangle
+												<!--<bean id="triangle1" class="" parent="parentTriangle">
+													<property name="pointB" ref = "pointB"/>
+													<property name="pointC" ref = "pointC"/>
+												</bean>-->
+												can also override.
+												For list->
+												<!--<bean id="parentTriangle" class="" abstract="true">         //abstract to not allow object of it.
+													<property name="points">
+														<list>
+															<ref bean="pointA"/>
+														</list>
+													</property>
+												</bean>
+												<bean id="triangle1" class="" parent="parentTriangle">
+													<property name="points">
+														<list merge="true">                 //without merge a new list will be created
+															<ref bean="pointB"/>
+														</list>
+													</property>
+												</bean>-->
+											Lifecycle callbacks
+												shutdown hook for closing the applicationContext.
+												Register the hook for desktop app but otherwise, spring context knows when to stop.
+												AbstractApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+												context.registerShutdownHook();
+												Triangle triangle = new Triangle();
+												triangle.draw();
+												class Triangle implements InitializingBean, DisposableBean {
+													void afterPropertiesSet {
+														sout("Init method called for triangle");    //called b4 bean draw.
+													}
+													void destroy() {
+														sout("clean up code");
+													}
+												}
+												OR Manual Spring registration
+													Add following to the triangle class
+														void myInit() {
+															sout("my custom method")
+														}
+														void cleanup() {
+															...
+														}
+														<!--<bean id="triangle" ...init-method="myInit" destroy-method="cleanup">
+															...
+														</bean>-->
+													//common name for myInit and cleanup method - standardized name.
+														<!--<beans default-init-method="myInit" default-destroy-method="cleanup">
+														</beans>-->
+												What if I have both - then both will be executed.
+													our manual spring methods are later than interface methods.
+											BeanPostProcessor
+												separate class - method executed everytime bean is initialized.
+												useful for extending the capability of the spring framework.
+												public class DisplayNameBeanPostProcess implements BeanPostProcessor {
+													//2 callbacks when bean is initialized
+													Object postProcessBeforeInitialization(Object bean, String beanName) {
+
+													}
+													Object postProcessAfterInitialization(Object bean, String beanName) {     //return the bean object back after changes for processing flow.
+
+													}
+												}
+												<!--<bean class="org.DisplayNameBeanPostProcess"/>-->
+												Many types of BeanPostProcessor like ordered ones.
+											BeanFactoryPostProcessor
+												Another extension point -
+													public class MyBeanFactoryPP implements BeanFactoryPostProcessor {
+														postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) {
+
+														}
+													}
+													<!--<bean class="org.MyBeanFactoryPP"/>-->
+													called during ApplicationContext creation - which is actually BeanFactory + sth more.
+												1 use is follows:
+													pointsconfig.properties - any name
+														pointA.pointX=0
+														pointA.pointY=0
+														//can keep all hard coded values outside.
+													<!--<bean id="pointA" class="">
+														<property name="x" value="${pointA.pointX}"/>
+													</bean>
+													<bean class="org.springFramework.beans.factory.config.PropertyPlaceholderConfigurer">
+														<property name="locations" value="classpath://pointsconfig.properties"/>    //directly filename if on same classpath.
+													</bean>-->
+											Coding to Interfaces
+												interface Shape {
+													void draw();
+												}
+												class Circle implements Shape {
+													private Point center;
+													//get, set.
+													draw() {}
+												}
+												//Add beans definition in xml
+												<!--<bean id="circle".../>-->
+												Shape shape = (Shape) context.getBean("triangle");
+												Shape shape = (Shape) context.getBean("circle");
+												This is coding to interface.
+												Useful for Business Service or DAO - implementation can be plugged in at any time.
+											Annotations and Required Annotation
+												2nd way of using container configuration (other than xml)
+												Make sure that the reference member variables of bean get assigned some value thru required.
+												@Required
+												public void setCenter(Point center) {this.center=center;}
+												a bean post processor would ensure that all required annotations are satisfied and throw exception if not.
+													this is while initializing only much b4 code execution
+												<!--<bean class="org.springFramework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>-->
+											Autowired Annotation
+												helps wire dependencies like spring xml
+												@Autowired
+												public void setCenter(Point center) {this.center = center;}
+												point bean has id as pointA but type is same as member variable in Circle class so by type autowiring will happen.
+												<!--<bean class="org.springFramework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>-->
+												same id then works well.
+												First looks for type if 1 bean of that type but multiple beans then id is done.
+												if I can't change the id name being used by others then in the class do following
+												@Autowired
+												@Qualifier("circleRelated")
+												public void setCenter(...){}
+												<!--<bean id="pointA" class="org.Point">
+													<qualifier value="circleRelated"/>
+													...
+												</bean>-->
+												//needs xml qualifiers as namespace and all - to be read from xml in the library.
+											All post processors in 1 go
+												<!--<context:annotation-config/>-->
+											Some JSR-250 Annotations
+												@Resource(name="pointC")
+												public void setCenter(Point center) {
+													this.center = center;
+												}
+													//it's a javax annotation.
+												@PostConstruct
+												public void initializeCircle() {
+													...
+												}
+												@PreDestroy
+												public void destroyCircle() {
+													...
+												}
+													//no need of init and destroy attributes in the spring xml tags.
+											components and sterotype annotations
+												Make components as beans with class definition itself.
+													@Component
+													class Circle {}
+													This already creates a bean with id and class names as Circle.
+													But problem is no multiple beans definitions possible.
+													<!--<context:component-scan base-packaging=""/>-->
+													So, this will be extension of xml - circle has point - point can come from xml.
+												sterotype roles like view, controller, etc.
+													@Service, @Repository for Data, @Controller.
+													These are specialized role and @Component is general.
+													Just extra information for enterprise application.
+											Using MessageSource to get text from property files
+												Messages should be not in code but a property file which will finally show on the UI.
+												mymessages.properties with KV pairs.
+													greeting=Hello!
+													drawing.point=Circle:Point({0},{1})
+												<!--<bean id="messageSource" class="org.springFramework.context.support.ResourceBundleMessageSource">
+													<property name="basenames">
+														<list>
+															<value>mymessages</value>
+														</list>
+													</property>
+												</bean>-->
+												Application code
+													context.getMessage("greeting", null, "DefaultMessage", null)        //parameters is 2nd, locale is 4th
+													context.getMessage("drawing point", new Object[] {center.getX(), center.getY()}, "Default", null);
+													OR have MessageSource object in a class and autowire it.
+														have a setter for this member variable.
+														use the MessageSource to get the message.
+														messageSource.getMessage("greeting", null, "DefaultMessage", null)
+											Event Handling - Event publisher, Event Listener and Event itself
+												Listener
+													@Component
+													class MyEventListener implements ApplicationListener {
+														void onApplicationEvent(ApplicationEvent event) {
+															event.toString();
+														}
+													}
+													no custom events so it will capture framework events.
+														like context created and refreshed.
+												Event class
+													class DrawEvent extends ApplicationEvent {
+														public DrawEvent(Object source) {
+															super(source);
+														}
+													}
+												publisher
+													Add ApplicationEventPublisher member variable in model class to publish events.
+													class Circle implements ApplicationEventPublisherAware {
+														void setApplicationEventPublisher(ApplicationEventPublisher publisher) {
+															this.publisher = publisher;
+														}
+														draw() {
+															DrawEvent drawEvent = new DrawEvent(this);
+															publisher.publishEvent(drawEvent);
+														}
+													}
+										</SpringCore>
+										<SpringBoot>
+										Spring boot - makes it easy to create stand alone, production grade spring based application that you can just run.
+											spring - not just dependency injection as in 2k6 but application framework.
+												template for that.
+												programming and configuration models.
+													pojo annotations. only logic with annotations.
+												infrastructure support like data access.
+												huge framework with support for eth - so overwhelming to get started.
+													multiple setup steps.
+													multiple config steps.
+													multiple build and deploy steps.
+												gotta do a huge lot and no pathway or guidance.
+													so abstract these steps out thru spring boot.
+													for 80% cases this is the way to do it - opinionated framework.
+											Spring boot gives us
+												opinionated
+												convention over configuration.
+												stand alone - not war but jar.
+													no need for servlet container.
+												Production ready.
+											Set up envt
+												Java 8 JDK.
+												IDE - Spring STS or Eclipse or whatever.
+													download from STS website.
+											Maven - dependency management
+												App asks library to get dependencies in pom.
+												maven is gonna supply all the jars on the app classpath from repo.
+												start from template.
+											Create a project.
+												Create Maven Project.
+													skip archetype - enter your project details.
+													add spring-boo-starter-parent as parent project.
+														all configs get inherited. Which versions of dependencies to download.
+														preset list of possible combinations that work well is "Bill of Material" approved by spring.
+														don't worry about versions anymore.
+														convention over config - so configs out of the box.
+														all default opinionated configs there.
+													add dependency spring-boot-starter-web - add jars for web application - uber group dependency.
+														no list of dependencies but bundled together
+													set properties / java.version as 1.8 for maven config.
+												Spring Initializr - start.spring.io
+													Maven Project, version, Project metadata, Dependencies (search or checkbox)
+													Download and extract zip.
+													Import existing maven project from IDE.
+													//can also add spring test, spring maven.
+												Spring Boot CLI
+													allows to run Groovy scripts.
+													good for quick prototyping.
+													brew tap pivotal/tap
+													brew install springboot
+													OR use binaries.
+													spring run app.groovy
+												STS IDE - Spring Tool Suite IDE
+													New spring starter project, boot version and dependency. base url = spring Initializr uri.
+											Application
+												Create a main class in a package
+													SpringApplication.run(this.class, args_for_main);
+														static class with method run to kickstart.
+														sets up default config.
+														starts spring application context.
+															spring is container for our code for all services.
+															this container is the application context.
+														performs class path scan.
+														starts tomcat server.
+												@SpringBootApplication
+													Annotate to let app know the starting point of springboot application.
+												localhost:8080 - no mapping for error so error but done.
+											Controller
+												java class marked with annotations.
+													@RestController
+													@RequestMapping("resource") for GET.
+													for other http methods we need to specify in annotation.
+													class path scan will find this controller and remembers to trigger the method and return.
+												info on URL triggers, methods to run.
+											Returning objects from controller
+												create model object with getters setters.
+												@RequestMapping("topics")
+												public List[Topic] getAllTopics() {
+													return Arrays.asList(
+														new Topic("spring", "whatever");
+													);  //it is un-editable so wrap it around Arraylist if you want to add something to the list.
+												}
+												Being RestController - conversion to json is internally taken care of.
+											Embedded Servlet Container
+												convenience.
+												Servlet container config is now application config.
+												Standalone app - easy to deploy, build and run.
+												useful for microservices architecture.
+											MVC - Add views to the controllers.
+												Spring MVC controller listens to any request coming in and do the needful.
+												These controllers map - endpoint (URI resource and HTTP method) to a functionality (java method)
+											Resources - identify things (or nouns) in our domain.
+												topic, course, lesson (1:n cardinality)
+												Standards
+													GET /topics - get all topics.
+													GET /topics/id - get the topic.
+													POST /topics - create new topic
+														body will have details.
+													PUT /topics/id - for update the topic.
+													DELETE /topics/id - for delete the topic.
+											Business service
+												singletons created when spring starts.
+												just annotate with @Service
+												@Service
+												public class TopicService {
+													getAllTopics() {
+														return topics;
+													}
+												}
+												Inject thru declaring dependency injection of @Autowired.
+												@Autowired
+												private TopicService topicService;
+											Getting single resource
+												@RequestMapping("/topics/{id}")
+												public Topic getTopic(@PathVariable String id)  //or @PathVariable("id") String id
+											Create new resource using POST
+												@RequestMapping(method=RequestMethod.POST, value = "/topics")
+												public void addTopic(@RequestBody Topic topic) {
+													//do sth with topic
+												}
+												the same extension of HTTPMethod could be applied to GET also.
+												object created from json by spring.
+												prefer postman for making POST calls.
+													set Content-Type in header as application/json
+											Update and Delete resource
+												similar to post and get.
+											Using application.properties
+												to tweak as per needs - customize using this.
+												say change port - create file under resource folder.
+												server.port=8081
+												google search common application properties and huge list to pick from as per need.
+										</SpringBoot>
+										<SpringJPA>
+											JPA - Java Persistence API - uses ORM.
+											Define
+												Map class with DB tables.
+												JPA is API or spec to configure entity to framework.
+												Spring Data JPA makes JPA easier further.
+											Dependency - JPA and Apache Derby for in-memory test DB.
+												spring-boot-starter-data-jpa
+												derby with scope of runtime added.
+											Creating JPA repo
+												add model class annotation @Entity and Primary key @Id.
+													Enough for conversions.
+												Otherwise
+													For TopicService, Data Service (DAO-kind) class.
+														class TopicRepository {
+															getAllTopic();
+															getTopic(String id);
+															updateTopic(Topic topic);
+															deleteTopic(Topic topic);
+														}
+												These methods are gonna be common so JPA team asks you only for interface.
+													public interface TopicRepository extends CrudRepository[Topic, String] {
+														//add extra custom methods
+													}
+													public class TopicService {
+														@Autowired
+														TopicRepository topicRepository;
+														List[Topic] getAllTopics() {
+															public List[Topic] topics = new ArrayList[]();
+															TopicRepository.findAll().forEach(topics::add);
+															return topics;
+														}
+														void addTopic(Topic topic) {
+															TopicRepository.save(topic);
+														}
+													}
+													But which DB is it? Derby is runtime DB that we have added to Dependencies.
+														no connection information is necessary
+															sees Embedded derby db in classpath and assumes that's the db.
+														other methods
+															topicRepository.findOne(id)
+															for updateTopic also topicRepository.save(topic) only - update if exists.
+															topicRepository.delete(id)
+											Create a new course resource (under or outside)
+												Copy topic package and rename the classes.
+												every course object maps to topic as n:1 so Add annotation @ManyToOne from javax.persistence on Topic topic in course class.
+													and JSON request will not have topic reference - that's there in the url itself.
+												for new methods in JPA just declare the method as findByProperty(String name) and it will do implementation itself.
+												If course object has topic then findByTopicId(String topicId); so find by primary key inside the aggregated class.
+												If wanna show course alone, the lazily load topic but JPA is extension that's not the focus here.
+											Packaging and running Spring boot app
+												build using mvn clean install.
+												java -jar target/jarName
+												just change packaging jar to war to deploy inside servlet container.
+											Spring Actuator
+												dependency called spring-boot-starter-actuator
+												binaries on classpath add new features.
+												/health resource GET endpoint  for status of app and disk usage and derby status.
+												to change the port, management.port=9001
+												/beans - what all do we have.
+										</SpringJPA>
+										<SpringSecurity>
+											Intro
+												@James bond - been expecting you. Made thru levels.
+												lots of thoughts and layers of security but still penetration.
+												Application security isn't fun - nothing new so often an afterthought.
+												OS, JVM, App server security is there but API is open so application level security.
+													what data is exposed and to whom.
+												security threats are constantly evolving - so nerds for that.
+													hire a watchmen security to intercept visitors - who are you, what do you want.
+												Framework Includes
+													Login and Logout functionality.
+													Allow block URLs to users.
+													Allow block to users.
+												Flexibility and handles common vulnerability - session fixation, clickjacking, click site request forgery.
+													so we don't have to.
+													widely adopted - so target for hackers and immediate patches as well.
+												Spring security
+													user password auth.
+													SSO/ LDAP, etc.
+													App level auth.
+													Intra App Auth (OAuth)
+													Microservice security (tokens, jwt)
+													Method level security
+												5 concepts
+													Authentication
+													Authorization
+													Principal
+													Granted Authority.
+													Roles.
+											5 security concepts
+												@Security guard
+													Who are you - ID.
+													What you want - This thing I am trying to access.
+												Authentication - user account table that entry is me.
+													prove it -
+													Knowledge based Authentication
+														password, pincode, answer to a secret or personal questions.
+														Pros Cons - Easy to implement and use but not fully safe.
+															steals password.
+													Possession based Authentication
+														phone or text messages - more difficult to obtain.
+														key cards and badges - only you can enter building cuz only you have it.
+														access token device.
+													Multi-factor authentication - with more of them.
+												Authorization - What do you want - allow them or not.
+													Given a user, a list of actions - say yes or no in the table.
+													Eg - retail store -
+													store clerk, dept mgt, store mgr all see different things in the store.
+														POS functionality, check items in inventory, dept reports but dept reports not visible to clerk.
+														store mgr can also see store reports and store financials.
+												Principal - Spring security concept but used in other places as well.
+													person identified thru authentication.
+													it's currently logged in user.
+													it's this principal that establishes a user once and user doesn't need to send id password with every request.
+													not unique mapping cuz 1 user and have n ids like gmail.
+													but usually there's just 1 logged in user (per request)
+												Granted Authority - actions that you are allowed to do (instead of view)
+													set of allowed actions and default is no.
+													authorities are fine grained.
+													for every person mapping with actions allowed is very tedious.
+														so concept of roles to solve m:n cardinality problem.
+														Role - group of authorities.
+												Roles are coarse grained.
+													authorities are fine.
+												Out of the box spring behavior without much config.
+											Add spring security to new spring boot project.
+												pom.xml add spring-boot-starter-security - group level to get eth underneath.
+													nothing to be added to classpath for it to get started.
+													sign in endpoint added and even performs validations.
+													user is user and password is generated for every deployment.
+													How did it do it - Filters
+														our framework is built on top of servlet technologies.
+														web app has n servlets - url maps to servlets.
+														filters is cross cutting concerns - stand in middle of every request.
+														filters can allow or deny at their place.
+													Spring security
+														adds mandatory authentication for all URLs except error page
+														Add login form.
+														handles login error.
+														creates a user and sets a default password.
+												add application.properties
+													spring.security.user.name=foo
+													spring.security.user.password=foo
+													only 1 user password created.
+													This overrides default password anymore.
+												How to refer to list of users and passwords?
+											Configure Spring security authentication
+												AuthenticationManager does authentication - has method called authenticate.
+												we use its builder pattern and set configuration on it.
+												REL what type of auth - in memory - ok tell me user, passwd, role - here you are.
+												AuthenticationManager will be built for you.
+												Use a hook on a class method called configure
+													we gotta extend and override.
+													use method chaining pattern here.
+												@EnableWebSecurity
+												public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
+													void configure(AuthenticationManagerBuilder auth) {
+														auth.inMemoryAuthentication()
+															.withUser("blah")
+															.password("blah")
+															.roles("USER")
+															.and()
+															.withUser("foo")
+															.password("foo")
+															.roles("ADMIN")
+													}
+													@Bean
+													public PasswordEncoder getPasswordEncoder() {
+														return noOpPasswordEncoder.getInstance();   //deprecated but won't go away - it's just a way of saying that I am ok with text password
+													}
+												}
+												//passwords should never be hardcoded - they encoded with hashing or so.
+													How to set a password encoder.
+													Just expose a @Bean of type PasswordEncoder.
+											Configure for Authorization
+												Different APIs with different access controls.
+												Eg -
+													/ - all - authenticated.
+													/user - user and admin roles.
+													/admin - ADMIN role.
+												hook using configure(HttpSecurity) method from WebSecurityConfigurerAdapter.
+												protected void configure(HttpSecurity http) {
+													http.authorizeRequests()
+														.antMatchers("/", "static/css", "static/js").permitAll()
+														.antMatchers("/**").hasRole("USER")
+														.and().formLogin();
+														//hasAnyRole(_,_,_)
+												}
+												//Spring security also provides logout page - /logout - nice image for that.
+												http.authorizeRequests()
+													.antMatchers("admin").hasRole("ADMIN")
+													.antMatchers("user").hasAnyRole("USER")
+													.antMatchers("/").permitAll()
+													.and().formLogin();
+												403 if not allowed.
+											How works
+												Filter has power to intercept and manipulate any request that comes.
+												Filter maps to a range of urls unlike servlets.
+												Eg of filter
+												<!--<filter>
+													<filter-name>springSecurityFilterChain</filter-name>
+													<filter-class>org.springFramework.web.filter.DelegatingFilterProxy</filter-class>
+												</filter>
+												<filter-mapping>
+													<filter-name>springSecurityFilterChain</filter-name>
+													<url-pattern>/*</url-pattern>
+												</filter-mapping>-->
+												No need for us to manually add this cuz starter-security pack took care of this configuration for us.
+													/* so listening to all the urls.
+													secure app has to secure entire app at filter level.
+													This proxyFilter of spring delegates its task to other spring security filters.
+													based on url, configs, etc.
+													authentication filter is one of them, authorization filters as well.
+												How authentication is done
+													input is credentials
+													output is not boolean true false but principal - info of login user.
+													AuthenticationProvider interface has method called authenticate to do authentication.
+														Authentication interface as input and output - has members credentials and principal inside of it.
+														isAuthenticated to provide flag or true false.
+													single application can have multiple authentication stategies so AuthenticationProvider authenticate() implementations.
+														I do pwd auth, I do OAuth, I do LDAP auth.
+														ProviderManager implements AuthenticationManager - authenticate()
+														manage multiple authentication.
+															in order to serve AuthenticationManager to check the auth type provided AuthenticationProvider also has support method.
+													What does AuthenticationProvider do to authenticate?
+														check with identity store - pass username, etc and get user object.
+														Spring has standardized the user retrieval part as
+															class UserDetailsService / loadUserByUserName()
+														UserDetails - getAuthorities, getPasswd, getUsername, isExpired, isLocked, isEnabled, isCredExpired.
+												Collaboration Diagram
+													Filter Proxy
+													AuthenticationProvider Filter
+														Authentication Credential Input
+														Authentication Principal Output
+													AuthenticationManager - authenticate()
+													AuthenticationProvider - supports(), authenticate()
+													UserDetailsService / loadUserByUserName
+												More - the output authentication object with principle
+													Stores Authentication object in the ThreadLocal for usage in the thread.
+													What about subsequent requests.
+													mechanism for this spring security context (ThreadLocal object) to be associated with a session.
+													that's why auth once and access resource for the duration of the session.
+													That work of session is done by yet another filter.
+													principal is maintained against a session.
+											JDBC Authentication
+												Dependency - web, security, h2, jdbc
+												//@EnableWebSecurity annotation gives us auth builder.
+												@Autowired
+												DataSrouce dataSource;
+												configure(AuthenticationManagerBuilder) {
+													//instructions to populate schema with data.
+													auth.jdbcAuthentication()
+														.dataSource(dataSource) //picked from h2 on classpath
+														.withDefaultSchema()    //all user tables will be created by me by default
+														.withUser(
+															User.withUsername("user")
+																.password("pass")
+																.roles("USER")
+														)
+														.withUser(
+															User.withUsername("admin")
+																.password("pass")
+																.roles("ADMIN")
+														);
+												}
+												configure(HttpSecurity http) {
+													//same as b4.
+												}
+												getPasswordEncoder() {
+													//same as b4
+												}
+												But that's not right - production should already have data.
+													//standard schema - if you change it gotta configure it.
+													just add schema.sql file in the resource - user table, authority table, index entry.
+														place where we write create tables and indexing as per reqd.
+														similarly create data.sql to insert into the tables.
+													auth.jdbcAuthentication()
+														.dataSource(dataSource)
+														//will use default tables and names unless changed then specify below
+															.usersByUsernameQuery("select username, password, enabled from users where username = ?")
+															.authoritiesByUsernameQuery("select username, authority from authorities where username = ?");
+														so tablename, etc are all flexible.
+															inject data source details to application.properties file.
+											Using JPA with Spring security.
+												dependencies - web, security, jpa, mysql-driver.
+												AuthenticationProvider will contact our UserDetailsService which needs implementation for loadUserByUsername()
+													this in turn will contact JPA services and hence DB.
+												@Autowired
+												UserDetailsService userDetailsService;
+												configure(AuthenticationManagerBuilder auth) {
+													auth.UserDetailsService(userDetailsService);
+												}
+												@Service
+												class MyUserDetailsService implements UserDetailsService {
+													@override
+													public UserDetails loadUserByUsername(String s) {
+													}
+												}
+												class MyUserDetails implements UserDetails {
+													//hardCode username, password, etc.
+													getAuthorities() {
+														return Arrays.asList(new SimpleGrantedAuthority("ROLE_USER"));
+													}
+												}
+												For JPA add on, just change the logic of MyUserDetailsService class - UserDetailsService, etc are all framework provided.
+													add model class User with @Table annotation if table name is different class name.
+														@Table(name="User")
+														class ...
+														@Id, @GeneratedValue(strategy=GenerationType.AUTO)
+														int id;
+													public interface UserRepository extends JpaRepository[User, Integer] {
+														Optional[User] findByUserName(String userName);
+													}
+													class MyUserDetailsService implements UserDetailsService {
+														@Autowired
+														UserRepository userRepository;
+														@override
+														public UserDetails loadUserByUserName(String userName) {
+															Optional[User] user = userRepository.findByUserName(userName);
+															return user.map(MyUserDetails::new).get();
+														}
+													}
+													//make all methods of MyUserDetails act as adapter class for User class for JPA.
+													//iow, JPA gives user object and MyUserDetailsService expects UserDetails object so bridge the 2 thru adapter pattern.
+												application.properties
+													spring.datasource.url = jdbc:mysql://localhost:3306/springssecurity
+													spring.datasource.username=root
+													spring.datasource.password=password
+													spring.jpa.hibernate.ddl-auto=update #don't create for every deployment
+													spring.jpa.hibernate.naming-strategy=org.hibernate.cfg.ImprovedNamingStrategy
+											LDAP - Lightweight Directory Access Protocol
+												wiki - useful for accessing and maintaining distributed directory information services of Internet protocol (IP)
+												...
+										</SpringSecurity>
+										</Spring>
                                 </MVCFrameworks>
                             </DetailedView>
                             Pattern vs Framework
@@ -2527,7 +3379,7 @@
                                                                            // Get all the cookies pairs in an array
                                                                            cookiearray = allcookies.split(';');
                                                                            // Now take key value pair out of this array
-                                                                           for(var i=0; i< cookiearray.length; i++){
+                                                                           for(var i=0; i < cookiearray.length; i++){
                                                                               name = cookiearray[i].split('=')[0];
                                                                               value = cookiearray[i].split('=')[1];
                                                                               document.write ("Key is : " + name + " and Value is : " + value);
@@ -3333,12 +4185,12 @@
                                                 dist folder contains precompiled.
                                             Download SASS (for easy inclusion in Rails, Compass, or Sass-only projects)
                                         Every html page
-                                            <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"/>         //to ensure proper rendering and touch zooming on mobile devices (and rendering all devices) and 1.0 means no zooming (1:1 scale)
+                                            <!--<meta name = "viewport" content = "width = device-width, initial-scale = 1.0"/>         //to ensure proper rendering and touch zooming on mobile devices (and rendering all devices) and 1.0 means no zooming (1:1 scale)
                                                             //maximum-scale = 1.0, user-scalable = no   - to make it non-zoomable (user scalable is important)
                                             <link href = "css/bootstrap.min.css" rel = "stylesheet"/>
                                             <script src = "https://code.jquery.com/jquery.js"></script>         //bootstraps JS plugins.
                                                 OR <script src="/scripts/jquery.min.js"></script>
-                                            <script src = "js/bootstrap.min.js"></script>                       //including js files.
+                                            <script src = "js/bootstrap.min.js"></script>                       //including js files.-->
                                     </Setup>
                                     <Usecase>
                                             aka basic bootstrap structure (html type)
@@ -3350,7 +4202,7 @@
                                                         .img-rounded − adds border-radius:6px to give the image rounded corners.
                                                         .img-circle − makes the entire image round by adding border-radius:500px.
                                                         .img-thumbnail − adds a bit of padding and a gray border
-                                                        Eg- <img src = "/bootstrap/images/download.png" class = "img-rounded"/>
+                                                        Eg- <!--<img src = "/bootstrap/images/download.png" class = "img-rounded"/>-->
                                                     anchor image and text
                                                         bind the 2 inside anchor tag with class = thumbnail.
                                                     .embed-responsive-item
@@ -3588,12 +4440,12 @@
                                                     Regex- 
                                                         [button][content]
                                                         detail- 
-                                                        < [button/a] data-toggle="collapse/dropdown" data-target="#[id] >
+                                                        <!--< [button/a] data-toggle="collapse/dropdown" data-target="#[id] >
                                                             [buttonLabel]
                                                         </ [button/a] >
                                                         < div id="[id]" class="collapse [in]" >
                                                             [Content]
-                                                        </ div >
+                                                        </ div >-->
                                                     Variants-
                                                         Collapsible Panel
                                                             useful with panels body visible only when link in header is pressed. 
@@ -3616,13 +4468,13 @@
                                                      </ul>
                                                      Regex- 
                                                     <ul class="pagination [pagination-lg /sm/ md]"> 
-                                                        [ 
+                                                        <!--[
                                                         < li [class="[active/ disabled]?"] >
                                                             <a href="[link]">
                                                                 [PageNum]
                                                             </a>
                                                         < /li >
-                                                        ]+
+                                                        ]+-->
                                                     </ul>
                                                      variants
                                                        size- pagination-lg, sm, etc
@@ -3939,7 +4791,7 @@
                                                 <Tooltip>
                                                     <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!">Top</a>
                                                     regex-
-                                                        < [tag] data-toggle="tooltip" title="[TextContent]" [data-placement="[top/bottom/left/right]]?> content </ [closeTag] >
+                                                        <!--< [tag] data-toggle="tooltip" title="[TextContent]" [data-placement="[top/bottom/left/right]]?> content </ [closeTag] >-->
                                                 </Tooltip>
                                                 <TogglePopOver>
                                                 Eg- 
@@ -3949,7 +4801,7 @@
                                                             $('[data-toggle="popover"]').popover();
                                                         });
                                                     </script>
-                                                Regex- < a href="#" data-toggle="popover"/data-trigger="[focus/hover]"] title="Popover Header" data-content="Some content inside the popover" data-placement="[top/left/right/bottom]">Toggle popover</ a>
+                                                Regex- <!--< a href="#" data-toggle="popover"/data-trigger="[focus/hover]"] title="Popover Header" data-content="Some content inside the popover" data-placement="[top/left/right/bottom]">Toggle popover</ a>-->
                                                     <script>
                                                         $(document).ready(function(){
                                                             $('[data-toggle="popover"]').popover();

@@ -29,9 +29,26 @@
         Understandings - Discrete Maths Logic, set theory (functions and relations - graph theory, recurrence, PnC)
             Offshoots - Probability and stats, Algebra (or group theory, Lattice, closure, abstract world governing laws - quadratics, linear equations, recurrence pattern, Scaled to linear algebra, etc)
     </HighLevelViewOfCapabilities>
-    <Shell>
+	<IDE>
+		<DevelopmentSoftwares>IDE, Parsers and compilers</DevelopmentSoftwares>
+	</IDE>
+	<FrontEnd>
+		Browser - how it works.
+		Extensions.
+	</FrontEnd>
+	<Backend>
+		Web Servers - how it works. (App Servers, DB Servers)
+		Web Frameworks - Express, ASP, JSP, etc.
+	</Backend>
+	<ExecutionEngines>
+		<DistributedComputing>Eg - hadoop.</DistributedComputing>
+	</ExecutionEngines>
+	<Platforms>
+		<Shell>
 
-    </Shell>
+		</Shell>
+	</Platforms>
+	<Persistence>
     <DBMS>
         <DataModelingConcepts>
             <Evolution>
@@ -6132,18 +6149,17 @@
         </Usecases>
         <Misc>Blockchain</Misc>
     </DBMS>
-    <DevelopmentSoftwares>IDE, Parsers and compilers</DevelopmentSoftwares>
-    <ML>
-        <Intro></Intro>
-        <DeepLearning></DeepLearning>
-    </ML>
-    <GIS></GIS>
-    <WorldWideWeb>
-        Web Servers - how it works. (App Servers, DB Servers)
-        Web Frameworks - Express, ASP, JSP, etc.
-        Browser - how it works.
-    </WorldWideWeb>
-    <Multimedia></Multimedia>
-    <DistributedComputing>Eg - hadoop.</DistributedComputing>
+	</Persistence>
+	<Utils>
+		<GIS></GIS>
+		<ComputerVision_DIP>OpenCV</ComputerVision_DIP>
+		<Multimedia></Multimedia>
+	</Utils>
+	<AsyncEfforts>
+		<ML>
+			<Intro></Intro>
+			<DeepLearning></DeepLearning>
+		</ML>
+	</AsyncEfforts>
     <Misc>Paint (Painter JAVA API), editors (word, text, pdf), compiler, IDE, Hadoop, etc.</Misc>
 </UtilsForAppDev>

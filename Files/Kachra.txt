@@ -1,3 +1,47 @@
+SQ - Engg means task level CRUD; Arch means project level CRUD. Scie is knowledge level CRUD.
+    Applies to ashram also - task like cook sth or wearables. Project like rearranging the house, etc.
+Movie - KGF
+    Application - history doesn't change in a day but needs attention on how it's working and gradually bringing change.
+SQ - harness dualities
+    We work hard and we achieve things - tapa to phala is design of material world and should be respected.
+    It's also the design of material world that with fire, there is bound to be smoke and vv - we should try to minimize it AMAP.
+    If you learn to perform KC in worldly dualities then extremes also can assist you not otherwise.
+    eg - heavens or hell are not best suited for consciousness evolution - go transcendence (bahirmukh) or Imminence (antarmukh)
+SQ - Stages of consciousness evolution and checkpointing.
+    KY - sakaam to nishkaam stages.
+        Checkpointing over growth along tiers as an eg.
+        common people enter upon VA with MMN mindsets and not evolution mindset
+        that's the benefit of knowing the full picture - to have MOG.
+        Perfection - work for Krishna.
+    JY - shravanam to sakshatkar stages at different tiers grains and dimensions.
+        Understanding - Shravanm is adopting model, schema, SAP, etc.
+            mananam is deliberation as per experiences to approve, decline or perhaps buckets placement.
+            nidhidhyasanam is to make it practical - act on your model.
+            sakshatkar is to see it happen without counter eg and increased probability of its correctness.
+        Checkpointing for both bahirmukh and antarmukh mensurated thru tiers only.
+        for both aaroh and avaroh - grow from tech, engr, arch, scientist - basically grow in the granularity of the tiers ability to serve.
+        even proof of antarmukhi evolution is ability serve at which granularity - task level, project level or guide level.
+        Perfection - every stimulus connects to Krishna (not at faith level but realized level)
+            maya is to not see that connection.
+            Eg - Shampoo - Krishna's prakriti energy's 1 resource helps maintain another resource for me to best serve him.
+                material interactions and MMN interactions towards highest self interest.
+    DY - yama to samadhi.
+        checkpointing - great attention towards tiers line of effort.
+        Perfection - fixed attention on the Lord.
+    BY - shraddha to prema.
+        checkpointing from world to trans gradually.
+        Also checkpointing from personal perspective - reducing interest in worldly identifications and more with trans identifications.
+        Importance - This BY or ego level transformation has highest bearing on others.
+        Perfection - Identity in connection to Krishna. "BelongsTo" Relationship.
+    More - we can't afford to have yet another life. We must perfect in this very life.
+        No more bodily (gross or subtle) prisons.
+        SP has given us 1 life perfection model and that's our path.
+SQ - stages of life for SVAF. 4 nested loops.
+    B - Tiers - Personal, Group, Social, Spiritual.
+        Until the end result to become one with the respective tiers.
+    J - Growth - Within all of them - Tech, Engg, Arch, Sci.
+    D - For Practical - grow from Dharana to Samadhi.
+    K - Grow from MOI thru MOP to MOG for next tier.
 CS - Spark - Batches never run together.
     as long as ingestion is slow the batch interval does not matter.
     spark will consume in a bigger bunch (assuming max.records is set aptly)
@@ -296,4 +340,147 @@ IQ - SAP IOT Farewell
         Abhishek - committed for whatever task given but didn't interact a lot.
         Jagriti - great interactions.
         Suharsh - interactions of coffee hours in virtual setting.
+    Ashok over mail
+        I would definitely be missing your curious questions, many a times it had helped me to gather more information and strengthen my basics.
+            I know onboarding is not an easy go in our team, still you guys did an amazing job, picked up things so quickly and started contributing to the code base instantly.
+            Given the complexity of components we deal with, early weeks of DoD would be a nightmare but you handled with calm and ease.
+            I am pretty sure the Spark connection check tool you had built would be very useful as we plan to extend our offering to different hyperscalers.
+        Keep your curiosity alive and continue pursuing the innovative topics you had discussed with me, 
+            all these along with your energy levels I am sure you will reach heights, I wish you all the very best!!!
+        Please stay in touch!!!
 IQ - Local user and domain user for every computer - after leaving, domain user is deactivated first.
+FND - NFP - Architecture of Brahmacarya (both rituals and Pancharatrika)
+    Prayaschit, Jedis Master, Strong sadhana, ability to tolerate dualities (JY)
+    No access to seduction - importance of rituals - no escape - as strict as a smarta (at least to start with)
+    lapse is theoretically always possible but better die fighting than to die like a coward - dying is no virtue btw - living is.
+    at least a persevering person will get success later if not sooner but 1 who doesn't try has no hope.
+    if you efforts yield nothing, that's a question mark on the strength of your tools - but we are open to reconsider eth.
+    Who are social heros - so many recorded in history and contemporary judges, bureaucrats, etc.
+    who are group heros - reference to famous people.
+    when we try to be a hero without previous - it either does not work or does not favor others.
+SAP - sweets to home. Alumni relations connect address being asked.
+    gift hampers from our team.
+SCMProd - Kaladi (roasted paneer), daliya pulav, Poha variants, Ice cream at home, oreo cake at home.
+SQ - Vaidhi vs Raganuga which to practice.
+    Action items
+        focus on vaidhi bhakti as a ritual
+        learn to appreciate beauty in everyday life
+        learn to be grateful with reasons for every day experiences.
+        do method acting for devs in lilas.
+        What not to do
+            imagine that you are a siddha
+            immaturely think that Krishna is most lovable.
+            life of philosophical ignorance
+    Krishna is most lovable person is a conclusion and can't be a criteria for DS.
+        Yes it can be criteria for DS in Raganuga Bhakti but not for Vaidhi Bhakti.
+        We make a choice here for Vaidhi Bhakti cuz Raganuga is meant for Bhulok pastimes and is very immature otherwise.
+            even suffers risks of sahajyaism.
+    Can we have positive side of Raganuga benefits in our life?
+        yes, with a little leap of faith - but lovable person is still quite big leap
+            which can easily be wrongly proven wrong thru counter eg in life of duality.
+        we can appreciate Krishna as most lovable person thru Imminence and transcendence.
+            Imminence
+                taste of water, etc.
+                experiences of life personal or remote - yielding sense of gratitude 
+                    thereby corroborating (and not proving) the lovable nature of Krishna.
+            for transcendence
+                experiences in devs life whenever Krishna descended as avatars
+                    theater method acting or seeing world from their perspective
+        having said this - it won't be our prominent path - our prominent path is vaidhi only.
+            iow, we have to sincerely practice bhakti
+            s.t we eventually realize that Krishna is most lovable.
+EQ - Marriage
+    Devil's advocate to extricate person's nature.
+    As an experiment - Try for stress interviews where you disagree with eth and see how they respond.
+        life is full of duality and I tend to take middle path so how can I foolishly agree on any assertion without seesaw effect.
+        Take tough stands on things we naively agree that e1 is equal
+            while this is true that e1 is equal but it's generic and naive understanding.
+            more mature understanding is they are both special and not just generic equal.
+            Still more mature understanding is that e1 is special 
+                and we are just clustering them together with good probability 
+                so that life is easy for us.
+                of course, there will be lots of exceptions in the sets.
+    Stay chaste with continence so that you ain't subconsciously unreasonable while approaching a person.
+SQ - Tiers of Yoga thru DAKM
+    Scale of Yoga - Yoga of personal yoga, group yoga, social yoga and spiritual yoga.
+        While it's generally true but this is prominently important human lifecycle perspective (DAKM considered)
+        KY is becoming more selfless and that happens thru this scaling.
+        DY is becoming more involved with supersoul and that's with antarmukh or going too trans.
+        JY is shastra cakshu and scaling your understanding thru all tiers and layers of material existence to self and super self.
+        BY is developing relationship thru devotion (TME) - devotion is typically not 100% to Krishna but evolves to him thru tiers.
+        But none of them are restricted thru tier evolution while it's practical way as per shastras.
+SQ - BY essence as follows
+    association (tadiya and Krishna) - triggered by faith or shraddha.
+    thru Identity (being like him, relationship)
+        identity changes from anartha based false ego to true spiritual ego.
+    to Love (Prema) - visible thru following stages
+        nishtha - firmness.
+        ruchi - looks for time slots to devote TME.
+        asakti - can't wait for time slot.
+        bhav - emotions wrt Krishna.
+        prem - the unconditional, unmotivated, uninterrupted, unadulterated relationship
+            connection can't break
+            by separation, mercy connection, ignore or snubbing.
+    More - that's how all relationships are supposed to develop across VA.
+PIES - Dualities of nature should not misuderstood leading to inaction.
+    when we work hard in some direction we get success and it's lack of perfect action that sees success denied.
+    Krishna's analogy explains it well - with fire there's smoke.
+        We can try to minimize the smoke from fire but smoke is inevitable.
+        Also, whenever we witness smoke, there must be fire somewhere - opportunity in adversity.
+    So, we are not silent spectators of worldly dualities - it's a fact of universal experience.
+        but we should still work for the fire and have fun with life (DAKM) but yukta and avoid extremes.
+CRM - all try their best given their resources, mentality, etc to serve others.
+    when they fall short, it's their limitation
+    which can be quoted or ignored in FND behavior as apt
+    but that's a fact.
+    We should be sympathetic and empathetic towards them for trying their best given the state.
+CRM - sb makes or passes judgments for others value and worth.
+    the fact is that material world is involved.
+        eb thinks that they are the best what's so special about it.
+        1 way to motivate jivas for VA is thru fear platform - money is desire platform but also self worth at fear platform.
+        both at ego and also for economic practicality to stay relevant for supply (psychology)
+        typically the ones who are insecure feels the need to justify - the strong don't need to.
+    The VA leadership of a person should ACK but we are never limited to any single person.
+        even Krishna presents his substitutes for worship while no1 exists.
+        what to speak of people passing judgments who ain't even in our group leadership.
+        Such a person has been entrusted by existing leaders which should be respected no matter what the reasons.
+        Eg - entrusted to marry and procreate, controlling some forms at work, etc.
+        including but not limited to demigods - they are way too trans leaders for small leaderships.
+    Your dharma is to serve in social or group tier to best of your capacity.
+        In worst case VA can become unrewarding and then animal behaviors can show up.
+        the change in world markets so switching your varna specialization may be inconvenient for some but ok.
+PIES - women can be seen from different perspectives.
+    women is sense object - senses.
+    women are fun to be around - talking or mind.
+    women can intelligently achieve something - tasks or intel.
+    women can happily perform some role plays really well like child nurturing, home making, etc - ego.
+    women are souls in their human body journey - soul.
+    women deserve to be with Krishna in their respective svarupas like grass, gopa, jewel, etc - trans.
+    More - the higher the understanding more evolved consciousness you have and more enjoyable it gets for e1.
+        but strive for yukta of every layer but higher is always better.
+SCMProd - Ghevar, feniya, malpua. Bhakarwadi, kachori, rajasthan dishes.
+    Momos - which momo type do I like (fried, moberg, etc), which place, sauce / syrup, etc.
+Movie - Loki
+    Application
+        She will get it b4 you - cuz you want it but she needs it.
+        Into a realm - learn its all dimensions and move on with the game.
+        subtle body remains the same even when the realm changes.
+        How can I trust you - your stories reveals a lot about you.
+            actions are louder than words - she sacrificing herself means far more words.
+        extract information by doubting everything
+            Quoting assumption as fact or making a theory to explain it all
+            and eliciting clarification from other person who feels wronged.
+PIES
+    coordinating all entities together in spring boot to make an application.
+    coordinating personal PIES for best services and grats.
+    people coordinating together with different talents and expertise to make a project.
+    different departments or fields with their specializations coordinating together to form a society.
+    different societies coordinating and all drill down to ultimately 1 end result of helping jiva evolve.
+    Grow as personal leader, group leader or team leader, to social leader, then spiritual leader.
+SQ - aaroh deserves respect.
+    st while emphasizing avaroh or aroh we underestimate avaroh.
+    These are lines adopted by some to the extent to surrendering ones life.
+    aaroh has grown over the years are it was supposed to - by the very definition of aaroh.
+    problem is arrogance on aaroh or even little bit on avaroh side that the other is bogus.
+    None of them are bogus and they deserve respect - we should adopt positives from both.
+    Especially for me who has studied both very sincerely - I should have deep respect for aaroh and avaroh.
