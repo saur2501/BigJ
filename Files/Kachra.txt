@@ -556,3 +556,40 @@ SQ -
         So all of them conglomerated together give a sure shot success solution.
         Don't think of yoga paths as separate - only emphasis makes them specialized
         but they are all in unison just as our layers of existence work in unison.
+CS - ML - Linear Regression Framework
+    data = load('ex1data2.txt');
+    PrepareDataFramesAndInitialize (Params and HyperParams)
+    plotData(X, y);
+    [X mu sigma] = featureNormalize(X);
+    J = computeCost(X, y, theta);
+    [theta, J_history] = gradientDescent(X, y, theta, alpha, iterations);
+    //convergence graph - change of J_history overtime.
+    plot(X(:,2), X*theta, '-'))
+    predictAfterNormalize(x_test, theta)
+    //surface plot, contour plot.
+SQ - Talk with Vikas Pr.
+    Humility to admit that no change after years of sincere practice.
+    The only change happens when we decide and not automatically in any worship.
+        That's very true but our idols, role models, association has a huge impact.
+FND - B - Smartness or gotta be careful
+    Logs as follows
+    Chachi - tea from a passenger which had substances in bus.
+    South India - wanna travel - sunsaan roads.
+    Hanuman temple prasad from sardar in a train - accepted but not consumed.
+    Train travel - 2 children, 1 maid and 1 purse to handle and zip opened and closed.
+        2 mins at Delhi station.
+    What if no money on boarded 3-wheeler.
+        bring to home.
+        bring to khandwala and take money from familiar face.
+            or take money in exchange of some asset or gadget like watch.
+    DMU bus about to leave
+        board the truck for small distance and then auto.
+    early offboarding from bus - take lift form bikes as favors.
+    gotta call son about arrival but bus may leave if you go make a call
+        ask driver to make a call after explaining your plight
+        and pay to him.
+    Attachee left at SUPW room and owner not known
+        can't ask for leave for that day anymore.
+    Sincerity that would go all the way to school to ask student's whereabouts.
+        Amritsar's principal a problem thinker and Udhampur's sorry for extra work his colleague had to do (solution thinker)
+        Result - impression of teacher's sincerity.
